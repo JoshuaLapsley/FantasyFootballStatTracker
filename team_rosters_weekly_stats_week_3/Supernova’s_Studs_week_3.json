@@ -1,0 +1,431 @@
+{
+    "Supernova\u2019s Studs_week_3_roster": [
+        {
+            "player_id": 31833,
+            "name": "Kyler Murray",
+            "position_type": "O",
+            "eligible_positions": [
+                "QB",
+                "IR"
+            ],
+            "status": "IR",
+            "selected_position": "QB",
+            "weekly_stats": {
+                "player_id": 31833,
+                "name": "Kyler Murray",
+                "position_type": "O",
+                "Pass Yds": 159.0,
+                "Pass TD": 1.0,
+                "Int": 0.0,
+                "Rush Att": 6.0,
+                "Rush Yds": 37.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "14.06"
+            }
+        },
+        {
+            "player_id": 32687,
+            "name": "CeeDee Lamb",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 32687,
+                "name": "CeeDee Lamb",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 40041,
+            "name": "Jaxon Smith-Njigba",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 40041,
+                "name": "Jaxon Smith-Njigba",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 6.0,
+                "Rec": 5.0,
+                "Rec Yds": 96.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "20.60"
+            }
+        },
+        {
+            "player_id": 34447,
+            "name": "Jaylen Warren",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 34447,
+                "name": "Jaylen Warren",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 18.0,
+                "Rush Yds": 47.0,
+                "Rush TD": 0.0,
+                "Targets": 6.0,
+                "Rec": 5.0,
+                "Rec Yds": 34.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "13.10"
+            }
+        },
+        {
+            "player_id": 41922,
+            "name": "Cam Skattebo",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T",
+                "IR"
+            ],
+            "status": "IR",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 41922,
+                "name": "Cam Skattebo",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 10.0,
+                "Rush Yds": 60.0,
+                "Rush TD": 1.0,
+                "Targets": 8.0,
+                "Rec": 6.0,
+                "Rec Yds": 61.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "24.10"
+            }
+        },
+        {
+            "player_id": 34010,
+            "name": "Trey McBride",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "TE",
+            "weekly_stats": {
+                "player_id": 34010,
+                "name": "Trey McBride",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 8.0,
+                "Rec": 5.0,
+                "Rec Yds": 43.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "15.30"
+            }
+        },
+        {
+            "player_id": 33398,
+            "name": "DeVonta Smith",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "Q",
+            "selected_position": "W/R/T",
+            "weekly_stats": {
+                "player_id": 33398,
+                "name": "DeVonta Smith",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 9.0,
+                "Rec": 8.0,
+                "Rec Yds": 60.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "20.00"
+            }
+        },
+        {
+            "player_id": 34207,
+            "name": "Isiah Pacheco",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 34207,
+                "name": "Isiah Pacheco",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 10.0,
+                "Rush Yds": 45.0,
+                "Rush TD": 0.0,
+                "Targets": 1.0,
+                "Rec": 1.0,
+                "Rec Yds": 3.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "5.80"
+            }
+        },
+        {
+            "player_id": 33392,
+            "name": "Kyle Pitts Sr.",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 33392,
+                "name": "Kyle Pitts Sr.",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 6.0,
+                "Rec": 4.0,
+                "Rec Yds": 39.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "7.90"
+            }
+        },
+        {
+            "player_id": 34047,
+            "name": "Rachaad White",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 34047,
+                "name": "Rachaad White",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 5.0,
+                "Rush Yds": 12.0,
+                "Rush TD": 0.0,
+                "Targets": 1.0,
+                "Rec": 1.0,
+                "Rec Yds": 2.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "2.40"
+            }
+        },
+        {
+            "player_id": 30199,
+            "name": "Kareem Hunt",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 30199,
+                "name": "Kareem Hunt",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 10.0,
+                "Rush Yds": 34.0,
+                "Rush TD": 1.0,
+                "Targets": 1.0,
+                "Rec": 1.0,
+                "Rec Yds": 10.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "11.40"
+            }
+        },
+        {
+            "player_id": 40224,
+            "name": "Kayshon Boutte",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 40224,
+                "name": "Kayshon Boutte",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 3.0,
+                "Rec": 2.0,
+                "Rec Yds": 28.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "4.80"
+            }
+        },
+        {
+            "player_id": 30266,
+            "name": "Jake Elliott",
+            "position_type": "K",
+            "eligible_positions": [
+                "K"
+            ],
+            "status": "",
+            "selected_position": "K",
+            "weekly_stats": {
+                "player_id": 30266,
+                "name": "Jake Elliott",
+                "position_type": "K",
+                "FG 0-19": 0.0,
+                "FG 20-29": 0.0,
+                "FG 30-39": 0.0,
+                "FG 40-49": 0.0,
+                "FG 50+": 0.0,
+                "PAT Made": 3.0,
+                "total_points": "3.00"
+            }
+        },
+        {
+            "player_id": 100027,
+            "name": "Tampa Bay",
+            "position_type": "DT",
+            "eligible_positions": [
+                "DEF"
+            ],
+            "status": "",
+            "selected_position": "DEF",
+            "weekly_stats": {
+                "player_id": 100027,
+                "name": "Tampa Bay",
+                "position_type": "DT",
+                "Pts Allow": 21.0,
+                "Sack": 4.0,
+                "Int": 1.0,
+                "Fum Rec": 1.0,
+                "TD": 1.0,
+                "Safe": 0.0,
+                "Blk Kick": 0.0,
+                "Ret TD": 0.0,
+                "Pts Allow 0": 0.0,
+                "Pts Allow 1-6": 0.0,
+                "Pts Allow 7-13": 0.0,
+                "Pts Allow 14-20": 0.0,
+                "Pts Allow 21-27": 1.0,
+                "Pts Allow 28-34": 0.0,
+                "Pts Allow 35+": 0.0,
+                "XPR": 0.0,
+                "total_points": "14.00"
+            }
+        }
+    ]
+}

@@ -1,0 +1,523 @@
+{
+    "Ma\u00eetre Magic_week_10_roster": [
+        {
+            "player_id": 31838,
+            "name": "Daniel Jones",
+            "position_type": "O",
+            "eligible_positions": [
+                "QB"
+            ],
+            "status": "Q",
+            "selected_position": "QB",
+            "weekly_stats": {
+                "player_id": 31838,
+                "name": "Daniel Jones",
+                "position_type": "O",
+                "Pass Yds": 255.0,
+                "Pass TD": 1.0,
+                "Int": 1.0,
+                "Rush Att": 7.0,
+                "Rush Yds": 53.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 1.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "16.50"
+            }
+        },
+        {
+            "player_id": 33394,
+            "name": "Jaylen Waddle",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "Q",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 33394,
+                "name": "Jaylen Waddle",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 7.0,
+                "Rec": 5.0,
+                "Rec Yds": 84.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "19.40"
+            }
+        },
+        {
+            "player_id": 32704,
+            "name": "Michael Pittman Jr.",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 32704,
+                "name": "Michael Pittman Jr.",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 2.0,
+                "Rec": 2.0,
+                "Rec Yds": 19.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "3.90"
+            }
+        },
+        {
+            "player_id": 34120,
+            "name": "Kyren Williams",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 34120,
+                "name": "Kyren Williams",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 14.0,
+                "Rush Yds": 73.0,
+                "Rush TD": 2.0,
+                "Targets": 3.0,
+                "Rec": 2.0,
+                "Rec Yds": 11.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "22.40"
+            }
+        },
+        {
+            "player_id": 41821,
+            "name": "Quinshon Judkins",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 41821,
+                "name": "Quinshon Judkins",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 22.0,
+                "Rush Yds": 75.0,
+                "Rush TD": 0.0,
+                "Targets": 3.0,
+                "Rec": 2.0,
+                "Rec Yds": 10.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "10.50"
+            }
+        },
+        {
+            "player_id": 41877,
+            "name": "Harold Fannin Jr.",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "TE",
+            "weekly_stats": {
+                "player_id": 41877,
+                "name": "Harold Fannin Jr.",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 7.0,
+                "Rec": 4.0,
+                "Rec Yds": 44.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "8.40"
+            }
+        },
+        {
+            "player_id": 40430,
+            "name": "Emari Demercado",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "Q",
+            "selected_position": "W/R/T",
+            "weekly_stats": {
+                "player_id": 40430,
+                "name": "Emari Demercado",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 4.0,
+                "Rush Yds": 64.0,
+                "Rush TD": 0.0,
+                "Targets": 4.0,
+                "Rec": 3.0,
+                "Rec Yds": 40.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "13.40"
+            }
+        },
+        {
+            "player_id": 33393,
+            "name": "Ja'Marr Chase",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 33393,
+                "name": "Ja'Marr Chase",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 34320,
+            "name": "Jordan Mason",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 34320,
+                "name": "Jordan Mason",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 4.0,
+                "Rush Yds": 25.0,
+                "Rush TD": 0.0,
+                "Targets": 1.0,
+                "Rec": 1.0,
+                "Rec Yds": 6.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "4.10"
+            }
+        },
+        {
+            "player_id": 41827,
+            "name": "Mason Taylor",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 41827,
+                "name": "Mason Taylor",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 2.0,
+                "Rec": 1.0,
+                "Rec Yds": 4.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "1.40"
+            }
+        },
+        {
+            "player_id": 40877,
+            "name": "Xavier Worthy",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 40877,
+                "name": "Xavier Worthy",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 41907,
+            "name": "Dylan Sampson",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 41907,
+                "name": "Dylan Sampson",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 2.0,
+                "Rush Yds": -4.0,
+                "Rush TD": 0.0,
+                "Targets": 1.0,
+                "Rec": 1.0,
+                "Rec Yds": 3.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.90"
+            }
+        },
+        {
+            "player_id": 31366,
+            "name": "Michael Badgley",
+            "position_type": "K",
+            "eligible_positions": [
+                "K"
+            ],
+            "status": "",
+            "selected_position": "K",
+            "weekly_stats": {
+                "player_id": 31366,
+                "name": "Michael Badgley",
+                "position_type": "K",
+                "FG 0-19": 0.0,
+                "FG 20-29": 0.0,
+                "FG 30-39": 1.0,
+                "FG 40-49": 1.0,
+                "FG 50+": 0.0,
+                "PAT Made": 1.0,
+                "total_points": "8.00"
+            }
+        },
+        {
+            "player_id": 100034,
+            "name": "Houston",
+            "position_type": "DT",
+            "eligible_positions": [
+                "DEF"
+            ],
+            "status": "",
+            "selected_position": "DEF",
+            "weekly_stats": {
+                "player_id": 100034,
+                "name": "Houston",
+                "position_type": "DT",
+                "Pts Allow": 29.0,
+                "Sack": 5.0,
+                "Int": 1.0,
+                "Fum Rec": 1.0,
+                "TD": 1.0,
+                "Safe": 0.0,
+                "Blk Kick": 0.0,
+                "Ret TD": 0.0,
+                "Pts Allow 0": 0.0,
+                "Pts Allow 1-6": 0.0,
+                "Pts Allow 7-13": 0.0,
+                "Pts Allow 14-20": 0.0,
+                "Pts Allow 21-27": 0.0,
+                "Pts Allow 28-34": 1.0,
+                "Pts Allow 35+": 0.0,
+                "XPR": 0.0,
+                "total_points": "14.00"
+            }
+        },
+        {
+            "player_id": 40896,
+            "name": "Jayden Daniels",
+            "position_type": "O",
+            "eligible_positions": [
+                "QB"
+            ],
+            "status": "Q",
+            "selected_position": "IR",
+            "weekly_stats": {
+                "player_id": 40896,
+                "name": "Jayden Daniels",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 30161,
+            "name": "Joe Mixon",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T",
+                "IR"
+            ],
+            "status": "NFI-R",
+            "selected_position": "IR",
+            "weekly_stats": {
+                "player_id": 30161,
+                "name": "Joe Mixon",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 40063,
+            "name": "Jayden Reed",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T",
+                "IR"
+            ],
+            "status": "IR-R",
+            "selected_position": "IR",
+            "weekly_stats": {
+                "player_id": 40063,
+                "name": "Jayden Reed",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        }
+    ]
+}

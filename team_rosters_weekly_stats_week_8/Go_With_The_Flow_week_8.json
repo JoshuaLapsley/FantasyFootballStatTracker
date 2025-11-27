@@ -1,0 +1,492 @@
+{
+    "Go With The Flow_week_8_roster": [
+        {
+            "player_id": 32723,
+            "name": "Jalen Hurts",
+            "position_type": "O",
+            "eligible_positions": [
+                "QB"
+            ],
+            "status": "",
+            "selected_position": "QB",
+            "weekly_stats": {
+                "player_id": 32723,
+                "name": "Jalen Hurts",
+                "position_type": "O",
+                "Pass Yds": 179.0,
+                "Pass TD": 4.0,
+                "Int": 0.0,
+                "Rush Att": 4.0,
+                "Rush Yds": 22.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "25.36"
+            }
+        },
+        {
+            "player_id": 32685,
+            "name": "Jerry Jeudy",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 32685,
+                "name": "Jerry Jeudy",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 2.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 32003,
+            "name": "Darius Slayton",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 32003,
+                "name": "Darius Slayton",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 5.0,
+                "Rec": 2.0,
+                "Rec Yds": 26.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "4.60"
+            }
+        },
+        {
+            "player_id": 40196,
+            "name": "Chase Brown",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 40196,
+                "name": "Chase Brown",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 12.0,
+                "Rush Yds": 73.0,
+                "Rush TD": 1.0,
+                "Targets": 3.0,
+                "Rec": 3.0,
+                "Rec Yds": 32.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "25.50"
+            }
+        },
+        {
+            "player_id": 40119,
+            "name": "Tyjae Spears",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 40119,
+                "name": "Tyjae Spears",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 9.0,
+                "Rush Yds": 59.0,
+                "Rush TD": 1.0,
+                "Targets": 3.0,
+                "Rec": 3.0,
+                "Rec Yds": 23.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "17.20"
+            }
+        },
+        {
+            "player_id": 31019,
+            "name": "Dallas Goedert",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "TE",
+            "weekly_stats": {
+                "player_id": 31019,
+                "name": "Dallas Goedert",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 3.0,
+                "Rec": 3.0,
+                "Rec Yds": 28.0,
+                "Rec TD": 2.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "17.80"
+            }
+        },
+        {
+            "player_id": 40039,
+            "name": "Zay Flowers",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "W/R/T",
+            "weekly_stats": {
+                "player_id": 40039,
+                "name": "Zay Flowers",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 1.0,
+                "Rush Yds": 8.0,
+                "Rush TD": 0.0,
+                "Targets": 9.0,
+                "Rec": 7.0,
+                "Rec Yds": 63.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "14.10"
+            }
+        },
+        {
+            "player_id": 41823,
+            "name": "TreVeyon Henderson",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 41823,
+                "name": "TreVeyon Henderson",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 10.0,
+                "Rush Yds": 75.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 1.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "5.50"
+            }
+        },
+        {
+            "player_id": 40114,
+            "name": "Tre Tucker",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "Q",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 40114,
+                "name": "Tre Tucker",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 33413,
+            "name": "Travis Etienne Jr.",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 33413,
+                "name": "Travis Etienne Jr.",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 29235,
+            "name": "Jared Goff",
+            "position_type": "O",
+            "eligible_positions": [
+                "QB"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 29235,
+                "name": "Jared Goff",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 33495,
+            "name": "Michael Carter",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 33495,
+                "name": "Michael Carter",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 33537,
+            "name": "Evan McPherson",
+            "position_type": "K",
+            "eligible_positions": [
+                "K"
+            ],
+            "status": "",
+            "selected_position": "K",
+            "weekly_stats": {
+                "player_id": 33537,
+                "name": "Evan McPherson",
+                "position_type": "K",
+                "FG 0-19": 0.0,
+                "FG 20-29": 1.0,
+                "FG 30-39": 0.0,
+                "FG 40-49": 0.0,
+                "FG 50+": 0.0,
+                "PAT Made": 5.0,
+                "total_points": "8.00"
+            }
+        },
+        {
+            "player_id": 100027,
+            "name": "Tampa Bay",
+            "position_type": "DT",
+            "eligible_positions": [
+                "DEF"
+            ],
+            "status": "",
+            "selected_position": "DEF",
+            "weekly_stats": {
+                "player_id": 100027,
+                "name": "Tampa Bay",
+                "position_type": "DT",
+                "Pts Allow": 3.0,
+                "Sack": 5.0,
+                "Int": 2.0,
+                "Fum Rec": 2.0,
+                "TD": 1.0,
+                "Safe": 0.0,
+                "Blk Kick": 0.0,
+                "Ret TD": 0.0,
+                "Pts Allow 0": 0.0,
+                "Pts Allow 1-6": 1.0,
+                "Pts Allow 7-13": 0.0,
+                "Pts Allow 14-20": 0.0,
+                "Pts Allow 21-27": 0.0,
+                "Pts Allow 28-34": 0.0,
+                "Pts Allow 35+": 0.0,
+                "XPR": 0.0,
+                "total_points": "26.00"
+            }
+        },
+        {
+            "player_id": 40899,
+            "name": "Malik Nabers",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T",
+                "IR"
+            ],
+            "status": "IR",
+            "selected_position": "IR",
+            "weekly_stats": {
+                "player_id": 40899,
+                "name": "Malik Nabers",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 32695,
+            "name": "Brandon Aiyuk",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T",
+                "IR"
+            ],
+            "status": "PUP-R",
+            "selected_position": "IR",
+            "weekly_stats": {
+                "player_id": 32695,
+                "name": "Brandon Aiyuk",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        }
+    ]
+}

@@ -1,0 +1,189 @@
+{
+    "Omaha Beach Real Estate_week_2_roster": [
+        {
+            "player_id": 40875,
+            "name": "Bo Nix",
+            "position_type": "O",
+            "eligible_positions": [
+                "QB"
+            ],
+            "status": "",
+            "selected_position": "QB",
+            "weekly_stats": {
+                "player_id": 40875,
+                "name": "Bo Nix",
+                "position_type": "O",
+                "Pass Yds": 206.0,
+                "Pass TD": 3.0,
+                "Int": 1.0,
+                "Rush Att": 3.0,
+                "Rush Yds": 20.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "21.24"
+            }
+        },
+        {
+            "player_id": 29399,
+            "name": "Tyreek Hill",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T",
+                "IR"
+            ],
+            "status": "IR",
+            "selected_position": "WR",
+            "weekly_stats": {}
+        },
+        {
+            "player_id": 33966,
+            "name": "Chris Olave",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "Q",
+            "selected_position": "WR",
+            "weekly_stats": {}
+        },
+        {
+            "player_id": 29279,
+            "name": "Derrick Henry",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {}
+        },
+        {
+            "player_id": 31856,
+            "name": "Josh Jacobs",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {}
+        },
+        {
+            "player_id": 26686,
+            "name": "Travis Kelce",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "TE",
+            "weekly_stats": {}
+        },
+        {
+            "player_id": 41808,
+            "name": "Matthew Golden",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T",
+                "IR"
+            ],
+            "status": "O",
+            "selected_position": "W/R/T",
+            "weekly_stats": {}
+        },
+        {
+            "player_id": 33508,
+            "name": "Rhamondre Stevenson",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {}
+        },
+        {
+            "player_id": 40980,
+            "name": "Ray Davis",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {}
+        },
+        {
+            "player_id": 33415,
+            "name": "Rashod Bateman",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {}
+        },
+        {
+            "player_id": 40222,
+            "name": "DeMario Douglas",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {}
+        },
+        {
+            "player_id": 29754,
+            "name": "Wil Lutz",
+            "position_type": "K",
+            "eligible_positions": [
+                "K"
+            ],
+            "status": "",
+            "selected_position": "K",
+            "weekly_stats": {}
+        },
+        {
+            "player_id": 100033,
+            "name": "Baltimore",
+            "position_type": "DT",
+            "eligible_positions": [
+                "DEF"
+            ],
+            "status": "",
+            "selected_position": "DEF",
+            "weekly_stats": {}
+        },
+        {
+            "player_id": 100022,
+            "name": "Arizona",
+            "position_type": "DT",
+            "eligible_positions": [
+                "DEF"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {}
+        }
+    ]
+}

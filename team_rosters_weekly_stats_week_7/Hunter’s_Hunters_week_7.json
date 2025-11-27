@@ -1,0 +1,420 @@
+{
+    "Hunter\u2019s Hunters_week_7_roster": [
+        {
+            "player_id": 33389,
+            "name": "Trevor Lawrence",
+            "position_type": "O",
+            "eligible_positions": [
+                "QB"
+            ],
+            "status": "",
+            "selected_position": "QB",
+            "weekly_stats": {
+                "player_id": 33389,
+                "name": "Trevor Lawrence",
+                "position_type": "O",
+                "Pass Yds": 296.0,
+                "Pass TD": 1.0,
+                "Int": 0.0,
+                "Rush Att": 2.0,
+                "Rush Yds": 18.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "17.64"
+            }
+        },
+        {
+            "player_id": 31883,
+            "name": "A.J. Brown",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 31883,
+                "name": "A.J. Brown",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 6.0,
+                "Rec": 4.0,
+                "Rec Yds": 121.0,
+                "Rec TD": 2.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "28.10"
+            }
+        },
+        {
+            "player_id": 32703,
+            "name": "Tee Higgins",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T",
+                "IR"
+            ],
+            "status": "O",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 32703,
+                "name": "Tee Higgins",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 10.0,
+                "Rec": 6.0,
+                "Rec Yds": 96.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "21.60"
+            }
+        },
+        {
+            "player_id": 30972,
+            "name": "Saquon Barkley",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "Q",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 30972,
+                "name": "Saquon Barkley",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 18.0,
+                "Rush Yds": 44.0,
+                "Rush TD": 0.0,
+                "Targets": 1.0,
+                "Rec": 1.0,
+                "Rec Yds": -2.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "5.20"
+            }
+        },
+        {
+            "player_id": 31960,
+            "name": "Tony Pollard",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 31960,
+                "name": "Tony Pollard",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 6.0,
+                "Rush Yds": 18.0,
+                "Rush TD": 0.0,
+                "Targets": 6.0,
+                "Rec": 6.0,
+                "Rec Yds": 43.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "12.10"
+            }
+        },
+        {
+            "player_id": 29269,
+            "name": "Hunter Henry",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "TE",
+            "weekly_stats": {
+                "player_id": 29269,
+                "name": "Hunter Henry",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 5.0,
+                "Rec": 4.0,
+                "Rec Yds": 33.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "7.30"
+            }
+        },
+        {
+            "player_id": 33967,
+            "name": "Jameson Williams",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "W/R/T",
+            "weekly_stats": {
+                "player_id": 33967,
+                "name": "Jameson Williams",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 2.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 34218,
+            "name": "Brock Purdy",
+            "position_type": "O",
+            "eligible_positions": [
+                "QB"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 34218,
+                "name": "Brock Purdy",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 31056,
+            "name": "Mark Andrews",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 31056,
+                "name": "Mark Andrews",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 33538,
+            "name": "Kenneth Gainwell",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 33538,
+                "name": "Kenneth Gainwell",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 3.0,
+                "Rush Yds": 14.0,
+                "Rush TD": 0.0,
+                "Targets": 2.0,
+                "Rec": 2.0,
+                "Rec Yds": 1.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "3.50"
+            }
+        },
+        {
+            "player_id": 40126,
+            "name": "Josh Downs",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 40126,
+                "name": "Josh Downs",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 29792,
+            "name": "Ka'imi Fairbairn",
+            "position_type": "K",
+            "eligible_positions": [
+                "K"
+            ],
+            "status": "",
+            "selected_position": "K",
+            "weekly_stats": {
+                "player_id": 29792,
+                "name": "Ka'imi Fairbairn",
+                "position_type": "K",
+                "FG 0-19": 0.0,
+                "FG 20-29": 0.0,
+                "FG 30-39": 1.0,
+                "FG 40-49": 1.0,
+                "FG 50+": 0.0,
+                "PAT Made": 1.0,
+                "total_points": "8.00"
+            }
+        },
+        {
+            "player_id": 27120,
+            "name": "Brandon McManus",
+            "position_type": "K",
+            "eligible_positions": [
+                "K"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 27120,
+                "name": "Brandon McManus",
+                "position_type": "K",
+                "FG 0-19": 0.0,
+                "FG 20-29": 0.0,
+                "FG 30-39": 0.0,
+                "FG 40-49": 0.0,
+                "FG 50+": 0.0,
+                "PAT Made": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 100023,
+            "name": "Pittsburgh",
+            "position_type": "DT",
+            "eligible_positions": [
+                "DEF"
+            ],
+            "status": "",
+            "selected_position": "DEF",
+            "weekly_stats": {
+                "player_id": 100023,
+                "name": "Pittsburgh",
+                "position_type": "DT",
+                "Pts Allow": 33.0,
+                "Sack": 2.0,
+                "Int": 0.0,
+                "Fum Rec": 0.0,
+                "TD": 0.0,
+                "Safe": 0.0,
+                "Blk Kick": 0.0,
+                "Ret TD": 0.0,
+                "Pts Allow 0": 0.0,
+                "Pts Allow 1-6": 0.0,
+                "Pts Allow 7-13": 0.0,
+                "Pts Allow 14-20": 0.0,
+                "Pts Allow 21-27": 0.0,
+                "Pts Allow 28-34": 1.0,
+                "Pts Allow 35+": 0.0,
+                "XPR": 0.0,
+                "total_points": "1.00"
+            }
+        }
+    ]
+}

@@ -1,0 +1,521 @@
+{
+    "Tsuga\u2019s Tuck Shop_week_6_roster": [
+        {
+            "player_id": 32676,
+            "name": "Justin Herbert",
+            "position_type": "O",
+            "eligible_positions": [
+                "QB"
+            ],
+            "status": "",
+            "selected_position": "QB",
+            "weekly_stats": {
+                "player_id": 32676,
+                "name": "Justin Herbert",
+                "position_type": "O",
+                "Pass Yds": 264.0,
+                "Pass TD": 2.0,
+                "Int": 0.0,
+                "Rush Att": 1.0,
+                "Rush Yds": 2.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "18.76"
+            }
+        },
+        {
+            "player_id": 27581,
+            "name": "Davante Adams",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 27581,
+                "name": "Davante Adams",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 9.0,
+                "Rec": 4.0,
+                "Rec Yds": 39.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "7.90"
+            }
+        },
+        {
+            "player_id": 33963,
+            "name": "Drake London",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "D",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 33963,
+                "name": "Drake London",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 16.0,
+                "Rec": 10.0,
+                "Rec Yds": 158.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "31.80"
+            }
+        },
+        {
+            "player_id": 41791,
+            "name": "Ashton Jeanty",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 41791,
+                "name": "Ashton Jeanty",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 23.0,
+                "Rush Yds": 75.0,
+                "Rush TD": 1.0,
+                "Targets": 4.0,
+                "Rec": 2.0,
+                "Rec Yds": 11.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "16.60"
+            }
+        },
+        {
+            "player_id": 42010,
+            "name": "Jacory Croskey-Merritt",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 42010,
+                "name": "Jacory Croskey-Merritt",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 17.0,
+                "Rush Yds": 61.0,
+                "Rush TD": 0.0,
+                "Targets": 1.0,
+                "Rec": 1.0,
+                "Rec Yds": 7.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 1.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "5.80"
+            }
+        },
+        {
+            "player_id": 41003,
+            "name": "Theo Johnson",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "TE",
+            "weekly_stats": {
+                "player_id": 41003,
+                "name": "Theo Johnson",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 4.0,
+                "Rec": 2.0,
+                "Rec Yds": 27.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "4.70"
+            }
+        },
+        {
+            "player_id": 40075,
+            "name": "Zach Charbonnet",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "W/R/T",
+            "weekly_stats": {
+                "player_id": 40075,
+                "name": "Zach Charbonnet",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 12.0,
+                "Rush Yds": 24.0,
+                "Rush TD": 0.0,
+                "Targets": 1.0,
+                "Rec": 1.0,
+                "Rec Yds": 13.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "4.70"
+            }
+        },
+        {
+            "player_id": 31840,
+            "name": "T.J. Hockenson",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 31840,
+                "name": "T.J. Hockenson",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 33399,
+            "name": "Justin Fields",
+            "position_type": "O",
+            "eligible_positions": [
+                "QB"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 33399,
+                "name": "Justin Fields",
+                "position_type": "O",
+                "Pass Yds": 45.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 7.0,
+                "Rush Yds": 31.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "4.90"
+            }
+        },
+        {
+            "player_id": 41902,
+            "name": "Woody Marks",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 41902,
+                "name": "Woody Marks",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 40042,
+            "name": "Jordan Addison",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 40042,
+                "name": "Jordan Addison",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 34357,
+            "name": "Bam Knight",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "Q",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 34357,
+                "name": "Bam Knight",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 11.0,
+                "Rush Yds": 34.0,
+                "Rush TD": 1.0,
+                "Targets": 2.0,
+                "Rec": 1.0,
+                "Rec Yds": 20.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "12.40"
+            }
+        },
+        {
+            "player_id": 31482,
+            "name": "Eddy Pineiro",
+            "position_type": "K",
+            "eligible_positions": [
+                "K"
+            ],
+            "status": "Q",
+            "selected_position": "K",
+            "weekly_stats": {
+                "player_id": 31482,
+                "name": "Eddy Pineiro",
+                "position_type": "K",
+                "FG 0-19": 0.0,
+                "FG 20-29": 1.0,
+                "FG 30-39": 0.0,
+                "FG 40-49": 1.0,
+                "FG 50+": 2.0,
+                "PAT Made": 1.0,
+                "total_points": "18.00"
+            }
+        },
+        {
+            "player_id": 100030,
+            "name": "Jacksonville",
+            "position_type": "DT",
+            "eligible_positions": [
+                "DEF"
+            ],
+            "status": "",
+            "selected_position": "DEF",
+            "weekly_stats": {
+                "player_id": 100030,
+                "name": "Jacksonville",
+                "position_type": "DT",
+                "Pts Allow": 20.0,
+                "Sack": 1.0,
+                "Int": 0.0,
+                "Fum Rec": 0.0,
+                "TD": 0.0,
+                "Safe": 0.0,
+                "Blk Kick": 0.0,
+                "Ret TD": 0.0,
+                "Pts Allow 0": 0.0,
+                "Pts Allow 1-6": 0.0,
+                "Pts Allow 7-13": 0.0,
+                "Pts Allow 14-20": 1.0,
+                "Pts Allow 21-27": 0.0,
+                "Pts Allow 28-34": 0.0,
+                "Pts Allow 35+": 0.0,
+                "XPR": 0.0,
+                "total_points": "2.00"
+            }
+        },
+        {
+            "player_id": 31908,
+            "name": "Terry McLaurin",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "Q",
+            "selected_position": "IR",
+            "weekly_stats": {
+                "player_id": 31908,
+                "name": "Terry McLaurin",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 40093,
+            "name": "Cedric Tillman",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "IR",
+            "weekly_stats": {
+                "player_id": 40093,
+                "name": "Cedric Tillman",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 30295,
+            "name": "Aaron Jones Sr.",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "IR",
+            "weekly_stats": {
+                "player_id": 30295,
+                "name": "Aaron Jones Sr.",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        }
+    ]
+}

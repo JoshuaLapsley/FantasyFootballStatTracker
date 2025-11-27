@@ -1,0 +1,485 @@
+{
+    "Ozzy Stick_week_9_roster": [
+        {
+            "player_id": 40881,
+            "name": "Drake Maye",
+            "position_type": "O",
+            "eligible_positions": [
+                "QB"
+            ],
+            "status": "",
+            "selected_position": "QB",
+            "weekly_stats": {
+                "player_id": 40881,
+                "name": "Drake Maye",
+                "position_type": "O",
+                "Pass Yds": 259.0,
+                "Pass TD": 2.0,
+                "Int": 1.0,
+                "Rush Att": 8.0,
+                "Rush Yds": 20.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 1.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "17.36"
+            }
+        },
+        {
+            "player_id": 31010,
+            "name": "Courtland Sutton",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 31010,
+                "name": "Courtland Sutton",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 6.0,
+                "Rec": 1.0,
+                "Rec Yds": 30.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "10.00"
+            }
+        },
+        {
+            "player_id": 41904,
+            "name": "Elic Ayomanor",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "Q",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 41904,
+                "name": "Elic Ayomanor",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 6.0,
+                "Rec": 3.0,
+                "Rec Yds": 46.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "7.60"
+            }
+        },
+        {
+            "player_id": 41845,
+            "name": "RJ Harvey",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 41845,
+                "name": "RJ Harvey",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 2.0,
+                "Rush Yds": 5.0,
+                "Rush TD": 0.0,
+                "Targets": 5.0,
+                "Rec": 5.0,
+                "Rec Yds": 51.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "16.60"
+            }
+        },
+        {
+            "player_id": 40059,
+            "name": "Jahmyr Gibbs",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 40059,
+                "name": "Jahmyr Gibbs",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 9.0,
+                "Rush Yds": 25.0,
+                "Rush TD": 0.0,
+                "Targets": 3.0,
+                "Rec": 3.0,
+                "Rec Yds": 3.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "5.80"
+            }
+        },
+        {
+            "player_id": 40048,
+            "name": "Dalton Kincaid",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "Q",
+            "selected_position": "TE",
+            "weekly_stats": {
+                "player_id": 40048,
+                "name": "Dalton Kincaid",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 6.0,
+                "Rec": 6.0,
+                "Rec Yds": 101.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "22.10"
+            }
+        },
+        {
+            "player_id": 40908,
+            "name": "Ladd McConkey",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "W/R/T",
+            "weekly_stats": {
+                "player_id": 40908,
+                "name": "Ladd McConkey",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 6.0,
+                "Rec": 4.0,
+                "Rec Yds": 56.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "9.60"
+            }
+        },
+        {
+            "player_id": 41293,
+            "name": "Jalen Coker",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 41293,
+                "name": "Jalen Coker",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 1.0,
+                "Rec": 1.0,
+                "Rec Yds": 9.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "1.90"
+            }
+        },
+        {
+            "player_id": 41031,
+            "name": "Isaiah Davis",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 41031,
+                "name": "Isaiah Davis",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 34062,
+            "name": "Cade Otton",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 34062,
+                "name": "Cade Otton",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 40892,
+            "name": "Ricky Pearsall",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 40892,
+                "name": "Ricky Pearsall",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 28188,
+            "name": "Chris Boswell",
+            "position_type": "K",
+            "eligible_positions": [
+                "K"
+            ],
+            "status": "",
+            "selected_position": "K",
+            "weekly_stats": {
+                "player_id": 28188,
+                "name": "Chris Boswell",
+                "position_type": "K",
+                "FG 0-19": 0.0,
+                "FG 20-29": 1.0,
+                "FG 30-39": 0.0,
+                "FG 40-49": 1.0,
+                "FG 50+": 0.0,
+                "PAT Made": 3.0,
+                "total_points": "10.00"
+            }
+        },
+        {
+            "player_id": 100003,
+            "name": "Chicago",
+            "position_type": "DT",
+            "eligible_positions": [
+                "DEF"
+            ],
+            "status": "",
+            "selected_position": "DEF",
+            "weekly_stats": {
+                "player_id": 100003,
+                "name": "Chicago",
+                "position_type": "DT",
+                "Pts Allow": 42.0,
+                "Sack": 3.0,
+                "Int": 2.0,
+                "Fum Rec": 1.0,
+                "TD": 0.0,
+                "Safe": 0.0,
+                "Blk Kick": 0.0,
+                "Ret TD": 0.0,
+                "Pts Allow 0": 0.0,
+                "Pts Allow 1-6": 0.0,
+                "Pts Allow 7-13": 0.0,
+                "Pts Allow 14-20": 0.0,
+                "Pts Allow 21-27": 0.0,
+                "Pts Allow 28-34": 0.0,
+                "Pts Allow 35+": 1.0,
+                "XPR": 0.0,
+                "total_points": "5.00"
+            }
+        },
+        {
+            "player_id": 100021,
+            "name": "Philadelphia",
+            "position_type": "DT",
+            "eligible_positions": [
+                "DEF"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 100021,
+                "name": "Philadelphia",
+                "position_type": "DT",
+                "Pts Allow": 0.0,
+                "Sack": 0.0,
+                "Int": 0.0,
+                "Fum Rec": 0.0,
+                "TD": 0.0,
+                "Safe": 0.0,
+                "Blk Kick": 0.0,
+                "Ret TD": 0.0,
+                "Pts Allow 0": 0.0,
+                "Pts Allow 1-6": 0.0,
+                "Pts Allow 7-13": 0.0,
+                "Pts Allow 14-20": 0.0,
+                "Pts Allow 21-27": 0.0,
+                "Pts Allow 28-34": 0.0,
+                "Pts Allow 35+": 0.0,
+                "XPR": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 41807,
+            "name": "Omarion Hampton",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T",
+                "IR"
+            ],
+            "status": "IR-R",
+            "selected_position": "IR",
+            "weekly_stats": {
+                "player_id": 41807,
+                "name": "Omarion Hampton",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 32858,
+            "name": "Tyler Bass",
+            "position_type": "K",
+            "eligible_positions": [
+                "K",
+                "IR"
+            ],
+            "status": "IR",
+            "selected_position": "IR",
+            "weekly_stats": {
+                "player_id": 32858,
+                "name": "Tyler Bass",
+                "position_type": "K",
+                "FG 0-19": 0.0,
+                "FG 20-29": 0.0,
+                "FG 30-39": 0.0,
+                "FG 40-49": 0.0,
+                "FG 50+": 0.0,
+                "PAT Made": 0.0,
+                "total_points": "0.00"
+            }
+        }
+    ]
+}

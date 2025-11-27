@@ -1,0 +1,429 @@
+{
+    "Revy\u2019s Konstruction_week_3_roster": [
+        {
+            "player_id": 31002,
+            "name": "Lamar Jackson",
+            "position_type": "O",
+            "eligible_positions": [
+                "QB"
+            ],
+            "status": "",
+            "selected_position": "QB",
+            "weekly_stats": {
+                "player_id": 31002,
+                "name": "Lamar Jackson",
+                "position_type": "O",
+                "Pass Yds": 288.0,
+                "Pass TD": 3.0,
+                "Int": 0.0,
+                "Rush Att": 7.0,
+                "Rush Yds": 35.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "27.02"
+            }
+        },
+        {
+            "player_id": 32692,
+            "name": "Justin Jefferson",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 32692,
+                "name": "Justin Jefferson",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 7.0,
+                "Rec": 5.0,
+                "Rec Yds": 75.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "12.50"
+            }
+        },
+        {
+            "player_id": 30994,
+            "name": "DJ Moore",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 30994,
+                "name": "DJ Moore",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 3.0,
+                "Rush Yds": 7.0,
+                "Rush TD": 0.0,
+                "Targets": 5.0,
+                "Rec": 4.0,
+                "Rec Yds": 21.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "12.80"
+            }
+        },
+        {
+            "player_id": 34019,
+            "name": "James Cook III",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 34019,
+                "name": "James Cook III",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 19.0,
+                "Rush Yds": 108.0,
+                "Rush TD": 1.0,
+                "Targets": 3.0,
+                "Rec": 3.0,
+                "Rec Yds": 10.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "20.80"
+            }
+        },
+        {
+            "player_id": 32705,
+            "name": "D'Andre Swift",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 32705,
+                "name": "D'Andre Swift",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 13.0,
+                "Rush Yds": 33.0,
+                "Rush TD": 0.0,
+                "Targets": 4.0,
+                "Rec": 3.0,
+                "Rec Yds": 45.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "10.80"
+            }
+        },
+        {
+            "player_id": 30142,
+            "name": "David Njoku",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "Q",
+            "selected_position": "TE",
+            "weekly_stats": {
+                "player_id": 30142,
+                "name": "David Njoku",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 7.0,
+                "Rec": 5.0,
+                "Rec Yds": 40.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "9.00"
+            }
+        },
+        {
+            "player_id": 34104,
+            "name": "Khalil Shakir",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "W/R/T",
+            "weekly_stats": {
+                "player_id": 34104,
+                "name": "Khalil Shakir",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 4.0,
+                "Rec": 4.0,
+                "Rec Yds": 45.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "14.50"
+            }
+        },
+        {
+            "player_id": 30136,
+            "name": "Evan Engram",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 30136,
+                "name": "Evan Engram",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 30182,
+            "name": "Cooper Kupp",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 30182,
+                "name": "Cooper Kupp",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 3.0,
+                "Rec": 2.0,
+                "Rec Yds": 31.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "5.10"
+            }
+        },
+        {
+            "player_id": 31017,
+            "name": "Christian Kirk",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 31017,
+                "name": "Christian Kirk",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 8.0,
+                "Rec": 3.0,
+                "Rec Yds": 25.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "5.50"
+            }
+        },
+        {
+            "player_id": 41795,
+            "name": "Colston Loveland",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 41795,
+                "name": "Colston Loveland",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 3.0,
+                "Rec": 1.0,
+                "Rec Yds": 31.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "4.10"
+            }
+        },
+        {
+            "player_id": 31005,
+            "name": "Nick Chubb",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 31005,
+                "name": "Nick Chubb",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 9.0,
+                "Rush Yds": 38.0,
+                "Rush TD": 0.0,
+                "Targets": 4.0,
+                "Rec": 3.0,
+                "Rec Yds": 2.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "7.00"
+            }
+        },
+        {
+            "player_id": 30346,
+            "name": "Harrison Butker",
+            "position_type": "K",
+            "eligible_positions": [
+                "K"
+            ],
+            "status": "",
+            "selected_position": "K",
+            "weekly_stats": {
+                "player_id": 30346,
+                "name": "Harrison Butker",
+                "position_type": "K",
+                "FG 0-19": 0.0,
+                "FG 20-29": 1.0,
+                "FG 30-39": 0.0,
+                "FG 40-49": 1.0,
+                "FG 50+": 1.0,
+                "PAT Made": 1.0,
+                "total_points": "13.00"
+            }
+        },
+        {
+            "player_id": 100034,
+            "name": "Houston",
+            "position_type": "DT",
+            "eligible_positions": [
+                "DEF"
+            ],
+            "status": "",
+            "selected_position": "DEF",
+            "weekly_stats": {
+                "player_id": 100034,
+                "name": "Houston",
+                "position_type": "DT",
+                "Pts Allow": 17.0,
+                "Sack": 2.0,
+                "Int": 1.0,
+                "Fum Rec": 0.0,
+                "TD": 0.0,
+                "Safe": 0.0,
+                "Blk Kick": 0.0,
+                "Ret TD": 0.0,
+                "Pts Allow 0": 0.0,
+                "Pts Allow 1-6": 0.0,
+                "Pts Allow 7-13": 0.0,
+                "Pts Allow 14-20": 1.0,
+                "Pts Allow 21-27": 0.0,
+                "Pts Allow 28-34": 0.0,
+                "Pts Allow 35+": 0.0,
+                "XPR": 0.0,
+                "total_points": "5.00"
+            }
+        }
+    ]
+}

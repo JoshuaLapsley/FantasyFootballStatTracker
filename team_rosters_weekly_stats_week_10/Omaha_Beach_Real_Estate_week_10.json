@@ -1,0 +1,463 @@
+{
+    "Omaha Beach Real Estate_week_10_roster": [
+        {
+            "player_id": 40875,
+            "name": "Bo Nix",
+            "position_type": "O",
+            "eligible_positions": [
+                "QB"
+            ],
+            "status": "",
+            "selected_position": "QB",
+            "weekly_stats": {
+                "player_id": 40875,
+                "name": "Bo Nix",
+                "position_type": "O",
+                "Pass Yds": 150.0,
+                "Pass TD": 1.0,
+                "Int": 2.0,
+                "Rush Att": 5.0,
+                "Rush Yds": -2.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "7.80"
+            }
+        },
+        {
+            "player_id": 33966,
+            "name": "Chris Olave",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "Q",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 33966,
+                "name": "Chris Olave",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 8.0,
+                "Rec": 5.0,
+                "Rec Yds": 104.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "21.40"
+            }
+        },
+        {
+            "player_id": 30551,
+            "name": "Kendrick Bourne",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 30551,
+                "name": "Kendrick Bourne",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 1.0,
+                "Rec": 1.0,
+                "Rec Yds": 19.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "2.90"
+            }
+        },
+        {
+            "player_id": 31856,
+            "name": "Josh Jacobs",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 31856,
+                "name": "Josh Jacobs",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 21.0,
+                "Rush Yds": 74.0,
+                "Rush TD": 1.0,
+                "Targets": 6.0,
+                "Rec": 5.0,
+                "Rec Yds": 33.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 1.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "19.70"
+            }
+        },
+        {
+            "player_id": 29279,
+            "name": "Derrick Henry",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 29279,
+                "name": "Derrick Henry",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 20.0,
+                "Rush Yds": 75.0,
+                "Rush TD": 0.0,
+                "Targets": 3.0,
+                "Rec": 3.0,
+                "Rec Yds": 9.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "11.40"
+            }
+        },
+        {
+            "player_id": 33443,
+            "name": "Pat Freiermuth",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "TE",
+            "weekly_stats": {
+                "player_id": 33443,
+                "name": "Pat Freiermuth",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 3.0,
+                "Rec": 3.0,
+                "Rec Yds": 33.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "6.30"
+            }
+        },
+        {
+            "player_id": 31017,
+            "name": "Christian Kirk",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "W/R/T",
+            "weekly_stats": {
+                "player_id": 31017,
+                "name": "Christian Kirk",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 3.0,
+                "Rec": 1.0,
+                "Rec Yds": 3.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "1.30"
+            }
+        },
+        {
+            "player_id": 26686,
+            "name": "Travis Kelce",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 26686,
+                "name": "Travis Kelce",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 30199,
+            "name": "Kareem Hunt",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 30199,
+                "name": "Kareem Hunt",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 41808,
+            "name": "Matthew Golden",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T",
+                "IR"
+            ],
+            "status": "O",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 41808,
+                "name": "Matthew Golden",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 32417,
+            "name": "Chase McLaughlin",
+            "position_type": "K",
+            "eligible_positions": [
+                "K"
+            ],
+            "status": "",
+            "selected_position": "K",
+            "weekly_stats": {
+                "player_id": 32417,
+                "name": "Chase McLaughlin",
+                "position_type": "K",
+                "FG 0-19": 0.0,
+                "FG 20-29": 0.0,
+                "FG 30-39": 1.0,
+                "FG 40-49": 0.0,
+                "FG 50+": 0.0,
+                "PAT Made": 2.0,
+                "total_points": "5.00"
+            }
+        },
+        {
+            "player_id": 100011,
+            "name": "Indianapolis",
+            "position_type": "DT",
+            "eligible_positions": [
+                "DEF"
+            ],
+            "status": "",
+            "selected_position": "DEF",
+            "weekly_stats": {
+                "player_id": 100011,
+                "name": "Indianapolis",
+                "position_type": "DT",
+                "Pts Allow": 25.0,
+                "Sack": 3.0,
+                "Int": 0.0,
+                "Fum Rec": 1.0,
+                "TD": 0.0,
+                "Safe": 0.0,
+                "Blk Kick": 0.0,
+                "Ret TD": 0.0,
+                "Pts Allow 0": 0.0,
+                "Pts Allow 1-6": 0.0,
+                "Pts Allow 7-13": 0.0,
+                "Pts Allow 14-20": 0.0,
+                "Pts Allow 21-27": 1.0,
+                "Pts Allow 28-34": 0.0,
+                "Pts Allow 35+": 0.0,
+                "XPR": 0.0,
+                "total_points": "5.00"
+            }
+        },
+        {
+            "player_id": 33508,
+            "name": "Rhamondre Stevenson",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "IR",
+            "weekly_stats": {
+                "player_id": 33508,
+                "name": "Rhamondre Stevenson",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 28592,
+            "name": "Darren Waller",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T",
+                "IR"
+            ],
+            "status": "IR-R",
+            "selected_position": "IR",
+            "weekly_stats": {
+                "player_id": 28592,
+                "name": "Darren Waller",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        },
+        {
+            "player_id": 29399,
+            "name": "Tyreek Hill",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T",
+                "IR"
+            ],
+            "status": "IR",
+            "selected_position": "IR",
+            "weekly_stats": {
+                "player_id": 29399,
+                "name": "Tyreek Hill",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        }
+    ]
+}

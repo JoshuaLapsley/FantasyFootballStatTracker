@@ -1,0 +1,461 @@
+{
+    "Hungry Hungry Hokk_week_4_roster": [
+        {
+            "player_id": 32675,
+            "name": "Tua Tagovailoa",
+            "position_type": "O",
+            "eligible_positions": [
+                "QB"
+            ],
+            "status": "",
+            "selected_position": "QB",
+            "weekly_stats": {
+                "player_id": 32675,
+                "name": "Tua Tagovailoa",
+                "position_type": "O",
+                "Pass Yds": 177.0,
+                "Pass TD": 2.0,
+                "Int": 0.0,
+                "Rush Att": 3.0,
+                "Rush Yds": 6.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "15.68"
+            }
+        },
+        {
+            "player_id": 40168,
+            "name": "Puka Nacua",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 40168,
+                "name": "Puka Nacua",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 15.0,
+                "Rec": 13.0,
+                "Rec Yds": 170.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "36.00"
+            }
+        },
+        {
+            "player_id": 33965,
+            "name": "Garrett Wilson",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T",
+                "IR"
+            ],
+            "status": "IR",
+            "selected_position": "WR",
+            "weekly_stats": {
+                "player_id": 33965,
+                "name": "Garrett Wilson",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 8.0,
+                "Rec": 6.0,
+                "Rec Yds": 82.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "20.20"
+            }
+        },
+        {
+            "player_id": 40993,
+            "name": "Bucky Irving",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 40993,
+                "name": "Bucky Irving",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 15.0,
+                "Rush Yds": 63.0,
+                "Rush TD": 0.0,
+                "Targets": 5.0,
+                "Rec": 5.0,
+                "Rec Yds": 102.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 1.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "25.50"
+            }
+        },
+        {
+            "player_id": 34047,
+            "name": "Rachaad White",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "RB",
+            "weekly_stats": {
+                "player_id": 34047,
+                "name": "Rachaad White",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 6.0,
+                "Rush Yds": 17.0,
+                "Rush TD": 0.0,
+                "Targets": 5.0,
+                "Rec": 4.0,
+                "Rec Yds": 29.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "8.60"
+            }
+        },
+        {
+            "player_id": 41799,
+            "name": "Tyler Warren",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "TE",
+            "weekly_stats": {
+                "player_id": 41799,
+                "name": "Tyler Warren",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 2.0,
+                "Rush Yds": 3.0,
+                "Rush TD": 1.0,
+                "Targets": 6.0,
+                "Rec": 5.0,
+                "Rec Yds": 70.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "18.30"
+            }
+        },
+        {
+            "player_id": 34007,
+            "name": "George Pickens",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "W/R/T",
+            "weekly_stats": {
+                "player_id": 34007,
+                "name": "George Pickens",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 11.0,
+                "Rec": 8.0,
+                "Rec Yds": 134.0,
+                "Rec TD": 2.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "33.40"
+            }
+        },
+        {
+            "player_id": 40911,
+            "name": "Keon Coleman",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 40911,
+                "name": "Keon Coleman",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 4.0,
+                "Rec": 3.0,
+                "Rec Yds": 45.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "7.50"
+            }
+        },
+        {
+            "player_id": 32843,
+            "name": "Darnell Mooney",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 32843,
+                "name": "Darnell Mooney",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 1.0,
+                "Rec": 1.0,
+                "Rec Yds": 15.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "2.50"
+            }
+        },
+        {
+            "player_id": 34099,
+            "name": "Chig Okonkwo",
+            "position_type": "O",
+            "eligible_positions": [
+                "TE",
+                "W/R/T"
+            ],
+            "status": "Q",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 34099,
+                "name": "Chig Okonkwo",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 3.0,
+                "Rec": 1.0,
+                "Rec Yds": 4.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "1.40"
+            }
+        },
+        {
+            "player_id": 40051,
+            "name": "Quentin Johnston",
+            "position_type": "O",
+            "eligible_positions": [
+                "WR",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 40051,
+                "name": "Quentin Johnston",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 13.0,
+                "Rec": 8.0,
+                "Rec Yds": 98.0,
+                "Rec TD": 1.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "23.80"
+            }
+        },
+        {
+            "player_id": 41969,
+            "name": "Ollie Gordon II",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "BN",
+            "weekly_stats": {
+                "player_id": 41969,
+                "name": "Ollie Gordon II",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 6.0,
+                "Rush Yds": 10.0,
+                "Rush TD": 0.0,
+                "Targets": 1.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "1.00"
+            }
+        },
+        {
+            "player_id": 34344,
+            "name": "Cameron Dicker",
+            "position_type": "K",
+            "eligible_positions": [
+                "K"
+            ],
+            "status": "",
+            "selected_position": "K",
+            "weekly_stats": {
+                "player_id": 34344,
+                "name": "Cameron Dicker",
+                "position_type": "K",
+                "FG 0-19": 0.0,
+                "FG 20-29": 0.0,
+                "FG 30-39": 0.0,
+                "FG 40-49": 1.0,
+                "FG 50+": 0.0,
+                "PAT Made": 1.0,
+                "total_points": "5.00"
+            }
+        },
+        {
+            "player_id": 100009,
+            "name": "Green Bay",
+            "position_type": "DT",
+            "eligible_positions": [
+                "DEF"
+            ],
+            "status": "",
+            "selected_position": "DEF",
+            "weekly_stats": {
+                "player_id": 100009,
+                "name": "Green Bay",
+                "position_type": "DT",
+                "Pts Allow": 38.0,
+                "Sack": 1.0,
+                "Int": 0.0,
+                "Fum Rec": 0.0,
+                "TD": 0.0,
+                "Safe": 0.0,
+                "Blk Kick": 0.0,
+                "Ret TD": 0.0,
+                "Pts Allow 0": 0.0,
+                "Pts Allow 1-6": 0.0,
+                "Pts Allow 7-13": 0.0,
+                "Pts Allow 14-20": 0.0,
+                "Pts Allow 21-27": 0.0,
+                "Pts Allow 28-34": 0.0,
+                "Pts Allow 35+": 1.0,
+                "XPR": 0.0,
+                "total_points": "-3.00"
+            }
+        },
+        {
+            "player_id": 41048,
+            "name": "Tyrone Tracy Jr.",
+            "position_type": "O",
+            "eligible_positions": [
+                "RB",
+                "W/R/T"
+            ],
+            "status": "",
+            "selected_position": "IR",
+            "weekly_stats": {
+                "player_id": 41048,
+                "name": "Tyrone Tracy Jr.",
+                "position_type": "O",
+                "Pass Yds": 0.0,
+                "Pass TD": 0.0,
+                "Int": 0.0,
+                "Rush Att": 0.0,
+                "Rush Yds": 0.0,
+                "Rush TD": 0.0,
+                "Targets": 0.0,
+                "Rec": 0.0,
+                "Rec Yds": 0.0,
+                "Rec TD": 0.0,
+                "Ret TD": 0.0,
+                "2-PT": 0.0,
+                "Fum Lost": 0.0,
+                "Fum Ret TD": 0.0,
+                "total_points": "0.00"
+            }
+        }
+    ]
+}
