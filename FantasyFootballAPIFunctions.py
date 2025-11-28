@@ -110,6 +110,32 @@ gm = yfa.Game(sc, 'nfl')
 GirdermaGridironnLeague2025Id = '461.l.111150'
 lg = gm.to_league(GirdermaGridironnLeague2025Id)
 
+# all_teams = lg.teams()
+
+# # Print to check
+# print(all_teams)
+
+# # Save to JSON file
+# with open("all_teams_data.json", "w") as f:
+#     json.dump(all_teams, f, indent=4)
+
+# print("All teams data saved to all_teams_data.json")
+
+
+
+
+for i in range(1,12):
+    all_matchups = lg.matchups(i)
+    with open(f"all_matchup_data_week{i}.json", "w") as f:
+        json.dump(all_matchups, f, indent=4)
+
+print(all_matchups)
+
+
+
+
+
+
 
 #print(getCurrentWeek(lg))
 
@@ -117,18 +143,18 @@ lg = gm.to_league(GirdermaGridironnLeague2025Id)
 
 #save_team_rosters_with_weekly_stats(lg, 12)
 
-save_all_waiver_wire_players_weekly_stats(lg, 1)
-save_all_waiver_wire_players_weekly_stats(lg, 2)
-save_all_waiver_wire_players_weekly_stats(lg, 3)
-save_all_waiver_wire_players_weekly_stats(lg, 4)
-save_all_waiver_wire_players_weekly_stats(lg, 5)
-save_all_waiver_wire_players_weekly_stats(lg, 6)
-save_all_waiver_wire_players_weekly_stats(lg, 7)
-save_all_waiver_wire_players_weekly_stats(lg, 8)
-save_all_waiver_wire_players_weekly_stats(lg, 9)
-save_all_waiver_wire_players_weekly_stats(lg, 10)
-save_all_waiver_wire_players_weekly_stats(lg, 11)
-save_all_waiver_wire_players_weekly_stats(lg, 12)
+# save_all_waiver_wire_players_weekly_stats(lg, 1)
+# save_all_waiver_wire_players_weekly_stats(lg, 2)
+# save_all_waiver_wire_players_weekly_stats(lg, 3)
+# save_all_waiver_wire_players_weekly_stats(lg, 4)
+# save_all_waiver_wire_players_weekly_stats(lg, 5)
+# save_all_waiver_wire_players_weekly_stats(lg, 6)
+# save_all_waiver_wire_players_weekly_stats(lg, 7)
+# save_all_waiver_wire_players_weekly_stats(lg, 8)
+# save_all_waiver_wire_players_weekly_stats(lg, 9)
+# save_all_waiver_wire_players_weekly_stats(lg, 10)
+# save_all_waiver_wire_players_weekly_stats(lg, 11)
+# save_all_waiver_wire_players_weekly_stats(lg, 12)
 
 
 
