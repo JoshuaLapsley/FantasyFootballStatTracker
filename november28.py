@@ -252,6 +252,78 @@ def future_points_with_frozen_roster_actual(manager_name, roster_week, start_wee
 
     return total_points
 
+
+def future_points_with_frozen_roster_actual_with_trade(manager_name, roster_week, start_week, players_out, players_in, end_week):
+        # Load frozen roster for the manager
+    frozen_roster = load_frozen_roster(manager_name, roster_week)
+
+    # Normalize players_out and players_in to list of dicts
+    if isinstance(players_out, str):
+        players_out = [{"name": players_out}]
+    elif all(isinstance(p, str) for p in players_out):
+        players_out = [{"name": p} for p in players_out]
+
+    if isinstance(players_in, str):
+        players_in = [{"name": players_in}]
+    elif all(isinstance(p, str) for p in players_in):
+        players_in = [{"name": p} for p in players_in]
+
+    # Remove players_out from frozen_roster
+    frozen_roster = [p for p in frozen_roster if p["name"] not in {pl["name"] for pl in players_out}]
+
+    # Add players_in with full info by searching all rosters for that week
+    week_folder = f"team_rosters_weekly_stats_week_{roster_week}"
+    for pl in players_in:
+        found = False
+        for file_name in os.listdir(week_folder):
+            if file_name.endswith(".json"):
+                path = os.path.join(week_folder, file_name)
+                with open(path) as f:
+                    team_data = json.load(f)
+                # Each file has one key: "<team_name>_week_<roster_week>_roster"
+                for roster in team_data.values():
+                    for player in roster:
+                        if player["name"] == pl["name"]:
+                            frozen_roster.append(player)  # full info
+                            found = True
+                            break
+                    if found:
+                        break
+            if found:
+                break
+        if not found:
+            print(f"WARNING: Could not find full info for player {pl['name']} in week {roster_week}")
+  
+    #for player in frozen_roster:
+     #   print(f"player:", player["name"])  
+        
+    
+    total_points = 0.0
+
+    for w in range(start_week, end_week + 1):
+        #print(f"\nWeek {w}:")
+        # Build weekly roster with projected and actual points
+        weekly_roster = []
+        for player in frozen_roster:
+            name = player["name"]
+            proj_pts = get_projected_points(name, w)
+            actual_pts = get_actual_points(name, w)
+            weekly_roster.append({
+                "name": name,
+                "position": player.get("eligible_positions", ""),
+                "projected_points": proj_pts,
+                "actual_points": actual_pts
+            })
+        #for player in weekly_roster:
+        #    print(f"player2", player["name"])
+        # Build optimal lineup
+        week_total = sum_actual_points_of_optimal_lineup(weekly_roster)
+        total_points += week_total
+        #print(f"Total points for week {w}: {week_total:.2f}")
+
+    return total_points
+
+
 def sum_actual_points_of_optimal_lineup(weekly_roster):
     """
     Build the optimal lineup by projected points (considering all eligible positions, including bench).
@@ -267,7 +339,8 @@ def sum_actual_points_of_optimal_lineup(weekly_roster):
         "K": 1,
         "DEF": 1
     }
-
+    #for player in weekly_roster:
+    #    print(f"player4", player["name"])
     total = 0.0
     used_players = set()
 
@@ -286,7 +359,8 @@ def sum_actual_points_of_optimal_lineup(weekly_roster):
 
         # Sort candidates by projected points descending
         candidates.sort(key=lambda x: x["projected_points"], reverse=True)
-
+        #for player in candidates:
+         #   print(f"player3", player["name"])
         # Only allow starters with projected_points >= RLP
         starters_allowed = [p for p in candidates if p["projected_points"] >= rlp]
 
@@ -303,137 +377,27 @@ def sum_actual_points_of_optimal_lineup(weekly_roster):
 
     return total
 
+def net_gain_from_trade(manager_name, players_in, players_out, roster_week, start_week, end_week):
+    before = future_points_with_frozen_roster_actual(manager_name, roster_week, start_week, end_week)
+    after = future_points_with_frozen_roster_actual_with_trade(manager_name, roster_week, start_week, players_out, players_in, end_week)
+    gain = after-before
+    weeks = end_week - start_week
+    return gain, gain/weeks 
 
 
 
-
-
-
-# Example usage:
-if __name__ == "__main__":
-    total_before = future_points_with_frozen_roster_actual(
-        manager_name="Deej-lanta Falcons",
-        roster_week=4,
-        start_week=5,
-        end_week=12
-    )
-    #print("\nTotal points over weeks 5-12:", total_before)
-
-
-
-if __name__ == "__main__":
-    total_after = future_points_with_frozen_roster_actual(
-        manager_name="Deej-lanta Falcons",
-        roster_week=5,
-        start_week=5,
-        end_week=12
-    )
-    #print("Total points over weeks 5-12:", total_after)
-
-
-print("Net points from trade for DJ: ", total_after-total_before)
-total_before1 = future_points_with_frozen_roster_actual(manager_name="No Punts Intented",
+net_gain, net_gain_per_week = net_gain_from_trade(manager_name="No Punts Intented",
                                                         roster_week=4,
                                                         start_week=5,
+                                                        players_in=["Jaxon Smith-Njigba", "Jonathan Taylor"],
+                                                        players_out="DK Metcalf",
                                                         end_week=12)
-total_after1 = future_points_with_frozen_roster_actual(manager_name="No Punts Intented",
-                                                        roster_week=5,
-                                                        start_week=5,
-                                                        end_week=12)
-print("Net points from trade for Rubik: ", total_after1-total_before1)
-print("\n")
 
-total_before2 = future_points_with_frozen_roster_actual(manager_name="Supernova’s Studs",
-                                                        roster_week=4,
-                                                        start_week=5,
-                                                        end_week=12)
-total_after2 = future_points_with_frozen_roster_actual(manager_name="Supernova’s Studs",
-                                                        roster_week=5,
-                                                        start_week=5,
-                                                        end_week=12)
-print("Net points from trade for Gav: ", total_after2-total_before2)
-total_before3 = future_points_with_frozen_roster_actual(manager_name="Hungry Hungry Hokk",
-                                                        roster_week=4,
-                                                        start_week=5,
-                                                        end_week=12)
-total_after3 = future_points_with_frozen_roster_actual(manager_name="Hungry Hungry Hokk",
-                                                        roster_week=5,
-                                                        start_week=5,
-                                                        end_week=12)
-print("Net points from trade for Hokk: ", total_after3-total_before3)
-print("\n")
-
-total_before4 = future_points_with_frozen_roster_actual(manager_name="Hungry Hungry Hokk",
-                                                        roster_week=5,
-                                                        start_week=6,
-                                                        end_week=12)
-total_after4 = future_points_with_frozen_roster_actual(manager_name="Hungry Hungry Hokk",
-                                                        roster_week=6,
-                                                        start_week=6,
-                                                        end_week=12)
-print("Net points from trade for hokk: ", total_after4-total_before4)
-total_before5 = future_points_with_frozen_roster_actual(manager_name="The Sage's Playmakers",
-                                                        roster_week=5,
-                                                        start_week=6,
-                                                        end_week=12)
-total_after5 = future_points_with_frozen_roster_actual(manager_name="The Sage's Playmakers",
-                                                        roster_week=6,
-                                                        start_week=6,
-                                                        end_week=12)
-print("Net points from trade for lapsley: ", total_after5-total_before5)
-print("\n")
-
-total_before6 = future_points_with_frozen_roster_actual(manager_name="Supernova’s Studs",
-                                                        roster_week=6,
-                                                        start_week=7,
-                                                        end_week=12)
-total_after6 = future_points_with_frozen_roster_actual(manager_name="Supernova’s Studs",
-                                                        roster_week=7,
-                                                        start_week=7,
-                                                        end_week=12)
-print("Net points from trade for gav: ", total_after6-total_before6)
-total_before7 = future_points_with_frozen_roster_actual(manager_name="The Sage's Playmakers",
-                                                        roster_week=6,
-                                                        start_week=7,
-                                                        end_week=12)
-total_after7 = future_points_with_frozen_roster_actual(manager_name="The Sage's Playmakers",
-                                                        roster_week=7,
-                                                        start_week=7,
-                                                        end_week=12)
-print("Net points from trade for lapsley: ", total_after7-total_before7)
-print("\n")
-
-total_before8 = future_points_with_frozen_roster_actual(manager_name="Supernova’s Studs",
-                                                        roster_week=11,
-                                                        start_week=12,
-                                                        end_week=12)
-total_after8 = future_points_with_frozen_roster_actual(manager_name="Supernova’s Studs",
-                                                        roster_week=12,
-                                                        start_week=12,
-                                                        end_week=12)
-print("Net points from trade for gav: ", total_after8-total_before8)
-total_before9 = future_points_with_frozen_roster_actual(manager_name="Ozzy Stick",
-                                                        roster_week=11,
-                                                        start_week=12,
-                                                        end_week=12)
-total_after9 = future_points_with_frozen_roster_actual(manager_name="Ozzy Stick",
-                                                        roster_week=12,
-                                                        start_week=12,
-                                                        end_week=12)
-print("Net points from trade for bullman: ", total_after9-total_before9)
-print("\n")
+print(f"net gain", net_gain)
+print(f"net gain per week", net_gain_per_week)
 
 
 
-
-#points_frozen = future_points_with_frozen_roster(manager_name, week)
-#print(f"Points with frozen roster from week {int(week)} onwards: {points_frozen}")
-
-# Points using actual roster week-by-week
-##points_actual = get_points_after_week(manager_name, week)
-#print(f"Points with actual roster each week after week {int(week)}: {points_actual}")
-# print("Points (actual weekly rosters):", points_actual)
-# print("Points (frozen roster):", points_frozen)
 
 
 
