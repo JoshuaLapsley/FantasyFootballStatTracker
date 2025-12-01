@@ -3,16 +3,28 @@ import yahoo_fantasy_api as yfa
 import json
 import os
 
+sc = OAuth2(None, None, from_file='oauth2.json')
+
+#get nfl leagues (connected to player)
+gm = yfa.Game(sc, 'nfl')
+#leagues = gm.league_ids()
+
+#print(leagues)
+#Get League for this year
+GirdermaGridironnLeague2025Id = '461.l.111150'
+lg = gm.to_league(GirdermaGridironnLeague2025Id)
+
+
 #Takes in the league
-def getCurrentWeek(lg):
+def getCurrentWeek():
     return lg.current_week()
     
-def save_team_rosters_with_weekly_stats(league, week):
+def save_team_rosters_with_weekly_stats(week):
     """
     Loops through all teams and saves each team's roster for every week in the given range,
     including each player's actual weekly stats (no projected points).
     """
-    teams = league.teams()  # dict of all teams
+    teams = lg.teams()  # dict of all teams
 
     # Base folder
     base_folder = f"team_rosters_weekly_stats_week_{week}"
@@ -23,7 +35,7 @@ def save_team_rosters_with_weekly_stats(league, week):
         safe_team_name = team_name.replace(" ", "_").replace("/", "_")
 
         # Convert team_key → team object
-        team = league.to_team(team_key)
+        team = lg.to_team(team_key)
 
         
         try:
@@ -37,7 +49,7 @@ def save_team_rosters_with_weekly_stats(league, week):
         for player in roster:
             pid = player["player_id"]
             try:
-                week_stats_list = league.player_stats([pid], "week", week=week)
+                week_stats_list = lg.player_stats([pid], "week", week=week)
                 if week_stats_list:
                     player["weekly_stats"] = week_stats_list[0]
                 else:
@@ -49,112 +61,106 @@ def save_team_rosters_with_weekly_stats(league, week):
         data = { f"{team_name}_week_{week}_roster": roster }
 
         # Save file
-        file_path = os.path.join(base_folder, f"{safe_team_name}_week_{week}.json")
-        with open(file_path, "w") as f:
-            json.dump(data, f, indent=4)
+        try:
+            with open("all_player_ids", "w") as f:
+                json.dump(all_players, f, indent=4)
+            print(f"Saved {len(all_players)} player IDs to {output_path}")
+        except Exception as ex:
+            print(f"Error saving player list: {ex}")
 
-        print(f"Saved {team_name} roster with weekly stats for week {week} → {file_path}")
+def getTransactionData(tran_type):
+
+    folder = "transactions"
+    os.makedirs(folder, exist_ok=True)
+
+    print(f"\n=== Fetching transactions ===")
+    try:
+        transactions = lg.transactions(tran_type, "")
+
+    except Exception:
+        print(f"\n=== Something Went Wrong ===")
+
+    filename = f"transactions/{tran_type}-transactions.json"
+    with open(filename, "w") as f:
+        json.dump(transactions, f, indent=2)
+        
+def getDraftData():
+
+    folder = "draftData"
+    os.makedirs(folder, exist_ok=True)
+
+    print(f"\n=== Fetching draftData ===")
+    try:
+        draftResults = lg.draft_results()
+
+    except Exception:
+        print(f"\n=== Something Went Wrong ===")
+
+    filename = f"draftData/draftData.json"
+    with open(filename, "w") as f:
+        json.dump(draftResults, f, indent=2)
+
+def getMatchupData(week):
+
+    folder = "all_matchup_data"
+    os.makedirs(folder, exist_ok=True)
+
+    print(f"\n=== Fetching matchpuData ===")
+    try:
+        matchups = lg.matchups(week=week)
+
+    except Exception:
+        print(f"\n=== Something Went Wrong ===")
+
+    filename = f"all_matchup_data/all_matchup_data_week{week}.json"
+    with open(filename, "w") as f:
+        json.dump(matchups, f, indent=2)
+
+def GetPlayerDataByWeek(week):
+    folder = "AllPlayerStats"
+    os.makedirs(folder, exist_ok=True)
+
+    with open("allPlayerIds.json", "r") as f:
+        player_ids = json.load(f)
 
 
-def save_all_waiver_wire_players_weekly_stats(league, week):
-    """
-    Saves all waiver wire players for every position including weekly stats.
-    Each player is saved as a JSON file in a folder for their position.
-    Retrieves the list of free agents as of the given week.
-    """
-    positions = ["QB", "RB", "WR", "TE", "K", "DEF"]  # all positions
+    # # --------------------------
+    # # STEP 3 — LOOP THROUGH EVERY WEEK
+    # # --------------------------
+    os.makedirs("AllPlayerStats", exist_ok=True)
 
-    for position in positions:
-        folder = f"free_agents_in_week_{week}/{position}"
-        os.makedirs(folder, exist_ok=True)
+    print(f"\n=== Fetching stats for WEEK {week} ===")
 
-        # Get free agents for this position for the specific week
-        free_agents = league.free_agents(position, week=week)  # <--- specify week here
-        players = list(free_agents.values()) if isinstance(free_agents, dict) else free_agents
-
-        print(f"Saving {len(players)} free-agent {position}s with weekly stats for week {week}...")
-
-        for player in players:
-            pid = player["player_id"]
-            safe_name = player["name"].replace(" ", "_").replace("/", "_")
-            file_name = f"{pid}_{safe_name}.json"
-            file_path = os.path.join(folder, file_name)
-
-            # Get the player's stats for that week
-            try:
-                week_stats_list = league.player_stats([pid], "week", week=week)
-                weekly_stats = week_stats_list if week_stats_list else [{}]
-            except Exception:
-                weekly_stats = [{}]
-
-            player["weekly_stats"] = weekly_stats
-
-            # Save JSON
-            with open(file_path, "w") as f:
-                json.dump(player, f, indent=4)
-
-            print(f"Saved {player['name']} ({position}) → {file_path}")
+    weekly_stats = {}
 
 
+    try:
+        stats = lg.player_stats(
+            player_ids=player_ids,   # MUST be a list
+            req_type="week",
+            week=week
+        )
 
+    except Exception:
+        print("Error")
+    # Save to file
+    filename = f"AllPlayerStats/week_{week}.json"
+    with open(filename, "w") as f:
+        json.dump(stats, f, indent=2)
 
+    print(f"Saved: {filename}")
+    print("\n✓ DONE — weekly stat files saved in AllPlayerStats/")
     
-sc = OAuth2(None, None, from_file='oauth2Josh.json')
-
-#get nfl leagues (connected to player)
-gm = yfa.Game(sc, 'nfl')
-#leagues = gm.league_ids()
-
-#print(leagues)
-#Get League for this year
-GirdermaGridironnLeague2025Id = '461.l.111150'
-lg = gm.to_league(GirdermaGridironnLeague2025Id)
-
-# all_teams = lg.teams()
-
-# # Print to check
-# print(all_teams)
-
-# # Save to JSON file
-# with open("all_teams_data.json", "w") as f:
-#     json.dump(all_teams, f, indent=4)
-
-# print("All teams data saved to all_teams_data.json")
 
 
 
+#RUN THIS CODE AFTER WEEK 13
+#GetPlayerDataByWeek(13)
+#save_team_rosters_with_weekly_stats(13)
+#getTransactionData("add")
+#getTransactionData("drop")
+#getMatchupData(13)
 
-for i in range(1,12):
-    all_matchups = lg.matchups(i)
-    with open(f"all_matchup_data_week{i}.json", "w") as f:
-        json.dump(all_matchups, f, indent=4)
-
-print(all_matchups)
-
-
-
-
-
-
-
-#print(getCurrentWeek(lg))
-
-#authroize("Josh")
-
-#save_team_rosters_with_weekly_stats(lg, 12)
-
-# save_all_waiver_wire_players_weekly_stats(lg, 1)
-# save_all_waiver_wire_players_weekly_stats(lg, 2)
-# save_all_waiver_wire_players_weekly_stats(lg, 3)
-# save_all_waiver_wire_players_weekly_stats(lg, 4)
-# save_all_waiver_wire_players_weekly_stats(lg, 5)
-# save_all_waiver_wire_players_weekly_stats(lg, 6)
-# save_all_waiver_wire_players_weekly_stats(lg, 7)
-# save_all_waiver_wire_players_weekly_stats(lg, 8)
-# save_all_waiver_wire_players_weekly_stats(lg, 9)
-# save_all_waiver_wire_players_weekly_stats(lg, 10)
-# save_all_waiver_wire_players_weekly_stats(lg, 11)
-# save_all_waiver_wire_players_weekly_stats(lg, 12)
 
 
 
