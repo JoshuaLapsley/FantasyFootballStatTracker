@@ -1,5 +1,54 @@
 [
   {
+    "transaction_key": "461.l.111150.tr.454",
+    "transaction_id": "454",
+    "type": "drop",
+    "status": "successful",
+    "timestamp": "1764685797",
+    "players": {
+      "0": {
+        "player": [
+          [
+            {
+              "player_key": "461.p.41900"
+            },
+            {
+              "player_id": "41900"
+            },
+            {
+              "name": {
+                "full": "Bhayshul Tuten",
+                "first": "Bhayshul",
+                "last": "Tuten",
+                "ascii_first": "Bhayshul",
+                "ascii_last": "Tuten"
+              }
+            },
+            {
+              "editorial_team_abbr": "Jax"
+            },
+            {
+              "display_position": "RB"
+            },
+            {
+              "position_type": "O"
+            }
+          ],
+          {
+            "transaction_data": {
+              "type": "drop",
+              "source_type": "team",
+              "source_team_key": "461.l.111150.t.11",
+              "source_team_name": "Tsuga\u2019s Tuck Shop",
+              "destination_type": "waivers"
+            }
+          }
+        ]
+      },
+      "count": 1
+    }
+  },
+  {
     "transaction_key": "461.l.111150.tr.453",
     "transaction_id": "453",
     "type": "add/drop",

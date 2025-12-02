@@ -21,12 +21,11 @@ def getCurrentWeek():
     
 def save_team_rosters_with_weekly_stats(week):
     """
-    Loops through all teams and saves each team's roster for every week in the given range,
-    including each player's actual weekly stats (no projected points).
+    Saves every team's roster for the given week, including each player's real weekly stats.
+    Output: team_rosters_weekly_stats_week_<week>/<team_name>_week_<week>_roster.json
     """
-    teams = lg.teams()  # dict of all teams
 
-    # Base folder
+    teams = lg.teams()              # dict of all teams
     base_folder = f"team_rosters_weekly_stats_week_{week}"
     os.makedirs(base_folder, exist_ok=True)
 
@@ -34,39 +33,52 @@ def save_team_rosters_with_weekly_stats(week):
         team_name = team_data["name"]
         safe_team_name = team_name.replace(" ", "_").replace("/", "_")
 
-        # Convert team_key → team object
+        # Convert team key → team object
         team = lg.to_team(team_key)
 
-        
+        # Get roster for that week
         try:
-            # Get roster for the week
-            roster = team.roster(week=week)  # list of players
+            roster = team.roster(week=week)
         except Exception as e:
-            print(f"Failed to get roster for {team_name}, week {week}: {e}")
+            print(f"Failed to fetch roster for {team_name} (week {week}): {e}")
             roster = []
 
-        # Add stats for each player
+        # Add weekly stats to every player
         for player in roster:
-            pid = player["player_id"]
+            pid = player.get("player_id")
+
+            if not pid:
+                player["weekly_stats"] = {}
+                continue
+
             try:
-                week_stats_list = lg.player_stats([pid], "week", week=week)
-                if week_stats_list:
-                    player["weekly_stats"] = week_stats_list[0]
+                stats_list = lg.player_stats([pid], "week", week=week)
+
+                if stats_list:
+                    player["weekly_stats"] = stats_list[0]
                 else:
                     player["weekly_stats"] = {}
             except Exception:
                 player["weekly_stats"] = {}
 
-        # Build JSON
-        data = { f"{team_name}_week_{week}_roster": roster }
+        # Build output JSON document
+        data = {
+            f"{team_name}_week_{week}": roster
+        }
 
-        # Save file
+        # File path
+        output_path = os.path.join(
+            base_folder,
+            f"{safe_team_name}_week_{week}.json"
+        )
+
+        # Save the JSON file
         try:
-            with open("all_player_ids", "w") as f:
-                json.dump(all_players, f, indent=4)
-            print(f"Saved {len(all_players)} player IDs to {output_path}")
+            with open(output_path, "w") as f:
+                json.dump(data, f, indent=4)
+            print(f"Saved {team_name} week {week} roster → {output_path}")
         except Exception as ex:
-            print(f"Error saving player list: {ex}")
+            print(f"Error saving {team_name} roster: {ex}")
 
 def getTransactionData(tran_type):
 
@@ -154,12 +166,12 @@ def GetPlayerDataByWeek(week):
 
 
 
-#RUN THIS CODE AFTER WEEK 13
-#GetPlayerDataByWeek(13)
-#save_team_rosters_with_weekly_stats(13)
-#getTransactionData("add")
-#getTransactionData("drop")
-#getMatchupData(13)
+#RUN THIS CODE AFTER WEEK 14
+# GetPlayerDataByWeek(14)
+#save_team_rosters_with_weekly_stats(14)
+# getTransactionData("add")
+# getTransactionData("drop")
+# getMatchupData(14)
 
 
 
