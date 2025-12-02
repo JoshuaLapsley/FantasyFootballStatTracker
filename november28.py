@@ -4,9 +4,10 @@ import math
 
 from yahoo_oauth import OAuth2
 import yahoo_fantasy_api as yfa
+from datetime import datetime
 
 # Authenticate
-sc = OAuth2(None, None, from_file='oauth2Josh.json')
+sc = OAuth2(None, None, from_file='oauth2.json')
 gm = yfa.Game(sc, 'nfl')
 
 # Get league object
@@ -378,23 +379,85 @@ def sum_actual_points_of_optimal_lineup(weekly_roster):
     return total
 
 def net_gain_from_trade(manager_name, players_in, players_out, roster_week, start_week, end_week):
+
     before = future_points_with_frozen_roster_actual(manager_name, roster_week, start_week, end_week)
     after = future_points_with_frozen_roster_actual_with_trade(manager_name, roster_week, start_week, players_out, players_in, end_week)
     gain = after-before
     weeks = end_week - start_week
-    return gain, gain/weeks 
+    if weeks == 0:
+    
+        return 0, 0
+    else:
+
+        return gain, gain/weeks 
+
+def GetTradeData(weeksCompleted):
+    season_start = datetime(2025, 9, 4)
+
+    with open("transactions/trade-transactions.json", "r") as f:
+        trades = json.load(f)
+
+    trade_summary = []
+
+    for trade in trades:
+        trader = trade["trader_team_name"]
+        tradee = trade["tradee_team_name"]
+        trade_time = datetime.fromtimestamp(int(trade["timestamp"]))
+        
+        # Calculate fantasy week
+        delta_days = (trade_time - season_start).days
+        fantasy_week = (delta_days // 7) + 1  # integer division, week starts at 1
+        
+        trader_gave = []
+        trader_received = []
+
+        for player_entry in trade["players"].values():
+            if isinstance(player_entry, dict) and "player" in player_entry:
+                player_name = player_entry["player"][0][2]["name"]["full"]
+                transaction_data = player_entry["player"][1]["transaction_data"][0]
+                
+                if transaction_data["source_team_name"] == trader:
+                    trader_gave.append(player_name)
+                else:
+                    trader_received.append(player_name)
+        
+        trade_summary.append({
+            "trader_team": trader,
+            "tradee_team": tradee,
+            "players_trader_gave": trader_gave,
+            "players_trader_received": trader_received,
+            "fantasy_week": fantasy_week
+        })
 
 
+    for trade in trade_summary:
+        fantasy_week = trade["fantasy_week"]
 
-net_gain, net_gain_per_week = net_gain_from_trade(manager_name="No Punts Intented",
-                                                        roster_week=4,
-                                                        start_week=5,
-                                                        players_in=["Jaxon Smith-Njigba", "Jonathan Taylor"],
-                                                        players_out="DK Metcalf",
-                                                        end_week=12)
+        # Trader's net gain
+        trader_net_gain, trader_net_gain_per_week = net_gain_from_trade(
+            manager_name=trade["trader_team"],
+            roster_week=fantasy_week - 1,
+            start_week=fantasy_week,
+            players_in=trade["players_trader_received"],
+            players_out=trade["players_trader_gave"],
+            end_week=13
+        )
 
-print(f"net gain", net_gain)
-print(f"net gain per week", net_gain_per_week)
+        # Tradee's net gain
+        tradee_net_gain, tradee_net_gain_per_week = net_gain_from_trade(
+            manager_name=trade["tradee_team"],
+            roster_week=fantasy_week - 1,
+            start_week=fantasy_week,
+            players_in=trade["players_trader_gave"],
+            players_out=trade["players_trader_received"],
+            end_week=13
+        )
+
+        print(f"Trade Week {fantasy_week}: {trade['trader_team']} ↔ {trade['tradee_team']}")
+        print(f"  {trade['trader_team']} received: {', '.join(trade['players_trader_received'])}")
+        print(f"  {trade['tradee_team']} received: {', '.join(trade['players_trader_gave'])}")
+        print(f"  {trade['trader_team']} Net Gain: {round(trader_net_gain)}, Net Gain/Week: {round(trader_net_gain_per_week)}")
+        print(f"  {trade['tradee_team']} Net Gain: {round(tradee_net_gain)}, Net Gain/Week: {round(tradee_net_gain_per_week)}\n")
 
 
 
