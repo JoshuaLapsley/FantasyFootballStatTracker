@@ -3,11 +3,12 @@
         {
             "player_id": 30123,
             "name": "Patrick Mahomes",
+            "editorial_team_abbr": "KC",
             "position_type": "O",
             "eligible_positions": [
                 "QB"
             ],
-            "status": "",
+            "status": "Q",
             "selected_position": "QB",
             "weekly_stats": {
                 "player_id": 30123,
@@ -33,6 +34,7 @@
         {
             "player_id": 40121,
             "name": "Michael Wilson",
+            "editorial_team_abbr": "Ari",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -64,6 +66,7 @@
         {
             "player_id": 41819,
             "name": "Jayden Higgins",
+            "editorial_team_abbr": "Hou",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -95,12 +98,13 @@
         {
             "player_id": 41048,
             "name": "Tyrone Tracy Jr.",
+            "editorial_team_abbr": "NYG",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
                 "W/R/T"
             ],
-            "status": "Q",
+            "status": "",
             "selected_position": "RB",
             "weekly_stats": {
                 "player_id": 41048,
@@ -126,6 +130,7 @@
         {
             "player_id": 33996,
             "name": "Kenneth Walker III",
+            "editorial_team_abbr": "KC",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -157,12 +162,13 @@
         {
             "player_id": 31840,
             "name": "T.J. Hockenson",
+            "editorial_team_abbr": "Min",
             "position_type": "O",
             "eligible_positions": [
                 "TE",
                 "W/R/T"
             ],
-            "status": "",
+            "status": "Q",
             "selected_position": "TE",
             "weekly_stats": {
                 "player_id": 31840,
@@ -188,6 +194,7 @@
         {
             "player_id": 34099,
             "name": "Chig Okonkwo",
+            "editorial_team_abbr": "Was",
             "position_type": "O",
             "eligible_positions": [
                 "TE",
@@ -219,6 +226,7 @@
         {
             "player_id": 40883,
             "name": "Brian Thomas Jr.",
+            "editorial_team_abbr": "Jax",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -250,6 +258,7 @@
         {
             "player_id": 33514,
             "name": "Chuba Hubbard",
+            "editorial_team_abbr": "Car",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -281,12 +290,13 @@
         {
             "player_id": 26658,
             "name": "Zach Ertz",
+            "editorial_team_abbr": "Was",
             "position_type": "O",
             "eligible_positions": [
                 "TE",
                 "W/R/T"
             ],
-            "status": "",
+            "status": "NA",
             "selected_position": "BN",
             "weekly_stats": {
                 "player_id": 26658,
@@ -312,6 +322,7 @@
         {
             "player_id": 40893,
             "name": "Marvin Harrison Jr.",
+            "editorial_team_abbr": "Ari",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -343,12 +354,13 @@
         {
             "player_id": 41009,
             "name": "Troy Franklin",
+            "editorial_team_abbr": "Den",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
                 "W/R/T"
             ],
-            "status": "",
+            "status": "Q",
             "selected_position": "BN",
             "weekly_stats": {
                 "player_id": 41009,
@@ -374,6 +386,7 @@
         {
             "player_id": 41988,
             "name": "Tyler Loop",
+            "editorial_team_abbr": "Bal",
             "position_type": "K",
             "eligible_positions": [
                 "K"
@@ -395,7 +408,8 @@
         },
         {
             "player_id": 100002,
-            "name": "Buffalo",
+            "name": "Bills",
+            "editorial_team_abbr": "Buf",
             "position_type": "DT",
             "eligible_positions": [
                 "DEF"
@@ -404,7 +418,7 @@
             "selected_position": "DEF",
             "weekly_stats": {
                 "player_id": 100002,
-                "name": "Buffalo",
+                "name": "Bills",
                 "position_type": "DT",
                 "Pts Allow": 23.0,
                 "Sack": 0.0,

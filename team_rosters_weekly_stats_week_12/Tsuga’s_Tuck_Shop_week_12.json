@@ -3,6 +3,7 @@
         {
             "player_id": 29325,
             "name": "Jacoby Brissett",
+            "editorial_team_abbr": "Ari",
             "position_type": "O",
             "eligible_positions": [
                 "QB"
@@ -33,6 +34,7 @@
         {
             "player_id": 40042,
             "name": "Jordan Addison",
+            "editorial_team_abbr": "Min",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -64,6 +66,7 @@
         {
             "player_id": 27581,
             "name": "Davante Adams",
+            "editorial_team_abbr": "LAR",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -95,6 +98,7 @@
         {
             "player_id": 41791,
             "name": "Ashton Jeanty",
+            "editorial_team_abbr": "LV",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -126,6 +130,7 @@
         {
             "player_id": 30295,
             "name": "Aaron Jones Sr.",
+            "editorial_team_abbr": "Min",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -157,6 +162,7 @@
         {
             "player_id": 33392,
             "name": "Kyle Pitts Sr.",
+            "editorial_team_abbr": "Atl",
             "position_type": "O",
             "eligible_positions": [
                 "TE",
@@ -188,6 +194,7 @@
         {
             "player_id": 41902,
             "name": "Woody Marks",
+            "editorial_team_abbr": "Hou",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -219,6 +226,7 @@
         {
             "player_id": 30197,
             "name": "Chris Godwin Jr.",
+            "editorial_team_abbr": "TB",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -250,12 +258,13 @@
         {
             "player_id": 41827,
             "name": "Mason Taylor",
+            "editorial_team_abbr": "NYJ",
             "position_type": "O",
             "eligible_positions": [
                 "TE",
                 "W/R/T"
             ],
-            "status": "",
+            "status": "Q",
             "selected_position": "BN",
             "weekly_stats": {
                 "player_id": 41827,
@@ -281,6 +290,7 @@
         {
             "player_id": 41900,
             "name": "Bhayshul Tuten",
+            "editorial_team_abbr": "Jax",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -312,12 +322,13 @@
         {
             "player_id": 40908,
             "name": "Ladd McConkey",
+            "editorial_team_abbr": "LAC",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
                 "W/R/T"
             ],
-            "status": "",
+            "status": "Q",
             "selected_position": "BN",
             "weekly_stats": {
                 "player_id": 40908,
@@ -343,6 +354,7 @@
         {
             "player_id": 28227,
             "name": "Cairo Santos",
+            "editorial_team_abbr": "Chi",
             "position_type": "K",
             "eligible_positions": [
                 "K"
@@ -364,7 +376,8 @@
         },
         {
             "player_id": 100026,
-            "name": "Seattle",
+            "name": "Seahawks",
+            "editorial_team_abbr": "Sea",
             "position_type": "DT",
             "eligible_positions": [
                 "DEF"
@@ -373,7 +386,7 @@
             "selected_position": "DEF",
             "weekly_stats": {
                 "player_id": 100026,
-                "name": "Seattle",
+                "name": "Seahawks",
                 "position_type": "DT",
                 "Pts Allow": 24.0,
                 "Sack": 4.0,
@@ -397,6 +410,7 @@
         {
             "player_id": 33963,
             "name": "Drake London",
+            "editorial_team_abbr": "Atl",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -428,6 +442,7 @@
         {
             "player_id": 31908,
             "name": "Terry McLaurin",
+            "editorial_team_abbr": "Was",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -459,6 +474,7 @@
         {
             "player_id": 32671,
             "name": "Joe Burrow",
+            "editorial_team_abbr": "Cin",
             "position_type": "O",
             "eligible_positions": [
                 "QB"

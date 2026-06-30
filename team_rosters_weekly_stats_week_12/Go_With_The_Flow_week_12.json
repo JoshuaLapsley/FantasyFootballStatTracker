@@ -3,6 +3,7 @@
         {
             "player_id": 32723,
             "name": "Jalen Hurts",
+            "editorial_team_abbr": "Phi",
             "position_type": "O",
             "eligible_positions": [
                 "QB"
@@ -33,12 +34,13 @@
         {
             "player_id": 32685,
             "name": "Jerry Jeudy",
+            "editorial_team_abbr": "Cle",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
                 "W/R/T"
             ],
-            "status": "",
+            "status": "Q",
             "selected_position": "WR",
             "weekly_stats": {
                 "player_id": 32685,
@@ -64,6 +66,7 @@
         {
             "player_id": 40039,
             "name": "Zay Flowers",
+            "editorial_team_abbr": "Bal",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -95,6 +98,7 @@
         {
             "player_id": 33413,
             "name": "Travis Etienne Jr.",
+            "editorial_team_abbr": "NO",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -126,6 +130,7 @@
         {
             "player_id": 40196,
             "name": "Chase Brown",
+            "editorial_team_abbr": "Cin",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -157,6 +162,7 @@
         {
             "player_id": 31019,
             "name": "Dallas Goedert",
+            "editorial_team_abbr": "Phi",
             "position_type": "O",
             "eligible_positions": [
                 "TE",
@@ -188,6 +194,7 @@
         {
             "player_id": 41823,
             "name": "TreVeyon Henderson",
+            "editorial_team_abbr": "NE",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -219,12 +226,13 @@
         {
             "player_id": 32003,
             "name": "Darius Slayton",
+            "editorial_team_abbr": "NYG",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
                 "W/R/T"
             ],
-            "status": "",
+            "status": "Q",
             "selected_position": "BN",
             "weekly_stats": {
                 "player_id": 32003,
@@ -250,6 +258,7 @@
         {
             "player_id": 40114,
             "name": "Tre Tucker",
+            "editorial_team_abbr": "LV",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -281,6 +290,7 @@
         {
             "player_id": 29235,
             "name": "Jared Goff",
+            "editorial_team_abbr": "Det",
             "position_type": "O",
             "eligible_positions": [
                 "QB"
@@ -311,6 +321,7 @@
         {
             "player_id": 40119,
             "name": "Tyjae Spears",
+            "editorial_team_abbr": "Ten",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -342,6 +353,7 @@
         {
             "player_id": 33537,
             "name": "Evan McPherson",
+            "editorial_team_abbr": "Cin",
             "position_type": "K",
             "eligible_positions": [
                 "K"
@@ -363,7 +375,8 @@
         },
         {
             "player_id": 100017,
-            "name": "New England",
+            "name": "Patriots",
+            "editorial_team_abbr": "NE",
             "position_type": "DT",
             "eligible_positions": [
                 "DEF"
@@ -372,7 +385,7 @@
             "selected_position": "DEF",
             "weekly_stats": {
                 "player_id": 100017,
-                "name": "New England",
+                "name": "Patriots",
                 "position_type": "DT",
                 "Pts Allow": 14.0,
                 "Sack": 1.0,
@@ -395,7 +408,8 @@
         },
         {
             "player_id": 100027,
-            "name": "Tampa Bay",
+            "name": "Buccaneers",
+            "editorial_team_abbr": "TB",
             "position_type": "DT",
             "eligible_positions": [
                 "DEF"
@@ -404,7 +418,7 @@
             "selected_position": "BN",
             "weekly_stats": {
                 "player_id": 100027,
-                "name": "Tampa Bay",
+                "name": "Buccaneers",
                 "position_type": "DT",
                 "Pts Allow": 28.0,
                 "Sack": 1.0,
@@ -428,13 +442,13 @@
         {
             "player_id": 40899,
             "name": "Malik Nabers",
+            "editorial_team_abbr": "NYG",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
-                "W/R/T",
-                "IR"
+                "W/R/T"
             ],
-            "status": "IR",
+            "status": "Q",
             "selected_position": "IR",
             "weekly_stats": {
                 "player_id": 40899,
@@ -460,13 +474,13 @@
         {
             "player_id": 32695,
             "name": "Brandon Aiyuk",
+            "editorial_team_abbr": "SF",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
-                "W/R/T",
-                "IR"
+                "W/R/T"
             ],
-            "status": "PUP-R",
+            "status": "DNR",
             "selected_position": "IR",
             "weekly_stats": {
                 "player_id": 32695,

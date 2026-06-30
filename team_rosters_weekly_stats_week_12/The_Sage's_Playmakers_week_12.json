@@ -3,6 +3,7 @@
         {
             "player_id": 30971,
             "name": "Baker Mayfield",
+            "editorial_team_abbr": "TB",
             "position_type": "O",
             "eligible_positions": [
                 "QB"
@@ -33,6 +34,7 @@
         {
             "player_id": 33398,
             "name": "DeVonta Smith",
+            "editorial_team_abbr": "Phi",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -64,12 +66,13 @@
         {
             "player_id": 41793,
             "name": "Tetairoa McMillan",
+            "editorial_team_abbr": "Car",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
                 "W/R/T"
             ],
-            "status": "",
+            "status": "Q",
             "selected_position": "WR",
             "weekly_stats": {
                 "player_id": 41793,
@@ -95,6 +98,7 @@
         {
             "player_id": 30121,
             "name": "Christian McCaffrey",
+            "editorial_team_abbr": "SF",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -125,7 +129,8 @@
         },
         {
             "player_id": 34054,
-            "name": "Brian Robinson Jr.",
+            "name": "Brian Robinson",
+            "editorial_team_abbr": "Atl",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -135,7 +140,7 @@
             "selected_position": "RB",
             "weekly_stats": {
                 "player_id": 34054,
-                "name": "Brian Robinson Jr.",
+                "name": "Brian Robinson",
                 "position_type": "O",
                 "Pass Yds": 0.0,
                 "Pass TD": 0.0,
@@ -157,12 +162,13 @@
         {
             "player_id": 30142,
             "name": "David Njoku",
+            "editorial_team_abbr": "LAC",
             "position_type": "O",
             "eligible_positions": [
                 "TE",
                 "W/R/T"
             ],
-            "status": "",
+            "status": "Q",
             "selected_position": "TE",
             "weekly_stats": {
                 "player_id": 30142,
@@ -188,6 +194,7 @@
         {
             "player_id": 32843,
             "name": "Darnell Mooney",
+            "editorial_team_abbr": "NYG",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -219,6 +226,7 @@
         {
             "player_id": 41810,
             "name": "Jaxson Dart",
+            "editorial_team_abbr": "NYG",
             "position_type": "O",
             "eligible_positions": [
                 "QB"
@@ -249,6 +257,7 @@
         {
             "player_id": 41951,
             "name": "Oronde Gadsden",
+            "editorial_team_abbr": "LAC",
             "position_type": "O",
             "eligible_positions": [
                 "TE",
@@ -280,12 +289,13 @@
         {
             "player_id": 40118,
             "name": "De'Von Achane",
+            "editorial_team_abbr": "Mia",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
                 "W/R/T"
             ],
-            "status": "",
+            "status": "Q",
             "selected_position": "BN",
             "weekly_stats": {
                 "player_id": 40118,
@@ -311,6 +321,7 @@
         {
             "player_id": 41969,
             "name": "Ollie Gordon II",
+            "editorial_team_abbr": "Mia",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -342,6 +353,7 @@
         {
             "player_id": 34659,
             "name": "Rashid Shaheed",
+            "editorial_team_abbr": "Sea",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -373,6 +385,7 @@
         {
             "player_id": 40819,
             "name": "Brandon Aubrey",
+            "editorial_team_abbr": "Dal",
             "position_type": "K",
             "eligible_positions": [
                 "K"
@@ -394,7 +407,8 @@
         },
         {
             "player_id": 100005,
-            "name": "Cleveland",
+            "name": "Browns",
+            "editorial_team_abbr": "Cle",
             "position_type": "DT",
             "eligible_positions": [
                 "DEF"
@@ -403,7 +417,7 @@
             "selected_position": "DEF",
             "weekly_stats": {
                 "player_id": 100005,
-                "name": "Cleveland",
+                "name": "Browns",
                 "position_type": "DT",
                 "Pts Allow": 10.0,
                 "Sack": 10.0,
@@ -427,13 +441,13 @@
         {
             "player_id": 40064,
             "name": "Sam LaPorta",
+            "editorial_team_abbr": "Det",
             "position_type": "O",
             "eligible_positions": [
                 "TE",
-                "W/R/T",
-                "IR"
+                "W/R/T"
             ],
-            "status": "IR",
+            "status": "Q",
             "selected_position": "IR",
             "weekly_stats": {
                 "player_id": 40064,
@@ -459,13 +473,13 @@
         {
             "player_id": 27535,
             "name": "Mike Evans",
+            "editorial_team_abbr": "SF",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
-                "W/R/T",
-                "IR"
+                "W/R/T"
             ],
-            "status": "IR",
+            "status": "",
             "selected_position": "IR",
             "weekly_stats": {
                 "player_id": 27535,
@@ -491,13 +505,13 @@
         {
             "player_id": 40958,
             "name": "Trey Benson",
+            "editorial_team_abbr": "Ari",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
-                "W/R/T",
-                "IR"
+                "W/R/T"
             ],
-            "status": "IR-R",
+            "status": "Q",
             "selected_position": "IR",
             "weekly_stats": {
                 "player_id": 40958,

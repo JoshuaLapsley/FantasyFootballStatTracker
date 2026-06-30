@@ -3,6 +3,7 @@
         {
             "player_id": 9265,
             "name": "Matthew Stafford",
+            "editorial_team_abbr": "LAR",
             "position_type": "O",
             "eligible_positions": [
                 "QB"
@@ -33,6 +34,7 @@
         {
             "player_id": 40168,
             "name": "Puka Nacua",
+            "editorial_team_abbr": "LAR",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -64,12 +66,13 @@
         {
             "player_id": 34007,
             "name": "George Pickens",
+            "editorial_team_abbr": "Dal",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
                 "W/R/T"
             ],
-            "status": "Q",
+            "status": "",
             "selected_position": "WR",
             "weekly_stats": {
                 "player_id": 34007,
@@ -95,6 +98,7 @@
         {
             "player_id": 34447,
             "name": "Jaylen Warren",
+            "editorial_team_abbr": "Pit",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -126,6 +130,7 @@
         {
             "player_id": 34047,
             "name": "Rachaad White",
+            "editorial_team_abbr": "Was",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -157,6 +162,7 @@
         {
             "player_id": 41799,
             "name": "Tyler Warren",
+            "editorial_team_abbr": "Ind",
             "position_type": "O",
             "eligible_positions": [
                 "TE",
@@ -188,6 +194,7 @@
         {
             "player_id": 40093,
             "name": "Cedric Tillman",
+            "editorial_team_abbr": "Cle",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -219,6 +226,7 @@
         {
             "player_id": 40911,
             "name": "Keon Coleman",
+            "editorial_team_abbr": "Buf",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -250,6 +258,7 @@
         {
             "player_id": 8795,
             "name": "Joe Flacco",
+            "editorial_team_abbr": "Cin",
             "position_type": "O",
             "eligible_positions": [
                 "QB"
@@ -280,6 +289,7 @@
         {
             "player_id": 30227,
             "name": "Samaje Perine",
+            "editorial_team_abbr": "Cin",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -311,12 +321,13 @@
         {
             "player_id": 40993,
             "name": "Bucky Irving",
+            "editorial_team_abbr": "TB",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
                 "W/R/T"
             ],
-            "status": "",
+            "status": "Q",
             "selected_position": "BN",
             "weekly_stats": {
                 "player_id": 40993,
@@ -342,6 +353,7 @@
         {
             "player_id": 41093,
             "name": "Will Reichard",
+            "editorial_team_abbr": "Min",
             "position_type": "K",
             "eligible_positions": [
                 "K"
@@ -364,6 +376,7 @@
         {
             "player_id": 34344,
             "name": "Cameron Dicker",
+            "editorial_team_abbr": "LAC",
             "position_type": "K",
             "eligible_positions": [
                 "K"
@@ -385,7 +398,8 @@
         },
         {
             "player_id": 100009,
-            "name": "Green Bay",
+            "name": "Packers",
+            "editorial_team_abbr": "GB",
             "position_type": "DT",
             "eligible_positions": [
                 "DEF"
@@ -394,7 +408,7 @@
             "selected_position": "DEF",
             "weekly_stats": {
                 "player_id": 100009,
-                "name": "Green Bay",
+                "name": "Packers",
                 "position_type": "DT",
                 "Pts Allow": 6.0,
                 "Sack": 5.0,
@@ -418,13 +432,13 @@
         {
             "player_id": 33965,
             "name": "Garrett Wilson",
+            "editorial_team_abbr": "NYJ",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
-                "W/R/T",
-                "IR"
+                "W/R/T"
             ],
-            "status": "IR",
+            "status": "Q",
             "selected_position": "IR",
             "weekly_stats": {
                 "player_id": 33965,

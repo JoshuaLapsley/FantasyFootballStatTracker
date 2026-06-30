@@ -3,11 +3,12 @@
         {
             "player_id": 30977,
             "name": "Josh Allen",
+            "editorial_team_abbr": "Buf",
             "position_type": "O",
             "eligible_positions": [
                 "QB"
             ],
-            "status": "",
+            "status": "Q",
             "selected_position": "QB",
             "weekly_stats": {
                 "player_id": 30977,
@@ -33,6 +34,7 @@
         {
             "player_id": 41804,
             "name": "Emeka Egbuka",
+            "editorial_team_abbr": "TB",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -64,6 +66,7 @@
         {
             "player_id": 31896,
             "name": "DK Metcalf",
+            "editorial_team_abbr": "Pit",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -95,6 +98,7 @@
         {
             "player_id": 40055,
             "name": "Bijan Robinson",
+            "editorial_team_abbr": "Atl",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
@@ -126,12 +130,13 @@
         {
             "player_id": 33991,
             "name": "Breece Hall",
+            "editorial_team_abbr": "NYJ",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
                 "W/R/T"
             ],
-            "status": "",
+            "status": "Q",
             "selected_position": "RB",
             "weekly_stats": {
                 "player_id": 33991,
@@ -157,12 +162,13 @@
         {
             "player_id": 30259,
             "name": "George Kittle",
+            "editorial_team_abbr": "SF",
             "position_type": "O",
             "eligible_positions": [
                 "TE",
                 "W/R/T"
             ],
-            "status": "",
+            "status": "Q",
             "selected_position": "TE",
             "weekly_stats": {
                 "player_id": 30259,
@@ -188,6 +194,7 @@
         {
             "player_id": 32887,
             "name": "Jauan Jennings",
+            "editorial_team_abbr": "Min",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -219,12 +226,13 @@
         {
             "player_id": 33423,
             "name": "Javonte Williams",
+            "editorial_team_abbr": "Dal",
             "position_type": "O",
             "eligible_positions": [
                 "RB",
                 "W/R/T"
             ],
-            "status": "",
+            "status": "Q",
             "selected_position": "BN",
             "weekly_stats": {
                 "player_id": 33423,
@@ -250,12 +258,13 @@
         {
             "player_id": 26699,
             "name": "Keenan Allen",
+            "editorial_team_abbr": "LAC",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
                 "W/R/T"
             ],
-            "status": "",
+            "status": "NA",
             "selected_position": "BN",
             "weekly_stats": {
                 "player_id": 26699,
@@ -281,6 +290,7 @@
         {
             "player_id": 33989,
             "name": "Christian Watson",
+            "editorial_team_abbr": "GB",
             "position_type": "O",
             "eligible_positions": [
                 "WR",
@@ -312,6 +322,7 @@
         {
             "player_id": 33113,
             "name": "Juwan Johnson",
+            "editorial_team_abbr": "NO",
             "position_type": "O",
             "eligible_positions": [
                 "TE",
@@ -343,6 +354,7 @@
         {
             "player_id": 41062,
             "name": "Cam Little",
+            "editorial_team_abbr": "Jax",
             "position_type": "K",
             "eligible_positions": [
                 "K"
@@ -365,6 +377,7 @@
         {
             "player_id": 28378,
             "name": "Jason Myers",
+            "editorial_team_abbr": "Sea",
             "position_type": "K",
             "eligible_positions": [
                 "K"
@@ -386,7 +399,8 @@
         },
         {
             "player_id": 100033,
-            "name": "Baltimore",
+            "name": "Ravens",
+            "editorial_team_abbr": "Bal",
             "position_type": "DT",
             "eligible_positions": [
                 "DEF"
@@ -395,7 +409,7 @@
             "selected_position": "DEF",
             "weekly_stats": {
                 "player_id": 100033,
-                "name": "Baltimore",
+                "name": "Ravens",
                 "position_type": "DT",
                 "Pts Allow": 10.0,
                 "Sack": 3.0,
