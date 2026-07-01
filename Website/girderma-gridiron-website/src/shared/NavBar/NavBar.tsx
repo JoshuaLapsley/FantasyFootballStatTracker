@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 function NavBar() {
@@ -6,10 +7,10 @@ function NavBar() {
     <nav className="NavBar">
       <div className="NavBar-brand">Girderma Gridiron</div>
       <ul className="NavBar-links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/current-season">Current Season</a></li>
-        <li><a href="/league-history">League History</a></li>
-        <li><a href="/hall-of-fame">Hall of Fame</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/current-season">Current Season</Link></li>
+        <li><Link to="/league-history">League History</Link></li>
+        <li><Link to="/hall-of-fame">Hall of Fame</Link></li>
       </ul>
     </nav>
   );
