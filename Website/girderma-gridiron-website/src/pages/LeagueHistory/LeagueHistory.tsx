@@ -45,6 +45,11 @@ const SUB_TABS: SubTabConfig[] = [
 // instead of being owned internally by each TabComponent. That's what lets
 // the selection survive switching between year tabs: every YearContent
 // instance is kept in sync with the same shared index.
+//
+// The wrapping div with the touch handlers below stops swipe/scroll
+// gestures on this inner tab strip from bubbling up to the outer year
+// TabComponent — without it, scrolling the sub-tabs on mobile also drags
+// the year tabs at the same time.
 // ---------------------------------------------------------------------------
 
 interface YearContentProps {
@@ -63,22 +68,29 @@ const YearContent: React.FC<YearContentProps> = ({ year, activeSubTab, onSubTabC
   }, [activeSubTab]);
 
   return (
-    <TabComponent
-      ref={tabRef}
-      heightAdjustMode="Auto"
-      selectedItem={activeSubTab}
-      selected={(e: SelectEventArgs) => onSubTabChange(e.selectedIndex)}
+    <div
+      style={{ touchAction: 'pan-x', overscrollBehaviorX: 'contain' }}
+      onTouchStart={(e) => e.stopPropagation()}
+      onTouchMove={(e) => e.stopPropagation()}
     >
-      <TabItemsDirective>
-        {SUB_TABS.map(({ header, Component }) => (
-          <TabItemDirective
-            key={header}
-            header={{ text: header }}
-            content={() => <Component year={year} />}
-          />
-        ))}
-      </TabItemsDirective>
-    </TabComponent>
+      <TabComponent
+        ref={tabRef}
+        heightAdjustMode="Auto"
+        overflowMode="Scrollable"
+        selectedItem={activeSubTab}
+        selected={(e: SelectEventArgs) => onSubTabChange(e.selectedIndex)}
+      >
+        <TabItemsDirective>
+          {SUB_TABS.map(({ header, Component }) => (
+            <TabItemDirective
+              key={header}
+              header={{ text: header }}
+              content={() => <Component year={year} />}
+            />
+          ))}
+        </TabItemsDirective>
+      </TabComponent>
+    </div>
   );
 };
 
@@ -100,7 +112,7 @@ const RankDashboard: React.FC = () => {
     >
       <div style={{ padding: '20px', width: '100%', maxWidth: '900px' }}>
         <h2 style={{ textAlign: 'center' }}>League History</h2>
-        <TabComponent heightAdjustMode="Auto">
+        <TabComponent heightAdjustMode="Auto" overflowMode="Scrollable">
           <TabItemsDirective>
             {YEARS.map((year) => (
               <TabItemDirective
