@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState } from 'react';
 import { Year, SubTabContentProps, SubTabConfig } from '../LeagueHistory';
 
 interface TeamStanding {
@@ -28,7 +28,6 @@ interface TeamStanding {
 const RegularSeason: React.FC<SubTabContentProps> = ({ year }) => {
   const [standings, setStandings] = useState<TeamStanding[] | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const scrollWrapperRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     setStandings(null);
@@ -64,33 +63,8 @@ const RegularSeason: React.FC<SubTabContentProps> = ({ year }) => {
       <i>*Note: Divisions not displayed for 2023 and 2024. Will be updated in future</i>
       <h3 style={{ marginBottom: '16px' }}> Regular Season Standings — {year}</h3>
 
-      {/*
-        Syncfusion's TabComponent listens for horizontal swipe gestures to let
-        users switch tabs on mobile. That listener can grab the same
-        horizontal touch move this table needs for its own overflow-x
-        scrolling, so the scroll never happens. stopPropagation here (plus
-        an explicit touch-action) keeps the gesture local to the table
-        instead of letting the Tab's swipe handler eat it.
-      */}
-      <div
-        ref={scrollWrapperRef}
-        onTouchStart={(e) => e.stopPropagation()}
-        onTouchMove={(e) => e.stopPropagation()}
-        style={{
-          overflowX: 'auto',
-          touchAction: 'pan-x',
-          WebkitOverflowScrolling: 'touch',
-        }}
-      >
-        <table
-          style={{
-            width: '100%',
-            minWidth: '640px',
-            borderCollapse: 'collapse',
-            fontSize: '14px',
-            fontFamily: 'inherit',
-          }}
-        >
+      <div style={{ overflowX: 'auto' }}>
+        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '14px', fontFamily: 'inherit' }}>
           <thead>
             <tr style={{ borderBottom: '2px solid #ddd', textAlign: 'left' }}>
               <th style={thStyle}>#</th>

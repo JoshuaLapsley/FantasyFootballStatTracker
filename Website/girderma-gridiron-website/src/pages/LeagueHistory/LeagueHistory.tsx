@@ -1,4 +1,5 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect } from 'react';
+import { useState } from 'react';
 import { TabComponent, TabItemsDirective, TabItemDirective, SelectEventArgs } from '@syncfusion/ej2-react-navigations';
 
 // Required Syncfusion styles (adjust theme name if you use a different one)
@@ -46,10 +47,12 @@ const SUB_TABS: SubTabConfig[] = [
 // the selection survive switching between year tabs: every YearContent
 // instance is kept in sync with the same shared index.
 //
-// The wrapping div with the touch handlers below stops swipe/scroll
-// gestures on this inner tab strip from bubbling up to the outer year
-// TabComponent — without it, scrolling the sub-tabs on mobile also drags
-// the year tabs at the same time.
+// NOTE: We only stop touch propagation on the tab *header* strip (the row
+// of clickable tab labels), not on the whole content wrapper. Scoping it
+// this way stops a horizontal swipe on the sub-tab labels from also
+// dragging the outer year TabComponent, without blocking vertical
+// scrolling anywhere else on the page (which is what happens if you slap
+// `touchAction: 'pan-x'` + stopPropagation on a wrapper around everything).
 // ---------------------------------------------------------------------------
 
 interface YearContentProps {
@@ -67,30 +70,44 @@ const YearContent: React.FC<YearContentProps> = ({ year, activeSubTab, onSubTabC
     tabRef.current?.select(activeSubTab);
   }, [activeSubTab]);
 
+  // Scope touch handling to just the Syncfusion tab header element so
+  // swipes on the tab labels don't bubble to the outer year tabs, while
+  // leaving vertical scroll on the actual tab content untouched.
+  useEffect(() => {
+    const rootEl = (tabRef.current as any)?.element as HTMLElement | undefined;
+    const headerEl = rootEl?.querySelector('.e-tab-header') as HTMLElement | null;
+    if (!headerEl) return;
+
+    const stopTouch = (e: TouchEvent) => e.stopPropagation();
+
+    headerEl.style.touchAction = 'pan-x';
+    headerEl.addEventListener('touchstart', stopTouch, { passive: true });
+    headerEl.addEventListener('touchmove', stopTouch, { passive: true });
+
+    return () => {
+      headerEl.removeEventListener('touchstart', stopTouch);
+      headerEl.removeEventListener('touchmove', stopTouch);
+    };
+  }, []);
+
   return (
-    <div
-      style={{ touchAction: 'pan-x', overscrollBehaviorX: 'contain' }}
-      onTouchStart={(e) => e.stopPropagation()}
-      onTouchMove={(e) => e.stopPropagation()}
+    <TabComponent
+      ref={tabRef}
+      heightAdjustMode="Auto"
+      overflowMode="Scrollable"
+      selectedItem={activeSubTab}
+      selected={(e: SelectEventArgs) => onSubTabChange(e.selectedIndex)}
     >
-      <TabComponent
-        ref={tabRef}
-        heightAdjustMode="Auto"
-        overflowMode="Scrollable"
-        selectedItem={activeSubTab}
-        selected={(e: SelectEventArgs) => onSubTabChange(e.selectedIndex)}
-      >
-        <TabItemsDirective>
-          {SUB_TABS.map(({ header, Component }) => (
-            <TabItemDirective
-              key={header}
-              header={{ text: header }}
-              content={() => <Component year={year} />}
-            />
-          ))}
-        </TabItemsDirective>
-      </TabComponent>
-    </div>
+      <TabItemsDirective>
+        {SUB_TABS.map(({ header, Component }) => (
+          <TabItemDirective
+            key={header}
+            header={{ text: header }}
+            content={() => <Component year={year} />}
+          />
+        ))}
+      </TabItemsDirective>
+    </TabComponent>
   );
 };
 
