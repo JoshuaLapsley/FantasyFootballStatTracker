@@ -12,6 +12,8 @@ import RegularSeason from './RegularSeason/RegularSeason';
 import AllTimeWins from './AllTimeWins/AllTimeWins';
 import AllTimePointsFor from './AllTimePointsFor/AllTimePointsFor';
 import AllTimePointsAgainst from './AllTimePointsAgainst/AllTimePointsAgainst';
+import PointsForByPlayer from './PointsForByPlayer/PointsForByPlayer';
+import PointsAgainstByPlayer from './PointsAgainstByPlayer/PointsAgainstByPlayer';
 
 // ---------------------------------------------------------------------------
 // Types
@@ -33,13 +35,15 @@ const YEARS: Year[] = ['2023', '2024', '2025', 'All Time'];
 const SUB_TABS_YEAR: SubTabConfig[] = [
   { header: 'Team Rank over Time', Component: TeamRankOverTime },
   { header: 'Rosters', Component: Rosters },
-  { header: 'Regular Season', Component: RegularSeason },
+  { header: 'Regular Season', Component: RegularSeason }
 ];
 
 const SUB_TABS_ALL_TIME: SubTabConfig[] = [
   { header: 'All Time Wins', Component: AllTimeWins },
   { header: 'All Time Points For', Component: AllTimePointsFor },
   { header: 'All Time Points Against', Component: AllTimePointsAgainst },
+  { header: 'Points For By Player', Component: PointsForByPlayer },
+  { header: 'Points Against By Player', Component: PointsAgainstByPlayer },
 ];
 
 const getSubTabs = (year: Year): SubTabConfig[] =>

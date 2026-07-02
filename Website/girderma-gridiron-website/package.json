@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@syncfusion/ej2-base": "^33.2.3",
+    "@syncfusion/ej2-react-dropdowns": "^33.2.15",
     "@syncfusion/ej2-react-navigations": "^33.2.15",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
