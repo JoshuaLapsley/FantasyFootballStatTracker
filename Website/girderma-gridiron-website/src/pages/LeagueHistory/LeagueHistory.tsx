@@ -47,6 +47,21 @@ const SUB_TABS: SubTabConfig[] = [
 // the selection survive switching between year tabs: every YearContent
 // instance is kept in sync with the same shared index.
 //
+// Two mobile-specific fixes live in here:
+//
+// 1. swipeMode="None" — by default EJ2 Tab lets a touch/mouse drag ANYWHERE
+//    in the tab switch the active tab, not just a swipe on the header. That's
+//    what was making a vertical scroll on the page get misread as a
+//    horizontal tab-switch gesture. Turning it off means only tapping a tab
+//    label changes tabs.
+//
+// 2. Header scroll-position lock — in Scrollable overflow mode, calling
+//    select() (which we do in the effect below to keep the shared index in
+//    sync) makes Syncfusion auto-scroll the header strip to re-center the
+//    newly active tab. That's the "tab position moves" jump. We snapshot the
+//    header's scrollLeft before selecting and restore it right after, so the
+//    strip stays visually put.
+//
 // NOTE: We only stop touch propagation on the tab *header* strip (the row
 // of clickable tab labels), not on the whole content wrapper. Scoping it
 // this way stops a horizontal swipe on the sub-tab labels from also
@@ -63,30 +78,52 @@ interface YearContentProps {
 
 const YearContent: React.FC<YearContentProps> = ({ year, activeSubTab, onSubTabChange }) => {
   const tabRef = useRef<TabComponent>(null);
+  const headerScrollLeft = useRef<number>(0);
+
+  const getHeaderEl = (): HTMLElement | null => {
+    const rootEl = (tabRef.current as any)?.element as HTMLElement | undefined;
+    return (rootEl?.querySelector('.e-tab-header') as HTMLElement) ?? null;
+  };
 
   // Whenever the shared index changes (e.g. because you picked a different
-  // sub-tab while on another year), push it into this TabComponent too.
+  // sub-tab while on another year), push it into this TabComponent too —
+  // then immediately undo whatever auto-scroll that select() triggers on
+  // the header strip.
   useEffect(() => {
+    const headerEl = getHeaderEl();
+    const preservedScrollLeft = headerScrollLeft.current;
+
     tabRef.current?.select(activeSubTab);
+
+    requestAnimationFrame(() => {
+      if (headerEl) {
+        headerEl.scrollLeft = preservedScrollLeft;
+      }
+    });
   }, [activeSubTab]);
 
   // Scope touch handling to just the Syncfusion tab header element so
   // swipes on the tab labels don't bubble to the outer year tabs, while
-  // leaving vertical scroll on the actual tab content untouched.
+  // leaving vertical scroll on the actual tab content untouched. Also track
+  // the header's own scroll position so we know what to restore it to.
   useEffect(() => {
-    const rootEl = (tabRef.current as any)?.element as HTMLElement | undefined;
-    const headerEl = rootEl?.querySelector('.e-tab-header') as HTMLElement | null;
+    const headerEl = getHeaderEl();
     if (!headerEl) return;
 
     const stopTouch = (e: TouchEvent) => e.stopPropagation();
+    const trackScroll = () => {
+      headerScrollLeft.current = headerEl.scrollLeft;
+    };
 
     headerEl.style.touchAction = 'pan-x';
     headerEl.addEventListener('touchstart', stopTouch, { passive: true });
     headerEl.addEventListener('touchmove', stopTouch, { passive: true });
+    headerEl.addEventListener('scroll', trackScroll, { passive: true });
 
     return () => {
       headerEl.removeEventListener('touchstart', stopTouch);
       headerEl.removeEventListener('touchmove', stopTouch);
+      headerEl.removeEventListener('scroll', trackScroll);
     };
   }, []);
 
@@ -95,6 +132,7 @@ const YearContent: React.FC<YearContentProps> = ({ year, activeSubTab, onSubTabC
       ref={tabRef}
       heightAdjustMode="Auto"
       overflowMode="Scrollable"
+      swipeMode="None"
       selectedItem={activeSubTab}
       selected={(e: SelectEventArgs) => onSubTabChange(e.selectedIndex)}
     >
@@ -129,7 +167,7 @@ const RankDashboard: React.FC = () => {
     >
       <div style={{ padding: '20px', width: '100%', maxWidth: '900px' }}>
         <h2 style={{ textAlign: 'center' }}>League History</h2>
-        <TabComponent heightAdjustMode="Auto" overflowMode="Scrollable">
+        <TabComponent heightAdjustMode="Auto" overflowMode="Scrollable" swipeMode="None">
           <TabItemsDirective>
             {YEARS.map((year) => (
               <TabItemDirective

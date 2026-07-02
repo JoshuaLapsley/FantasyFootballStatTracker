@@ -302,6 +302,7 @@
           "renewed": "461_111150",
           "felo_tier": "silver",
           "is_highscore": false,
+          "is_guillotine": "0",
           "matchup_week": 17,
           "iris_group_chat_id": "",
           "short_invitation_url": "https://football.fantasysports.yahoo.com/2024/f1/106896/invitation?key=3d85a9eed39bda3b&ikey=382073ec3b7d22b8",
@@ -1688,7 +1689,7 @@
           ]
         }
       ],
-      "time": "69.894075393677ms",
+      "time": "72.08514213562ms",
       "copyright": "Certain Data by Sportradar, Stats Perform and Rotowire",
       "refresh_rate": "30"
     }
