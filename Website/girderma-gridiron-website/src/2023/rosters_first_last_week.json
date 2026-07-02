@@ -1,0 +1,4373 @@
+{
+  "For Pitts and Giggles": {
+    "week_1_roster": [
+      {
+        "player_id": 30977,
+        "name": "Josh Allen",
+        "editorial_team_abbr": "Buf",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 31883,
+        "name": "A.J. Brown",
+        "editorial_team_abbr": "NE",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 26650,
+        "name": "DeAndre Hopkins",
+        "editorial_team_abbr": "Bal",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 30972,
+        "name": "Saquon Barkley",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 33996,
+        "name": "Kenneth Walker III",
+        "editorial_team_abbr": "KC",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 33392,
+        "name": "Kyle Pitts Sr.",
+        "editorial_team_abbr": "Atl",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 34207,
+        "name": "Isiah Pacheco",
+        "editorial_team_abbr": "Det",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 34007,
+        "name": "George Pickens",
+        "editorial_team_abbr": "Dal",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33973,
+        "name": "Treylon Burks",
+        "editorial_team_abbr": "Was",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 29281,
+        "name": "Michael Thomas",
+        "editorial_team_abbr": "NO",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 29238,
+        "name": "Ezekiel Elliott",
+        "editorial_team_abbr": "Dal",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 32843,
+        "name": "Darnell Mooney",
+        "editorial_team_abbr": "NYG",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 32231,
+        "name": "Jakobi Meyers",
+        "editorial_team_abbr": "Jax",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30426,
+        "name": "Younghoe Koo",
+        "editorial_team_abbr": "NYG",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "NA",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100020,
+        "name": "Jets",
+        "editorial_team_abbr": "NYJ",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      }
+    ],
+    "week_17_roster": [
+      {
+        "player_id": 30977,
+        "name": "Josh Allen",
+        "editorial_team_abbr": "Buf",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 31883,
+        "name": "A.J. Brown",
+        "editorial_team_abbr": "NE",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 34007,
+        "name": "George Pickens",
+        "editorial_team_abbr": "Dal",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 30972,
+        "name": "Saquon Barkley",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 34112,
+        "name": "Jerome Ford",
+        "editorial_team_abbr": "Was",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 26686,
+        "name": "Travis Kelce",
+        "editorial_team_abbr": "KC",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 33996,
+        "name": "Kenneth Walker III",
+        "editorial_team_abbr": "KC",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 32231,
+        "name": "Jakobi Meyers",
+        "editorial_team_abbr": "Jax",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40119,
+        "name": "Tyjae Spears",
+        "editorial_team_abbr": "Ten",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33422,
+        "name": "Elijah Moore",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 27564,
+        "name": "Derek Carr",
+        "editorial_team_abbr": "NO",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33392,
+        "name": "Kyle Pitts Sr.",
+        "editorial_team_abbr": "Atl",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31199,
+        "name": "Jason Sanders",
+        "editorial_team_abbr": "NYJ",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 30426,
+        "name": "Younghoe Koo",
+        "editorial_team_abbr": "NYG",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 100020,
+        "name": "Jets",
+        "editorial_team_abbr": "NYJ",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      }
+    ]
+  },
+  "Wicked Wah-Bams": {
+    "week_1_roster": [
+      {
+        "player_id": 30123,
+        "name": "Patrick Mahomes",
+        "editorial_team_abbr": "KC",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 32692,
+        "name": "Justin Jefferson",
+        "editorial_team_abbr": "Min",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 31908,
+        "name": "Terry McLaurin",
+        "editorial_team_abbr": "Was",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 33413,
+        "name": "Travis Etienne Jr.",
+        "editorial_team_abbr": "NO",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 30218,
+        "name": "James Conner",
+        "editorial_team_abbr": "Ari",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 30136,
+        "name": "Evan Engram",
+        "editorial_team_abbr": "Den",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 31017,
+        "name": "Christian Kirk",
+        "editorial_team_abbr": "SF",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 33605,
+        "name": "Khalil Herbert",
+        "editorial_team_abbr": "NYJ",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 27548,
+        "name": "Brandin Cooks",
+        "editorial_team_abbr": "NO",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40039,
+        "name": "Zay Flowers",
+        "editorial_team_abbr": "Bal",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40118,
+        "name": "De'Von Achane",
+        "editorial_team_abbr": "Mia",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 28654,
+        "name": "Raheem Mostert",
+        "editorial_team_abbr": "LV",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33967,
+        "name": "Jameson Williams",
+        "editorial_team_abbr": "Det",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30266,
+        "name": "Jake Elliott",
+        "editorial_team_abbr": "Phi",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100023,
+        "name": "Steelers",
+        "editorial_team_abbr": "Pit",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      }
+    ],
+    "week_17_roster": [
+      {
+        "player_id": 30123,
+        "name": "Patrick Mahomes",
+        "editorial_team_abbr": "KC",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 32692,
+        "name": "Justin Jefferson",
+        "editorial_team_abbr": "Min",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 33393,
+        "name": "Ja'Marr Chase",
+        "editorial_team_abbr": "Cin",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 31905,
+        "name": "David Montgomery",
+        "editorial_team_abbr": "Hou",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 33514,
+        "name": "Chuba Hubbard",
+        "editorial_team_abbr": "Car",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 30136,
+        "name": "Evan Engram",
+        "editorial_team_abbr": "Den",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 30218,
+        "name": "James Conner",
+        "editorial_team_abbr": "Ari",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 28654,
+        "name": "Raheem Mostert",
+        "editorial_team_abbr": "LV",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31908,
+        "name": "Terry McLaurin",
+        "editorial_team_abbr": "Was",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 27548,
+        "name": "Brandin Cooks",
+        "editorial_team_abbr": "NO",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31017,
+        "name": "Christian Kirk",
+        "editorial_team_abbr": "SF",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33989,
+        "name": "Christian Watson",
+        "editorial_team_abbr": "GB",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30266,
+        "name": "Jake Elliott",
+        "editorial_team_abbr": "Phi",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 33781,
+        "name": "Riley Patterson",
+        "editorial_team_abbr": "Mia",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 100030,
+        "name": "Jaguars",
+        "editorial_team_abbr": "Jax",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      }
+    ]
+  },
+  "Lawrence & Order": {
+    "week_1_roster": [
+      {
+        "player_id": 33389,
+        "name": "Trevor Lawrence",
+        "editorial_team_abbr": "Jax",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 33500,
+        "name": "Amon-Ra St. Brown",
+        "editorial_team_abbr": "Det",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 33971,
+        "name": "Jahan Dotson",
+        "editorial_team_abbr": "Atl",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 40059,
+        "name": "Jahmyr Gibbs",
+        "editorial_team_abbr": "Det",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 34019,
+        "name": "James Cook III",
+        "editorial_team_abbr": "Buf",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 31840,
+        "name": "T.J. Hockenson",
+        "editorial_team_abbr": "Min",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 27535,
+        "name": "Mike Evans",
+        "editorial_team_abbr": "SF",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 30182,
+        "name": "Cooper Kupp",
+        "editorial_team_abbr": "Sea",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 34054,
+        "name": "Brian Robinson",
+        "editorial_team_abbr": "Atl",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31010,
+        "name": "Courtland Sutton",
+        "editorial_team_abbr": "Den",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33408,
+        "name": "Kadarius Toney",
+        "editorial_team_abbr": "Cle",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31906,
+        "name": "Devin Singletary",
+        "editorial_team_abbr": "NYG",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31051,
+        "name": "Michael Gallup",
+        "editorial_team_abbr": "Was",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 32858,
+        "name": "Tyler Bass",
+        "editorial_team_abbr": "Buf",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100017,
+        "name": "Patriots",
+        "editorial_team_abbr": "NE",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      }
+    ],
+    "week_17_roster": [
+      {
+        "player_id": 30971,
+        "name": "Baker Mayfield",
+        "editorial_team_abbr": "TB",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 33500,
+        "name": "Amon-Ra St. Brown",
+        "editorial_team_abbr": "Det",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 30182,
+        "name": "Cooper Kupp",
+        "editorial_team_abbr": "Sea",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 40059,
+        "name": "Jahmyr Gibbs",
+        "editorial_team_abbr": "Det",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 34019,
+        "name": "James Cook III",
+        "editorial_team_abbr": "Buf",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 30157,
+        "name": "Gerald Everett",
+        "editorial_team_abbr": "Chi",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 27535,
+        "name": "Mike Evans",
+        "editorial_team_abbr": "SF",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 33389,
+        "name": "Trevor Lawrence",
+        "editorial_team_abbr": "Jax",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31906,
+        "name": "Devin Singletary",
+        "editorial_team_abbr": "NYG",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 34054,
+        "name": "Brian Robinson",
+        "editorial_team_abbr": "Atl",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33971,
+        "name": "Jahan Dotson",
+        "editorial_team_abbr": "Atl",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 27648,
+        "name": "Logan Thomas",
+        "editorial_team_abbr": "SF",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 32858,
+        "name": "Tyler Bass",
+        "editorial_team_abbr": "Buf",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 34344,
+        "name": "Cameron Dicker",
+        "editorial_team_abbr": "LAC",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 100003,
+        "name": "Bears",
+        "editorial_team_abbr": "Chi",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      }
+    ]
+  },
+  "The Hunters": {
+    "week_1_roster": [
+      {
+        "player_id": 31838,
+        "name": "Daniel Jones",
+        "editorial_team_abbr": "Ind",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "Q",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 33966,
+        "name": "Chris Olave",
+        "editorial_team_abbr": "NO",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 31868,
+        "name": "Deebo Samuel",
+        "editorial_team_abbr": "Was",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 30121,
+        "name": "Christian McCaffrey",
+        "editorial_team_abbr": "SF",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 33412,
+        "name": "Najee Harris",
+        "editorial_team_abbr": "LAC",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 28592,
+        "name": "Darren Waller",
+        "editorial_team_abbr": "Mia",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 31885,
+        "name": "Miles Sanders",
+        "editorial_team_abbr": "Dal",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 26662,
+        "name": "Geno Smith",
+        "editorial_team_abbr": "NYJ",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33582,
+        "name": "Elijah Mitchell",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40095,
+        "name": "Tank Bigsby",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 29288,
+        "name": "Tyler Boyd",
+        "editorial_team_abbr": "Ten",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31107,
+        "name": "Dalton Schultz",
+        "editorial_team_abbr": "Hou",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 26534,
+        "name": "Justin Tucker",
+        "editorial_team_abbr": "Bal",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "NA",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100021,
+        "name": "Eagles",
+        "editorial_team_abbr": "Phi",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      },
+      {
+        "player_id": 100004,
+        "name": "Bengals",
+        "editorial_team_abbr": "Cin",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      }
+    ],
+    "week_17_roster": [
+      {
+        "player_id": 32010,
+        "name": "Gardner Minshew II",
+        "editorial_team_abbr": "Ari",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 31868,
+        "name": "Deebo Samuel",
+        "editorial_team_abbr": "Was",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 33966,
+        "name": "Chris Olave",
+        "editorial_team_abbr": "NO",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 30121,
+        "name": "Christian McCaffrey",
+        "editorial_team_abbr": "SF",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 33412,
+        "name": "Najee Harris",
+        "editorial_team_abbr": "LAC",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 34085,
+        "name": "Jake Ferguson",
+        "editorial_team_abbr": "Dal",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 29288,
+        "name": "Tyler Boyd",
+        "editorial_team_abbr": "Ten",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 32736,
+        "name": "Antonio Gibson",
+        "editorial_team_abbr": "NE",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40063,
+        "name": "Jayden Reed",
+        "editorial_team_abbr": "GB",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 26662,
+        "name": "Geno Smith",
+        "editorial_team_abbr": "NYJ",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 34095,
+        "name": "Isaiah Likely",
+        "editorial_team_abbr": "NYG",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31885,
+        "name": "Miles Sanders",
+        "editorial_team_abbr": "Dal",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40073,
+        "name": "Jonathan Mingo",
+        "editorial_team_abbr": "Dal",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 26534,
+        "name": "Justin Tucker",
+        "editorial_team_abbr": "Bal",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "NA",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100021,
+        "name": "Eagles",
+        "editorial_team_abbr": "Phi",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      },
+      {
+        "player_id": 40097,
+        "name": "Tank Dell",
+        "editorial_team_abbr": "Hou",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "IR"
+      }
+    ]
+  },
+  "Sparty's Sigmas": {
+    "week_1_roster": [
+      {
+        "player_id": 32671,
+        "name": "Joe Burrow",
+        "editorial_team_abbr": "Cin",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "Q",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 32687,
+        "name": "CeeDee Lamb",
+        "editorial_team_abbr": "Dal",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 26699,
+        "name": "Keenan Allen",
+        "editorial_team_abbr": "LAC",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 40055,
+        "name": "Bijan Robinson",
+        "editorial_team_abbr": "Atl",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 32705,
+        "name": "D'Andre Swift",
+        "editorial_team_abbr": "Chi",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 30259,
+        "name": "George Kittle",
+        "editorial_team_abbr": "SF",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 31896,
+        "name": "DK Metcalf",
+        "editorial_team_abbr": "Pit",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 34009,
+        "name": "Skyy Moore",
+        "editorial_team_abbr": "GB",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40051,
+        "name": "Quentin Johnston",
+        "editorial_team_abbr": "LAC",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30150,
+        "name": "Zay Jones",
+        "editorial_team_abbr": "Ari",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 34218,
+        "name": "Brock Purdy",
+        "editorial_team_abbr": "SF",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30997,
+        "name": "Rashaad Penny",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33113,
+        "name": "Juwan Johnson",
+        "editorial_team_abbr": "NO",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30346,
+        "name": "Harrison Butker",
+        "editorial_team_abbr": "KC",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100002,
+        "name": "Bills",
+        "editorial_team_abbr": "Buf",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      }
+    ],
+    "week_17_roster": [
+      {
+        "player_id": 32138,
+        "name": "Jake Browning",
+        "editorial_team_abbr": "TB",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 32687,
+        "name": "CeeDee Lamb",
+        "editorial_team_abbr": "Dal",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 31896,
+        "name": "DK Metcalf",
+        "editorial_team_abbr": "Pit",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 32705,
+        "name": "D'Andre Swift",
+        "editorial_team_abbr": "Chi",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 40055,
+        "name": "Bijan Robinson",
+        "editorial_team_abbr": "Atl",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 30259,
+        "name": "George Kittle",
+        "editorial_team_abbr": "SF",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 30153,
+        "name": "Curtis Samuel",
+        "editorial_team_abbr": "Buf",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 25785,
+        "name": "Russell Wilson",
+        "editorial_team_abbr": "NYG",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 26699,
+        "name": "Keenan Allen",
+        "editorial_team_abbr": "LAC",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 27540,
+        "name": "Odell Beckham Jr.",
+        "editorial_team_abbr": "NYG",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31424,
+        "name": "Gus Edwards",
+        "editorial_team_abbr": "LAC",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 28592,
+        "name": "Darren Waller",
+        "editorial_team_abbr": "Mia",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30346,
+        "name": "Harrison Butker",
+        "editorial_team_abbr": "KC",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100011,
+        "name": "Colts",
+        "editorial_team_abbr": "Ind",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      },
+      {
+        "player_id": 100002,
+        "name": "Bills",
+        "editorial_team_abbr": "Buf",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 32671,
+        "name": "Joe Burrow",
+        "editorial_team_abbr": "Cin",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "Q",
+        "selected_position": "IR"
+      }
+    ]
+  },
+  "Tsuga\u2019s Tuck Shop": {
+    "week_1_roster": [
+      {
+        "player_id": 33399,
+        "name": "Justin Fields",
+        "editorial_team_abbr": "KC",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 33393,
+        "name": "Ja'Marr Chase",
+        "editorial_team_abbr": "Cin",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 28457,
+        "name": "Tyler Lockett",
+        "editorial_team_abbr": "LV",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 33508,
+        "name": "Rhamondre Stevenson",
+        "editorial_team_abbr": "NE",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 30161,
+        "name": "Joe Mixon",
+        "editorial_team_abbr": "Hou",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 34036,
+        "name": "Greg Dulcich",
+        "editorial_team_abbr": "Mia",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 31898,
+        "name": "Diontae Johnson",
+        "editorial_team_abbr": "Cle",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 40064,
+        "name": "Sam LaPorta",
+        "editorial_team_abbr": "Det",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 34047,
+        "name": "Rachaad White",
+        "editorial_team_abbr": "Was",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40042,
+        "name": "Jordan Addison",
+        "editorial_team_abbr": "Min",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30247,
+        "name": "Jamaal Williams",
+        "editorial_team_abbr": "NO",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31919,
+        "name": "Damien Harris",
+        "editorial_team_abbr": "Buf",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 25785,
+        "name": "Russell Wilson",
+        "editorial_team_abbr": "NYG",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31199,
+        "name": "Jason Sanders",
+        "editorial_team_abbr": "NYJ",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100033,
+        "name": "Ravens",
+        "editorial_team_abbr": "Bal",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      },
+      {
+        "player_id": 31833,
+        "name": "Kyler Murray",
+        "editorial_team_abbr": "Min",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "IR"
+      }
+    ],
+    "week_17_roster": [
+      {
+        "player_id": 29369,
+        "name": "Dak Prescott",
+        "editorial_team_abbr": "Dal",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 32703,
+        "name": "Tee Higgins",
+        "editorial_team_abbr": "Cin",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 32695,
+        "name": "Brandon Aiyuk",
+        "editorial_team_abbr": "SF",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 33413,
+        "name": "Travis Etienne Jr.",
+        "editorial_team_abbr": "NO",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 30423,
+        "name": "Austin Ekeler",
+        "editorial_team_abbr": "Was",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 34010,
+        "name": "Trey McBride",
+        "editorial_team_abbr": "Ari",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 40039,
+        "name": "Zay Flowers",
+        "editorial_team_abbr": "Bal",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 40118,
+        "name": "De'Von Achane",
+        "editorial_team_abbr": "Mia",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40064,
+        "name": "Sam LaPorta",
+        "editorial_team_abbr": "Det",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 27277,
+        "name": "Adam Thielen",
+        "editorial_team_abbr": "Pit",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31833,
+        "name": "Kyler Murray",
+        "editorial_team_abbr": "Min",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33399,
+        "name": "Justin Fields",
+        "editorial_team_abbr": "KC",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31977,
+        "name": "Matt Gay",
+        "editorial_team_abbr": "LV",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100007,
+        "name": "Broncos",
+        "editorial_team_abbr": "Den",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      },
+      {
+        "player_id": 100012,
+        "name": "Chiefs",
+        "editorial_team_abbr": "KC",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31056,
+        "name": "Mark Andrews",
+        "editorial_team_abbr": "Bal",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "IR"
+      }
+    ]
+  },
+  "Bumpin Brasnos": {
+    "week_1_roster": [
+      {
+        "player_id": 32676,
+        "name": "Justin Herbert",
+        "editorial_team_abbr": "LAC",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "Q",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 29399,
+        "name": "Tyreek Hill",
+        "editorial_team_abbr": "Mia",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 32703,
+        "name": "Tee Higgins",
+        "editorial_team_abbr": "Cin",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 32725,
+        "name": "J.K. Dobbins",
+        "editorial_team_abbr": "Den",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 32732,
+        "name": "AJ Dillon",
+        "editorial_team_abbr": "Car",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 34099,
+        "name": "Chig Okonkwo",
+        "editorial_team_abbr": "Was",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 30120,
+        "name": "Mike Williams",
+        "editorial_team_abbr": "Pit",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 31857,
+        "name": "Hollywood Brown",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40041,
+        "name": "Jaxon Smith-Njigba",
+        "editorial_team_abbr": "Sea",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40075,
+        "name": "Zach Charbonnet",
+        "editorial_team_abbr": "Sea",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40029,
+        "name": "Bryce Young",
+        "editorial_team_abbr": "Car",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 34447,
+        "name": "Jaylen Warren",
+        "editorial_team_abbr": "Pit",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33798,
+        "name": "Deon Jackson",
+        "editorial_team_abbr": "Det",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T",
+          "IR"
+        ],
+        "status": "IR",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 27120,
+        "name": "Brandon McManus",
+        "editorial_team_abbr": "GB",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "NA",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100028,
+        "name": "Commanders",
+        "editorial_team_abbr": "Was",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      },
+      {
+        "player_id": 32711,
+        "name": "Jonathan Taylor",
+        "editorial_team_abbr": "Ind",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "IR"
+      }
+    ],
+    "week_17_roster": [
+      {
+        "player_id": 8795,
+        "name": "Joe Flacco",
+        "editorial_team_abbr": "Cin",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 40168,
+        "name": "Puka Nacua",
+        "editorial_team_abbr": "LAR",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 29399,
+        "name": "Tyreek Hill",
+        "editorial_team_abbr": "Mia",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 34047,
+        "name": "Rachaad White",
+        "editorial_team_abbr": "Was",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 34120,
+        "name": "Kyren Williams",
+        "editorial_team_abbr": "LAR",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 31107,
+        "name": "Dalton Schultz",
+        "editorial_team_abbr": "Hou",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 40084,
+        "name": "Rashee Rice",
+        "editorial_team_abbr": "KC",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 33443,
+        "name": "Pat Freiermuth",
+        "editorial_team_abbr": "Pit",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31857,
+        "name": "Hollywood Brown",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40041,
+        "name": "Jaxon Smith-Njigba",
+        "editorial_team_abbr": "Sea",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 34125,
+        "name": "Ty Chandler",
+        "editorial_team_abbr": "NO",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 32711,
+        "name": "Jonathan Taylor",
+        "editorial_team_abbr": "Ind",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 28378,
+        "name": "Jason Myers",
+        "editorial_team_abbr": "Sea",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100005,
+        "name": "Browns",
+        "editorial_team_abbr": "Cle",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      },
+      {
+        "player_id": 100009,
+        "name": "Packers",
+        "editorial_team_abbr": "GB",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 7200,
+        "name": "Aaron Rodgers",
+        "editorial_team_abbr": "Pit",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "Q",
+        "selected_position": "IR"
+      }
+    ]
+  },
+  "Room 40": {
+    "week_1_roster": [
+      {
+        "player_id": 31002,
+        "name": "Lamar Jackson",
+        "editorial_team_abbr": "Bal",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 28534,
+        "name": "Stefon Diggs",
+        "editorial_team_abbr": "NE",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 28392,
+        "name": "Amari Cooper",
+        "editorial_team_abbr": "Buf",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 31856,
+        "name": "Josh Jacobs",
+        "editorial_team_abbr": "GB",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 31934,
+        "name": "Alexander Mattison",
+        "editorial_team_abbr": "Mia",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 33443,
+        "name": "Pat Freiermuth",
+        "editorial_team_abbr": "Pit",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 32736,
+        "name": "Antonio Gibson",
+        "editorial_team_abbr": "NE",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 32704,
+        "name": "Michael Pittman Jr.",
+        "editorial_team_abbr": "Pit",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 32798,
+        "name": "Gabe Davis",
+        "editorial_team_abbr": "Buf",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30175,
+        "name": "JuJu Smith-Schuster",
+        "editorial_team_abbr": "NYG",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 34107,
+        "name": "Tyler Allgeier",
+        "editorial_team_abbr": "Ari",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 27277,
+        "name": "Adam Thielen",
+        "editorial_team_abbr": "Pit",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31888,
+        "name": "Mecole Hardman Jr.",
+        "editorial_team_abbr": "Buf",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33781,
+        "name": "Riley Patterson",
+        "editorial_team_abbr": "Mia",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100015,
+        "name": "Dolphins",
+        "editorial_team_abbr": "Mia",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      }
+    ],
+    "week_17_roster": [
+      {
+        "player_id": 31002,
+        "name": "Lamar Jackson",
+        "editorial_team_abbr": "Bal",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 28534,
+        "name": "Stefon Diggs",
+        "editorial_team_abbr": "NE",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 32704,
+        "name": "Michael Pittman Jr.",
+        "editorial_team_abbr": "Pit",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 30161,
+        "name": "Joe Mixon",
+        "editorial_team_abbr": "Hou",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 29238,
+        "name": "Ezekiel Elliott",
+        "editorial_team_abbr": "Dal",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 30213,
+        "name": "Jonnu Smith",
+        "editorial_team_abbr": "Pit",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 32798,
+        "name": "Gabe Davis",
+        "editorial_team_abbr": "Buf",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 40126,
+        "name": "Josh Downs",
+        "editorial_team_abbr": "Ind",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31934,
+        "name": "Alexander Mattison",
+        "editorial_team_abbr": "Mia",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 28392,
+        "name": "Amari Cooper",
+        "editorial_team_abbr": "Buf",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 34062,
+        "name": "Cade Otton",
+        "editorial_team_abbr": "TB",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 32756,
+        "name": "Zack Moss",
+        "editorial_team_abbr": "Cin",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 34218,
+        "name": "Brock Purdy",
+        "editorial_team_abbr": "SF",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 28188,
+        "name": "Chris Boswell",
+        "editorial_team_abbr": "Pit",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100014,
+        "name": "Rams",
+        "editorial_team_abbr": "LAR",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      }
+    ]
+  },
+  "Oscorps Buns": {
+    "week_1_roster": [
+      {
+        "player_id": 32723,
+        "name": "Jalen Hurts",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 30996,
+        "name": "Calvin Ridley",
+        "editorial_team_abbr": "Ten",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 32695,
+        "name": "Brandon Aiyuk",
+        "editorial_team_abbr": "SF",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 31005,
+        "name": "Nick Chubb",
+        "editorial_team_abbr": "Hou",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 31960,
+        "name": "Tony Pollard",
+        "editorial_team_abbr": "Ten",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 30142,
+        "name": "David Njoku",
+        "editorial_team_abbr": "LAC",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 31905,
+        "name": "David Montgomery",
+        "editorial_team_abbr": "Hou",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 7200,
+        "name": "Aaron Rodgers",
+        "editorial_team_abbr": "Pit",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "Q",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33538,
+        "name": "Kenny Gainwell",
+        "editorial_team_abbr": "TB",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33477,
+        "name": "Nico Collins",
+        "editorial_team_abbr": "Hou",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 32713,
+        "name": "Cole Kmet",
+        "editorial_team_abbr": "Chi",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30202,
+        "name": "D'Onta Foreman",
+        "editorial_team_abbr": "Cle",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33537,
+        "name": "Evan McPherson",
+        "editorial_team_abbr": "Cin",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100025,
+        "name": "49ers",
+        "editorial_team_abbr": "SF",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      },
+      {
+        "player_id": 100018,
+        "name": "Saints",
+        "editorial_team_abbr": "NO",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      }
+    ],
+    "week_17_roster": [
+      {
+        "player_id": 32723,
+        "name": "Jalen Hurts",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 30996,
+        "name": "Calvin Ridley",
+        "editorial_team_abbr": "Ten",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 33477,
+        "name": "Nico Collins",
+        "editorial_team_abbr": "Hou",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 31960,
+        "name": "Tony Pollard",
+        "editorial_team_abbr": "Ten",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 40196,
+        "name": "Chase Brown",
+        "editorial_team_abbr": "Cin",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 30142,
+        "name": "David Njoku",
+        "editorial_team_abbr": "LAC",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 40222,
+        "name": "DeMario Douglas",
+        "editorial_team_abbr": "NE",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 31010,
+        "name": "Courtland Sutton",
+        "editorial_team_abbr": "Den",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 29235,
+        "name": "Jared Goff",
+        "editorial_team_abbr": "Det",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30563,
+        "name": "Nick Mullens",
+        "editorial_team_abbr": "Jax",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33537,
+        "name": "Evan McPherson",
+        "editorial_team_abbr": "Cin",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100025,
+        "name": "49ers",
+        "editorial_team_abbr": "SF",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      },
+      {
+        "player_id": 100018,
+        "name": "Saints",
+        "editorial_team_abbr": "NO",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      }
+    ]
+  },
+  "Supernova\u2019s Studs": {
+    "week_1_roster": [
+      {
+        "player_id": 29369,
+        "name": "Dak Prescott",
+        "editorial_team_abbr": "Dal",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 27581,
+        "name": "Davante Adams",
+        "editorial_team_abbr": "LAR",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 40063,
+        "name": "Jayden Reed",
+        "editorial_team_abbr": "GB",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 29279,
+        "name": "Derrick Henry",
+        "editorial_team_abbr": "Bal",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 33991,
+        "name": "Breece Hall",
+        "editorial_team_abbr": "NYJ",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 31056,
+        "name": "Mark Andrews",
+        "editorial_team_abbr": "Bal",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 30197,
+        "name": "Chris Godwin Jr.",
+        "editorial_team_abbr": "TB",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 32685,
+        "name": "Jerry Jeudy",
+        "editorial_team_abbr": "Cle",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30180,
+        "name": "Alvin Kamara",
+        "editorial_team_abbr": "NO",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30154,
+        "name": "Dalvin Cook",
+        "editorial_team_abbr": "Dal",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33422,
+        "name": "Elijah Moore",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 27540,
+        "name": "Odell Beckham Jr.",
+        "editorial_team_abbr": "NYG",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 29235,
+        "name": "Jared Goff",
+        "editorial_team_abbr": "Det",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 28378,
+        "name": "Jason Myers",
+        "editorial_team_abbr": "Sea",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100009,
+        "name": "Packers",
+        "editorial_team_abbr": "GB",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      }
+    ],
+    "week_17_roster": [
+      {
+        "player_id": 32675,
+        "name": "Tua Tagovailoa",
+        "editorial_team_abbr": "Atl",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 33965,
+        "name": "Garrett Wilson",
+        "editorial_team_abbr": "NYJ",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 27581,
+        "name": "Davante Adams",
+        "editorial_team_abbr": "LAR",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 29279,
+        "name": "Derrick Henry",
+        "editorial_team_abbr": "Bal",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 30180,
+        "name": "Alvin Kamara",
+        "editorial_team_abbr": "NO",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 32713,
+        "name": "Cole Kmet",
+        "editorial_team_abbr": "Chi",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 40042,
+        "name": "Jordan Addison",
+        "editorial_team_abbr": "Min",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 28457,
+        "name": "Tyler Lockett",
+        "editorial_team_abbr": "LV",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30614,
+        "name": "Taysom Hill",
+        "editorial_team_abbr": "NO",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31898,
+        "name": "Diontae Johnson",
+        "editorial_team_abbr": "Cle",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 5228,
+        "name": "Tom Brady",
+        "editorial_team_abbr": "TB",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 29269,
+        "name": "Hunter Henry",
+        "editorial_team_abbr": "NE",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31137,
+        "name": "Daniel Carlson",
+        "editorial_team_abbr": "LV",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "NA",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100026,
+        "name": "Seahawks",
+        "editorial_team_abbr": "Sea",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      },
+      {
+        "player_id": 29281,
+        "name": "Michael Thomas",
+        "editorial_team_abbr": "NO",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "IR"
+      }
+    ]
+  },
+  "Revy\u2019s Konstruction": {
+    "week_1_roster": [
+      {
+        "player_id": 25812,
+        "name": "Kirk Cousins",
+        "editorial_team_abbr": "LV",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "Q",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 33965,
+        "name": "Garrett Wilson",
+        "editorial_team_abbr": "NYJ",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 30994,
+        "name": "DJ Moore",
+        "editorial_team_abbr": "Buf",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 30295,
+        "name": "Aaron Jones Sr.",
+        "editorial_team_abbr": "Min",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 34063,
+        "name": "Dameon Pierce",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 30157,
+        "name": "Gerald Everett",
+        "editorial_team_abbr": "Chi",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 33423,
+        "name": "Javonte Williams",
+        "editorial_team_abbr": "Dal",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 33989,
+        "name": "Christian Watson",
+        "editorial_team_abbr": "GB",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 26686,
+        "name": "Travis Kelce",
+        "editorial_team_abbr": "KC",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 32675,
+        "name": "Tua Tagovailoa",
+        "editorial_team_abbr": "Atl",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 33415,
+        "name": "Rashod Bateman",
+        "editorial_team_abbr": "Bal",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 27624,
+        "name": "Jerick McKinnon",
+        "editorial_team_abbr": "KC",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31268,
+        "name": "Allen Lazard",
+        "editorial_team_abbr": "NYJ",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 34344,
+        "name": "Cameron Dicker",
+        "editorial_team_abbr": "LAC",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100007,
+        "name": "Broncos",
+        "editorial_team_abbr": "Den",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      }
+    ],
+    "week_17_roster": [
+      {
+        "player_id": 9265,
+        "name": "Matthew Stafford",
+        "editorial_team_abbr": "LAR",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 30197,
+        "name": "Chris Godwin Jr.",
+        "editorial_team_abbr": "TB",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 26650,
+        "name": "DeAndre Hopkins",
+        "editorial_team_abbr": "Bal",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 33991,
+        "name": "Breece Hall",
+        "editorial_team_abbr": "NYJ",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 32732,
+        "name": "AJ Dillon",
+        "editorial_team_abbr": "Car",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 34099,
+        "name": "Chig Okonkwo",
+        "editorial_team_abbr": "Was",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 30994,
+        "name": "DJ Moore",
+        "editorial_team_abbr": "Buf",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 40030,
+        "name": "C.J. Stroud",
+        "editorial_team_abbr": "Hou",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30295,
+        "name": "Aaron Jones Sr.",
+        "editorial_team_abbr": "Min",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 34207,
+        "name": "Isiah Pacheco",
+        "editorial_team_abbr": "Det",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30199,
+        "name": "Kareem Hunt",
+        "editorial_team_abbr": "KC",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 34063,
+        "name": "Dameon Pierce",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 29344,
+        "name": "Tyler Higbee",
+        "editorial_team_abbr": "LAR",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40129,
+        "name": "Jake Moody",
+        "editorial_team_abbr": "Was",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100023,
+        "name": "Steelers",
+        "editorial_team_abbr": "Pit",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      },
+      {
+        "player_id": 33465,
+        "name": "Joshua Palmer",
+        "editorial_team_abbr": "Buf",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "Q",
+        "selected_position": "IR"
+      },
+      {
+        "player_id": 25812,
+        "name": "Kirk Cousins",
+        "editorial_team_abbr": "LV",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "Q",
+        "selected_position": "IR"
+      }
+    ]
+  },
+  "The Sage's Playmakers": {
+    "week_1_roster": [
+      {
+        "player_id": 30125,
+        "name": "Deshaun Watson",
+        "editorial_team_abbr": "Cle",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "Q",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 33394,
+        "name": "Jaylen Waddle",
+        "editorial_team_abbr": "Den",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 33398,
+        "name": "DeVonta Smith",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 30423,
+        "name": "Austin Ekeler",
+        "editorial_team_abbr": "Was",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 32722,
+        "name": "Cam Akers",
+        "editorial_team_abbr": "Sea",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 31019,
+        "name": "Dallas Goedert",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 33963,
+        "name": "Drake London",
+        "editorial_team_abbr": "Atl",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 30227,
+        "name": "Samaje Perine",
+        "editorial_team_abbr": "Cin",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40040,
+        "name": "Anthony Richardson Sr.",
+        "editorial_team_abbr": "Ind",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "Q",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40048,
+        "name": "Dalton Kincaid",
+        "editorial_team_abbr": "Buf",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31394,
+        "name": "Jeff Wilson Jr.",
+        "editorial_team_abbr": "Mia",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40090,
+        "name": "Marvin Mims Jr.",
+        "editorial_team_abbr": "Den",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31137,
+        "name": "Daniel Carlson",
+        "editorial_team_abbr": "LV",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "NA",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100006,
+        "name": "Cowboys",
+        "editorial_team_abbr": "Dal",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      },
+      {
+        "player_id": 100012,
+        "name": "Chiefs",
+        "editorial_team_abbr": "KC",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      }
+    ],
+    "week_17_roster": [
+      {
+        "player_id": 32696,
+        "name": "Jordan Love",
+        "editorial_team_abbr": "GB",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "QB"
+      },
+      {
+        "player_id": 33394,
+        "name": "Jaylen Waddle",
+        "editorial_team_abbr": "Den",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 33398,
+        "name": "DeVonta Smith",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "WR"
+      },
+      {
+        "player_id": 33423,
+        "name": "Javonte Williams",
+        "editorial_team_abbr": "Dal",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 34447,
+        "name": "Jaylen Warren",
+        "editorial_team_abbr": "Pit",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "RB"
+      },
+      {
+        "player_id": 31019,
+        "name": "Dallas Goedert",
+        "editorial_team_abbr": "Phi",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "TE"
+      },
+      {
+        "player_id": 33963,
+        "name": "Drake London",
+        "editorial_team_abbr": "Atl",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "W/R/T"
+      },
+      {
+        "player_id": 40048,
+        "name": "Dalton Kincaid",
+        "editorial_team_abbr": "Buf",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 34100,
+        "name": "Sam Howell",
+        "editorial_team_abbr": "Dal",
+        "position_type": "O",
+        "eligible_positions": [
+          "QB"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31856,
+        "name": "Josh Jacobs",
+        "editorial_team_abbr": "GB",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 31127,
+        "name": "Tyler Conklin",
+        "editorial_team_abbr": "Det",
+        "position_type": "O",
+        "eligible_positions": [
+          "TE",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 30227,
+        "name": "Samaje Perine",
+        "editorial_team_abbr": "Cin",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 34088,
+        "name": "Romeo Doubs",
+        "editorial_team_abbr": "NE",
+        "position_type": "O",
+        "eligible_positions": [
+          "WR",
+          "W/R/T"
+        ],
+        "status": "",
+        "selected_position": "BN"
+      },
+      {
+        "player_id": 40819,
+        "name": "Brandon Aubrey",
+        "editorial_team_abbr": "Dal",
+        "position_type": "K",
+        "eligible_positions": [
+          "K"
+        ],
+        "status": "",
+        "selected_position": "K"
+      },
+      {
+        "player_id": 100006,
+        "name": "Cowboys",
+        "editorial_team_abbr": "Dal",
+        "position_type": "DT",
+        "eligible_positions": [
+          "DEF"
+        ],
+        "status": "",
+        "selected_position": "DEF"
+      },
+      {
+        "player_id": 32722,
+        "name": "Cam Akers",
+        "editorial_team_abbr": "Sea",
+        "position_type": "O",
+        "eligible_positions": [
+          "RB",
+          "W/R/T"
+        ],
+        "status": "NA",
+        "selected_position": "IR"
+      }
+    ]
+  }
+}
