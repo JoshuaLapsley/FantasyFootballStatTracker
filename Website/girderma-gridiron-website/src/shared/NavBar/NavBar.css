@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 1rem 2rem;
   background-color: #282c34;
   color: white;
@@ -27,4 +28,55 @@
 
 .NavBar-links a:hover {
   color: #61dafb;
+}
+
+/* Hamburger button — hidden on desktop */
+.NavBar-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.NavBar-toggle-bar {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: white;
+  border-radius: 1px;
+}
+
+@media (max-width: 768px) {
+  .NavBar-toggle {
+    display: flex;
+  }
+
+  .NavBar-links {
+    flex-basis: 100%;
+    flex-direction: column;
+    gap: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease, padding 0.25s ease;
+  }
+
+  .NavBar-links.is-open {
+    max-height: 300px;
+    padding-top: 0.5rem;
+  }
+
+  .NavBar-links li {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .NavBar-links a {
+    display: block;
+    padding: 0.85rem 0;
+  }
 }

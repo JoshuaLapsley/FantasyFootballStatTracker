@@ -1,5 +1,4 @@
-import React, { useRef, useEffect } from 'react';
-import { useState } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { TabComponent, TabItemsDirective, TabItemDirective, SelectEventArgs } from '@syncfusion/ej2-react-navigations';
 
 // Required Syncfusion styles (adjust theme name if you use a different one)
@@ -8,17 +7,17 @@ import '@syncfusion/ej2-buttons/styles/material.css';
 import '@syncfusion/ej2-navigations/styles/material.css';
 import '@syncfusion/ej2-popups/styles/material.css';
 import TeamRankOverTime from './TeamRankOverTime/TeamRankOverTime';
-import Playoffs from './Playoffs/Playoffs';
-import TradeData from './TradeData/TradeData';
 import Rosters from './Rosters/Rosters';
 import RegularSeason from './RegularSeason/RegularSeason';
-import Draft from './Draft/TeamRankOverTime';
+import AllTimeWins from './AllTimeWins/AllTimeWins';
+import AllTimePointsFor from './AllTimePointsFor/AllTimePointsFor';
+import AllTimePointsAgainst from './AllTimePointsAgainst/AllTimePointsAgainst';
 
 // ---------------------------------------------------------------------------
 // Types
 // ---------------------------------------------------------------------------
 
-export type Year = '2023' | '2024' | '2025';
+export type Year = '2023' | '2024' | '2025' | 'All Time';
 
 export interface SubTabContentProps {
   year: Year;
@@ -29,45 +28,25 @@ export interface SubTabConfig {
   Component: React.ComponentType<SubTabContentProps>;
 }
 
-// Registry of second-level tabs. Order here = order shown in the UI.
-const SUB_TABS: SubTabConfig[] = [
+const YEARS: Year[] = ['2023', '2024', '2025', 'All Time'];
+
+const SUB_TABS_YEAR: SubTabConfig[] = [
   { header: 'Team Rank over Time', Component: TeamRankOverTime },
-  { header: 'Trade Data', Component: TradeData },
-  { header: 'Playoffs', Component: Playoffs },
   { header: 'Rosters', Component: Rosters },
   { header: 'Regular Season', Component: RegularSeason },
-  { header: 'Draft', Component: Draft },
 ];
 
+const SUB_TABS_ALL_TIME: SubTabConfig[] = [
+  { header: 'All Time Wins', Component: AllTimeWins },
+  { header: 'All Time Points For', Component: AllTimePointsFor },
+  { header: 'All Time Points Against', Component: AllTimePointsAgainst },
+];
+
+const getSubTabs = (year: Year): SubTabConfig[] =>
+  year === 'All Time' ? SUB_TABS_ALL_TIME : SUB_TABS_YEAR;
+
 // ---------------------------------------------------------------------------
-// Second-level tab strip, rendered once per year.
-//
-// The active sub-tab index is passed down from the parent (RankDashboard)
-// instead of being owned internally by each TabComponent. That's what lets
-// the selection survive switching between year tabs: every YearContent
-// instance is kept in sync with the same shared index.
-//
-// Two mobile-specific fixes live in here:
-//
-// 1. swipeMode="None" — by default EJ2 Tab lets a touch/mouse drag ANYWHERE
-//    in the tab switch the active tab, not just a swipe on the header. That's
-//    what was making a vertical scroll on the page get misread as a
-//    horizontal tab-switch gesture. Turning it off means only tapping a tab
-//    label changes tabs.
-//
-// 2. Header scroll-position lock — in Scrollable overflow mode, calling
-//    select() (which we do in the effect below to keep the shared index in
-//    sync) makes Syncfusion auto-scroll the header strip to re-center the
-//    newly active tab. That's the "tab position moves" jump. We snapshot the
-//    header's scrollLeft before selecting and restore it right after, so the
-//    strip stays visually put.
-//
-// NOTE: We only stop touch propagation on the tab *header* strip (the row
-// of clickable tab labels), not on the whole content wrapper. Scoping it
-// this way stops a horizontal swipe on the sub-tab labels from also
-// dragging the outer year TabComponent, without blocking vertical
-// scrolling anywhere else on the page (which is what happens if you slap
-// `touchAction: 'pan-x'` + stopPropagation on a wrapper around everything).
+// Sub-tabs for a single year
 // ---------------------------------------------------------------------------
 
 interface YearContentProps {
@@ -78,52 +57,30 @@ interface YearContentProps {
 
 const YearContent: React.FC<YearContentProps> = ({ year, activeSubTab, onSubTabChange }) => {
   const tabRef = useRef<TabComponent>(null);
-  const headerScrollLeft = useRef<number>(0);
+  const subTabs = getSubTabs(year);
+  const clampedIndex = Math.min(activeSubTab, subTabs.length - 1);
 
-  const getHeaderEl = (): HTMLElement | null => {
+  // Keep this tab set in sync when the shared sub-tab index changes
+  // (e.g. the user picked a sub-tab while viewing a different year).
+  useEffect(() => {
+    tabRef.current?.select(clampedIndex);
+  }, [clampedIndex]);
+
+  // Prevent swipes on the sub-tab header from bubbling up to the
+  // outer year tabs, without affecting vertical scroll in the content.
+  useEffect(() => {
     const rootEl = (tabRef.current as any)?.element as HTMLElement | undefined;
-    return (rootEl?.querySelector('.e-tab-header') as HTMLElement) ?? null;
-  };
-
-  // Whenever the shared index changes (e.g. because you picked a different
-  // sub-tab while on another year), push it into this TabComponent too —
-  // then immediately undo whatever auto-scroll that select() triggers on
-  // the header strip.
-  useEffect(() => {
-    const headerEl = getHeaderEl();
-    const preservedScrollLeft = headerScrollLeft.current;
-
-    tabRef.current?.select(activeSubTab);
-
-    requestAnimationFrame(() => {
-      if (headerEl) {
-        headerEl.scrollLeft = preservedScrollLeft;
-      }
-    });
-  }, [activeSubTab]);
-
-  // Scope touch handling to just the Syncfusion tab header element so
-  // swipes on the tab labels don't bubble to the outer year tabs, while
-  // leaving vertical scroll on the actual tab content untouched. Also track
-  // the header's own scroll position so we know what to restore it to.
-  useEffect(() => {
-    const headerEl = getHeaderEl();
+    const headerEl = rootEl?.querySelector('.e-tab-header') as HTMLElement | null;
     if (!headerEl) return;
 
     const stopTouch = (e: TouchEvent) => e.stopPropagation();
-    const trackScroll = () => {
-      headerScrollLeft.current = headerEl.scrollLeft;
-    };
-
     headerEl.style.touchAction = 'pan-x';
     headerEl.addEventListener('touchstart', stopTouch, { passive: true });
     headerEl.addEventListener('touchmove', stopTouch, { passive: true });
-    headerEl.addEventListener('scroll', trackScroll, { passive: true });
 
     return () => {
       headerEl.removeEventListener('touchstart', stopTouch);
       headerEl.removeEventListener('touchmove', stopTouch);
-      headerEl.removeEventListener('scroll', trackScroll);
     };
   }, []);
 
@@ -133,11 +90,11 @@ const YearContent: React.FC<YearContentProps> = ({ year, activeSubTab, onSubTabC
       heightAdjustMode="Auto"
       overflowMode="Scrollable"
       swipeMode="None"
-      selectedItem={activeSubTab}
+      selectedItem={clampedIndex}
       selected={(e: SelectEventArgs) => onSubTabChange(e.selectedIndex)}
     >
       <TabItemsDirective>
-        {SUB_TABS.map(({ header, Component }) => (
+        {subTabs.map(({ header, Component }) => (
           <TabItemDirective
             key={header}
             header={{ text: header }}
@@ -153,18 +110,11 @@ const YearContent: React.FC<YearContentProps> = ({ year, activeSubTab, onSubTabC
 // Top-level year tabs
 // ---------------------------------------------------------------------------
 
-const YEARS: Year[] = ['2023', '2024', '2025'];
-
 const RankDashboard: React.FC = () => {
   const [activeSubTab, setActiveSubTab] = useState(0);
 
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-      }}
-    >
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
       <div style={{ padding: '20px', width: '100%', maxWidth: '900px' }}>
         <h2 style={{ textAlign: 'center' }}>League History</h2>
         <TabComponent heightAdjustMode="Auto" overflowMode="Scrollable" swipeMode="None">

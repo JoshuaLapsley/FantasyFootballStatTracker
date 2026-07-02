@@ -11,18 +11,18 @@ const HomePage: React.FC = () => {
       </section>
 
       <section className="Home-nav-grid">
-        <Link to="/current-season" className="Home-card">
+        <div className="Home-card Home-card--disabled">
           <h3>Current Season</h3>
           <p>See stuff from the current season</p>
-        </Link>
+        </div>
         <Link to="/league-history" className="Home-card">
           <h3>League History</h3>
           <p>Check out stuff from last seasons.</p>
         </Link>
-        <Link to="/hall-of-fame" className="Home-card">
+        <div className="Home-card Home-card--disabled">
           <h3>Hall of Fame</h3>
           <p>Past champions and records.</p>
-        </Link>
+        </div>
       </section>
     </div>
   );
