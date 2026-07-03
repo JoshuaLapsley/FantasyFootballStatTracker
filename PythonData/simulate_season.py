@@ -82,6 +82,20 @@ RIVALS = {
 
 RANDOM_SEED = None  # set an int for reproducible runs
 
+# NFL team abbreviations FantasyPros glues onto player names, e.g.
+# "Justin HerbertLAC". Used to reliably split name from code even when
+# there's no space between them.
+NFL_TEAM_CODES = {
+    "ARI", "ATL", "BAL", "BUF", "CAR", "CHI", "CIN", "CLE", "DAL", "DEN",
+    "DET", "GB", "HOU", "IND", "JAC", "JAX", "KC", "LAC", "LAR", "LV",
+    "MIA", "MIN", "NE", "NO", "NYG", "NYJ", "PHI", "PIT", "SEA", "SF",
+    "TB", "TEN", "WAS", "FA",
+}
+
+# Common suffixes that show up inconsistently between Yahoo and
+# FantasyPros (present on one side, absent on the other).
+NAME_SUFFIXES = {"jr", "sr", "ii", "iii", "iv", "v"}
+
 
 # --------------------------------------------------------------------------
 # STEP 1: SCRAPE PROJECTIONS
@@ -100,16 +114,42 @@ def _flatten_columns(df: pd.DataFrame) -> pd.DataFrame:
 def _clean_player_name(raw_name: str) -> str:
     """
     FantasyPros player cells look like 'Christian McCaffrey SF' or
-    'Christian McCaffrey SF Q'. Strip trailing team/injury codes.
+    'Christian McCaffrey SF Q', and sometimes the team code is glued
+    directly onto the name with no space at all, e.g. 'Justin HerbertLAC'
+    or 'WashingtonWAS' (DST rows). Strip trailing team/injury codes
+    regardless of whether they're space-separated or glued on.
     """
     name = str(raw_name)
     # Drop anything in parentheses, e.g. "(Out)"
     name = re.sub(r"\(.*?\)", "", name)
+
+    # If a known team code is glued onto the end with no preceding space,
+    # insert a space so the token-based stripping below can find it.
+    # e.g. "Justin HerbertLAC" -> "Justin Herbert LAC"
+    for code in sorted(NFL_TEAM_CODES, key=len, reverse=True):
+        pattern = re.compile(rf"(?<=[a-z\.\']){code}$")
+        if pattern.search(name):
+            name = pattern.sub(f" {code}", name)
+            break
+
     # Drop trailing 1-3 letter uppercase tokens (team abbreviation / status)
     tokens = name.split()
     while tokens and re.fullmatch(r"[A-Z]{1,3}", tokens[-1]):
         tokens.pop()
     return " ".join(tokens).strip()
+
+
+def _normalize_name(name: str) -> str:
+    """
+    Normalize a player/team name for matching purposes only (not for
+    display). Lowercases, strips punctuation, and drops suffixes like
+    'Jr.'/'Sr.'/'III' that are inconsistently present between Yahoo and
+    FantasyPros, so e.g. 'Aaron Jones Sr.' and 'Aaron Jones' match.
+    """
+    name = str(name).lower().strip()
+    name = name.replace(".", "").replace("'", "")
+    tokens = [t for t in name.split() if t not in NAME_SUFFIXES]
+    return " ".join(tokens)
 
 
 def scrape_projections(positions=POSITIONS, year=YEAR) -> pd.DataFrame:
@@ -208,6 +248,8 @@ def load_rosters_from_yahoo(year: int = YEAR, week: int = ROSTER_WEEK,
 
         rosters[team_name] = {"starters": starters, "bench": bench}
         print(f"  Loaded {team_name}: {len(starters)} starters, {len(bench)} bench")
+        print(f"    Starters: {starters}")
+        print(f"    Bench:    {bench}")
 
     return rosters
 
@@ -217,18 +259,34 @@ def load_rosters_from_yahoo(year: int = YEAR, week: int = ROSTER_WEEK,
 # --------------------------------------------------------------------------
 
 def build_projection_lookup(projections: pd.DataFrame) -> dict:
-    """player name -> per_game_projection, keyed by a normalized name."""
+    """
+    normalized name -> per_game_projection.
+
+    DST rows get an extra fallback entry keyed by just the nickname
+    (last word of the team name), since Yahoo reports DSTs by nickname
+    only (e.g. "Commanders") while FantasyPros lists the full team name
+    (e.g. "Washington Commanders").
+    """
     lookup = {}
     for _, row in projections.iterrows():
-        key = row["player"].lower().strip()
-        lookup[key] = row["per_game_projection"]
+        norm = _normalize_name(row["player"])
+        lookup[norm] = row["per_game_projection"]
+
+        if row["position"] == "DST" and norm:
+            nickname = norm.split()[-1]
+            lookup.setdefault(nickname, row["per_game_projection"])
+
     return lookup
 
 
 def _match_player(name: str, lookup: dict) -> float:
-    key = name.lower().strip()
+    key = _normalize_name(name)
     if key in lookup:
         return lookup[key]
+
+    # DST fallback: Yahoo may hand us just the nickname directly.
+    if key.split() and key.split()[-1] in lookup:
+        return lookup[key.split()[-1]]
 
     # Fuzzy fallback for spelling/format mismatches (e.g. "D.J. Moore" vs "DJ Moore")
     close = get_close_matches(key, lookup.keys(), n=1, cutoff=0.85)

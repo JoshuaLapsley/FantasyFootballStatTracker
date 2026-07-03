@@ -41,3 +41,20 @@ print(f"Keys: {list(mapping.keys())}")
 TEAM_TO_NICKNAME = {
     "Ozzy Stick": "Ben", "Mahomes Alone": "Josh_Rubik", "Tsuga\u2019s Tuck Shop": "Caleb", "Revy\u2019s Konstruction": "Connor", "Supernova\u2019s Studs": "Gavin Brodie", "Spirally Things": "Levi", "Hunter\u2019s Hunters": "Hunter", "Omaha Beach Real Estate": "Andrew", "Flows Aggressive Insurance": "Zach", "Go With The Flow": "Zach", "Wicked Wah-Bams": "Nate", "The Sage's Playmakers": "Josh_Sage", "Sparty's Sigmas": "Jackson", "For Pitts and Giggles": "Zach", "The Hunters": "Hunter", "Lawrence & Order": "Andrew", "Oscorps Buns": "Ben", "Bumpin Brasnos": "Ben", "Room 40": "Josh_Rubik", "No Punts Intented": "Josh_Rubik", "Hungry Hungry Hokk": "Nate", "Deej-lanta Falcons": "DJ", "Pad D's": "Sam_Paddy", "Girder\u2019s Grippers": "Sam_Girder", "Ma\u00eetre Magic": "Levi", "Bumpin Brasnos": "Levi"
 }
+
+RIVALS = {
+    "Ma\u00eetre Magic": "Tsuga\u2019s Tuck Shop",
+    "Tsuga\u2019s Tuck Shop": "Ma\u00eetre Magic",
+    "Deej-lanta Falcons": "Girder\u2019s Grippers",
+    "Girder\u2019s Grippers": "Deej-lanta Falcons",
+    "Go With The Flow": "Hunter\u2019s Hunters",
+    "Hunter\u2019s Hunters": "Go With The Flow",
+    "No Punts Intented": "Revy\u2019s Konstruction",
+    "Revy\u2019s Konstruction": "No Punts Intented",
+    "Omaha Beach Real Estate": "Pad D's",
+    "Pad D's": "Omaha Beach Real Estate",
+    "Ozzy Stick": "Hungry Hungry Hokk",
+    "Hungry Hungry Hokk": "Ozzy Stick",
+    "Supernova\u2019s Studs": "The Sage's Playmakers",
+    "The Sage's Playmakers": "Supernova\u2019s Studs",
+}
