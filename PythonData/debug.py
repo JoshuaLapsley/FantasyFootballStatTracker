@@ -35,3 +35,9 @@ for team_key, team_data in teams.items():
 
 print(f"\nFinal mapping size: {len(mapping)}")
 print(f"Keys: {list(mapping.keys())}")
+
+
+
+TEAM_TO_NICKNAME = {
+    "Ozzy Stick": "Ben", "Mahomes Alone": "Josh_Rubik", "Tsuga\u2019s Tuck Shop": "Caleb", "Revy\u2019s Konstruction": "Connor", "Supernova\u2019s Studs": "Gavin Brodie", "Spirally Things": "Levi", "Hunter\u2019s Hunters": "Hunter", "Omaha Beach Real Estate": "Andrew", "Flows Aggressive Insurance": "Zach", "Go With The Flow": "Zach", "Wicked Wah-Bams": "Nate", "The Sage's Playmakers": "Josh_Sage", "Sparty's Sigmas": "Jackson", "For Pitts and Giggles": "Zach", "The Hunters": "Hunter", "Lawrence & Order": "Andrew", "Oscorps Buns": "Ben", "Bumpin Brasnos": "Ben", "Room 40": "Josh_Rubik", "No Punts Intented": "Josh_Rubik", "Hungry Hungry Hokk": "Nate", "Deej-lanta Falcons": "DJ", "Pad D's": "Sam_Paddy", "Girder\u2019s Grippers": "Sam_Girder", "Ma\u00eetre Magic": "Levi", "Bumpin Brasnos": "Levi"
+}
