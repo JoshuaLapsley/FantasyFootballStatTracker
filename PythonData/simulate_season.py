@@ -37,6 +37,11 @@ from difflib import get_close_matches
 import numpy as np
 import pandas as pd
 
+
+import matplotlib.pyplot as plt
+import os
+import argparse
+
 from yahoo_oauth import OAuth2
 import yahoo_fantasy_api as yfa
 
@@ -152,7 +157,24 @@ def _normalize_name(name: str) -> str:
     return " ".join(tokens)
 
 
-def scrape_projections(positions=POSITIONS, year=YEAR) -> pd.DataFrame:
+def _find_projections_table(tables: list, pos: str):
+    """
+    pd.read_html() often returns several tables per page (ad widgets,
+    "trending" boxes, etc.) -- the real projections table isn't
+    guaranteed to be tables[0], especially on the K and DST pages which
+    are laid out differently than QB/RB/WR/TE. Scan all returned tables
+    and pick the first one that actually looks like a projections table:
+    has an FPTS-like column and a reasonable number of rows.
+    """
+    for i, t in enumerate(tables):
+        t = _flatten_columns(t.copy())
+        fpts_candidates = [c for c in t.columns if "FPTS" in str(c).upper()]
+        if fpts_candidates and len(t) >= 5:
+            return t, fpts_candidates[-1], i
+    return None, None, None
+
+
+def scrape_projections(positions=POSITIONS, year=YEAR, debug: bool = True) -> pd.DataFrame:
     """
     Scrape FantasyPros draft projections for each position and return a
     DataFrame with columns: player, position, season, season_projection,
@@ -164,14 +186,21 @@ def scrape_projections(positions=POSITIONS, year=YEAR) -> pd.DataFrame:
         url = f"https://www.fantasypros.com/nfl/projections/{pos}.php?week=draft&scoring=PPR&year={year}"
         try:
             tables = pd.read_html(url)
-            df = _flatten_columns(tables[0])
+            if debug:
+                print(f"  [debug] {pos.upper()}: {len(tables)} table(s) found on page, "
+                      f"shapes={[t.shape for t in tables]}")
 
-            # Identify the player-name column (first column) and the FPTS column
+            df, fpts_col, table_idx = _find_projections_table(tables, pos)
+            if df is None:
+                raise ValueError(
+                    f"No table on the page had an FPTS column with >=5 rows "
+                    f"(checked {len(tables)} tables)"
+                )
+            if debug:
+                print(f"  [debug] {pos.upper()}: using table index {table_idx}, "
+                      f"fpts column '{fpts_col}', {len(df)} rows")
+
             player_col = df.columns[0]
-            fpts_candidates = [c for c in df.columns if "FPTS" in str(c).upper()]
-            if not fpts_candidates:
-                raise ValueError("Could not find an FPTS column")
-            fpts_col = fpts_candidates[-1]  # last FPTS-like column is the total
 
             clean = pd.DataFrame({
                 "player": df[player_col].apply(_clean_player_name),
@@ -180,6 +209,10 @@ def scrape_projections(positions=POSITIONS, year=YEAR) -> pd.DataFrame:
             clean["season"] = year
             clean["position"] = pos.upper()
             clean = clean.dropna(subset=["season_projection"])
+
+            if debug:
+                print(f"  [debug] {pos.upper()}: {len(clean)} rows survived cleaning, "
+                      f"sample={clean['player'].head(5).tolist()}")
 
             all_projections.append(clean)
             print(f"✓ {pos.upper()} {year}")
@@ -258,7 +291,7 @@ def load_rosters_from_yahoo(year: int = YEAR, week: int = ROSTER_WEEK,
 # STEP 3: MATCH ROSTER PLAYERS TO PROJECTIONS + COMPUTE TEAM MU
 # --------------------------------------------------------------------------
 
-def build_projection_lookup(projections: pd.DataFrame) -> dict:
+def build_projection_lookup(projections: pd.DataFrame, debug: bool = True) -> dict:
     """
     normalized name -> per_game_projection.
 
@@ -276,10 +309,21 @@ def build_projection_lookup(projections: pd.DataFrame) -> dict:
             nickname = norm.split()[-1]
             lookup.setdefault(nickname, row["per_game_projection"])
 
+    if debug:
+        # Row counts per position -- if a whole position group is thin or
+        # missing here, that's a scrape/parsing problem for that position's
+        # page, not a name-matching problem, and no amount of fuzzy
+        # matching downstream will fix it.
+        counts = projections["position"].value_counts().to_dict()
+        print(f"  [debug] projection rows by position: {counts}")
+        for pos in POSITIONS:
+            sample = projections.loc[projections["position"] == pos.upper(), "player"].head(5).tolist()
+            print(f"  [debug] {pos.upper()} sample names: {sample}")
+
     return lookup
 
 
-def _match_player(name: str, lookup: dict) -> float:
+def _match_player(name: str, lookup: dict, debug: bool = True) -> float:
     key = _normalize_name(name)
     if key in lookup:
         return lookup[key]
@@ -294,6 +338,17 @@ def _match_player(name: str, lookup: dict) -> float:
         return lookup[close[0]]
 
     print(f"  ⚠ no projection found for '{name}', treating as 0 pts/game")
+    if debug:
+        # Show the nearest keys we *do* have, even well below the match
+        # cutoff, so we can see what the scraper actually produced for
+        # this player (or confirm it produced nothing at all).
+        nearby = get_close_matches(key, lookup.keys(), n=3, cutoff=0.4)
+        if nearby:
+            print(f"    [debug] closest available keys: {nearby}")
+        else:
+            print(f"    [debug] no keys in lookup resemble '{key}' at all "
+                  f"(lookup has {len(lookup)} total entries)")
+
     return 0.0
 
 
@@ -382,50 +437,100 @@ def simulate_season_once(team_mu: dict, schedule: list, variance: float) -> dict
     return record
 
 
-def run_monte_carlo(team_mu: dict, schedule: list, variance: float,
-                     n_simulations: int) -> pd.DataFrame:
-    """
-    Run many simulated seasons and average results to get expected
-    standings (expected wins/losses/points, plus championship-odds proxy:
-    fraction of simulations each team finished #1 by wins).
-    """
-    totals = defaultdict(lambda: {"wins": 0.0, "losses": 0.0,
-                                   "points_for": 0.0, "points_against": 0.0,
-                                   "first_place_finishes": 0})
+def run_monte_carlo(team_mu, schedule, variance, n_sims):
+    teams = list(team_mu.keys())
+    n = len(teams)
 
-    for _ in range(n_simulations):
-        record = simulate_season_once(team_mu, schedule, variance)
+    totals = defaultdict(lambda: {
+        "wins": 0.0,
+        "losses": 0.0,
+        "points_for": 0.0,
+        "points_against": 0.0
+    })
 
-        # Track who finished with the most wins this trial (ties split credit)
-        max_wins = max(r["wins"] for r in record.values())
-        leaders = [t for t, r in record.items() if r["wins"] == max_wins]
-        credit = 1.0 / len(leaders)
+    # position matrix: team -> [14]
+    pos_counts = {t: np.zeros(n, dtype=int) for t in teams}
 
-        for team, r in record.items():
-            totals[team]["wins"] += r["wins"]
-            totals[team]["losses"] += r["losses"]
-            totals[team]["points_for"] += r["points_for"]
-            totals[team]["points_against"] += r["points_against"]
-            if team in leaders:
-                totals[team]["first_place_finishes"] += credit
+    for _ in range(n_sims):
+        rec = simulate_season_once(team_mu, schedule, variance)
+
+        ranked = sorted(
+            rec.items(),
+            key=lambda x: (x[1]["wins"], x[1]["points_for"]),
+            reverse=True
+        )
+
+        for pos, (team, _) in enumerate(ranked):
+            pos_counts[team][pos] += 1
+
+        for t, r in rec.items():
+            totals[t]["wins"] += r["wins"]
+            totals[t]["losses"] += r["losses"]
+            totals[t]["points_for"] += r["points_for"]
+            totals[t]["points_against"] += r["points_against"]
 
     rows = []
-    for team, t in totals.items():
+    for t in teams:
         rows.append({
-            "team": team,
-            "avg_wins": t["wins"] / n_simulations,
-            "avg_losses": t["losses"] / n_simulations,
-            "avg_points_for": t["points_for"] / n_simulations,
-            "avg_points_against": t["points_against"] / n_simulations,
-            "first_place_pct": 100 * t["first_place_finishes"] / n_simulations,
+            "team": t,
+            "avg_wins": totals[t]["wins"] / n_sims,
+            "avg_losses": totals[t]["losses"] / n_sims,
+            "avg_points_for": totals[t]["points_for"] / n_sims,
+            "avg_points_against": totals[t]["points_against"] / n_sims
         })
 
-    standings = pd.DataFrame(rows).sort_values(
-        by=["avg_wins", "avg_points_for"], ascending=False
-    ).reset_index(drop=True)
-    standings.index += 1  # 1-indexed rank
-    return standings
+    standings = pd.DataFrame(rows)
+    standings = standings.sort_values("avg_wins", ascending=False).reset_index(drop=True)
 
+    return standings, pos_counts
+
+#-------
+# Plot results
+#-------
+def plot_league_heatmap(standings, pos_counts, n_sims, out_file="league_heatmap.jpg"):
+    teams = standings["team"].tolist()
+    n = len(teams)
+
+    data = np.zeros((n, n))
+
+    for i, team in enumerate(teams):
+        data[i] = pos_counts[team] / n_sims * 100
+
+    fig, ax = plt.subplots(figsize=(14, 10))
+
+    im = ax.imshow(data)
+
+    # axis labels
+    ax.set_xticks(range(n))
+    ax.set_yticks(range(n))
+
+    ax.set_xticklabels([str(i+1) for i in range(n)])
+    ax.set_yticklabels(
+        [
+            f"{row.team} | {row.avg_wins:.1f}-{row.avg_losses:.1f} | "
+            f"{row.avg_points_for:.1f}-{row.avg_points_against:.1f}"
+            for row in standings.itertuples()
+        ]
+    )
+
+    plt.setp(ax.get_xticklabels(), rotation=0, ha="center")
+
+    # write percentages in cells
+    for i in range(n):
+        for j in range(n):
+            val = data[i, j]
+            ax.text(j, i, f"{val:.1f}%", ha="center", va="center", fontsize=7)
+
+    cbar = plt.colorbar(im, ax=ax)
+    cbar.set_label("Finish Probability (%)")
+
+    ax.set_xlabel("Finishing Position")
+    ax.set_ylabel("Teams")
+    ax.set_title("Season Outcome Distribution (Monte Carlo)")
+
+    plt.tight_layout()
+    plt.savefig(out_file, dpi=250, bbox_inches="tight")
+    plt.close()
 
 # --------------------------------------------------------------------------
 # MAIN
@@ -474,7 +579,8 @@ def main():
     print(f"Step 4/4: Running {args.simulations:,} Monte Carlo season simulations "
           f"({len(schedule)} games/season)...\n")
 
-    standings = run_monte_carlo(team_mu, schedule, VARIANCE, args.simulations)
+    standings, pos_counts = run_monte_carlo(team_mu, schedule, VARIANCE, args.simulations)
+    plot_league_heatmap(standings, pos_counts, args.simulations)
 
     pd.set_option("display.float_format", lambda x: f"{x:.2f}")
     print("=== Simulated Standings (averaged across all trials) ===")
