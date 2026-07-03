@@ -19,10 +19,10 @@ const HomePage: React.FC = () => {
           <h3>League History</h3>
           <p>Check out stuff from last seasons.</p>
         </Link>
-        <div className="Home-card Home-card--disabled">
-          <h3>Hall of Fame</h3>
-          <p>Past champions and records.</p>
-        </div>
+        <Link to="/hall-of-fame" className="Home-card">
+          <h3>Hall Of Fame</h3>
+          <p>Check out stuff from last seasons.</p>
+        </Link>
       </section>
     </div>
   );

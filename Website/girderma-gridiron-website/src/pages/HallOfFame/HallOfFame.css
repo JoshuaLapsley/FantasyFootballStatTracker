@@ -1,0 +1,103 @@
+.hof-page {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-family: "Inter", system-ui, sans-serif;
+  padding: 48px 24px;
+}
+
+.hof-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.hof-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.hof-subtitle {
+  color: #6b7280;
+  margin-top: 8px;
+  font-size: 1rem;
+}
+
+.hof-columns {
+  display: flex;
+  gap: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.hof-column {
+  flex: 1 1 320px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.hof-column-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.hof-column-title--gold {
+  color: #b8860b;
+}
+
+.hof-column-title--coal {
+  color: #6b7280;
+}
+
+.hof-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hof-row {
+  width: 100%;
+  text-align: left;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 12px 16px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: inherit;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.hof-row:hover {
+  background: #f3f4f6;
+  transform: translateX(2px);
+}
+
+.hof-row--gold {
+  border-left: 4px solid #d4af37;
+}
+
+.hof-row--coal {
+  border-left: 4px solid #9ca3af;
+}
+
+.hof-row-name {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.hof-row-meta {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
