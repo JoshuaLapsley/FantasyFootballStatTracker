@@ -17,7 +17,7 @@ const winners: Member[] = [
 
 const losers: Member[] = [
   { name: "Connor", username: "Revy’s Konstruction", year: "2023", detail: "Fruit Punishment" },
-  { name: "Jackson", username: "Sparty's Sigmas", year: "2024", detail: "Had to go Vegan for a Month" },
+  { name: "Jackson", username: "Sparty's Sigmas", year: "2024", detail: "Had to go Vegetarian for a Month" },
   { name: "Connor", username: "Revy’s Konstruction", year: "2025", detail: "6-12-18-24" },
 ];
 

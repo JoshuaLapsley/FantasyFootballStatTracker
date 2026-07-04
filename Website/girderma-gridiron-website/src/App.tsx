@@ -6,12 +6,13 @@ import HomePage from './pages/HomePage/HomePage';
 
 import { registerLicense } from "@syncfusion/ej2-base";
 import LeagueHistory from './pages/LeagueHistory/LeagueHistory';
-import HallOfFame from './pages/HallOfFame/HallOfFame';
 import Zach2023 from './pages/HallOfFame/Winners/Zach2023/Zach2023';
 import Connor2024 from './pages/HallOfFame/Winners/Connor2024/Connor2024';
 import Zach2025 from './pages/HallOfFame/Winners/Zach2025/Zach2025';
 import Connor2023 from './pages/HallOfFame/Losers/Connor2023/Connor2023';
 import Jackson2024 from './pages/HallOfFame/Losers/Jackson2024/Jackson2024';
+import HallOfFame from './pages/HallOfFame/HallOfFame';
+import Connor2025 from './pages/HallOfFame/Losers/Connor2025/Connor2025';
 
 
 const App: React.FC = () => {
@@ -36,6 +37,7 @@ const App: React.FC = () => {
           {/* Losers */}
           <Route path="/hall-of-fame/Revy’s Konstruction/2023" element={<Connor2023 />} />
           <Route path="/hall-of-fame/Sparty's Sigmas/2024" element={<Jackson2024 />} />
+          <Route path="/hall-of-fame/Revy’s Konstruction/2025" element={<Connor2025 />} />
       </Routes>
     </div>
   );
