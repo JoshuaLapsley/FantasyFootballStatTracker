@@ -18,13 +18,13 @@ const Connor2025: React.FC = () => {
           People from the league have talked about this punishment for a long time, but this year we finally decided to do it.
         </p>
         <p>
-          The punishement went like this. You have 4 numbers, 6,12,18,24. Througout the day (24hr), you have to assign these activities
-          to one of the numbers; Beers Drank, Donuts Eaten, Free Throws Made in a Row, KM Traveled. For example, a combination could be
-          you eat 6 donuts, travel 12 km, 18 free throws in a row, and 24 beers. Now if you don't complete all these things in a day
-          you would have to retry, untill you complete the punishment.
+          The punishment went like this. You have 4 numbers: 6,12,18,24. Througout the day (24hr), you have to assign these activities
+          to one of the numbers: Beers Drank, Donuts Eaten, Free Throws Made in a Row, KM Traveled. For example, a combination could be
+          you eat 6 donuts, travel 12 km, 18 free throws in a row, and 24 beers. If you didn't complete all these things in a day
+          you would have to retry until you complete it.
         </p>
         <p>
-          Connor set out to do the punishement on July 3rd, 2026. On one of the hottest days of the year. He chose the following; 
+          Connor set out to do the punishement on July 3rd, 2026, one of the hottest days of the year. He chose the following; 
           6 Free Throws in a Row, 12 Beers, 18 Donuts, 24 km
         </p>
         
@@ -44,7 +44,7 @@ const Connor2025: React.FC = () => {
 
        <section className="punishment-story">
           <p>
-            Connor started out his day with hitting six free throws in a row early in the morning, He Completed his free throws by 6:57AM
+            Connor started out his day with hitting six free throws in a row early in the morning. He completed his free throws by 6:57AM
           </p>
        </section>
 

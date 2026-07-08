@@ -22,7 +22,7 @@ PLAYOFF_WEEKS = range(15, 18)
 BASE_DIR = Path(__file__).resolve().parent
 
 OLD_OUTPUT_DIR = BASE_DIR / "league_stats_output"
-NEW_OUTPUT_DIR = (BASE_DIR / ".." / "Website" / "girderma-gridiron-website" / "src").resolve()
+NEW_OUTPUT_DIR = (BASE_DIR / ".." / "Website" / "girderma-gridiron-website" / "src" / "league_stats_output").resolve()
 
 OLD_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 NEW_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

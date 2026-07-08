@@ -14,13 +14,13 @@ const Connor2023: React.FC = () => {
 
       <section className="punishment-story">
         <p>
-          The original punishment involved having to sleep naked overnight in the treehouse,
-          while everyone spent the night below making sure you couldn't leave. However the
-          punishment was changed due to people having responsibilities.
+          The original punishment was to sleep naked overnight in the treehouse
+          while everyone spent the night below to make sure you couldn't leave. However the
+          punishment was changed because this wasn't realistic.
         </p>
         <p>
-          The changed punishment was a bit complicated but it went like this: every week for
-          all 7 weeks at camp, Revy had a specific fruit, which would grow in size every week.
+          The changed punishment was a bit complicated but it went like this: for each of the 7 weeks of camp,
+          Revy was assigned a fruit, and with each passing week, that fruit got upgraded to a bigger one.
           He had to carry this fruit with him at all times, and people from the league at any
           time (once per day) hit Revy with a fruit check. If he did not have his fruit on him,
           he had to double the amount of fruit he had. The fruit ranged in sizes from grapes to

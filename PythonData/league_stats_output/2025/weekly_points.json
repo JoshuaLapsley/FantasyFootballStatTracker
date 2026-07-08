@@ -909,7 +909,13 @@
       "points_for": 131.62,
       "points_against": 138.64,
       "opponent": "Hungry Hungry Hokk"
+    },
+    "week_16": {
+      "points_for": 131.4,
+      "points_against": 103.44,
+      "opponent": "Revy\u2019s Konstruction"
     }
+
   },
   "Omaha Beach Real Estate": {
     "week_1": {
@@ -981,6 +987,16 @@
       "points_for": 90.18,
       "points_against": 95.7,
       "opponent": "Pad D's"
+    },
+    "week_16": {
+      "points_for": 106.38,
+      "points_against": 150.6,
+      "opponent": "Hunter\u2019s Hunters"
+    },
+    "week_17": {
+      "points_for": 160.08,
+      "points_against": 108.92,
+      "opponent": "Revy\u2019s Konstruction"
     }
   },
   "Hunter\u2019s Hunters": {
@@ -1053,6 +1069,11 @@
       "points_for": 139.06,
       "points_against": 110.5,
       "opponent": "Go With The Flow"
+    },
+    "week_16": {
+      "points_for": 150.6,
+      "points_against": 106.38,
+      "opponent": "Omaha Beach Real Estate"
     }
   },
   "Revy\u2019s Konstruction": {
@@ -1125,6 +1146,16 @@
       "points_for": 88.86,
       "points_against": 114.34,
       "opponent": "No Punts Intented"
+    },
+    "week_16": {
+      "points_for": 103.44,
+      "points_against": 131.4,
+      "opponent": "Ozzy Stick"
+    },
+    "week_17": {
+      "points_for": 108.92,
+      "points_against": 160.08,
+      "opponent": "Omaha Beach Real Estate"
     }
   }
 }
