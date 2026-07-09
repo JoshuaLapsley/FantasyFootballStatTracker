@@ -1,0 +1,267 @@
+/* Draft.css */
+
+.draft-wrapper {
+  padding: 24px;
+  font-family: "Inter", system-ui, sans-serif;
+  color: #1A1D24;
+  background-color: #FFFFFF;
+  min-height: 100%;
+}
+
+.draft-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.draft-eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6B7280;
+  margin-bottom: 4px;
+}
+
+.draft-title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #111827;
+}
+
+.toggle-group {
+  display: flex;
+  gap: 4px;
+  background-color: #F3F4F6;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.toggle-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: transparent;
+  color: #6B7280;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.toggle-btn-active {
+  background-color: #FFFFFF;
+  color: #111827;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.draft-loading {
+  color: #6B7280;
+  font-size: 14px;
+  padding: 40px 0;
+}
+
+.draft-error-box {
+  color: #B91C1C;
+  background-color: #FEE2E2;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* ---- Board view / scroll syncing ---- */
+
+.board-wrapper {
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.top-scrollbar {
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 16px;
+  border-bottom: 1px solid #E5E7EB;
+  background-color: #FAFAFA;
+}
+
+.top-scrollbar-spacer {
+  height: 1px;
+}
+
+.board-scroll {
+  overflow-x: auto;
+}
+
+/* Make scrollbars visibly present (WebKit) rather than only-on-hover */
+.top-scrollbar::-webkit-scrollbar,
+.board-scroll::-webkit-scrollbar {
+  height: 10px;
+}
+
+.top-scrollbar::-webkit-scrollbar-track,
+.board-scroll::-webkit-scrollbar-track {
+  background: #F3F4F6;
+}
+
+.top-scrollbar::-webkit-scrollbar-thumb,
+.board-scroll::-webkit-scrollbar-thumb {
+  background-color: #C7CCD6;
+  border-radius: 8px;
+}
+
+.draft-table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 1100px;
+}
+
+.round-header-cell {
+  position: sticky;
+  left: 0;
+  background-color: #F9FAFB;
+  color: #6B7280;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 10px 8px;
+  border-bottom: 1px solid #E5E7EB;
+  border-right: 1px solid #E5E7EB;
+  z-index: 1;
+}
+
+.team-header-cell {
+  background-color: #F9FAFB;
+  color: #374151;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 10px;
+  border-bottom: 1px solid #E5E7EB;
+  border-right: 1px solid #F0F1F3;
+  text-align: left;
+  min-width: 150px;
+}
+
+.round-cell {
+  position: sticky;
+  left: 0;
+  background-color: #FAFAFA;
+  color: #6B7280;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  border-right: 1px solid #E5E7EB;
+  border-bottom: 1px solid #F0F1F3;
+}
+
+.pick-cell {
+  padding: 8px 10px;
+  border-right: 1px solid #F0F1F3;
+  border-bottom: 1px solid #F0F1F3;
+  vertical-align: top;
+  background-color: #FFFFFF;
+}
+
+.pick-cell-empty {
+  padding: 8px 10px;
+  border-right: 1px solid #F0F1F3;
+  border-bottom: 1px solid #F0F1F3;
+  color: #D1D5DB;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.pick-number {
+  font-size: 10px;
+  color: #9CA3AF;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.player-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 4px;
+}
+
+.player-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pos-tag {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+}
+
+.nfl-team {
+  font-size: 11px;
+  color: #6B7280;
+}
+
+/* ---- Team view ---- */
+
+.team-selector-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.team-chip {
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #E5E7EB;
+  background-color: #F9FAFB;
+  color: #4B5563;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.team-chip-active {
+  background-color: #111827;
+  border-color: #111827;
+  color: #FFFFFF;
+}
+
+.team-pick-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 520px;
+}
+
+.team-pick-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 14px;
+  background-color: #F9FAFB;
+  border: 1px solid #F0F1F3;
+  border-radius: 8px;
+}
+
+.team-pick-round-badge {
+  font-size: 11px;
+  font-weight: 700;
+  color: #6B7280;
+  min-width: 28px;
+}
+
+.team-pick-info {
+  flex: 1;
+}
+
+.team-pick-overall {
+  font-size: 12px;
+  color: #9CA3AF;
+}

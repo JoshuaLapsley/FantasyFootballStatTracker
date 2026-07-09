@@ -14,6 +14,8 @@ import AllTimePointsFor from './AllTimePointsFor/AllTimePointsFor';
 import AllTimePointsAgainst from './AllTimePointsAgainst/AllTimePointsAgainst';
 import PointsForByPlayer from './PointsForByPlayer/PointsForByPlayer';
 import PointsAgainstByPlayer from './PointsAgainstByPlayer/PointsAgainstByPlayer';
+import Draft from './Draft/Draft';
+import Playoffs from './Playoffs/Playoffs';
 
 // ---------------------------------------------------------------------------
 // Types
@@ -35,7 +37,9 @@ const YEARS: Year[] = ['2023', '2024', '2025', 'All Time'];
 const SUB_TABS_YEAR: SubTabConfig[] = [
   { header: 'Team Rank over Time', Component: TeamRankOverTime },
   { header: 'Rosters', Component: Rosters },
-  { header: 'Regular Season', Component: RegularSeason }
+  { header: 'Regular Season', Component: RegularSeason },
+  { header: 'Draft', Component: Draft },
+  { header: 'Playoffs', Component: Playoffs }
 ];
 
 const SUB_TABS_ALL_TIME: SubTabConfig[] = [
