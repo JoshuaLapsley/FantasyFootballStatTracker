@@ -21,7 +21,7 @@ SEASONS = {
 BASE_DIR = Path(__file__).resolve().parent
 
 OLD_OUTPUT_ROOT = BASE_DIR / "league_stats_output"
-NEW_OUTPUT_ROOT = (BASE_DIR / ".." / "Website" / "girderma-gridiron-website" / "src").resolve()
+NEW_OUTPUT_ROOT = (BASE_DIR / ".." / "Website" / "girderma-gridiron-website" / "src" / "league_stats_output").resolve()
 
 OLD_OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
 NEW_OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)

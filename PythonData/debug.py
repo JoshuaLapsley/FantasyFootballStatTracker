@@ -1,60 +1,32 @@
-"""
-debug2.py - checks what get_manager_to_team_map actually returns
-"""
-from yahoo_oauth import OAuth2
-import yahoo_fantasy_api as yfa
-import json
+import requests
+import re
 
-sc = OAuth2(None, None, from_file='oauth2.json')
-gm = yfa.Game(sc, 'nfl')
-lg = gm.to_league("461.l.111150")
-
-teams = lg.teams()
-print(f"Total teams from lg.teams(): {len(teams)}\n")
-
-mapping = {}
-for team_key, team_data in teams.items():
-    team_name = team_data.get("name", "Unknown")
-    managers = team_data.get("managers", [])
-
-    print(f"Team: {team_name}")
-    print(f"  managers list length: {len(managers)}")
-
-    for mgr_entry in managers:
-        mgr = mgr_entry.get("manager", {})
-        guid = mgr.get("guid")
-        nickname = mgr.get("nickname", "Unknown")
-        print(f"  guid present: {guid is not None}  |  nickname: {nickname}  |  guid value: {repr(guid)}")
-
-        if guid:
-            if guid in mapping:
-                print(f"  *** COLLISION: guid already in mapping as {mapping[guid]['team_name']} ***")
-            mapping[guid] = {"nickname": nickname, "team_name": team_name}
-        else:
-            print(f"  *** SKIPPED: guid is None or empty ***")
-
-print(f"\nFinal mapping size: {len(mapping)}")
-print(f"Keys: {list(mapping.keys())}")
-
-
-
-TEAM_TO_NICKNAME = {
-    "Ozzy Stick": "Ben", "Mahomes Alone": "Josh_Rubik", "Tsuga\u2019s Tuck Shop": "Caleb", "Revy\u2019s Konstruction": "Connor", "Supernova\u2019s Studs": "Gavin Brodie", "Spirally Things": "Levi", "Hunter\u2019s Hunters": "Hunter", "Omaha Beach Real Estate": "Andrew", "Flows Aggressive Insurance": "Zach", "Go With The Flow": "Zach", "Wicked Wah-Bams": "Nate", "The Sage's Playmakers": "Josh_Sage", "Sparty's Sigmas": "Jackson", "For Pitts and Giggles": "Zach", "The Hunters": "Hunter", "Lawrence & Order": "Andrew", "Oscorps Buns": "Ben", "Bumpin Brasnos": "Ben", "Room 40": "Josh_Rubik", "No Punts Intented": "Josh_Rubik", "Hungry Hungry Hokk": "Nate", "Deej-lanta Falcons": "DJ", "Pad D's": "Sam_Paddy", "Girder\u2019s Grippers": "Sam_Girder", "Ma\u00eetre Magic": "Levi", "Bumpin Brasnos": "Levi"
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept-Language": "en-US,en;q=0.9",
 }
 
-RIVALS = {
-    "Ma\u00eetre Magic": "Tsuga\u2019s Tuck Shop",
-    "Tsuga\u2019s Tuck Shop": "Ma\u00eetre Magic",
-    "Deej-lanta Falcons": "Girder\u2019s Grippers",
-    "Girder\u2019s Grippers": "Deej-lanta Falcons",
-    "Go With The Flow": "Hunter\u2019s Hunters",
-    "Hunter\u2019s Hunters": "Go With The Flow",
-    "No Punts Intented": "Revy\u2019s Konstruction",
-    "Revy\u2019s Konstruction": "No Punts Intented",
-    "Omaha Beach Real Estate": "Pad D's",
-    "Pad D's": "Omaha Beach Real Estate",
-    "Ozzy Stick": "Hungry Hungry Hokk",
-    "Hungry Hungry Hokk": "Ozzy Stick",
-    "Supernova\u2019s Studs": "The Sage's Playmakers",
-    "The Sage's Playmakers": "Supernova\u2019s Studs",
-}
+url = "https://www.fantasypros.com/nfl/projections/rb.php?week=draft&scoring=PPR&year=2025"
+resp = requests.get(url, headers=HEADERS, timeout=15)
+html = resp.text
+
+# 1. Show the context around every occurrence of "application/json"
+for m in re.finditer(r'application/json', html):
+    start = max(0, m.start() - 200)
+    end = min(len(html), m.end() + 100)
+    print("----- context -----")
+    print(html[start:end])
+    print()
+
+# 2. Look for any URLs that look like API/data endpoints referenced anywhere in the page
+api_like = re.findall(r'https?://[^\s"\'<>]*(?:api|json|data|projections)[^\s"\'<>]*', html, re.IGNORECASE)
+print("Possible API-like URLs found:")
+for u in sorted(set(api_like)):
+    print(" ", u)
+
+# 3. Look for any <script src="..."> pointing to app bundles (helps confirm it's a JS SPA-rendered table)
+script_srcs = re.findall(r'<script[^>]+src=["\']([^"\']+)["\']', html)
+print(f"\n{len(script_srcs)} external script tags found, first 10:")
+for s in script_srcs[:10]:
+    print(" ", s)
