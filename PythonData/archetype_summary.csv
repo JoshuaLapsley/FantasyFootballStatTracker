@@ -1,0 +1,13 @@
+archetype,position,n_players,mean_points,std_points,usage_pg,cluster_silhouette,completion_pct,yards_per_attempt,rush_yards_pg,rush_tds_pg,sacks_pg,example_players,yards_per_carry,targets_pg,rush_td_rate,first_down_rate,target_share_of_touches,air_yards_per_target,yards_per_target,td_rate,wopr_pg
+QB_1,QB,19,16.13,6.43,27.97,0.33,0.62,6.52,39.31,0.42,2.41,"J.Allen, L.Jackson, J.Daniels",,,,,,,,,
+QB_0,QB,92,12.2,6.38,29.77,0.33,0.63,6.66,11.07,0.1,2.18,"P.Mahomes, T.Brady, D.Prescott",,,,,,,,,
+QB_replacement,QB,15,3.13,3.32,9.86,,0.5,5.58,13.1,0.04,1.1,"M.Willis, B.Gabbert, R.Finley",,,,,,,,,
+RB_2,RB,42,11.77,7.08,13.7,0.22,,,,,,"C.McCaffrey, A.Kamara, D.Achane",4.15,3.95,0.03,0.21,0.31,,,,
+RB_1,RB,46,11.11,6.92,13.42,0.22,,,,,,"J.Gibbs, D.Henry, J.Taylor",4.68,2.33,0.04,0.25,0.18,,,,
+RB_0,RB,51,7.55,5.26,10.87,0.22,,,,,,"A.Williams, N.Harris, B.Robinson",4.03,1.63,0.02,0.21,0.15,,,,
+RB_replacement,RB,119,4.39,3.07,5.8,,,,,,,"C.Evans, Z.Horvath, J.Hardy",3.88,1.52,0.02,0.21,0.27,,,,
+TE_0,TE,53,8.51,5.29,4.81,0.27,,,,,,"T.Kelce, B.Bowers, G.Kittle",,,,,,8.2,7.97,0.05,0.33
+TE_1,TE,100,5.87,3.82,3.44,0.27,,,,,,"T.Hill, T.Jackson, B.Whiteheart",,,,,,5.39,6.6,0.05,0.21
+TE_replacement,TE,49,3.09,1.37,2.1,,,,,,,"B.Sinnott, J.Hill, B.Sims",,,,,,6.69,6.18,0.04,0.14
+WR_0,WR,205,10.11,5.8,5.63,0.27,,,,,,"T.Wallace, D.Adams, T.Hill",,,,,,12.42,8.46,0.05,0.44
+WR_1,WR,155,6.82,3.82,4.82,0.27,,,,,,"M.Turner, A.Smith, C.Beasley",,,,,,8.8,6.01,0.03,0.33
