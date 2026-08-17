@@ -6,14 +6,14 @@ const HomePage: React.FC = () => {
   return (
     <div className="Home">
       <section className="Home-hero">
-        <h1 className="Home-title">Spartan's Girderma Gridiron</h1>
+        <h1 className="Home-title">Girderma Gridiron League</h1>
         <p className="Home-subtitle">Fantasy Football League</p>
       </section>
 
       <section className="Home-nav-grid">
         <div className="Home-card Home-card--disabled">
           <h3>Current Season</h3>
-          <p>See stuff from the current season</p>
+          <p>See stuff from the current season.</p>
         </div>
         <Link to="/league-history" className="Home-card">
           <h3>League History</h3>
@@ -21,7 +21,11 @@ const HomePage: React.FC = () => {
         </Link>
         <Link to="/hall-of-fame" className="Home-card">
           <h3>Hall Of Fame</h3>
-          <p>Check out stuff from last seasons.</p>
+          <p>Awards and Fun things about our league!</p>
+        </Link>
+        <Link to="/team-pages" className="Home-card">
+          <h3>Team Pages</h3>
+          <p>View information about each team.</p>
         </Link>
       </section>
     </div>

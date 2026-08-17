@@ -51,7 +51,6 @@ const HallOfFame: React.FC = () => {
     <div className="hof-page">
       <div className="hof-header">
         <h1 className="hof-title">Hall of Fame</h1>
-        <p className="hof-subtitle">Bible Verse on Trophy Goes Here</p>
       </div>
 
       <div className="hof-columns">
@@ -65,11 +64,21 @@ const HallOfFame: React.FC = () => {
           {renderList(losers, "coal")}
         </section>
       </div>
-
+      < br />
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center" }}>
-        <div>Picture of Trophy Goes Here</div>
-        <div>Description of Trophy Goes Here</div>
-    </div>
+        <img
+          src="FantasyTrophy.jpg"
+          alt="Trophy"
+          style={{
+            width: "40%",
+            maxWidth: "220px",
+            minWidth: "120px",
+            height: "auto",
+            objectFit: "cover",
+            borderRadius: "8px",
+          }}
+        />
+      </div>
     </div>
   );
 };
