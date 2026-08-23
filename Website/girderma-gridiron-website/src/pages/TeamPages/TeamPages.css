@@ -33,6 +33,35 @@
   font-size: 15px;
 }
 
+.tp-status {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  color: rgba(246,241,227,0.75);
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(217,166,46,0.25);
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+.tp-status-error {
+  color: #F6D9D3;
+  border-color: rgba(178,58,46,0.5);
+  background: rgba(178,58,46,0.08);
+}
+.tp-spinner {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid rgba(217,166,46,0.3);
+  border-top-color: #D9A62E;
+  animation: tp-spin 0.7s linear infinite;
+}
+@keyframes tp-spin { to { transform: rotate(360deg); } }
+
 .tp-layout {
   max-width: 980px;
   margin: 0 auto;
@@ -79,14 +108,6 @@
   background: rgba(217,166,46,0.14);
   border-left-color: #D9A62E;
   color: #F6F1E3;
-}
-.tp-roster-num {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 12px;
-  color: #D9A62E;
-  opacity: 0.8;
-  width: 20px;
-  flex-shrink: 0;
 }
 .tp-roster-name { flex: 1; }
 .tp-roster-arrow {
@@ -145,8 +166,16 @@
   border: 3px solid #1B1B1B;
   overflow: hidden;
 }
-.tp-crest img { width: 100%; height: 100%; object-fit: cover; }
 
+.tp-camp-name {
+  display: block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(27,27,27,0.5);
+  margin-bottom: 2px;
+}
 .tp-card-heading h2 {
   font-family: 'Anton', sans-serif;
   font-weight: 400;
@@ -165,47 +194,6 @@
   padding: 3px 9px;
   border-radius: 100px;
 }
-
-.tp-custom-slot { margin: 4px 0 18px; }
-
-.tp-ribbon {
-  display: inline-flex;
-  align-items: center;
-  background: #D9A62E;
-  color: #16302B;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  padding: 6px 12px;
-  border-radius: 4px;
-}
-
-.tp-streak {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-family: 'IBM Plex Mono', monospace;
-}
-.tp-streak-label {
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: rgba(27,27,27,0.55);
-}
-.tp-streak-dots { display: flex; gap: 6px; }
-.tp-dot {
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 11px;
-  font-weight: 600;
-}
-.tp-dot-win { background: #5B8C7B; color: #fff; }
-.tp-dot-loss { background: #B23A2E; color: #fff; }
 
 .tp-fields {
   margin: 0;

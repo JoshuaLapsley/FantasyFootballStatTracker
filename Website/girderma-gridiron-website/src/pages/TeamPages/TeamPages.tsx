@@ -1,25 +1,44 @@
 import React, { useState, useEffect } from "react";
 import "./TeamPages.css";
 
+/* =====================================================================
+   1) PASTE YOUR GOOGLE SHEETS API URL HERE
+   ===================================================================== */
+const API_URL = "https://script.googleusercontent.com/macros/echo?user_content_key=AUkAhnR-amOxH-jQhhbt2rdKu0tPqnPoD_8p-NbIbkeRCmy8L_H8Im7CllwpxGXFWrVdMQa2JT6sZnAjzpx_X1PKgugWsXFajsRfAgnNs9eIDR6D36rt7BqISWA0nL_KJQPn47phTz0Aryd5tGDVYqKXLLDpQnhd7OaJdEmTvXt47rveq-KGXnCcqcvunnr-PG-yBmkkme191Hw7QLlVV52FDLx3u2EiCmCkYS2iwuaWMO8AyQX2m9xiCpWvtwZdMYCqc3PtboeOIYWVrOKnBZ5mE1zHYlsVbQ&lib=MiDEjg6dJUQ5OnGJDPzG6dkrwxZh9YfNT";
+
 /* ---------------------------------------------------------------------
    TYPES
 ------------------------------------------------------------------- */
+export interface CampConfig {
+  leagueRole?: string;
+  yearsWon?: number[];
+}
+
 export interface Team {
-  id: number;
-  image?: string;
+  campName: string;
   teamName: string;
   leagueRole?: string;
+  yearsWon?: number[];
   favouriteFootballTeam?: string;
   favouriteFantasyPlayer?: string;
   bestFantasyMemory?: string;
   worstFantasyMemory?: string;
-  additionalNotes?: string;
-  yearsWon?: number[]; // <-- add this
-  ReactComponent?: React.ComponentType;
-  [key: string]: unknown;
+  thisYearsThoughts?: string;
+  lastUpdated?: string;
 }
 
-type FieldType = "text" | "longtext" | "tag";
+interface ApiRow {
+  "Camp Name"?: string;
+  "Fantasy Team Name"?: string;
+  "Favourite Football Team"?: string | number;
+  "Favourite Fantasy Player"?: string | number;
+  "Best Fantasy Memory"?: string | number;
+  "Worst Fantasy Memory"?: string | number;
+  "Thoughts on this year's season"?: string | number;
+  "Last Updated"?: string;
+}
+
+type FieldType = "text" | "longtext";
 type FieldTone = "default" | "good" | "bad";
 
 interface FieldDef {
@@ -29,137 +48,46 @@ interface FieldDef {
   tone?: FieldTone;
 }
 
+type Status = "loading" | "ready" | "error";
+
+/* =====================================================================
+   2) PREDEFINED CAMP CONFIG
+   Key = the exact "Camp Name" string that comes back from the sheet.
+   Fill in / correct these to match your real camp names.
+   leagueRole and yearsWon are NOT in the sheet, so they live here and
+   get merged onto whatever the API returns for that camp.
+   ===================================================================== */
+const CAMP_CONFIG: Record<string, CampConfig> = {
+  "The Sage": { leagueRole: "Developer of the League" },
+  "Flow": { leagueRole: "Commissioner", yearsWon: [2024, 2026] },
+  "Oscorp": { leagueRole: "Treasurer" },
+  "Revy": { yearsWon: [2025] },
+  "Girder": {},
+  "Tsuga": {},
+  "Old Man Argo": {},
+  "Maître D'": { leagueRole: "League Statistician" },
+  "Falcon": {},
+  "Hokkaido": {},
+  "Rubik": {},
+  "Omaha": {},
+  "Paddy": {},
+  "Supernova": {},
+};
+
 /* ---------------------------------------------------------------------
    FIELD SCHEMA
    To add a new property in the future:
-     1. Add its key to the Team interface above.
-     2. Add a field definition below (key must match the property name
-        on each team object).
-     3. Add that same key to each team object in DUMMY_TEAMS (or leave
-        it out / empty — blank values are simply not rendered).
-   That's it — the roster list and the detail card both read from this
-   array, so nothing else needs to change.
+     1. Add the key to the Team interface above.
+     2. Add it to rowToTeam() below so it gets pulled off the row.
+     3. Add a field definition below (key must match what rowToTeam sets).
+   That's it — the detail card reads from this array automatically.
 ------------------------------------------------------------------- */
 const FIELD_DEFS: FieldDef[] = [
-  { key: "leagueRole", label: "League Role", type: "tag" },
   { key: "favouriteFootballTeam", label: "Favourite Football Team", type: "text" },
   { key: "favouriteFantasyPlayer", label: "Favourite Fantasy Player", type: "text" },
   { key: "bestFantasyMemory", label: "Best Fantasy Memory", type: "longtext", tone: "good" },
   { key: "worstFantasyMemory", label: "Worst Fantasy Memory", type: "longtext", tone: "bad" },
-  { key: "additionalNotes", label: "Additional Notes", type: "longtext" },
-];
-
-
-
-const PotTracker: React.FC = () => (
-  <div
-    style={{
-      display: "inline-flex",
-      alignItems: "center",
-      gap: "8px",
-      fontFamily: "'IBM Plex Mono', monospace",
-      fontSize: "12px",
-      fontWeight: 500,
-      letterSpacing: "0.03em",
-      color: "rgba(27,27,27,0.55)",
-      background: "rgba(27,27,27,0.04)",
-      border: "1.5px dashed rgba(27,27,27,0.2)",
-      padding: "8px 14px",
-      borderRadius: "8px",
-    }}
-  >
-    <span style={{ fontSize: "14px" }}>🚧</span>
-    <span>Pot Tracker — Coming Soon</span>
-  </div>
-);
-
-const DUMMY_TEAMS: Team[] = [
-  {
-    id: 1,
-    image: "",
-    teamName: "The Sage's PlayMakers",
-    leagueRole: "Developer of the League",
-    favouriteFootballTeam: "Carolina Panthers",
-    favouriteFantasyPlayer: "De'Von Achane",
-    bestFantasyMemory:
-      "Tuning into the most random games, to watch my kicker hopefuly get me 10 points.",
-    worstFantasyMemory:
-      "Isaiah Likely dropping a snowman in the playoffs, when I just needed him to get 1 reception to win the week.",
-    additionalNotes: "Luther Burden is the worst Fantasy Player this year."
-  },
-  {
-    id: 2,
-    image: "",
-    teamName: "Flow Brrr",
-    leagueRole: "Comissioner",
-    yearsWon: [2024, 2026],
-        
-  },
-  {
-    id: 3,
-    image: "",
-    teamName: "Ozzy Stick",
-    leagueRole: "Treasurer",
-    ReactComponent: () => <PotTracker />,
-  },
-  {
-    id: 4,
-    image: "",
-    teamName: "Revy's Konstruction",
-    yearsWon: [2025],
-        
-  },
-  {
-    id: 5,
-    image: "",
-    teamName: "You Gotta Be Falcon Kiddin Me",   
-  },
-  {
-    id: 6,
-    image: "",
-    teamName: "Girder's 6 Cookies",   
-  },
-  {
-    id: 7,
-    image: "",
-    teamName: "Big Bad Hokkkk",   
-  },
-  {
-    id: 8,
-    image: "",
-    teamName: "Hunter's Hunters",   
-  },
-  {
-    id: 9,
-    image: "",
-    leagueRole: "League Statistician",
-    teamName: "Maitre Stick",   
-  },
-  {
-    id: 10,
-    image: "",
-    teamName: "No Punts Intented",   
-  },
-  {
-    id: 11,
-    image: "",
-    teamName: "Omaha Beach Real Estate",   
-  },
-  {
-    id: 12,
-    image: "",
-    teamName: "Pad D's",   
-  },
-  {
-    id: 13,
-    image: "",
-    teamName: "Supernova's Studs",   
-  },
-  {
-    id: 14,
-    image: "",
-    teamName: "Tsuga's Tuck Shop",   
-  },
+  { key: "thisYearsThoughts", label: "This Year's Thoughts", type: "longtext" },
 ];
 
 /* --------------------------- helpers --------------------------- */
@@ -173,12 +101,50 @@ const initials = (name = ""): string =>
     .toUpperCase();
 
 const CREST_COLORS = ["#D9A62E", "#5B8C7B", "#B23A2E", "#3E6E8E", "#8C6B4F", "#6E5B8C"];
-const crestColor = (id: number): string => CREST_COLORS[id % CREST_COLORS.length];
+const hashString = (str = ""): number => {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) {
+    h = (h << 5) - h + str.charCodeAt(i);
+    h |= 0;
+  }
+  return Math.abs(h);
+};
+const crestColor = (key: string): string => CREST_COLORS[hashString(key) % CREST_COLORS.length];
+
+const clean = (val: unknown): string | undefined => {
+  if (val === undefined || val === null) return undefined;
+  const str = String(val).trim();
+  return str.length > 0 ? str : undefined;
+};
+
+/* ---------------------------------------------------------------------
+   Turn one row from the Google Sheet into a Team object, merging in
+   the predefined config for that camp.
+------------------------------------------------------------------- */
+function rowToTeam(row: ApiRow): Team {
+  const campName = clean(row["Camp Name"]) || "Unknown Camp";
+  const config = CAMP_CONFIG[campName] || {};
+
+  return {
+    campName,
+    teamName: clean(row["Fantasy Team Name"]) || campName,
+    leagueRole: config.leagueRole,
+    yearsWon: config.yearsWon,
+    favouriteFootballTeam: clean(row["Favourite Football Team"]),
+    favouriteFantasyPlayer: clean(row["Favourite Fantasy Player"]),
+    bestFantasyMemory: clean(row["Best Fantasy Memory"]),
+    worstFantasyMemory: clean(row["Worst Fantasy Memory"]),
+    thisYearsThoughts: clean(row["Thoughts on this year's season"]),
+    lastUpdated: clean(row["Last Updated"]),
+  };
+}
 
 /* --------------------------- component --------------------------- */
 export default function TeamPages() {
-  const [selectedId, setSelectedId] = useState<number>(DUMMY_TEAMS[0].id);
-  const selected = DUMMY_TEAMS.find((t) => t.id === selectedId) || DUMMY_TEAMS[0];
+  const [teams, setTeams] = useState<Team[]>([]);
+  const [status, setStatus] = useState<Status>("loading");
+  const [errorMessage, setErrorMessage] = useState<string>("");
+  const [selectedCamp, setSelectedCamp] = useState<string | null>(null);
 
   useEffect(() => {
     const link = document.createElement("link");
@@ -191,80 +157,113 @@ export default function TeamPages() {
     };
   }, []);
 
+  useEffect(() => {
+    let cancelled = false;
+
+    async function loadTeams() {
+      setStatus("loading");
+      try {
+        const res = await fetch(API_URL);
+        if (!res.ok) throw new Error(`Request failed (${res.status})`);
+        const data: ApiRow[] = await res.json();
+        if (cancelled) return;
+
+        const mapped = (Array.isArray(data) ? data : []).map(rowToTeam);
+        setTeams(mapped);
+        setSelectedCamp((prev) => prev || mapped[0]?.campName || null);
+        setStatus("ready");
+      } catch (err) {
+        if (cancelled) return;
+        setErrorMessage(err instanceof Error ? err.message : "Something went wrong");
+        setStatus("error");
+      }
+    }
+
+    loadTeams();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const selected = teams.find((t) => t.campName === selectedCamp) || teams[0];
+
   return (
     <div className="tp-page">
       <header className="tp-header">
         <span className="tp-eyebrow">Team Pages</span>
-        <h1 className="tp-title">League Roster</h1>
-        <p className="tp-subtitle">Tap a team name to pull their card.</p>
+        <h1 className="tp-title">Girderma Gridiron Team Pages</h1>
+        <p className="tp-subtitle">Tap a name to pull their card.</p>
       </header>
 
-      <div className="tp-layout">
-        {/* Roster list */}
-        <nav className="tp-roster" aria-label="Team roster">
-          <ol>
-            {DUMMY_TEAMS.map((team, i) => (
-              <li key={team.id}>
-                <button
-                  className={`tp-roster-item ${team.id === selectedId ? "is-active" : ""}`}
-                  onClick={() => setSelectedId(team.id)}
-                >
-                  <span className="tp-roster-num">{String(i + 1).padStart(2, "0")}</span>
-                  <span className="tp-roster-name">{team.teamName}</span>
-                  <span className="tp-roster-arrow">→</span>
-                </button>
-              </li>
-            ))}
-          </ol>
-        </nav>
+      {status === "loading" && (
+        <div className="tp-status">
+          <span className="tp-spinner" aria-hidden="true" />
+          Loading Team Pages…
+        </div>
+      )}
 
-        {/* Detail card */}
-        <section className="tp-card-wrap" aria-live="polite">
-          <TeamCard team={selected} />
-        </section>
-      </div>
+      {status === "error" && (
+        <div className="tp-status tp-status-error">
+          Couldn't load the roster: {errorMessage}
+        </div>
+      )}
+
+      {status === "ready" && (
+        <div className="tp-layout">
+          <nav className="tp-roster" aria-label="Team roster">
+            <ol>
+              {teams.map((team) => (
+                <li key={team.campName}>
+                  <button
+                    className={`tp-roster-item ${team.campName === selectedCamp ? "is-active" : ""}`}
+                    onClick={() => setSelectedCamp(team.campName)}
+                  >
+                    <span className="tp-roster-name">{team.campName}</span>
+                    <span className="tp-roster-arrow">→</span>
+                  </button>
+                </li>
+              ))}
+            </ol>
+          </nav>
+
+          <section className="tp-card-wrap" aria-live="polite">
+            {selected && <TeamCard team={selected} />}
+          </section>
+        </div>
+      )}
     </div>
   );
 }
 
 function TeamCard({ team }: { team: Team }) {
-  const CustomComponent = team.ReactComponent;
-
   return (
     <article className="tp-card">
       <div className="tp-card-top">
-        <div className="tp-crest" style={{ background: crestColor(team.id) }}>
-          {team.image ? (
-            <img src={team.image} alt={team.teamName} />
-          ) : (
-            <span>{initials(team.teamName)}</span>
-          )}
+        <div className="tp-crest" style={{ background: crestColor(team.campName) }}>
+          <span>{initials(team.campName)}</span>
         </div>
         <div className="tp-card-heading">
+          <span className="tp-camp-name">{team.campName}</span>
           <h2>{team.teamName}</h2>
           {team.leagueRole && <span className="tp-role-tag">{team.leagueRole}</span>}
         </div>
       </div>
+
       {team.yearsWon && team.yearsWon.length > 0 && (
         <div className="tp-years">
-            {team.yearsWon
+          {team.yearsWon
             .slice()
             .sort((a, b) => b - a)
             .map((year) => (
-                <span className="tp-year-badge" key={year}>
+              <span className="tp-year-badge" key={year}>
                 🏆 {year}
-                </span>
+              </span>
             ))}
-        </div>
-        )}
-      {CustomComponent && (
-        <div className="tp-custom-slot">
-          <CustomComponent />
         </div>
       )}
 
       <dl className="tp-fields">
-        {FIELD_DEFS.filter((f) => f.type !== "tag").map((field) => {
+        {FIELD_DEFS.map((field) => {
           const value = team[field.key] as string | undefined;
           if (!value) return null;
           return (
