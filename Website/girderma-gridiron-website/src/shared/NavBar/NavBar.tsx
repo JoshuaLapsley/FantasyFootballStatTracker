@@ -36,7 +36,6 @@ function NavBar() {
       </button>
       <ul className={`NavBar-links ${isOpen ? 'is-open' : ''}`}>
         <li><Link to="/" onClick={closeMenu}>Home</Link></li>
-        <li><Link to="/current-season" onClick={closeMenu}>Current Season</Link></li>
         <li><Link to="/league-history" onClick={closeMenu}>League History</Link></li>
         <li><Link to="/hall-of-fame" onClick={closeMenu}>Hall of Fame</Link></li>
         <li><Link to="/team-pages" onClick={closeMenu}>Team Pages</Link></li>

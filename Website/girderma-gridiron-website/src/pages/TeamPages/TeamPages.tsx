@@ -59,9 +59,9 @@ type Status = "loading" | "ready" | "error";
    ===================================================================== */
 const CAMP_CONFIG: Record<string, CampConfig> = {
   "The Sage": { leagueRole: "Developer of the League" },
-  "Flow": { leagueRole: "Commissioner", yearsWon: [2024, 2026] },
+  "Flow": { leagueRole: "Commissioner", yearsWon: [2023, 2025] },
   "Oscorp": { leagueRole: "Treasurer" },
-  "Revy": { yearsWon: [2025] },
+  "Revy": { yearsWon: [2024] },
   "Girder": {},
   "Tsuga": {},
   "Old Man Argo": {},

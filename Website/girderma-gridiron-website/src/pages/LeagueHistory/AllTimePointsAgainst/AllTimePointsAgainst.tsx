@@ -11,7 +11,7 @@ const AllTimePointsAgainst: React.FC = () => {
 
   return (
     <div style={{ padding: '20px' }}>
-      <h3>All Time Wins</h3>
+      <h3>All Time Points Against</h3>
       {imageSrc ? (
         <img
           src={imageSrc}
