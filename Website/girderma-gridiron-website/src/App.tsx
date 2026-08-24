@@ -33,13 +33,13 @@ const App: React.FC = () => {
 
           {/* Winners */}
           <Route path="/hall-of-fame/For Pitts and Giggles/2023" element={<Zach2023 />} />
-          <Route path="/hall-of-fame/Revy’s Konstruction/2024" element={<Connor2024 />} />
+          <Route path="/hall-of-fame/Revy's Konstruction/2024" element={<Connor2024 />} />
           <Route path="/hall-of-fame/Go With The Flow/2025" element={<Zach2025 />} />
 
           {/* Losers */}
-          <Route path="/hall-of-fame/Revy’s Konstruction/2023" element={<Connor2023 />} />
+          <Route path="/hall-of-fame/Revy's Konstruction/2023" element={<Connor2023 />} />
           <Route path="/hall-of-fame/Sparty's Sigmas/2024" element={<Jackson2024 />} />
-          <Route path="/hall-of-fame/Revy’s Konstruction/2025" element={<Connor2025 />} />
+          <Route path="/hall-of-fame/Revy's Konstruction/2025" element={<Connor2025 />} />
       </Routes>
     </div>
   );
