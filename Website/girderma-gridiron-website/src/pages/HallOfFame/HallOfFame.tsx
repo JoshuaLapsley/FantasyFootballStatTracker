@@ -76,8 +76,8 @@ const HallOfFame: React.FC = () => {
   return (
     <div className="hof-page">
       <div className="hof-header">
-        <h1 className="hof-title">🏈 League Hall of Fame</h1>
-        <p className="hof-subtitle">Every champion, every disaster, every season on record</p>
+        <h1 className="hof-title">🏈 Girderma Gridiron Hall of Fame</h1>
+        <p className="hof-subtitle">Click on a winner or loser, to see more information.</p>
       </div>
 
       <div className="hof-trophy-wrap">
