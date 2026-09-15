@@ -48,12 +48,12 @@ const HomePage: React.FC = () => {
           <span className="Home-card-arrow" aria-hidden="true">→</span>
         </Link>
 
-        <div className="Home-card Home-card--disabled">
+        <Link to="/pot-tracker" className="Home-card">
           <span className="Home-card-icon">{icons.pot}</span>
           <h3>Treasurer Pot Tracker</h3>
           <p>Live Track the Treasurer's Investments.</p>
-        </div>
-
+          <span className="Home-card-arrow" aria-hidden="true">→</span>
+        </Link>
         <div className="Home-card Home-card--disabled">
           <span className="Home-card-icon">{icons.rivalry}</span>
           <h3>Rivalry's</h3>

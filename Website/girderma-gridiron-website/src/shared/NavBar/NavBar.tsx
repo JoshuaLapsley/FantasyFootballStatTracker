@@ -39,6 +39,7 @@ function NavBar() {
         <li><Link to="/league-history" onClick={closeMenu}>League History</Link></li>
         <li><Link to="/hall-of-fame" onClick={closeMenu}>Hall of Fame</Link></li>
         <li><Link to="/team-pages" onClick={closeMenu}>Team Pages</Link></li>
+        <li><Link to="/pot-tracker" onClick={closeMenu}>Pot Tracker</Link></li>
       </ul>
     </nav>
   );
