@@ -12,44 +12,35 @@ import "./PotTracker.css";
  *  - Shares held:   $160 / $37.74 = ~4.240 shares (fractional, since $160
  *                    doesn't divide evenly into whole shares at that price)
  *
- * Data behaviour (changed from the previous version):
- *  On mount, this does ONE fetch to Yahoo Finance's chart endpoint, which
- *  returns both the intraday candle history (used to draw the chart from
- *  your fill time to now) and the latest quote (used for the headline
- *  numbers) in a single response. There is no polling, no setTimeout loop,
- *  and no fabricated/simulated price data. If the fetch fails (e.g. CORS
- *  blocks a direct browser call to Yahoo, or you're offline), the UI says
- *  so plainly instead of making up numbers, and gives you a manual "Retry"
- *  button.
- *
- * Live data note:
- *  Yahoo's chart endpoint is unofficial and frequently blocks direct
- *  browser requests via CORS. If you see "Unable to load live data" in
- *  practice, you'll likely need to route this through a small server-side
- *  proxy (or a keyed provider like Twelve Data / Alpha Vantage) rather than
- *  calling Yahoo directly from the client.
+ * Data behaviour:
+ *  Data comes from your own Render proxy (not Yahoo or Twelve Data
+ *  directly from the browser, which get blocked by CORS or require a
+ *  client-exposed API key). On mount, and whenever you hit "Refresh", this
+ *  makes two calls to the proxy:
+ *    1. /api/history/:symbol?range=1mo&interval=60m — hourly candles used
+ *       to draw the chart from your fill time to now.
+ *    2. /api/quote/:symbol — the current live price, used for the
+ *       headline "worth right now" number (more current than the last
+ *       hourly candle, which can be up to ~an hour stale).
+ *  There is no polling and no fabricated/simulated price data. If either
+ *  fetch fails, the UI says so plainly instead of making up numbers, and
+ *  gives you a manual "Retry" button.
  */
 
 // ---------- Position config ----------
-// Twelve Data uses "SYMBOL:EXCHANGE" for non-US listings (e.g. "HEB:TSX"),
-// not the Yahoo-style ".TO" suffix.
-const TICKER = "HEB:TSX";
+// Your Render proxy — see README from the yahoo-proxy project for the
+// server code. Swap this for your actual Render URL if it changes.
+const PROXY_URL = "https://fantasyfootballstattracker.onrender.com";
+
+// Yahoo's format for TSX-listed stocks is "TICKER.TO", not "TICKER:TSX".
+const TICKER = "HEB.TO";
 const DISPLAY_NAME = "HEB.TO";
 
-// Create React App only exposes env vars prefixed with REACT_APP_, and only
-// ones baked in at build time. Add this to a .env file at your project root
-// (same level as package.json), then restart `npm start`:
-//   REACT_APP_TWELVEDATA_API_KEY=your_key_here
-// Note this key ships in your built JS bundle since it's a client-side call
-// — fine for a free-tier personal tracker, not something to treat as secret.
-const TWELVEDATA_API_KEY = "fbef40a161f947e68bed461947e34d88";
-const BUY_PRICE = 37.74;
+const BUY_PRICE = 34.74;
 const AMOUNT_INVESTED = 160;
 const SHARES = AMOUNT_INVESTED / BUY_PRICE;
 
 // Fill time: fixed at September 8, 2026, 3:45 PM, America/Toronto.
-// (Previously this was computed as "yesterday", which drifted every day
-// the app was opened. It's now pinned to the actual fill date.)
 function getFillTimestamp(): Date {
   // Month is 0-indexed in JS Date, so 8 = September.
   return new Date(2026, 8, 8, 15, 45, 0, 0);
@@ -82,66 +73,97 @@ function formatAxisTime(t: number): string {
   });
 }
 
-// Single fetch: Twelve Data's time_series endpoint returns candles ordered
-// most-recent-first, so the first entry doubles as the "latest quote" —
-// no second request needed.
-//
-// Since the fill date is now potentially many days in the past (not just
-// "yesterday"), we ask for a much larger batch of 5-minute candles so the
-// history actually reaches back to the fill timestamp instead of getting
-// truncated to the last ~2 trading days.
-async function fetchRealHistory(): Promise<{
+type ProxyCandle = {
+  date: string;
+  open: number | null;
+  high: number | null;
+  low: number | null;
+  close: number | null;
+  volume: number | null;
+};
+
+type ProxyHistoryResponse = {
+  symbol: string;
+  candles: ProxyCandle[];
+};
+
+type ProxyQuoteResponse = {
+  symbol: string;
+  currency: string;
+  exchangeName: string;
+  regularMarketPrice: number;
+  previousClose: number;
+  regularMarketTime: number; // unix seconds
+  marketState: string;
+};
+
+// Fetches hourly history + the live quote from your own proxy (not Yahoo
+// directly, which blocks browser CORS requests).
+async function fetchFromProxy(): Promise<{
   points: PricePoint[];
-  latest: number | null;
+  latest: number;
+  latestTime: number;
 } | null> {
-  if (!TWELVEDATA_API_KEY) {
-    console.error(
-      "Missing REACT_APP_TWELVEDATA_API_KEY — add it to your .env file and restart the dev server."
-    );
-    return null;
-  }
-
   try {
-    const url = new URL("https://api.twelvedata.com/time_series");
-    url.searchParams.set("symbol", TICKER);
-    url.searchParams.set("interval", "5min");
-    // 5000 is the max outputsize Twelve Data allows per request. At ~78
-    // 5-min candles per trading day, this comfortably covers several
-    // weeks of history back to the fill date.
-    url.searchParams.set("outputsize", "5000");
-    url.searchParams.set("timezone", "America/Toronto");
-    url.searchParams.set("apikey", TWELVEDATA_API_KEY);
+    const [historyRes, quoteRes] = await Promise.all([
+      fetch(`${PROXY_URL}/api/history/${TICKER}?range=1mo&interval=60m`),
+      fetch(`${PROXY_URL}/api/quote/${TICKER}`),
+    ]);
 
-    const res = await fetch(url.toString());
-    if (!res.ok) return null;
-    const data = await res.json();
-
-    if (data?.status === "error") {
-      console.error("Twelve Data error:", data.message);
+    if (!historyRes.ok) {
+      console.error("Proxy history request failed:", historyRes.status);
       return null;
     }
 
-    const values: Array<{ datetime: string; close: string }> =
-      data?.values ?? [];
-    if (!values.length) return null;
+    const historyData: ProxyHistoryResponse = await historyRes.json();
+    const candles = historyData?.candles ?? [];
 
-    // Twelve Data returns newest-first; flip to chronological order and
-    // parse each "YYYY-MM-DD HH:mm:ss" datetime as America/Toronto time.
-    const points: PricePoint[] = values
-      .map((v) => ({
-        t: new Date(`${v.datetime.replace(" ", "T")}-04:00`).getTime(),
-        price: parseFloat(v.close),
-      }))
-      .filter((p) => !Number.isNaN(p.t) && !Number.isNaN(p.price))
-      .filter((p) => p.t >= FILL_TIME.getTime())
+    const points: PricePoint[] = candles
+      .map((c) => ({ t: new Date(c.date).getTime(), price: c.close }))
+      .filter(
+        (p): p is PricePoint =>
+          p.price !== null &&
+          !Number.isNaN(p.t) &&
+          p.t >= FILL_TIME.getTime()
+      )
       .sort((a, b) => a.t - b.t);
 
     if (!points.length) return null;
 
-    const latest = points[points.length - 1].price;
-    return { points, latest };
+    // Anchor the chart to the actual fill price at the fill time. Without
+    // this, the line starts at whatever the first hourly candle happened
+    // to close at (mid-candle from your actual buy), not your real cost
+    // basis, which reads as "wrong" even though the market data is correct.
+    if (points[0].t > FILL_TIME.getTime()) {
+      points.unshift({ t: FILL_TIME.getTime(), price: BUY_PRICE });
+    }
+
+    // Prefer the live quote for the "current" price/time (more up to date
+    // than the last hourly candle), but fall back to the last candle if
+    // the quote request failed for some reason.
+    let latest = points[points.length - 1].price;
+    let latestTime = Date.now();
+
+    if (quoteRes.ok) {
+      const quoteData: ProxyQuoteResponse = await quoteRes.json();
+      if (typeof quoteData.regularMarketPrice === "number") {
+        latest = quoteData.regularMarketPrice;
+        latestTime = quoteData.regularMarketTime
+          ? quoteData.regularMarketTime * 1000
+          : Date.now();
+      }
+    }
+
+    // Add the live quote as the final chart point so the line extends
+    // right up to "now" rather than stopping at the last hourly candle.
+    const lastCandle = points[points.length - 1];
+    if (latest !== lastCandle.price) {
+      points.push({ t: latestTime, price: latest });
+    }
+
+    return { points, latest, latestTime };
   } catch (err) {
-    console.error("Twelve Data fetch failed:", err);
+    console.error("Proxy fetch failed:", err);
     return null;
   }
 }
@@ -155,25 +177,20 @@ export default function InvestmentTracker() {
 
   async function load() {
     setState("loading");
-    const real = await fetchRealHistory();
+    const real = await fetchFromProxy();
 
     if (real && real.points.length > 1) {
-      const points = [...real.points];
-      const last = points[points.length - 1];
-      if (real.latest != null && real.latest !== last.price) {
-        points.push({ t: Date.now(), price: real.latest });
-      }
-      setHistory(points);
+      setHistory(real.points);
+      setLastUpdated(real.latestTime);
       setState("loaded");
     } else {
       setHistory(null);
+      setLastUpdated(Date.now());
       setState("error");
     }
-    setLastUpdated(Date.now());
   }
 
-  // Fetch exactly once, on mount. No polling — this is fine to only
-  // refresh once a day (e.g. re-open the app / call `load()` manually).
+  // Fetch on mount. No polling — click "Refresh" to pull the latest data.
   useEffect(() => {
     load();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -228,8 +245,8 @@ export default function InvestmentTracker() {
       <div className="tracker-card">
         <header className="tracker-header">
           <div className="tracker-title">
-            <span className="ticker">{DISPLAY_NAME}</span>
-            <span className="exchange">TSX &middot; CAD</span>
+            <span className="ticker">Treasurer Pot Tracker</span>
+            <span className="exchange">Your treasurer has put the pot into HEB.TO</span>
           </div>
           <div className="status-pill status-live">
             <span className="status-dot" />
@@ -238,20 +255,18 @@ export default function InvestmentTracker() {
         </header>
 
         <div className="pot-block">
-          <div className="pot-label">Your $160 is now worth</div>
+          <div className="pot-label">The $160 pot is now worth</div>
           <div className="pot-value">{formatMoney(potValue)}</div>
           <div className={`delta-badge ${isUp ? "up" : "down"}`}>
             {isUp ? "+" : ""}
             {formatMoney(gainDollars)} ({isUp ? "+" : ""}
-            {gainPercent.toFixed(2)}%)
+            {gainPercent.toFixed(2)}%) {isUp ? "profit" : "loss"}
           </div>
         </div>
+
         <div className="updated-line">
-          Loaded {formatClock(lastUpdated)} &middot; {history.length} points
-          since fill{" "}
-          <button className="refresh-link" onClick={load}>
-            Refresh
-          </button>
+          Data last retrieved {formatClock(lastUpdated)} &middot;{" "}
+          {history.length} hourly points since fill{" "}
         </div>
 
         <div className="chart-wrap">
@@ -260,21 +275,73 @@ export default function InvestmentTracker() {
             preserveAspectRatio="none"
             className="chart-svg"
           >
+            {/* Y-axis gridlines + labels */}
+            {chart.yTicks.map((tick, i) => (
+              <g key={`y-${i}`}>
+                <line
+                  x1={chart.padLeft}
+                  y1={tick.y}
+                  x2={chart.width - chart.padRight}
+                  y2={tick.y}
+                  className="grid-line"
+                />
+                <text
+                  x={chart.padLeft - 8}
+                  y={tick.y}
+                  className="axis-label y-label"
+                >
+                  {formatMoney(tick.price)}
+                </text>
+              </g>
+            ))}
+
+            {/* X-axis ticks + labels */}
+            {chart.xTicks.map((tick, i) => (
+              <text
+                key={`x-${i}`}
+                x={tick.x}
+                y={chart.height - 6}
+                className="axis-label x-label"
+              >
+                {tick.label}
+              </text>
+            ))}
+
+            {/* Axis lines */}
             <line
-              x1={0}
+              x1={chart.padLeft}
+              y1={chart.padTop}
+              x2={chart.padLeft}
+              y2={chart.height - chart.padBottom}
+              className="axis-line"
+            />
+            <line
+              x1={chart.padLeft}
+              y1={chart.height - chart.padBottom}
+              x2={chart.width - chart.padRight}
+              y2={chart.height - chart.padBottom}
+              className="axis-line"
+            />
+
+            {/* Buy price reference line */}
+            <line
+              x1={chart.padLeft}
               y1={chart.buyLineY}
-              x2={chart.width}
+              x2={chart.width - chart.padRight}
               y2={chart.buyLineY}
               className="buy-line"
             />
-            <polyline
-              points={chart.areaPoints}
-              className={`chart-area ${isUp ? "up" : "down"}`}
-            />
-            <polyline
-              points={chart.linePoints}
-              className={`chart-line ${isUp ? "up" : "down"}`}
-            />
+            <text
+              x={chart.width - chart.padRight - 6}
+              y={chart.buyLineY - 6}
+              textAnchor="end"
+              className="buy-label"
+            >
+              Buy {formatMoney(BUY_PRICE)}
+            </text>
+
+            <polyline points={chart.areaPoints} className={`chart-area ${isUp ? "up" : "down"}`} />
+            <polyline points={chart.linePoints} className={`chart-line ${isUp ? "up" : "down"}`} />
             <circle
               cx={chart.lastX}
               cy={chart.lastY}
@@ -282,16 +349,6 @@ export default function InvestmentTracker() {
               className={`chart-dot ${isUp ? "up" : "down"}`}
             />
           </svg>
-          <div
-            className="chart-axis-label buy-label"
-            style={{ top: `${chart.buyLinePct}%` }}
-          >
-            Buy {formatMoney(BUY_PRICE)}
-          </div>
-          <div className="chart-x-labels">
-            <span>{formatAxisTime(FILL_TIME.getTime())} (bought)</span>
-            <span>{formatAxisTime(Date.now())} (now)</span>
-          </div>
         </div>
 
         <dl className="stats-grid">
@@ -312,6 +369,13 @@ export default function InvestmentTracker() {
             <dd>{formatMoney(AMOUNT_INVESTED)}</dd>
           </div>
           <div className="stat">
+            <dt>Net profit/loss</dt>
+            <dd className={isUp ? "text-up" : "text-down"}>
+              {isUp ? "+" : ""}
+              {formatMoney(gainDollars)}
+            </dd>
+          </div>
+          <div className="stat">
             <dt>Bought</dt>
             <dd>
               {FILL_TIME.toLocaleDateString("en-CA", {
@@ -325,13 +389,6 @@ export default function InvestmentTracker() {
               })}
             </dd>
           </div>
-          <div className="stat">
-            <dt>Since fill</dt>
-            <dd className={isUp ? "text-up" : "text-down"}>
-              {isUp ? "+" : ""}
-              {gainPercent.toFixed(2)}%
-            </dd>
-          </div>
         </dl>
       </div>
     </div>
@@ -343,41 +400,80 @@ function useMemoChart(history: PricePoint[]) {
   return useMemo(() => buildChartGeometry(history), [history]);
 }
 
+const Y_TICK_COUNT = 5;
+const X_TICK_COUNT = 5;
+
 function buildChartGeometry(history: PricePoint[]) {
   const width = 1000;
   const height = 320;
-  const padY = 20;
+
+  // Room reserved for axis labels: left for price labels, bottom for date labels.
+  const padLeft = 64;
+  const padRight = 12;
+  const padTop = 24;
+  const padBottom = 26;
+
+  const plotWidth = width - padLeft - padRight;
+  const plotHeight = height - padTop - padBottom;
 
   const prices = history.map((p) => p.price);
   const min = Math.min(...prices, BUY_PRICE);
   const max = Math.max(...prices, BUY_PRICE);
-  const range = max - min || 1;
+  // Pad the price range slightly so the line/gridlines don't sit flush
+  // against the top/bottom edge of the plot area.
+  const rawRange = max - min || 1;
+  const rangePad = rawRange * 0.08;
+  const domainMin = min - rangePad;
+  const domainMax = max + rangePad;
+  const range = domainMax - domainMin || 1;
 
-  const xStep = history.length > 1 ? width / (history.length - 1) : width;
+  const xStep = history.length > 1 ? plotWidth / (history.length - 1) : plotWidth;
 
+  const toX = (i: number) => padLeft + i * xStep;
   const toY = (price: number) =>
-    height - padY - ((price - min) / range) * (height - padY * 2);
+    padTop + plotHeight - ((price - domainMin) / range) * plotHeight;
 
-  const linePoints = history
-    .map((p, i) => `${i * xStep},${toY(p.price)}`)
-    .join(" ");
+  const linePoints = history.map((p, i) => `${toX(i)},${toY(p.price)}`).join(" ");
 
-  const areaPoints = `0,${height} ${linePoints} ${width},${height}`;
+  const areaPoints = `${padLeft},${height - padBottom} ${linePoints} ${
+    width - padRight
+  },${height - padBottom}`;
 
   const buyLineY = toY(BUY_PRICE);
-  const buyLinePct = (buyLineY / height) * 100;
 
-  const lastX = (history.length - 1) * xStep;
+  const lastX = toX(history.length - 1);
   const lastY = toY(history[history.length - 1].price);
+
+  // Y-axis ticks: evenly spaced prices across the padded domain.
+  const yTicks = Array.from({ length: Y_TICK_COUNT }, (_, i) => {
+    const price = domainMin + (range * i) / (Y_TICK_COUNT - 1);
+    return { price, y: toY(price) };
+  }).reverse();
+
+  // X-axis ticks: evenly spaced indices across the history array,
+  // always including the first (fill) and last (now) points.
+  const tickCount = Math.min(X_TICK_COUNT, history.length);
+  const xTicks = Array.from({ length: tickCount }, (_, i) => {
+    const idx =
+      tickCount === 1
+        ? 0
+        : Math.round((i * (history.length - 1)) / (tickCount - 1));
+    return { x: toX(idx), label: formatAxisTime(history[idx].t) };
+  });
 
   return {
     width,
     height,
+    padLeft,
+    padRight,
+    padTop,
+    padBottom,
     linePoints,
     areaPoints,
     buyLineY,
-    buyLinePct,
     lastX,
     lastY,
+    yTicks,
+    xTicks,
   };
 }

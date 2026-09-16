@@ -21,11 +21,12 @@ const HomePage: React.FC = () => {
       </section>
 
       <section className="Home-nav-grid">
-        <div className="Home-card Home-card--disabled">
+        <Link to="/current-season" className="Home-card">
           <span className="Home-card-icon">{icons.live}</span>
           <h3>Current Season</h3>
           <p>See stuff from the current season.</p>
-        </div>
+          <span className="Home-card-arrow" aria-hidden="true">→</span>
+        </Link>
 
         <Link to="/league-history" className="Home-card">
           <span className="Home-card-icon">{icons.history}</span>

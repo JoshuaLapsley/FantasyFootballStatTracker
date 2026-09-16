@@ -173,7 +173,9 @@ def GetPlayerDataByWeek(week):
 # getTransactionData("drop")
 # getMatchupData(14)
 
-save_team_rosters_with_weekly_stats(12)
+#save_team_rosters_with_weekly_stats(12)
+
+print(getCurrentWeek())
 
 
 

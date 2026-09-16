@@ -15,6 +15,7 @@ import HallOfFame from './pages/HallOfFame/HallOfFame';
 import Connor2025 from './pages/HallOfFame/Losers/Connor2025/Connor2025';
 import TeamPages from './pages/TeamPages/TeamPages';
 import PotTracker from './pages/PotTracker/PotTracker';
+import CurrentSeason from './pages/CurrentSeason/CurrentSeason';
 
 
 const App: React.FC = () => {
@@ -32,6 +33,7 @@ const App: React.FC = () => {
           <Route path="/hall-of-fame" element={<HallOfFame />} />
           <Route path="/team-pages" element={<TeamPages />} />
           <Route path="/pot-tracker" element={<PotTracker />} />
+          <Route path="/current-season" element={<CurrentSeason />} />
 
           {/* Winners */}
           <Route path="/hall-of-fame/For Pitts and Giggles/2023" element={<Zach2023 />} />
