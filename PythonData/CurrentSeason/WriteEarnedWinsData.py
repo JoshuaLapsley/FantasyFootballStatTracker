@@ -93,15 +93,16 @@ def calculate_earned_wins(data_directory, output_directory):
             reverse=True
         )
 
-        total_teams = len(weekly_teams)
+        # League has 13 teams
+        total_teams = 13
 
         for rank, team in enumerate(weekly_teams, start=1):
 
-            # Example with 14 teams:
-            # 1st = 14/14
-            # 2nd = 13/14
-            # 5th = 10/14
-            # 14th = 1/14
+            # 1st  = 13/13 = 1.0000
+            # 2nd  = 12/13 = 0.9231
+            # 3rd  = 11/13 = 0.8462
+            # ...
+            # 13th = 1/13  = 0.0769
 
             earned_win = (
                 (total_teams - rank + 1)
