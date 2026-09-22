@@ -1,0 +1,828 @@
+{
+  "Ozzy Stick": {
+    "total_points": 108.01,
+    "slots": {
+      "QB": {
+        "player": "Dak Prescott",
+        "position": "QB",
+        "projected_points": 19.07,
+        "used_replacement": false
+      },
+      "RB1": {
+        "player": "James Cook III",
+        "position": "RB",
+        "projected_points": 15.61,
+        "used_replacement": false
+      },
+      "RB2": {
+        "player": "Kenneth Walker III",
+        "position": "RB",
+        "projected_points": 15.07,
+        "used_replacement": false
+      },
+      "WR1": {
+        "player": "Parker Washington",
+        "position": "WR",
+        "projected_points": 13.6,
+        "used_replacement": false
+      },
+      "WR2": {
+        "player": "Tetairoa McMillan",
+        "position": "WR",
+        "projected_points": 13.15,
+        "used_replacement": false
+      },
+      "TE": {
+        "player": "Tucker Kraft",
+        "position": "TE",
+        "projected_points": 10.42,
+        "used_replacement": false
+      },
+      "FLEX": {
+        "player": "Jayden Reed",
+        "position": "WR",
+        "projected_points": 9.09,
+        "used_replacement": false
+      },
+      "K": {
+        "player": null,
+        "position": "K",
+        "projected_points": 7,
+        "used_replacement": true
+      },
+      "DEF": {
+        "player": null,
+        "position": "DEF",
+        "projected_points": 5,
+        "used_replacement": true
+      }
+    }
+  },
+  "Ma\u00eetre Stick": {
+    "total_points": 112.32,
+    "slots": {
+      "QB": {
+        "player": "Brock Purdy",
+        "position": "QB",
+        "projected_points": 19.77,
+        "used_replacement": false
+      },
+      "RB1": {
+        "player": "Jahmyr Gibbs",
+        "position": "RB",
+        "projected_points": 20.2,
+        "used_replacement": false
+      },
+      "RB2": {
+        "player": "TreVeyon Henderson",
+        "position": "RB",
+        "projected_points": 12.08,
+        "used_replacement": false
+      },
+      "WR1": {
+        "player": "Chris Olave",
+        "position": "WR",
+        "projected_points": 15.9,
+        "used_replacement": false
+      },
+      "WR2": {
+        "player": "Rashee Rice",
+        "position": "WR",
+        "projected_points": 14.1,
+        "used_replacement": false
+      },
+      "TE": {
+        "player": "Kenyon Sadiq",
+        "position": "TE",
+        "projected_points": 6,
+        "used_replacement": true
+      },
+      "FLEX": {
+        "player": "DJ Moore",
+        "position": "WR",
+        "projected_points": 12.27,
+        "used_replacement": false
+      },
+      "K": {
+        "player": null,
+        "position": "K",
+        "projected_points": 7,
+        "used_replacement": true
+      },
+      "DEF": {
+        "player": null,
+        "position": "DEF",
+        "projected_points": 5,
+        "used_replacement": true
+      }
+    }
+  },
+  "Hunter\u2019s Hunters": {
+    "total_points": 111.08,
+    "slots": {
+      "QB": {
+        "player": "Drake Maye",
+        "position": "QB",
+        "projected_points": 19.66,
+        "used_replacement": false
+      },
+      "RB1": {
+        "player": "Derrick Henry",
+        "position": "RB",
+        "projected_points": 14.32,
+        "used_replacement": false
+      },
+      "RB2": {
+        "player": "David Montgomery",
+        "position": "RB",
+        "projected_points": 12.69,
+        "used_replacement": false
+      },
+      "WR1": {
+        "player": "Amon-Ra St. Brown",
+        "position": "WR",
+        "projected_points": 18.81,
+        "used_replacement": false
+      },
+      "WR2": {
+        "player": "Tee Higgins",
+        "position": "WR",
+        "projected_points": 13.9,
+        "used_replacement": false
+      },
+      "TE": {
+        "player": "Sam LaPorta",
+        "position": "TE",
+        "projected_points": 10.59,
+        "used_replacement": false
+      },
+      "FLEX": {
+        "player": "Jonathon Brooks",
+        "position": "RB",
+        "projected_points": 9.11,
+        "used_replacement": false
+      },
+      "K": {
+        "player": null,
+        "position": "K",
+        "projected_points": 7,
+        "used_replacement": true
+      },
+      "DEF": {
+        "player": null,
+        "position": "DEF",
+        "projected_points": 5,
+        "used_replacement": true
+      }
+    }
+  },
+  "No Punts Intented": {
+    "total_points": 101.74,
+    "slots": {
+      "QB": {
+        "player": "Josh Allen",
+        "position": "QB",
+        "projected_points": 21.25,
+        "used_replacement": false
+      },
+      "RB1": {
+        "player": "Jadarian Price",
+        "position": "RB",
+        "projected_points": 10.44,
+        "used_replacement": false
+      },
+      "RB2": {
+        "player": "Aaron Jones Sr.",
+        "position": "RB",
+        "projected_points": 8.52,
+        "used_replacement": false
+      },
+      "WR1": {
+        "player": "Jaxon Smith-Njigba",
+        "position": "WR",
+        "projected_points": 19.14,
+        "used_replacement": false
+      },
+      "WR2": {
+        "player": "Christian Watson",
+        "position": "WR",
+        "projected_points": 11.81,
+        "used_replacement": false
+      },
+      "TE": {
+        "player": "Juwan Johnson",
+        "position": "TE",
+        "projected_points": 9.24,
+        "used_replacement": false
+      },
+      "FLEX": {
+        "player": "Wan'Dale Robinson",
+        "position": "WR",
+        "projected_points": 9.34,
+        "used_replacement": false
+      },
+      "K": {
+        "player": null,
+        "position": "K",
+        "projected_points": 7,
+        "used_replacement": true
+      },
+      "DEF": {
+        "player": null,
+        "position": "DEF",
+        "projected_points": 5,
+        "used_replacement": true
+      }
+    }
+  },
+  "Supernova\u2019s Studs": {
+    "total_points": 103.29,
+    "slots": {
+      "QB": {
+        "player": "Justin Herbert",
+        "position": "QB",
+        "projected_points": 15.82,
+        "used_replacement": false
+      },
+      "RB1": {
+        "player": "Jonathan Taylor",
+        "position": "RB",
+        "projected_points": 18.59,
+        "used_replacement": false
+      },
+      "RB2": {
+        "player": "Javonte Williams",
+        "position": "RB",
+        "projected_points": 15.57,
+        "used_replacement": false
+      },
+      "WR1": {
+        "player": "Davante Adams",
+        "position": "WR",
+        "projected_points": 12.05,
+        "used_replacement": false
+      },
+      "WR2": {
+        "player": "Jordan Addison",
+        "position": "WR",
+        "projected_points": 8.39,
+        "used_replacement": false
+      },
+      "TE": {
+        "player": "Brock Bowers",
+        "position": "TE",
+        "projected_points": 12.7,
+        "used_replacement": false
+      },
+      "FLEX": {
+        "player": "Malik Washington",
+        "position": "WR",
+        "projected_points": 8.17,
+        "used_replacement": false
+      },
+      "K": {
+        "player": null,
+        "position": "K",
+        "projected_points": 7,
+        "used_replacement": true
+      },
+      "DEF": {
+        "player": null,
+        "position": "DEF",
+        "projected_points": 5,
+        "used_replacement": true
+      }
+    }
+  },
+  "Big Bad Hokkkk": {
+    "total_points": 100.6,
+    "slots": {
+      "QB": {
+        "player": "Matthew Stafford",
+        "position": "QB",
+        "projected_points": 17.91,
+        "used_replacement": false
+      },
+      "RB1": {
+        "player": "Quinshon Judkins",
+        "position": "RB",
+        "projected_points": 10.53,
+        "used_replacement": false
+      },
+      "RB2": {
+        "player": "Chuba Hubbard",
+        "position": "RB",
+        "projected_points": 9.8,
+        "used_replacement": false
+      },
+      "WR1": {
+        "player": "CeeDee Lamb",
+        "position": "WR",
+        "projected_points": 17.38,
+        "used_replacement": false
+      },
+      "WR2": {
+        "player": "Zay Flowers",
+        "position": "WR",
+        "projected_points": 14.57,
+        "used_replacement": false
+      },
+      "TE": {
+        "player": "Jake Ferguson",
+        "position": "TE",
+        "projected_points": 9.6,
+        "used_replacement": false
+      },
+      "FLEX": {
+        "player": "Tony Pollard",
+        "position": "RB",
+        "projected_points": 8.81,
+        "used_replacement": false
+      },
+      "K": {
+        "player": null,
+        "position": "K",
+        "projected_points": 7,
+        "used_replacement": true
+      },
+      "DEF": {
+        "player": null,
+        "position": "DEF",
+        "projected_points": 5,
+        "used_replacement": true
+      }
+    }
+  },
+  "Revy\u2019s Konstruction": {
+    "total_points": 101.66,
+    "slots": {
+      "QB": {
+        "player": "Trevor Lawrence",
+        "position": "QB",
+        "projected_points": 18.92,
+        "used_replacement": false
+      },
+      "RB1": {
+        "player": "Travis Etienne Jr.",
+        "position": "RB",
+        "projected_points": 12.68,
+        "used_replacement": false
+      },
+      "RB2": {
+        "player": "Ashton Jeanty",
+        "position": "RB",
+        "projected_points": 12.38,
+        "used_replacement": false
+      },
+      "WR1": {
+        "player": "Nico Collins",
+        "position": "WR",
+        "projected_points": 14.59,
+        "used_replacement": false
+      },
+      "WR2": {
+        "player": "Garrett Wilson",
+        "position": "WR",
+        "projected_points": 11.69,
+        "used_replacement": false
+      },
+      "TE": {
+        "player": "Harold Fannin Jr.",
+        "position": "TE",
+        "projected_points": 9.9,
+        "used_replacement": false
+      },
+      "FLEX": {
+        "player": "Brian Thomas Jr.",
+        "position": "WR",
+        "projected_points": 9.5,
+        "used_replacement": false
+      },
+      "K": {
+        "player": null,
+        "position": "K",
+        "projected_points": 7,
+        "used_replacement": true
+      },
+      "DEF": {
+        "player": null,
+        "position": "DEF",
+        "projected_points": 5,
+        "used_replacement": true
+      }
+    }
+  },
+  "Girder\u2019s 6 Cookies": {
+    "total_points": 111.41,
+    "slots": {
+      "QB": {
+        "player": null,
+        "position": "QB",
+        "projected_points": 15,
+        "used_replacement": true
+      },
+      "RB1": {
+        "player": "Jeremiyah Love",
+        "position": "RB",
+        "projected_points": 14.74,
+        "used_replacement": false
+      },
+      "RB2": {
+        "player": "Breece Hall",
+        "position": "RB",
+        "projected_points": 14.71,
+        "used_replacement": false
+      },
+      "WR1": {
+        "player": "Ja'Marr Chase",
+        "position": "WR",
+        "projected_points": 19.94,
+        "used_replacement": false
+      },
+      "WR2": {
+        "player": "DK Metcalf",
+        "position": "WR",
+        "projected_points": 11.15,
+        "used_replacement": false
+      },
+      "TE": {
+        "player": "Tyler Warren",
+        "position": "TE",
+        "projected_points": 12.22,
+        "used_replacement": false
+      },
+      "FLEX": {
+        "player": "Rico Dowdle",
+        "position": "RB",
+        "projected_points": 11.65,
+        "used_replacement": false
+      },
+      "K": {
+        "player": null,
+        "position": "K",
+        "projected_points": 7,
+        "used_replacement": true
+      },
+      "DEF": {
+        "player": null,
+        "position": "DEF",
+        "projected_points": 5,
+        "used_replacement": true
+      }
+    }
+  },
+  "Omaha Beach Real Estate": {
+    "total_points": 106.35,
+    "slots": {
+      "QB": {
+        "player": "Jayden Daniels",
+        "position": "QB",
+        "projected_points": 16.8,
+        "used_replacement": false
+      },
+      "RB1": {
+        "player": "Bijan Robinson",
+        "position": "RB",
+        "projected_points": 18.85,
+        "used_replacement": false
+      },
+      "RB2": {
+        "player": "Kyren Williams",
+        "position": "RB",
+        "projected_points": 13.84,
+        "used_replacement": false
+      },
+      "WR1": {
+        "player": "Malik Nabers",
+        "position": "WR",
+        "projected_points": 13.92,
+        "used_replacement": false
+      },
+      "WR2": {
+        "player": "Jameson Williams",
+        "position": "WR",
+        "projected_points": 11.18,
+        "used_replacement": false
+      },
+      "TE": {
+        "player": "Dalton Kincaid",
+        "position": "TE",
+        "projected_points": 10.25,
+        "used_replacement": false
+      },
+      "FLEX": {
+        "player": "Hunter Henry",
+        "position": "TE",
+        "projected_points": 9.51,
+        "used_replacement": false
+      },
+      "K": {
+        "player": null,
+        "position": "K",
+        "projected_points": 7,
+        "used_replacement": true
+      },
+      "DEF": {
+        "player": null,
+        "position": "DEF",
+        "projected_points": 5,
+        "used_replacement": true
+      }
+    }
+  },
+  "The Sage's Playmakers": {
+    "total_points": 91.96,
+    "slots": {
+      "QB": {
+        "player": "Malik Willis",
+        "position": "QB",
+        "projected_points": 17.17,
+        "used_replacement": false
+      },
+      "RB1": {
+        "player": "De'Von Achane",
+        "position": "RB",
+        "projected_points": 17.33,
+        "used_replacement": false
+      },
+      "RB2": {
+        "player": "Josh Jacobs",
+        "position": "RB",
+        "projected_points": 5.14,
+        "used_replacement": false
+      },
+      "WR1": {
+        "player": "Josh Downs",
+        "position": "WR",
+        "projected_points": 11.34,
+        "used_replacement": false
+      },
+      "WR2": {
+        "player": "Jalen Coker",
+        "position": "WR",
+        "projected_points": 10.27,
+        "used_replacement": false
+      },
+      "TE": {
+        "player": "Isaiah Likely",
+        "position": "TE",
+        "projected_points": 9.24,
+        "used_replacement": false
+      },
+      "FLEX": {
+        "player": "Stefon Diggs",
+        "position": "WR",
+        "projected_points": 9.47,
+        "used_replacement": false
+      },
+      "K": {
+        "player": null,
+        "position": "K",
+        "projected_points": 7,
+        "used_replacement": true
+      },
+      "DEF": {
+        "player": null,
+        "position": "DEF",
+        "projected_points": 5,
+        "used_replacement": true
+      }
+    }
+  },
+  "You gotta be Falcon kiddin me": {
+    "total_points": 97.93,
+    "slots": {
+      "QB": {
+        "player": "Jaxson Dart",
+        "position": "QB",
+        "projected_points": 19.07,
+        "used_replacement": false
+      },
+      "RB1": {
+        "player": "Christian McCaffrey",
+        "position": "RB",
+        "projected_points": 20.29,
+        "used_replacement": false
+      },
+      "RB2": {
+        "player": "Keaton Mitchell",
+        "position": "RB",
+        "projected_points": 5.85,
+        "used_replacement": false
+      },
+      "WR1": {
+        "player": "George Pickens",
+        "position": "WR",
+        "projected_points": 15.68,
+        "used_replacement": false
+      },
+      "WR2": {
+        "player": "Jalen Nailor",
+        "position": "WR",
+        "projected_points": 7,
+        "used_replacement": true
+      },
+      "TE": {
+        "player": "Kyle Pitts Sr.",
+        "position": "TE",
+        "projected_points": 9.4,
+        "used_replacement": false
+      },
+      "FLEX": {
+        "player": "Brenton Strange",
+        "position": "TE",
+        "projected_points": 8.64,
+        "used_replacement": false
+      },
+      "K": {
+        "player": null,
+        "position": "K",
+        "projected_points": 7,
+        "used_replacement": true
+      },
+      "DEF": {
+        "player": null,
+        "position": "DEF",
+        "projected_points": 5,
+        "used_replacement": true
+      }
+    }
+  },
+  "Flow Brrr": {
+    "total_points": 112.08,
+    "slots": {
+      "QB": {
+        "player": "Joe Burrow",
+        "position": "QB",
+        "projected_points": 18.39,
+        "used_replacement": false
+      },
+      "RB1": {
+        "player": "Bhayshul Tuten",
+        "position": "RB",
+        "projected_points": 11.59,
+        "used_replacement": false
+      },
+      "RB2": {
+        "player": "Rhamondre Stevenson",
+        "position": "RB",
+        "projected_points": 11.33,
+        "used_replacement": false
+      },
+      "WR1": {
+        "player": "Puka Nacua",
+        "position": "WR",
+        "projected_points": 20.06,
+        "used_replacement": false
+      },
+      "WR2": {
+        "player": "Alec Pierce",
+        "position": "WR",
+        "projected_points": 12.5,
+        "used_replacement": false
+      },
+      "TE": {
+        "player": "Trey McBride",
+        "position": "TE",
+        "projected_points": 16.61,
+        "used_replacement": false
+      },
+      "FLEX": {
+        "player": "Jacory Croskey-Merritt",
+        "position": "RB",
+        "projected_points": 9.6,
+        "used_replacement": false
+      },
+      "K": {
+        "player": null,
+        "position": "K",
+        "projected_points": 7,
+        "used_replacement": true
+      },
+      "DEF": {
+        "player": null,
+        "position": "DEF",
+        "projected_points": 5,
+        "used_replacement": true
+      }
+    }
+  },
+  "Tsuga\u2019s Tuck Shop": {
+    "total_points": 107.04,
+    "slots": {
+      "QB": {
+        "player": "Patrick Mahomes",
+        "position": "QB",
+        "projected_points": 16.86,
+        "used_replacement": false
+      },
+      "RB1": {
+        "player": "Cam Skattebo",
+        "position": "RB",
+        "projected_points": 13.76,
+        "used_replacement": false
+      },
+      "RB2": {
+        "player": "Omarion Hampton",
+        "position": "RB",
+        "projected_points": 12.82,
+        "used_replacement": false
+      },
+      "WR1": {
+        "player": "Justin Jefferson",
+        "position": "WR",
+        "projected_points": 15.49,
+        "used_replacement": false
+      },
+      "WR2": {
+        "player": "Ladd McConkey",
+        "position": "WR",
+        "projected_points": 12.53,
+        "used_replacement": false
+      },
+      "TE": {
+        "player": "George Kittle",
+        "position": "TE",
+        "projected_points": 11.31,
+        "used_replacement": false
+      },
+      "FLEX": {
+        "player": "Mike Evans",
+        "position": "WR",
+        "projected_points": 12.27,
+        "used_replacement": false
+      },
+      "K": {
+        "player": null,
+        "position": "K",
+        "projected_points": 7,
+        "used_replacement": true
+      },
+      "DEF": {
+        "player": null,
+        "position": "DEF",
+        "projected_points": 5,
+        "used_replacement": true
+      }
+    }
+  },
+  "Pad D's": {
+    "total_points": 103.61,
+    "slots": {
+      "QB": {
+        "player": "Lamar Jackson",
+        "position": "QB",
+        "projected_points": 17.53,
+        "used_replacement": false
+      },
+      "RB1": {
+        "player": "Chase Brown",
+        "position": "RB",
+        "projected_points": 15.93,
+        "used_replacement": false
+      },
+      "RB2": {
+        "player": "Jaylen Warren",
+        "position": "RB",
+        "projected_points": 12.63,
+        "used_replacement": false
+      },
+      "WR1": {
+        "player": "Drake London",
+        "position": "WR",
+        "projected_points": 14.37,
+        "used_replacement": false
+      },
+      "WR2": {
+        "player": "Terry McLaurin",
+        "position": "WR",
+        "projected_points": 11.09,
+        "used_replacement": false
+      },
+      "TE": {
+        "player": "Travis Kelce",
+        "position": "TE",
+        "projected_points": 9.94,
+        "used_replacement": false
+      },
+      "FLEX": {
+        "player": "Marvin Harrison Jr.",
+        "position": "WR",
+        "projected_points": 10.12,
+        "used_replacement": false
+      },
+      "K": {
+        "player": null,
+        "position": "K",
+        "projected_points": 7,
+        "used_replacement": true
+      },
+      "DEF": {
+        "player": null,
+        "position": "DEF",
+        "projected_points": 5,
+        "used_replacement": true
+      }
+    }
+  }
+}

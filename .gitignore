@@ -1,0 +1,13 @@
+# Selenium Chrome profile used by pull_projections.py -- contains real
+# logged-in Yahoo session cookies. Never commit this.
+PythonData/simulate_season/.chrome_profile/
+
+# Yahoo OAuth credentials -- contains live access/refresh tokens.
+PythonData/oauth2.json
+
+# Secrets pasted as plaintext -- contains live Yahoo OAuth tokens/secrets.
+PythonData/consumer_key.txt
+
+__pycache__/
+*.pyc
+.DS_Store
