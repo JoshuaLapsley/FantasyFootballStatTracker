@@ -75,12 +75,12 @@
 }
 
 .difference-positive {
-  color: #c62828;
+  color: #2e7d32;
   font-weight: 600;
 }
 
 .difference-negative {
-  color: #2e7d32;
+  color: #c62828;
   font-weight: 600;
 }
 
@@ -121,4 +121,22 @@
   .earned-wins-table td {
     padding: 10px 8px;
   }
+}
+/* Highlighted header for the active sort column */
+.earned-wins-table th.sorted-col {
+  background: #dce9fb;
+}
+
+.earned-wins-table th.sorted-col:hover {
+  background: #cfe0f8;
+}
+
+/* Highlighted body cells for the active sort column */
+.earned-wins-table td.sorted-col {
+  background: #eef4fd;
+}
+
+/* Slightly darker on row hover so the row is still visible */
+.earned-wins-table tbody tr:hover td.sorted-col {
+  background: #e2ecfa;
 }
