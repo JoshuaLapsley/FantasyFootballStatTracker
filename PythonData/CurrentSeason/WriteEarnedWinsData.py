@@ -93,20 +93,28 @@ def calculate_earned_wins(data_directory, output_directory):
             reverse=True
         )
 
-        # League has 13 teams
-        total_teams = 13
+        # Number of teams actually in this week's scoreboard -- computed
+        # fresh per week rather than hardcoded, so this stays correct if
+        # league size ever changes (it has before) or a playoff week
+        # only involves a subset of teams.
+        total_teams = len(weekly_teams)
 
         for rank, team in enumerate(weekly_teams, start=1):
 
-            # 1st  = 13/13 = 1.0000
-            # 2nd  = 12/13 = 0.9231
-            # 3rd  = 11/13 = 0.8462
-            # ...
-            # 13th = 1/13  = 0.0769
+            # Earned Wins = fraction of the OTHER teams this week that
+            # this team's score beat. Rank 1 (best) beats everyone else:
+            # (total_teams - 1) / (total_teams - 1) = 1.0000. Last place
+            # beats nobody: 0 / (total_teams - 1) = 0.0000.
+            #
+            # e.g. total_teams = 14:
+            #   1st  = 13/13 = 1.0000
+            #   2nd  = 12/13 = 0.9231
+            #   ...
+            #   14th =  0/13 = 0.0000
 
             earned_win = (
-                (total_teams - rank + 1)
-                / total_teams
+                (total_teams - rank)
+                / (total_teams - 1)
             )
 
             teams[team["team_key"]]["Earned Wins"] += earned_win

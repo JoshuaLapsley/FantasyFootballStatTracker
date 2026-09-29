@@ -33,54 +33,34 @@ WHAT "PAR" MEANS (run_draft_par and helpers, below)
 Replacement level (per position, season-long flat baseline):
     QB = 15, RB = 5, WR = 7, TE = 6, K = 7, DEF = 5
 
-For every week a drafted skill-position player (QB/RB/WR/TE) could have
-played, from week 3 onward:
-  * If the scraped Yahoo-website pregame projection for that player/week
-    was ABOVE their position's replacement level, the player is credited
-    with their ACTUAL points scored that week (even if the actual came
-    in under replacement -- the projection is what gates it, not the
-    outcome).
-  * If the projection was AT/BELOW replacement level, OR the player did
-    not play at all that week (bye/inactive/not on an NFL roster yet),
-    the player is credited with replacement level for that week instead.
+For every week, every drafted player uses the same ungated rule:
+  * If the player played that week at all, they're credited their
+    ACTUAL points for that week -- no gating against a projection or
+    any other comparison, even if that actual score is very low.
+  * If the player did NOT play at all that week (bye/inactive), they're
+    credited replacement level for that week instead.
   * A player's PAR for the season is the sum of (points credited that
     week - replacement level) across all processed weeks.
 
-K and DEF are never gated by a projection at all (see "K / DEF" below) --
-they always use the same ungated rule as weeks 1-2.
+No week is ever skipped -- every week strictly before the league's
+current week contributes to PAR.
 
-WEEKS 1-2: NO PROJECTION GATING (ungated rule)
-Yahoo's official API (league.player_stats()) cannot return a real
-pregame projection for any week -- querying it for a week that hasn't
-happened yet returns an all-zero placeholder, and once the week is final
-it just returns the actual box score. Weeks 1 and 2 were never captured
-by the website scraper (simulate_season/pull_projections.py) before
-their games started, so there is no way to recover a real pregame
-projection for either of them. Both weeks use the same ungated fallback
-rule:
-  * If a player played in the week at all, they're credited their ACTUAL
-    points for that week -- no replacement-level gating, even if that
-    actual score is very low.
-  * If a player did NOT play at all that week (bye/inactive), they're
-    credited replacement level for that week instead.
-
-WEEK 3+: PROJECTION-GATED RULE, SOURCED FROM THE WEBSITE SCRAPE
-From week 3 onward, the pregame projection used for gating comes from
-simulate_season/pull_projections.py's scraped output
-(simulate_season/projections/week_{N}.json), NOT the Yahoo API -- that
-scraper reads the actual "Projected Stats" view on the Yahoo website,
-which is the only place a real per-player pregame projection exists.
-This only works if pull_projections.py was run for that week BEFORE the
-week's games started. If no scrape file exists for a given final week,
-that week is skipped for PAR entirely (see weeks_skipped) rather than
-guessed at.
-
-K and DEF are excluded from this rule since this league's rosters never
-actually carry either position, so there's never a scraped projection to
-gate against -- they always use the ungated rule, every week.
-
-Players are matched between the draft board and the scraped projections
-by full name (the scraper doesn't carry Yahoo's numeric player_id).
+REMOVED: PROJECTION-GATED RULE (formerly used week 3+)
+This used to compare a scraped Yahoo-website pregame projection against
+replacement level to decide whether a week's ACTUAL points counted, or
+got replaced with replacement level regardless of the outcome. It was
+removed after finding real cases where a scraped projection was
+erroneously 0.0 for a player who was clearly a real starter and had a
+great week (e.g. Brock Bowers scored 27.6 in week 3 but had a scraped
+projection of 0.0, which silently zeroed his entire week's PAR
+contribution under the old rule). The scraped projection data isn't
+reliable enough to safely gate on, so every week now just uses whichever
+actually happened -- no projection dependency, no scrape-file
+requirement, no skipped weeks.
+simulate_season/pull_projections.py's scraped output is still used
+elsewhere (simulate_season/calculate_lineups.py, for the season
+simulation's per-week lineup projections) -- only PAR/WAR's gating logic
+was removed.
 
 0.0 SCORES DEFAULT TO DNP AUTOMATICALLY
 Bye weeks are unambiguous and always treated as DNP automatically. Any
@@ -95,7 +75,6 @@ level) to counted-as-played (actual points, which will be 0).
 
 Files PAR reads (all under PythonData/):
   draftData/draft_{YEAR}.json                cached draft board (delete to refresh)
-  simulate_season/projections/week_{N}.json  scraped pregame projections (week 3+)
 
 Files PAR reads/writes:
   draftData/par_zero_score_review_{YEAR}.json  manual "did they actually play?" log
@@ -111,6 +90,8 @@ Images PAR writes (into Website/girderma-gridiron-website/src/histograms/):
 from yahoo_oauth import OAuth2
 from WriteWeeklyMatchupData import write_week_files
 from WriteEarnedWinsData import calculate_earned_wins
+from WriteEarnedWinsPlusData import write_earned_wins_plus
+from CalculateWAR import run_calculate_war
 import yahoo_fantasy_api as yfa
 import glob
 import json
@@ -162,19 +143,6 @@ REPLACEMENT_LEVEL = {
 # as "DEF" already -- this alias map is here in case that ever drifts.
 POSITION_ALIASES = {"DST": "DEF"}
 
-# This league's rosters never actually carry a kicker or defense (every
-# team's real roster is QB/RB/WR/TE only), so there's never a scraped
-# pregame projection to gate these positions against. They always use
-# the same ungated "actual if played, replacement if DNP" rule as weeks
-# 1-2, regardless of week.
-UNGATED_POSITIONS = {"K", "DEF"}
-
-# Weeks 1-2 are already-played and were never scraped before their games
-# started, so there's no real pregame projection recoverable for either
-# -- both use the ungated rule. Week 3 onward uses the scraped-projection
-# gated rule.
-UNGATED_WEEKS = {1, 2}
-
 # Same palette used by the website's own draft board component
 # (src/pages/LeagueHistory/Draft/Draft.tsx POSITION_COLORS) so the
 # generated images match the site's look.
@@ -202,7 +170,6 @@ PYTHON_DATA_DIR = Path(SCRIPT_DIR) / ".."
 
 DRAFT_CACHE_PATH = PYTHON_DATA_DIR / "draftData" / f"draft_{PAR_YEAR}.json"
 ZERO_SCORE_REVIEW_PATH = PYTHON_DATA_DIR / "draftData" / f"par_zero_score_review_{PAR_YEAR}.json"
-SCRAPED_PROJECTIONS_DIR = PYTHON_DATA_DIR / "simulate_season" / "projections"
 
 # Draft board images live in the website's histograms folder (same place
 # create_histograms.py writes to), NOT in this CurrentSeason folder.
@@ -284,36 +251,6 @@ def load_draft_board(league) -> list[dict]:
 
 
 # --------------------------------------------------------------------------
-# SCRAPED PREGAME PROJECTIONS (week 3+)
-# --------------------------------------------------------------------------
-def load_scraped_projections(week: int):
-    """
-    Returns {player_name: projected_points} from
-    simulate_season/projections/week_{week}.json (produced by
-    pull_projections.py), or None if that file doesn't exist -- meaning
-    the week wasn't scraped before it started and can't be gated.
-
-    Players on a bye that week have projected_points == null in the
-    scraped file; they're omitted here (treated as "no projection", same
-    as any other player absent from the file -- player_did_not_play()
-    catches the bye case separately via the draft board's own bye_week
-    field).
-    """
-    path = SCRAPED_PROJECTIONS_DIR / f"week_{week}.json"
-    if not path.exists():
-        return None
-
-    with open(path, "r") as f:
-        rosters = json.load(f)
-
-    projections = {}
-    for team_players in rosters.values():
-        for p in team_players:
-            if p.get("projected_points") is not None:
-                projections[p["name"]] = p["projected_points"]
-    return projections
-
-
 # --------------------------------------------------------------------------
 # ACTUAL STATS
 # --------------------------------------------------------------------------
@@ -342,6 +279,58 @@ def load_zero_score_review() -> dict:
         with open(ZERO_SCORE_REVIEW_PATH, "r") as f:
             return json.load(f)
     return {}
+
+
+def save_zero_score_review(review: dict) -> None:
+    ZERO_SCORE_REVIEW_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(ZERO_SCORE_REVIEW_PATH, "w") as f:
+        json.dump(review, f, indent=2)
+
+
+def auto_flag_zero_scores(week: int, board: list, actuals: dict, review: dict) -> dict:
+    """
+    Scans this week's actuals for every drafted player who scored
+    exactly 0.0 (excluding a bye week, which is unambiguous and doesn't
+    need review) and adds a default `"played": false` entry to the
+    zero-score review log for anyone not already present -- so every
+    week's 0-scorers show up as an entry to manually flip to true if
+    they actually played, instead of requiring you to know in advance
+    who to look up.
+
+    Never overwrites an existing entry (whichever way it was already
+    set, true or false) -- this only fills in players missing from the
+    log for this week, so previously reviewed players are left alone.
+
+    Returns the (possibly updated) review dict; writes it to disk via
+    save_zero_score_review() if anything changed.
+    """
+    week_key = str(week)
+    week_review = review.setdefault(week_key, {})
+    added = []
+
+    for p in board:
+        pid = p["player_id"]
+        if p["bye_week"] == week:
+            continue  # bye weeks are unambiguous, no review needed
+        actual = actuals.get(pid)
+        if actual != 0.0:
+            continue
+        if pid in week_review:
+            continue  # already reviewed (either way) -- don't touch it
+
+        week_review[pid] = {
+            "name": p["player_name"],
+            "position": p["position"],
+            "played": False,
+        }
+        added.append(p["player_name"])
+
+    if added:
+        save_zero_score_review(review)
+        print(f"  Auto-flagged {len(added)} zero-score player(s) for week {week} "
+              f"review (default played=false): {added}")
+
+    return review
 
 
 def player_did_not_play(
@@ -415,53 +404,23 @@ def _apply_ungated_week(week: int, board, position_by_id, actuals,
         par_by_id[pid] += credited - replacement
 
 
-def _apply_gated_week(week: int, board, position_by_id, actuals, projections_by_name,
-                       zero_score_review, par_by_id) -> None:
-    """
-    Projection-gated rule (skill positions, week 3+): if the scraped
-    pregame projection was above replacement level, credit actual points
-    (even if actual came in lower); otherwise credit replacement level.
-    K/DEF (UNGATED_POSITIONS) are routed through the ungated rule instead,
-    since there's never a scraped projection for them.
-    """
-    for p in board:
-        pid = p["player_id"]
-        pos = position_by_id[pid]
-        replacement = REPLACEMENT_LEVEL.get(pos)
-        if replacement is None:
-            continue
-
-        actual = actuals.get(pid)
-        dnp = player_did_not_play(actual, p["bye_week"], week, p, zero_score_review)
-
-        if pos in UNGATED_POSITIONS:
-            credited = replacement if dnp else actual
-            par_by_id[pid] += credited - replacement
-            continue
-
-        if dnp:
-            continue  # credited == replacement -> contributes 0 to PAR
-
-        projection = projections_by_name.get(p["player_name"])
-        if projection is None:
-            # Not found on any scraped roster for this week (e.g. a free
-            # agent that week) -- nothing to gate against, treat as if
-            # projected at/below replacement.
-            projection = 0.0
-
-        credited = actual if projection > replacement else replacement
-        par_by_id[pid] += credited - replacement
-
-
 def calculate_par(league, board: list) -> tuple:
     """
     Returns (par_by_player_id, weeks_used, weeks_skipped).
 
-    weeks_used: weeks that actually contributed to PAR this run.
-    weeks_skipped: weeks that were final (week 3+) but had no scraped
-    projections file -- pull_projections.py wasn't run for that week
-    before its games started, so it can't be gated and is excluded
-    rather than guessed at.
+    weeks_used: every week processed (all of them -- see below).
+    weeks_skipped: always empty now. The projection-gated rule (which
+    used to skip week 3+ if pull_projections.py hadn't been scraped
+    before kickoff) has been REMOVED entirely: it was found to silently
+    zero out a real, good performance whenever the scraped pregame
+    projection for that player/week came back as an erroneous 0.0 (e.g.
+    Brock Bowers scored 27.6 in week 3 but had a scraped projection of
+    0.0 despite being a clear starter, incorrectly gating him to
+    replacement level for that week). Every week now uses the same
+    ungated rule regardless of week number or position: credit actual
+    points if the player played, replacement level if they didn't.
+    weeks_skipped is kept in the return signature (always []) so
+    existing callers (print_draft_board) don't need to change.
     """
     player_ids = [p["player_id"] for p in board]
     position_by_id = {p["player_id"]: p["position"] for p in board}
@@ -473,33 +432,18 @@ def calculate_par(league, board: list) -> tuple:
 
     par_by_id = {pid: 0.0 for pid in player_ids}
     weeks_used = []
-    weeks_skipped = []
 
     for week in final_weeks:
         actuals = fetch_actuals_for_week(league, player_ids, week)
+        zero_score_review = auto_flag_zero_scores(week, board, actuals, zero_score_review)
 
-        if week in UNGATED_WEEKS:
-            print(f"Processing week {week} (ungated rule: weeks 1-2 have no "
-                  f"recoverable pregame projection)...")
-            _apply_ungated_week(week, board, position_by_id, actuals,
-                                 zero_score_review, par_by_id)
-            weeks_used.append(week)
-            continue
-
-        projections_by_name = load_scraped_projections(week)
-        if projections_by_name is None:
-            print(f"  No scraped projections file for week {week} "
-                  f"(pull_projections.py wasn't run for it before it started) "
-                  f"-- skipping this week for PAR.")
-            weeks_skipped.append(week)
-            continue
-
-        print(f"Processing week {week} (projection-gated rule, scraped projections)...")
-        _apply_gated_week(week, board, position_by_id, actuals, projections_by_name,
-                           zero_score_review, par_by_id)
+        print(f"Processing week {week} (ungated rule: credit actual points "
+              f"if played, replacement level if not)...")
+        _apply_ungated_week(week, board, position_by_id, actuals,
+                             zero_score_review, par_by_id)
         weeks_used.append(week)
 
-    return par_by_id, weeks_used, weeks_skipped
+    return par_by_id, weeks_used, []
 
 
 # --------------------------------------------------------------------------
@@ -771,8 +715,20 @@ standard deviation, and the real schedule (from pull_schedule.py) to
 know who plays whom.
 
 Each simulated game:
-    score ~ Normal(mu=team's lineup total that week, sigma=33)
+    score ~ Normal(mu=team's lineup total that week, sigma=23.3)
     higher score wins (a tie has probability 0 under a continuous draw)
+
+sigma=23.3 is this league's own empirical single-team weekly-score
+standard deviation (K/DEF included, regular season only), fit from 544
+pooled team-weeks across the 2023, 2024, 2025, and 2026 seasons
+(single-team sigma ~23.3 each year individually too: 24.3/23.5/22.0/21.0).
+Previously this used 33, which is actually a good empirical fit for the
+standard deviation of the MARGIN between two independent teams' scores
+(sqrt(2)*23.3 ~= 33), not a single team's own score -- i.e. the old
+value was applying an already-doubled (margin) spread independently to
+BOTH teams instead of once to their difference, making every simulated
+matchup roughly sqrt(2) (~41%) too random/too close to a coin flip
+relative to real scoring history.
 
 Each simulated season starts from each team's REAL record and
 points-for so far (pulled live from Yahoo standings/matchups -- whichever
@@ -801,7 +757,7 @@ SIMULATE_SEASON_DIR = (Path(SCRIPT_DIR) / ".." / "simulate_season").resolve()
 LINEUPS_DIR = SIMULATE_SEASON_DIR / "lineups"
 SCHEDULE_PATH = SIMULATE_SEASON_DIR / "schedule.json"
 
-SIM_VARIANCE = 33 ** 2
+SIM_VARIANCE = 23.3 ** 2
 SIM_N_SIMULATIONS = 10_000
 SIM_END_WEEK = 14
 SIM_BYE_SPOTS = 2
@@ -1229,7 +1185,11 @@ def run_simulate_matchups(league, start_week: int = None, end_week: int = SIM_EN
 def main():
     write_week_files(lg, OUTPUT_DIR=MATCHUP_DATA_DIR)
     calculate_earned_wins(data_directory=MATCHUP_DATA_DIR, output_directory=CURRENT_SEASON_DATA_DIR)
+    write_earned_wins_plus(lg, output_directory=CURRENT_SEASON_DATA_DIR)
     run_draft_par(lg)
+    run_calculate_war(lg)
     run_simulate_matchups(lg)
 
-main()
+
+if __name__ == "__main__":
+    main()

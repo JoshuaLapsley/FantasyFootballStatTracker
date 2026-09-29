@@ -15,20 +15,20 @@ For a given player in a given week:
 
     P = that player's PAR contribution for the week, i.e. their
         credited points that week minus their position's replacement
-        level. "Credited points" uses the exact same rule as RunWeekly.py's
-        PAR calculation:
-          - Weeks 1-2, and K/DEF every week (ungated rule): credit actual
-            points if they played, replacement level if they didn't
-            (bye/inactive).
-          - Week 3+ for QB/RB/WR/TE (gated rule) IF a scraped pregame
-            projection file exists for that week: credit actual points
-            if the projection was above replacement level, otherwise
-            credit replacement level.
-          - Week 3+ for QB/RB/WR/TE with NO scraped projection file for
-            that week: unlike PAR (which skips the week entirely), WAR
-            never skips any week for any player -- it just falls back to
-            the same ungated rule as weeks 1-2 instead of gating by a
-            projection that doesn't exist.
+        level. "Credited points" uses the same ungated rule as
+        RunWeekly.py's PAR calculation, every week, no exceptions:
+        credit actual points if they played, replacement level if they
+        didn't (bye/inactive). No week is ever skipped.
+
+        This used to be gated (week 3+) by comparing a scraped Yahoo-
+        website pregame projection against replacement level, but that
+        rule was removed after finding real cases where the scraped
+        projection was erroneously 0.0 for a player who was clearly a
+        legitimate starter and had a great week -- e.g. Brock Bowers
+        scored 27.6 in week 3 but had a scraped projection of 0.0,
+        which silently zeroed his entire week's PAR/WAR contribution
+        under the old rule. The scraped projection data isn't reliable
+        enough to safely gate a real outcome on.
 
     D = the season-long average points scored by STARTERS at that
         player's position, across every real Yahoo starting lineup so
@@ -46,20 +46,41 @@ For a given player in a given week:
         happened before D reached its current value. It is NOT
         recomputed week-by-week.
 
+        IMPORTANT: D as described above is a RAW points-scored average,
+        but P is already points-ABOVE-REPLACEMENT (credited -
+        replacement). Since Phi((P-D)/sigma) subtracts them directly,
+        D has to be put on the same points-above-replacement basis
+        first: D_relative = D - REPLACEMENT_LEVEL[pos]. All uses of "D"
+        inside the actual Phi formula below refer to this
+        replacement-adjusted D_relative, not the raw D reported in
+        print_draft_board()'s "D (season-long starter average)" line
+        (which intentionally stays in raw points, since that's the more
+        readable number to show).
+
 WAR for a single week is:
 
-    WAR_week = Phi((P - D) / (33*sqrt(2))) - Phi((-D) / (33*sqrt(2)))
+    WAR_week = Phi((P - D_relative) / MARGIN_SIGMA) - Phi((-D_relative) / MARGIN_SIGMA)
 
-where Phi is the standard normal CDF. 33 is this league's own
-game-score standard deviation (see RunWeekly.py's SIM_VARIANCE = 33**2,
-used to model a single team's weekly score as Normal(mu, sigma=33));
-33*sqrt(2) is the standard deviation of the DIFFERENCE of two
-independent such scores, so this expresses a win-probability swing:
-Phi((P-D)/(33*sqrt(2))) is the probability a game whose mean margin is
-(P-D) is won, and Phi(-D/(33*sqrt(2))) is that same win probability if
-the player were replaced by a perfectly average starter at their
-position (mean margin -D). WAR_week is therefore the win probability
-ADDED by this player's actual week versus an average starter.
+where Phi is the standard normal CDF, D_relative = D - replacement (see
+above), and MARGIN_SIGMA (~33) is this league's own empirical standard
+deviation of the MARGIN between two teams' scores -- fit directly from
+544 pooled real team-weeks across the 2023-2026 seasons (regular season
+only, K/DEF included): each season's own single-team score sigma was
+~23.3 (24.3/23.5/22.0/21.0 individually), and margin sigma =
+single-team sigma * sqrt(2) ~= 33, matching almost exactly (empirical
+pooled margin sigma = 32.98). See RunWeekly.py's SIM_VARIANCE (its
+Monte Carlo season simulator), which uses the single-team version of
+this same empirical fit (sigma=23.3, i.e. Normal(mu, sigma=23.3) per
+team, so the DIFFERENCE of two such simulated scores also has a margin
+sigma of ~33).
+
+Phi((P-D_relative)/MARGIN_SIGMA) is the probability a game whose mean
+margin is (P-D_relative) is won, and Phi(-D_relative/MARGIN_SIGMA) is
+that same win probability if the player were replaced by a perfectly
+average starter at their position (mean margin -D_relative, i.e. an
+average starter's own points-above-replacement). WAR_week is therefore
+the win probability ADDED by this player's actual week versus an
+average starter.
 
 A player's season WAR is the sum of WAR_week across every week
 processed (every week strictly before the league's current week --
@@ -116,18 +137,6 @@ REPLACEMENT_LEVEL = {
 # as "DEF" already -- this alias map is here in case that ever drifts.
 POSITION_ALIASES = {"DST": "DEF"}
 
-# This league's rosters never actually carry a kicker or defense, so
-# there's never a scraped pregame projection to gate these against --
-# they always use the ungated "actual if played, replacement if DNP"
-# rule, every week.
-UNGATED_POSITIONS = {"K", "DEF"}
-
-# Weeks 1-2 have no recoverable pregame projection at all -- both use
-# the ungated rule. Week 3 onward tries the scraped-projection gated
-# rule, falling back to ungated if no scrape file exists for that week
-# (WAR never skips a week, unlike PAR).
-UNGATED_WEEKS = {1, 2}
-
 # Positions that can occupy the FLEX slot; a FLEX starter counts toward
 # their own actual position's starter pool (for D), not a separate
 # "FLEX" bucket.
@@ -136,11 +145,12 @@ FLEX_ELIGIBLE_POSITIONS = {"RB", "WR", "TE"}
 # Yahoo's selected_position values that mean "did not start" this week.
 NON_STARTER_SLOTS = {"BN", "IR", "IR+", "NA"}
 
-# This league's own weekly-score standard deviation (see RunWeekly.py's
-# SIM_VARIANCE = 33 ** 2 / simulate_season's Normal(mu, sigma=33) model).
+# This league's own empirical single-team weekly-score standard
+# deviation (see RunWeekly.py's SIM_VARIANCE = 23.3 ** 2, same fit).
 # WAR uses sigma * sqrt(2), the standard deviation of the margin between
-# two independent such scores.
-GAME_SIGMA = 33.0
+# two independent such scores (~33, matching this league's real margin
+# variance almost exactly -- see module docstring for the fit details).
+GAME_SIGMA = 23.3
 MARGIN_SIGMA = GAME_SIGMA * np.sqrt(2)
 
 # Same palette used by the website's own draft board / RunWeekly.py's PAR
@@ -152,7 +162,6 @@ PYTHON_DATA_DIR = Path(SCRIPT_DIR) / ".."
 
 DRAFT_CACHE_PATH = PYTHON_DATA_DIR / "draftData" / f"draft_{WAR_YEAR}.json"
 ZERO_SCORE_REVIEW_PATH = PYTHON_DATA_DIR / "draftData" / f"par_zero_score_review_{WAR_YEAR}.json"
-SCRAPED_PROJECTIONS_DIR = PYTHON_DATA_DIR / "simulate_season" / "projections"
 
 HISTOGRAMS_DIR = (
     Path(SCRIPT_DIR) / ".." / ".." / "Website" / "girderma-gridiron-website"
@@ -232,31 +241,6 @@ def load_draft_board(league) -> list:
 
 
 # --------------------------------------------------------------------------
-# SCRAPED PREGAME PROJECTIONS (week 3+, optional -- falls back if absent)
-# --------------------------------------------------------------------------
-def load_scraped_projections(week: int):
-    """
-    Returns {player_name: projected_points} from
-    simulate_season/projections/week_{week}.json, or None if that file
-    doesn't exist. Unlike PAR, WAR does not skip the week when this is
-    missing -- callers fall back to the ungated rule instead.
-    """
-    path = SCRAPED_PROJECTIONS_DIR / f"week_{week}.json"
-    if not path.exists():
-        return None
-
-    with open(path, "r") as f:
-        rosters = json.load(f)
-
-    projections = {}
-    for team_players in rosters.values():
-        for p in team_players:
-            if p.get("projected_points") is not None:
-                projections[p["name"]] = p["projected_points"]
-    return projections
-
-
-# --------------------------------------------------------------------------
 # ACTUAL STATS
 # --------------------------------------------------------------------------
 def fetch_actuals_for_week(league, player_ids, week: int) -> dict:
@@ -317,6 +301,48 @@ def load_zero_score_review() -> dict:
     return {}
 
 
+def save_zero_score_review(review: dict) -> None:
+    ZERO_SCORE_REVIEW_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(ZERO_SCORE_REVIEW_PATH, "w") as f:
+        json.dump(review, f, indent=2)
+
+
+def auto_flag_zero_scores(week: int, board: list, actuals: dict, review: dict) -> dict:
+    """
+    Same auto-flagging behavior as RunWeekly.py's version (shares the
+    same review file) -- adds a default `"played": false` entry for
+    every drafted, non-bye player who scored exactly 0.0 this week and
+    isn't already in the log, without touching any existing entry.
+    """
+    week_key = str(week)
+    week_review = review.setdefault(week_key, {})
+    added = []
+
+    for p in board:
+        pid = p["player_id"]
+        if p["bye_week"] == week:
+            continue
+        actual = actuals.get(pid)
+        if actual != 0.0:
+            continue
+        if pid in week_review:
+            continue
+
+        week_review[pid] = {
+            "name": p["player_name"],
+            "position": p["position"],
+            "played": False,
+        }
+        added.append(p["player_name"])
+
+    if added:
+        save_zero_score_review(review)
+        print(f"  Auto-flagged {len(added)} zero-score player(s) for week {week} "
+              f"review (default played=false): {added}")
+
+    return review
+
+
 def player_did_not_play(actual_points, bye_week, week: int, player: dict, review: dict) -> bool:
     """Same DNP semantics as RunWeekly.py's PAR calculation (see that
     file for the full rationale) -- bye weeks and missing actuals are
@@ -343,17 +369,15 @@ def credited_points_for_week(week: int, board: list, position_by_id: dict, actua
                               zero_score_review: dict) -> dict:
     """
     Returns {player_id: credited_points} for one week, for every drafted
-    player with a recognized position. Uses the gated rule (week 3+,
-    QB/RB/WR/TE) when a scraped projections file exists for that week,
-    otherwise falls back to the ungated rule -- WAR never excludes a
-    week for lack of a projection, unlike PAR.
+    player with a recognized position. Ungated rule only (see module
+    docstring): credit actual points if the player played, replacement
+    level if they didn't. The projection-gated rule that used to apply
+    here (week 3+) was removed after finding real cases where a scraped
+    pregame projection was erroneously 0.0 for a player who was clearly
+    a legitimate starter and had a great week -- see module docstring
+    for the Brock Bowers example that surfaced this.
     """
     credited_by_id = {}
-
-    projections_by_name = None
-    use_gating = week not in UNGATED_WEEKS
-    if use_gating:
-        projections_by_name = load_scraped_projections(week)
 
     for p in board:
         pid = p["player_id"]
@@ -364,23 +388,7 @@ def credited_points_for_week(week: int, board: list, position_by_id: dict, actua
 
         actual = actuals.get(pid)
         dnp = player_did_not_play(actual, p["bye_week"], week, p, zero_score_review)
-
-        gate_this_player = use_gating and pos not in UNGATED_POSITIONS and projections_by_name is not None
-
-        if not gate_this_player:
-            # Ungated rule: credit actual if played, replacement if DNP.
-            credited_by_id[pid] = replacement if dnp else actual
-            continue
-
-        # Gated rule (week 3+, QB/RB/WR/TE, scrape file present).
-        if dnp:
-            credited_by_id[pid] = replacement
-            continue
-
-        projection = projections_by_name.get(p["player_name"])
-        if projection is None:
-            projection = 0.0
-        credited_by_id[pid] = actual if projection > replacement else replacement
+        credited_by_id[pid] = replacement if dnp else actual
 
     return credited_by_id
 
@@ -463,12 +471,20 @@ def calculate_position_averages(board: list, weeks: list, starters_by_week: dict
 # --------------------------------------------------------------------------
 # WAR CALCULATION
 # --------------------------------------------------------------------------
-def win_probability_added(p: float, d: float) -> float:
+def win_probability_added(p: float, d_relative: float) -> float:
     """
     WAR for a single week:
-        Phi((P-D) / (33*sqrt(2))) - Phi((-D) / (33*sqrt(2)))
+        Phi((P - D_relative) / MARGIN_SIGMA) - Phi((-D_relative) / MARGIN_SIGMA)
+
+    IMPORTANT: d_relative must already be D's raw points-scored value
+    MINUS that position's replacement level, NOT the raw D itself. P
+    (credited_points - replacement) is a points-ABOVE-REPLACEMENT
+    quantity, so D has to be put on that same basis before subtracting
+    -- otherwise P-D mixes a replacement-relative number with a raw
+    one. The caller (calculate_war) is responsible for converting D to
+    D_relative = D - REPLACEMENT_LEVEL[pos] before calling this.
     """
-    return norm.cdf((p - d) / MARGIN_SIGMA) - norm.cdf((-d) / MARGIN_SIGMA)
+    return norm.cdf((p - d_relative) / MARGIN_SIGMA) - norm.cdf((-d_relative) / MARGIN_SIGMA)
 
 
 def calculate_war(league, board: list) -> tuple:
@@ -494,6 +510,7 @@ def calculate_war(league, board: list) -> tuple:
         print(f"Fetching actuals + starters for week {week}...")
         actuals = fetch_actuals_for_week(league, player_ids, week)
         actuals_by_week[week] = actuals
+        zero_score_review = auto_flag_zero_scores(week, board, actuals, zero_score_review)
 
         credited = credited_points_for_week(week, board, position_by_id, actuals, zero_score_review)
         par_this_week = {}
@@ -507,8 +524,24 @@ def calculate_war(league, board: list) -> tuple:
         starters_by_week[week] = fetch_starters_for_week(league, week)
 
     position_averages = calculate_position_averages(board, weeks, starters_by_week, actuals_by_week)
-    print(f"\nSeason-long starter averages (D) by position: "
+    print(f"\nSeason-long starter averages (D, raw points) by position: "
           f"{ {pos: round(d, 2) for pos, d in position_averages.items()} }")
+
+    # D (position_averages) is a RAW points-scored average, but P
+    # (par_this_week, from credited_points_for_week) is already
+    # points-ABOVE-REPLACEMENT. Phi((P-D)/sigma) requires both sides of
+    # the subtraction to be on the same basis, so D has to be converted
+    # to points-above-replacement here too: D_relative = D - replacement.
+    # Without this, P-D mixes a replacement-relative number with a raw
+    # one, which understates every player's WAR by treating "replacement
+    # level" and "0" as the same point on two different scales.
+    position_averages_relative = {
+        pos: d - REPLACEMENT_LEVEL[pos]
+        for pos, d in position_averages.items()
+        if pos in REPLACEMENT_LEVEL
+    }
+    print(f"Season-long starter averages (D, relative to replacement) by position: "
+          f"{ {pos: round(d, 2) for pos, d in position_averages_relative.items()} }")
 
     war_by_id = {pid: 0.0 for pid in player_ids}
     for week in weeks:
@@ -517,13 +550,13 @@ def calculate_war(league, board: list) -> tuple:
             pos = position_by_id.get(pid)
             if pos not in REPLACEMENT_LEVEL:
                 continue
-            d = position_averages.get(pos)
-            if d is None:
+            d_relative = position_averages_relative.get(pos)
+            if d_relative is None:
                 continue  # no starters observed yet at this position this run
             p = par_this_week.get(pid)
             if p is None:
                 continue
-            war_by_id[pid] += win_probability_added(p, d)
+            war_by_id[pid] += win_probability_added(p, d_relative)
 
     return war_by_id, weeks, position_averages
 

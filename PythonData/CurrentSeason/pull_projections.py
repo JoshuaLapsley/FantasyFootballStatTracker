@@ -57,6 +57,12 @@ with the full "team -> [players...]" projection data for that week, for
 every team in the league. Re-running does not require re-scraping every
 past week -- use --weeks to control the range (defaults to just the
 current week through end of the regular season).
+
+This script lives in PythonData/CurrentSeason/ (alongside RunWeekly.py)
+but is intentionally NOT called by RunWeekly.py's main() -- projections
+have to be scraped before a week's games start, so it has to run on its
+own schedule, separate from RunWeekly.py's other steps which can safely
+run anytime after a week is final.
 """
 
 import argparse
@@ -89,12 +95,31 @@ LEAGUE_ID = "470.l.205662"  # Girderma Gridiron, 2026 season -- update yearly
 OAUTH_FILE = os.path.join(os.path.dirname(__file__), "..", "oauth2.json")
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-OUTPUT_DIR = os.path.join(SCRIPT_DIR, "projections")
+
+# This script lives in CurrentSeason/ (moved here from simulate_season/
+# so it sits next to RunWeekly.py, but is deliberately NOT called by it
+# -- projections have to be scraped before each week's games start,
+# unlike RunWeekly.py's other steps which can run anytime after). Its
+# output still has to land in simulate_season/projections/, since that's
+# where CalculateWAR.py, RunWeekly.py's PAR step, and
+# simulate_season/calculate_lineups.py all read projections from.
+#
+# IMPORTANT: os.path.abspath(...) here is required, not cosmetic --
+# Chrome's --user-data-dir flag fails to launch at all (raises
+# SessionNotCreatedException: "cannot parse internal JSON template")
+# if given an unresolved relative path containing "..". SCRIPT_DIR is
+# already absolute (via os.path.abspath(__file__) above), but joining
+# ".." onto it still leaves a literal ".." segment in the resulting
+# string unless abspath() normalizes it away.
+SIMULATE_SEASON_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "simulate_season"))
+OUTPUT_DIR = os.path.join(SIMULATE_SEASON_DIR, "projections")
 
 # Persistent Chrome profile so login cookies survive across runs. This is
 # NOT the same as your everyday Chrome profile -- it's a dedicated,
-# separate profile just for this scraper.
-CHROME_PROFILE_DIR = os.path.join(SCRIPT_DIR, ".chrome_profile")
+# separate profile just for this scraper. Kept in simulate_season/ (its
+# original location) rather than moving with the script, so an existing
+# logged-in profile isn't orphaned by the move.
+CHROME_PROFILE_DIR = os.path.join(SIMULATE_SEASON_DIR, ".chrome_profile")
 
 LOGIN_HOST = "login.yahoo.com"
 BASE_URL = "https://football.fantasysports.yahoo.com"
