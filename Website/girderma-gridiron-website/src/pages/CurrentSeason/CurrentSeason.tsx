@@ -13,6 +13,11 @@ import '@syncfusion/ej2-popups/styles/material.css';
 
 // Import your tab components here
 import EarnedWins from './EarnedWins/EarnedWins';
+import SimulatedPlayoffOdds from './SimulatedPlayoffOdds/SimulatedPlayoffOdds';
+import SimulatedRecordDistribution from './SimulatedRecordDistriubtion/SimulatedPlayoffOdds';
+import PARDraftBoard from './PARDraftBoard/PARDraftBoard';
+import WARDraftBoard from './WARDraftBoard/WARDraftBoard';
+import EarnedWinsPlus from './EarnedWinsPlus/EarnedWinsPlus';
 
 
 // ---------------------------------------------------------------------------
@@ -29,7 +34,12 @@ interface TabConfig {
 // ---------------------------------------------------------------------------
 
 const CURRENT_SEASON_TABS: TabConfig[] = [
-  { header: 'EarnedWins', Component: EarnedWins },
+  { header: 'Earned Wins', Component: EarnedWins },
+  { header: 'Earned Wins Plus', Component: EarnedWinsPlus },
+  { header: 'Simulated Playoff Odds', Component: SimulatedPlayoffOdds },
+  { header: 'Simulated Record Distribution', Component: SimulatedRecordDistribution },
+  { header: 'PAR Draft Board', Component: PARDraftBoard },
+  { header: 'WAR Draft Board', Component: WARDraftBoard },
 ];
 
 // ---------------------------------------------------------------------------
@@ -39,7 +49,7 @@ const CURRENT_SEASON_TABS: TabConfig[] = [
 const CurrentSeason: React.FC = () => {
   return (
     <div style={{ display: 'flex', justifyContent: 'center' }}>
-      <div style={{ padding: '20px', width: '100%', maxWidth: '900px' }}>
+      <div style={{ padding: '20px', width: '100%' }}>
 
         <h2 style={{ textAlign: 'center' }}>Current Season</h2>
 
