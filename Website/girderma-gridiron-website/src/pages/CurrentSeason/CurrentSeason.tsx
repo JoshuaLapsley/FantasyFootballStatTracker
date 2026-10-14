@@ -51,7 +51,7 @@ const CurrentSeason: React.FC = () => {
     <div style={{ display: 'flex', justifyContent: 'center' }}>
       <div style={{ padding: '20px', width: '100%' }}>
 
-        <h2 style={{ textAlign: 'center' }}>Current Season</h2>
+        <h2 style={{ textAlign: 'center' }}>Current Season (Updated to include week 5)</h2>
 
         <TabComponent
           heightAdjustMode="Auto"
