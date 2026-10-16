@@ -1,4 +1,5 @@
 import React from 'react';
+import './ImageCard.css';
 
 interface ImageCardProps {
   title: string;
@@ -15,19 +16,25 @@ const ImageCard: React.FC<ImageCardProps> = ({
   imageAlt,
   fallbackText = 'No image available.',
 }) => (
-  <div style={{ padding: '20px' }}>
-    <h3>{title}</h3>
-    {description && <p>{description}</p>}
+  <article className="image-card">
+    <div className="image-card__header">
+      <h3>{title}</h3>
+      {description && <p>{description}</p>}
+    </div>
+
     {imageSrc ? (
-      <img
-        src={imageSrc}
-        alt={imageAlt ?? title}
-        style={{ maxWidth: '100%', height: 'auto' }}
-      />
+      <div className="image-card__image-container">
+        <img
+          className="image-card__image"
+          src={imageSrc}
+          alt={imageAlt ?? title}
+          loading="lazy"
+        />
+      </div>
     ) : (
-      <p>{fallbackText}</p>
+      <p className="image-card__fallback">{fallbackText}</p>
     )}
-  </div>
+  </article>
 );
 
 export default ImageCard;

@@ -79,12 +79,18 @@ Files PAR reads (all under PythonData/):
 Files PAR reads/writes:
   draftData/par_zero_score_review_{YEAR}.json  manual "did they actually play?" log
 
-Images PAR writes (into Website/girderma-gridiron-website/src/histograms/):
-  draft_board_by_position_{YEAR}.png   grid colored by player position
-  draft_board_by_par_{YEAR}.png        grid colored by PAR: red gradient
-                                        for positive PAR (darker = higher),
-                                        blue gradient for negative PAR
-                                        (darker = more negative)
+Images PAR writes (into Website/girderma-gridiron-website/src/
+league_stats_output/CurrentSeason/DraftBoards/):
+  Position/draft_board_by_position_{YEAR}.png   grid colored by player position
+  PAR/draft_board_by_par_{YEAR}.png             grid colored by PAR: red gradient
+                                                for positive PAR (darker = higher),
+                                                blue gradient for negative PAR
+                                                (darker = more negative)
+  PAR/draft_board_by_par_{YEAR}_colorbar.png    legend strip for the PAR board
+
+Simulation output (into Website/girderma-gridiron-website/src/
+league_stats_output/CurrentSeason/Simulations/):
+  record_distribution.jpg / .json, average_weekly_points.jpg, playoff_odds.jpg
 """
 
 from yahoo_oauth import OAuth2
@@ -102,6 +108,9 @@ import numpy as np
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+
+from CalculateWaiverWAR import run_year as run_waiver_war
+from AnalyzeDraftValue import run_draft_value
 
 sc = OAuth2(None, None, from_file='../oauth2.json')
 gm = yfa.Game(sc, 'nfl')
@@ -122,6 +131,7 @@ MATCHUP_DATA_DIR = os.path.normpath(os.path.join(
     SCRIPT_DIR, "..", "..", "Website", "girderma-gridiron-website",
     "src", "league_stats_output", "CurrentSeason", "MatchupData"
 ))
+
 
 
 # ==========================================================================
@@ -171,14 +181,19 @@ PYTHON_DATA_DIR = Path(SCRIPT_DIR) / ".."
 DRAFT_CACHE_PATH = PYTHON_DATA_DIR / "draftData" / f"draft_{PAR_YEAR}.json"
 ZERO_SCORE_REVIEW_PATH = PYTHON_DATA_DIR / "draftData" / f"par_zero_score_review_{PAR_YEAR}.json"
 
-# Draft board images live in the website's histograms folder (same place
-# create_histograms.py writes to), NOT in this CurrentSeason folder.
-HISTOGRAMS_DIR = (
+
+# All draft board images now live under CurrentSeason/DraftBoards/ instead
+# of the old src/histograms/ folder.
+DRAFT_BOARDS_DIR = (
     Path(SCRIPT_DIR) / ".." / ".." / "Website" / "girderma-gridiron-website"
-    / "src" / "histograms"
+    / "src" / "league_stats_output" / "CurrentSeason" / "DraftBoards"
 ).resolve()
-POSITION_BOARD_IMAGE_PATH = HISTOGRAMS_DIR / f"draft_board_by_position_{PAR_YEAR}.png"
-PAR_BOARD_IMAGE_PATH = HISTOGRAMS_DIR / f"draft_board_by_par_{PAR_YEAR}.png"
+
+PAR_DIR = DRAFT_BOARDS_DIR / "PAR"
+POSITION_DIR = DRAFT_BOARDS_DIR / "Position"
+
+PAR_BOARD_IMAGE_PATH = PAR_DIR / f"draft_board_by_par_{PAR_YEAR}.png"
+POSITION_BOARD_IMAGE_PATH = POSITION_DIR / f"draft_board_by_position_{PAR_YEAR}.png"
 
 
 # --------------------------------------------------------------------------
@@ -588,6 +603,7 @@ def _draw_board(
         )
 
     fig.tight_layout()
+    Path(output_path).parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(output_path, dpi=200, bbox_inches="tight")
     plt.close(fig)
     print(f"Saved -> {output_path}")
@@ -610,7 +626,7 @@ def render_position_board(rounds, columns, cell_by_round_and_team) -> None:
         for pos, color in POSITION_COLORS.items()
     ]
 
-    HISTOGRAMS_DIR.mkdir(parents=True, exist_ok=True)
+    POSITION_DIR.mkdir(parents=True, exist_ok=True)
     _draw_board(
         rounds, columns, cell_by_round_and_team,
         cell_color_fn=cell_color,
@@ -661,7 +677,7 @@ def render_par_board(rounds, columns, cell_by_round_and_team, par_by_id: dict) -
         par = par_by_id.get(pick["player_id"], 0.0)
         return f"#{pick['pick']}  {par:+.1f}\n{pick['player_name']}"
 
-    HISTOGRAMS_DIR.mkdir(parents=True, exist_ok=True)
+    PAR_DIR.mkdir(parents=True, exist_ok=True)
     _draw_board(
         rounds, columns, cell_by_round_and_team,
         cell_color_fn=cell_color,
@@ -688,6 +704,7 @@ def render_par_board(rounds, columns, cell_by_round_and_team, par_by_id: dict) -
     cb = matplotlib.colorbar.ColorbarBase(ax, cmap=diverging_cmap, norm=norm, orientation="horizontal")
     cb.set_label("PAR (negative -> positive)", fontsize=9)
     colorbar_path = PAR_BOARD_IMAGE_PATH.with_name(PAR_BOARD_IMAGE_PATH.stem + "_colorbar.png")
+    colorbar_path.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(colorbar_path, dpi=200, bbox_inches="tight")
     plt.close(fig)
     print(f"Saved -> {colorbar_path}")
@@ -700,7 +717,7 @@ def run_draft_par(league) -> None:
     print_draft_board(board, par_by_id, weeks_used, weeks_skipped)
 
     rounds, columns, cell_by_round_and_team = build_board_grid(board)
-    render_position_board(rounds, columns, cell_by_round_and_team)
+    #render_position_board(rounds, columns, cell_by_round_and_team)
     render_par_board(rounds, columns, cell_by_round_and_team, par_by_id)
 
 
@@ -742,7 +759,8 @@ by (wins, total points scored) descending. Seeds 1-2 get a first-round
 bye; seeds 3-6 make the playoffs without a bye; the bottom 4 (seeds
 11-14) land in the punishment bracket; seeds 7-10 make neither.
 
-Output (into PythonData/simulate_season/):
+Output (into Website/girderma-gridiron-website/src/league_stats_output/
+CurrentSeason/Simulations/):
   record_distribution.jpg    heatmap of each team's final-record odds
   average_weekly_points.jpg  heatmap of actual + projected points per week
   playoff_odds.jpg           bar chart of bye/playoff/punishment odds
@@ -764,10 +782,15 @@ SIM_BYE_SPOTS = 2
 SIM_PLAYOFF_SPOTS = 4
 SIM_PUNISHMENT_SPOTS = 4
 
-RECORD_DISTRIBUTION_IMAGE = SIMULATE_SEASON_DIR / "record_distribution.jpg"
-RECORD_DISTRIBUTION_JSON = SIMULATE_SEASON_DIR / "record_distribution.json"
-WEEKLY_POINTS_IMAGE = SIMULATE_SEASON_DIR / "average_weekly_points.jpg"
-PLAYOFF_ODDS_IMAGE = SIMULATE_SEASON_DIR / "playoff_odds.jpg"
+SIMULATION_OUTPUT_DIR = (
+    Path(SCRIPT_DIR) / ".." / ".." / "Website" / "girderma-gridiron-website"
+    / "src" /  "league_stats_output" / "CurrentSeason" / "Simulations"
+).resolve()
+
+RECORD_DISTRIBUTION_IMAGE = SIMULATION_OUTPUT_DIR / "record_distribution.jpg"
+RECORD_DISTRIBUTION_JSON = SIMULATION_OUTPUT_DIR / "record_distribution.json"
+WEEKLY_POINTS_IMAGE = SIMULATION_OUTPUT_DIR / "average_weekly_points.jpg"
+PLAYOFF_ODDS_IMAGE = SIMULATION_OUTPUT_DIR / "playoff_odds.jpg"
 
 
 def get_completed_weeks(league) -> list:
@@ -1146,6 +1169,8 @@ def run_simulate_matchups(league, start_week: int = None, end_week: int = SIM_EN
     playoff_counts = results["playoff_counts"]
     punishment_counts = results["punishment_counts"]
 
+    SIMULATION_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
     serializable = {
         team: {f"{w}-{l}": count for (w, l), count in records.items()}
         for team, records in record_counts.items()
@@ -1189,6 +1214,8 @@ def main():
     run_draft_par(lg)
     run_calculate_war(lg)
     run_simulate_matchups(lg)
+    run_waiver_war(2026, league=lg)
+    run_draft_value(league=lg)
 
 
 if __name__ == "__main__":

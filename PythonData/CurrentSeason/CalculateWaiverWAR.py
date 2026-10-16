@@ -120,9 +120,9 @@ PYTHON_DATA_DIR = Path(SCRIPT_DIR) / ".."
 DRAFT_DATA_DIR = PYTHON_DATA_DIR / "draftData"
 OAUTH_FILE = str(PYTHON_DATA_DIR / "oauth2.json")
 
-HISTOGRAMS_DIR = (
+DEFAULT_IMAGE_DIR = (
     Path(SCRIPT_DIR) / ".." / ".." / "Website" / "girderma-gridiron-website"
-    / "src" / "histograms"
+    / "src" / "league_stats_output" / "CurrentSeason" / "WaiverWAR"
 ).resolve()
 
 DEFAULT_TEXT_COLOR = "#374151"
@@ -498,7 +498,8 @@ def calculate_waiver_war(league, year: int, board: list, pickups: dict, rosters_
 # IMAGE: waiver WAR board -- one column per team, pickups sorted by WAR
 # descending top-to-bottom, colored by WAR
 # --------------------------------------------------------------------------
-def render_waiver_war_board(rows: list, board: list, year: int) -> None:
+def render_waiver_war_board(rows: list, board: list, year: int,
+                            output_directory=DEFAULT_IMAGE_DIR) -> None:
     # Column order: same convention as the draft board (each team's
     # round-1 pick order), falling back to alphabetical for any team
     # key seen only via pickups (shouldn't normally happen).
@@ -593,8 +594,9 @@ def render_waiver_war_board(rows: list, board: list, year: int) -> None:
                  fontsize=15, fontweight="bold", color="#111827", pad=36)
 
     fig.tight_layout()
-    HISTOGRAMS_DIR.mkdir(parents=True, exist_ok=True)
-    output_path = HISTOGRAMS_DIR / f"waiver_war_board_{year}.png"
+    output_directory = Path(output_directory)
+    output_directory.mkdir(parents=True, exist_ok=True)
+    output_path = output_directory / f"waiver_war_board_{year}.png"
     fig.savefig(output_path, dpi=200, bbox_inches="tight")
     plt.close(fig)
     print(f"Saved -> {output_path}")
@@ -618,7 +620,8 @@ def render_waiver_war_board(rows: list, board: list, year: int) -> None:
 # --------------------------------------------------------------------------
 # ORCHESTRATION
 # --------------------------------------------------------------------------
-def run_year(year: int, force_refresh_rosters: bool = False) -> None:
+def run_year(year: int, force_refresh_rosters: bool = False,
+             league=None, output_directory=DEFAULT_IMAGE_DIR) -> None:
     print(f"\n{'=' * 72}\n{year} WAIVER WAR\n{'=' * 72}")
     league = get_league(year)
     board = load_draft_board(league, year)
@@ -638,7 +641,7 @@ def run_year(year: int, force_refresh_rosters: bool = False) -> None:
         json.dump(rows, f, indent=2)
     print(f"[{year}] Saved -> {out_path} ({len(rows)} pickup rows)")
 
-    render_waiver_war_board(rows, board, year)
+    render_waiver_war_board(rows, board, year, output_directory)
 
     print(f"\nTop 10 waiver pickups ({year}, by WAR):")
     for r in sorted(rows, key=lambda r: r["war"], reverse=True)[:10]:
@@ -653,10 +656,13 @@ def main():
     parser.add_argument("--force-refresh-rosters", action="store_true",
                          help="Re-pull full weekly rosters from Yahoo even if a "
                               "full_rosters_by_week_{YEAR}.json cache already exists.")
+    parser.add_argument("--output-dir", default=str(DEFAULT_IMAGE_DIR),
+                         help="Folder for the waiver WAR board images.")
     args = parser.parse_args()
 
     for year in args.years:
-        run_year(year, force_refresh_rosters=args.force_refresh_rosters)
+        run_year(year, force_refresh_rosters=args.force_refresh_rosters,
+                 output_directory=args.output_dir)
 
 
 if __name__ == "__main__":

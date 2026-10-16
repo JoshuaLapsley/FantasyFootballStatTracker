@@ -68,7 +68,9 @@ Data (all under draftData/):
       expected_war here comes from the single all-historical-years fit
       (same curve used for every year, including 2026).
 
-Images (into Website/girderma-gridiron-website/src/histograms/):
+Images (default folder: Website/girderma-gridiron-website/src/
+league_stats_output/CurrentSeason/DraftBoards/SurplusWar/ -- override
+with run_draft_value(output_directory=...) or --output-dir):
   draft_board_regressed_expected_war.png (+ _colorbar)
       2026-shaped draft board grid, each cell colored/labeled by the
       ALL-historical-years fitted curve's expected WAR for that pick
@@ -85,8 +87,18 @@ Images (into Website/girderma-gridiron-website/src/histograms/):
       that season's real draft board, colored/labeled by actual WAR
       minus expected WAR from the single all-historical-years isotonic
       fit (same curve as everywhere else in this script).
+
+Usage:
+    python3 CalculateDraftValue.py
+    python3 CalculateDraftValue.py --output-dir /some/other/folder
+
+From another file (e.g. RunWeekly.py), reusing an already-authenticated league:
+    from CalculateDraftValue import run_draft_value
+    run_draft_value(league=lg)                          # default image folder
+    run_draft_value(league=lg, output_directory="...")  # custom image folder
 """
 
+import argparse
 import json
 import os
 from pathlib import Path
@@ -100,6 +112,8 @@ import yahoo_fantasy_api as yfa
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+
+import shutil
 
 
 # --------------------------------------------------------------------------
@@ -121,16 +135,16 @@ PYTHON_DATA_DIR = Path(SCRIPT_DIR) / ".."
 DRAFT_DATA_DIR = PYTHON_DATA_DIR / "draftData"
 OAUTH_FILE = str(PYTHON_DATA_DIR / "oauth2.json")
 
-HISTOGRAMS_DIR = (
+# Default destination for every image this script writes. Callers can
+# override it per run via run_draft_value(output_directory=...) or the
+# --output-dir command-line flag.
+DEFAULT_IMAGE_DIR = (
     Path(SCRIPT_DIR) / ".." / ".." / "Website" / "girderma-gridiron-website"
-    / "src" / "histograms"
+    / "src" / "league_stats_output" / "CurrentSeason" / "DraftBoards" / "SurplusWar"
 ).resolve()
 
 EXPECTED_WAR_JSON_PATH = DRAFT_DATA_DIR / "isotonic_expected_war_by_pick.json"
 DRAFT_VALUE_2026_PATH = DRAFT_DATA_DIR / "draft_value_2026.json"
-
-REGRESSED_BOARD_IMAGE_PATH = HISTOGRAMS_DIR / "draft_board_regressed_expected_war.png"
-SURPLUS_BOARD_IMAGE_PATH = HISTOGRAMS_DIR / "draft_board_2026_surplus_war.png"
 
 DEFAULT_TEXT_COLOR = "#374151"
 
@@ -182,18 +196,20 @@ def expected_war_by_pick(model: IsotonicRegression, max_pick: int) -> dict:
 # SEASON PROGRESS (for prorating 2026's comparison -- see module
 # docstring point 5)
 # --------------------------------------------------------------------------
-def get_season_progress(year: int) -> tuple:
+def get_season_progress(year: int, league=None) -> tuple:
     """
     Returns (weeks_completed, full_season_weeks) for the given year's
-    Yahoo league, authenticating fresh (same OAuth pattern as
-    CalculateHistoricalWAR.py). weeks_completed matches
+    Yahoo league. If `league` is passed in, it's reused as-is (no new
+    OAuth session); otherwise this authenticates fresh (same OAuth
+    pattern as CalculateHistoricalWAR.py). weeks_completed matches
     CalculateWAR.py's determine_weeks_to_process (every week strictly
     before league.current_week()); full_season_weeks is
     playoff_start_week - 1 (the regular season's last week).
     """
-    sc = OAuth2(None, None, from_file=OAUTH_FILE)
-    gm = yfa.Game(sc, "nfl")
-    league = gm.to_league(LEAGUE_IDS[year])
+    if league is None:
+        sc = OAuth2(None, None, from_file=OAUTH_FILE)
+        gm = yfa.Game(sc, "nfl")
+        league = gm.to_league(LEAGUE_IDS[year])
 
     weeks_completed = league.current_week() - 1
     settings = league.settings()
@@ -276,6 +292,7 @@ def _draw_board(rounds, columns, cell_by_round_and_team, cell_color_fn, text_col
     ax.set_title(title, fontsize=15, fontweight="bold", color="#111827", pad=36)
 
     fig.tight_layout()
+    Path(output_path).parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(output_path, dpi=200, bbox_inches="tight")
     plt.close(fig)
     print(f"Saved -> {output_path}")
@@ -294,7 +311,8 @@ def _save_diverging_colorbar(blues, reds, value_min: float, value_max: float,
     norm_ = matplotlib.colors.Normalize(vmin=value_min, vmax=value_max)
     cb = matplotlib.colorbar.ColorbarBase(ax, cmap=diverging_cmap, norm=norm_, orientation="horizontal")
     cb.set_label(label, fontsize=9)
-    colorbar_path = image_path.with_name(image_path.stem + "_colorbar.png")
+    colorbar_path = Path(image_path).with_name(Path(image_path).stem + "_colorbar.png")
+    colorbar_path.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(colorbar_path, dpi=200, bbox_inches="tight")
     plt.close(fig)
     print(f"Saved -> {colorbar_path}")
@@ -333,7 +351,7 @@ def render_diverging_board(board: list, value_fn, label_fn, title: str, output_p
         value = value_fn(pick)
         return "#FFFFFF" if intensity(value) > 0.6 else "#111827"
 
-    HISTOGRAMS_DIR.mkdir(parents=True, exist_ok=True)
+    Path(output_path).parent.mkdir(parents=True, exist_ok=True)
     _draw_board(
         rounds, columns, cell_by_round_and_team,
         cell_color_fn=cell_color,
@@ -349,13 +367,13 @@ def render_diverging_board(board: list, value_fn, label_fn, title: str, output_p
 # IMAGE: regressed/expected WAR board (2026-shaped grid, cells colored
 # by the fitted curve's expected WAR for that pick slot, full-season basis)
 # --------------------------------------------------------------------------
-def render_regressed_board(board_2026: list, expected_by_pick: dict) -> None:
+def render_regressed_board(board_2026: list, expected_by_pick: dict, output_directory) -> None:
     render_diverging_board(
         board_2026,
         value_fn=lambda pick: expected_by_pick.get(pick["pick"], 0.0),
         label_fn=lambda pick: f"#{pick['pick']}  {expected_by_pick.get(pick['pick'], 0.0):+.3f}\n(expected)",
         title=f"Expected WAR by Draft Slot (isotonic fit, {ALL_HISTORICAL_YEARS[0]}-{ALL_HISTORICAL_YEARS[-1]}, full season)",
-        output_path=REGRESSED_BOARD_IMAGE_PATH,
+        output_path=Path(output_directory) / "draft_board_regressed_expected_war.png",
         colorbar_label="Expected WAR, full season (negative -> positive)",
     )
 
@@ -364,7 +382,7 @@ def render_regressed_board(board_2026: list, expected_by_pick: dict) -> None:
 # IMAGE: 2026 surplus board (actual WAR - PRORATED expected WAR)
 # --------------------------------------------------------------------------
 def render_surplus_board_2026(board_2026: list, war_by_id_2026: dict, expected_by_pick_prorated: dict,
-                               weeks_completed: int, full_season_weeks: int) -> None:
+                               weeks_completed: int, full_season_weeks: int, output_directory) -> None:
     def surplus_for(pick):
         actual = war_by_id_2026.get(pick["player_id"], 0.0)
         expected = expected_by_pick_prorated.get(pick["pick"], 0.0)
@@ -377,7 +395,7 @@ def render_surplus_board_2026(board_2026: list, war_by_id_2026: dict, expected_b
         title=(f"{EVAL_YEAR} Draft Board -- Actual WAR minus Expected WAR "
                f"(vs. {ALL_HISTORICAL_YEARS[0]}-{ALL_HISTORICAL_YEARS[-1]} isotonic fit, "
                f"prorated to {weeks_completed}/{full_season_weeks} weeks)"),
-        output_path=SURPLUS_BOARD_IMAGE_PATH,
+        output_path=Path(output_directory) / "draft_board_2026_surplus_war.png",
         colorbar_label="Surplus WAR: actual - prorated expected (negative -> positive)",
     )
 
@@ -386,8 +404,8 @@ def render_surplus_board_2026(board_2026: list, war_by_id_2026: dict, expected_b
 # IMAGE: a completed historical season's actual WAR board (same visual
 # convention as CalculateWAR.py's live render_war_board)
 # --------------------------------------------------------------------------
-def render_actual_war_board(board: list, war_by_id: dict, year: int) -> None:
-    output_path = HISTOGRAMS_DIR / f"draft_board_by_war_{year}.png"
+def render_actual_war_board(board: list, war_by_id: dict, year: int, output_directory) -> None:
+    output_path = Path(output_directory) / f"draft_board_by_war_{year}.png"
     render_diverging_board(
         board,
         value_fn=lambda pick: war_by_id.get(pick["player_id"], 0.0),
@@ -403,13 +421,14 @@ def render_actual_war_board(board: list, war_by_id: dict, year: int) -> None:
 # the single all-historical-years isotonic fit's expected WAR -- same
 # curve used for every year, including 2026)
 # --------------------------------------------------------------------------
-def render_surplus_board_historical(board: list, war_by_id: dict, expected_by_pick: dict, year: int) -> None:
+def render_surplus_board_historical(board: list, war_by_id: dict, expected_by_pick: dict,
+                                     year: int, output_directory) -> None:
     def surplus_for(pick):
         actual = war_by_id.get(pick["player_id"], 0.0)
         expected = expected_by_pick.get(pick["pick"], 0.0)
         return actual - expected
 
-    output_path = HISTOGRAMS_DIR / f"draft_board_surplus_war_{year}.png"
+    output_path = Path(output_directory) / f"draft_board_surplus_war_{year}.png"
     render_diverging_board(
         board,
         value_fn=surplus_for,
@@ -443,7 +462,19 @@ def print_top_bottom(draft_value_rows: list, year: int) -> None:
 # --------------------------------------------------------------------------
 # ORCHESTRATION
 # --------------------------------------------------------------------------
-def main():
+def run_draft_value(league=None, output_directory=DEFAULT_IMAGE_DIR) -> None:
+    """
+    Entry point (also callable from another file).
+
+    league: an already-authenticated 2026 Yahoo league (e.g. RunWeekly's
+        `lg`) to reuse for season-progress lookups. If omitted, this
+        authenticates on its own.
+    output_directory: folder every image (and its _colorbar twin) is
+        written to. Defaults to DEFAULT_IMAGE_DIR (CurrentSeason/
+        DraftBoards/SurplusWar). Created automatically if missing.
+    """
+    output_directory = Path(output_directory)
+    output_directory.mkdir(parents=True, exist_ok=True)
     DRAFT_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     # ----------------------------------------------------------------
@@ -465,7 +496,7 @@ def main():
         }, f, indent=2)
     print(f"Saved -> {EXPECTED_WAR_JSON_PATH}")
 
-    weeks_completed, full_season_weeks = get_season_progress(EVAL_YEAR)
+    weeks_completed, full_season_weeks = get_season_progress(EVAL_YEAR, league=league)
     proration = (weeks_completed / full_season_weeks) if full_season_weeks else 0.0
     print(f"[{EVAL_YEAR}] Season progress: {weeks_completed}/{full_season_weeks} weeks "
           f"(proration factor = {proration:.3f})")
@@ -500,11 +531,18 @@ def main():
     draft_value_rows_2026.sort(key=lambda r: r["pick"])
     with open(DRAFT_VALUE_2026_PATH, "w") as f:
         json.dump(draft_value_rows_2026, f, indent=2)
+
+    shutil.copy2(
+        DRAFT_VALUE_2026_PATH,
+        Path(SCRIPT_DIR) / ".." / ".." / "Website" / "girderma-gridiron-website"
+        / "src" / "league_stats_output" / "CurrentSeason"
+        / "draft_value_2026.json"
+    )
     print(f"Saved -> {DRAFT_VALUE_2026_PATH}")
 
-    render_regressed_board(board_2026, expected_by_pick_full)
+    render_regressed_board(board_2026, expected_by_pick_full, output_directory)
     render_surplus_board_2026(board_2026, war_by_id_2026, expected_by_pick_prorated,
-                               weeks_completed, full_season_weeks)
+                               weeks_completed, full_season_weeks, output_directory)
     print_top_bottom(draft_value_rows_2026, EVAL_YEAR)
 
     # ----------------------------------------------------------------
@@ -519,7 +557,7 @@ def main():
         board = load_board(year)
         war_by_id = {r["player_id"]: r["war"] for r in war_rows_by_year[year]}
 
-        render_actual_war_board(board, war_by_id, year)
+        render_actual_war_board(board, war_by_id, year, output_directory)
 
         draft_value_rows_year = []
         for p in board:
@@ -542,8 +580,18 @@ def main():
             json.dump(draft_value_rows_year, f, indent=2)
         print(f"Saved -> {out_path}")
 
-        render_surplus_board_historical(board, war_by_id, expected_by_pick_full, year)
+        render_surplus_board_historical(board, war_by_id, expected_by_pick_full, year, output_directory)
         print_top_bottom(draft_value_rows_year, year)
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Fit isotonic expected-WAR-by-pick curve and render draft value boards.")
+    parser.add_argument("--output-dir", default=str(DEFAULT_IMAGE_DIR),
+                         help="Folder for the draft board images (default: "
+                              "CurrentSeason/DraftBoards/SurplusWar).")
+    args = parser.parse_args()
+
+    run_draft_value(output_directory=args.output_dir)
 
 
 if __name__ == "__main__":

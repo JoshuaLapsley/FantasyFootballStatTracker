@@ -89,13 +89,13 @@ no weeks or players are ever skipped).
 --------------------------------------------------------------------------
 Files this script reads (all under PythonData/):
   draftData/draft_{YEAR}.json                cached draft board (delete to refresh)
-  simulate_season/projections/week_{N}.json  scraped pregame projections (week 3+, optional)
 
-Files this script reads:
+Files this script reads/writes:
   draftData/par_zero_score_review_{YEAR}.json  manual "did they actually play?" log
   (shared with RunWeekly.py's PAR calculation -- same DNP semantics)
 
-Images this script writes (into Website/girderma-gridiron-website/src/histograms/):
+Images this script writes (into
+Website/girderma-gridiron-website/src/league_stats_output/CurrentSeason/DraftBoards/WAR/):
   draft_board_by_war_{YEAR}.png            grid colored by season WAR: red
                                             gradient for positive WAR
                                             (darker = higher), blue
@@ -114,6 +114,8 @@ from scipy.stats import norm
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import matplotlib.colors
+import matplotlib.cm
 
 import yahoo_fantasy_api as yfa
 
@@ -163,11 +165,12 @@ PYTHON_DATA_DIR = Path(SCRIPT_DIR) / ".."
 DRAFT_CACHE_PATH = PYTHON_DATA_DIR / "draftData" / f"draft_{WAR_YEAR}.json"
 ZERO_SCORE_REVIEW_PATH = PYTHON_DATA_DIR / "draftData" / f"par_zero_score_review_{WAR_YEAR}.json"
 
-HISTOGRAMS_DIR = (
+WAR_DIR = (
     Path(SCRIPT_DIR) / ".." / ".." / "Website" / "girderma-gridiron-website"
-    / "src" / "histograms"
+    / "src" / "league_stats_output" / "CurrentSeason" / "DraftBoards" / "WAR"
 ).resolve()
-WAR_BOARD_IMAGE_PATH = HISTOGRAMS_DIR / f"draft_board_by_war_{WAR_YEAR}.png"
+
+WAR_BOARD_IMAGE_PATH = WAR_DIR / f"draft_board_by_war_{WAR_YEAR}.png"
 
 
 # --------------------------------------------------------------------------
@@ -371,11 +374,7 @@ def credited_points_for_week(week: int, board: list, position_by_id: dict, actua
     Returns {player_id: credited_points} for one week, for every drafted
     player with a recognized position. Ungated rule only (see module
     docstring): credit actual points if the player played, replacement
-    level if they didn't. The projection-gated rule that used to apply
-    here (week 3+) was removed after finding real cases where a scraped
-    pregame projection was erroneously 0.0 for a player who was clearly
-    a legitimate starter and had a great week -- see module docstring
-    for the Brock Bowers example that surfaced this.
+    level if they didn't.
     """
     credited_by_id = {}
 
@@ -394,46 +393,12 @@ def credited_points_for_week(week: int, board: list, position_by_id: dict, actua
 
 
 # --------------------------------------------------------------------------
-# ORCHESTRATION: compute P for every player/week, and D per position
+# ORCHESTRATION: compute D per position
 # --------------------------------------------------------------------------
 def determine_weeks_to_process(league) -> list:
     """Every week strictly before the league's current week -- same
     convention as RunWeekly.py. No weeks are ever skipped for WAR."""
     return list(range(1, league.current_week()))
-
-
-def calculate_weekly_par_and_starters(league, board: list) -> tuple:
-    """
-    Returns (par_by_id_by_week, starters_by_week):
-      par_by_id_by_week: {week: {player_id: P}}  (P = credited - replacement)
-      starters_by_week:  {week: set(player_id)}  (actually-started player_ids that week)
-    """
-    player_ids = [p["player_id"] for p in board]
-    position_by_id = {p["player_id"]: p["position"] for p in board}
-    zero_score_review = load_zero_score_review()
-
-    weeks = determine_weeks_to_process(league)
-    print(f"Current week per Yahoo: {league.current_week()}. Weeks to process: {weeks or 'none yet'}")
-
-    par_by_id_by_week = {}
-    starters_by_week = {}
-
-    for week in weeks:
-        print(f"Processing week {week}...")
-        actuals = fetch_actuals_for_week(league, player_ids, week)
-        credited = credited_points_for_week(week, board, position_by_id, actuals, zero_score_review)
-
-        par_this_week = {}
-        for pid, credited_pts in credited.items():
-            replacement = REPLACEMENT_LEVEL.get(position_by_id.get(pid))
-            if replacement is None:
-                continue
-            par_this_week[pid] = credited_pts - replacement
-        par_by_id_by_week[week] = par_this_week
-
-        starters_by_week[week] = fetch_starters_for_week(league, week)
-
-    return par_by_id_by_week, starters_by_week
 
 
 def calculate_position_averages(board: list, weeks: list, starters_by_week: dict,
@@ -479,9 +444,8 @@ def win_probability_added(p: float, d_relative: float) -> float:
     IMPORTANT: d_relative must already be D's raw points-scored value
     MINUS that position's replacement level, NOT the raw D itself. P
     (credited_points - replacement) is a points-ABOVE-REPLACEMENT
-    quantity, so D has to be put on that same basis before subtracting
-    -- otherwise P-D mixes a replacement-relative number with a raw
-    one. The caller (calculate_war) is responsible for converting D to
+    quantity, so D has to be put on that same basis before subtracting.
+    The caller (calculate_war) is responsible for converting D to
     D_relative = D - REPLACEMENT_LEVEL[pos] before calling this.
     """
     return norm.cdf((p - d_relative) / MARGIN_SIGMA) - norm.cdf((-d_relative) / MARGIN_SIGMA)
@@ -493,7 +457,7 @@ def calculate_war(league, board: list) -> tuple:
 
     war_by_id: {player_id: season_sum_WAR}
     weeks_used: every week processed (never skipped, per instruction)
-    position_averages: {position: D} used for this run
+    position_averages: {position: D} used for this run (raw points)
     """
     player_ids = [p["player_id"] for p in board]
     position_by_id = {p["player_id"]: p["position"] for p in board}
@@ -528,13 +492,8 @@ def calculate_war(league, board: list) -> tuple:
           f"{ {pos: round(d, 2) for pos, d in position_averages.items()} }")
 
     # D (position_averages) is a RAW points-scored average, but P
-    # (par_this_week, from credited_points_for_week) is already
-    # points-ABOVE-REPLACEMENT. Phi((P-D)/sigma) requires both sides of
-    # the subtraction to be on the same basis, so D has to be converted
-    # to points-above-replacement here too: D_relative = D - replacement.
-    # Without this, P-D mixes a replacement-relative number with a raw
-    # one, which understates every player's WAR by treating "replacement
-    # level" and "0" as the same point on two different scales.
+    # (par_this_week) is already points-ABOVE-REPLACEMENT. Convert D to
+    # the same basis: D_relative = D - replacement.
     position_averages_relative = {
         pos: d - REPLACEMENT_LEVEL[pos]
         for pos, d in position_averages.items()
@@ -723,7 +682,7 @@ def render_war_board(rounds, columns, cell_by_round_and_team, war_by_id: dict) -
         war = war_by_id.get(pick["player_id"], 0.0)
         return f"#{pick['pick']}  {war:+.3f}\n{pick['player_name']}"
 
-    HISTOGRAMS_DIR.mkdir(parents=True, exist_ok=True)
+    WAR_DIR.mkdir(parents=True, exist_ok=True)
     _draw_board(
         rounds, columns, cell_by_round_and_team,
         cell_color_fn=cell_color,
@@ -734,6 +693,8 @@ def render_war_board(rounds, columns, cell_by_round_and_team, war_by_id: dict) -
         legend_handles=None,
     )
 
+    # Colorbar legend strip: blue (very negative) on the left, through
+    # white at zero, to red (very positive) on the right.
     n_stops = 256
     blue_half = [blues(1.0 - i / (n_stops // 2 - 1)) for i in range(n_stops // 2)]
     red_half = [reds(i / (n_stops // 2 - 1)) for i in range(n_stops // 2)]
@@ -742,7 +703,8 @@ def render_war_board(rounds, columns, cell_by_round_and_team, war_by_id: dict) -
     fig, ax = plt.subplots(figsize=(6, 0.6))
     fig.subplots_adjust(bottom=0.5)
     norm_ = matplotlib.colors.Normalize(vmin=war_min, vmax=war_max)
-    cb = matplotlib.colorbar.ColorbarBase(ax, cmap=diverging_cmap, norm=norm_, orientation="horizontal")
+    mappable = matplotlib.cm.ScalarMappable(norm=norm_, cmap=diverging_cmap)
+    cb = fig.colorbar(mappable, cax=ax, orientation="horizontal")
     cb.set_label("WAR (negative -> positive)", fontsize=9)
     colorbar_path = WAR_BOARD_IMAGE_PATH.with_name(WAR_BOARD_IMAGE_PATH.stem + "_colorbar.png")
     fig.savefig(colorbar_path, dpi=200, bbox_inches="tight")

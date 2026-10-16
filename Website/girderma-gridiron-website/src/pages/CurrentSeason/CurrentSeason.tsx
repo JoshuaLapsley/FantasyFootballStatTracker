@@ -1,17 +1,5 @@
-import React from 'react';
-import {
-  TabComponent,
-  TabItemsDirective,
-  TabItemDirective
-} from '@syncfusion/ej2-react-navigations';
+import React, { useState } from 'react';
 
-// Required Syncfusion styles
-import '@syncfusion/ej2-base/styles/material.css';
-import '@syncfusion/ej2-buttons/styles/material.css';
-import '@syncfusion/ej2-navigations/styles/material.css';
-import '@syncfusion/ej2-popups/styles/material.css';
-
-// Import your tab components here
 import EarnedWins from './EarnedWins/EarnedWins';
 import SimulatedPlayoffOdds from './SimulatedPlayoffOdds/SimulatedPlayoffOdds';
 import SimulatedRecordDistribution from './SimulatedRecordDistriubtion/SimulatedPlayoffOdds';
@@ -19,19 +7,15 @@ import PARDraftBoard from './PARDraftBoard/PARDraftBoard';
 import WARDraftBoard from './WARDraftBoard/WARDraftBoard';
 import EarnedWinsPlus from './EarnedWinsPlus/EarnedWinsPlus';
 
-
-// ---------------------------------------------------------------------------
-// Types
-// ---------------------------------------------------------------------------
+import './CurrentSeason.css';
+import WARSurplus from './WARSurplus/WARSurplus';
+import WaiverWAR from './WaiverWAR/WaiverWAR';
+import WARAnalysis from './WARAnalysis/WARAnalysis';
 
 interface TabConfig {
   header: string;
   Component: React.ComponentType;
 }
-
-// ---------------------------------------------------------------------------
-// Current Season Tabs
-// ---------------------------------------------------------------------------
 
 const CURRENT_SEASON_TABS: TabConfig[] = [
   { header: 'Earned Wins', Component: EarnedWins },
@@ -40,37 +24,51 @@ const CURRENT_SEASON_TABS: TabConfig[] = [
   { header: 'Simulated Record Distribution', Component: SimulatedRecordDistribution },
   { header: 'PAR Draft Board', Component: PARDraftBoard },
   { header: 'WAR Draft Board', Component: WARDraftBoard },
+  { header: 'Surplus WAR Draft Board', Component: WARSurplus },
+  { header: 'Waiver WAR', Component: WaiverWAR },
+  { header: 'WAR Analysis', Component: WARAnalysis },
 ];
 
-// ---------------------------------------------------------------------------
-// Current Season
-// ---------------------------------------------------------------------------
-
 const CurrentSeason: React.FC = () => {
+  const [selectedIndex, setSelectedIndex] = useState(0);
+
+  const SelectedComponent = CURRENT_SEASON_TABS[selectedIndex].Component;
+
   return (
-    <div style={{ display: 'flex', justifyContent: 'center' }}>
-      <div style={{ padding: '20px', width: '100%' }}>
+    <main className="current-season">
+      <header className="current-season__header">
+        <h1>Current Season</h1>
+        <span className="current-season__updated">
+          Updated through Week 5
+        </span>
+      </header>
 
-        <h2 style={{ textAlign: 'center' }}>Current Season (Updated to include week 5)</h2>
+      <section className="current-season__controls">
+        <label htmlFor="season-view" className="current-season__label">
+          Select a view
+        </label>
 
-        <TabComponent
-          heightAdjustMode="Auto"
-          overflowMode="Scrollable"
-          swipeMode="None"
+        <select
+          id="season-view"
+          className="current-season__select"
+          value={selectedIndex}
+          onChange={(event) => setSelectedIndex(Number(event.target.value))}
         >
-          <TabItemsDirective>
-            {CURRENT_SEASON_TABS.map(({ header, Component }) => (
-              <TabItemDirective
-                key={header}
-                header={{ text: header }}
-                content={() => <Component />}
-              />
-            ))}
-          </TabItemsDirective>
-        </TabComponent>
+          {CURRENT_SEASON_TABS.map((tab, index) => (
+            <option key={tab.header} value={index}>
+              {tab.header}
+            </option>
+          ))}
+        </select>
+      </section>
 
-      </div>
-    </div>
+      <section className="current-season__content">
+
+        <div className="current-season__component">
+          <SelectedComponent />
+        </div>
+      </section>
+    </main>
   );
 };
 
