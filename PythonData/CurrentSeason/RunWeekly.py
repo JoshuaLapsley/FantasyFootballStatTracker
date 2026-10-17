@@ -115,6 +115,8 @@ from AnalyzeDraftValue import run_draft_value
 sc = OAuth2(None, None, from_file='../oauth2.json')
 gm = yfa.Game(sc, 'nfl')
 
+from CalculateHistoricalWAR import run_year as write_war_json
+
 
 
 YEAR_ID = '470.l.205662'#Change this every year
@@ -1209,6 +1211,7 @@ def run_simulate_matchups(league, start_week: int = None, end_week: int = SIM_EN
 
 def main():
     write_week_files(lg, OUTPUT_DIR=MATCHUP_DATA_DIR)
+    write_war_json(2026, league=lg) #BIG REFACTOR NEEDED, THIS IS REALLY MESSY
     calculate_earned_wins(data_directory=MATCHUP_DATA_DIR, output_directory=CURRENT_SEASON_DATA_DIR)
     write_earned_wins_plus(lg, output_directory=CURRENT_SEASON_DATA_DIR)
     run_draft_par(lg)
@@ -1216,6 +1219,7 @@ def main():
     run_simulate_matchups(lg)
     run_waiver_war(2026, league=lg)
     run_draft_value(league=lg)
+    
 
 
 if __name__ == "__main__":

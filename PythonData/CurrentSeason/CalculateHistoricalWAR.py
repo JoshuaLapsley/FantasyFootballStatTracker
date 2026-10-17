@@ -1,32 +1,37 @@
 """
 Calculate each drafted player's standardized WAR (Wins Above
-Replacement) stat for one or more COMPLETED past seasons (2023/2024/
-2025 by default), using the exact same formula as CalculateWAR.py
-(the live/current-season version) -- see that file's module docstring
-for the full WAR derivation. This script exists only to backfill
-historical pick-slot vs. WAR data (there's no need to re-derive the
-formula here, just to run it against old league objects).
+Replacement) stat for one or more seasons (2023/2024/2025 by default),
+using the exact same formula as CalculateWAR.py (the live/current-season
+version) -- see that file's module docstring for the full WAR
+derivation. This script exists to backfill pick-slot vs. WAR data
+(there's no need to re-derive the formula here, just to run it against
+specific league objects).
+
+COMPLETED vs. IN-PROGRESS SEASONS
+--------------------------------------------------------------------------
+Completed seasons (2023-2025): every regular season week is processed,
+1 through (playoff_start_week - 1), read from league.settings(). This
+deliberately does NOT use league.current_week(), whose meaning on a
+finished Yahoo league is unreliable.
+
+The in-progress season (CURRENT_SEASON_YEAR, 2026): only weeks strictly
+before league.current_week() are processed -- the exact same convention
+as CalculateWAR.py and CalculateDraftValue.py's get_season_progress().
+Processing future weeks would be wrong: their actuals are 0.0, which
+would (a) pollute par_zero_score_review_{YEAR}.json with hundreds of
+auto-flagged entries and (b) drag down the season-long starter average
+D (zero-point "starters" counted as real data), inflating everyone's WAR.
+
+Change CURRENT_SEASON_YEAR every year, alongside LEAGUE_IDS.
 
 WHY THIS SCRIPT IS SEPARATE FROM CalculateWAR.py
 --------------------------------------------------------------------------
-CalculateWAR.py is wired for the live, in-progress 2026 league: it uses
-`league.current_week()` to decide which weeks are "final" (everything
-strictly before the current week), and hardcodes a single league_id/
-WAR_YEAR pair. Neither of those is right for a season that already
-ended:
-  - `current_week()` on a completed Yahoo league does not reliably mean
-    "the season's last week" (behavior is unconfirmed and risky to
-    depend on) -- so this script instead reads the regular season's
-    actual last week from `league.settings()["playoff_start_week"]`
-    (same convention already used by pull_schedule.py / pull_projections
-    .py's `get_regular_season_weeks`), and processes every regular
-    season week, including the playoffs' lead-up week.
-  - Each Yahoo season is a genuinely distinct league object with its
-    own league_id (Yahoo does not let you pass a `year=` param to an
-    existing league_id to get an old season) -- so this script loops
-    over a YEAR -> league_id map (reusing the same ids already recorded
-    in simulate_season.py's LEAGUE_IDS) and authenticates fresh for
-    each one.
+CalculateWAR.py hardcodes a single league_id/WAR_YEAR pair and renders
+a draft board image. This script is year-parameterized and writes the
+war_{YEAR}.json dataset that CalculateDraftValue.py consumes. Each
+Yahoo season is a genuinely distinct league object with its own
+league_id, so this script loops over a YEAR -> league_id map and
+authenticates fresh for each one.
 
 WHAT GETS WRITTEN (per year, all under PythonData/draftData/):
   draft_{YEAR}.json        enriched draft board cache (same shape as
@@ -35,25 +40,26 @@ WHAT GETS WRITTEN (per year, all under PythonData/draftData/):
   par_zero_score_review_{YEAR}.json
                             manual "did they actually play?" log for
                             exact-0.0 scores (same semantics as the live
-                            script). No historical season has had this
-                            manually reviewed yet, so by default every
-                            flagged 0.0 resolves to "did not play"
-                            (replacement level) -- the same safe
-                            fallback the live script already uses for
-                            un-reviewed entries. Edit this file by hand
-                            afterwards (set "played": true) for any
-                            player you know genuinely scored a real 0.
-  war_{YEAR}.json           the actual output this script exists to
-                            produce: one row per drafted player with
-                            {pick, round, player_id, player_name,
-                            position, war}, sorted by pick -- this is
-                            the pick-slot-vs-WAR dataset the isotonic
+                            script). By default every flagged 0.0
+                            resolves to "did not play" (replacement
+                            level). Edit by hand (set "played": true)
+                            for any player who genuinely scored a real 0.
+  war_{YEAR}.json           one row per drafted player with
+                            {year, pick, round, player_id, player_name,
+                            position, war}, sorted by pick -- the
+                            pick-slot-vs-WAR dataset the isotonic
                             regression script consumes.
 
 Usage:
     python3 CalculateHistoricalWAR.py                  # runs 2023-2025
     python3 CalculateHistoricalWAR.py --years 2023 2024
+    python3 CalculateHistoricalWAR.py --years 2026     # in-progress season
     python3 CalculateHistoricalWAR.py --years 2025 --force-refresh-draft
+
+From another file (e.g. RunWeekly.py), reusing an already-authenticated
+league so no new OAuth session is created:
+    from CalculateHistoricalWAR import run_year
+    run_year(2026, league=lg)
 """
 
 import argparse
@@ -95,6 +101,11 @@ LEAGUE_IDS = {
 }
 
 DEFAULT_YEARS = [2023, 2024, 2025]
+
+# The season currently being played. For this year only, weeks are
+# limited to those strictly before league.current_week(). Change this
+# every year.
+CURRENT_SEASON_YEAR = 2026
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PYTHON_DATA_DIR = Path(SCRIPT_DIR) / ".."
@@ -195,17 +206,21 @@ def load_draft_board(league, year: int, force_refresh: bool = False) -> list:
 
 
 # --------------------------------------------------------------------------
-# REGULAR SEASON WEEK RANGE (completed-season-safe, unlike current_week())
+# WEEK RANGE
 # --------------------------------------------------------------------------
-def determine_weeks_to_process(league) -> list:
+def determine_weeks_to_process(league, in_progress: bool = False) -> list:
     """
-    Every regular season week, 1 through (playoff_start_week - 1).
-    Deliberately does NOT use league.current_week() -- that call means
-    "today's week" and is meant for in-progress seasons; for a
-    completed past season we want every week that was actually played,
-    which playoff_start_week gives us reliably (same convention as
-    pull_schedule.py / pull_projections.py's get_regular_season_weeks).
+    in_progress=True  -> every week strictly before league.current_week()
+                         (same convention as CalculateWAR.py and
+                         CalculateDraftValue.get_season_progress).
+    in_progress=False -> every regular season week, 1 through
+                         (playoff_start_week - 1). Deliberately does NOT
+                         use current_week(), which is unreliable on a
+                         completed league.
     """
+    if in_progress:
+        return list(range(1, league.current_week()))
+
     settings = league.settings()
     playoff_start = int(settings.get("playoff_start_week", 15))
     return list(range(1, playoff_start))
@@ -267,8 +282,10 @@ def calculate_war_for_year(league, year: int, board: list) -> tuple:
         with open(review_path, "r") as f:
             zero_score_review = json.load(f)
 
-    weeks = determine_weeks_to_process(league)
-    print(f"[{year}] Regular season weeks to process: {weeks}")
+    in_progress = (year == CURRENT_SEASON_YEAR)
+    weeks = determine_weeks_to_process(league, in_progress=in_progress)
+    season_kind = "in-progress, completed weeks only" if in_progress else "completed season"
+    print(f"[{year}] Weeks to process ({season_kind}): {weeks or 'none yet'}")
 
     par_by_id_by_week = {}
     starters_by_week = {}
@@ -364,16 +381,21 @@ def write_war_output(year: int, board: list, war_by_id: dict) -> None:
     print(f"[{year}] Saved -> {out_path} ({len(rows)} players)")
 
 
-def run_year(year: int, force_refresh_draft: bool = False) -> None:
+def run_year(year: int, force_refresh_draft: bool = False, league=None) -> None:
+    """
+    league: optional already-authenticated league for `year` (e.g.
+    RunWeekly's `lg` for 2026). If omitted, authenticates fresh.
+    """
     print(f"\n{'=' * 72}\n{year} SEASON\n{'=' * 72}")
-    league = get_league(year)
+    if league is None:
+        league = get_league(year)
     board = load_draft_board(league, year, force_refresh=force_refresh_draft)
     war_by_id, weeks_used, position_averages = calculate_war_for_year(league, year, board)
     write_war_output(year, board, war_by_id)
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Backfill historical WAR for past seasons.")
+    parser = argparse.ArgumentParser(description="Backfill/refresh WAR datasets for past or current seasons.")
     parser.add_argument("--years", type=int, nargs="+", default=DEFAULT_YEARS,
                          help=f"Seasons to process (default: {DEFAULT_YEARS})")
     parser.add_argument("--force-refresh-draft", action="store_true",
