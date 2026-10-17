@@ -521,6 +521,7 @@ def run_draft_value(league=None, output_directory=DEFAULT_IMAGE_DIR) -> None:
             "expected_war_full_season": expected_full,
             "expected_war_prorated": expected_prorated,
             "weeks_completed": weeks_completed,
+            "bye_week": p.get("bye_week"),
             "full_season_weeks": full_season_weeks,
             # kept as "expected_war"/"surplus_war" too (prorated basis)
             # so this file's shape matches the historical draft_value_

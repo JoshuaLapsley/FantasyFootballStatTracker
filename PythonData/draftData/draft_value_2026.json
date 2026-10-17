@@ -6,13 +6,14 @@
     "player_name": "Jahmyr Gibbs",
     "position": "RB",
     "drafted_by": "Ma\u00eetre Stick",
-    "actual_war": 1.4818385399639589,
+    "actual_war": 1.481838539963959,
     "expected_war_full_season": 1.6675132784660955,
     "expected_war_prorated": 0.5955404565950342,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.5955404565950342,
-    "surplus_war": 0.8862980833689247
+    "surplus_war": 0.8862980833689249
   },
   {
     "pick": 2,
@@ -21,13 +22,14 @@
     "player_name": "Bijan Robinson",
     "position": "RB",
     "drafted_by": "Omaha Beach Real Estate",
-    "actual_war": 1.1283180414491434,
+    "actual_war": 1.1283180414491436,
     "expected_war_full_season": 1.6675132784660955,
     "expected_war_prorated": 0.5955404565950342,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.5955404565950342,
-    "surplus_war": 0.5327775848541092
+    "surplus_war": 0.5327775848541094
   },
   {
     "pick": 3,
@@ -36,13 +38,14 @@
     "player_name": "Ja'Marr Chase",
     "position": "WR",
     "drafted_by": "Girder\u2019s 6 Cookies",
-    "actual_war": 0.537464021800874,
+    "actual_war": 0.5374640218008742,
     "expected_war_full_season": 1.6675132784660955,
     "expected_war_prorated": 0.5955404565950342,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.5955404565950342,
-    "surplus_war": -0.05807643479416014
+    "surplus_war": -0.058076434794160026
   },
   {
     "pick": 4,
@@ -51,13 +54,14 @@
     "player_name": "Puka Nacua",
     "position": "WR",
     "drafted_by": "Flow Brrr",
-    "actual_war": 0.6578982605702599,
+    "actual_war": 0.6578982605702601,
     "expected_war_full_season": 1.609942007218712,
     "expected_war_prorated": 0.5749792882923972,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.5749792882923972,
-    "surplus_war": 0.08291897227786271
+    "surplus_war": 0.08291897227786293
   },
   {
     "pick": 5,
@@ -66,13 +70,14 @@
     "player_name": "Jaxon Smith-Njigba",
     "position": "WR",
     "drafted_by": "No Punts Intented",
-    "actual_war": 1.200759914895792,
+    "actual_war": 1.2007599148957921,
     "expected_war_full_season": 1.609942007218712,
     "expected_war_prorated": 0.5749792882923972,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.5749792882923972,
-    "surplus_war": 0.6257806266033947
+    "surplus_war": 0.625780626603395
   },
   {
     "pick": 6,
@@ -85,6 +90,7 @@
     "expected_war_full_season": 1.4795642655800993,
     "expected_war_prorated": 0.5284158091357498,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.5284158091357498,
     "surplus_war": 0.2648537931917586
@@ -100,6 +106,7 @@
     "expected_war_full_season": 1.4795642655800993,
     "expected_war_prorated": 0.5284158091357498,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.5284158091357498,
     "surplus_war": 0.28363430058783035
@@ -111,13 +118,14 @@
     "player_name": "Jonathan Taylor",
     "position": "RB",
     "drafted_by": "Supernova\u2019s Studs",
-    "actual_war": 0.8601066994162708,
+    "actual_war": 0.8601066994162709,
     "expected_war_full_season": 1.4795642655800993,
     "expected_war_prorated": 0.5284158091357498,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.5284158091357498,
-    "surplus_war": 0.331690890280521
+    "surplus_war": 0.3316908902805211
   },
   {
     "pick": 9,
@@ -126,13 +134,14 @@
     "player_name": "CeeDee Lamb",
     "position": "WR",
     "drafted_by": "Big Bad Hokkkk",
-    "actual_war": 0.9170169375334951,
+    "actual_war": 0.9170169375334953,
     "expected_war_full_season": 1.4795642655800993,
     "expected_war_prorated": 0.5284158091357498,
     "weeks_completed": 5,
+    "bye_week": 14,
     "full_season_weeks": 14,
     "expected_war": 0.5284158091357498,
-    "surplus_war": 0.3886011283977453
+    "surplus_war": 0.3886011283977455
   },
   {
     "pick": 10,
@@ -141,13 +150,14 @@
     "player_name": "James Cook III",
     "position": "RB",
     "drafted_by": "Ozzy Stick",
-    "actual_war": 0.7691431880211552,
+    "actual_war": 0.7691431880211553,
     "expected_war_full_season": 1.4795642655800993,
     "expected_war_prorated": 0.5284158091357498,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.5284158091357498,
-    "surplus_war": 0.2407273788854054
+    "surplus_war": 0.24072737888540552
   },
   {
     "pick": 11,
@@ -156,13 +166,14 @@
     "player_name": "Ashton Jeanty",
     "position": "RB",
     "drafted_by": "Revy\u2019s Konstruction",
-    "actual_war": 0.7031659771892179,
+    "actual_war": 0.7031659771892182,
     "expected_war_full_season": 1.4795642655800993,
     "expected_war_prorated": 0.5284158091357498,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.5284158091357498,
-    "surplus_war": 0.1747501680534681
+    "surplus_war": 0.17475016805346844
   },
   {
     "pick": 12,
@@ -171,13 +182,14 @@
     "player_name": "Saquon Barkley",
     "position": "RB",
     "drafted_by": "The Sage's Playmakers",
-    "actual_war": 0.03697618016245274,
+    "actual_war": 0.036976180162452854,
     "expected_war_full_season": 1.4795642655800993,
     "expected_war_prorated": 0.5284158091357498,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.5284158091357498,
-    "surplus_war": -0.49143962897329707
+    "surplus_war": -0.49143962897329696
   },
   {
     "pick": 13,
@@ -186,13 +198,14 @@
     "player_name": "Justin Jefferson",
     "position": "WR",
     "drafted_by": "Tsuga\u2019s Tuck Shop",
-    "actual_war": 0.4218426980356259,
+    "actual_war": 0.4218426980356261,
     "expected_war_full_season": 1.468218288108358,
     "expected_war_prorated": 0.5243636743244137,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.5243636743244137,
-    "surplus_war": -0.10252097628878776
+    "surplus_war": -0.10252097628878759
   },
   {
     "pick": 14,
@@ -201,13 +214,14 @@
     "player_name": "Chase Brown",
     "position": "RB",
     "drafted_by": "Pad D's",
-    "actual_war": 0.47737710202817263,
+    "actual_war": 0.47737710202817285,
     "expected_war_full_season": 1.468218288108358,
     "expected_war_prorated": 0.5243636743244137,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.5243636743244137,
-    "surplus_war": -0.046986572296241036
+    "surplus_war": -0.046986572296240814
   },
   {
     "pick": 15,
@@ -216,13 +230,14 @@
     "player_name": "Drake London",
     "position": "WR",
     "drafted_by": "Pad D's",
-    "actual_war": 0.49137737410763127,
+    "actual_war": 0.4913773741076315,
     "expected_war_full_season": 1.468218288108358,
     "expected_war_prorated": 0.5243636743244137,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.5243636743244137,
-    "surplus_war": -0.032986300216782394
+    "surplus_war": -0.03298630021678217
   },
   {
     "pick": 16,
@@ -231,13 +246,14 @@
     "player_name": "Omarion Hampton",
     "position": "RB",
     "drafted_by": "Tsuga\u2019s Tuck Shop",
-    "actual_war": 0.2933680272223499,
+    "actual_war": 0.29336802722235,
     "expected_war_full_season": 1.468218288108358,
     "expected_war_prorated": 0.5243636743244137,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.5243636743244137,
-    "surplus_war": -0.23099564710206377
+    "surplus_war": -0.23099564710206366
   },
   {
     "pick": 17,
@@ -246,13 +262,14 @@
     "player_name": "De'Von Achane",
     "position": "RB",
     "drafted_by": "The Sage's Playmakers",
-    "actual_war": 0.11548200364334188,
+    "actual_war": 0.11548200364334194,
     "expected_war_full_season": 1.468218288108358,
     "expected_war_prorated": 0.5243636743244137,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.5243636743244137,
-    "surplus_war": -0.4088816706810718
+    "surplus_war": -0.40888167068107173
   },
   {
     "pick": 18,
@@ -265,6 +282,7 @@
     "expected_war_full_season": 1.468218288108358,
     "expected_war_prorated": 0.5243636743244137,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.5243636743244137,
     "surplus_war": -0.03180807663589219
@@ -276,13 +294,14 @@
     "player_name": "Kenneth Walker III",
     "position": "RB",
     "drafted_by": "Ozzy Stick",
-    "actual_war": 1.0611572609659132,
+    "actual_war": 1.0611572609659135,
     "expected_war_full_season": 1.468218288108358,
     "expected_war_prorated": 0.5243636743244137,
     "weeks_completed": 5,
+    "bye_week": 5,
     "full_season_weeks": 14,
     "expected_war": 0.5243636743244137,
-    "surplus_war": 0.5367935866414996
+    "surplus_war": 0.5367935866414998
   },
   {
     "pick": 20,
@@ -291,10 +310,11 @@
     "player_name": "A.J. Brown",
     "position": "WR",
     "drafted_by": "Big Bad Hokkkk",
-    "actual_war": -0.016503931915893,
+    "actual_war": -0.016503931915892944,
     "expected_war_full_season": 1.468218288108358,
     "expected_war_prorated": 0.5243636743244137,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.5243636743244137,
     "surplus_war": -0.5408676062403066
@@ -310,6 +330,7 @@
     "expected_war_full_season": 1.0666954889966307,
     "expected_war_prorated": 0.38096267464165384,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.38096267464165384,
     "surplus_war": 0.2507280784217521
@@ -321,13 +342,14 @@
     "player_name": "Derrick Henry",
     "position": "RB",
     "drafted_by": "Hunter\u2019s Hunters",
-    "actual_war": 1.0259091170233983,
+    "actual_war": 1.0259091170233985,
     "expected_war_full_season": 1.0666954889966307,
     "expected_war_prorated": 0.38096267464165384,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.38096267464165384,
-    "surplus_war": 0.6449464423817444
+    "surplus_war": 0.6449464423817446
   },
   {
     "pick": 23,
@@ -336,13 +358,14 @@
     "player_name": "George Pickens",
     "position": "WR",
     "drafted_by": "You gotta be Falcon kiddin me",
-    "actual_war": 0.3987270795979118,
+    "actual_war": 0.3987270795979119,
     "expected_war_full_season": 1.0666954889966307,
     "expected_war_prorated": 0.38096267464165384,
     "weeks_completed": 5,
+    "bye_week": 14,
     "full_season_weeks": 14,
     "expected_war": 0.38096267464165384,
-    "surplus_war": 0.017764404956257973
+    "surplus_war": 0.017764404956258084
   },
   {
     "pick": 24,
@@ -355,6 +378,7 @@
     "expected_war_full_season": 1.0666954889966307,
     "expected_war_prorated": 0.38096267464165384,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.38096267464165384,
     "surplus_war": 0.4598493029618123
@@ -370,6 +394,7 @@
     "expected_war_full_season": 0.9982537587506822,
     "expected_war_prorated": 0.3565191995538151,
     "weeks_completed": 5,
+    "bye_week": 14,
     "full_season_weeks": 14,
     "expected_war": 0.3565191995538151,
     "surplus_war": 0.37149715550511403
@@ -381,13 +406,14 @@
     "player_name": "Breece Hall",
     "position": "RB",
     "drafted_by": "Girder\u2019s 6 Cookies",
-    "actual_war": 0.32842706347219036,
+    "actual_war": 0.3284270634721905,
     "expected_war_full_season": 0.9982537587506822,
     "expected_war_prorated": 0.3565191995538151,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.3565191995538151,
-    "surplus_war": -0.028092136081624752
+    "surplus_war": -0.02809213608162464
   },
   {
     "pick": 27,
@@ -396,13 +422,14 @@
     "player_name": "Kyren Williams",
     "position": "RB",
     "drafted_by": "Omaha Beach Real Estate",
-    "actual_war": 0.992734807545955,
+    "actual_war": 0.9927348075459553,
     "expected_war_full_season": 0.9982537587506822,
     "expected_war_prorated": 0.3565191995538151,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.3565191995538151,
-    "surplus_war": 0.6362156079921399
+    "surplus_war": 0.6362156079921402
   },
   {
     "pick": 28,
@@ -411,13 +438,14 @@
     "player_name": "Chris Olave",
     "position": "WR",
     "drafted_by": "Ma\u00eetre Stick",
-    "actual_war": 0.7612639883196796,
+    "actual_war": 0.7612639883196799,
     "expected_war_full_season": 0.9982537587506822,
     "expected_war_prorated": 0.3565191995538151,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.3565191995538151,
-    "surplus_war": 0.40474478876586445
+    "surplus_war": 0.4047447887658648
   },
   {
     "pick": 29,
@@ -426,13 +454,14 @@
     "player_name": "Rashee Rice",
     "position": "WR",
     "drafted_by": "Ma\u00eetre Stick",
-    "actual_war": 0.1236187023817964,
+    "actual_war": 0.12361870238179656,
     "expected_war_full_season": 0.9982537587506822,
     "expected_war_prorated": 0.3565191995538151,
     "weeks_completed": 5,
+    "bye_week": 5,
     "full_season_weeks": 14,
     "expected_war": 0.3565191995538151,
-    "surplus_war": -0.23290049717201872
+    "surplus_war": -0.23290049717201855
   },
   {
     "pick": 30,
@@ -441,13 +470,14 @@
     "player_name": "Malik Nabers",
     "position": "WR",
     "drafted_by": "Omaha Beach Real Estate",
-    "actual_war": 0.46440554040734844,
+    "actual_war": 0.46440554040734855,
     "expected_war_full_season": 0.9982537587506822,
     "expected_war_prorated": 0.3565191995538151,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.3565191995538151,
-    "surplus_war": 0.10788634085353332
+    "surplus_war": 0.10788634085353344
   },
   {
     "pick": 31,
@@ -456,13 +486,14 @@
     "player_name": "Jeremiyah Love",
     "position": "RB",
     "drafted_by": "Girder\u2019s 6 Cookies",
-    "actual_war": 0.31239890476415755,
+    "actual_war": 0.3123989047641579,
     "expected_war_full_season": 0.9982537587506822,
     "expected_war_prorated": 0.3565191995538151,
     "weeks_completed": 5,
+    "bye_week": 14,
     "full_season_weeks": 14,
     "expected_war": 0.3565191995538151,
-    "surplus_war": -0.044120294789657566
+    "surplus_war": -0.04412029478965723
   },
   {
     "pick": 32,
@@ -471,13 +502,14 @@
     "player_name": "DeVonta Smith",
     "position": "WR",
     "drafted_by": "Flow Brrr",
-    "actual_war": 0.3266964120052041,
+    "actual_war": 0.3266964120052043,
     "expected_war_full_season": 0.9982537587506822,
     "expected_war_prorated": 0.3565191995538151,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.3565191995538151,
-    "surplus_war": -0.029822787548611007
+    "surplus_war": -0.02982278754861084
   },
   {
     "pick": 33,
@@ -486,13 +518,14 @@
     "player_name": "Colston Loveland",
     "position": "TE",
     "drafted_by": "No Punts Intented",
-    "actual_war": -0.06842372835402344,
+    "actual_war": -0.0684237283540235,
     "expected_war_full_season": 0.9982537587506822,
     "expected_war_prorated": 0.3565191995538151,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.3565191995538151,
-    "surplus_war": -0.42494292790783855
+    "surplus_war": -0.4249429279078386
   },
   {
     "pick": 34,
@@ -501,13 +534,14 @@
     "player_name": "Emeka Egbuka",
     "position": "WR",
     "drafted_by": "You gotta be Falcon kiddin me",
-    "actual_war": 0.2207958069869042,
+    "actual_war": 0.22079580698690437,
     "expected_war_full_season": 0.9982537587506822,
     "expected_war_prorated": 0.3565191995538151,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.3565191995538151,
-    "surplus_war": -0.1357233925669109
+    "surplus_war": -0.13572339256691074
   },
   {
     "pick": 35,
@@ -516,13 +550,14 @@
     "player_name": "Tee Higgins",
     "position": "WR",
     "drafted_by": "Hunter\u2019s Hunters",
-    "actual_war": 0.48231612000259066,
+    "actual_war": 0.48231612000259094,
     "expected_war_full_season": 0.9573077304268027,
     "expected_war_prorated": 0.3418956180095724,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.3418956180095724,
-    "surplus_war": 0.14042050199301825
+    "surplus_war": 0.14042050199301853
   },
   {
     "pick": 36,
@@ -531,10 +566,11 @@
     "player_name": "Javonte Williams",
     "position": "RB",
     "drafted_by": "Supernova\u2019s Studs",
-    "actual_war": 0.8419959090355532,
+    "actual_war": 0.8419959090355533,
     "expected_war_full_season": 0.9573077304268027,
     "expected_war_prorated": 0.3418956180095724,
     "weeks_completed": 5,
+    "bye_week": 14,
     "full_season_weeks": 14,
     "expected_war": 0.3418956180095724,
     "surplus_war": 0.5001002910259809
@@ -546,13 +582,14 @@
     "player_name": "Zay Flowers",
     "position": "WR",
     "drafted_by": "Big Bad Hokkkk",
-    "actual_war": 0.6426288679546195,
+    "actual_war": 0.6426288679546197,
     "expected_war_full_season": 0.9573077304268027,
     "expected_war_prorated": 0.3418956180095724,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.3418956180095724,
-    "surplus_war": 0.3007332499450471
+    "surplus_war": 0.3007332499450473
   },
   {
     "pick": 38,
@@ -561,13 +598,14 @@
     "player_name": "Tetairoa McMillan",
     "position": "WR",
     "drafted_by": "Ozzy Stick",
-    "actual_war": 0.5125277507639668,
+    "actual_war": 0.512527750763967,
     "expected_war_full_season": 0.9573077304268027,
     "expected_war_prorated": 0.3418956180095724,
     "weeks_completed": 5,
+    "bye_week": 5,
     "full_season_weeks": 14,
     "expected_war": 0.3418956180095724,
-    "surplus_war": 0.17063213275439443
+    "surplus_war": 0.17063213275439454
   },
   {
     "pick": 39,
@@ -576,13 +614,14 @@
     "player_name": "Garrett Wilson",
     "position": "WR",
     "drafted_by": "Revy\u2019s Konstruction",
-    "actual_war": 0.6148605539849324,
+    "actual_war": 0.6148605539849326,
     "expected_war_full_season": 0.8521036854957311,
     "expected_war_prorated": 0.30432274481990396,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.30432274481990396,
-    "surplus_war": 0.3105378091650285
+    "surplus_war": 0.3105378091650286
   },
   {
     "pick": 40,
@@ -595,6 +634,7 @@
     "expected_war_full_season": 0.8521036854957311,
     "expected_war_prorated": 0.30432274481990396,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.30432274481990396,
     "surplus_war": -0.30432274481990396
@@ -606,13 +646,14 @@
     "player_name": "Cam Skattebo",
     "position": "RB",
     "drafted_by": "Tsuga\u2019s Tuck Shop",
-    "actual_war": 0.3122639722912977,
+    "actual_war": 0.31226397229129793,
     "expected_war_full_season": 0.8521036854957311,
     "expected_war_prorated": 0.30432274481990396,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.30432274481990396,
-    "surplus_war": 0.007941227471393753
+    "surplus_war": 0.007941227471393975
   },
   {
     "pick": 42,
@@ -621,13 +662,14 @@
     "player_name": "Lamar Jackson",
     "position": "QB",
     "drafted_by": "Pad D's",
-    "actual_war": 0.24229667283970857,
+    "actual_war": 0.24229667283970863,
     "expected_war_full_season": 0.8521036854957311,
     "expected_war_prorated": 0.30432274481990396,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.30432274481990396,
-    "surplus_war": -0.062026071980195385
+    "surplus_war": -0.06202607198019533
   },
   {
     "pick": 43,
@@ -636,13 +678,14 @@
     "player_name": "Terry McLaurin",
     "position": "WR",
     "drafted_by": "Pad D's",
-    "actual_war": 0.1730787704938755,
+    "actual_war": 0.17307877049387566,
     "expected_war_full_season": 0.8521036854957311,
     "expected_war_prorated": 0.30432274481990396,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.30432274481990396,
-    "surplus_war": -0.13124397432602847
+    "surplus_war": -0.1312439743260283
   },
   {
     "pick": 44,
@@ -651,13 +694,14 @@
     "player_name": "Ladd McConkey",
     "position": "WR",
     "drafted_by": "Tsuga\u2019s Tuck Shop",
-    "actual_war": 0.10346127864657734,
+    "actual_war": 0.10346127864657739,
     "expected_war_full_season": 0.8521036854957311,
     "expected_war_prorated": 0.30432274481990396,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.30432274481990396,
-    "surplus_war": -0.20086146617332662
+    "surplus_war": -0.20086146617332656
   },
   {
     "pick": 45,
@@ -666,13 +710,14 @@
     "player_name": "Jaylen Waddle",
     "position": "WR",
     "drafted_by": "The Sage's Playmakers",
-    "actual_war": 0.16781087451473625,
+    "actual_war": 0.16781087451473653,
     "expected_war_full_season": 0.8521036854957311,
     "expected_war_prorated": 0.30432274481990396,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.30432274481990396,
-    "surplus_war": -0.1365118703051677
+    "surplus_war": -0.13651187030516743
   },
   {
     "pick": 46,
@@ -681,13 +726,14 @@
     "player_name": "Travis Etienne Jr.",
     "position": "RB",
     "drafted_by": "Revy\u2019s Konstruction",
-    "actual_war": 0.18890855109323357,
+    "actual_war": 0.18890855109323368,
     "expected_war_full_season": 0.8521036854957311,
     "expected_war_prorated": 0.30432274481990396,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.30432274481990396,
-    "surplus_war": -0.11541419372667039
+    "surplus_war": -0.11541419372667028
   },
   {
     "pick": 47,
@@ -696,13 +742,14 @@
     "player_name": "D'Andre Swift",
     "position": "RB",
     "drafted_by": "Ozzy Stick",
-    "actual_war": 0.6582510852768415,
+    "actual_war": 0.6582510852768417,
     "expected_war_full_season": 0.8521036854957311,
     "expected_war_prorated": 0.30432274481990396,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.30432274481990396,
-    "surplus_war": 0.35392834045693755
+    "surplus_war": 0.3539283404569378
   },
   {
     "pick": 48,
@@ -711,13 +758,14 @@
     "player_name": "Quinshon Judkins",
     "position": "RB",
     "drafted_by": "Big Bad Hokkkk",
-    "actual_war": 0.3721802208576943,
+    "actual_war": 0.3721802208576944,
     "expected_war_full_season": 0.8521036854957311,
     "expected_war_prorated": 0.30432274481990396,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.30432274481990396,
-    "surplus_war": 0.06785747603779035
+    "surplus_war": 0.06785747603779047
   },
   {
     "pick": 49,
@@ -726,13 +774,14 @@
     "player_name": "Davante Adams",
     "position": "WR",
     "drafted_by": "Supernova\u2019s Studs",
-    "actual_war": 0.6960640826458779,
+    "actual_war": 0.6960640826458782,
     "expected_war_full_season": 0.8521036854957311,
     "expected_war_prorated": 0.30432274481990396,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.30432274481990396,
-    "surplus_war": 0.391741337825974
+    "surplus_war": 0.3917413378259742
   },
   {
     "pick": 50,
@@ -741,13 +790,14 @@
     "player_name": "David Montgomery",
     "position": "RB",
     "drafted_by": "Hunter\u2019s Hunters",
-    "actual_war": 0.24389357068020423,
+    "actual_war": 0.2438935706802045,
     "expected_war_full_season": 0.8521036854957311,
     "expected_war_prorated": 0.30432274481990396,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.30432274481990396,
-    "surplus_war": -0.060429174139699726
+    "surplus_war": -0.06042917413969945
   },
   {
     "pick": 51,
@@ -756,13 +806,14 @@
     "player_name": "Bucky Irving",
     "position": "RB",
     "drafted_by": "You gotta be Falcon kiddin me",
-    "actual_war": 0.6348031338174802,
+    "actual_war": 0.6348031338174804,
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
-    "surplus_war": 0.3573190382328209
+    "surplus_war": 0.35731903823282113
   },
   {
     "pick": 52,
@@ -771,13 +822,14 @@
     "player_name": "Christian Watson",
     "position": "WR",
     "drafted_by": "No Punts Intented",
-    "actual_war": 0.8741370678993583,
+    "actual_war": 0.8741370678993586,
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
-    "surplus_war": 0.5966529723146989
+    "surplus_war": 0.5966529723146994
   },
   {
     "pick": 53,
@@ -786,13 +838,14 @@
     "player_name": "Bhayshul Tuten",
     "position": "RB",
     "drafted_by": "Flow Brrr",
-    "actual_war": 0.4611131570663245,
+    "actual_war": 0.4611131570663248,
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
-    "surplus_war": 0.1836290614816652
+    "surplus_war": 0.18362906148166547
   },
   {
     "pick": 54,
@@ -801,13 +854,14 @@
     "player_name": "Tyler Warren",
     "position": "TE",
     "drafted_by": "Girder\u2019s 6 Cookies",
-    "actual_war": 0.47966188687669203,
+    "actual_war": 0.4796618868766917,
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
-    "surplus_war": 0.20217779129203273
+    "surplus_war": 0.2021777912920324
   },
   {
     "pick": 55,
@@ -816,13 +870,14 @@
     "player_name": "Jameson Williams",
     "position": "WR",
     "drafted_by": "Omaha Beach Real Estate",
-    "actual_war": 0.27205323916087276,
+    "actual_war": 0.272053239160873,
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
-    "surplus_war": -0.005430856423786545
+    "surplus_war": -0.005430856423786323
   },
   {
     "pick": 56,
@@ -831,13 +886,14 @@
     "player_name": "TreVeyon Henderson",
     "position": "RB",
     "drafted_by": "Ma\u00eetre Stick",
-    "actual_war": 0.07827653162829556,
+    "actual_war": 0.07827653162829562,
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
-    "surplus_war": -0.19920756395636374
+    "surplus_war": -0.1992075639563637
   },
   {
     "pick": 57,
@@ -846,13 +902,14 @@
     "player_name": "DJ Moore",
     "position": "WR",
     "drafted_by": "Ma\u00eetre Stick",
-    "actual_war": 0.10493514273577575,
+    "actual_war": 0.10493514273577587,
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
-    "surplus_war": -0.17254895284888355
+    "surplus_war": -0.17254895284888344
   },
   {
     "pick": 58,
@@ -865,6 +922,7 @@
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
     "surplus_war": -0.043876941027778116
@@ -876,13 +934,14 @@
     "player_name": "Jalen Hurts",
     "position": "QB",
     "drafted_by": "Girder\u2019s 6 Cookies",
-    "actual_war": 0.09715921126502108,
+    "actual_war": 0.09715921126502103,
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
-    "surplus_war": -0.18032488431963822
+    "surplus_war": -0.18032488431963828
   },
   {
     "pick": 60,
@@ -891,13 +950,14 @@
     "player_name": "Joe Burrow",
     "position": "QB",
     "drafted_by": "Flow Brrr",
-    "actual_war": 0.3525978999863014,
+    "actual_war": 0.3525978999863015,
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
-    "surplus_war": 0.07511380440164211
+    "surplus_war": 0.07511380440164217
   },
   {
     "pick": 61,
@@ -906,13 +966,14 @@
     "player_name": "Jadarian Price",
     "position": "RB",
     "drafted_by": "No Punts Intented",
-    "actual_war": -0.010446545332831625,
+    "actual_war": -0.010446545332831514,
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
-    "surplus_war": -0.28793064091749093
+    "surplus_war": -0.2879306409174908
   },
   {
     "pick": 62,
@@ -921,13 +982,14 @@
     "player_name": "Luther Burden III",
     "position": "WR",
     "drafted_by": "You gotta be Falcon kiddin me",
-    "actual_war": 0.24967506415889595,
+    "actual_war": 0.24967506415889618,
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
-    "surplus_war": -0.027809031425763353
+    "surplus_war": -0.02780903142576313
   },
   {
     "pick": 63,
@@ -936,13 +998,14 @@
     "player_name": "Drake Maye",
     "position": "QB",
     "drafted_by": "Hunter\u2019s Hunters",
-    "actual_war": 0.22263134645595273,
+    "actual_war": 0.22263134645595284,
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
-    "surplus_war": -0.05485274912870658
+    "surplus_war": -0.05485274912870647
   },
   {
     "pick": 64,
@@ -951,13 +1014,14 @@
     "player_name": "Rome Odunze",
     "position": "WR",
     "drafted_by": "Supernova\u2019s Studs",
-    "actual_war": 0.08823282472330629,
+    "actual_war": 0.08823282472330657,
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
-    "surplus_war": -0.18925127086135302
+    "surplus_war": -0.18925127086135274
   },
   {
     "pick": 65,
@@ -966,13 +1030,14 @@
     "player_name": "Chuba Hubbard",
     "position": "RB",
     "drafted_by": "Big Bad Hokkkk",
-    "actual_war": 0.7039432927668888,
+    "actual_war": 0.7039432927668889,
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 5,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
-    "surplus_war": 0.4264591971822295
+    "surplus_war": 0.42645919718222963
   },
   {
     "pick": 66,
@@ -981,13 +1046,14 @@
     "player_name": "Parker Washington",
     "position": "WR",
     "drafted_by": "Ozzy Stick",
-    "actual_war": 0.5546379116731242,
+    "actual_war": 0.5546379116731245,
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
-    "surplus_war": 0.27715381608846484
+    "surplus_war": 0.2771538160884652
   },
   {
     "pick": 67,
@@ -1000,6 +1066,7 @@
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
     "surplus_war": -0.017228423203325516
@@ -1011,13 +1078,14 @@
     "player_name": "Carnell Tate",
     "position": "WR",
     "drafted_by": "The Sage's Playmakers",
-    "actual_war": 0.1632317735576705,
+    "actual_war": 0.16323177355767055,
     "expected_war_full_season": 0.776955467637046,
     "expected_war_prorated": 0.2774840955846593,
     "weeks_completed": 5,
+    "bye_week": 9,
     "full_season_weeks": 14,
     "expected_war": 0.2774840955846593,
-    "surplus_war": -0.11425232202698882
+    "surplus_war": -0.11425232202698876
   },
   {
     "pick": 69,
@@ -1026,13 +1094,14 @@
     "player_name": "Mike Evans",
     "position": "WR",
     "drafted_by": "Tsuga\u2019s Tuck Shop",
-    "actual_war": 0.4974206925527205,
+    "actual_war": 0.49742069255272076,
     "expected_war_full_season": 0.6692980347739531,
     "expected_war_prorated": 0.23903501241926897,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.23903501241926897,
-    "surplus_war": 0.25838568013345153
+    "surplus_war": 0.25838568013345176
   },
   {
     "pick": 70,
@@ -1041,13 +1110,14 @@
     "player_name": "Jaylen Warren",
     "position": "RB",
     "drafted_by": "Pad D's",
-    "actual_war": 0.7960311605989199,
+    "actual_war": 0.7960311605989201,
     "expected_war_full_season": 0.6692980347739531,
     "expected_war_prorated": 0.23903501241926897,
     "weeks_completed": 5,
+    "bye_week": 9,
     "full_season_weeks": 14,
     "expected_war": 0.23903501241926897,
-    "surplus_war": 0.5569961481796509
+    "surplus_war": 0.5569961481796512
   },
   {
     "pick": 71,
@@ -1060,6 +1130,7 @@
     "expected_war_full_season": 0.6692980347739531,
     "expected_war_prorated": 0.23903501241926897,
     "weeks_completed": 5,
+    "bye_week": 14,
     "full_season_weeks": 14,
     "expected_war": 0.23903501241926897,
     "surplus_war": -0.33693878975817937
@@ -1075,6 +1146,7 @@
     "expected_war_full_season": 0.6692980347739531,
     "expected_war_prorated": 0.23903501241926897,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.23903501241926897,
     "surplus_war": -0.23903501241926897
@@ -1086,13 +1158,14 @@
     "player_name": "Josh Downs",
     "position": "WR",
     "drafted_by": "The Sage's Playmakers",
-    "actual_war": 0.11976377174725833,
+    "actual_war": 0.1197637717472585,
     "expected_war_full_season": 0.6692980347739531,
     "expected_war_prorated": 0.23903501241926897,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.23903501241926897,
-    "surplus_war": -0.11927124067201064
+    "surplus_war": -0.11927124067201048
   },
   {
     "pick": 74,
@@ -1105,6 +1178,7 @@
     "expected_war_full_season": 0.6692980347739531,
     "expected_war_prorated": 0.23903501241926897,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.23903501241926897,
     "surplus_war": -0.3476480316053674
@@ -1116,13 +1190,14 @@
     "player_name": "Tucker Kraft",
     "position": "TE",
     "drafted_by": "Ozzy Stick",
-    "actual_war": 0.21368373356876885,
+    "actual_war": 0.21368373356876869,
     "expected_war_full_season": 0.6634097892225908,
     "expected_war_prorated": 0.2369320675794967,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.2369320675794967,
-    "surplus_war": -0.023248334010727845
+    "surplus_war": -0.02324833401072801
   },
   {
     "pick": 76,
@@ -1131,13 +1206,14 @@
     "player_name": "Tony Pollard",
     "position": "RB",
     "drafted_by": "Big Bad Hokkkk",
-    "actual_war": 0.22262159488665967,
+    "actual_war": 0.22262159488665995,
     "expected_war_full_season": 0.6634097892225908,
     "expected_war_prorated": 0.2369320675794967,
     "weeks_completed": 5,
+    "bye_week": 9,
     "full_season_weeks": 14,
     "expected_war": 0.2369320675794967,
-    "surplus_war": -0.014310472692837028
+    "surplus_war": -0.014310472692836751
   },
   {
     "pick": 77,
@@ -1146,13 +1222,14 @@
     "player_name": "Justin Herbert",
     "position": "QB",
     "drafted_by": "Supernova\u2019s Studs",
-    "actual_war": -0.17046184960493443,
+    "actual_war": -0.17046184960493438,
     "expected_war_full_season": 0.6634097892225908,
     "expected_war_prorated": 0.2369320675794967,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.2369320675794967,
-    "surplus_war": -0.40739391718443113
+    "surplus_war": -0.4073939171844311
   },
   {
     "pick": 78,
@@ -1161,13 +1238,14 @@
     "player_name": "Sam LaPorta",
     "position": "TE",
     "drafted_by": "Hunter\u2019s Hunters",
-    "actual_war": 0.5590611435500124,
+    "actual_war": 0.5590611435500121,
     "expected_war_full_season": 0.6634097892225908,
     "expected_war_prorated": 0.2369320675794967,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.2369320675794967,
-    "surplus_war": 0.32212907597051565
+    "surplus_war": 0.32212907597051543
   },
   {
     "pick": 79,
@@ -1176,13 +1254,14 @@
     "player_name": "Kyle Pitts Sr.",
     "position": "TE",
     "drafted_by": "You gotta be Falcon kiddin me",
-    "actual_war": -0.03303158336108192,
+    "actual_war": -0.03303158336108197,
     "expected_war_full_season": 0.6634097892225908,
     "expected_war_prorated": 0.2369320675794967,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.2369320675794967,
-    "surplus_war": -0.2699636509405786
+    "surplus_war": -0.26996365094057867
   },
   {
     "pick": 80,
@@ -1191,13 +1270,14 @@
     "player_name": "J.K. Dobbins",
     "position": "RB",
     "drafted_by": "No Punts Intented",
-    "actual_war": 0.13302311353725316,
+    "actual_war": 0.13302311353725355,
     "expected_war_full_season": 0.6634097892225908,
     "expected_war_prorated": 0.2369320675794967,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.2369320675794967,
-    "surplus_war": -0.10390895404224354
+    "surplus_war": -0.10390895404224315
   },
   {
     "pick": 81,
@@ -1206,13 +1286,14 @@
     "player_name": "Rhamondre Stevenson",
     "position": "RB",
     "drafted_by": "Flow Brrr",
-    "actual_war": 0.4287102792307023,
+    "actual_war": 0.42871027923070265,
     "expected_war_full_season": 0.6634097892225908,
     "expected_war_prorated": 0.2369320675794967,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.2369320675794967,
-    "surplus_war": 0.19177821165120562
+    "surplus_war": 0.19177821165120595
   },
   {
     "pick": 82,
@@ -1221,13 +1302,14 @@
     "player_name": "DK Metcalf",
     "position": "WR",
     "drafted_by": "Girder\u2019s 6 Cookies",
-    "actual_war": 0.16384079293399278,
+    "actual_war": 0.1638407929339929,
     "expected_war_full_season": 0.6634097892225908,
     "expected_war_prorated": 0.2369320675794967,
     "weeks_completed": 5,
+    "bye_week": 9,
     "full_season_weeks": 14,
     "expected_war": 0.2369320675794967,
-    "surplus_war": -0.07309127464550391
+    "surplus_war": -0.0730912746455038
   },
   {
     "pick": 83,
@@ -1236,13 +1318,14 @@
     "player_name": "Chris Godwin Jr.",
     "position": "WR",
     "drafted_by": "Omaha Beach Real Estate",
-    "actual_war": 0.04423661631154935,
+    "actual_war": 0.04423661631154946,
     "expected_war_full_season": 0.6634097892225908,
     "expected_war_prorated": 0.2369320675794967,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.2369320675794967,
-    "surplus_war": -0.19269545126794735
+    "surplus_war": -0.19269545126794724
   },
   {
     "pick": 84,
@@ -1255,6 +1338,7 @@
     "expected_war_full_season": 0.6634097892225908,
     "expected_war_prorated": 0.2369320675794967,
     "weeks_completed": 5,
+    "bye_week": 14,
     "full_season_weeks": 14,
     "expected_war": 0.2369320675794967,
     "surplus_war": 0.11141825101212971
@@ -1266,13 +1350,14 @@
     "player_name": "Blake Corum",
     "position": "RB",
     "drafted_by": "Ma\u00eetre Stick",
-    "actual_war": 0.1610643263749716,
+    "actual_war": 0.16106432637497176,
     "expected_war_full_season": 0.49719458615020024,
     "expected_war_prorated": 0.17756949505364295,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.17756949505364295,
-    "surplus_war": -0.016505168678671356
+    "surplus_war": -0.01650516867867119
   },
   {
     "pick": 86,
@@ -1281,13 +1366,14 @@
     "player_name": "Dalton Kincaid",
     "position": "TE",
     "drafted_by": "Omaha Beach Real Estate",
-    "actual_war": 0.23757231343038354,
+    "actual_war": 0.23757231343038332,
     "expected_war_full_season": 0.49719458615020024,
     "expected_war_prorated": 0.17756949505364295,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.17756949505364295,
-    "surplus_war": 0.060002818376740596
+    "surplus_war": 0.060002818376740374
   },
   {
     "pick": 87,
@@ -1296,13 +1382,14 @@
     "player_name": "Rico Dowdle",
     "position": "RB",
     "drafted_by": "Girder\u2019s 6 Cookies",
-    "actual_war": -0.05070174658882165,
+    "actual_war": -0.05070174658882154,
     "expected_war_full_season": 0.49719458615020024,
     "expected_war_prorated": 0.17756949505364295,
     "weeks_completed": 5,
+    "bye_week": 9,
     "full_season_weeks": 14,
     "expected_war": 0.17756949505364295,
-    "surplus_war": -0.2282712416424646
+    "surplus_war": -0.22827124164246448
   },
   {
     "pick": 88,
@@ -1311,13 +1398,14 @@
     "player_name": "Alec Pierce",
     "position": "WR",
     "drafted_by": "Flow Brrr",
-    "actual_war": -0.019908654883963206,
+    "actual_war": -0.01990865488396315,
     "expected_war_full_season": 0.49719458615020024,
     "expected_war_prorated": 0.17756949505364295,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.17756949505364295,
-    "surplus_war": -0.19747814993760615
+    "surplus_war": -0.1974781499376061
   },
   {
     "pick": 89,
@@ -1326,13 +1414,14 @@
     "player_name": "Quentin Johnston",
     "position": "WR",
     "drafted_by": "No Punts Intented",
-    "actual_war": -0.11566477654405305,
+    "actual_war": -0.11566477654405294,
     "expected_war_full_season": 0.49719458615020024,
     "expected_war_prorated": 0.17756949505364295,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.17756949505364295,
-    "surplus_war": -0.293234271597696
+    "surplus_war": -0.2932342715976959
   },
   {
     "pick": 90,
@@ -1341,13 +1430,14 @@
     "player_name": "Caleb Williams",
     "position": "QB",
     "drafted_by": "You gotta be Falcon kiddin me",
-    "actual_war": 0.18446539608377027,
+    "actual_war": 0.18446539608377033,
     "expected_war_full_season": 0.49719458615020024,
     "expected_war_prorated": 0.17756949505364295,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.17756949505364295,
-    "surplus_war": 0.006895901030127327
+    "surplus_war": 0.006895901030127383
   },
   {
     "pick": 91,
@@ -1356,13 +1446,14 @@
     "player_name": "Jonathon Brooks",
     "position": "RB",
     "drafted_by": "Hunter\u2019s Hunters",
-    "actual_war": -0.007445064515735511,
+    "actual_war": -0.0074450645157353446,
     "expected_war_full_season": 0.49719458615020024,
     "expected_war_prorated": 0.17756949505364295,
     "weeks_completed": 5,
+    "bye_week": 5,
     "full_season_weeks": 14,
     "expected_war": 0.17756949505364295,
-    "surplus_war": -0.18501455956937846
+    "surplus_war": -0.1850145595693783
   },
   {
     "pick": 92,
@@ -1371,13 +1462,14 @@
     "player_name": "Jordan Addison",
     "position": "WR",
     "drafted_by": "Supernova\u2019s Studs",
-    "actual_war": 0.06690193568873837,
+    "actual_war": 0.06690193568873853,
     "expected_war_full_season": 0.49719458615020024,
     "expected_war_prorated": 0.17756949505364295,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.17756949505364295,
-    "surplus_war": -0.11066755936490458
+    "surplus_war": -0.11066755936490441
   },
   {
     "pick": 93,
@@ -1386,13 +1478,14 @@
     "player_name": "Courtland Sutton",
     "position": "WR",
     "drafted_by": "Big Bad Hokkkk",
-    "actual_war": -0.08750975105858416,
+    "actual_war": -0.08750975105858394,
     "expected_war_full_season": 0.49719458615020024,
     "expected_war_prorated": 0.17756949505364295,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.17756949505364295,
-    "surplus_war": -0.2650792461122271
+    "surplus_war": -0.2650792461122269
   },
   {
     "pick": 94,
@@ -1401,13 +1494,14 @@
     "player_name": "Dak Prescott",
     "position": "QB",
     "drafted_by": "Ozzy Stick",
-    "actual_war": 0.2617972790464475,
+    "actual_war": 0.2617972790464477,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 14,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": 0.099540449666955
+    "surplus_war": 0.09954044966695516
   },
   {
     "pick": 95,
@@ -1416,13 +1510,14 @@
     "player_name": "Trevor Lawrence",
     "position": "QB",
     "drafted_by": "Revy\u2019s Konstruction",
-    "actual_war": 0.18198154745529155,
+    "actual_war": 0.1819815474552915,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": 0.019724718075799036
+    "surplus_war": 0.01972471807579898
   },
   {
     "pick": 96,
@@ -1431,13 +1526,14 @@
     "player_name": "Stefon Diggs",
     "position": "WR",
     "drafted_by": "The Sage's Playmakers",
-    "actual_war": 0.3001914010560152,
+    "actual_war": 0.3001914010560154,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": 0.1379345716765227
+    "surplus_war": 0.13793457167652287
   },
   {
     "pick": 97,
@@ -1446,13 +1542,14 @@
     "player_name": "Kenny Gainwell",
     "position": "RB",
     "drafted_by": "Tsuga\u2019s Tuck Shop",
-    "actual_war": 0.022764450461320862,
+    "actual_war": 0.02276445046132114,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": -0.13949237891817165
+    "surplus_war": -0.13949237891817137
   },
   {
     "pick": 98,
@@ -1461,13 +1558,14 @@
     "player_name": "Travis Kelce",
     "position": "TE",
     "drafted_by": "Pad D's",
-    "actual_war": 0.3414528315772604,
+    "actual_war": 0.3414528315772603,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 5,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": 0.1791960021977679
+    "surplus_war": 0.1791960021977678
   },
   {
     "pick": 99,
@@ -1476,13 +1574,14 @@
     "player_name": "RJ Harvey",
     "position": "RB",
     "drafted_by": "Pad D's",
-    "actual_war": 0.16984562203470033,
+    "actual_war": 0.16984562203470072,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": 0.0075887926552078155
+    "surplus_war": 0.007588792655208204
   },
   {
     "pick": 100,
@@ -1491,13 +1590,14 @@
     "player_name": "Rachaad White",
     "position": "RB",
     "drafted_by": "Tsuga\u2019s Tuck Shop",
-    "actual_war": 0.15693002474637524,
+    "actual_war": 0.1569300247463754,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": -0.005326804633117271
+    "surplus_war": -0.005326804633117105
   },
   {
     "pick": 101,
@@ -1510,6 +1610,7 @@
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 9,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
     "surplus_war": -0.3020124465622871
@@ -1521,13 +1622,14 @@
     "player_name": "Kyle Monangai",
     "position": "RB",
     "drafted_by": "Revy\u2019s Konstruction",
-    "actual_war": 0.46792224093896334,
+    "actual_war": 0.4679222409389635,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": 0.3056654115594708
+    "surplus_war": 0.305665411559471
   },
   {
     "pick": 103,
@@ -1536,13 +1638,14 @@
     "player_name": "Jayden Reed",
     "position": "WR",
     "drafted_by": "Ozzy Stick",
-    "actual_war": -0.08837881038325884,
+    "actual_war": -0.08837881038325873,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": -0.2506356397627514
+    "surplus_war": -0.25063563976275127
   },
   {
     "pick": 104,
@@ -1551,13 +1654,14 @@
     "player_name": "Jordan Mason",
     "position": "RB",
     "drafted_by": "Big Bad Hokkkk",
-    "actual_war": 0.08203018646152743,
+    "actual_war": 0.08203018646152749,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": -0.08022664291796508
+    "surplus_war": -0.08022664291796502
   },
   {
     "pick": 105,
@@ -1570,6 +1674,7 @@
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 14,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
     "surplus_war": -0.02876046228463927
@@ -1581,13 +1686,14 @@
     "player_name": "Makai Lemon",
     "position": "WR",
     "drafted_by": "Hunter\u2019s Hunters",
-    "actual_war": -0.11248023859803935,
+    "actual_war": -0.11248023859803907,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": -0.27473706797753183
+    "surplus_war": -0.2747370679775316
   },
   {
     "pick": 107,
@@ -1596,13 +1702,14 @@
     "player_name": "Jaxson Dart",
     "position": "QB",
     "drafted_by": "You gotta be Falcon kiddin me",
-    "actual_war": -0.02176873806480817,
+    "actual_war": -0.021768738064808224,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": -0.18402556744430068
+    "surplus_war": -0.18402556744430074
   },
   {
     "pick": 108,
@@ -1611,13 +1718,14 @@
     "player_name": "Aaron Jones Sr.",
     "position": "RB",
     "drafted_by": "No Punts Intented",
-    "actual_war": 0.5396506828646699,
+    "actual_war": 0.5396506828646701,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": 0.3773938534851774
+    "surplus_war": 0.3773938534851776
   },
   {
     "pick": 109,
@@ -1626,13 +1734,14 @@
     "player_name": "Jacory Croskey-Merritt",
     "position": "RB",
     "drafted_by": "Flow Brrr",
-    "actual_war": 0.23658402127069772,
+    "actual_war": 0.2365840212706979,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": 0.07432719189120521
+    "surplus_war": 0.07432719189120537
   },
   {
     "pick": 110,
@@ -1641,13 +1750,14 @@
     "player_name": "Matthew Golden",
     "position": "WR",
     "drafted_by": "Girder\u2019s 6 Cookies",
-    "actual_war": 0.5201992388265153,
+    "actual_war": 0.5201992388265155,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": 0.3579424094470228
+    "surplus_war": 0.35794240944702305
   },
   {
     "pick": 111,
@@ -1656,13 +1766,14 @@
     "player_name": "Rashid Shaheed",
     "position": "WR",
     "drafted_by": "Omaha Beach Real Estate",
-    "actual_war": -0.07621481963973398,
+    "actual_war": -0.07621481963973381,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": -0.2384716490192265
+    "surplus_war": -0.23847164901922632
   },
   {
     "pick": 112,
@@ -1671,13 +1782,14 @@
     "player_name": "Jakobi Meyers",
     "position": "WR",
     "drafted_by": "Ma\u00eetre Stick",
-    "actual_war": 0.15050886131131141,
+    "actual_war": 0.15050886131131158,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": -0.011747968068181097
+    "surplus_war": -0.01174796806818093
   },
   {
     "pick": 113,
@@ -1686,13 +1798,14 @@
     "player_name": "Woody Marks",
     "position": "RB",
     "drafted_by": "Ma\u00eetre Stick",
-    "actual_war": 0.2165302293118223,
+    "actual_war": 0.21653022931182248,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": 0.0542733999323298
+    "surplus_war": 0.05427339993232996
   },
   {
     "pick": 114,
@@ -1701,13 +1814,14 @@
     "player_name": "Tyrone Tracy Jr.",
     "position": "RB",
     "drafted_by": "Omaha Beach Real Estate",
-    "actual_war": -0.17315030557875416,
+    "actual_war": -0.17315030557875394,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": -0.3354071349582467
+    "surplus_war": -0.3354071349582465
   },
   {
     "pick": 115,
@@ -1716,13 +1830,14 @@
     "player_name": "Xavier Worthy",
     "position": "WR",
     "drafted_by": "Girder\u2019s 6 Cookies",
-    "actual_war": 0.06495048317795998,
+    "actual_war": 0.06495048317796015,
     "expected_war_full_season": 0.45431912226257903,
     "expected_war_prorated": 0.1622568293794925,
     "weeks_completed": 5,
+    "bye_week": 5,
     "full_season_weeks": 14,
     "expected_war": 0.1622568293794925,
-    "surplus_war": -0.09730634620153253
+    "surplus_war": -0.09730634620153236
   },
   {
     "pick": 116,
@@ -1731,13 +1846,14 @@
     "player_name": "Chris Rodriguez Jr.",
     "position": "RB",
     "drafted_by": "Flow Brrr",
-    "actual_war": 0.00228000634228831,
+    "actual_war": 0.002280006342288532,
     "expected_war_full_season": 0.42671736895016854,
     "expected_war_prorated": 0.15239906033934592,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.15239906033934592,
-    "surplus_war": -0.1501190539970576
+    "surplus_war": -0.15011905399705738
   },
   {
     "pick": 117,
@@ -1746,13 +1862,14 @@
     "player_name": "Wan'Dale Robinson",
     "position": "WR",
     "drafted_by": "No Punts Intented",
-    "actual_war": 0.20242283801136807,
+    "actual_war": 0.20242283801136823,
     "expected_war_full_season": 0.42671736895016854,
     "expected_war_prorated": 0.15239906033934592,
     "weeks_completed": 5,
+    "bye_week": 9,
     "full_season_weeks": 14,
     "expected_war": 0.15239906033934592,
-    "surplus_war": 0.05002377767202215
+    "surplus_war": 0.05002377767202232
   },
   {
     "pick": 118,
@@ -1761,13 +1878,14 @@
     "player_name": "Keaton Mitchell",
     "position": "RB",
     "drafted_by": "You gotta be Falcon kiddin me",
-    "actual_war": 0.1412333252354971,
+    "actual_war": 0.1412333252354973,
     "expected_war_full_season": 0.42671736895016854,
     "expected_war_prorated": 0.15239906033934592,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.15239906033934592,
-    "surplus_war": -0.011165735103848828
+    "surplus_war": -0.011165735103848606
   },
   {
     "pick": 119,
@@ -1780,6 +1898,7 @@
     "expected_war_full_season": 0.42671736895016854,
     "expected_war_prorated": 0.15239906033934592,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.15239906033934592,
     "surplus_war": 0.049948247896550224
@@ -1795,6 +1914,7 @@
     "expected_war_full_season": 0.42671736895016854,
     "expected_war_prorated": 0.15239906033934592,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.15239906033934592,
     "surplus_war": -0.043319203688732655
@@ -1810,6 +1930,7 @@
     "expected_war_full_season": 0.42671736895016854,
     "expected_war_prorated": 0.15239906033934592,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.15239906033934592,
     "surplus_war": -0.15239906033934592
@@ -1821,13 +1942,14 @@
     "player_name": "Romeo Doubs",
     "position": "WR",
     "drafted_by": "Ozzy Stick",
-    "actual_war": 0.14716045827277485,
+    "actual_war": 0.14716045827277507,
     "expected_war_full_season": 0.42671736895016854,
     "expected_war_prorated": 0.15239906033934592,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.15239906033934592,
-    "surplus_war": -0.005238602066571063
+    "surplus_war": -0.005238602066570841
   },
   {
     "pick": 123,
@@ -1836,13 +1958,14 @@
     "player_name": "Tyler Allgeier",
     "position": "RB",
     "drafted_by": "Revy\u2019s Konstruction",
-    "actual_war": 0.11125083471452207,
+    "actual_war": 0.11125083471452224,
     "expected_war_full_season": 0.3573006314315445,
     "expected_war_prorated": 0.12760736836840875,
     "weeks_completed": 5,
+    "bye_week": 14,
     "full_season_weeks": 14,
     "expected_war": 0.12760736836840875,
-    "surplus_war": -0.016356533653886673
+    "surplus_war": -0.016356533653886507
   },
   {
     "pick": 124,
@@ -1851,13 +1974,14 @@
     "player_name": "Jalen Coker",
     "position": "WR",
     "drafted_by": "The Sage's Playmakers",
-    "actual_war": 0.3639290548294738,
+    "actual_war": 0.3639290548294739,
     "expected_war_full_season": 0.3573006314315445,
     "expected_war_prorated": 0.12760736836840875,
     "weeks_completed": 5,
+    "bye_week": 5,
     "full_season_weeks": 14,
     "expected_war": 0.12760736836840875,
-    "surplus_war": 0.23632168646106505
+    "surplus_war": 0.23632168646106516
   },
   {
     "pick": 125,
@@ -1866,13 +1990,14 @@
     "player_name": "KC Concepcion Jr.",
     "position": "WR",
     "drafted_by": "Tsuga\u2019s Tuck Shop",
-    "actual_war": -0.03508235382633873,
+    "actual_war": -0.03508235382633862,
     "expected_war_full_season": 0.3573006314315445,
     "expected_war_prorated": 0.12760736836840875,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.12760736836840875,
-    "surplus_war": -0.16268972219474748
+    "surplus_war": -0.16268972219474737
   },
   {
     "pick": 126,
@@ -1881,13 +2006,14 @@
     "player_name": "Mark Andrews",
     "position": "TE",
     "drafted_by": "Pad D's",
-    "actual_war": 0.1652893008071164,
+    "actual_war": 0.16528930080711635,
     "expected_war_full_season": 0.3573006314315445,
     "expected_war_prorated": 0.12760736836840875,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.12760736836840875,
-    "surplus_war": 0.037681932438707655
+    "surplus_war": 0.0376819324387076
   },
   {
     "pick": 127,
@@ -1896,13 +2022,14 @@
     "player_name": "Khalil Shakir",
     "position": "WR",
     "drafted_by": "Pad D's",
-    "actual_war": 0.08118569882967769,
+    "actual_war": 0.0811856988296778,
     "expected_war_full_season": 0.3573006314315445,
     "expected_war_prorated": 0.12760736836840875,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.12760736836840875,
-    "surplus_war": -0.04642166953873106
+    "surplus_war": -0.04642166953873095
   },
   {
     "pick": 128,
@@ -1911,13 +2038,14 @@
     "player_name": "George Kittle",
     "position": "TE",
     "drafted_by": "Tsuga\u2019s Tuck Shop",
-    "actual_war": 0.4992651192649911,
+    "actual_war": 0.4992651192649909,
     "expected_war_full_season": 0.3573006314315445,
     "expected_war_prorated": 0.12760736836840875,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.12760736836840875,
-    "surplus_war": 0.3716577508965824
+    "surplus_war": 0.37165775089658215
   },
   {
     "pick": 129,
@@ -1930,6 +2058,7 @@
     "expected_war_full_season": 0.3573006314315445,
     "expected_war_prorated": 0.12760736836840875,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.12760736836840875,
     "surplus_war": 0.5191538875390216
@@ -1945,6 +2074,7 @@
     "expected_war_full_season": 0.3573006314315445,
     "expected_war_prorated": 0.12760736836840875,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.12760736836840875,
     "surplus_war": -0.12760736836840875
@@ -1956,13 +2086,14 @@
     "player_name": "Alvin Kamara",
     "position": "RB",
     "drafted_by": "Ozzy Stick",
-    "actual_war": 0.21226510196985726,
+    "actual_war": 0.21226510196985743,
     "expected_war_full_season": 0.3573006314315445,
     "expected_war_prorated": 0.12760736836840875,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.12760736836840875,
-    "surplus_war": 0.08465773360144851
+    "surplus_war": 0.08465773360144868
   },
   {
     "pick": 132,
@@ -1975,6 +2106,7 @@
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 14,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
     "surplus_war": 0.019555425281493705
@@ -1990,6 +2122,7 @@
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
     "surplus_war": -0.11589321570928227
@@ -2005,6 +2138,7 @@
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
     "surplus_war": -0.11589321570928227
@@ -2016,13 +2150,14 @@
     "player_name": "Jalen Nailor",
     "position": "WR",
     "drafted_by": "You gotta be Falcon kiddin me",
-    "actual_war": -0.20627440534365016,
+    "actual_war": -0.20627440534365,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
-    "surplus_war": -0.3221676210529324
+    "surplus_war": -0.3221676210529323
   },
   {
     "pick": 136,
@@ -2035,6 +2170,7 @@
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
     "surplus_war": -0.11589321570928227
@@ -2046,13 +2182,14 @@
     "player_name": "Deebo Samuel Sr.",
     "position": "WR",
     "drafted_by": "Flow Brrr",
-    "actual_war": 0.3076773389796167,
+    "actual_war": 0.3076773389796169,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
-    "surplus_war": 0.19178412327033442
+    "surplus_war": 0.19178412327033464
   },
   {
     "pick": 138,
@@ -2061,13 +2198,14 @@
     "player_name": "Caleb Douglas",
     "position": "WR",
     "drafted_by": "Girder\u2019s 6 Cookies",
-    "actual_war": 0.05268016305555612,
+    "actual_war": 0.05268016305555623,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
-    "surplus_war": -0.06321305265372615
+    "surplus_war": -0.06321305265372604
   },
   {
     "pick": 139,
@@ -2076,13 +2214,14 @@
     "player_name": "Tre Tucker",
     "position": "WR",
     "drafted_by": "Omaha Beach Real Estate",
-    "actual_war": 0.20157399994725334,
+    "actual_war": 0.2015739999472535,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
-    "surplus_war": 0.08568078423797107
+    "surplus_war": 0.08568078423797124
   },
   {
     "pick": 140,
@@ -2091,13 +2230,14 @@
     "player_name": "Brock Purdy",
     "position": "QB",
     "drafted_by": "Ma\u00eetre Stick",
-    "actual_war": 0.5228039731526508,
+    "actual_war": 0.522803973152651,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
-    "surplus_war": 0.4069107574433686
+    "surplus_war": 0.4069107574433688
   },
   {
     "pick": 141,
@@ -2106,13 +2246,14 @@
     "player_name": "Tyjae Spears",
     "position": "RB",
     "drafted_by": "Ma\u00eetre Stick",
-    "actual_war": 0.006992788813847961,
+    "actual_war": 0.0069927888138481276,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 9,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
-    "surplus_war": -0.1089004268954343
+    "surplus_war": -0.10890042689543414
   },
   {
     "pick": 142,
@@ -2121,13 +2262,14 @@
     "player_name": "Tank Bigsby",
     "position": "RB",
     "drafted_by": "Omaha Beach Real Estate",
-    "actual_war": -0.028826557591224433,
+    "actual_war": -0.028826557591224267,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
-    "surplus_war": -0.1447197733005067
+    "surplus_war": -0.14471977330050653
   },
   {
     "pick": 143,
@@ -2136,13 +2278,14 @@
     "player_name": "Adonai Mitchell",
     "position": "WR",
     "drafted_by": "Girder\u2019s 6 Cookies",
-    "actual_war": 0.08739446195585088,
+    "actual_war": 0.08739446195585093,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
-    "surplus_war": -0.02849875375343139
+    "surplus_war": -0.028498753753431333
   },
   {
     "pick": 144,
@@ -2155,6 +2298,7 @@
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
     "surplus_war": 0.11296649705613201
@@ -2170,6 +2314,7 @@
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
     "surplus_war": 0.08556619369147542
@@ -2181,13 +2326,14 @@
     "player_name": "Brenton Strange",
     "position": "TE",
     "drafted_by": "You gotta be Falcon kiddin me",
-    "actual_war": 0.24753995306822457,
+    "actual_war": 0.2475399530682244,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
-    "surplus_war": 0.1316467373589423
+    "surplus_war": 0.13164673735894214
   },
   {
     "pick": 147,
@@ -2200,6 +2346,7 @@
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
     "surplus_war": -0.1506904070066866
@@ -2211,10 +2358,11 @@
     "player_name": "Travis Hunter",
     "position": "WR",
     "drafted_by": "Supernova\u2019s Studs",
-    "actual_war": -0.3576289255031333,
+    "actual_war": -0.35762892550313324,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
     "surplus_war": -0.47352214121241554
@@ -2226,13 +2374,14 @@
     "player_name": "Brian Robinson",
     "position": "RB",
     "drafted_by": "Big Bad Hokkkk",
-    "actual_war": 0.30049175375288756,
+    "actual_war": 0.30049175375288767,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
-    "surplus_war": 0.1845985380436053
+    "surplus_war": 0.1845985380436054
   },
   {
     "pick": 150,
@@ -2245,6 +2394,7 @@
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
     "surplus_war": 0.05245394520803656
@@ -2260,6 +2410,7 @@
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
     "surplus_war": -0.11589321570928227
@@ -2271,13 +2422,14 @@
     "player_name": "Denzel Boston",
     "position": "WR",
     "drafted_by": "The Sage's Playmakers",
-    "actual_war": 0.40844041044144835,
+    "actual_war": 0.4084404104414485,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
-    "surplus_war": 0.29254719473216606
+    "surplus_war": 0.2925471947321663
   },
   {
     "pick": 153,
@@ -2286,13 +2438,14 @@
     "player_name": "Patrick Mahomes",
     "position": "QB",
     "drafted_by": "Tsuga\u2019s Tuck Shop",
-    "actual_war": 0.3073499595408248,
+    "actual_war": 0.30734995954082495,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 5,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
-    "surplus_war": 0.19145674383154251
+    "surplus_war": 0.19145674383154268
   },
   {
     "pick": 154,
@@ -2301,10 +2454,11 @@
     "player_name": "Jauan Jennings",
     "position": "WR",
     "drafted_by": "Pad D's",
-    "actual_war": -0.2895572559611246,
+    "actual_war": -0.2895572559611245,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
     "surplus_war": -0.4054504716704068
@@ -2320,6 +2474,7 @@
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
     "surplus_war": -0.15099776413012642
@@ -2335,6 +2490,7 @@
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
     "surplus_war": -0.1963893356383831
@@ -2346,13 +2502,14 @@
     "player_name": "Bo Nix",
     "position": "QB",
     "drafted_by": "The Sage's Playmakers",
-    "actual_war": -0.07705732135071275,
+    "actual_war": -0.07705732135071253,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
-    "surplus_war": -0.19295053705999501
+    "surplus_war": -0.1929505370599948
   },
   {
     "pick": 158,
@@ -2361,13 +2518,14 @@
     "player_name": "Omar Cooper Jr.",
     "position": "WR",
     "drafted_by": "Revy\u2019s Konstruction",
-    "actual_war": -0.035148899073842554,
+    "actual_war": -0.0351488990738425,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
-    "surplus_war": -0.15104211478312482
+    "surplus_war": -0.15104211478312476
   },
   {
     "pick": 159,
@@ -2376,13 +2534,14 @@
     "player_name": "Ray Davis",
     "position": "RB",
     "drafted_by": "Ozzy Stick",
-    "actual_war": -0.21249376495867156,
+    "actual_war": -0.21249376495867134,
     "expected_war_full_season": 0.32450100398599036,
     "expected_war_prorated": 0.11589321570928227,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.11589321570928227,
-    "surplus_war": -0.3283869806679538
+    "surplus_war": -0.3283869806679536
   },
   {
     "pick": 160,
@@ -2391,13 +2550,14 @@
     "player_name": "Matthew Stafford",
     "position": "QB",
     "drafted_by": "Big Bad Hokkkk",
-    "actual_war": 0.24443449539781154,
+    "actual_war": 0.2444344953978116,
     "expected_war_full_season": 0.2896684318606406,
     "expected_war_prorated": 0.10345301137880022,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.10345301137880022,
-    "surplus_war": 0.1409814840190113
+    "surplus_war": 0.14098148401901137
   },
   {
     "pick": 161,
@@ -2410,6 +2570,7 @@
     "expected_war_full_season": 0.2896684318606406,
     "expected_war_prorated": 0.10345301137880022,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.10345301137880022,
     "surplus_war": -0.10345301137880022
@@ -2425,6 +2586,7 @@
     "expected_war_full_season": 0.2896684318606406,
     "expected_war_prorated": 0.10345301137880022,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.10345301137880022,
     "surplus_war": 0.0653648435204903
@@ -2440,6 +2602,7 @@
     "expected_war_full_season": 0.279126051277991,
     "expected_war_prorated": 0.09968787545642536,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.09968787545642536,
     "surplus_war": 0.12978768997791607
@@ -2455,6 +2618,7 @@
     "expected_war_full_season": 0.279126051277991,
     "expected_war_prorated": 0.09968787545642536,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.09968787545642536,
     "surplus_war": -0.13550819577594703
@@ -2466,13 +2630,14 @@
     "player_name": "Ryan Flournoy",
     "position": "WR",
     "drafted_by": "Flow Brrr",
-    "actual_war": 0.006143120602485841,
+    "actual_war": 0.0061431206024861185,
     "expected_war_full_season": 0.279126051277991,
     "expected_war_prorated": 0.09968787545642536,
     "weeks_completed": 5,
+    "bye_week": 14,
     "full_season_weeks": 14,
     "expected_war": 0.09968787545642536,
-    "surplus_war": -0.09354475485393952
+    "surplus_war": -0.09354475485393925
   },
   {
     "pick": 166,
@@ -2481,13 +2646,14 @@
     "player_name": "Jaydon Blue",
     "position": "RB",
     "drafted_by": "Girder\u2019s 6 Cookies",
-    "actual_war": -0.11329780174842075,
+    "actual_war": -0.11329780174842063,
     "expected_war_full_season": 0.279126051277991,
     "expected_war_prorated": 0.09968787545642536,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.09968787545642536,
-    "surplus_war": -0.21298567720484612
+    "surplus_war": -0.212985677204846
   },
   {
     "pick": 167,
@@ -2500,6 +2666,7 @@
     "expected_war_full_season": 0.279126051277991,
     "expected_war_prorated": 0.09968787545642536,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.09968787545642536,
     "surplus_war": 0.05754690043578305
@@ -2511,13 +2678,14 @@
     "player_name": "MarShawn Lloyd",
     "position": "RB",
     "drafted_by": "Ma\u00eetre Stick",
-    "actual_war": 0.2115741302937465,
+    "actual_war": 0.21157413029374655,
     "expected_war_full_season": 0.279126051277991,
     "expected_war_prorated": 0.09968787545642536,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.09968787545642536,
-    "surplus_war": 0.11188625483732113
+    "surplus_war": 0.11188625483732119
   },
   {
     "pick": 169,
@@ -2530,6 +2698,7 @@
     "expected_war_full_season": 0.279126051277991,
     "expected_war_prorated": 0.09968787545642536,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.09968787545642536,
     "surplus_war": 0.009729672445345075
@@ -2541,13 +2710,14 @@
     "player_name": "Hunter Henry",
     "position": "TE",
     "drafted_by": "Omaha Beach Real Estate",
-    "actual_war": 0.10616343097475273,
+    "actual_war": 0.10616343097475245,
     "expected_war_full_season": 0.279126051277991,
     "expected_war_prorated": 0.09968787545642536,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.09968787545642536,
-    "surplus_war": 0.006475555518327361
+    "surplus_war": 0.0064755555183270835
   },
   {
     "pick": 171,
@@ -2556,13 +2726,14 @@
     "player_name": "Jerry Jeudy",
     "position": "WR",
     "drafted_by": "Girder\u2019s 6 Cookies",
-    "actual_war": -0.21860223392804362,
+    "actual_war": -0.2186022339280435,
     "expected_war_full_season": 0.279126051277991,
     "expected_war_prorated": 0.09968787545642536,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.09968787545642536,
-    "surplus_war": -0.318290109384469
+    "surplus_war": -0.3182901093844689
   },
   {
     "pick": 172,
@@ -2575,6 +2746,7 @@
     "expected_war_full_season": 0.279126051277991,
     "expected_war_prorated": 0.09968787545642536,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.09968787545642536,
     "surplus_war": 0.3799545731048005
@@ -2590,6 +2762,7 @@
     "expected_war_full_season": 0.1951614582104286,
     "expected_war_prorated": 0.0697005207894388,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.0697005207894388,
     "surplus_war": 0.35954507779251577
@@ -2605,6 +2778,7 @@
     "expected_war_full_season": 0.1951614582104286,
     "expected_war_prorated": 0.0697005207894388,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.0697005207894388,
     "surplus_war": -0.14977008673160624
@@ -2616,13 +2790,14 @@
     "player_name": "Jonah Coleman",
     "position": "RB",
     "drafted_by": "Hunter\u2019s Hunters",
-    "actual_war": 0.11711059273565305,
+    "actual_war": 0.11711059273565316,
     "expected_war_full_season": 0.1951614582104286,
     "expected_war_prorated": 0.0697005207894388,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.0697005207894388,
-    "surplus_war": 0.04741007194621426
+    "surplus_war": 0.04741007194621437
   },
   {
     "pick": 176,
@@ -2631,13 +2806,14 @@
     "player_name": "Tre' Harris",
     "position": "WR",
     "drafted_by": "Supernova\u2019s Studs",
-    "actual_war": 0.03155953195239064,
+    "actual_war": 0.031559531952390696,
     "expected_war_full_season": 0.1951614582104286,
     "expected_war_prorated": 0.0697005207894388,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.0697005207894388,
-    "surplus_war": -0.038140988837048154
+    "surplus_war": -0.0381409888370481
   },
   {
     "pick": 177,
@@ -2650,6 +2826,7 @@
     "expected_war_full_season": 0.1951614582104286,
     "expected_war_prorated": 0.0697005207894388,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.0697005207894388,
     "surplus_war": -0.14017370174998428
@@ -2661,13 +2838,14 @@
     "player_name": "Braelon Allen",
     "position": "RB",
     "drafted_by": "Ozzy Stick",
-    "actual_war": 0.232758462404918,
+    "actual_war": 0.23275846240491815,
     "expected_war_full_season": 0.1951614582104286,
     "expected_war_prorated": 0.0697005207894388,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.0697005207894388,
-    "surplus_war": 0.1630579416154792
+    "surplus_war": 0.16305794161547937
   },
   {
     "pick": 179,
@@ -2676,13 +2854,14 @@
     "player_name": "Chig Okonkwo",
     "position": "TE",
     "drafted_by": "Revy\u2019s Konstruction",
-    "actual_war": -0.09177816544775125,
+    "actual_war": -0.0917781654477513,
     "expected_war_full_season": 0.1951614582104286,
     "expected_war_prorated": 0.0697005207894388,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.0697005207894388,
-    "surplus_war": -0.16147868623719003
+    "surplus_war": -0.16147868623719008
   },
   {
     "pick": 180,
@@ -2695,6 +2874,7 @@
     "expected_war_full_season": 0.1951614582104286,
     "expected_war_prorated": 0.0697005207894388,
     "weeks_completed": 5,
+    "bye_week": 14,
     "full_season_weeks": 14,
     "expected_war": 0.0697005207894388,
     "surplus_war": -0.0697005207894388
@@ -2710,6 +2890,7 @@
     "expected_war_full_season": 0.1951614582104286,
     "expected_war_prorated": 0.0697005207894388,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": 0.0697005207894388,
     "surplus_war": -0.045346583502022766
@@ -2725,6 +2906,7 @@
     "expected_war_full_season": 0.1951614582104286,
     "expected_war_prorated": 0.0697005207894388,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.0697005207894388,
     "surplus_war": 0.07128596960091248
@@ -2736,13 +2918,14 @@
     "player_name": "Mike Washington Jr.",
     "position": "RB",
     "drafted_by": "Pad D's",
-    "actual_war": -0.04414234786004356,
+    "actual_war": -0.044142347860043285,
     "expected_war_full_season": 0.047610488891453896,
     "expected_war_prorated": 0.017003746032662106,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.017003746032662106,
-    "surplus_war": -0.06114609389270567
+    "surplus_war": -0.061146093892705394
   },
   {
     "pick": 184,
@@ -2755,6 +2938,7 @@
     "expected_war_full_season": 0.047610488891453896,
     "expected_war_prorated": 0.017003746032662106,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": 0.017003746032662106,
     "surplus_war": -0.005077063936162276
@@ -2770,6 +2954,7 @@
     "expected_war_full_season": 0.047610488891453896,
     "expected_war_prorated": 0.017003746032662106,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": 0.017003746032662106,
     "surplus_war": -0.12520361769765972
@@ -2785,6 +2970,7 @@
     "expected_war_full_season": 0.047610488891453896,
     "expected_war_prorated": 0.017003746032662106,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": 0.017003746032662106,
     "surplus_war": 0.41480295136863315
@@ -2796,13 +2982,14 @@
     "player_name": "Jordan Love",
     "position": "QB",
     "drafted_by": "Ozzy Stick",
-    "actual_war": 0.21880543249041878,
+    "actual_war": 0.21880543249041862,
     "expected_war_full_season": 0.047610488891453896,
     "expected_war_prorated": 0.017003746032662106,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.017003746032662106,
-    "surplus_war": 0.20180168645775667
+    "surplus_war": 0.2018016864577565
   },
   {
     "pick": 188,
@@ -2815,6 +3002,7 @@
     "expected_war_full_season": 0.047610488891453896,
     "expected_war_prorated": 0.017003746032662106,
     "weeks_completed": 5,
+    "bye_week": 9,
     "full_season_weeks": 14,
     "expected_war": 0.017003746032662106,
     "surplus_war": 0.09215987923546451
@@ -2826,13 +3014,14 @@
     "player_name": "Germie Bernard",
     "position": "WR",
     "drafted_by": "Supernova\u2019s Studs",
-    "actual_war": -0.08462331760195896,
+    "actual_war": -0.08462331760195879,
     "expected_war_full_season": 0.047610488891453896,
     "expected_war_prorated": 0.017003746032662106,
     "weeks_completed": 5,
+    "bye_week": 9,
     "full_season_weeks": 14,
     "expected_war": 0.017003746032662106,
-    "surplus_war": -0.10162706363462107
+    "surplus_war": -0.1016270636346209
   },
   {
     "pick": 190,
@@ -2841,13 +3030,14 @@
     "player_name": "Sam Darnold",
     "position": "QB",
     "drafted_by": "Hunter\u2019s Hunters",
-    "actual_war": -0.05298595718751331,
+    "actual_war": -0.052985957187513144,
     "expected_war_full_season": 0.047610488891453896,
     "expected_war_prorated": 0.017003746032662106,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": 0.017003746032662106,
-    "surplus_war": -0.06998970322017542
+    "surplus_war": -0.06998970322017525
   },
   {
     "pick": 191,
@@ -2860,6 +3050,7 @@
     "expected_war_full_season": 0.047610488891453896,
     "expected_war_prorated": 0.017003746032662106,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": 0.017003746032662106,
     "surplus_war": 0.21262220238360355
@@ -2871,13 +3062,14 @@
     "player_name": "Emmett Johnson",
     "position": "RB",
     "drafted_by": "No Punts Intented",
-    "actual_war": -0.021489709899498333,
+    "actual_war": -0.02148970989949822,
     "expected_war_full_season": 0.047610488891453896,
     "expected_war_prorated": 0.017003746032662106,
     "weeks_completed": 5,
+    "bye_week": 5,
     "full_season_weeks": 14,
     "expected_war": 0.017003746032662106,
-    "surplus_war": -0.03849345593216044
+    "surplus_war": -0.03849345593216033
   },
   {
     "pick": 193,
@@ -2886,13 +3078,14 @@
     "player_name": "T.J. Hockenson",
     "position": "TE",
     "drafted_by": "Flow Brrr",
-    "actual_war": 0.2297783713741962,
+    "actual_war": 0.22977837137419616,
     "expected_war_full_season": -0.026982093368669385,
     "expected_war_prorated": -0.009636461917381923,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": -0.009636461917381923,
-    "surplus_war": 0.23941483329157814
+    "surplus_war": 0.2394148332915781
   },
   {
     "pick": 194,
@@ -2901,13 +3094,14 @@
     "player_name": "Ollie Gordon II",
     "position": "RB",
     "drafted_by": "Girder\u2019s 6 Cookies",
-    "actual_war": 0.28079571959263283,
+    "actual_war": 0.2807957195926332,
     "expected_war_full_season": -0.026982093368669385,
     "expected_war_prorated": -0.009636461917381923,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": -0.009636461917381923,
-    "surplus_war": 0.29043218151001476
+    "surplus_war": 0.29043218151001515
   },
   {
     "pick": 195,
@@ -2920,6 +3114,7 @@
     "expected_war_full_season": -0.09490138606557857,
     "expected_war_prorated": -0.03389335216627806,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": -0.03389335216627806,
     "surplus_war": 0.02314648538864225
@@ -2931,13 +3126,14 @@
     "player_name": "Kaelon Black",
     "position": "RB",
     "drafted_by": "Ma\u00eetre Stick",
-    "actual_war": -0.11227865569869527,
+    "actual_war": -0.11227865569869516,
     "expected_war_full_season": -0.09490138606557857,
     "expected_war_prorated": -0.03389335216627806,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": -0.03389335216627806,
-    "surplus_war": -0.07838530353241721
+    "surplus_war": -0.0783853035324171
   },
   {
     "pick": 197,
@@ -2946,13 +3142,14 @@
     "player_name": "Darnell Mooney",
     "position": "WR",
     "drafted_by": "Ma\u00eetre Stick",
-    "actual_war": -0.17665115716438945,
+    "actual_war": -0.17665115716438928,
     "expected_war_full_season": -0.09490138606557857,
     "expected_war_prorated": -0.03389335216627806,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": -0.03389335216627806,
-    "surplus_war": -0.1427578049981114
+    "surplus_war": -0.14275780499811122
   },
   {
     "pick": 198,
@@ -2961,13 +3158,14 @@
     "player_name": "Baker Mayfield",
     "position": "QB",
     "drafted_by": "Omaha Beach Real Estate",
-    "actual_war": -0.0943293840495002,
+    "actual_war": -0.09432938404950014,
     "expected_war_full_season": -0.09490138606557857,
     "expected_war_prorated": -0.03389335216627806,
     "weeks_completed": 5,
+    "bye_week": 10,
     "full_season_weeks": 14,
     "expected_war": -0.03389335216627806,
-    "surplus_war": -0.060436031883222135
+    "surplus_war": -0.06043603188322208
   },
   {
     "pick": 199,
@@ -2980,6 +3178,7 @@
     "expected_war_full_season": -0.09490138606557857,
     "expected_war_prorated": -0.03389335216627806,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": -0.03389335216627806,
     "surplus_war": 0.4308133022366315
@@ -2995,6 +3194,7 @@
     "expected_war_full_season": -0.09490138606557857,
     "expected_war_prorated": -0.03389335216627806,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": -0.03389335216627806,
     "surplus_war": 0.03398604089641158
@@ -3006,13 +3206,14 @@
     "player_name": "Tyler Shough",
     "position": "QB",
     "drafted_by": "No Punts Intented",
-    "actual_war": 0.1911914630317273,
+    "actual_war": 0.19119146303172752,
     "expected_war_full_season": -0.09490138606557857,
     "expected_war_prorated": -0.03389335216627806,
     "weeks_completed": 5,
+    "bye_week": 8,
     "full_season_weeks": 14,
     "expected_war": -0.03389335216627806,
-    "surplus_war": 0.22508481519800536
+    "surplus_war": 0.22508481519800558
   },
   {
     "pick": 202,
@@ -3021,13 +3222,14 @@
     "player_name": "Kimani Vidal",
     "position": "RB",
     "drafted_by": "You gotta be Falcon kiddin me",
-    "actual_war": 0.08921942745332567,
+    "actual_war": 0.08921942745332584,
     "expected_war_full_season": -0.09490138606557857,
     "expected_war_prorated": -0.03389335216627806,
     "weeks_completed": 5,
+    "bye_week": 7,
     "full_season_weeks": 14,
     "expected_war": -0.03389335216627806,
-    "surplus_war": 0.12311277961960373
+    "surplus_war": 0.1231127796196039
   },
   {
     "pick": 203,
@@ -3036,13 +3238,14 @@
     "player_name": "Samaje Perine",
     "position": "RB",
     "drafted_by": "Hunter\u2019s Hunters",
-    "actual_war": 0.06498084595351317,
+    "actual_war": 0.06498084595351361,
     "expected_war_full_season": -0.09490138606557857,
     "expected_war_prorated": -0.03389335216627806,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": -0.03389335216627806,
-    "surplus_war": 0.09887419811979123
+    "surplus_war": 0.09887419811979167
   },
   {
     "pick": 204,
@@ -3051,13 +3254,14 @@
     "player_name": "Justice Hill",
     "position": "RB",
     "drafted_by": "Supernova\u2019s Studs",
-    "actual_war": 0.003617761347019688,
+    "actual_war": 0.0036177613470198544,
     "expected_war_full_season": -0.09490138606557857,
     "expected_war_prorated": -0.03389335216627806,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": -0.03389335216627806,
-    "surplus_war": 0.03751111351329775
+    "surplus_war": 0.03751111351329792
   },
   {
     "pick": 205,
@@ -3070,6 +3274,7 @@
     "expected_war_full_season": -0.09490138606557857,
     "expected_war_prorated": -0.03389335216627806,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": -0.03389335216627806,
     "surplus_war": -0.1745125151829441
@@ -3085,6 +3290,7 @@
     "expected_war_full_season": -0.09490138606557857,
     "expected_war_prorated": -0.03389335216627806,
     "weeks_completed": 5,
+    "bye_week": 9,
     "full_season_weeks": 14,
     "expected_war": -0.03389335216627806,
     "surplus_war": 0.1890610551750941
@@ -3100,6 +3306,7 @@
     "expected_war_full_season": -0.09490138606557857,
     "expected_war_prorated": -0.03389335216627806,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": -0.03389335216627806,
     "surplus_war": 0.2624287674942365
@@ -3111,13 +3318,14 @@
     "player_name": "Emanuel Wilson",
     "position": "RB",
     "drafted_by": "The Sage's Playmakers",
-    "actual_war": 0.31407090069044763,
+    "actual_war": 0.3140709006904478,
     "expected_war_full_season": -0.09490138606557857,
     "expected_war_prorated": -0.03389335216627806,
     "weeks_completed": 5,
+    "bye_week": 11,
     "full_season_weeks": 14,
     "expected_war": -0.03389335216627806,
-    "surplus_war": 0.3479642528567257
+    "surplus_war": 0.34796425285672583
   },
   {
     "pick": 209,
@@ -3126,13 +3334,14 @@
     "player_name": "Greg Dulcich",
     "position": "TE",
     "drafted_by": "Tsuga\u2019s Tuck Shop",
-    "actual_war": -0.02483544011355454,
+    "actual_war": -0.024835440113554652,
     "expected_war_full_season": -0.09490138606557857,
     "expected_war_prorated": -0.03389335216627806,
     "weeks_completed": 5,
+    "bye_week": 6,
     "full_season_weeks": 14,
     "expected_war": -0.03389335216627806,
-    "surplus_war": 0.009057912052723521
+    "surplus_war": 0.00905791205272341
   },
   {
     "pick": 210,
@@ -3145,6 +3354,7 @@
     "expected_war_full_season": -0.09490138606557857,
     "expected_war_prorated": -0.03389335216627806,
     "weeks_completed": 5,
+    "bye_week": 13,
     "full_season_weeks": 14,
     "expected_war": -0.03389335216627806,
     "surplus_war": 0.03389335216627806

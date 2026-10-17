@@ -11,6 +11,7 @@ import './CurrentSeason.css';
 import WARSurplus from './WARSurplus/WARSurplus';
 import WaiverWAR from './WaiverWAR/WaiverWAR';
 import WARAnalysis from './WARAnalysis/WARAnalysis';
+import meta from '../../league_stats_output/CurrentSeason/meta.json';
 
 interface TabConfig {
   header: string;
@@ -39,7 +40,7 @@ const CurrentSeason: React.FC = () => {
       <header className="current-season__header">
         <h1>Current Season</h1>
         <span className="current-season__updated">
-          Updated through Week 5
+          Updated through Week {meta.data_through_week}
         </span>
       </header>
 

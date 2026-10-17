@@ -93,6 +93,9 @@ league_stats_output/CurrentSeason/Simulations/):
   record_distribution.jpg / .json, average_weekly_points.jpg, playoff_odds.jpg
 """
 
+from datetime import datetime as dt, timezone
+import datetime
+
 from yahoo_oauth import OAuth2
 from WriteWeeklyMatchupData import write_week_files
 from WriteEarnedWinsData import calculate_earned_wins
@@ -196,6 +199,8 @@ POSITION_DIR = DRAFT_BOARDS_DIR / "Position"
 
 PAR_BOARD_IMAGE_PATH = PAR_DIR / f"draft_board_by_par_{PAR_YEAR}.png"
 POSITION_BOARD_IMAGE_PATH = POSITION_DIR / f"draft_board_by_position_{PAR_YEAR}.png"
+
+META_PATH = os.path.join(CURRENT_SEASON_DATA_DIR, "meta.json")
 
 
 # --------------------------------------------------------------------------
@@ -1208,6 +1213,26 @@ def run_simulate_matchups(league, start_week: int = None, end_week: int = SIM_EN
         print(f"  {t:<32} {avg_w:5.2f}-{avg_l:5.2f}   "
               f"bye {pct_bye:5.1f}%   playoffs(no bye) {pct_playoff:5.1f}%   punishment {pct_punish:5.1f}%")
 
+def write_meta(league, year=2026, path=META_PATH):
+    """
+    Records which week the site's data is current through.
+    Written atomically (temp file + rename) so the website never
+    reads a half-written file.
+    """
+    current_week = league.current_week()
+    meta = {
+        "season": year,
+        "current_week": current_week,                    # week Yahoo says is in progress
+        "data_through_week": max(current_week - 1, 0),   # last fully finished week
+        "updated_at": dt.now(timezone.utc).isoformat(),
+    }
+
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    tmp_path = path + ".tmp"
+    with open(tmp_path, "w") as f:
+        json.dump(meta, f, indent=2)
+    os.replace(tmp_path, path)
+    print(f"Saved -> {path}")
 
 def main():
     write_week_files(lg, OUTPUT_DIR=MATCHUP_DATA_DIR)
@@ -1219,6 +1244,7 @@ def main():
     run_simulate_matchups(lg)
     run_waiver_war(2026, league=lg)
     run_draft_value(league=lg)
+    write_meta(lg)
     
 
 

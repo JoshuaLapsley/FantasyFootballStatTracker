@@ -308,7 +308,7 @@ def calculate_war_for_year(league, year: int, board: list) -> tuple:
                 continue
             if pid in week_review:
                 continue
-            week_review[pid] = {"name": p["player_name"], "position": p["position"], "played": False}
+            week_review[pid] = {"name": p["player_name"], "position": p["position"], "bye_week": p.get("bye_week"), "played": False}
             added.append(p["player_name"])
         if added:
             DRAFT_DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -370,6 +370,7 @@ def write_war_output(year: int, board: list, war_by_id: dict) -> None:
             "player_id": pid,
             "player_name": p["player_name"],
             "position": p["position"],
+            "bye_week": p.get("bye_week"),
             "war": war_by_id.get(pid, 0.0),
         })
     rows.sort(key=lambda r: r["pick"])

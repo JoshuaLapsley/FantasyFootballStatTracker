@@ -6,7 +6,8 @@
     "player_id": "40059",
     "player_name": "Jahmyr Gibbs",
     "position": "RB",
-    "war": 1.4818385399639589
+    "bye_week": 6,
+    "war": 1.481838539963959
   },
   {
     "year": 2026,
@@ -15,7 +16,8 @@
     "player_id": "40055",
     "player_name": "Bijan Robinson",
     "position": "RB",
-    "war": 1.1283180414491434
+    "bye_week": 11,
+    "war": 1.1283180414491436
   },
   {
     "year": 2026,
@@ -24,7 +26,8 @@
     "player_id": "33393",
     "player_name": "Ja'Marr Chase",
     "position": "WR",
-    "war": 0.537464021800874
+    "bye_week": 6,
+    "war": 0.5374640218008742
   },
   {
     "year": 2026,
@@ -33,7 +36,8 @@
     "player_id": "40168",
     "player_name": "Puka Nacua",
     "position": "WR",
-    "war": 0.6578982605702599
+    "bye_week": 11,
+    "war": 0.6578982605702601
   },
   {
     "year": 2026,
@@ -42,7 +46,8 @@
     "player_id": "40041",
     "player_name": "Jaxon Smith-Njigba",
     "position": "WR",
-    "war": 1.200759914895792
+    "bye_week": 11,
+    "war": 1.2007599148957921
   },
   {
     "year": 2026,
@@ -51,6 +56,7 @@
     "player_id": "30121",
     "player_name": "Christian McCaffrey",
     "position": "RB",
+    "bye_week": 8,
     "war": 0.7932696023275084
   },
   {
@@ -60,6 +66,7 @@
     "player_id": "33500",
     "player_name": "Amon-Ra St. Brown",
     "position": "WR",
+    "bye_week": 6,
     "war": 0.8120501097235802
   },
   {
@@ -69,7 +76,8 @@
     "player_id": "32711",
     "player_name": "Jonathan Taylor",
     "position": "RB",
-    "war": 0.8601066994162708
+    "bye_week": 13,
+    "war": 0.8601066994162709
   },
   {
     "year": 2026,
@@ -78,7 +86,8 @@
     "player_id": "32687",
     "player_name": "CeeDee Lamb",
     "position": "WR",
-    "war": 0.9170169375334951
+    "bye_week": 14,
+    "war": 0.9170169375334953
   },
   {
     "year": 2026,
@@ -87,7 +96,8 @@
     "player_id": "34019",
     "player_name": "James Cook III",
     "position": "RB",
-    "war": 0.7691431880211552
+    "bye_week": 7,
+    "war": 0.7691431880211553
   },
   {
     "year": 2026,
@@ -96,7 +106,8 @@
     "player_id": "41791",
     "player_name": "Ashton Jeanty",
     "position": "RB",
-    "war": 0.7031659771892179
+    "bye_week": 13,
+    "war": 0.7031659771892182
   },
   {
     "year": 2026,
@@ -105,7 +116,8 @@
     "player_id": "30972",
     "player_name": "Saquon Barkley",
     "position": "RB",
-    "war": 0.03697618016245274
+    "bye_week": 10,
+    "war": 0.036976180162452854
   },
   {
     "year": 2026,
@@ -114,7 +126,8 @@
     "player_id": "32692",
     "player_name": "Justin Jefferson",
     "position": "WR",
-    "war": 0.4218426980356259
+    "bye_week": 6,
+    "war": 0.4218426980356261
   },
   {
     "year": 2026,
@@ -123,7 +136,8 @@
     "player_id": "40196",
     "player_name": "Chase Brown",
     "position": "RB",
-    "war": 0.47737710202817263
+    "bye_week": 6,
+    "war": 0.47737710202817285
   },
   {
     "year": 2026,
@@ -132,7 +146,8 @@
     "player_id": "33963",
     "player_name": "Drake London",
     "position": "WR",
-    "war": 0.49137737410763127
+    "bye_week": 11,
+    "war": 0.4913773741076315
   },
   {
     "year": 2026,
@@ -141,7 +156,8 @@
     "player_id": "41807",
     "player_name": "Omarion Hampton",
     "position": "RB",
-    "war": 0.2933680272223499
+    "bye_week": 7,
+    "war": 0.29336802722235
   },
   {
     "year": 2026,
@@ -150,7 +166,8 @@
     "player_id": "40118",
     "player_name": "De'Von Achane",
     "position": "RB",
-    "war": 0.11548200364334188
+    "bye_week": 6,
+    "war": 0.11548200364334194
   },
   {
     "year": 2026,
@@ -159,6 +176,7 @@
     "player_id": "33477",
     "player_name": "Nico Collins",
     "position": "WR",
+    "bye_week": 8,
     "war": 0.4925555976885215
   },
   {
@@ -168,7 +186,8 @@
     "player_id": "33996",
     "player_name": "Kenneth Walker III",
     "position": "RB",
-    "war": 1.0611572609659132
+    "bye_week": 5,
+    "war": 1.0611572609659135
   },
   {
     "year": 2026,
@@ -177,7 +196,8 @@
     "player_id": "31883",
     "player_name": "A.J. Brown",
     "position": "WR",
-    "war": -0.016503931915893
+    "bye_week": 11,
+    "war": -0.016503931915892944
   },
   {
     "year": 2026,
@@ -186,6 +206,7 @@
     "player_id": "40878",
     "player_name": "Brock Bowers",
     "position": "TE",
+    "bye_week": 13,
     "war": 0.6316907530634059
   },
   {
@@ -195,7 +216,8 @@
     "player_id": "29279",
     "player_name": "Derrick Henry",
     "position": "RB",
-    "war": 1.0259091170233983
+    "bye_week": 13,
+    "war": 1.0259091170233985
   },
   {
     "year": 2026,
@@ -204,7 +226,8 @@
     "player_id": "34007",
     "player_name": "George Pickens",
     "position": "WR",
-    "war": 0.3987270795979118
+    "bye_week": 14,
+    "war": 0.3987270795979119
   },
   {
     "year": 2026,
@@ -213,6 +236,7 @@
     "player_id": "30977",
     "player_name": "Josh Allen",
     "position": "QB",
+    "bye_week": 7,
     "war": 0.8408119776034662
   },
   {
@@ -222,6 +246,7 @@
     "player_id": "34010",
     "player_name": "Trey McBride",
     "position": "TE",
+    "bye_week": 14,
     "war": 0.7280163550589291
   },
   {
@@ -231,7 +256,8 @@
     "player_id": "33991",
     "player_name": "Breece Hall",
     "position": "RB",
-    "war": 0.32842706347219036
+    "bye_week": 13,
+    "war": 0.3284270634721905
   },
   {
     "year": 2026,
@@ -240,7 +266,8 @@
     "player_id": "34120",
     "player_name": "Kyren Williams",
     "position": "RB",
-    "war": 0.992734807545955
+    "bye_week": 11,
+    "war": 0.9927348075459553
   },
   {
     "year": 2026,
@@ -249,7 +276,8 @@
     "player_id": "33966",
     "player_name": "Chris Olave",
     "position": "WR",
-    "war": 0.7612639883196796
+    "bye_week": 8,
+    "war": 0.7612639883196799
   },
   {
     "year": 2026,
@@ -258,7 +286,8 @@
     "player_id": "40084",
     "player_name": "Rashee Rice",
     "position": "WR",
-    "war": 0.1236187023817964
+    "bye_week": 5,
+    "war": 0.12361870238179656
   },
   {
     "year": 2026,
@@ -267,7 +296,8 @@
     "player_id": "40899",
     "player_name": "Malik Nabers",
     "position": "WR",
-    "war": 0.46440554040734844
+    "bye_week": 8,
+    "war": 0.46440554040734855
   },
   {
     "year": 2026,
@@ -276,7 +306,8 @@
     "player_id": "42625",
     "player_name": "Jeremiyah Love",
     "position": "RB",
-    "war": 0.31239890476415755
+    "bye_week": 14,
+    "war": 0.3123989047641579
   },
   {
     "year": 2026,
@@ -285,7 +316,8 @@
     "player_id": "33398",
     "player_name": "DeVonta Smith",
     "position": "WR",
-    "war": 0.3266964120052041
+    "bye_week": 10,
+    "war": 0.3266964120052043
   },
   {
     "year": 2026,
@@ -294,7 +326,8 @@
     "player_id": "41795",
     "player_name": "Colston Loveland",
     "position": "TE",
-    "war": -0.06842372835402344
+    "bye_week": 10,
+    "war": -0.0684237283540235
   },
   {
     "year": 2026,
@@ -303,7 +336,8 @@
     "player_id": "41804",
     "player_name": "Emeka Egbuka",
     "position": "WR",
-    "war": 0.2207958069869042
+    "bye_week": 10,
+    "war": 0.22079580698690437
   },
   {
     "year": 2026,
@@ -312,7 +346,8 @@
     "player_id": "32703",
     "player_name": "Tee Higgins",
     "position": "WR",
-    "war": 0.48231612000259066
+    "bye_week": 6,
+    "war": 0.48231612000259094
   },
   {
     "year": 2026,
@@ -321,7 +356,8 @@
     "player_id": "33423",
     "player_name": "Javonte Williams",
     "position": "RB",
-    "war": 0.8419959090355532
+    "bye_week": 14,
+    "war": 0.8419959090355533
   },
   {
     "year": 2026,
@@ -330,7 +366,8 @@
     "player_id": "40039",
     "player_name": "Zay Flowers",
     "position": "WR",
-    "war": 0.6426288679546195
+    "bye_week": 13,
+    "war": 0.6426288679546197
   },
   {
     "year": 2026,
@@ -339,7 +376,8 @@
     "player_id": "41793",
     "player_name": "Tetairoa McMillan",
     "position": "WR",
-    "war": 0.5125277507639668
+    "bye_week": 5,
+    "war": 0.512527750763967
   },
   {
     "year": 2026,
@@ -348,7 +386,8 @@
     "player_id": "33965",
     "player_name": "Garrett Wilson",
     "position": "WR",
-    "war": 0.6148605539849324
+    "bye_week": 13,
+    "war": 0.6148605539849326
   },
   {
     "year": 2026,
@@ -357,6 +396,7 @@
     "player_id": "31856",
     "player_name": "Josh Jacobs",
     "position": "RB",
+    "bye_week": 11,
     "war": 0.0
   },
   {
@@ -366,7 +406,8 @@
     "player_id": "41922",
     "player_name": "Cam Skattebo",
     "position": "RB",
-    "war": 0.3122639722912977
+    "bye_week": 8,
+    "war": 0.31226397229129793
   },
   {
     "year": 2026,
@@ -375,7 +416,8 @@
     "player_id": "31002",
     "player_name": "Lamar Jackson",
     "position": "QB",
-    "war": 0.24229667283970857
+    "bye_week": 13,
+    "war": 0.24229667283970863
   },
   {
     "year": 2026,
@@ -384,7 +426,8 @@
     "player_id": "31908",
     "player_name": "Terry McLaurin",
     "position": "WR",
-    "war": 0.1730787704938755
+    "bye_week": 7,
+    "war": 0.17307877049387566
   },
   {
     "year": 2026,
@@ -393,7 +436,8 @@
     "player_id": "40908",
     "player_name": "Ladd McConkey",
     "position": "WR",
-    "war": 0.10346127864657734
+    "bye_week": 7,
+    "war": 0.10346127864657739
   },
   {
     "year": 2026,
@@ -402,7 +446,8 @@
     "player_id": "33394",
     "player_name": "Jaylen Waddle",
     "position": "WR",
-    "war": 0.16781087451473625
+    "bye_week": 10,
+    "war": 0.16781087451473653
   },
   {
     "year": 2026,
@@ -411,7 +456,8 @@
     "player_id": "33413",
     "player_name": "Travis Etienne Jr.",
     "position": "RB",
-    "war": 0.18890855109323357
+    "bye_week": 8,
+    "war": 0.18890855109323368
   },
   {
     "year": 2026,
@@ -420,7 +466,8 @@
     "player_id": "32705",
     "player_name": "D'Andre Swift",
     "position": "RB",
-    "war": 0.6582510852768415
+    "bye_week": 10,
+    "war": 0.6582510852768417
   },
   {
     "year": 2026,
@@ -429,7 +476,8 @@
     "player_id": "41821",
     "player_name": "Quinshon Judkins",
     "position": "RB",
-    "war": 0.3721802208576943
+    "bye_week": 11,
+    "war": 0.3721802208576944
   },
   {
     "year": 2026,
@@ -438,7 +486,8 @@
     "player_id": "27581",
     "player_name": "Davante Adams",
     "position": "WR",
-    "war": 0.6960640826458779
+    "bye_week": 11,
+    "war": 0.6960640826458782
   },
   {
     "year": 2026,
@@ -447,7 +496,8 @@
     "player_id": "31905",
     "player_name": "David Montgomery",
     "position": "RB",
-    "war": 0.24389357068020423
+    "bye_week": 8,
+    "war": 0.2438935706802045
   },
   {
     "year": 2026,
@@ -456,7 +506,8 @@
     "player_id": "40993",
     "player_name": "Bucky Irving",
     "position": "RB",
-    "war": 0.6348031338174802
+    "bye_week": 10,
+    "war": 0.6348031338174804
   },
   {
     "year": 2026,
@@ -465,7 +516,8 @@
     "player_id": "33989",
     "player_name": "Christian Watson",
     "position": "WR",
-    "war": 0.8741370678993583
+    "bye_week": 11,
+    "war": 0.8741370678993586
   },
   {
     "year": 2026,
@@ -474,7 +526,8 @@
     "player_id": "41900",
     "player_name": "Bhayshul Tuten",
     "position": "RB",
-    "war": 0.4611131570663245
+    "bye_week": 7,
+    "war": 0.4611131570663248
   },
   {
     "year": 2026,
@@ -483,7 +536,8 @@
     "player_id": "41799",
     "player_name": "Tyler Warren",
     "position": "TE",
-    "war": 0.47966188687669203
+    "bye_week": 13,
+    "war": 0.4796618868766917
   },
   {
     "year": 2026,
@@ -492,7 +546,8 @@
     "player_id": "33967",
     "player_name": "Jameson Williams",
     "position": "WR",
-    "war": 0.27205323916087276
+    "bye_week": 6,
+    "war": 0.272053239160873
   },
   {
     "year": 2026,
@@ -501,7 +556,8 @@
     "player_id": "41823",
     "player_name": "TreVeyon Henderson",
     "position": "RB",
-    "war": 0.07827653162829556
+    "bye_week": 11,
+    "war": 0.07827653162829562
   },
   {
     "year": 2026,
@@ -510,7 +566,8 @@
     "player_id": "30994",
     "player_name": "DJ Moore",
     "position": "WR",
-    "war": 0.10493514273577575
+    "bye_week": 7,
+    "war": 0.10493514273577587
   },
   {
     "year": 2026,
@@ -519,6 +576,7 @@
     "player_id": "40896",
     "player_name": "Jayden Daniels",
     "position": "QB",
+    "bye_week": 7,
     "war": 0.2336071545568812
   },
   {
@@ -528,7 +586,8 @@
     "player_id": "32723",
     "player_name": "Jalen Hurts",
     "position": "QB",
-    "war": 0.09715921126502108
+    "bye_week": 10,
+    "war": 0.09715921126502103
   },
   {
     "year": 2026,
@@ -537,7 +596,8 @@
     "player_id": "32671",
     "player_name": "Joe Burrow",
     "position": "QB",
-    "war": 0.3525978999863014
+    "bye_week": 6,
+    "war": 0.3525978999863015
   },
   {
     "year": 2026,
@@ -546,7 +606,8 @@
     "player_id": "42654",
     "player_name": "Jadarian Price",
     "position": "RB",
-    "war": -0.010446545332831625
+    "bye_week": 11,
+    "war": -0.010446545332831514
   },
   {
     "year": 2026,
@@ -555,7 +616,8 @@
     "player_id": "41824",
     "player_name": "Luther Burden III",
     "position": "WR",
-    "war": 0.24967506415889595
+    "bye_week": 10,
+    "war": 0.24967506415889618
   },
   {
     "year": 2026,
@@ -564,7 +626,8 @@
     "player_id": "40881",
     "player_name": "Drake Maye",
     "position": "QB",
-    "war": 0.22263134645595273
+    "bye_week": 11,
+    "war": 0.22263134645595284
   },
   {
     "year": 2026,
@@ -573,7 +636,8 @@
     "player_id": "40901",
     "player_name": "Rome Odunze",
     "position": "WR",
-    "war": 0.08823282472330629
+    "bye_week": 10,
+    "war": 0.08823282472330657
   },
   {
     "year": 2026,
@@ -582,7 +646,8 @@
     "player_id": "33514",
     "player_name": "Chuba Hubbard",
     "position": "RB",
-    "war": 0.7039432927668888
+    "bye_week": 5,
+    "war": 0.7039432927668889
   },
   {
     "year": 2026,
@@ -591,7 +656,8 @@
     "player_id": "40234",
     "player_name": "Parker Washington",
     "position": "WR",
-    "war": 0.5546379116731242
+    "bye_week": 7,
+    "war": 0.5546379116731245
   },
   {
     "year": 2026,
@@ -600,6 +666,7 @@
     "player_id": "41877",
     "player_name": "Harold Fannin Jr.",
     "position": "TE",
+    "bye_week": 11,
     "war": 0.2602556723813338
   },
   {
@@ -609,7 +676,8 @@
     "player_id": "42626",
     "player_name": "Carnell Tate",
     "position": "WR",
-    "war": 0.1632317735576705
+    "bye_week": 9,
+    "war": 0.16323177355767055
   },
   {
     "year": 2026,
@@ -618,7 +686,8 @@
     "player_id": "27535",
     "player_name": "Mike Evans",
     "position": "WR",
-    "war": 0.4974206925527205
+    "bye_week": 8,
+    "war": 0.49742069255272076
   },
   {
     "year": 2026,
@@ -627,7 +696,8 @@
     "player_id": "34447",
     "player_name": "Jaylen Warren",
     "position": "RB",
-    "war": 0.7960311605989199
+    "bye_week": 9,
+    "war": 0.7960311605989201
   },
   {
     "year": 2026,
@@ -636,6 +706,7 @@
     "player_id": "40893",
     "player_name": "Marvin Harrison Jr.",
     "position": "WR",
+    "bye_week": 14,
     "war": -0.09790377733891042
   },
   {
@@ -645,6 +716,7 @@
     "player_id": "42630",
     "player_name": "Jordyn Tyson",
     "position": "WR",
+    "bye_week": 8,
     "war": 0.0
   },
   {
@@ -654,7 +726,8 @@
     "player_id": "40126",
     "player_name": "Josh Downs",
     "position": "WR",
-    "war": 0.11976377174725833
+    "bye_week": 13,
+    "war": 0.1197637717472585
   },
   {
     "year": 2026,
@@ -663,6 +736,7 @@
     "player_id": "40883",
     "player_name": "Brian Thomas Jr.",
     "position": "WR",
+    "bye_week": 7,
     "war": -0.10861301918609839
   },
   {
@@ -672,7 +746,8 @@
     "player_id": "40102",
     "player_name": "Tucker Kraft",
     "position": "TE",
-    "war": 0.21368373356876885
+    "bye_week": 11,
+    "war": 0.21368373356876869
   },
   {
     "year": 2026,
@@ -681,7 +756,8 @@
     "player_id": "31960",
     "player_name": "Tony Pollard",
     "position": "RB",
-    "war": 0.22262159488665967
+    "bye_week": 9,
+    "war": 0.22262159488665995
   },
   {
     "year": 2026,
@@ -690,7 +766,8 @@
     "player_id": "32676",
     "player_name": "Justin Herbert",
     "position": "QB",
-    "war": -0.17046184960493443
+    "bye_week": 7,
+    "war": -0.17046184960493438
   },
   {
     "year": 2026,
@@ -699,7 +776,8 @@
     "player_id": "40064",
     "player_name": "Sam LaPorta",
     "position": "TE",
-    "war": 0.5590611435500124
+    "bye_week": 6,
+    "war": 0.5590611435500121
   },
   {
     "year": 2026,
@@ -708,7 +786,8 @@
     "player_id": "33392",
     "player_name": "Kyle Pitts Sr.",
     "position": "TE",
-    "war": -0.03303158336108192
+    "bye_week": 11,
+    "war": -0.03303158336108197
   },
   {
     "year": 2026,
@@ -717,7 +796,8 @@
     "player_id": "32725",
     "player_name": "J.K. Dobbins",
     "position": "RB",
-    "war": 0.13302311353725316
+    "bye_week": 10,
+    "war": 0.13302311353725355
   },
   {
     "year": 2026,
@@ -726,7 +806,8 @@
     "player_id": "33508",
     "player_name": "Rhamondre Stevenson",
     "position": "RB",
-    "war": 0.4287102792307023
+    "bye_week": 11,
+    "war": 0.42871027923070265
   },
   {
     "year": 2026,
@@ -735,7 +816,8 @@
     "player_id": "31896",
     "player_name": "DK Metcalf",
     "position": "WR",
-    "war": 0.16384079293399278
+    "bye_week": 9,
+    "war": 0.1638407929339929
   },
   {
     "year": 2026,
@@ -744,7 +826,8 @@
     "player_id": "30197",
     "player_name": "Chris Godwin Jr.",
     "position": "WR",
-    "war": 0.04423661631154935
+    "bye_week": 10,
+    "war": 0.04423661631154946
   },
   {
     "year": 2026,
@@ -753,6 +836,7 @@
     "player_id": "40121",
     "player_name": "Michael Wilson",
     "position": "WR",
+    "bye_week": 14,
     "war": 0.3483503185916264
   },
   {
@@ -762,7 +846,8 @@
     "player_id": "40962",
     "player_name": "Blake Corum",
     "position": "RB",
-    "war": 0.1610643263749716
+    "bye_week": 11,
+    "war": 0.16106432637497176
   },
   {
     "year": 2026,
@@ -771,7 +856,8 @@
     "player_id": "40048",
     "player_name": "Dalton Kincaid",
     "position": "TE",
-    "war": 0.23757231343038354
+    "bye_week": 7,
+    "war": 0.23757231343038332
   },
   {
     "year": 2026,
@@ -780,7 +866,8 @@
     "player_id": "33100",
     "player_name": "Rico Dowdle",
     "position": "RB",
-    "war": -0.05070174658882165
+    "bye_week": 9,
+    "war": -0.05070174658882154
   },
   {
     "year": 2026,
@@ -789,7 +876,8 @@
     "player_id": "34008",
     "player_name": "Alec Pierce",
     "position": "WR",
-    "war": -0.019908654883963206
+    "bye_week": 13,
+    "war": -0.01990865488396315
   },
   {
     "year": 2026,
@@ -798,7 +886,8 @@
     "player_id": "40051",
     "player_name": "Quentin Johnston",
     "position": "WR",
-    "war": -0.11566477654405305
+    "bye_week": 7,
+    "war": -0.11566477654405294
   },
   {
     "year": 2026,
@@ -807,7 +896,8 @@
     "player_id": "40900",
     "player_name": "Caleb Williams",
     "position": "QB",
-    "war": 0.18446539608377027
+    "bye_week": 10,
+    "war": 0.18446539608377033
   },
   {
     "year": 2026,
@@ -816,7 +906,8 @@
     "player_id": "40926",
     "player_name": "Jonathon Brooks",
     "position": "RB",
-    "war": -0.007445064515735511
+    "bye_week": 5,
+    "war": -0.0074450645157353446
   },
   {
     "year": 2026,
@@ -825,7 +916,8 @@
     "player_id": "40042",
     "player_name": "Jordan Addison",
     "position": "WR",
-    "war": 0.06690193568873837
+    "bye_week": 6,
+    "war": 0.06690193568873853
   },
   {
     "year": 2026,
@@ -834,7 +926,8 @@
     "player_id": "31010",
     "player_name": "Courtland Sutton",
     "position": "WR",
-    "war": -0.08750975105858416
+    "bye_week": 10,
+    "war": -0.08750975105858394
   },
   {
     "year": 2026,
@@ -843,7 +936,8 @@
     "player_id": "29369",
     "player_name": "Dak Prescott",
     "position": "QB",
-    "war": 0.2617972790464475
+    "bye_week": 14,
+    "war": 0.2617972790464477
   },
   {
     "year": 2026,
@@ -852,7 +946,8 @@
     "player_id": "33389",
     "player_name": "Trevor Lawrence",
     "position": "QB",
-    "war": 0.18198154745529155
+    "bye_week": 7,
+    "war": 0.1819815474552915
   },
   {
     "year": 2026,
@@ -861,7 +956,8 @@
     "player_id": "28534",
     "player_name": "Stefon Diggs",
     "position": "WR",
-    "war": 0.3001914010560152
+    "bye_week": 7,
+    "war": 0.3001914010560154
   },
   {
     "year": 2026,
@@ -870,7 +966,8 @@
     "player_id": "33538",
     "player_name": "Kenny Gainwell",
     "position": "RB",
-    "war": 0.022764450461320862
+    "bye_week": 10,
+    "war": 0.02276445046132114
   },
   {
     "year": 2026,
@@ -879,7 +976,8 @@
     "player_id": "26686",
     "player_name": "Travis Kelce",
     "position": "TE",
-    "war": 0.3414528315772604
+    "bye_week": 5,
+    "war": 0.3414528315772603
   },
   {
     "year": 2026,
@@ -888,7 +986,8 @@
     "player_id": "41845",
     "player_name": "RJ Harvey",
     "position": "RB",
-    "war": 0.16984562203470033
+    "bye_week": 10,
+    "war": 0.16984562203470072
   },
   {
     "year": 2026,
@@ -897,7 +996,8 @@
     "player_id": "34047",
     "player_name": "Rachaad White",
     "position": "RB",
-    "war": 0.15693002474637524
+    "bye_week": 7,
+    "war": 0.1569300247463754
   },
   {
     "year": 2026,
@@ -906,6 +1006,7 @@
     "player_id": "32704",
     "player_name": "Michael Pittman Jr.",
     "position": "WR",
+    "bye_week": 9,
     "war": -0.13975561718279456
   },
   {
@@ -915,7 +1016,8 @@
     "player_id": "42025",
     "player_name": "Kyle Monangai",
     "position": "RB",
-    "war": 0.46792224093896334
+    "bye_week": 10,
+    "war": 0.4679222409389635
   },
   {
     "year": 2026,
@@ -924,7 +1026,8 @@
     "player_id": "40063",
     "player_name": "Jayden Reed",
     "position": "WR",
-    "war": -0.08837881038325884
+    "bye_week": 11,
+    "war": -0.08837881038325873
   },
   {
     "year": 2026,
@@ -933,7 +1036,8 @@
     "player_id": "34320",
     "player_name": "Jordan Mason",
     "position": "RB",
-    "war": 0.08203018646152743
+    "bye_week": 6,
+    "war": 0.08203018646152749
   },
   {
     "year": 2026,
@@ -942,6 +1046,7 @@
     "player_id": "40819",
     "player_name": "Brandon Aubrey",
     "position": "K",
+    "bye_week": 14,
     "war": 0.13349636709485324
   },
   {
@@ -951,7 +1056,8 @@
     "player_id": "42642",
     "player_name": "Makai Lemon",
     "position": "WR",
-    "war": -0.11248023859803935
+    "bye_week": 10,
+    "war": -0.11248023859803907
   },
   {
     "year": 2026,
@@ -960,7 +1066,8 @@
     "player_id": "41810",
     "player_name": "Jaxson Dart",
     "position": "QB",
-    "war": -0.02176873806480817
+    "bye_week": 8,
+    "war": -0.021768738064808224
   },
   {
     "year": 2026,
@@ -969,7 +1076,8 @@
     "player_id": "30295",
     "player_name": "Aaron Jones Sr.",
     "position": "RB",
-    "war": 0.5396506828646699
+    "bye_week": 6,
+    "war": 0.5396506828646701
   },
   {
     "year": 2026,
@@ -978,7 +1086,8 @@
     "player_id": "42010",
     "player_name": "Jacory Croskey-Merritt",
     "position": "RB",
-    "war": 0.23658402127069772
+    "bye_week": 7,
+    "war": 0.2365840212706979
   },
   {
     "year": 2026,
@@ -987,7 +1096,8 @@
     "player_id": "41808",
     "player_name": "Matthew Golden",
     "position": "WR",
-    "war": 0.5201992388265153
+    "bye_week": 11,
+    "war": 0.5201992388265155
   },
   {
     "year": 2026,
@@ -996,7 +1106,8 @@
     "player_id": "34659",
     "player_name": "Rashid Shaheed",
     "position": "WR",
-    "war": -0.07621481963973398
+    "bye_week": 11,
+    "war": -0.07621481963973381
   },
   {
     "year": 2026,
@@ -1005,7 +1116,8 @@
     "player_id": "32231",
     "player_name": "Jakobi Meyers",
     "position": "WR",
-    "war": 0.15050886131131141
+    "bye_week": 7,
+    "war": 0.15050886131131158
   },
   {
     "year": 2026,
@@ -1014,7 +1126,8 @@
     "player_id": "41902",
     "player_name": "Woody Marks",
     "position": "RB",
-    "war": 0.2165302293118223
+    "bye_week": 8,
+    "war": 0.21653022931182248
   },
   {
     "year": 2026,
@@ -1023,7 +1136,8 @@
     "player_id": "41048",
     "player_name": "Tyrone Tracy Jr.",
     "position": "RB",
-    "war": -0.17315030557875416
+    "bye_week": 8,
+    "war": -0.17315030557875394
   },
   {
     "year": 2026,
@@ -1032,7 +1146,8 @@
     "player_id": "40877",
     "player_name": "Xavier Worthy",
     "position": "WR",
-    "war": 0.06495048317795998
+    "bye_week": 5,
+    "war": 0.06495048317796015
   },
   {
     "year": 2026,
@@ -1041,7 +1156,8 @@
     "player_id": "40231",
     "player_name": "Chris Rodriguez Jr.",
     "position": "RB",
-    "war": 0.00228000634228831
+    "bye_week": 7,
+    "war": 0.002280006342288532
   },
   {
     "year": 2026,
@@ -1050,7 +1166,8 @@
     "player_id": "33998",
     "player_name": "Wan'Dale Robinson",
     "position": "WR",
-    "war": 0.20242283801136807
+    "bye_week": 9,
+    "war": 0.20242283801136823
   },
   {
     "year": 2026,
@@ -1059,7 +1176,8 @@
     "player_id": "40641",
     "player_name": "Keaton Mitchell",
     "position": "RB",
-    "war": 0.1412333252354971
+    "bye_week": 7,
+    "war": 0.1412333252354973
   },
   {
     "year": 2026,
@@ -1068,6 +1186,7 @@
     "player_id": "31019",
     "player_name": "Dallas Goedert",
     "position": "TE",
+    "bye_week": 10,
     "war": 0.20234730823589614
   },
   {
@@ -1077,6 +1196,7 @@
     "player_id": "100034",
     "player_name": "Texans",
     "position": "DEF",
+    "bye_week": 8,
     "war": 0.10907985665061326
   },
   {
@@ -1086,6 +1206,7 @@
     "player_id": "40097",
     "player_name": "Tank Dell",
     "position": "WR",
+    "bye_week": 8,
     "war": 0.0
   },
   {
@@ -1095,7 +1216,8 @@
     "player_id": "34088",
     "player_name": "Romeo Doubs",
     "position": "WR",
-    "war": 0.14716045827277485
+    "bye_week": 11,
+    "war": 0.14716045827277507
   },
   {
     "year": 2026,
@@ -1104,7 +1226,8 @@
     "player_id": "34107",
     "player_name": "Tyler Allgeier",
     "position": "RB",
-    "war": 0.11125083471452207
+    "bye_week": 14,
+    "war": 0.11125083471452224
   },
   {
     "year": 2026,
@@ -1113,7 +1236,8 @@
     "player_id": "41293",
     "player_name": "Jalen Coker",
     "position": "WR",
-    "war": 0.3639290548294738
+    "bye_week": 5,
+    "war": 0.3639290548294739
   },
   {
     "year": 2026,
@@ -1122,7 +1246,8 @@
     "player_id": "42646",
     "player_name": "KC Concepcion Jr.",
     "position": "WR",
-    "war": -0.03508235382633873
+    "bye_week": 11,
+    "war": -0.03508235382633862
   },
   {
     "year": 2026,
@@ -1131,7 +1256,8 @@
     "player_id": "31056",
     "player_name": "Mark Andrews",
     "position": "TE",
-    "war": 0.1652893008071164
+    "bye_week": 13,
+    "war": 0.16528930080711635
   },
   {
     "year": 2026,
@@ -1140,7 +1266,8 @@
     "player_id": "34104",
     "player_name": "Khalil Shakir",
     "position": "WR",
-    "war": 0.08118569882967769
+    "bye_week": 7,
+    "war": 0.0811856988296778
   },
   {
     "year": 2026,
@@ -1149,7 +1276,8 @@
     "player_id": "30259",
     "player_name": "George Kittle",
     "position": "TE",
-    "war": 0.4992651192649911
+    "bye_week": 8,
+    "war": 0.4992651192649909
   },
   {
     "year": 2026,
@@ -1158,6 +1286,7 @@
     "player_id": "34095",
     "player_name": "Isaiah Likely",
     "position": "TE",
+    "bye_week": 8,
     "war": 0.6467612559074303
   },
   {
@@ -1167,6 +1296,7 @@
     "player_id": "41819",
     "player_name": "Jayden Higgins",
     "position": "WR",
+    "bye_week": 8,
     "war": 0.0
   },
   {
@@ -1176,7 +1306,8 @@
     "player_id": "30180",
     "player_name": "Alvin Kamara",
     "position": "RB",
-    "war": 0.21226510196985726
+    "bye_week": 8,
+    "war": 0.21226510196985743
   },
   {
     "year": 2026,
@@ -1185,6 +1316,7 @@
     "player_id": "34085",
     "player_name": "Jake Ferguson",
     "position": "TE",
+    "bye_week": 14,
     "war": 0.13544864099077597
   },
   {
@@ -1194,6 +1326,7 @@
     "player_id": "40075",
     "player_name": "Zach Charbonnet",
     "position": "RB",
+    "bye_week": 11,
     "war": 0.0
   },
   {
@@ -1203,6 +1336,7 @@
     "player_id": "40954",
     "player_name": "Jalen McMillan",
     "position": "WR",
+    "bye_week": 10,
     "war": 0.0
   },
   {
@@ -1212,7 +1346,8 @@
     "player_id": "34147",
     "player_name": "Jalen Nailor",
     "position": "WR",
-    "war": -0.20627440534365016
+    "bye_week": 13,
+    "war": -0.20627440534365
   },
   {
     "year": 2026,
@@ -1221,6 +1356,7 @@
     "player_id": "34207",
     "player_name": "Isiah Pacheco",
     "position": "RB",
+    "bye_week": 6,
     "war": 0.0
   },
   {
@@ -1230,7 +1366,8 @@
     "player_id": "31868",
     "player_name": "Deebo Samuel Sr.",
     "position": "WR",
-    "war": 0.3076773389796167
+    "bye_week": 8,
+    "war": 0.3076773389796169
   },
   {
     "year": 2026,
@@ -1239,7 +1376,8 @@
     "player_id": "42697",
     "player_name": "Caleb Douglas",
     "position": "WR",
-    "war": 0.05268016305555612
+    "bye_week": 6,
+    "war": 0.05268016305555623
   },
   {
     "year": 2026,
@@ -1248,7 +1386,8 @@
     "player_id": "40114",
     "player_name": "Tre Tucker",
     "position": "WR",
-    "war": 0.20157399994725334
+    "bye_week": 13,
+    "war": 0.2015739999472535
   },
   {
     "year": 2026,
@@ -1257,7 +1396,8 @@
     "player_id": "34218",
     "player_name": "Brock Purdy",
     "position": "QB",
-    "war": 0.5228039731526508
+    "bye_week": 8,
+    "war": 0.522803973152651
   },
   {
     "year": 2026,
@@ -1266,7 +1406,8 @@
     "player_id": "40119",
     "player_name": "Tyjae Spears",
     "position": "RB",
-    "war": 0.006992788813847961
+    "bye_week": 9,
+    "war": 0.0069927888138481276
   },
   {
     "year": 2026,
@@ -1275,7 +1416,8 @@
     "player_id": "40095",
     "player_name": "Tank Bigsby",
     "position": "RB",
-    "war": -0.028826557591224433
+    "bye_week": 10,
+    "war": -0.028826557591224267
   },
   {
     "year": 2026,
@@ -1284,7 +1426,8 @@
     "player_id": "40915",
     "player_name": "Adonai Mitchell",
     "position": "WR",
-    "war": 0.08739446195585088
+    "bye_week": 13,
+    "war": 0.08739446195585093
   },
   {
     "year": 2026,
@@ -1293,6 +1436,7 @@
     "player_id": "29792",
     "player_name": "Ka'imi Fairbairn",
     "position": "K",
+    "bye_week": 8,
     "war": 0.22885971276541428
   },
   {
@@ -1302,6 +1446,7 @@
     "player_id": "28378",
     "player_name": "Jason Myers",
     "position": "K",
+    "bye_week": 11,
     "war": 0.20145940940075768
   },
   {
@@ -1311,7 +1456,8 @@
     "player_id": "40078",
     "player_name": "Brenton Strange",
     "position": "TE",
-    "war": 0.24753995306822457
+    "bye_week": 7,
+    "war": 0.2475399530682244
   },
   {
     "year": 2026,
@@ -1320,6 +1466,7 @@
     "player_id": "34344",
     "player_name": "Cameron Dicker",
     "position": "K",
+    "bye_week": 7,
     "war": -0.03479719129740433
   },
   {
@@ -1329,7 +1476,8 @@
     "player_id": "99001",
     "player_name": "Travis Hunter",
     "position": "WR",
-    "war": -0.3576289255031333
+    "bye_week": 7,
+    "war": -0.35762892550313324
   },
   {
     "year": 2026,
@@ -1338,7 +1486,8 @@
     "player_id": "34054",
     "player_name": "Brian Robinson",
     "position": "RB",
-    "war": 0.30049175375288756
+    "bye_week": 11,
+    "war": 0.30049175375288767
   },
   {
     "year": 2026,
@@ -1347,6 +1496,7 @@
     "player_id": "40835",
     "player_name": "Jake Bates",
     "position": "K",
+    "bye_week": 6,
     "war": 0.16834716091731883
   },
   {
@@ -1356,6 +1506,7 @@
     "player_id": "41907",
     "player_name": "Dylan Sampson",
     "position": "RB",
+    "bye_week": 11,
     "war": 0.0
   },
   {
@@ -1365,7 +1516,8 @@
     "player_id": "42661",
     "player_name": "Denzel Boston",
     "position": "WR",
-    "war": 0.40844041044144835
+    "bye_week": 11,
+    "war": 0.4084404104414485
   },
   {
     "year": 2026,
@@ -1374,7 +1526,8 @@
     "player_id": "30123",
     "player_name": "Patrick Mahomes",
     "position": "QB",
-    "war": 0.3073499595408248
+    "bye_week": 5,
+    "war": 0.30734995954082495
   },
   {
     "year": 2026,
@@ -1383,7 +1536,8 @@
     "player_id": "32887",
     "player_name": "Jauan Jennings",
     "position": "WR",
-    "war": -0.2895572559611246
+    "bye_week": 6,
+    "war": -0.2895572559611245
   },
   {
     "year": 2026,
@@ -1392,6 +1546,7 @@
     "player_id": "41312",
     "player_name": "Harrison Mevis",
     "position": "K",
+    "bye_week": 11,
     "war": -0.03510454842084415
   },
   {
@@ -1401,6 +1556,7 @@
     "player_id": "42655",
     "player_name": "De'Zhaun Stribling",
     "position": "WR",
+    "bye_week": 8,
     "war": -0.08049611992910083
   },
   {
@@ -1410,7 +1566,8 @@
     "player_id": "40875",
     "player_name": "Bo Nix",
     "position": "QB",
-    "war": -0.07705732135071275
+    "bye_week": 10,
+    "war": -0.07705732135071253
   },
   {
     "year": 2026,
@@ -1419,7 +1576,8 @@
     "player_id": "42652",
     "player_name": "Omar Cooper Jr.",
     "position": "WR",
-    "war": -0.035148899073842554
+    "bye_week": 13,
+    "war": -0.0351488990738425
   },
   {
     "year": 2026,
@@ -1428,7 +1586,8 @@
     "player_id": "40980",
     "player_name": "Ray Davis",
     "position": "RB",
-    "war": -0.21249376495867156
+    "bye_week": 7,
+    "war": -0.21249376495867134
   },
   {
     "year": 2026,
@@ -1437,7 +1596,8 @@
     "player_id": "9265",
     "player_name": "Matthew Stafford",
     "position": "QB",
-    "war": 0.24443449539781154
+    "bye_week": 11,
+    "war": 0.2444344953978116
   },
   {
     "year": 2026,
@@ -1446,6 +1606,7 @@
     "player_id": "29399",
     "player_name": "Tyreek Hill",
     "position": "WR",
+    "bye_week": 6,
     "war": 0.0
   },
   {
@@ -1455,6 +1616,7 @@
     "player_id": "100007",
     "player_name": "Broncos",
     "position": "DEF",
+    "bye_week": 10,
     "war": 0.16881785489929052
   },
   {
@@ -1464,6 +1626,7 @@
     "player_id": "100026",
     "player_name": "Seahawks",
     "position": "DEF",
+    "bye_week": 11,
     "war": 0.22947556543434144
   },
   {
@@ -1473,6 +1636,7 @@
     "player_id": "100014",
     "player_name": "Rams",
     "position": "DEF",
+    "bye_week": 11,
     "war": -0.03582032031952165
   },
   {
@@ -1482,7 +1646,8 @@
     "player_id": "41087",
     "player_name": "Ryan Flournoy",
     "position": "WR",
-    "war": 0.006143120602485841
+    "bye_week": 14,
+    "war": 0.0061431206024861185
   },
   {
     "year": 2026,
@@ -1491,7 +1656,8 @@
     "player_id": "41935",
     "player_name": "Jaydon Blue",
     "position": "RB",
-    "war": -0.11329780174842075
+    "bye_week": 10,
+    "war": -0.11329780174842063
   },
   {
     "year": 2026,
@@ -1500,6 +1666,7 @@
     "player_id": "41062",
     "player_name": "Cam Little",
     "position": "K",
+    "bye_week": 7,
     "war": 0.1572347758922084
   },
   {
@@ -1509,7 +1676,8 @@
     "player_id": "40971",
     "player_name": "MarShawn Lloyd",
     "position": "RB",
-    "war": 0.2115741302937465
+    "bye_week": 11,
+    "war": 0.21157413029374655
   },
   {
     "year": 2026,
@@ -1518,6 +1686,7 @@
     "player_id": "42638",
     "player_name": "Kenyon Sadiq",
     "position": "TE",
+    "bye_week": 13,
     "war": 0.10941754790177044
   },
   {
@@ -1527,7 +1696,8 @@
     "player_id": "29269",
     "player_name": "Hunter Henry",
     "position": "TE",
-    "war": 0.10616343097475273
+    "bye_week": 11,
+    "war": 0.10616343097475245
   },
   {
     "year": 2026,
@@ -1536,7 +1706,8 @@
     "player_id": "32685",
     "player_name": "Jerry Jeudy",
     "position": "WR",
-    "war": -0.21860223392804362
+    "bye_week": 11,
+    "war": -0.2186022339280435
   },
   {
     "year": 2026,
@@ -1545,6 +1716,7 @@
     "player_id": "29235",
     "player_name": "Jared Goff",
     "position": "QB",
+    "bye_week": 6,
     "war": 0.4796424485612259
   },
   {
@@ -1554,6 +1726,7 @@
     "player_id": "33113",
     "player_name": "Juwan Johnson",
     "position": "TE",
+    "bye_week": 8,
     "war": 0.42924559858195455
   },
   {
@@ -1563,6 +1736,7 @@
     "player_id": "41865",
     "player_name": "Isaac TeSlaa",
     "position": "WR",
+    "bye_week": 6,
     "war": -0.08006956594216746
   },
   {
@@ -1572,7 +1746,8 @@
     "player_id": "42730",
     "player_name": "Jonah Coleman",
     "position": "RB",
-    "war": 0.11711059273565305
+    "bye_week": 10,
+    "war": 0.11711059273565316
   },
   {
     "year": 2026,
@@ -1581,7 +1756,8 @@
     "player_id": "41840",
     "player_name": "Tre' Harris",
     "position": "WR",
-    "war": 0.03155953195239064
+    "bye_week": 7,
+    "war": 0.031559531952390696
   },
   {
     "year": 2026,
@@ -1590,6 +1766,7 @@
     "player_id": "41951",
     "player_name": "Oronde Gadsden",
     "position": "TE",
+    "bye_week": 7,
     "war": -0.0704731809605455
   },
   {
@@ -1599,7 +1776,8 @@
     "player_id": "40981",
     "player_name": "Braelon Allen",
     "position": "RB",
-    "war": 0.232758462404918
+    "bye_week": 13,
+    "war": 0.23275846240491815
   },
   {
     "year": 2026,
@@ -1608,7 +1786,8 @@
     "player_id": "34099",
     "player_name": "Chig Okonkwo",
     "position": "TE",
-    "war": -0.09177816544775125
+    "bye_week": 7,
+    "war": -0.0917781654477513
   },
   {
     "year": 2026,
@@ -1617,6 +1796,7 @@
     "player_id": "30218",
     "player_name": "James Conner",
     "position": "RB",
+    "bye_week": 14,
     "war": 0.0
   },
   {
@@ -1626,6 +1806,7 @@
     "player_id": "31482",
     "player_name": "Eddy Pineiro",
     "position": "K",
+    "bye_week": 8,
     "war": 0.024353937287416028
   },
   {
@@ -1635,6 +1816,7 @@
     "player_id": "100017",
     "player_name": "Patriots",
     "position": "DEF",
+    "bye_week": 11,
     "war": 0.14098649039035127
   },
   {
@@ -1644,7 +1826,8 @@
     "player_id": "42744",
     "player_name": "Mike Washington Jr.",
     "position": "RB",
-    "war": -0.04414234786004356
+    "bye_week": 13,
+    "war": -0.044142347860043285
   },
   {
     "year": 2026,
@@ -1653,6 +1836,7 @@
     "player_id": "100024",
     "player_name": "Chargers",
     "position": "DEF",
+    "bye_week": 7,
     "war": 0.01192668209649983
   },
   {
@@ -1662,6 +1846,7 @@
     "player_id": "100021",
     "player_name": "Eagles",
     "position": "DEF",
+    "bye_week": 10,
     "war": -0.10819987166499762
   },
   {
@@ -1671,6 +1856,7 @@
     "player_id": "100016",
     "player_name": "Vikings",
     "position": "DEF",
+    "bye_week": 6,
     "war": 0.43180669740129524
   },
   {
@@ -1680,7 +1866,8 @@
     "player_id": "32696",
     "player_name": "Jordan Love",
     "position": "QB",
-    "war": 0.21880543249041878
+    "bye_week": 11,
+    "war": 0.21880543249041862
   },
   {
     "year": 2026,
@@ -1689,6 +1876,7 @@
     "player_id": "28188",
     "player_name": "Chris Boswell",
     "position": "K",
+    "bye_week": 9,
     "war": 0.10916362526812662
   },
   {
@@ -1698,7 +1886,8 @@
     "player_id": "42669",
     "player_name": "Germie Bernard",
     "position": "WR",
-    "war": -0.08462331760195896
+    "bye_week": 9,
+    "war": -0.08462331760195879
   },
   {
     "year": 2026,
@@ -1707,7 +1896,8 @@
     "player_id": "30973",
     "player_name": "Sam Darnold",
     "position": "QB",
-    "war": -0.05298595718751331
+    "bye_week": 11,
+    "war": -0.052985957187513144
   },
   {
     "year": 2026,
@@ -1716,6 +1906,7 @@
     "player_id": "41988",
     "player_name": "Tyler Loop",
     "position": "K",
+    "bye_week": 13,
     "war": 0.22962594841626566
   },
   {
@@ -1725,7 +1916,8 @@
     "player_id": "42796",
     "player_name": "Emmett Johnson",
     "position": "RB",
-    "war": -0.021489709899498333
+    "bye_week": 5,
+    "war": -0.02148970989949822
   },
   {
     "year": 2026,
@@ -1734,7 +1926,8 @@
     "player_id": "31840",
     "player_name": "T.J. Hockenson",
     "position": "TE",
-    "war": 0.2297783713741962
+    "bye_week": 6,
+    "war": 0.22977837137419616
   },
   {
     "year": 2026,
@@ -1743,7 +1936,8 @@
     "player_id": "41969",
     "player_name": "Ollie Gordon II",
     "position": "RB",
-    "war": 0.28079571959263283
+    "bye_week": 6,
+    "war": 0.2807957195926332
   },
   {
     "year": 2026,
@@ -1752,6 +1946,7 @@
     "player_id": "100008",
     "player_name": "Lions",
     "position": "DEF",
+    "bye_week": 6,
     "war": -0.01074686677763581
   },
   {
@@ -1761,7 +1956,8 @@
     "player_id": "42712",
     "player_name": "Kaelon Black",
     "position": "RB",
-    "war": -0.11227865569869527
+    "bye_week": 8,
+    "war": -0.11227865569869516
   },
   {
     "year": 2026,
@@ -1770,7 +1966,8 @@
     "player_id": "32843",
     "player_name": "Darnell Mooney",
     "position": "WR",
-    "war": -0.17665115716438945
+    "bye_week": 8,
+    "war": -0.17665115716438928
   },
   {
     "year": 2026,
@@ -1779,7 +1976,8 @@
     "player_id": "30971",
     "player_name": "Baker Mayfield",
     "position": "QB",
-    "war": -0.0943293840495002
+    "bye_week": 10,
+    "war": -0.09432938404950014
   },
   {
     "year": 2026,
@@ -1788,6 +1986,7 @@
     "player_id": "41093",
     "player_name": "Will Reichard",
     "position": "K",
+    "bye_week": 6,
     "war": 0.3969199500703534
   },
   {
@@ -1797,6 +1996,7 @@
     "player_id": "100033",
     "player_name": "Ravens",
     "position": "DEF",
+    "bye_week": 13,
     "war": 9.268873013351664e-05
   },
   {
@@ -1806,7 +2006,8 @@
     "player_id": "41825",
     "player_name": "Tyler Shough",
     "position": "QB",
-    "war": 0.1911914630317273
+    "bye_week": 8,
+    "war": 0.19119146303172752
   },
   {
     "year": 2026,
@@ -1815,7 +2016,8 @@
     "player_id": "41052",
     "player_name": "Kimani Vidal",
     "position": "RB",
-    "war": 0.08921942745332567
+    "bye_week": 7,
+    "war": 0.08921942745332584
   },
   {
     "year": 2026,
@@ -1824,7 +2026,8 @@
     "player_id": "30227",
     "player_name": "Samaje Perine",
     "position": "RB",
-    "war": 0.06498084595351317
+    "bye_week": 6,
+    "war": 0.06498084595351361
   },
   {
     "year": 2026,
@@ -1833,7 +2036,8 @@
     "player_id": "31945",
     "player_name": "Justice Hill",
     "position": "RB",
-    "war": 0.003617761347019688
+    "bye_week": 13,
+    "war": 0.0036177613470198544
   },
   {
     "year": 2026,
@@ -1842,6 +2046,7 @@
     "player_id": "31833",
     "player_name": "Kyler Murray",
     "position": "QB",
+    "bye_week": 6,
     "war": -0.20840586734922217
   },
   {
@@ -1851,6 +2056,7 @@
     "player_id": "100023",
     "player_name": "Steelers",
     "position": "DEF",
+    "bye_week": 9,
     "war": 0.15516770300881605
   },
   {
@@ -1860,6 +2066,7 @@
     "player_id": "33537",
     "player_name": "Evan McPherson",
     "position": "K",
+    "bye_week": 6,
     "war": 0.2285354153279584
   },
   {
@@ -1869,7 +2076,8 @@
     "player_id": "40707",
     "player_name": "Emanuel Wilson",
     "position": "RB",
-    "war": 0.31407090069044763
+    "bye_week": 11,
+    "war": 0.3140709006904478
   },
   {
     "year": 2026,
@@ -1878,7 +2086,8 @@
     "player_id": "34036",
     "player_name": "Greg Dulcich",
     "position": "TE",
-    "war": -0.02483544011355454
+    "bye_week": 6,
+    "war": -0.024835440113554652
   },
   {
     "year": 2026,
@@ -1887,6 +2096,7 @@
     "player_id": "43001",
     "player_name": "Diego Pavia",
     "position": "QB",
+    "bye_week": 13,
     "war": 0.0
   }
 ]
