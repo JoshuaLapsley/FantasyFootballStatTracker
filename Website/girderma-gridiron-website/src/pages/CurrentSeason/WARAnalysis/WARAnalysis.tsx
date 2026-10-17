@@ -44,20 +44,13 @@ const WARAnalysis: React.FC = () => {
         ];
     }, []);
 
-    const filteredPlayers = useMemo(() => {
-        const searchTerm = search.trim().toLowerCase();
-
+    // Filter and sort players without applying the text search.
+    // These positions determine each player's rank.
+    const rankedPlayers = useMemo(() => {
         return draftValues
-            .filter(player => {
-                const matchesPosition =
-                    position === 'All' || player.position === position;
-
-                const matchesSearch =
-                    player.player_name.toLowerCase().includes(searchTerm) ||
-                    player.drafted_by.toLowerCase().includes(searchTerm);
-
-                return matchesPosition && matchesSearch;
-            })
+            .filter(player =>
+                position === 'All' || player.position === position
+            )
             .sort((a, b) => {
                 const difference = a[sortMetric] - b[sortMetric];
 
@@ -65,7 +58,33 @@ const WARAnalysis: React.FC = () => {
                     ? difference
                     : -difference;
             });
-    }, [position, sortMetric, sortDirection, search]);
+    }, [position, sortMetric, sortDirection]);
+
+    // Create a rank lookup so text search never changes a player's rank.
+    const playerRanks = useMemo(() => {
+        const ranks = new Map<string, number>();
+
+        rankedPlayers.forEach((player, index) => {
+            ranks.set(
+                `${player.player_id}-${player.pick}`,
+                index + 1
+            );
+        });
+
+        return ranks;
+    }, [rankedPlayers]);
+
+    // Apply text search only to the displayed rows.
+    const filteredPlayers = useMemo(() => {
+        const searchTerm = search.trim().toLowerCase();
+
+        return rankedPlayers.filter(player => {
+            return (
+                player.player_name.toLowerCase().includes(searchTerm) ||
+                player.drafted_by.toLowerCase().includes(searchTerm)
+            );
+        });
+    }, [rankedPlayers, search]);
 
     const formatWar = (value: number) => value.toFixed(3);
 
@@ -74,7 +93,8 @@ const WARAnalysis: React.FC = () => {
             <h2>WAR Analysis</h2>
 
             <p className="draft-value-table__description">
-                Filter On WAR metrics (NOTE: This is only taking players who were drafted into account, in the future this will account for all players.)
+                Filter on WAR metrics. (NOTE: This currently only includes
+                drafted players; future versions will account for all players.)
             </p>
 
             <div className="draft-value-table__filters">
@@ -134,14 +154,14 @@ const WARAnalysis: React.FC = () => {
             </div>
 
             <div className="draft-value-table__result-count">
-                Showing {filteredPlayers.length} of {draftValues.length} picks
+                Showing {filteredPlayers.length} of {rankedPlayers.length} picks
             </div>
 
             <div className="draft-value-table__scroll">
                 <table>
                     <thead>
                         <tr>
-                            <th>#</th>
+                            <th>Rank</th>
                             <th>Pick</th>
                             <th>Round</th>
                             <th>Player</th>
@@ -154,36 +174,42 @@ const WARAnalysis: React.FC = () => {
                     </thead>
 
                     <tbody>
-                        {filteredPlayers.map((player, index) => (
-                            <tr
-                                key={`${player.player_id}-${player.pick}-${index}`}
-                            >
-                                <td>{index + 1}</td>
-                                <td>{player.pick}</td>
-                                <td>{player.round}</td>
+                        {filteredPlayers.map(player => {
+                            const rank = playerRanks.get(
+                                `${player.player_id}-${player.pick}`
+                            );
 
-                                <td className="draft-value-table__player">
-                                    {player.player_name}
-                                </td>
-
-                                <td>{player.position}</td>
-                                <td>{player.drafted_by}</td>
-                                <td>{formatWar(player.actual_war)}</td>
-                                <td>{formatWar(player.expected_war)}</td>
-
-                                <td
-                                    className={
-                                        player.surplus_war > 0
-                                            ? 'draft-value-table__positive'
-                                            : player.surplus_war < 0
-                                                ? 'draft-value-table__negative'
-                                                : ''
-                                    }
+                            return (
+                                <tr
+                                    key={`${player.player_id}-${player.pick}`}
                                 >
-                                    {formatWar(player.surplus_war)}
-                                </td>
-                            </tr>
-                        ))}
+                                    <td>{rank ?? '-'}</td>
+                                    <td>{player.pick}</td>
+                                    <td>{player.round}</td>
+
+                                    <td className="draft-value-table__player">
+                                        {player.player_name}
+                                    </td>
+
+                                    <td>{player.position}</td>
+                                    <td>{player.drafted_by}</td>
+                                    <td>{formatWar(player.actual_war)}</td>
+                                    <td>{formatWar(player.expected_war)}</td>
+
+                                    <td
+                                        className={
+                                            player.surplus_war > 0
+                                                ? 'draft-value-table__positive'
+                                                : player.surplus_war < 0
+                                                    ? 'draft-value-table__negative'
+                                                    : ''
+                                        }
+                                    >
+                                        {formatWar(player.surplus_war)}
+                                    </td>
+                                </tr>
+                            );
+                        })}
 
                         {filteredPlayers.length === 0 && (
                             <tr>
