@@ -1,0 +1,50 @@
+{
+  "REG_SEASON_WIN_LEVERAGE": 0.04358222347894562,
+  "QF_LEVERAGE": 0.250925,
+  "SF_LEVERAGE": 0.5,
+  "FINAL_LEVERAGE": 1.0,
+  "diagnostics": {
+    "n_simulations": 20000,
+    "dP_bye_dWin": {
+      "intercept": -26.190045055963456,
+      "coef": 2.8697350096269885,
+      "band_low": 5,
+      "band_high": 9,
+      "band_avg_derivative": 0.16119909917593606
+    },
+    "dP_qfplus_dWin": {
+      "intercept": -27.747215318769825,
+      "coef": 3.7838248035033244,
+      "band_low": 5,
+      "band_high": 9,
+      "band_avg_derivative": 0.188550362315913
+    },
+    "tier_champion_rate": {
+      "bye": 0.249075,
+      "qf": 0.1254625,
+      "no_playoff": 0.0
+    },
+    "bye_value_over_qf": 0.12361249999999999,
+    "qf_value_over_none": 0.1254625,
+    "round_leverage": {
+      "qf": {
+        "p_champion_if_win": 0.250925,
+        "p_champion_if_lose": 0.0,
+        "leverage": 0.250925,
+        "n_games": 40000
+      },
+      "sf": {
+        "p_champion_if_win": 0.5,
+        "p_champion_if_lose": 0.0,
+        "leverage": 0.5,
+        "n_games": 40000
+      },
+      "final": {
+        "p_champion_if_win": 1.0,
+        "p_champion_if_lose": 0.0,
+        "leverage": 1.0,
+        "n_games": 20000
+      }
+    }
+  }
+}
