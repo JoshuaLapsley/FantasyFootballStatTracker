@@ -14,10 +14,10 @@ players):
 
   For every week from the trade's "freeze week" (the first week the
   trade could actually have been in effect for -- see find_freeze_week:
-  the trade must have cleared before that week's FIRST GAME kicked off
-  (approximated as that week's Thursday), AND Yahoo's own roster
-  snapshot for that week must confirm both sides already have what
-  they received) through the most recently completed week:
+  the trade must have cleared on or before that week's FRIDAY
+  (week_start + 3 days), AND Yahoo's own roster snapshot for that week
+  must confirm both sides already have what they received) through the
+  most recently completed week:
 
     team A's real lineup      = team A's actual roster that week
                                  (includes the player(s) received)
@@ -164,13 +164,20 @@ YEAR = 2026
 LEAGUE_ID = "470.l.205662"  # Girderma Gridiron, 2026 season -- update yearly
 
 PYTHON_DATA_DIR = Path(SCRIPT_DIR) / ".."
+
+WEBSITE_DIR = (
+    Path(SCRIPT_DIR) / ".." / ".." / "Website" / "girderma-gridiron-website"
+    / "src" / "league_stats_output" / "CurrentSeason"
+).resolve()
+
+
 DRAFT_DATA_DIR = PYTHON_DATA_DIR / "draftData"
 OAUTH_FILE = str(PYTHON_DATA_DIR / "oauth2.json")
 
 PROJECTIONS_DIR = Path(SIMULATE_SEASON_DIR) / "projections"
 PROJECTIONS_HISTORICAL_DIR = Path(SIMULATE_SEASON_DIR) / "projections_historical"
 
-OUTPUT_PATH = DRAFT_DATA_DIR / f"trade_evaluator_{YEAR}.json"
+OUTPUT_PATH = WEBSITE_DIR / f"trade_evaluator_{YEAR}.json"
 
 
 # --------------------------------------------------------------------------
@@ -322,45 +329,40 @@ def group_trade_by_side(parsed_trade: dict) -> dict:
 
 
 # --------------------------------------------------------------------------
-# WEEK KICKOFF DATES (for timestamp-based freeze-week detection)
+# WEEK TRADE CUTOFF DATES (for timestamp-based freeze-week detection)
 # --------------------------------------------------------------------------
-_week_start_date_cache = {}
+_week_cutoff_date_cache = {}
 
 # Yahoo's own week_start/week_end (from league.matchups()) is just the
-# calendar date range (Tuesday-to-Monday) a fantasy week spans -- NOT
-# when that week's games actually start. Real NFL weeks (almost) always
-# kick off with a Thursday night game, 2 days after Yahoo's Tuesday
-# week_start. Verified against the real 2026 schedule: week 5's
-# week_start is Tuesday 2026-10-06 and its real Thursday Night Football
-# game was 2026-10-08 (week_start + 2 days); week 6's week_start is
-# 2026-10-13 and its TNF game was 2026-10-15, same +2 day offset.
-# (Sources: fbschedules.com and usatoday.com 2026 TNF schedules.)
+# calendar date range (Tuesday-to-Monday) a fantasy week spans. A trade
+# that clears on or before the FRIDAY of that week (week_start + 3 days)
+# is treated as in effect for that week; a trade clearing Saturday or
+# later rolls to the following week. (This is a league-defined cutoff,
+# deliberately later than the Thursday-night kickoff -- trades through
+# Friday count for that week.)
 # Week 1 is the one known exception most seasons (a Wednesday
-# week_start, not Tuesday, e.g. due to an international/早 opener) --
+# week_start, not Tuesday, e.g. due to an international opener) --
 # not relevant here since no trade in this league has ever happened in
 # week 1, but flagged in case that changes.
-FIRST_KICKOFF_OFFSET_DAYS = 2
+TRADE_CUTOFF_OFFSET_DAYS = 3
 
 
-def get_week_first_kickoff_date(league, week: int):
-    """Returns the approximate date of that week's FIRST game (its
-    Thursday night kickoff, i.e. week_start + 2 days) -- the actual
-    cutoff for whether a trade clearing on a given day could still
-    affect that week's lineups. A trade clearing ON this date or later
-    is too late for that week (that week's first game has already
-    kicked off or is about to); a trade clearing any day before it
-    (e.g. the Tuesday or Wednesday of that week) is still in time.
-    Cached process-wide since the schedule never changes once set."""
-    if week in _week_start_date_cache:
-        return _week_start_date_cache[week]
+def get_week_trade_cutoff_date(league, week: int):
+    """Returns the LAST date a trade can clear and still count for
+    `week` (its Friday: week_start + 3 days). A trade clearing ON this
+    date or any earlier day is evaluated starting that week; any later
+    date rolls to the following week. Cached process-wide since the
+    schedule never changes once set."""
+    if week in _week_cutoff_date_cache:
+        return _week_cutoff_date_cache[week]
     raw = league.matchups(week=week)
     scoreboard = raw["fantasy_content"]["league"][1]["scoreboard"]
     sb_key = next(k for k in scoreboard.keys() if k.isdigit())
     matchup = scoreboard[sb_key]["matchups"]["0"]["matchup"]
     week_start = datetime.strptime(matchup["week_start"], "%Y-%m-%d").date()
-    first_kickoff = week_start + timedelta(days=FIRST_KICKOFF_OFFSET_DAYS)
-    _week_start_date_cache[week] = first_kickoff
-    return first_kickoff
+    cutoff = week_start + timedelta(days=TRADE_CUTOFF_OFFSET_DAYS)
+    _week_cutoff_date_cache[week] = cutoff
+    return cutoff
 
 
 # --------------------------------------------------------------------------
@@ -372,16 +374,12 @@ def find_freeze_week(league, parsed_trade: dict, sides: dict, rosters_by_week: d
     Returns the first week in `weeks` (sorted ascending) that the trade
     could actually have been in effect for, combining two checks:
 
-      1. TIMING: the trade must have cleared strictly BEFORE that
-         week's first game kicked off (see get_week_first_kickoff_date
-         -- approximated as that week's Thursday, 2 days after Yahoo's
-         Tuesday week_start). A trade clearing on a Tuesday or
-         Wednesday of week N is still in time for week N's games; one
-         clearing Thursday or later that week is too late and the
-         freeze week becomes N+1 instead. A real-world example that
-         motivated this: trade 212 (cleared 2026-10-12, a Monday)
-         landed after week 5's Thursday kickoff (2026-10-08) -- too
-         late for week 5, so its correct freeze week is 6.
+      1. TIMING: the trade must have cleared ON OR BEFORE that week's
+         Friday (see get_week_trade_cutoff_date -- week_start + 3 days,
+         where Yahoo's week_start is a Tuesday). A trade clearing any
+         day from Tuesday through Friday of week N counts for week N;
+         one clearing Saturday or later that week rolls to N+1
+         instead.
 
       2. CONFIRMATION: Yahoo's own roster snapshot for that week must
          also show every side already in possession of what they
@@ -392,17 +390,17 @@ def find_freeze_week(league, parsed_trade: dict, sides: dict, rosters_by_week: d
     The freeze week is the later of whichever week each check settles
     on. Returns None if the TIMING check can't be satisfied within
     `weeks` at all (the trade cleared too late even for the last
-    available week -- e.g. it happened after that week's Thursday
-    kickoff, and the following week isn't complete/available yet), or
-    if the trade happened after the last week with roster-snapshot
-    data available.
+    available week -- e.g. it happened after that week's Friday cutoff,
+    and the following week isn't complete/available yet), or if the
+    trade happened after the last week with roster-snapshot data
+    available.
     """
     timestamp = parsed_trade.get("timestamp")
     timing_week = None
     if timestamp is not None:
         trade_date = datetime.fromtimestamp(timestamp, tz=timezone.utc).date()
         for week in sorted(weeks):
-            if trade_date < get_week_first_kickoff_date(league, week):
+            if trade_date <= get_week_trade_cutoff_date(league, week):
                 timing_week = week
                 break
 
@@ -422,16 +420,16 @@ def find_freeze_week(league, parsed_trade: dict, sides: dict, rosters_by_week: d
             confirmation_week = week
             break
 
-    # timing_week being None means no week in `weeks` has a kickoff
-    # date after the trade -- i.e. the trade cleared too late even for
-    # the LAST available week's games (e.g. a trade that cleared after
-    # this week's Thursday kickoff, where "this week" is still in
-    # progress and hasn't been added to `weeks` yet). That's not the
-    # same as "no timing constraint" -- it means the correct freeze
-    # week is beyond what's evaluable right now, so this trade isn't
-    # evaluable yet, regardless of what the roster snapshot already
-    # shows. Falling back to confirmation_week here would silently
-    # treat an in-progress week's trade as already frozen a week early.
+    # timing_week being None means no week in `weeks` has a cutoff date
+    # on or after the trade -- i.e. the trade cleared too late even for
+    # the LAST available week (e.g. a trade that cleared after this
+    # week's Friday cutoff, where "this week" is still in progress and
+    # hasn't been added to `weeks` yet). That's not the same as "no
+    # timing constraint" -- it means the correct freeze week is beyond
+    # what's evaluable right now, so this trade isn't evaluable yet,
+    # regardless of what the roster snapshot already shows. Falling
+    # back to confirmation_week here would silently treat an
+    # in-progress week's trade as already frozen a week early.
     if timing_week is None:
         return None
     if confirmation_week is None:
@@ -1037,8 +1035,9 @@ def evaluate_all_trades(league, force_refresh_rosters: bool = False) -> list:
         freeze_week = find_freeze_week(league, parsed, sides, rosters_by_week, all_weeks)
         if freeze_week is None:
             print(f"  \u26a0 trade {parsed['transaction_id']}: could not determine a freeze week "
-                  f"within weeks {all_weeks} (roster snapshots may not yet cover the week this "
-                  f"trade took effect) -- skipping.")
+                  f"within weeks {all_weeks} (the trade cleared after the last completed "
+                  f"week's Friday cutoff, so it first takes effect in a week that hasn't "
+                  f"finished yet) -- skipping for now.")
             continue
 
         traded_at = None
@@ -1114,7 +1113,7 @@ def print_summary(results: list) -> None:
                   f"(by week: {side['weekly_net_gain']})")
 
 
-def main():
+def run_trade_evaluator():
     parser = argparse.ArgumentParser(
         description="Evaluate the net point impact of every completed trade this season."
     )
@@ -1137,4 +1136,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    run_trade_evaluator()
