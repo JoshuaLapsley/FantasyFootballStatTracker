@@ -1,0 +1,132 @@
+
+.draft-value-table {
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    color: inherit;
+}
+
+.draft-value-table h2 {
+    margin: 0 0 8px;
+}
+
+.draft-value-table__description {
+    margin: 0 0 20px;
+    opacity: 0.8;
+}
+
+.draft-value-table__filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.draft-value-table__filters label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.draft-value-table__filters select,
+.draft-value-table__filters input {
+    min-width: 150px;
+    max-width: 100%;
+    padding: 9px 10px;
+    border: 1px solid #777;
+    border-radius: 6px;
+    background: inherit;
+    color: inherit;
+    font: inherit;
+}
+
+.draft-value-table__search {
+    flex: 1;
+    min-width: 200px;
+}
+
+.draft-value-table__search input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.draft-value-table__result-count {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.draft-value-table__scroll {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid #7775;
+    border-radius: 8px;
+}
+
+.draft-value-table__scroll table {
+    width: 100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+
+.draft-value-table__scroll th,
+.draft-value-table__scroll td {
+    padding: 11px 13px;
+    text-align: left;
+    border-bottom: 1px solid #7774;
+}
+
+.draft-value-table__scroll th {
+    position: sticky;
+    top: 0;
+    background: #333;
+    color: white;
+    font-weight: 700;
+}
+
+.draft-value-table__scroll tbody tr:hover {
+    background: #7772;
+}
+
+.draft-value-table__player {
+    font-weight: 600;
+}
+
+.draft-value-table__positive {
+    color: #249b58;
+    font-weight: 700;
+}
+
+.draft-value-table__negative {
+    color: #e05252;
+    font-weight: 700;
+}
+
+.draft-value-table__empty {
+    padding: 24px !important;
+    text-align: center !important;
+    opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+    .draft-value-table {
+        padding: 8px;
+    }
+
+    .draft-value-table__filters {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .draft-value-table__filters label,
+    .draft-value-table__filters select,
+    .draft-value-table__filters input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

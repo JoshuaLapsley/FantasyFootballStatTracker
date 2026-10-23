@@ -1,0 +1,1723 @@
+[
+  {
+    "team_key": "470.l.205662.t.8",
+    "drafted_by": "Andrew",
+    "player_id": "40030",
+    "player_name": "C.J. Stroud",
+    "position": "QB",
+    "weeks_rostered": [
+      4,
+      5,
+      6
+    ],
+    "war": 0.2777371201396295
+  },
+  {
+    "team_key": "470.l.205662.t.8",
+    "drafted_by": "Andrew",
+    "player_id": "100025",
+    "player_name": "49ers",
+    "position": "DEF",
+    "weeks_rostered": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": 0.11860768016603196
+  },
+  {
+    "team_key": "470.l.205662.t.8",
+    "drafted_by": "Andrew",
+    "player_id": "100001",
+    "player_name": "Falcons",
+    "position": "DEF",
+    "weeks_rostered": [
+      4,
+      5,
+      6
+    ],
+    "war": 0.060377082027617046
+  },
+  {
+    "team_key": "470.l.205662.t.8",
+    "drafted_by": "Andrew",
+    "player_id": "31874",
+    "player_name": "Drew Lock",
+    "position": "QB",
+    "weeks_rostered": [
+      3
+    ],
+    "war": 0.0
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "41499",
+    "player_name": "Spencer Shrader",
+    "position": "K",
+    "weeks_rostered": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": 0.5040503092621853
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "42669",
+    "player_name": "Germie Bernard",
+    "position": "WR",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.22268206025335535
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "28389",
+    "player_name": "Jameis Winston",
+    "position": "QB",
+    "weeks_rostered": [
+      5
+    ],
+    "war": 0.12931483529581767
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "100012",
+    "player_name": "Chiefs",
+    "position": "DEF",
+    "weeks_rostered": [
+      5,
+      6
+    ],
+    "war": 0.11991605809538675
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "100003",
+    "player_name": "Bears",
+    "position": "DEF",
+    "weeks_rostered": [
+      3,
+      4,
+      5
+    ],
+    "war": 0.06050203083507749
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "100005",
+    "player_name": "Browns",
+    "position": "DEF",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.04839189693838353
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "41951",
+    "player_name": "Oronde Gadsden",
+    "position": "TE",
+    "weeks_rostered": [
+      3,
+      4
+    ],
+    "war": 0.033724929916358004
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "28592",
+    "player_name": "Darren Waller",
+    "position": "TE",
+    "weeks_rostered": [
+      4
+    ],
+    "war": 0.007201025569173625
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "30218",
+    "player_name": "James Conner",
+    "position": "RB",
+    "weeks_rostered": [
+      1
+    ],
+    "war": 0.0
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "42730",
+    "player_name": "Jonah Coleman",
+    "position": "RB",
+    "weeks_rostered": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": 0.0
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "30227",
+    "player_name": "Samaje Perine",
+    "position": "RB",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.0
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "100029",
+    "player_name": "Panthers",
+    "position": "DEF",
+    "weeks_rostered": [
+      3
+    ],
+    "war": -0.012085377265831365
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "32858",
+    "player_name": "Tyler Bass",
+    "position": "K",
+    "weeks_rostered": [
+      2
+    ],
+    "war": -0.02407886044158203
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "41840",
+    "player_name": "Tre' Harris",
+    "position": "WR",
+    "weeks_rostered": [
+      5
+    ],
+    "war": -0.039840858302028326
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "41010",
+    "player_name": "Jaylen Wright",
+    "position": "RB",
+    "weeks_rostered": [
+      4
+    ],
+    "war": -0.04913544117231461
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "27548",
+    "player_name": "Brandin Cooks",
+    "position": "WR",
+    "weeks_rostered": [
+      6
+    ],
+    "war": -0.0547680000997649
+  },
+  {
+    "team_key": "470.l.205662.t.14",
+    "drafted_by": "Caleb",
+    "player_id": "31833",
+    "player_name": "Kyler Murray",
+    "position": "QB",
+    "weeks_rostered": [
+      1,
+      2,
+      3
+    ],
+    "war": -0.20619287601362324
+  },
+  {
+    "team_key": "470.l.205662.t.11",
+    "drafted_by": "Connor",
+    "player_id": "31840",
+    "player_name": "T.J. Hockenson",
+    "position": "TE",
+    "weeks_rostered": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": 0.22856109907798355
+  },
+  {
+    "team_key": "470.l.205662.t.11",
+    "drafted_by": "Connor",
+    "player_id": "40971",
+    "player_name": "MarShawn Lloyd",
+    "position": "RB",
+    "weeks_rostered": [
+      4,
+      5,
+      6
+    ],
+    "war": 0.15261196741115024
+  },
+  {
+    "team_key": "470.l.205662.t.11",
+    "drafted_by": "Connor",
+    "player_id": "32858",
+    "player_name": "Tyler Bass",
+    "position": "K",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.12024719350635149
+  },
+  {
+    "team_key": "470.l.205662.t.11",
+    "drafted_by": "Connor",
+    "player_id": "31107",
+    "player_name": "Dalton Schultz",
+    "position": "TE",
+    "weeks_rostered": [
+      5,
+      6
+    ],
+    "war": 0.015622464408461545
+  },
+  {
+    "team_key": "470.l.205662.t.11",
+    "drafted_by": "Connor",
+    "player_id": "42696",
+    "player_name": "Malachi Fields",
+    "position": "WR",
+    "weeks_rostered": [
+      3,
+      4,
+      5
+    ],
+    "war": 0.002935927327704868
+  },
+  {
+    "team_key": "470.l.205662.t.11",
+    "drafted_by": "Connor",
+    "player_id": "32704",
+    "player_name": "Michael Pittman Jr.",
+    "position": "WR",
+    "weeks_rostered": [
+      5,
+      6
+    ],
+    "war": 0.0
+  },
+  {
+    "team_key": "470.l.205662.t.11",
+    "drafted_by": "Connor",
+    "player_id": "33415",
+    "player_name": "Rashod Bateman",
+    "position": "WR",
+    "weeks_rostered": [
+      4
+    ],
+    "war": -0.004738696908841544
+  },
+  {
+    "team_key": "470.l.205662.t.11",
+    "drafted_by": "Connor",
+    "player_id": "100012",
+    "player_name": "Chiefs",
+    "position": "DEF",
+    "weeks_rostered": [
+      2,
+      3
+    ],
+    "war": -0.01182534163869059
+  },
+  {
+    "team_key": "470.l.205662.t.11",
+    "drafted_by": "Connor",
+    "player_id": "100021",
+    "player_name": "Eagles",
+    "position": "DEF",
+    "weeks_rostered": [
+      6
+    ],
+    "war": -0.036163328123956506
+  },
+  {
+    "team_key": "470.l.205662.t.11",
+    "drafted_by": "Connor",
+    "player_id": "29631",
+    "player_name": "Kalif Raymond",
+    "position": "WR",
+    "weeks_rostered": [
+      5,
+      6
+    ],
+    "war": -0.0796774302936577
+  },
+  {
+    "team_key": "470.l.205662.t.2",
+    "drafted_by": "DJ",
+    "player_id": "33443",
+    "player_name": "Pat Freiermuth",
+    "position": "TE",
+    "weeks_rostered": [
+      4,
+      5,
+      6
+    ],
+    "war": 0.20735334702404745
+  },
+  {
+    "team_key": "470.l.205662.t.2",
+    "drafted_by": "DJ",
+    "player_id": "29325",
+    "player_name": "Jacoby Brissett",
+    "position": "QB",
+    "weeks_rostered": [
+      4,
+      5,
+      6
+    ],
+    "war": 0.033543038296255046
+  },
+  {
+    "team_key": "470.l.205662.t.2",
+    "drafted_by": "DJ",
+    "player_id": "40742",
+    "player_name": "Sean Tucker",
+    "position": "RB",
+    "weeks_rostered": [
+      1
+    ],
+    "war": 0.0
+  },
+  {
+    "team_key": "470.l.205662.t.2",
+    "drafted_by": "DJ",
+    "player_id": "40030",
+    "player_name": "C.J. Stroud",
+    "position": "QB",
+    "weeks_rostered": [
+      3
+    ],
+    "war": -0.03962709921928814
+  },
+  {
+    "team_key": "470.l.205662.t.2",
+    "drafted_by": "DJ",
+    "player_id": "40224",
+    "player_name": "Kayshon Boutte",
+    "position": "WR",
+    "weeks_rostered": [
+      1
+    ],
+    "war": -0.045604643543303514
+  },
+  {
+    "team_key": "470.l.205662.t.2",
+    "drafted_by": "DJ",
+    "player_id": "42796",
+    "player_name": "Emmett Johnson",
+    "position": "RB",
+    "weeks_rostered": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": -0.07355896506012427
+  },
+  {
+    "team_key": "470.l.205662.t.2",
+    "drafted_by": "DJ",
+    "player_id": "42693",
+    "player_name": "Antonio Williams",
+    "position": "WR",
+    "weeks_rostered": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": -0.08101602661683255
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "41097",
+    "player_name": "Devaughn Vele",
+    "position": "WR",
+    "weeks_rostered": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "war": 0.3320145112308976
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "41969",
+    "player_name": "Ollie Gordon II",
+    "position": "RB",
+    "weeks_rostered": [
+      4,
+      5
+    ],
+    "war": 0.2732462884824691
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "41058",
+    "player_name": "Malik Washington",
+    "position": "WR",
+    "weeks_rostered": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": 0.18230050101273204
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "33415",
+    "player_name": "Rashod Bateman",
+    "position": "WR",
+    "weeks_rostered": [
+      2,
+      3
+    ],
+    "war": 0.1622922192819657
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "30551",
+    "player_name": "Kendrick Bourne",
+    "position": "WR",
+    "weeks_rostered": [
+      5,
+      6
+    ],
+    "war": 0.09225313322778855
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "30973",
+    "player_name": "Sam Darnold",
+    "position": "QB",
+    "weeks_rostered": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": 0.08730681784061911
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "40065",
+    "player_name": "Michael Mayer",
+    "position": "TE",
+    "weeks_rostered": [
+      1
+    ],
+    "war": 0.0385616371275454
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "100011",
+    "player_name": "Colts",
+    "position": "DEF",
+    "weeks_rostered": [
+      4
+    ],
+    "war": 0.03630863943721774
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "100008",
+    "player_name": "Lions",
+    "position": "DEF",
+    "weeks_rostered": [
+      3
+    ],
+    "war": 0.02420814808039129
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "29631",
+    "player_name": "Kalif Raymond",
+    "position": "WR",
+    "weeks_rostered": [
+      2
+    ],
+    "war": 0.02385481451782906
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "33443",
+    "player_name": "Pat Freiermuth",
+    "position": "TE",
+    "weeks_rostered": [
+      2
+    ],
+    "war": 0.0168271027108694
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "40232",
+    "player_name": "Xavier Hutchinson",
+    "position": "WR",
+    "weeks_rostered": [
+      2,
+      3
+    ],
+    "war": 0.014313273057996234
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "43171",
+    "player_name": "Dominic Zvada",
+    "position": "K",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.012085635164357955
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "41913",
+    "player_name": "Trevor Etienne",
+    "position": "RB",
+    "weeks_rostered": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "war": 0.0
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "40952",
+    "player_name": "Roman Wilson",
+    "position": "WR",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.0
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "32685",
+    "player_name": "Jerry Jeudy",
+    "position": "WR",
+    "weeks_rostered": [
+      1
+    ],
+    "war": -0.028234138053456537
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "42716",
+    "player_name": "Chris Bell",
+    "position": "WR",
+    "weeks_rostered": [
+      1
+    ],
+    "war": -0.040995796967592146
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "100002",
+    "player_name": "Bills",
+    "position": "DEF",
+    "weeks_rostered": [
+      6
+    ],
+    "war": -0.04813398107590833
+  },
+  {
+    "team_key": "470.l.205662.t.12",
+    "drafted_by": "Gavin Brodie",
+    "player_id": "40430",
+    "player_name": "Emari Demercado",
+    "position": "RB",
+    "weeks_rostered": [
+      1
+    ],
+    "war": -0.04913544117231461
+  },
+  {
+    "team_key": "470.l.205662.t.5",
+    "drafted_by": "Hunter",
+    "player_id": "41087",
+    "player_name": "Ryan Flournoy",
+    "position": "WR",
+    "weeks_rostered": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": 0.1594432385980445
+  },
+  {
+    "team_key": "470.l.205662.t.5",
+    "drafted_by": "Hunter",
+    "player_id": "100030",
+    "player_name": "Jaguars",
+    "position": "DEF",
+    "weeks_rostered": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": 0.07148566110134807
+  },
+  {
+    "team_key": "470.l.205662.t.5",
+    "drafted_by": "Hunter",
+    "player_id": "41344",
+    "player_name": "George Holani",
+    "position": "RB",
+    "weeks_rostered": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": 0.053537566274152126
+  },
+  {
+    "team_key": "470.l.205662.t.5",
+    "drafted_by": "Hunter",
+    "player_id": "40108",
+    "player_name": "Kendre Miller",
+    "position": "RB",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.04732163718525961
+  },
+  {
+    "team_key": "470.l.205662.t.5",
+    "drafted_by": "Hunter",
+    "player_id": "40224",
+    "player_name": "Kayshon Boutte",
+    "position": "WR",
+    "weeks_rostered": [
+      6
+    ],
+    "war": -0.039840858302028326
+  },
+  {
+    "team_key": "470.l.205662.t.5",
+    "drafted_by": "Hunter",
+    "player_id": "40875",
+    "player_name": "Bo Nix",
+    "position": "QB",
+    "weeks_rostered": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": -0.09922411935272396
+  },
+  {
+    "team_key": "470.l.205662.t.7",
+    "drafted_by": "Josh",
+    "player_id": "41052",
+    "player_name": "Kimani Vidal",
+    "position": "RB",
+    "weeks_rostered": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": 0.16966229022486823
+  },
+  {
+    "team_key": "470.l.205662.t.13",
+    "drafted_by": "Josh",
+    "player_id": "40201",
+    "player_name": "Dontayvion Wicks",
+    "position": "WR",
+    "weeks_rostered": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "war": 0.16918028848155459
+  },
+  {
+    "team_key": "470.l.205662.t.13",
+    "drafted_by": "Josh",
+    "player_id": "100007",
+    "player_name": "Broncos",
+    "position": "DEF",
+    "weeks_rostered": [
+      5
+    ],
+    "war": 0.08442786383059453
+  },
+  {
+    "team_key": "470.l.205662.t.13",
+    "drafted_by": "Josh",
+    "player_id": "100005",
+    "player_name": "Browns",
+    "position": "DEF",
+    "weeks_rostered": [
+      4
+    ],
+    "war": 0.04839189693838353
+  },
+  {
+    "team_key": "470.l.205662.t.7",
+    "drafted_by": "Josh",
+    "player_id": "100005",
+    "player_name": "Browns",
+    "position": "DEF",
+    "weeks_rostered": [
+      5
+    ],
+    "war": 0.04839189693838353
+  },
+  {
+    "team_key": "470.l.205662.t.13",
+    "drafted_by": "Josh",
+    "player_id": "41002",
+    "player_name": "Will Shipley",
+    "position": "RB",
+    "weeks_rostered": [
+      5
+    ],
+    "war": 0.03895759367952967
+  },
+  {
+    "team_key": "470.l.205662.t.13",
+    "drafted_by": "Josh",
+    "player_id": "31482",
+    "player_name": "Eddy Pineiro",
+    "position": "K",
+    "weeks_rostered": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "war": 0.024342524793739106
+  },
+  {
+    "team_key": "470.l.205662.t.13",
+    "drafted_by": "Josh",
+    "player_id": "100017",
+    "player_name": "Patriots",
+    "position": "DEF",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.012101552704280094
+  },
+  {
+    "team_key": "470.l.205662.t.13",
+    "drafted_by": "Josh",
+    "player_id": "34107",
+    "player_name": "Tyler Allgeier",
+    "position": "RB",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.009361511708918968
+  },
+  {
+    "team_key": "470.l.205662.t.7",
+    "drafted_by": "Josh",
+    "player_id": "41881",
+    "player_name": "Kaleb Johnson",
+    "position": "RB",
+    "weeks_rostered": [
+      1
+    ],
+    "war": 0.0
+  },
+  {
+    "team_key": "470.l.205662.t.13",
+    "drafted_by": "Josh",
+    "player_id": "31833",
+    "player_name": "Kyler Murray",
+    "position": "QB",
+    "weeks_rostered": [
+      4,
+      5,
+      6
+    ],
+    "war": -0.002624779366950325
+  },
+  {
+    "team_key": "470.l.205662.t.13",
+    "drafted_by": "Josh",
+    "player_id": "32993",
+    "player_name": "Tyler Huntley",
+    "position": "QB",
+    "weeks_rostered": [
+      6
+    ],
+    "war": -0.019179980322529044
+  },
+  {
+    "team_key": "470.l.205662.t.13",
+    "drafted_by": "Josh",
+    "player_id": "42773",
+    "player_name": "Cyrus Allen",
+    "position": "WR",
+    "weeks_rostered": [
+      6
+    ],
+    "war": -0.02706794800011214
+  },
+  {
+    "team_key": "470.l.205662.t.13",
+    "drafted_by": "Josh",
+    "player_id": "30423",
+    "player_name": "Austin Ekeler",
+    "position": "RB",
+    "weeks_rostered": [
+      5
+    ],
+    "war": -0.02997198366341125
+  },
+  {
+    "team_key": "470.l.205662.t.7",
+    "drafted_by": "Josh",
+    "player_id": "42139",
+    "player_name": "Raheim Sanders",
+    "position": "RB",
+    "weeks_rostered": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "war": -0.032201995874208134
+  },
+  {
+    "team_key": "470.l.205662.t.13",
+    "drafted_by": "Josh",
+    "player_id": "32732",
+    "player_name": "AJ Dillon",
+    "position": "RB",
+    "weeks_rostered": [
+      4
+    ],
+    "war": -0.03790788080380497
+  },
+  {
+    "team_key": "470.l.205662.t.13",
+    "drafted_by": "Josh",
+    "player_id": "31906",
+    "player_name": "Devin Singletary",
+    "position": "RB",
+    "weeks_rostered": [
+      2
+    ],
+    "war": -0.04690058325241503
+  },
+  {
+    "team_key": "470.l.205662.t.13",
+    "drafted_by": "Josh",
+    "player_id": "34042",
+    "player_name": "Malik Willis",
+    "position": "QB",
+    "weeks_rostered": [
+      2,
+      3
+    ],
+    "war": -0.07779254209225184
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "34063",
+    "player_name": "Dameon Pierce",
+    "position": "RB",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.11973141393744441
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "40911",
+    "player_name": "Keon Coleman",
+    "position": "WR",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.10718435849434771
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "30346",
+    "player_name": "Harrison Butker",
+    "position": "K",
+    "weeks_rostered": [
+      3,
+      4,
+      6
+    ],
+    "war": 0.04841477011477402
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "100022",
+    "player_name": "Cardinals",
+    "position": "DEF",
+    "weeks_rostered": [
+      4
+    ],
+    "war": 0.04839189693838353
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "100019",
+    "player_name": "Giants",
+    "position": "DEF",
+    "weeks_rostered": [
+      3
+    ],
+    "war": 0.03630863943721774
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "34062",
+    "player_name": "Cade Otton",
+    "position": "TE",
+    "weeks_rostered": [
+      3
+    ],
+    "war": 0.03130776987123479
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "100027",
+    "player_name": "Buccaneers",
+    "position": "DEF",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.02420814808039129
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "31012",
+    "player_name": "Mike Gesicki",
+    "position": "TE",
+    "weeks_rostered": [
+      5
+    ],
+    "war": 0.0168271027108694
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "100028",
+    "player_name": "Commanders",
+    "position": "DEF",
+    "weeks_rostered": [
+      5
+    ],
+    "war": 0.012101552704280094
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "40074",
+    "player_name": "Luke Musgrave",
+    "position": "TE",
+    "weeks_rostered": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "war": 0.0
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "30218",
+    "player_name": "James Conner",
+    "position": "RB",
+    "weeks_rostered": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": 0.0
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "40065",
+    "player_name": "Michael Mayer",
+    "position": "TE",
+    "weeks_rostered": [
+      2
+    ],
+    "war": -0.008377660214387073
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "100033",
+    "player_name": "Ravens",
+    "position": "DEF",
+    "weeks_rostered": [
+      1,
+      2
+    ],
+    "war": -0.012041938261989071
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "29344",
+    "player_name": "Tyler Higbee",
+    "position": "TE",
+    "weeks_rostered": [
+      6
+    ],
+    "war": -0.021482832240043714
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "42696",
+    "player_name": "Malachi Fields",
+    "position": "WR",
+    "weeks_rostered": [
+      1
+    ],
+    "war": -0.02939935439671415
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "41001",
+    "player_name": "AJ Barner",
+    "position": "TE",
+    "weeks_rostered": [
+      1
+    ],
+    "war": -0.03214235918735153
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "28227",
+    "player_name": "Cairo Santos",
+    "position": "K",
+    "weeks_rostered": [
+      1,
+      2,
+      5
+    ],
+    "war": -0.035164462604178104
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "40108",
+    "player_name": "Kendre Miller",
+    "position": "RB",
+    "weeks_rostered": [
+      4
+    ],
+    "war": -0.03564674013401259
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "41831",
+    "player_name": "Terrance Ferguson",
+    "position": "TE",
+    "weeks_rostered": [
+      3
+    ],
+    "war": -0.04859235368337961
+  },
+  {
+    "team_key": "470.l.205662.t.6",
+    "drafted_by": "Levi",
+    "player_id": "42744",
+    "player_name": "Mike Washington Jr.",
+    "position": "RB",
+    "weeks_rostered": [
+      4,
+      5,
+      6
+    ],
+    "war": -0.04935579713973104
+  },
+  {
+    "team_key": "470.l.205662.t.4",
+    "drafted_by": "Nate",
+    "player_id": "40029",
+    "player_name": "Bryce Young",
+    "position": "QB",
+    "weeks_rostered": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": 0.24179988272289477
+  },
+  {
+    "team_key": "470.l.205662.t.4",
+    "drafted_by": "Nate",
+    "player_id": "31107",
+    "player_name": "Dalton Schultz",
+    "position": "TE",
+    "weeks_rostered": [
+      2,
+      3,
+      4
+    ],
+    "war": 0.19859100183980966
+  },
+  {
+    "team_key": "470.l.205662.t.4",
+    "drafted_by": "Nate",
+    "player_id": "40222",
+    "player_name": "DeMario Douglas",
+    "position": "WR",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.1516153817472602
+  },
+  {
+    "team_key": "470.l.205662.t.4",
+    "drafted_by": "Nate",
+    "player_id": "100020",
+    "player_name": "Jets",
+    "position": "DEF",
+    "weeks_rostered": [
+      5
+    ],
+    "war": 0.13157482222082162
+  },
+  {
+    "team_key": "470.l.205662.t.4",
+    "drafted_by": "Nate",
+    "player_id": "40911",
+    "player_name": "Keon Coleman",
+    "position": "WR",
+    "weeks_rostered": [
+      5
+    ],
+    "war": 0.008320365395423301
+  },
+  {
+    "team_key": "470.l.205662.t.4",
+    "drafted_by": "Nate",
+    "player_id": "100010",
+    "player_name": "Titans",
+    "position": "DEF",
+    "weeks_rostered": [
+      1
+    ],
+    "war": 0.0
+  },
+  {
+    "team_key": "470.l.205662.t.4",
+    "drafted_by": "Nate",
+    "player_id": "34062",
+    "player_name": "Cade Otton",
+    "position": "TE",
+    "weeks_rostered": [
+      5
+    ],
+    "war": -0.005986827370227099
+  },
+  {
+    "team_key": "470.l.205662.t.4",
+    "drafted_by": "Nate",
+    "player_id": "100002",
+    "player_name": "Bills",
+    "position": "DEF",
+    "weeks_rostered": [
+      4
+    ],
+    "war": -0.012085377265831365
+  },
+  {
+    "team_key": "470.l.205662.t.4",
+    "drafted_by": "Nate",
+    "player_id": "100029",
+    "player_name": "Panthers",
+    "position": "DEF",
+    "weeks_rostered": [
+      6
+    ],
+    "war": -0.012085377265831365
+  },
+  {
+    "team_key": "470.l.205662.t.4",
+    "drafted_by": "Nate",
+    "player_id": "100004",
+    "player_name": "Bengals",
+    "position": "DEF",
+    "weeks_rostered": [
+      3
+    ],
+    "war": -0.024143490966269165
+  },
+  {
+    "team_key": "470.l.205662.t.4",
+    "drafted_by": "Nate",
+    "player_id": "100027",
+    "player_name": "Buccaneers",
+    "position": "DEF",
+    "weeks_rostered": [
+      2
+    ],
+    "war": -0.036163328123956506
+  },
+  {
+    "team_key": "470.l.205662.t.4",
+    "drafted_by": "Nate",
+    "player_id": "40224",
+    "player_name": "Kayshon Boutte",
+    "position": "WR",
+    "weeks_rostered": [
+      2,
+      3
+    ],
+    "war": -0.0376054370487473
+  },
+  {
+    "team_key": "470.l.205662.t.4",
+    "drafted_by": "Nate",
+    "player_id": "42838",
+    "player_name": "Trey Smack",
+    "position": "K",
+    "weeks_rostered": [
+      2,
+      3,
+      4
+    ],
+    "war": -0.04771703235132324
+  },
+  {
+    "team_key": "470.l.205662.t.4",
+    "drafted_by": "Nate",
+    "player_id": "29631",
+    "player_name": "Kalif Raymond",
+    "position": "WR",
+    "weeks_rostered": [
+      4
+    ],
+    "war": -0.05134044373605057
+  },
+  {
+    "team_key": "470.l.205662.t.3",
+    "drafted_by": "Sam",
+    "player_id": "100013",
+    "player_name": "Raiders",
+    "position": "DEF",
+    "weeks_rostered": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "war": 0.14516923246033936
+  },
+  {
+    "team_key": "470.l.205662.t.10",
+    "drafted_by": "Sam",
+    "player_id": "7200",
+    "player_name": "Aaron Rodgers",
+    "position": "QB",
+    "weeks_rostered": [
+      5,
+      6
+    ],
+    "war": 0.1089501568685664
+  },
+  {
+    "team_key": "470.l.205662.t.3",
+    "drafted_by": "Sam",
+    "player_id": "100018",
+    "player_name": "Saints",
+    "position": "DEF",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.0963322936322083
+  },
+  {
+    "team_key": "470.l.205662.t.10",
+    "drafted_by": "Sam",
+    "player_id": "100033",
+    "player_name": "Ravens",
+    "position": "DEF",
+    "weeks_rostered": [
+      4,
+      5,
+      6
+    ],
+    "war": 0.07259500234694372
+  },
+  {
+    "team_key": "470.l.205662.t.3",
+    "drafted_by": "Sam",
+    "player_id": "31977",
+    "player_name": "Matt Gay",
+    "position": "K",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.06047723874976707
+  },
+  {
+    "team_key": "470.l.205662.t.3",
+    "drafted_by": "Sam",
+    "player_id": "25812",
+    "player_name": "Kirk Cousins",
+    "position": "QB",
+    "weeks_rostered": [
+      5,
+      6
+    ],
+    "war": 0.03926514169794404
+  },
+  {
+    "team_key": "470.l.205662.t.10",
+    "drafted_by": "Sam",
+    "player_id": "33538",
+    "player_name": "Kenny Gainwell",
+    "position": "RB",
+    "weeks_rostered": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": 0.035446002680199706
+  },
+  {
+    "team_key": "470.l.205662.t.3",
+    "drafted_by": "Sam",
+    "player_id": "41031",
+    "player_name": "Isaiah Davis",
+    "position": "RB",
+    "weeks_rostered": [
+      4
+    ],
+    "war": 0.0
+  },
+  {
+    "team_key": "470.l.205662.t.3",
+    "drafted_by": "Sam",
+    "player_id": "28592",
+    "player_name": "Darren Waller",
+    "position": "TE",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.0
+  },
+  {
+    "team_key": "470.l.205662.t.10",
+    "drafted_by": "Sam",
+    "player_id": "40296",
+    "player_name": "Blake Grupe",
+    "position": "K",
+    "weeks_rostered": [
+      6
+    ],
+    "war": -0.03605016257618027
+  },
+  {
+    "team_key": "470.l.205662.t.3",
+    "drafted_by": "Sam",
+    "player_id": "33412",
+    "player_name": "Najee Harris",
+    "position": "RB",
+    "weeks_rostered": [
+      6
+    ],
+    "war": -0.05469852162143768
+  },
+  {
+    "team_key": "470.l.205662.t.10",
+    "drafted_by": "Sam",
+    "player_id": "40222",
+    "player_name": "DeMario Douglas",
+    "position": "WR",
+    "weeks_rostered": [
+      3,
+      4
+    ],
+    "war": -0.06689659114008639
+  },
+  {
+    "team_key": "470.l.205662.t.3",
+    "drafted_by": "Sam",
+    "player_id": "40625",
+    "player_name": "Chris Brooks",
+    "position": "RB",
+    "weeks_rostered": [
+      1,
+      2,
+      3
+    ],
+    "war": -0.08178765242763197
+  },
+  {
+    "team_key": "470.l.205662.t.3",
+    "drafted_by": "Sam",
+    "player_id": "42712",
+    "player_name": "Kaelon Black",
+    "position": "RB",
+    "weeks_rostered": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": -0.11630523925661207
+  },
+  {
+    "team_key": "470.l.205662.t.1",
+    "drafted_by": "Zach",
+    "player_id": "26699",
+    "player_name": "Keenan Allen",
+    "position": "WR",
+    "weeks_rostered": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": 0.23913720059503168
+  },
+  {
+    "team_key": "470.l.205662.t.1",
+    "drafted_by": "Zach",
+    "player_id": "40889",
+    "player_name": "Michael Penix Jr.",
+    "position": "QB",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.09781856918973342
+  },
+  {
+    "team_key": "470.l.205662.t.1",
+    "drafted_by": "Zach",
+    "player_id": "100030",
+    "player_name": "Jaguars",
+    "position": "DEF",
+    "weeks_rostered": [
+      1
+    ],
+    "war": 0.0963322936322083
+  },
+  {
+    "team_key": "470.l.205662.t.1",
+    "drafted_by": "Zach",
+    "player_id": "41860",
+    "player_name": "Pat Bryant",
+    "position": "WR",
+    "weeks_rostered": [
+      3
+    ],
+    "war": 0.08904363378930469
+  },
+  {
+    "team_key": "470.l.205662.t.1",
+    "drafted_by": "Zach",
+    "player_id": "100004",
+    "player_name": "Bengals",
+    "position": "DEF",
+    "weeks_rostered": [
+      5
+    ],
+    "war": 0.04839189693838353
+  },
+  {
+    "team_key": "470.l.205662.t.1",
+    "drafted_by": "Zach",
+    "player_id": "30231",
+    "player_name": "Mack Hollins",
+    "position": "WR",
+    "weeks_rostered": [
+      4
+    ],
+    "war": 0.01547777980474424
+  },
+  {
+    "team_key": "470.l.205662.t.1",
+    "drafted_by": "Zach",
+    "player_id": "40119",
+    "player_name": "Tyjae Spears",
+    "position": "RB",
+    "weeks_rostered": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": -0.022944319572734462
+  },
+  {
+    "team_key": "470.l.205662.t.1",
+    "drafted_by": "Zach",
+    "player_id": "100011",
+    "player_name": "Colts",
+    "position": "DEF",
+    "weeks_rostered": [
+      6
+    ],
+    "war": -0.036163328123956506
+  },
+  {
+    "team_key": "470.l.205662.t.1",
+    "drafted_by": "Zach",
+    "player_id": "42702",
+    "player_name": "Ja'Kobi Lane",
+    "position": "WR",
+    "weeks_rostered": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "war": -0.0451508110497183
+  },
+  {
+    "team_key": "470.l.205662.t.1",
+    "drafted_by": "Zach",
+    "player_id": "100009",
+    "player_name": "Packers",
+    "position": "DEF",
+    "weeks_rostered": [
+      2,
+      3,
+      4
+    ],
+    "war": -0.047335317215734696
+  },
+  {
+    "team_key": "470.l.205662.t.1",
+    "drafted_by": "Zach",
+    "player_id": "41786",
+    "player_name": "Cam Ward",
+    "position": "QB",
+    "weeks_rostered": [
+      5
+    ],
+    "war": -0.10523847011454318
+  },
+  {
+    "team_key": "470.l.205662.t.9",
+    "drafted_by": "ben",
+    "player_id": "42838",
+    "player_name": "Trey Smack",
+    "position": "K",
+    "weeks_rostered": [
+      6
+    ],
+    "war": 0.06047723874976707
+  },
+  {
+    "team_key": "470.l.205662.t.9",
+    "drafted_by": "ben",
+    "player_id": "100006",
+    "player_name": "Cowboys",
+    "position": "DEF",
+    "weeks_rostered": [
+      5
+    ],
+    "war": -0.04813398107590833
+  }
+]

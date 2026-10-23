@@ -1,21 +1,21 @@
 {
   "Ozzy Stick": [
     {
-      "name": "Dak Prescott",
-      "nfl_team": "Dal",
+      "name": "Jordan Love",
+      "nfl_team": "GB",
       "position": "QB",
       "selected_position": "QB",
-      "game_info": "Bye",
-      "projected_points": null,
+      "game_info": "Sun 8:20 pm vs  Buf",
+      "projected_points": 19.04,
       "week": 14
     },
     {
-      "name": "James Cook III",
-      "nfl_team": "Buf",
+      "name": "Kenneth Walker III",
+      "nfl_team": "KC",
       "position": "RB",
       "selected_position": "RB",
-      "game_info": "Sun 8:20 pm @  GB",
-      "projected_points": 15.18,
+      "game_info": "Sun 4:25 pm @  Cin",
+      "projected_points": 22.18,
       "week": 14
     },
     {
@@ -24,7 +24,7 @@
       "position": "RB",
       "selected_position": "RB",
       "game_info": "Sun 1:00 pm @  Car",
-      "projected_points": 5.78,
+      "projected_points": 7.14,
       "week": 14
     },
     {
@@ -33,16 +33,16 @@
       "position": "WR",
       "selected_position": "WR",
       "game_info": "Mon 8:15 pm vs  Pit",
-      "projected_points": 14.05,
+      "projected_points": 16.35,
       "week": 14
     },
     {
-      "name": "Stefon Diggs",
-      "nfl_team": "Was",
+      "name": "Tetairoa McMillan",
+      "nfl_team": "Car",
       "position": "WR",
       "selected_position": "WR",
-      "game_info": "Sun 1:00 pm vs  Hou",
-      "projected_points": 10.0,
+      "game_info": "Sun 1:00 pm vs  NO",
+      "projected_points": 15.05,
       "week": 14
     },
     {
@@ -51,7 +51,7 @@
       "position": "TE",
       "selected_position": "TE",
       "game_info": "Sun 8:20 pm vs  Buf",
-      "projected_points": 11.59,
+      "projected_points": 11.63,
       "week": 14
     },
     {
@@ -60,7 +60,25 @@
       "position": "RB",
       "selected_position": "W/R/T",
       "game_info": "Sun 1:00 pm @  Mia",
-      "projected_points": 13.31,
+      "projected_points": 14.34,
+      "week": 14
+    },
+    {
+      "name": "James Cook III",
+      "nfl_team": "Buf",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Sun 8:20 pm @  GB",
+      "projected_points": 15.56,
+      "week": 14
+    },
+    {
+      "name": "Dak Prescott",
+      "nfl_team": "Dal",
+      "position": "QB",
+      "selected_position": "BN",
+      "game_info": "Bye",
+      "projected_points": null,
       "week": 14
     },
     {
@@ -69,43 +87,16 @@
       "position": "WR",
       "selected_position": "BN",
       "game_info": "Thu 8:15 pm vs  Min",
-      "projected_points": 8.18,
+      "projected_points": 7.33,
       "week": 14
     },
     {
-      "name": "Tetairoa McMillan",
-      "nfl_team": "Car",
+      "name": "Stefon Diggs",
+      "nfl_team": "Was",
       "position": "WR",
       "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  NO",
-      "projected_points": 13.7,
-      "week": 14
-    },
-    {
-      "name": "Kenneth Walker III",
-      "nfl_team": "KC",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 4:25 pm @  Cin",
-      "projected_points": 17.24,
-      "week": 14
-    },
-    {
-      "name": "Ray Davis",
-      "nfl_team": "Buf",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 8:20 pm @  GB",
-      "projected_points": 3.15,
-      "week": 14
-    },
-    {
-      "name": "Jordan Love",
-      "nfl_team": "GB",
-      "position": "QB",
-      "selected_position": "BN",
-      "game_info": "Sun 8:20 pm vs  Buf",
-      "projected_points": 17.49,
+      "game_info": "Sun 1:00 pm vs  Hou",
+      "projected_points": 11.61,
       "week": 14
     },
     {
@@ -114,400 +105,117 @@
       "position": "WR",
       "selected_position": "IR",
       "game_info": "Sun 8:20 pm vs  Buf",
-      "projected_points": 4.71,
+      "projected_points": 0.0,
       "week": 14
     }
   ],
-  "Girder\u2019s 6 Cookies": [
+  "Omaha Beach Real Estate": [
     {
-      "name": "Kirk Cousins",
-      "nfl_team": "LV",
-      "position": "QB",
-      "selected_position": "QB",
-      "game_info": "Sun 4:05 pm vs  LAC\ue231",
-      "projected_points": 13.22,
-      "week": 14
-    },
-    {
-      "name": "Jeremiyah Love",
-      "nfl_team": "Ari",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Bye",
-      "projected_points": null,
-      "week": 14
-    },
-    {
-      "name": "Rico Dowdle",
-      "nfl_team": "Pit",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Mon 8:15 pm @  Jax",
-      "projected_points": 8.94,
-      "week": 14
-    },
-    {
-      "name": "Zay Flowers",
-      "nfl_team": "Bal",
-      "position": "WR",
-      "selected_position": "WR",
-      "game_info": "Sun 1:00 pm vs  TB",
-      "projected_points": 16.33,
-      "week": 14
-    },
-    {
-      "name": "DK Metcalf",
-      "nfl_team": "Pit",
-      "position": "WR",
-      "selected_position": "WR",
-      "game_info": "Mon 8:15 pm @  Jax",
-      "projected_points": 11.59,
-      "week": 14
-    },
-    {
-      "name": "Tyler Warren",
-      "nfl_team": "Ind",
-      "position": "TE",
-      "selected_position": "TE",
-      "game_info": "Sun 1:00 pm @  Phi",
-      "projected_points": 10.61,
-      "week": 14
-    },
-    {
-      "name": "Denzel Boston",
-      "nfl_team": "Cle",
-      "position": "WR",
-      "selected_position": "W/R/T",
-      "game_info": "Sun 1:00 pm vs  Atl",
-      "projected_points": 9.83,
-      "week": 14
-    },
-    {
-      "name": "Jalen Hurts",
-      "nfl_team": "Phi",
-      "position": "QB",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Ind",
-      "projected_points": 17.56,
-      "week": 14
-    },
-    {
-      "name": "Xavier Worthy",
-      "nfl_team": "KC",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Sun 4:25 pm @  Cin",
-      "projected_points": 9.09,
-      "week": 14
-    },
-    {
-      "name": "Chuba Hubbard",
-      "nfl_team": "Car",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  NO",
-      "projected_points": 11.86,
-      "week": 14
-    },
-    {
-      "name": "Kaelon Black",
-      "nfl_team": "SF",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 4:25 pm vs  LAR",
-      "projected_points": 3.87,
-      "week": 14
-    },
-    {
-      "name": "Caleb Douglas",
-      "nfl_team": "Mia",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Chi",
-      "projected_points": 6.97,
-      "week": 14
-    },
-    {
-      "name": "Adonai Mitchell",
-      "nfl_team": "NYJ",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Den",
-      "projected_points": 6.9,
-      "week": 14
-    }
-  ],
-  "Revy\u2019s Konstruction": [
-    {
-      "name": "Trevor Lawrence",
-      "nfl_team": "Jax",
-      "position": "QB",
-      "selected_position": "QB",
-      "game_info": "Mon 8:15 pm vs  Pit",
-      "projected_points": 18.91,
-      "week": 14
-    },
-    {
-      "name": "Ashton Jeanty",
-      "nfl_team": "LV",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Sun 4:05 pm vs  LAC\ue231",
-      "projected_points": 15.64,
-      "week": 14
-    },
-    {
-      "name": "Kyle Monangai",
-      "nfl_team": "Chi",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Sun 1:00 pm @  Mia",
-      "projected_points": 9.65,
-      "week": 14
-    },
-    {
-      "name": "Garrett Wilson",
-      "nfl_team": "NYJ",
-      "position": "WR",
-      "selected_position": "WR",
-      "game_info": "Sun 1:00 pm vs  Den",
-      "projected_points": 12.56,
-      "week": 14
-    },
-    {
-      "name": "Nico Collins",
+      "name": "C.J. Stroud",
       "nfl_team": "Hou",
-      "position": "WR",
-      "selected_position": "WR",
+      "position": "QB",
+      "selected_position": "QB",
       "game_info": "Sun 1:00 pm @  Was",
-      "projected_points": 18.23,
+      "projected_points": 19.01,
       "week": 14
     },
     {
-      "name": "Harold Fannin Jr.",
-      "nfl_team": "Cle",
-      "position": "TE",
-      "selected_position": "TE",
-      "game_info": "Sun 1:00 pm vs  Atl",
-      "projected_points": 10.27,
-      "week": 14
-    },
-    {
-      "name": "T.J. Hockenson",
-      "nfl_team": "Min",
-      "position": "TE",
-      "selected_position": "W/R/T",
-      "game_info": "Thu 8:15 pm @  NE",
-      "projected_points": 7.83,
-      "week": 14
-    },
-    {
-      "name": "Brian Thomas Jr.",
-      "nfl_team": "Jax",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Mon 8:15 pm vs  Pit",
-      "projected_points": 8.89,
-      "week": 14
-    },
-    {
-      "name": "Tyler Allgeier",
-      "nfl_team": "Ari",
+      "name": "Bijan Robinson",
+      "nfl_team": "Atl",
       "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Bye",
-      "projected_points": null,
+      "selected_position": "RB",
+      "game_info": "Sun 1:00 pm @  Cle",
+      "projected_points": 20.72,
       "week": 14
     },
     {
-      "name": "Chig Okonkwo",
-      "nfl_team": "Was",
-      "position": "TE",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Hou",
-      "projected_points": 7.16,
+      "name": "Kyren Williams",
+      "nfl_team": "LAR",
+      "position": "RB",
+      "selected_position": "RB",
+      "game_info": "Sun 4:25 pm @  SF",
+      "projected_points": 17.63,
       "week": 14
     },
     {
-      "name": "Malachi Fields",
+      "name": "Malik Nabers",
       "nfl_team": "NYG",
       "position": "WR",
-      "selected_position": "BN",
+      "selected_position": "WR",
       "game_info": "Sun 4:25 pm @  Sea",
-      "projected_points": 5.32,
+      "projected_points": 12.54,
       "week": 14
     },
     {
-      "name": "MarShawn Lloyd",
-      "nfl_team": "GB",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 8:20 pm vs  Buf",
-      "projected_points": 9.13,
-      "week": 14
-    },
-    {
-      "name": "Rashod Bateman",
-      "nfl_team": "Bal",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  TB",
-      "projected_points": 5.78,
-      "week": 14
-    },
-    {
-      "name": "Travis Etienne Jr.",
-      "nfl_team": "NO",
-      "position": "RB",
-      "selected_position": "IR",
-      "game_info": "Sun 1:00 pm @  Car",
-      "projected_points": 12.46,
-      "week": 14
-    },
-    {
-      "name": "Omar Cooper Jr.",
-      "nfl_team": "NYJ",
-      "position": "WR",
-      "selected_position": "IR",
-      "game_info": "Sun 1:00 pm vs  Den",
-      "projected_points": 5.0,
-      "week": 14
-    }
-  ],
-  "Supernova\u2019s Studs": [
-    {
-      "name": "Sam Darnold",
-      "nfl_team": "Sea",
-      "position": "QB",
-      "selected_position": "QB",
-      "game_info": "Sun 4:25 pm vs  NYG",
-      "projected_points": 15.21,
-      "week": 14
-    },
-    {
-      "name": "Jonathan Taylor",
-      "nfl_team": "Ind",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Sun 1:00 pm @  Phi",
-      "projected_points": 16.23,
-      "week": 14
-    },
-    {
-      "name": "Javonte Williams",
-      "nfl_team": "Dal",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Bye",
-      "projected_points": null,
-      "week": 14
-    },
-    {
-      "name": "Davante Adams",
-      "nfl_team": "LAR",
+      "name": "Jameson Williams",
+      "nfl_team": "Det",
       "position": "WR",
       "selected_position": "WR",
-      "game_info": "Sun 4:25 pm @  SF",
-      "projected_points": 12.92,
+      "game_info": "Sun 1:00 pm vs  Ten\ue231",
+      "projected_points": 13.57,
       "week": 14
     },
     {
-      "name": "Devaughn Vele",
-      "nfl_team": "NO",
-      "position": "WR",
-      "selected_position": "WR",
-      "game_info": "Sun 1:00 pm @  Car",
-      "projected_points": 5.55,
-      "week": 14
-    },
-    {
-      "name": "Brock Bowers",
-      "nfl_team": "LV",
+      "name": "Hunter Henry",
+      "nfl_team": "NE",
       "position": "TE",
       "selected_position": "TE",
-      "game_info": "Sun 4:05 pm vs  LAC\ue231",
-      "projected_points": 15.62,
+      "game_info": "Thu 8:15 pm vs  Min",
+      "projected_points": 7.33,
       "week": 14
     },
     {
-      "name": "Rome Odunze",
-      "nfl_team": "Chi",
+      "name": "Tre Tucker",
+      "nfl_team": "LV",
       "position": "WR",
       "selected_position": "W/R/T",
-      "game_info": "Sun 1:00 pm @  Mia",
-      "projected_points": 11.36,
-      "week": 14
-    },
-    {
-      "name": "Jordan Addison",
-      "nfl_team": "Min",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Thu 8:15 pm @  NE",
-      "projected_points": 8.24,
-      "week": 14
-    },
-    {
-      "name": "Malik Washington",
-      "nfl_team": "Mia",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Chi",
+      "game_info": "Sun 4:05 pm vs  LAC\ue231",
       "projected_points": 9.11,
       "week": 14
     },
     {
-      "name": "Ollie Gordon II",
-      "nfl_team": "Mia",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Chi",
-      "projected_points": 6.94,
-      "week": 14
-    },
-    {
-      "name": "Tyreek HillNA",
-      "nfl_team": "Mia",
+      "name": "Chris Godwin Jr.",
+      "nfl_team": "TB",
       "position": "WR",
       "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Chi",
-      "projected_points": 0.0,
+      "game_info": "Sun 1:00 pm @  Bal",
+      "projected_points": 9.7,
       "week": 14
     },
     {
-      "name": "Deshaun Watson",
-      "nfl_team": "Cle",
+      "name": "Dalton Kincaid",
+      "nfl_team": "Buf",
+      "position": "TE",
+      "selected_position": "BN",
+      "game_info": "Sun 8:20 pm @  GB",
+      "projected_points": 10.86,
+      "week": 14
+    },
+    {
+      "name": "Jayden Daniels",
+      "nfl_team": "Was",
       "position": "QB",
       "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Atl",
-      "projected_points": 6.78,
+      "game_info": "Sun 1:00 pm vs  Hou",
+      "projected_points": 18.5,
       "week": 14
     },
     {
-      "name": "Roman Wilson",
-      "nfl_team": "Pit",
+      "name": "Rashid Shaheed",
+      "nfl_team": "Sea",
       "position": "WR",
       "selected_position": "BN",
-      "game_info": "Mon 8:15 pm @  Jax",
-      "projected_points": 5.19,
-      "week": 14
-    },
-    {
-      "name": "Zach Charbonnet",
-      "nfl_team": "Sea",
-      "position": "RB",
-      "selected_position": "IR",
       "game_info": "Sun 4:25 pm vs  NYG",
-      "projected_points": 7.98,
+      "projected_points": 6.59,
       "week": 14
     },
     {
-      "name": "Trevor Etienne",
-      "nfl_team": "Car",
-      "position": "RB",
+      "name": "Baker Mayfield",
+      "nfl_team": "TB",
+      "position": "QB",
       "selected_position": "IR",
-      "game_info": "Sun 1:00 pm vs  NO",
-      "projected_points": 1.47,
+      "game_info": "Sun 1:00 pm @  Bal",
+      "projected_points": 15.0,
       "week": 14
     }
   ],
@@ -518,7 +226,7 @@
       "position": "QB",
       "selected_position": "QB",
       "game_info": "Thu 8:15 pm vs  Min",
-      "projected_points": 16.95,
+      "projected_points": 18.43,
       "week": 14
     },
     {
@@ -527,25 +235,16 @@
       "position": "RB",
       "selected_position": "RB",
       "game_info": "Sun 1:00 pm vs  TB",
-      "projected_points": 14.41,
+      "projected_points": 16.5,
       "week": 14
     },
     {
-      "name": "David Montgomery",
-      "nfl_team": "Hou",
+      "name": "Kendre Miller",
+      "nfl_team": "NO",
       "position": "RB",
       "selected_position": "RB",
-      "game_info": "Sun 1:00 pm @  Was",
-      "projected_points": 12.36,
-      "week": 14
-    },
-    {
-      "name": "Amon-Ra St. Brown",
-      "nfl_team": "Det",
-      "position": "WR",
-      "selected_position": "WR",
-      "game_info": "Sun 1:00 pm vs  Ten\ue231",
-      "projected_points": 23.23,
+      "game_info": "Sun 1:00 pm @  Car",
+      "projected_points": 2.48,
       "week": 14
     },
     {
@@ -554,23 +253,50 @@
       "position": "WR",
       "selected_position": "WR",
       "game_info": "Sun 4:25 pm vs  KC",
-      "projected_points": 13.56,
+      "projected_points": 14.04,
+      "week": 14
+    },
+    {
+      "name": "Amon-Ra St. Brown",
+      "nfl_team": "Det",
+      "position": "WR",
+      "selected_position": "WR",
+      "game_info": "Sun 1:00 pm vs  Ten\ue231",
+      "projected_points": 22.39,
+      "week": 14
+    },
+    {
+      "name": "Dallas Goedert",
+      "nfl_team": "Phi",
+      "position": "TE",
+      "selected_position": "TE",
+      "game_info": "Sun 1:00 pm vs  Ind",
+      "projected_points": 10.99,
       "week": 14
     },
     {
       "name": "Sam LaPorta",
       "nfl_team": "Det",
       "position": "TE",
-      "selected_position": "TE",
+      "selected_position": "W/R/T",
       "game_info": "Sun 1:00 pm vs  Ten\ue231",
-      "projected_points": 13.51,
+      "projected_points": 13.37,
+      "week": 14
+    },
+    {
+      "name": "Kayshon Boutte",
+      "nfl_team": "Hou",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Sun 1:00 pm @  Was",
+      "projected_points": 5.62,
       "week": 14
     },
     {
       "name": "Ryan Flournoy",
       "nfl_team": "Dal",
       "position": "WR",
-      "selected_position": "W/R/T",
+      "selected_position": "BN",
       "game_info": "Bye",
       "projected_points": null,
       "week": 14
@@ -581,16 +307,16 @@
       "position": "WR",
       "selected_position": "BN",
       "game_info": "Sun 1:00 pm vs  Ind",
-      "projected_points": 6.42,
+      "projected_points": 5.19,
       "week": 14
     },
     {
-      "name": "Dallas Goedert",
-      "nfl_team": "Phi",
-      "position": "TE",
+      "name": "David Montgomery",
+      "nfl_team": "Hou",
+      "position": "RB",
       "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Ind",
-      "projected_points": 9.9,
+      "game_info": "Sun 1:00 pm @  Was",
+      "projected_points": 10.3,
       "week": 14
     },
     {
@@ -599,7 +325,7 @@
       "position": "RB",
       "selected_position": "BN",
       "game_info": "Sun 4:25 pm vs  NYG",
-      "projected_points": 3.97,
+      "projected_points": 4.32,
       "week": 14
     },
     {
@@ -608,7 +334,7 @@
       "position": "QB",
       "selected_position": "BN",
       "game_info": "Sun 1:00 pm @  NYJ",
-      "projected_points": 17.03,
+      "projected_points": 16.34,
       "week": 14
     },
     {
@@ -617,7 +343,7 @@
       "position": "RB",
       "selected_position": "IR",
       "game_info": "Sun 1:00 pm vs  NO",
-      "projected_points": 9.65,
+      "projected_points": 5.31,
       "week": 14
     },
     {
@@ -626,7 +352,391 @@
       "position": "WR",
       "selected_position": "IR",
       "game_info": "Sun 1:00 pm @  Bal",
-      "projected_points": 5.77,
+      "projected_points": 4.27,
+      "week": 14
+    }
+  ],
+  "Girder\u2019s 6 Cookies": [
+    {
+      "name": "Kirk Cousins",
+      "nfl_team": "LV",
+      "position": "QB",
+      "selected_position": "QB",
+      "game_info": "Sun 4:05 pm vs  LAC\ue231",
+      "projected_points": 16.24,
+      "week": 14
+    },
+    {
+      "name": "Chuba Hubbard",
+      "nfl_team": "Car",
+      "position": "RB",
+      "selected_position": "RB",
+      "game_info": "Sun 1:00 pm vs  NO",
+      "projected_points": 15.4,
+      "week": 14
+    },
+    {
+      "name": "Rico Dowdle",
+      "nfl_team": "Pit",
+      "position": "RB",
+      "selected_position": "RB",
+      "game_info": "Mon 8:15 pm @  Jax",
+      "projected_points": 6.68,
+      "week": 14
+    },
+    {
+      "name": "Zay Flowers",
+      "nfl_team": "Bal",
+      "position": "WR",
+      "selected_position": "WR",
+      "game_info": "Sun 1:00 pm vs  TB",
+      "projected_points": 17.62,
+      "week": 14
+    },
+    {
+      "name": "DK Metcalf",
+      "nfl_team": "Pit",
+      "position": "WR",
+      "selected_position": "WR",
+      "game_info": "Mon 8:15 pm @  Jax",
+      "projected_points": 11.2,
+      "week": 14
+    },
+    {
+      "name": "Tyler Warren",
+      "nfl_team": "Ind",
+      "position": "TE",
+      "selected_position": "TE",
+      "game_info": "Sun 1:00 pm @  Phi",
+      "projected_points": 11.21,
+      "week": 14
+    },
+    {
+      "name": "Denzel Boston",
+      "nfl_team": "Cle",
+      "position": "WR",
+      "selected_position": "W/R/T",
+      "game_info": "Sun 1:00 pm vs  Atl",
+      "projected_points": 10.12,
+      "week": 14
+    },
+    {
+      "name": "Darren Waller",
+      "nfl_team": "Car",
+      "position": "TE",
+      "selected_position": "BN",
+      "game_info": "Sun 1:00 pm vs  NO",
+      "projected_points": 8.08,
+      "week": 14
+    },
+    {
+      "name": "Xavier Worthy",
+      "nfl_team": "KC",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Sun 4:25 pm @  Cin",
+      "projected_points": 10.27,
+      "week": 14
+    },
+    {
+      "name": "Kaelon Black",
+      "nfl_team": "SF",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Sun 4:25 pm vs  LAR",
+      "projected_points": 4.31,
+      "week": 14
+    },
+    {
+      "name": "Adonai Mitchell",
+      "nfl_team": "NYJ",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Sun 1:00 pm vs  Den",
+      "projected_points": 7.67,
+      "week": 14
+    },
+    {
+      "name": "Jeremiyah Love",
+      "nfl_team": "Ari",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Bye",
+      "projected_points": null,
+      "week": 14
+    },
+    {
+      "name": "Jalen Hurts",
+      "nfl_team": "Phi",
+      "position": "QB",
+      "selected_position": "IR",
+      "game_info": "Sun 1:00 pm vs  Ind",
+      "projected_points": 13.27,
+      "week": 14
+    }
+  ],
+  "You gotta be Falcon kiddin me": [
+    {
+      "name": "Caleb Williams",
+      "nfl_team": "Chi",
+      "position": "QB",
+      "selected_position": "QB",
+      "game_info": "Sun 1:00 pm @  Mia",
+      "projected_points": 20.12,
+      "week": 14
+    },
+    {
+      "name": "Christian McCaffrey",
+      "nfl_team": "SF",
+      "position": "RB",
+      "selected_position": "RB",
+      "game_info": "Sun 4:25 pm vs  LAR",
+      "projected_points": 18.75,
+      "week": 14
+    },
+    {
+      "name": "Bucky Irving",
+      "nfl_team": "TB",
+      "position": "RB",
+      "selected_position": "RB",
+      "game_info": "Sun 1:00 pm @  Bal",
+      "projected_points": 13.32,
+      "week": 14
+    },
+    {
+      "name": "George Pickens",
+      "nfl_team": "Dal",
+      "position": "WR",
+      "selected_position": "WR",
+      "game_info": "Bye",
+      "projected_points": null,
+      "week": 14
+    },
+    {
+      "name": "Luther Burden III",
+      "nfl_team": "Chi",
+      "position": "WR",
+      "selected_position": "WR",
+      "game_info": "Sun 1:00 pm @  Mia",
+      "projected_points": 13.32,
+      "week": 14
+    },
+    {
+      "name": "Pat Freiermuth",
+      "nfl_team": "Pit",
+      "position": "TE",
+      "selected_position": "TE",
+      "game_info": "Mon 8:15 pm @  Jax",
+      "projected_points": 9.31,
+      "week": 14
+    },
+    {
+      "name": "Emeka Egbuka",
+      "nfl_team": "TB",
+      "position": "WR",
+      "selected_position": "W/R/T",
+      "game_info": "Sun 1:00 pm @  Bal",
+      "projected_points": 11.75,
+      "week": 14
+    },
+    {
+      "name": "Brenton Strange",
+      "nfl_team": "Jax",
+      "position": "TE",
+      "selected_position": "BN",
+      "game_info": "Mon 8:15 pm vs  Pit",
+      "projected_points": 11.16,
+      "week": 14
+    },
+    {
+      "name": "Jacoby Brissett",
+      "nfl_team": "Ari",
+      "position": "QB",
+      "selected_position": "BN",
+      "game_info": "Bye",
+      "projected_points": null,
+      "week": 14
+    },
+    {
+      "name": "Keaton Mitchell",
+      "nfl_team": "LAC",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Sun 4:05 pm @  LV\ue231",
+      "projected_points": 7.71,
+      "week": 14
+    },
+    {
+      "name": "Kyle Pitts Sr.",
+      "nfl_team": "Atl",
+      "position": "TE",
+      "selected_position": "BN",
+      "game_info": "Sun 1:00 pm @  Cle",
+      "projected_points": 6.67,
+      "week": 14
+    },
+    {
+      "name": "Antonio Williams",
+      "nfl_team": "Was",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Sun 1:00 pm vs  Hou",
+      "projected_points": 5.54,
+      "week": 14
+    },
+    {
+      "name": "Emmett Johnson",
+      "nfl_team": "KC",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Sun 4:25 pm @  Cin",
+      "projected_points": 4.77,
+      "week": 14
+    },
+    {
+      "name": "Jaxson Dart",
+      "nfl_team": "NYG",
+      "position": "QB",
+      "selected_position": "IR",
+      "game_info": "Sun 4:25 pm @  Sea",
+      "projected_points": 7.89,
+      "week": 14
+    }
+  ],
+  "Flow Brrr": [
+    {
+      "name": "Joe Burrow",
+      "nfl_team": "Cin",
+      "position": "QB",
+      "selected_position": "QB",
+      "game_info": "Sun 4:25 pm vs  KC",
+      "projected_points": 18.85,
+      "week": 14
+    },
+    {
+      "name": "Rhamondre Stevenson",
+      "nfl_team": "NE",
+      "position": "RB",
+      "selected_position": "RB",
+      "game_info": "Thu 8:15 pm vs  Min",
+      "projected_points": 10.33,
+      "week": 14
+    },
+    {
+      "name": "Bhayshul Tuten",
+      "nfl_team": "Jax",
+      "position": "RB",
+      "selected_position": "RB",
+      "game_info": "Mon 8:15 pm vs  Pit",
+      "projected_points": 13.19,
+      "week": 14
+    },
+    {
+      "name": "Puka Nacua",
+      "nfl_team": "LAR",
+      "position": "WR",
+      "selected_position": "WR",
+      "game_info": "Sun 4:25 pm @  SF",
+      "projected_points": 20.66,
+      "week": 14
+    },
+    {
+      "name": "DeVonta Smith",
+      "nfl_team": "Phi",
+      "position": "WR",
+      "selected_position": "WR",
+      "game_info": "Sun 1:00 pm vs  Ind",
+      "projected_points": 13.31,
+      "week": 14
+    },
+    {
+      "name": "Trey McBride",
+      "nfl_team": "Ari",
+      "position": "TE",
+      "selected_position": "TE",
+      "game_info": "Bye",
+      "projected_points": null,
+      "week": 14
+    },
+    {
+      "name": "Keenan Allen",
+      "nfl_team": "Ind",
+      "position": "WR",
+      "selected_position": "W/R/T",
+      "game_info": "Sun 1:00 pm @  Phi",
+      "projected_points": 7.7,
+      "week": 14
+    },
+    {
+      "name": "Devaughn Vele",
+      "nfl_team": "NO",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Sun 1:00 pm @  Car",
+      "projected_points": 7.14,
+      "week": 14
+    },
+    {
+      "name": "Tyjae Spears",
+      "nfl_team": "Ten",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Sun 1:00 pm @  Det\ue231",
+      "projected_points": 7.84,
+      "week": 14
+    },
+    {
+      "name": "Michael Penix Jr.",
+      "nfl_team": "Atl",
+      "position": "QB",
+      "selected_position": "BN",
+      "game_info": "Sun 1:00 pm @  Cle",
+      "projected_points": 13.06,
+      "week": 14
+    },
+    {
+      "name": "Deebo Samuel Sr.",
+      "nfl_team": "SF",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Sun 4:25 pm vs  LAR",
+      "projected_points": 10.54,
+      "week": 14
+    },
+    {
+      "name": "Chris Rodriguez Jr.",
+      "nfl_team": "Jax",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Mon 8:15 pm vs  Pit",
+      "projected_points": 4.44,
+      "week": 14
+    },
+    {
+      "name": "Ja'Kobi Lane",
+      "nfl_team": "Bal",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Sun 1:00 pm vs  TB",
+      "projected_points": 4.71,
+      "week": 14
+    },
+    {
+      "name": "J. Croskey-Merritt",
+      "nfl_team": "Was",
+      "position": "RB",
+      "selected_position": "IR",
+      "game_info": "Sun 1:00 pm vs  Hou",
+      "projected_points": 7.58,
+      "week": 14
+    },
+    {
+      "name": "Alec Pierce",
+      "nfl_team": "Ind",
+      "position": "WR",
+      "selected_position": "IR",
+      "game_info": "Sun 1:00 pm @  Phi",
+      "projected_points": 10.02,
       "week": 14
     }
   ],
@@ -637,16 +747,7 @@
       "position": "QB",
       "selected_position": "QB",
       "game_info": "Sun 8:20 pm @  GB",
-      "projected_points": 21.49,
-      "week": 14
-    },
-    {
-      "name": "Aaron Jones Sr.",
-      "nfl_team": "Min",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Thu 8:15 pm @  NE",
-      "projected_points": 8.47,
+      "projected_points": 23.63,
       "week": 14
     },
     {
@@ -655,7 +756,16 @@
       "position": "RB",
       "selected_position": "RB",
       "game_info": "Sun 1:00 pm @  NYJ",
-      "projected_points": 7.45,
+      "projected_points": 8.73,
+      "week": 14
+    },
+    {
+      "name": "Kimani Vidal",
+      "nfl_team": "LAC",
+      "position": "RB",
+      "selected_position": "RB",
+      "game_info": "Sun 4:05 pm @  LV\ue231",
+      "projected_points": 5.77,
       "week": 14
     },
     {
@@ -664,7 +774,7 @@
       "position": "WR",
       "selected_position": "WR",
       "game_info": "Sun 4:25 pm vs  NYG",
-      "projected_points": 20.42,
+      "projected_points": 22.94,
       "week": 14
     },
     {
@@ -673,7 +783,7 @@
       "position": "WR",
       "selected_position": "WR",
       "game_info": "Sun 8:20 pm vs  Buf",
-      "projected_points": 14.52,
+      "projected_points": 16.54,
       "week": 14
     },
     {
@@ -682,7 +792,7 @@
       "position": "TE",
       "selected_position": "TE",
       "game_info": "Sun 1:00 pm @  Car",
-      "projected_points": 9.21,
+      "projected_points": 9.36,
       "week": 14
     },
     {
@@ -691,16 +801,7 @@
       "position": "WR",
       "selected_position": "W/R/T",
       "game_info": "Sun 1:00 pm @  Det\ue231",
-      "projected_points": 10.95,
-      "week": 14
-    },
-    {
-      "name": "Quentin Johnston",
-      "nfl_team": "LAC",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Sun 4:05 pm @  LV\ue231",
-      "projected_points": 8.25,
+      "projected_points": 11.2,
       "week": 14
     },
     {
@@ -709,7 +810,25 @@
       "position": "TE",
       "selected_position": "BN",
       "game_info": "Sun 1:00 pm @  Mia",
-      "projected_points": 11.65,
+      "projected_points": 10.65,
+      "week": 14
+    },
+    {
+      "name": "Aaron Jones Sr.",
+      "nfl_team": "Min",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Thu 8:15 pm @  NE",
+      "projected_points": 8.61,
+      "week": 14
+    },
+    {
+      "name": "Quentin Johnston",
+      "nfl_team": "LAC",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Sun 4:05 pm @  LV\ue231",
+      "projected_points": 7.79,
       "week": 14
     },
     {
@@ -718,25 +837,7 @@
       "position": "QB",
       "selected_position": "BN",
       "game_info": "Sun 1:00 pm @  Car",
-      "projected_points": 17.17,
-      "week": 14
-    },
-    {
-      "name": "Kimani Vidal",
-      "nfl_team": "LAC",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 4:05 pm @  LV\ue231",
-      "projected_points": 3.06,
-      "week": 14
-    },
-    {
-      "name": "Raheim Sanders",
-      "nfl_team": "Cle",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Atl",
-      "projected_points": 3.02,
+      "projected_points": 17.15,
       "week": 14
     },
     {
@@ -745,16 +846,126 @@
       "position": "RB",
       "selected_position": "IR",
       "game_info": "Sun 4:25 pm vs  NYG",
-      "projected_points": 9.69,
+      "projected_points": 7.72,
+      "week": 14
+    }
+  ],
+  "Revy\u2019s Konstruction": [
+    {
+      "name": "Trevor Lawrence",
+      "nfl_team": "Jax",
+      "position": "QB",
+      "selected_position": "QB",
+      "game_info": "Mon 8:15 pm vs  Pit",
+      "projected_points": 19.98,
       "week": 14
     },
     {
-      "name": "Isiah Pacheco",
-      "nfl_team": "Det",
+      "name": "Ashton Jeanty",
+      "nfl_team": "LV",
+      "position": "RB",
+      "selected_position": "RB",
+      "game_info": "Sun 4:05 pm vs  LAC\ue231",
+      "projected_points": 15.6,
+      "week": 14
+    },
+    {
+      "name": "MarShawn Lloyd",
+      "nfl_team": "GB",
+      "position": "RB",
+      "selected_position": "RB",
+      "game_info": "Sun 8:20 pm vs  Buf",
+      "projected_points": 9.3,
+      "week": 14
+    },
+    {
+      "name": "Garrett Wilson",
+      "nfl_team": "NYJ",
+      "position": "WR",
+      "selected_position": "WR",
+      "game_info": "Sun 1:00 pm vs  Den",
+      "projected_points": 13.98,
+      "week": 14
+    },
+    {
+      "name": "Nico Collins",
+      "nfl_team": "Hou",
+      "position": "WR",
+      "selected_position": "WR",
+      "game_info": "Sun 1:00 pm @  Was",
+      "projected_points": 17.68,
+      "week": 14
+    },
+    {
+      "name": "Harold Fannin Jr.",
+      "nfl_team": "Cle",
+      "position": "TE",
+      "selected_position": "TE",
+      "game_info": "Sun 1:00 pm vs  Atl",
+      "projected_points": 9.42,
+      "week": 14
+    },
+    {
+      "name": "Dalton Schultz",
+      "nfl_team": "Hou",
+      "position": "TE",
+      "selected_position": "W/R/T",
+      "game_info": "Sun 1:00 pm @  Was",
+      "projected_points": 8.8,
+      "week": 14
+    },
+    {
+      "name": "T.J. Hockenson",
+      "nfl_team": "Min",
+      "position": "TE",
+      "selected_position": "BN",
+      "game_info": "Thu 8:15 pm @  NE",
+      "projected_points": 8.54,
+      "week": 14
+    },
+    {
+      "name": "Kalif Raymond",
+      "nfl_team": "Chi",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Sun 1:00 pm @  Mia",
+      "projected_points": 8.17,
+      "week": 14
+    },
+    {
+      "name": "Brian Thomas Jr.",
+      "nfl_team": "Jax",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Mon 8:15 pm vs  Pit",
+      "projected_points": 5.94,
+      "week": 14
+    },
+    {
+      "name": "Kyle Monangai",
+      "nfl_team": "Chi",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Sun 1:00 pm @  Mia",
+      "projected_points": 8.27,
+      "week": 14
+    },
+    {
+      "name": "Michael Pittman Jr.",
+      "nfl_team": "Pit",
+      "position": "WR",
+      "selected_position": "IR",
+      "game_info": "Mon 8:15 pm @  Jax",
+      "projected_points": 5.79,
+      "week": 14
+    },
+    {
+      "name": "Travis Etienne Jr.",
+      "nfl_team": "NO",
       "position": "RB",
       "selected_position": "IR",
-      "game_info": "Sun 1:00 pm vs  Ten\ue231",
-      "projected_points": 1.02,
+      "game_info": "Sun 1:00 pm @  Car",
+      "projected_points": 10.61,
       "week": 14
     }
   ],
@@ -765,7 +976,16 @@
       "position": "QB",
       "selected_position": "QB",
       "game_info": "Sun 4:25 pm vs  LAR",
-      "projected_points": 17.53,
+      "projected_points": 19.19,
+      "week": 14
+    },
+    {
+      "name": "Woody Marks",
+      "nfl_team": "Hou",
+      "position": "RB",
+      "selected_position": "RB",
+      "game_info": "Sun 1:00 pm @  Was",
+      "projected_points": 9.44,
       "week": 14
     },
     {
@@ -774,16 +994,7 @@
       "position": "RB",
       "selected_position": "RB",
       "game_info": "Sun 1:00 pm vs  Ten\ue231",
-      "projected_points": 24.59,
-      "week": 14
-    },
-    {
-      "name": "TreVeyon Henderson",
-      "nfl_team": "NE",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Thu 8:15 pm vs  Min",
-      "projected_points": 9.63,
+      "projected_points": 26.54,
       "week": 14
     },
     {
@@ -792,7 +1003,7 @@
       "position": "WR",
       "selected_position": "WR",
       "game_info": "Sun 1:00 pm @  Car",
-      "projected_points": 15.46,
+      "projected_points": 15.38,
       "week": 14
     },
     {
@@ -805,48 +1016,48 @@
       "week": 14
     },
     {
-      "name": "Kenyon Sadiq",
-      "nfl_team": "NYJ",
+      "name": "Tyler Higbee",
+      "nfl_team": "LAR",
       "position": "TE",
       "selected_position": "TE",
-      "game_info": "Sun 1:00 pm vs  Den",
-      "projected_points": 7.22,
-      "week": 14
-    },
-    {
-      "name": "DJ Moore",
-      "nfl_team": "Buf",
-      "position": "WR",
-      "selected_position": "W/R/T",
-      "game_info": "Sun 8:20 pm @  GB",
-      "projected_points": 12.9,
-      "week": 14
-    },
-    {
-      "name": "Rashee Rice",
-      "nfl_team": "KC",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Sun 4:25 pm @  Cin",
-      "projected_points": 14.7,
-      "week": 14
-    },
-    {
-      "name": "Woody Marks",
-      "nfl_team": "Hou",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm @  Was",
-      "projected_points": 8.35,
+      "game_info": "Sun 4:25 pm @  SF",
+      "projected_points": 6.36,
       "week": 14
     },
     {
       "name": "Blake Corum",
       "nfl_team": "LAR",
       "position": "RB",
-      "selected_position": "BN",
+      "selected_position": "W/R/T",
       "game_info": "Sun 4:25 pm @  SF",
-      "projected_points": 7.87,
+      "projected_points": 6.24,
+      "week": 14
+    },
+    {
+      "name": "Keon Coleman",
+      "nfl_team": "Buf",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Sun 8:20 pm @  GB",
+      "projected_points": 6.47,
+      "week": 14
+    },
+    {
+      "name": "Dameon Pierce",
+      "nfl_team": "Phi",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Sun 1:00 pm vs  Ind",
+      "projected_points": 2.57,
+      "week": 14
+    },
+    {
+      "name": "DJ Moore",
+      "nfl_team": "Buf",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Sun 8:20 pm @  GB",
+      "projected_points": 13.03,
       "week": 14
     },
     {
@@ -855,7 +1066,16 @@
       "position": "WR",
       "selected_position": "BN",
       "game_info": "Mon 8:15 pm vs  Pit",
-      "projected_points": 10.0,
+      "projected_points": 10.16,
+      "week": 14
+    },
+    {
+      "name": "TreVeyon Henderson",
+      "nfl_team": "NE",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Thu 8:15 pm vs  Min",
+      "projected_points": 8.07,
       "week": 14
     },
     {
@@ -864,25 +1084,16 @@
       "position": "RB",
       "selected_position": "BN",
       "game_info": "Sun 4:05 pm vs  LAC\ue231",
-      "projected_points": 5.69,
+      "projected_points": 4.34,
       "week": 14
     },
     {
-      "name": "Mike Gesicki",
-      "nfl_team": "Cin",
-      "position": "TE",
-      "selected_position": "BN",
-      "game_info": "Sun 4:25 pm vs  KC",
-      "projected_points": 5.79,
-      "week": 14
-    },
-    {
-      "name": "Luke Musgrave",
-      "nfl_team": "GB",
-      "position": "TE",
+      "name": "Rashee Rice",
+      "nfl_team": "KC",
+      "position": "WR",
       "selected_position": "IR",
-      "game_info": "Sun 8:20 pm vs  Buf",
-      "projected_points": 0.22,
+      "game_info": "Sun 4:25 pm @  Cin",
+      "projected_points": 14.25,
       "week": 14
     },
     {
@@ -895,116 +1106,6 @@
       "week": 14
     }
   ],
-  "Omaha Beach Real Estate": [
-    {
-      "name": "C.J. Stroud",
-      "nfl_team": "Hou",
-      "position": "QB",
-      "selected_position": "QB",
-      "game_info": "Sun 1:00 pm @  Was",
-      "projected_points": 17.8,
-      "week": 14
-    },
-    {
-      "name": "Bijan Robinson",
-      "nfl_team": "Atl",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Sun 1:00 pm @  Cle",
-      "projected_points": 20.86,
-      "week": 14
-    },
-    {
-      "name": "Kyren Williams",
-      "nfl_team": "LAR",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Sun 4:25 pm @  SF",
-      "projected_points": 14.0,
-      "week": 14
-    },
-    {
-      "name": "Jameson Williams",
-      "nfl_team": "Det",
-      "position": "WR",
-      "selected_position": "WR",
-      "game_info": "Sun 1:00 pm vs  Ten\ue231",
-      "projected_points": 12.71,
-      "week": 14
-    },
-    {
-      "name": "Malik Nabers",
-      "nfl_team": "NYG",
-      "position": "WR",
-      "selected_position": "WR",
-      "game_info": "Sun 4:25 pm @  Sea",
-      "projected_points": 12.06,
-      "week": 14
-    },
-    {
-      "name": "Dalton Kincaid",
-      "nfl_team": "Buf",
-      "position": "TE",
-      "selected_position": "TE",
-      "game_info": "Sun 8:20 pm @  GB",
-      "projected_points": 9.38,
-      "week": 14
-    },
-    {
-      "name": "Chris Godwin Jr.",
-      "nfl_team": "TB",
-      "position": "WR",
-      "selected_position": "W/R/T",
-      "game_info": "Sun 1:00 pm @  Bal",
-      "projected_points": 9.53,
-      "week": 14
-    },
-    {
-      "name": "Tre Tucker",
-      "nfl_team": "LV",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Sun 4:05 pm vs  LAC\ue231",
-      "projected_points": 8.37,
-      "week": 14
-    },
-    {
-      "name": "Rashid Shaheed",
-      "nfl_team": "Sea",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Sun 4:25 pm vs  NYG",
-      "projected_points": 7.52,
-      "week": 14
-    },
-    {
-      "name": "Hunter Henry",
-      "nfl_team": "NE",
-      "position": "TE",
-      "selected_position": "BN",
-      "game_info": "Thu 8:15 pm vs  Min",
-      "projected_points": 8.59,
-      "week": 14
-    },
-    {
-      "name": "Baker Mayfield",
-      "nfl_team": "TB",
-      "position": "QB",
-      "selected_position": "IR",
-      "game_info": "Sun 1:00 pm @  Bal",
-      "projected_points": 14.78,
-      "week": 14
-    },
-    {
-      "name": "Jayden Daniels",
-      "nfl_team": "Was",
-      "position": "QB",
-      "selected_position": "IR",
-      "game_info": "Sun 1:00 pm vs  Hou",
-      "projected_points": 16.89,
-      "week": 14
-    }
-  ],
   "Big Bad Hokkkk": [
     {
       "name": "Matthew Stafford",
@@ -1012,7 +1113,16 @@
       "position": "QB",
       "selected_position": "QB",
       "game_info": "Sun 4:25 pm @  SF",
-      "projected_points": 16.08,
+      "projected_points": 17.1,
+      "week": 14
+    },
+    {
+      "name": "Breece Hall",
+      "nfl_team": "NYJ",
+      "position": "RB",
+      "selected_position": "RB",
+      "game_info": "Sun 1:00 pm vs  Den",
+      "projected_points": 12.77,
       "week": 14
     },
     {
@@ -1021,16 +1131,7 @@
       "position": "RB",
       "selected_position": "RB",
       "game_info": "Sun 1:00 pm vs  Atl",
-      "projected_points": 11.3,
-      "week": 14
-    },
-    {
-      "name": "Tony Pollard",
-      "nfl_team": "Ten",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Sun 1:00 pm @  Det\ue231",
-      "projected_points": 10.82,
+      "projected_points": 11.26,
       "week": 14
     },
     {
@@ -1048,7 +1149,7 @@
       "position": "WR",
       "selected_position": "WR",
       "game_info": "Sun 4:25 pm vs  KC",
-      "projected_points": 19.1,
+      "projected_points": 19.07,
       "week": 14
     },
     {
@@ -1061,12 +1162,48 @@
       "week": 14
     },
     {
+      "name": "A.J. Brown",
+      "nfl_team": "NE",
+      "position": "WR",
+      "selected_position": "W/R/T",
+      "game_info": "Thu 8:15 pm vs  Min",
+      "projected_points": 10.93,
+      "week": 14
+    },
+    {
+      "name": "Tony Pollard",
+      "nfl_team": "Ten",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Sun 1:00 pm @  Det\ue231",
+      "projected_points": 11.33,
+      "week": 14
+    },
+    {
+      "name": "Brian Robinson Jr.",
+      "nfl_team": "Atl",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Sun 1:00 pm @  Cle",
+      "projected_points": 5.48,
+      "week": 14
+    },
+    {
       "name": "Courtland Sutton",
       "nfl_team": "Den",
       "position": "WR",
-      "selected_position": "W/R/T",
+      "selected_position": "BN",
       "game_info": "Sun 1:00 pm @  NYJ",
-      "projected_points": 9.78,
+      "projected_points": 8.9,
+      "week": 14
+    },
+    {
+      "name": "DeMario Douglas",
+      "nfl_team": "NE",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Thu 8:15 pm vs  Min",
+      "projected_points": 5.82,
       "week": 14
     },
     {
@@ -1075,7 +1212,7 @@
       "position": "QB",
       "selected_position": "BN",
       "game_info": "Sun 1:00 pm vs  NO",
-      "projected_points": 16.4,
+      "projected_points": 18.87,
       "week": 14
     },
     {
@@ -1084,52 +1221,7 @@
       "position": "RB",
       "selected_position": "BN",
       "game_info": "Thu 8:15 pm @  NE",
-      "projected_points": 8.09,
-      "week": 14
-    },
-    {
-      "name": "Brian Robinson",
-      "nfl_team": "Atl",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm @  Cle",
-      "projected_points": 5.38,
-      "week": 14
-    },
-    {
-      "name": "Breece Hall",
-      "nfl_team": "NYJ",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Den",
-      "projected_points": 13.53,
-      "week": 14
-    },
-    {
-      "name": "Keon Coleman",
-      "nfl_team": "Buf",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Sun 8:20 pm @  GB",
-      "projected_points": 5.14,
-      "week": 14
-    },
-    {
-      "name": "Cade Otton",
-      "nfl_team": "TB",
-      "position": "TE",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm @  Bal",
-      "projected_points": 6.75,
-      "week": 14
-    },
-    {
-      "name": "A.J. Brown",
-      "nfl_team": "NE",
-      "position": "WR",
-      "selected_position": "IR",
-      "game_info": "Thu 8:15 pm vs  Min",
-      "projected_points": 13.23,
+      "projected_points": 7.49,
       "week": 14
     },
     {
@@ -1138,144 +1230,126 @@
       "position": "WR",
       "selected_position": "IR",
       "game_info": "Sun 1:00 pm @  Was",
-      "projected_points": 1.89,
+      "projected_points": 2.88,
       "week": 14
     }
   ],
-  "You gotta be Falcon kiddin me": [
+  "Supernova\u2019s Studs": [
     {
-      "name": "Jacoby Brissett",
-      "nfl_team": "Ari",
+      "name": "Sam Darnold",
+      "nfl_team": "Sea",
       "position": "QB",
       "selected_position": "QB",
-      "game_info": "Bye",
-      "projected_points": null,
+      "game_info": "Sun 4:25 pm vs  NYG",
+      "projected_points": 16.63,
       "week": 14
     },
     {
-      "name": "Christian McCaffrey",
-      "nfl_team": "SF",
+      "name": "Jonathan Taylor",
+      "nfl_team": "Ind",
       "position": "RB",
       "selected_position": "RB",
-      "game_info": "Sun 4:25 pm vs  LAR",
-      "projected_points": 18.92,
+      "game_info": "Sun 1:00 pm @  Phi",
+      "projected_points": 17.03,
       "week": 14
     },
     {
-      "name": "Bucky Irving",
-      "nfl_team": "TB",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Sun 1:00 pm @  Bal",
-      "projected_points": 12.41,
-      "week": 14
-    },
-    {
-      "name": "George Pickens",
+      "name": "Javonte Williams",
       "nfl_team": "Dal",
-      "position": "WR",
-      "selected_position": "WR",
+      "position": "RB",
+      "selected_position": "RB",
       "game_info": "Bye",
       "projected_points": null,
       "week": 14
     },
     {
-      "name": "Emeka Egbuka",
-      "nfl_team": "TB",
+      "name": "Davante Adams",
+      "nfl_team": "LAR",
       "position": "WR",
       "selected_position": "WR",
-      "game_info": "Sun 1:00 pm @  Bal",
-      "projected_points": 10.99,
+      "game_info": "Sun 4:25 pm @  SF",
+      "projected_points": 13.84,
       "week": 14
     },
     {
-      "name": "Brenton Strange",
-      "nfl_team": "Jax",
+      "name": "Jalen Coker",
+      "nfl_team": "Car",
+      "position": "WR",
+      "selected_position": "WR",
+      "game_info": "Sun 1:00 pm vs  NO",
+      "projected_points": 13.23,
+      "week": 14
+    },
+    {
+      "name": "Brock Bowers",
+      "nfl_team": "LV",
       "position": "TE",
       "selected_position": "TE",
-      "game_info": "Mon 8:15 pm vs  Pit",
-      "projected_points": 9.29,
-      "week": 14
-    },
-    {
-      "name": "Kyle Pitts Sr.",
-      "nfl_team": "Atl",
-      "position": "TE",
-      "selected_position": "W/R/T",
-      "game_info": "Sun 1:00 pm @  Cle",
-      "projected_points": 7.92,
-      "week": 14
-    },
-    {
-      "name": "Jalen Nailor",
-      "nfl_team": "LV",
-      "position": "WR",
-      "selected_position": "BN",
       "game_info": "Sun 4:05 pm vs  LAC\ue231",
-      "projected_points": 6.29,
+      "projected_points": 16.62,
       "week": 14
     },
     {
-      "name": "Keaton Mitchell",
-      "nfl_team": "LAC",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 4:05 pm @  LV\ue231",
-      "projected_points": 5.84,
-      "week": 14
-    },
-    {
-      "name": "Luther Burden III",
+      "name": "Rome Odunze",
       "nfl_team": "Chi",
       "position": "WR",
-      "selected_position": "BN",
+      "selected_position": "W/R/T",
       "game_info": "Sun 1:00 pm @  Mia",
-      "projected_points": 13.27,
+      "projected_points": 11.13,
       "week": 14
     },
     {
-      "name": "Antonio Williams",
-      "nfl_team": "Was",
+      "name": "Kendrick Bourne",
+      "nfl_team": "Ari",
       "position": "WR",
       "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Hou",
-      "projected_points": 4.17,
+      "game_info": "Bye",
+      "projected_points": null,
       "week": 14
     },
     {
-      "name": "Emmett Johnson",
-      "nfl_team": "KC",
-      "position": "RB",
+      "name": "Malik Washington",
+      "nfl_team": "Mia",
+      "position": "WR",
       "selected_position": "BN",
-      "game_info": "Sun 4:25 pm @  Cin",
-      "projected_points": 5.28,
+      "game_info": "Sun 1:00 pm vs  Chi",
+      "projected_points": 11.17,
       "week": 14
     },
     {
-      "name": "Pat Freiermuth",
+      "name": "Jared Goff",
+      "nfl_team": "Det",
+      "position": "QB",
+      "selected_position": "BN",
+      "game_info": "Sun 1:00 pm vs  Ten\ue231",
+      "projected_points": 21.23,
+      "week": 14
+    },
+    {
+      "name": "Jordan Addison",
+      "nfl_team": "Min",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Thu 8:15 pm @  NE",
+      "projected_points": 8.41,
+      "week": 14
+    },
+    {
+      "name": "Zach Charbonnet",
+      "nfl_team": "Sea",
+      "position": "RB",
+      "selected_position": "IR",
+      "game_info": "Sun 4:25 pm vs  NYG",
+      "projected_points": 9.81,
+      "week": 14
+    },
+    {
+      "name": "Roman Wilson",
       "nfl_team": "Pit",
-      "position": "TE",
-      "selected_position": "BN",
+      "position": "WR",
+      "selected_position": "IR",
       "game_info": "Mon 8:15 pm @  Jax",
-      "projected_points": 7.07,
-      "week": 14
-    },
-    {
-      "name": "Caleb Williams",
-      "nfl_team": "Chi",
-      "position": "QB",
-      "selected_position": "IR",
-      "game_info": "Sun 1:00 pm @  Mia",
-      "projected_points": 19.16,
-      "week": 14
-    },
-    {
-      "name": "Jaxson Dart",
-      "nfl_team": "NYG",
-      "position": "QB",
-      "selected_position": "IR",
-      "game_info": "Sun 4:25 pm @  Sea",
-      "projected_points": 7.08,
+      "projected_points": 6.48,
       "week": 14
     }
   ],
@@ -1286,16 +1360,7 @@
       "position": "QB",
       "selected_position": "QB",
       "game_info": "Mon 8:15 pm @  Jax",
-      "projected_points": 13.24,
-      "week": 14
-    },
-    {
-      "name": "Chase Brown",
-      "nfl_team": "Cin",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Sun 4:25 pm vs  KC",
-      "projected_points": 15.12,
+      "projected_points": 15.83,
       "week": 14
     },
     {
@@ -1304,7 +1369,16 @@
       "position": "RB",
       "selected_position": "RB",
       "game_info": "Mon 8:15 pm @  Jax",
-      "projected_points": 11.44,
+      "projected_points": 14.63,
+      "week": 14
+    },
+    {
+      "name": "Chase Brown",
+      "nfl_team": "Cin",
+      "position": "RB",
+      "selected_position": "RB",
+      "game_info": "Sun 4:25 pm vs  KC",
+      "projected_points": 15.29,
       "week": 14
     },
     {
@@ -1313,25 +1387,25 @@
       "position": "WR",
       "selected_position": "WR",
       "game_info": "Sun 1:00 pm @  Cle",
-      "projected_points": 14.91,
+      "projected_points": 15.0,
       "week": 14
     },
     {
-      "name": "Terry McLaurin",
-      "nfl_team": "Was",
+      "name": "Jauan Jennings",
+      "nfl_team": "Min",
       "position": "WR",
       "selected_position": "WR",
-      "game_info": "Sun 1:00 pm vs  Hou",
-      "projected_points": 11.82,
+      "game_info": "Thu 8:15 pm @  NE",
+      "projected_points": 5.51,
       "week": 14
     },
     {
-      "name": "Mark Andrews",
-      "nfl_team": "Bal",
+      "name": "Travis Kelce",
+      "nfl_team": "KC",
       "position": "TE",
       "selected_position": "TE",
-      "game_info": "Sun 1:00 pm vs  TB",
-      "projected_points": 9.53,
+      "game_info": "Sun 4:25 pm @  Cin",
+      "projected_points": 12.12,
       "week": 14
     },
     {
@@ -1340,7 +1414,7 @@
       "position": "RB",
       "selected_position": "W/R/T",
       "game_info": "Sun 1:00 pm @  NYJ",
-      "projected_points": 10.23,
+      "projected_points": 9.66,
       "week": 14
     },
     {
@@ -1349,43 +1423,16 @@
       "position": "WR",
       "selected_position": "BN",
       "game_info": "Sun 8:20 pm @  GB",
-      "projected_points": 9.05,
+      "projected_points": 9.41,
       "week": 14
     },
     {
-      "name": "Lamar Jackson",
-      "nfl_team": "Bal",
-      "position": "QB",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  TB",
-      "projected_points": 19.44,
-      "week": 14
-    },
-    {
-      "name": "Jauan Jennings",
-      "nfl_team": "Min",
+      "name": "Terry McLaurin",
+      "nfl_team": "Was",
       "position": "WR",
       "selected_position": "BN",
-      "game_info": "Thu 8:15 pm @  NE",
-      "projected_points": 6.05,
-      "week": 14
-    },
-    {
-      "name": "Travis Kelce",
-      "nfl_team": "KC",
-      "position": "TE",
-      "selected_position": "BN",
-      "game_info": "Sun 4:25 pm @  Cin",
-      "projected_points": 10.74,
-      "week": 14
-    },
-    {
-      "name": "Marvin Harrison Jr.",
-      "nfl_team": "Ari",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Bye",
-      "projected_points": null,
+      "game_info": "Sun 1:00 pm vs  Hou",
+      "projected_points": 7.84,
       "week": 14
     },
     {
@@ -1394,281 +1441,34 @@
       "position": "RB",
       "selected_position": "BN",
       "game_info": "Sun 1:00 pm @  Bal",
-      "projected_points": 9.33,
-      "week": 14
-    }
-  ],
-  "Flow Brrr": [
-    {
-      "name": "Joe Burrow",
-      "nfl_team": "Cin",
-      "position": "QB",
-      "selected_position": "QB",
-      "game_info": "Sun 4:25 pm vs  KC",
-      "projected_points": 17.24,
+      "projected_points": 7.53,
       "week": 14
     },
     {
-      "name": "Bhayshul Tuten",
-      "nfl_team": "Jax",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Mon 8:15 pm vs  Pit",
-      "projected_points": 11.89,
-      "week": 14
-    },
-    {
-      "name": "Rhamondre Stevenson",
-      "nfl_team": "NE",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Thu 8:15 pm vs  Min",
-      "projected_points": 10.51,
-      "week": 14
-    },
-    {
-      "name": "Puka Nacua",
-      "nfl_team": "LAR",
-      "position": "WR",
-      "selected_position": "WR",
-      "game_info": "Sun 4:25 pm @  SF",
-      "projected_points": 18.76,
-      "week": 14
-    },
-    {
-      "name": "Deebo Samuel Sr.",
-      "nfl_team": "SF",
-      "position": "WR",
-      "selected_position": "WR",
-      "game_info": "Sun 4:25 pm vs  LAR",
-      "projected_points": 7.87,
-      "week": 14
-    },
-    {
-      "name": "Trey McBride",
-      "nfl_team": "Ari",
-      "position": "TE",
-      "selected_position": "TE",
-      "game_info": "Bye",
-      "projected_points": null,
-      "week": 14
-    },
-    {
-      "name": "DeVonta Smith",
-      "nfl_team": "Phi",
-      "position": "WR",
-      "selected_position": "W/R/T",
-      "game_info": "Sun 1:00 pm vs  Ind",
-      "projected_points": 13.53,
-      "week": 14
-    },
-    {
-      "name": "Jacory Croskey-Merritt",
-      "nfl_team": "Was",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Hou",
-      "projected_points": 7.4,
-      "week": 14
-    },
-    {
-      "name": "Keenan Allen",
-      "nfl_team": "Ind",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm @  Phi",
-      "projected_points": 7.35,
-      "week": 14
-    },
-    {
-      "name": "Chris Rodriguez Jr.",
-      "nfl_team": "Jax",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Mon 8:15 pm vs  Pit",
-      "projected_points": 5.9,
-      "week": 14
-    },
-    {
-      "name": "Jared Goff",
-      "nfl_team": "Det",
-      "position": "QB",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Ten\ue231",
-      "projected_points": 19.01,
-      "week": 14
-    },
-    {
-      "name": "Tyjae Spears",
-      "nfl_team": "Ten",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm @  Det\ue231",
-      "projected_points": 8.34,
-      "week": 14
-    },
-    {
-      "name": "Darius Cooper",
-      "nfl_team": "Phi",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Ind",
-      "projected_points": 1.48,
-      "week": 14
-    },
-    {
-      "name": "Ja'Kobi Lane",
+      "name": "Lamar Jackson",
       "nfl_team": "Bal",
-      "position": "WR",
-      "selected_position": "IR",
+      "position": "QB",
+      "selected_position": "BN",
       "game_info": "Sun 1:00 pm vs  TB",
-      "projected_points": 5.14,
+      "projected_points": 20.2,
       "week": 14
     },
     {
-      "name": "Alec Pierce",
-      "nfl_team": "Ind",
-      "position": "WR",
-      "selected_position": "IR",
-      "game_info": "Sun 1:00 pm @  Phi",
-      "projected_points": 10.43,
-      "week": 14
-    }
-  ],
-  "Tsuga\u2019s Tuck Shop": [
-    {
-      "name": "Jameis Winston",
-      "nfl_team": "NYG",
-      "position": "QB",
-      "selected_position": "QB",
-      "game_info": "Sun 4:25 pm @  Sea",
-      "projected_points": 7.97,
-      "week": 14
-    },
-    {
-      "name": "Omarion Hampton",
-      "nfl_team": "LAC",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Sun 4:05 pm @  LV\ue231",
-      "projected_points": 11.97,
-      "week": 14
-    },
-    {
-      "name": "Cam Skattebo",
-      "nfl_team": "NYG",
-      "position": "RB",
-      "selected_position": "RB",
-      "game_info": "Sun 4:25 pm @  Sea",
-      "projected_points": 10.42,
-      "week": 14
-    },
-    {
-      "name": "Mike Evans",
-      "nfl_team": "SF",
-      "position": "WR",
-      "selected_position": "WR",
-      "game_info": "Sun 4:25 pm vs  LAR",
-      "projected_points": 11.49,
-      "week": 14
-    },
-    {
-      "name": "Justin Jefferson",
-      "nfl_team": "Min",
-      "position": "WR",
-      "selected_position": "WR",
-      "game_info": "Thu 8:15 pm @  NE",
-      "projected_points": 15.58,
-      "week": 14
-    },
-    {
-      "name": "George Kittle",
-      "nfl_team": "SF",
+      "name": "Mark Andrews",
+      "nfl_team": "Bal",
       "position": "TE",
-      "selected_position": "TE",
-      "game_info": "Sun 4:25 pm vs  LAR",
-      "projected_points": 11.31,
-      "week": 14
-    },
-    {
-      "name": "KC Concepcion Jr.",
-      "nfl_team": "Cle",
-      "position": "WR",
-      "selected_position": "W/R/T",
-      "game_info": "Sun 1:00 pm vs  Atl",
-      "projected_points": 9.35,
-      "week": 14
-    },
-    {
-      "name": "Patrick Mahomes",
-      "nfl_team": "KC",
-      "position": "QB",
       "selected_position": "BN",
-      "game_info": "Sun 4:25 pm @  Cin",
-      "projected_points": 17.39,
+      "game_info": "Sun 1:00 pm vs  TB",
+      "projected_points": 10.06,
       "week": 14
     },
     {
-      "name": "Ladd McConkey",
-      "nfl_team": "LAC",
+      "name": "Marvin Harrison Jr.",
+      "nfl_team": "Hou",
       "position": "WR",
       "selected_position": "BN",
-      "game_info": "Sun 4:05 pm @  LV\ue231",
-      "projected_points": 11.6,
-      "week": 14
-    },
-    {
-      "name": "Rachaad White",
-      "nfl_team": "Was",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Hou",
-      "projected_points": 7.25,
-      "week": 14
-    },
-    {
-      "name": "Jonah Coleman",
-      "nfl_team": "Den",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm @  NYJ",
-      "projected_points": 4.8,
-      "week": 14
-    },
-    {
-      "name": "Dohnte Meyers",
-      "nfl_team": "Cin",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Sun 4:25 pm vs  KC",
-      "projected_points": 1.21,
-      "week": 14
-    },
-    {
-      "name": "Tre' Harris",
-      "nfl_team": "LAC",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Sun 4:05 pm @  LV\ue231",
-      "projected_points": 7.09,
-      "week": 14
-    },
-    {
-      "name": "De'Zhaun Stribling",
-      "nfl_team": "SF",
-      "position": "WR",
-      "selected_position": "IR",
-      "game_info": "Sun 4:25 pm vs  LAR",
-      "projected_points": 4.36,
-      "week": 14
-    },
-    {
-      "name": "Jordyn Tyson",
-      "nfl_team": "NO",
-      "position": "WR",
-      "selected_position": "IR",
-      "game_info": "Sun 1:00 pm @  Car",
-      "projected_points": 8.1,
+      "game_info": "Sun 1:00 pm @  Was",
+      "projected_points": 4.62,
       "week": 14
     }
   ],
@@ -1679,25 +1479,34 @@
       "position": "QB",
       "selected_position": "QB",
       "game_info": "Thu 8:15 pm @  NE",
-      "projected_points": 14.97,
+      "projected_points": 15.57,
       "week": 14
     },
     {
-      "name": "Braelon Allen",
-      "nfl_team": "NYJ",
+      "name": "Josh Jacobs",
+      "nfl_team": "GB",
       "position": "RB",
       "selected_position": "RB",
-      "game_info": "Sun 1:00 pm vs  Den",
-      "projected_points": 5.62,
+      "game_info": "Sun 8:20 pm vs  Buf",
+      "projected_points": 13.26,
       "week": 14
     },
     {
-      "name": "Emanuel Wilson",
-      "nfl_team": "Sea",
+      "name": "Saquon Barkley",
+      "nfl_team": "Phi",
       "position": "RB",
       "selected_position": "RB",
-      "game_info": "Sun 4:25 pm vs  NYG",
-      "projected_points": 1.73,
+      "game_info": "Sun 1:00 pm vs  Ind",
+      "projected_points": 12.71,
+      "week": 14
+    },
+    {
+      "name": "Matthew Golden",
+      "nfl_team": "GB",
+      "position": "WR",
+      "selected_position": "WR",
+      "game_info": "Sun 8:20 pm vs  Buf",
+      "projected_points": 14.16,
       "week": 14
     },
     {
@@ -1706,16 +1515,7 @@
       "position": "WR",
       "selected_position": "WR",
       "game_info": "Sun 1:00 pm @  NYJ",
-      "projected_points": 13.19,
-      "week": 14
-    },
-    {
-      "name": "Carnell Tate",
-      "nfl_team": "Ten",
-      "position": "WR",
-      "selected_position": "WR",
-      "game_info": "Sun 1:00 pm @  Det\ue231",
-      "projected_points": 12.88,
+      "projected_points": 11.86,
       "week": 14
     },
     {
@@ -1724,16 +1524,34 @@
       "position": "TE",
       "selected_position": "TE",
       "game_info": "Sun 4:25 pm @  Sea",
-      "projected_points": 9.12,
+      "projected_points": 11.37,
       "week": 14
     },
     {
-      "name": "Matthew Golden",
-      "nfl_team": "GB",
+      "name": "Carnell Tate",
+      "nfl_team": "Ten",
       "position": "WR",
       "selected_position": "W/R/T",
-      "game_info": "Sun 8:20 pm vs  Buf",
-      "projected_points": 11.87,
+      "game_info": "Sun 1:00 pm @  Det\ue231",
+      "projected_points": 13.02,
+      "week": 14
+    },
+    {
+      "name": "Ollie Gordon II",
+      "nfl_team": "Mia",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Sun 1:00 pm vs  Chi",
+      "projected_points": 11.46,
+      "week": 14
+    },
+    {
+      "name": "Emanuel Wilson",
+      "nfl_team": "Sea",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Sun 4:25 pm vs  NYG",
+      "projected_points": 3.41,
       "week": 14
     },
     {
@@ -1742,61 +1560,25 @@
       "position": "WR",
       "selected_position": "BN",
       "game_info": "Sun 1:00 pm @  Phi",
-      "projected_points": 10.22,
+      "projected_points": 9.62,
       "week": 14
     },
     {
-      "name": "Saquon Barkley",
-      "nfl_team": "Phi",
+      "name": "Tyler Allgeier",
+      "nfl_team": "Ari",
       "position": "RB",
       "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Ind",
-      "projected_points": 14.64,
+      "game_info": "Bye",
+      "projected_points": null,
       "week": 14
     },
     {
-      "name": "Josh Jacobs",
-      "nfl_team": "GB",
+      "name": "Braelon Allen",
+      "nfl_team": "NYJ",
       "position": "RB",
       "selected_position": "BN",
-      "game_info": "Sun 8:20 pm vs  Buf",
-      "projected_points": 4.07,
-      "week": 14
-    },
-    {
-      "name": "Dontayvion Wicks",
-      "nfl_team": "Phi",
-      "position": "WR",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Ind",
+      "game_info": "Sun 1:00 pm vs  Den",
       "projected_points": 6.61,
-      "week": 14
-    },
-    {
-      "name": "Will Shipley",
-      "nfl_team": "Phi",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Ind",
-      "projected_points": 2.19,
-      "week": 14
-    },
-    {
-      "name": "Austin Ekeler",
-      "nfl_team": "Was",
-      "position": "RB",
-      "selected_position": "BN",
-      "game_info": "Sun 1:00 pm vs  Hou",
-      "projected_points": 4.34,
-      "week": 14
-    },
-    {
-      "name": "Jalen Coker",
-      "nfl_team": "Car",
-      "position": "WR",
-      "selected_position": "IR",
-      "game_info": "Sun 1:00 pm vs  NO",
-      "projected_points": 10.72,
       "week": 14
     },
     {
@@ -1805,7 +1587,135 @@
       "position": "RB",
       "selected_position": "IR",
       "game_info": "Sun 1:00 pm vs  Chi",
+      "projected_points": 0.0,
+      "week": 14
+    }
+  ],
+  "Tsuga\u2019s Tuck Shop": [
+    {
+      "name": "Patrick Mahomes",
+      "nfl_team": "KC",
+      "position": "QB",
+      "selected_position": "QB",
+      "game_info": "Sun 4:25 pm @  Cin",
+      "projected_points": 19.43,
+      "week": 14
+    },
+    {
+      "name": "Samaje Perine",
+      "nfl_team": "Cin",
+      "position": "RB",
+      "selected_position": "RB",
+      "game_info": "Sun 4:25 pm vs  KC",
+      "projected_points": 5.67,
+      "week": 14
+    },
+    {
+      "name": "Rachaad White",
+      "nfl_team": "Was",
+      "position": "RB",
+      "selected_position": "RB",
+      "game_info": "Sun 1:00 pm vs  Hou",
+      "projected_points": 6.92,
+      "week": 14
+    },
+    {
+      "name": "Germie Bernard",
+      "nfl_team": "Pit",
+      "position": "WR",
+      "selected_position": "WR",
+      "game_info": "Mon 8:15 pm @  Jax",
+      "projected_points": 7.6,
+      "week": 14
+    },
+    {
+      "name": "Justin Jefferson",
+      "nfl_team": "Min",
+      "position": "WR",
+      "selected_position": "WR",
+      "game_info": "Thu 8:15 pm @  NE",
+      "projected_points": 16.22,
+      "week": 14
+    },
+    {
+      "name": "George Kittle",
+      "nfl_team": "SF",
+      "position": "TE",
+      "selected_position": "TE",
+      "game_info": "Sun 4:25 pm vs  LAR",
+      "projected_points": 13.16,
+      "week": 14
+    },
+    {
+      "name": "KC Concepcion Jr.",
+      "nfl_team": "Cle",
+      "position": "WR",
+      "selected_position": "W/R/T",
+      "game_info": "Sun 1:00 pm vs  Atl",
       "projected_points": 8.21,
+      "week": 14
+    },
+    {
+      "name": "Cam Skattebo",
+      "nfl_team": "NYG",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Sun 4:25 pm @  Sea",
+      "projected_points": 8.89,
+      "week": 14
+    },
+    {
+      "name": "Mike Evans",
+      "nfl_team": "SF",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Sun 4:25 pm vs  LAR",
+      "projected_points": 14.21,
+      "week": 14
+    },
+    {
+      "name": "Ladd McConkey",
+      "nfl_team": "LAC",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Sun 4:05 pm @  LV\ue231",
+      "projected_points": 11.63,
+      "week": 14
+    },
+    {
+      "name": "Omarion Hampton",
+      "nfl_team": "LAC",
+      "position": "RB",
+      "selected_position": "BN",
+      "game_info": "Sun 4:05 pm @  LV\ue231",
+      "projected_points": 10.05,
+      "week": 14
+    },
+    {
+      "name": "Brandin Cooks",
+      "nfl_team": "SF",
+      "position": "WR",
+      "selected_position": "BN",
+      "game_info": "Sun 4:25 pm vs  LAR",
+      "projected_points": 1.22,
+      "week": 14
+    },
+    {
+      "name": "Jonah Coleman",
+      "nfl_team": "Den",
+      "position": "RB",
+      "selected_position": "IR",
+      "game_info": "Sun 1:00 pm @  NYJ",
+      "projected_points": 4.8,
+      "week": 14
+    },
+    {
+      "name": "Jordyn Tyson",
+      "nfl_team": "NO",
+      "position": "WR",
+      "selected_position": "IR",
+      "game_info": "Sun 1:00 pm @  Car",
+      "projected_points": 9.18,
       "week": 14
     }
   ]
