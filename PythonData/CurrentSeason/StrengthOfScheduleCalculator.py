@@ -75,8 +75,10 @@ def compute_schedule_records(input_folder, output_dir,
                 if t not in wk["points"] or s not in wk["opp"]:
                     continue  # bye week / missing data
                 o = wk["opp"][s]
-                # If S played T this week, T faces S directly
-                opp_score = wk["points"][s] if o == t else wk["points"][o]
+                if o == t:
+                    ties += 1  # S played T this week, so T would be playing itself
+                    continue
+                opp_score = wk["points"][o]
                 my_score = wk["points"][t]
                 if my_score > opp_score:
                     w += 1

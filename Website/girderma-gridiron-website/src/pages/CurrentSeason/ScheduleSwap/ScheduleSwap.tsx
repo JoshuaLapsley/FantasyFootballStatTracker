@@ -47,7 +47,7 @@ const ScheduleSwap: React.FC = () => {
     });
 
     const avg = (records: WLT[]) =>
-      records.reduce((sum, r) => sum + r.wins, 0) / (records.length || 1);
+      records.reduce((sum, r) => sum + r.wins + r.ties / 2, 0) / (records.length || 1);
 
     // Row average: one team across every schedule
     const byTeam: Record<string, number> = {};

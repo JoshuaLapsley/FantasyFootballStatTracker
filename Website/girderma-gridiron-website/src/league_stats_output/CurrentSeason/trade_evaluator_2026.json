@@ -155,7 +155,7 @@
     "transaction_id": "169",
     "timestamp": 1791098662,
     "traded_at": "2026-10-04T07:24:22+00:00",
-    "freeze_week": 5,
+    "freeze_week": 4,
     "last_week_evaluated": 6,
     "sides": {
       "470.l.205662.t.4": {
@@ -185,10 +185,16 @@
           }
         ],
         "weekly_net_gain": {
+          "4": -33.0,
           "5": 5.1,
           "6": -27.9
         },
         "weekly_detail": {
+          "4": {
+            "net_gain": -33.0,
+            "real_lineup_points": 118.36,
+            "counterfactual_lineup_points": 151.36
+          },
           "5": {
             "net_gain": 5.1,
             "real_lineup_points": 106.82,
@@ -200,7 +206,7 @@
             "counterfactual_lineup_points": 97.58
           }
         },
-        "total_net_gain": -22.8
+        "total_net_gain": -55.8
       },
       "470.l.205662.t.3": {
         "team_name": "Girder\u2019s 6 Cookies",
@@ -229,10 +235,16 @@
           }
         ],
         "weekly_net_gain": {
+          "4": 46.0,
           "5": -5.1,
           "6": 29.3
         },
         "weekly_detail": {
+          "4": {
+            "net_gain": 46.0,
+            "real_lineup_points": 130.22,
+            "counterfactual_lineup_points": 84.22
+          },
           "5": {
             "net_gain": -5.1,
             "real_lineup_points": 85.1,
@@ -244,7 +256,7 @@
             "counterfactual_lineup_points": 62.1
           }
         },
-        "total_net_gain": 24.2
+        "total_net_gain": 70.2
       }
     },
     "weeks_skipped_no_projection_data": []

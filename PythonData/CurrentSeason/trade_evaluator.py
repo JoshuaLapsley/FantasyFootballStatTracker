@@ -333,26 +333,22 @@ def group_trade_by_side(parsed_trade: dict) -> dict:
 # --------------------------------------------------------------------------
 _week_cutoff_date_cache = {}
 
-# Yahoo's own week_start/week_end (from league.matchups()) is just the
-# calendar date range (Tuesday-to-Monday) a fantasy week spans. A trade
-# that clears on or before the FRIDAY of that week (week_start + 3 days)
-# is treated as in effect for that week; a trade clearing Saturday or
-# later rolls to the following week. (This is a league-defined cutoff,
-# deliberately later than the Thursday-night kickoff -- trades through
-# Friday count for that week.)
-# Week 1 is the one known exception most seasons (a Wednesday
-# week_start, not Tuesday, e.g. due to an international opener) --
-# not relevant here since no trade in this league has ever happened in
-# week 1, but flagged in case that changes.
-TRADE_CUTOFF_OFFSET_DAYS = 3
-
+# Yahoo's week_start/week_end (from league.matchups()) is the calendar
+# date range (normally Tuesday-to-Monday) a fantasy week spans. A trade
+# that clears on or before the SUNDAY of that week is treated as in
+# effect for that week; a trade clearing Monday or later rolls to the
+# following week. (League-defined cutoff, deliberately later than the
+# Thursday-night kickoff.)
+# Week 1 is the known exception most seasons (a Wednesday week_start,
+# e.g. due to an international opener). Computing the first Sunday on
+# or after week_start handles that automatically.
+SUNDAY = 6  # Monday=0 ... Sunday=6
 
 def get_week_trade_cutoff_date(league, week: int):
     """Returns the LAST date a trade can clear and still count for
-    `week` (its Friday: week_start + 3 days). A trade clearing ON this
-    date or any earlier day is evaluated starting that week; any later
-    date rolls to the following week. Cached process-wide since the
-    schedule never changes once set."""
+    `week`: the first Sunday on or after the week's start. A trade
+    clearing on or before this date is evaluated starting that week;
+    any later date rolls to the following week."""
     if week in _week_cutoff_date_cache:
         return _week_cutoff_date_cache[week]
     raw = league.matchups(week=week)
@@ -360,7 +356,8 @@ def get_week_trade_cutoff_date(league, week: int):
     sb_key = next(k for k in scoreboard.keys() if k.isdigit())
     matchup = scoreboard[sb_key]["matchups"]["0"]["matchup"]
     week_start = datetime.strptime(matchup["week_start"], "%Y-%m-%d").date()
-    cutoff = week_start + timedelta(days=TRADE_CUTOFF_OFFSET_DAYS)
+    days_until_sunday = (SUNDAY - week_start.weekday()) % 7
+    cutoff = week_start + timedelta(days=days_until_sunday)
     _week_cutoff_date_cache[week] = cutoff
     return cutoff
 
