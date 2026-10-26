@@ -1237,17 +1237,17 @@ def write_meta(league, year=2026, path=META_PATH):
     print(f"Saved -> {path}")
 
 def main():
-    # write_week_files(lg, OUTPUT_DIR=MATCHUP_DATA_DIR)
-    # write_war_json(2026, league=lg) #BIG REFACTOR NEEDED, THIS IS REALLY MESSY
-    # calculate_earned_wins(data_directory=MATCHUP_DATA_DIR, output_directory=CURRENT_SEASON_DATA_DIR)
-    # write_earned_wins_plus(lg, output_directory=CURRENT_SEASON_DATA_DIR)
-    # run_draft_par(lg)
-    # run_calculate_war(lg)
-    # run_simulate_matchups(lg)
-    # run_waiver_war(2026, league=lg)
-    # run_draft_value(league=lg)
-    # write_meta(lg)
-    # run_trade_evaluator()
+    write_week_files(lg, OUTPUT_DIR=MATCHUP_DATA_DIR)
+    write_war_json(2026, league=lg) #BIG REFACTOR NEEDED, THIS IS REALLY MESSY
+    calculate_earned_wins(data_directory=MATCHUP_DATA_DIR, output_directory=CURRENT_SEASON_DATA_DIR)
+    write_earned_wins_plus(lg, output_directory=CURRENT_SEASON_DATA_DIR)
+    run_draft_par(lg)
+    run_calculate_war(lg)
+    run_simulate_matchups(lg)
+    run_waiver_war(2026, league=lg)
+    run_draft_value(league=lg)
+    write_meta(lg)
+    run_trade_evaluator()
     compute_schedule_records(MATCHUP_DATA_DIR, CURRENT_SEASON_DATA_DIR, "StrengthOfSchedule.json")
     
 
