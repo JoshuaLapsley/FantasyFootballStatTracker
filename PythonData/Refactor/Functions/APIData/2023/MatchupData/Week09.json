@@ -1,0 +1,128 @@
+[
+  {
+    "week": 9,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "423.l.902802.t.1",
+        "name": "Sparty's Sigmas",
+        "points": 96.62,
+        "projected_points": 116.86
+      },
+      {
+        "team_key": "423.l.902802.t.8",
+        "name": "Supernova\u2019s Studs",
+        "points": 120.02,
+        "projected_points": 120.76
+      }
+    ],
+    "winner_team_key": "423.l.902802.t.8"
+  },
+  {
+    "week": 9,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "423.l.902802.t.2",
+        "name": "Room 40",
+        "points": 159.48,
+        "projected_points": 114.48
+      },
+      {
+        "team_key": "423.l.902802.t.7",
+        "name": "Oscorps Buns",
+        "points": 99.08,
+        "projected_points": 96.95
+      }
+    ],
+    "winner_team_key": "423.l.902802.t.2"
+  },
+  {
+    "week": 9,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "423.l.902802.t.3",
+        "name": "Wicked Wah-Bams",
+        "points": 94.2,
+        "projected_points": 102.11
+      },
+      {
+        "team_key": "423.l.902802.t.10",
+        "name": "The Hunters",
+        "points": 126.28,
+        "projected_points": 86.46
+      }
+    ],
+    "winner_team_key": "423.l.902802.t.10"
+  },
+  {
+    "week": 9,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "423.l.902802.t.4",
+        "name": "Tsuga\u2019s Tuck Shop",
+        "points": 150.16,
+        "projected_points": 115.37
+      },
+      {
+        "team_key": "423.l.902802.t.9",
+        "name": "For Pitts and Giggles",
+        "points": 113.02,
+        "projected_points": 113.31
+      }
+    ],
+    "winner_team_key": "423.l.902802.t.4"
+  },
+  {
+    "week": 9,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "423.l.902802.t.5",
+        "name": "Bumpin Brasnos",
+        "points": 142.34,
+        "projected_points": 109.09
+      },
+      {
+        "team_key": "423.l.902802.t.12",
+        "name": "Revy\u2019s Konstruction",
+        "points": 76.84,
+        "projected_points": 111.29
+      }
+    ],
+    "winner_team_key": "423.l.902802.t.5"
+  },
+  {
+    "week": 9,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "423.l.902802.t.6",
+        "name": "Lawrence & Order",
+        "points": 84.8,
+        "projected_points": 98.92
+      },
+      {
+        "team_key": "423.l.902802.t.11",
+        "name": "The Sage's Playmakers",
+        "points": 93.9,
+        "projected_points": 101.86
+      }
+    ],
+    "winner_team_key": "423.l.902802.t.11"
+  }
+]

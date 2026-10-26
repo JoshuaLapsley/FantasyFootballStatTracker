@@ -1,0 +1,128 @@
+[
+  {
+    "week": 5,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "449.l.106896.t.1",
+        "name": "Sparty's Sigmas",
+        "points": 98.26,
+        "projected_points": 104.97
+      },
+      {
+        "team_key": "449.l.106896.t.11",
+        "name": "Tsuga\u2019s Tuck Shop",
+        "points": 116.82,
+        "projected_points": 103.81
+      }
+    ],
+    "winner_team_key": "449.l.106896.t.11"
+  },
+  {
+    "week": 5,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "449.l.106896.t.2",
+        "name": "Spirally Things",
+        "points": 116.96,
+        "projected_points": 114.53
+      },
+      {
+        "team_key": "449.l.106896.t.9",
+        "name": "Hunter\u2019s Hunters",
+        "points": 105.06,
+        "projected_points": 103.7
+      }
+    ],
+    "winner_team_key": "449.l.106896.t.2"
+  },
+  {
+    "week": 5,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "449.l.106896.t.3",
+        "name": "Flows Aggressive Insurance",
+        "points": 123.34,
+        "projected_points": 103.79
+      },
+      {
+        "team_key": "449.l.106896.t.7",
+        "name": "Mahomes Alone",
+        "points": 152.5,
+        "projected_points": 120.85
+      }
+    ],
+    "winner_team_key": "449.l.106896.t.7"
+  },
+  {
+    "week": 5,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "449.l.106896.t.4",
+        "name": "Omaha Beach Real Estate",
+        "points": 95.44,
+        "projected_points": 114.83
+      },
+      {
+        "team_key": "449.l.106896.t.8",
+        "name": "Supernova\u2019s Studs",
+        "points": 122.6,
+        "projected_points": 107.26
+      }
+    ],
+    "winner_team_key": "449.l.106896.t.8"
+  },
+  {
+    "week": 5,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "449.l.106896.t.5",
+        "name": "Ozzy Stick",
+        "points": 109.78,
+        "projected_points": 93.3
+      },
+      {
+        "team_key": "449.l.106896.t.12",
+        "name": "Wicked Wah-Bams",
+        "points": 108.24,
+        "projected_points": 106.05
+      }
+    ],
+    "winner_team_key": "449.l.106896.t.5"
+  },
+  {
+    "week": 5,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "449.l.106896.t.6",
+        "name": "Revy\u2019s Konstruction",
+        "points": 148.62,
+        "projected_points": 104.12
+      },
+      {
+        "team_key": "449.l.106896.t.10",
+        "name": "The Sage's Playmakers",
+        "points": 136.36,
+        "projected_points": 109.68
+      }
+    ],
+    "winner_team_key": "449.l.106896.t.6"
+  }
+]

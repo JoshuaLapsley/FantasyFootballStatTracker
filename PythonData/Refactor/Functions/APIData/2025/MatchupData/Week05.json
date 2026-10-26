@@ -1,0 +1,149 @@
+[
+  {
+    "week": 5,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "461.l.111150.t.1",
+        "name": "Deej-lanta Falcons",
+        "points": 143.46,
+        "projected_points": 95.18
+      },
+      {
+        "team_key": "461.l.111150.t.6",
+        "name": "Ozzy Stick",
+        "points": 109.32,
+        "projected_points": 92.8
+      }
+    ],
+    "winner_team_key": "461.l.111150.t.1"
+  },
+  {
+    "week": 5,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "461.l.111150.t.2",
+        "name": "Go With The Flow",
+        "points": 77.4,
+        "projected_points": 106.99
+      },
+      {
+        "team_key": "461.l.111150.t.5",
+        "name": "Omaha Beach Real Estate",
+        "points": 121.68,
+        "projected_points": 93.13
+      }
+    ],
+    "winner_team_key": "461.l.111150.t.5"
+  },
+  {
+    "week": 5,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "461.l.111150.t.3",
+        "name": "Hunter\u2019s Hunters",
+        "points": 109.94,
+        "projected_points": 106.45
+      },
+      {
+        "team_key": "461.l.111150.t.12",
+        "name": "Hungry Hungry Hokk",
+        "points": 132.74,
+        "projected_points": 119.46
+      }
+    ],
+    "winner_team_key": "461.l.111150.t.12"
+  },
+  {
+    "week": 5,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "461.l.111150.t.4",
+        "name": "No Punts Intented",
+        "points": 115.32,
+        "projected_points": 106.24
+      },
+      {
+        "team_key": "461.l.111150.t.11",
+        "name": "Tsuga\u2019s Tuck Shop",
+        "points": 109.02,
+        "projected_points": 93.41
+      }
+    ],
+    "winner_team_key": "461.l.111150.t.4"
+  },
+  {
+    "week": 5,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "461.l.111150.t.7",
+        "name": "Revy\u2019s Konstruction",
+        "points": 121.66,
+        "projected_points": 99.82
+      },
+      {
+        "team_key": "461.l.111150.t.10",
+        "name": "The Sage's Playmakers",
+        "points": 143.86,
+        "projected_points": 126.57
+      }
+    ],
+    "winner_team_key": "461.l.111150.t.10"
+  },
+  {
+    "week": 5,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "461.l.111150.t.8",
+        "name": "Ma\u00eetre Magic",
+        "points": 146.44,
+        "projected_points": 118.24
+      },
+      {
+        "team_key": "461.l.111150.t.13",
+        "name": "Girder\u2019s Grippers",
+        "points": 159.08,
+        "projected_points": 127.31
+      }
+    ],
+    "winner_team_key": "461.l.111150.t.13"
+  },
+  {
+    "week": 5,
+    "status": "postevent",
+    "is_playoffs": false,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "461.l.111150.t.9",
+        "name": "Supernova\u2019s Studs",
+        "points": 113.9,
+        "projected_points": 118.67
+      },
+      {
+        "team_key": "461.l.111150.t.14",
+        "name": "Pad D's",
+        "points": 105.92,
+        "projected_points": 102.81
+      }
+    ],
+    "winner_team_key": "461.l.111150.t.9"
+  }
+]
