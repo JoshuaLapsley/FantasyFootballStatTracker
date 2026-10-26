@@ -13,6 +13,7 @@ import WaiverWAR from './WaiverWAR/WaiverWAR';
 import WARAnalysis from './WARAnalysis/WARAnalysis';
 import meta from '../../league_stats_output/CurrentSeason/meta.json';
 import TradeEvaluator from './TradeEvaluator/TradeEvaluator';
+import ScheduleSwap from './ScheduleSwap/ScheduleSwap';
 
 interface TabConfig {
   header: string;
@@ -30,6 +31,7 @@ const CURRENT_SEASON_TABS: TabConfig[] = [
   { header: 'Waiver WAR', Component: WaiverWAR },
   { header: 'WAR Analysis', Component: WARAnalysis },
   { header: 'Trade Evaluator', Component: TradeEvaluator },
+  { header: 'Schedule Swap', Component: ScheduleSwap },
 ];
 
 const CurrentSeason: React.FC = () => {
