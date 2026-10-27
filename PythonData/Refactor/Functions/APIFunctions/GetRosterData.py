@@ -8,6 +8,8 @@ API_DATA_ROOT = Path(__file__).resolve().parents[1] / "APIData"
 BATCH_SIZE = 25  # Yahoo caps how many players you can request at once
 POINT_KEYS = ("total_points", "points", "fantasy_points")  # adjust after checking one raw entry
 
+FINAL_WEEK = 17
+
 
 def roster_points_filename(year, root=API_DATA_ROOT):
     return os.path.join(str(root), str(year), "RosterPoints.json")
@@ -58,7 +60,8 @@ def write_roster_points_file(lg, year, root=API_DATA_ROOT, through_week=None):
             data = json.load(f)
 
     if through_week is None:
-        through_week = lg.current_week() - 1
+        current = lg.current_week()
+        through_week = FINAL_WEEK if current == FINAL_WEEK else current - 1
 
     team_keys = list(lg.teams().keys())
     written = []
