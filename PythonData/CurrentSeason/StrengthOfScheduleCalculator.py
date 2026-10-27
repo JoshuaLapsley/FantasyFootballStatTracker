@@ -76,11 +76,14 @@ def compute_schedule_records(input_folder, output_dir,
         third team (T's score compared to that third team's score),
       - a win/loss split in half (0.5 added to `wins`) if T's score
         exactly tied that third team's score,
-      - T's EARNED WINS for that specific week (a fraction in [0, 1],
-        added to `wins`) if S's actual opponent that week was T itself
-        -- since there's no third team to compare against, this credits
+      - T's EARNED WINS for that specific week (a fraction EW in
+        [0, 1], added to `wins`, with the complementary (1 - EW) added
+        to `losses`) if S's actual opponent that week was T itself --
+        since there's no third team to compare against, this credits
         T with how it performed relative to the whole field that week
         rather than re-using (or discarding) the real T-vs-S result.
+        Splitting EW/(1-EW) between wins/losses keeps wins+losses
+        summing to exactly 1 for that week, same as every other week.
         Note this fraction is computed against all 13 other teams that
         week, so dropping it into this single slot does NOT make the
         row average equal season Earned Wins exactly (that identity
@@ -142,8 +145,13 @@ def compute_schedule_records(input_folder, output_dir,
                 if o == t:
                     # S's actual opponent this week was T itself -- no
                     # third-team score to compare against, so credit T
-                    # with its earned wins fraction for this week.
-                    w += wk["earned"][t]
+                    # with its earned wins fraction for this week (and
+                    # the complementary fractional loss, so wins+losses
+                    # still sums to exactly 1 for this week like every
+                    # other week).
+                    ew = wk["earned"][t]
+                    w += ew
+                    l += 1 - ew
                     continue
                 opp_score = wk["points"][o]
                 my_score = wk["points"][t]
