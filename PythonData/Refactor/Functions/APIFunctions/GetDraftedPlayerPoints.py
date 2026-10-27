@@ -78,6 +78,7 @@ def build_weekly_points(lg, draft_picks):
     """Builds one entry per drafted player with a list of weekly points."""
     player_ids = list(dict.fromkeys(str(p["player_id"]) for p in draft_picks))
     last_week = _last_week_to_fetch(lg)
+    print(str(last_week) + "BUM")
     print(f"  Completed weeks to fetch: 1-{last_week}" if last_week else
           "  No completed weeks yet.")
 
@@ -112,11 +113,8 @@ def build_weekly_points(lg, draft_picks):
     return results
 
 
-def write_weekly_points_file(lg, year, root=API_DATA_ROOT, overwrite=False):
+def write_weekly_points_file(lg, year, root=API_DATA_ROOT):
     path = weekly_points_filename(year, root)
-    if os.path.exists(path) and not overwrite:
-        print(f"[{year}] Weekly points file already exists, skipped: {path}")
-        return None
 
     draft_picks = load_draft_data(year, root)
     if not draft_picks:

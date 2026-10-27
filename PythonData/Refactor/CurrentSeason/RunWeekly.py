@@ -46,7 +46,7 @@ lg = gm.to_league(league_ids[0])
 # write_roster_points_file(lg, year)
 # write_week_files(lg, year)
 # write_transactions_file(lg, year)
-# write_weekly_points_file(lg, year)
+#write_weekly_points_file(lg, year)
 
 #Earned Wins
 
@@ -55,12 +55,12 @@ lg = gm.to_league(league_ids[0])
 
 #Drafted Players Stats
 
-write_war(year)
-write_par(year)
-write_expected_war(2026, completedWeeks)
-write_draft_value(year)
-calculate_waiver_war(lg, year)
+# write_war(year)
+# write_par(year)
+# write_expected_war(2026, completedWeeks)
+# write_draft_value(year)
+# calculate_waiver_war(lg, year)
 
 
 #Boards
-create_war_images(year)
+# create_war_images(year)

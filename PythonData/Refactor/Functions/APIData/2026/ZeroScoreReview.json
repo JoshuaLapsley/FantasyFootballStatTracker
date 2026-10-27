@@ -129,6 +129,31 @@
       "name": "Diego Pavia",
       "position": "QB",
       "played": false
+    },
+    "100010": {
+      "name": "Titans",
+      "position": "DEF",
+      "played": false
+    },
+    "40074": {
+      "name": "Luke Musgrave",
+      "position": "TE",
+      "played": false
+    },
+    "41913": {
+      "name": "Trevor Etienne",
+      "position": "RB",
+      "played": false
+    },
+    "40742": {
+      "name": "Sean Tucker",
+      "position": "RB",
+      "played": false
+    },
+    "41881": {
+      "name": "Kaleb Johnson",
+      "position": "RB",
+      "played": false
     }
   },
   "2": {
@@ -290,6 +315,21 @@
     "43001": {
       "name": "Diego Pavia",
       "position": "QB",
+      "played": false
+    },
+    "40074": {
+      "name": "Luke Musgrave",
+      "position": "TE",
+      "played": false
+    },
+    "41913": {
+      "name": "Trevor Etienne",
+      "position": "RB",
+      "played": false
+    },
+    "42702": {
+      "name": "Ja'Kobi Lane",
+      "position": "WR",
       "played": false
     }
   },
@@ -466,6 +506,26 @@
     },
     "43001": {
       "name": "Diego Pavia",
+      "position": "QB",
+      "played": false
+    },
+    "40074": {
+      "name": "Luke Musgrave",
+      "position": "TE",
+      "played": false
+    },
+    "41913": {
+      "name": "Trevor Etienne",
+      "position": "RB",
+      "played": false
+    },
+    "42702": {
+      "name": "Ja'Kobi Lane",
+      "position": "WR",
+      "played": false
+    },
+    "31874": {
+      "name": "Drew Lock",
       "position": "QB",
       "played": false
     }
@@ -689,6 +749,31 @@
     "43001": {
       "name": "Diego Pavia",
       "position": "QB",
+      "played": false
+    },
+    "26699": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "played": false
+    },
+    "40074": {
+      "name": "Luke Musgrave",
+      "position": "TE",
+      "played": false
+    },
+    "41913": {
+      "name": "Trevor Etienne",
+      "position": "RB",
+      "played": false
+    },
+    "41031": {
+      "name": "Isaiah Davis",
+      "position": "RB",
+      "played": false
+    },
+    "42702": {
+      "name": "Ja'Kobi Lane",
+      "position": "WR",
       "played": false
     }
   },
@@ -921,6 +1006,36 @@
     "43001": {
       "name": "Diego Pavia",
       "position": "QB",
+      "played": false
+    },
+    "40029": {
+      "name": "Bryce Young",
+      "position": "QB",
+      "played": false
+    },
+    "40074": {
+      "name": "Luke Musgrave",
+      "position": "TE",
+      "played": false
+    },
+    "41913": {
+      "name": "Trevor Etienne",
+      "position": "RB",
+      "played": false
+    },
+    "100012": {
+      "name": "Chiefs",
+      "position": "DEF",
+      "played": false
+    },
+    "42796": {
+      "name": "Emmett Johnson",
+      "position": "RB",
+      "played": false
+    },
+    "42702": {
+      "name": "Ja'Kobi Lane",
+      "position": "WR",
       "played": false
     }
   },
@@ -1164,6 +1279,36 @@
       "position": "QB",
       "bye_week": 13,
       "played": false
+    },
+    "31833": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "played": false
+    },
+    "31840": {
+      "name": "T.J. Hockenson",
+      "position": "TE",
+      "played": false
+    },
+    "30227": {
+      "name": "Samaje Perine",
+      "position": "RB",
+      "played": false
+    },
+    "28592": {
+      "name": "Darren Waller",
+      "position": "TE",
+      "played": false
+    },
+    "40952": {
+      "name": "Roman Wilson",
+      "position": "WR",
+      "played": false
+    },
+    "41058": {
+      "name": "Malik Washington",
+      "position": "WR",
+      "played": false
     }
   },
   "7": {
@@ -1393,6 +1538,46 @@
       "name": "Diego Pavia",
       "position": "QB",
       "bye_week": 13,
+      "played": false
+    },
+    "40201": {
+      "name": "Dontayvion Wicks",
+      "position": "WR",
+      "played": false
+    },
+    "42706": {
+      "name": "Ted Hurst III",
+      "position": "WR",
+      "played": false
+    },
+    "42693": {
+      "name": "Antonio Williams",
+      "position": "WR",
+      "played": false
+    },
+    "41052": {
+      "name": "Kimani Vidal",
+      "position": "RB",
+      "played": false
+    },
+    "29631": {
+      "name": "Kalif Raymond",
+      "position": "WR",
+      "played": false
+    },
+    "100022": {
+      "name": "Cardinals",
+      "position": "DEF",
+      "played": false
+    },
+    "34099": {
+      "name": "Chig Okonkwo",
+      "position": "TE",
+      "played": false
+    },
+    "41831": {
+      "name": "Terrance Ferguson",
+      "position": "TE",
       "played": false
     }
   }
