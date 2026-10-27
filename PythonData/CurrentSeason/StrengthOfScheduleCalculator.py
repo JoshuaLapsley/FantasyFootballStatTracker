@@ -3,7 +3,8 @@ Computes every team's record against every other team's schedule.
 
 For team T and schedule S, each week T's score is compared to the score of
 whoever S actually played that week. If S actually played T that week, T is
-treated as playing S's score (i.e. the real T-vs-S game).
+
+their earned wins for that week..
 When T == S, you get T's actual record.
 
 Use as a function:
@@ -33,6 +34,35 @@ def _load_weeks(input_folder):
     return weeks
 
 
+def _earned_wins_for_week(points):
+    """
+    Returns {team_key: earned_win_fraction} for a single week's
+    `points` dict ({team_key: score}), using the same formula as
+    WriteEarnedWinsData.py's season-long Earned Wins: for each team,
+    the fraction of the OTHER teams that week whose score they beat
+    (ties split evenly), i.e. rank-based so it's always in [0, 1].
+
+    e.g. for N teams, the best score earns (N-1)/(N-1) = 1.0, the
+    worst earns 0/(N-1) = 0.0, and two teams tied for a rank each earn
+    the average of the ranks they'd otherwise have split.
+    """
+    n = len(points)
+    if n < 2:
+        return {k: 0.0 for k in points}
+
+    earned = {}
+    for team, score in points.items():
+        beaten = sum(1 for other, other_score in points.items()
+                     if other != team and score > other_score)
+        tied = sum(1 for other, other_score in points.items()
+                   if other != team and score == other_score)
+        # Ties split the win fraction they'd otherwise fully win/lose:
+        # beating `beaten` teams outright plus half-credit for each
+        # tied team, out of the (n - 1) other teams.
+        earned[team] = (beaten + 0.5 * tied) / (n - 1)
+    return earned
+
+
 def compute_schedule_records(input_folder, output_dir,
                              output_filename="schedule_records.json",
                              include_playoffs=False):
@@ -41,10 +71,40 @@ def compute_schedule_records(input_folder, output_dir,
     against every team's schedule, and write the result as JSON into
     `output_dir` (created if it doesn't exist).
 
+    For team T against schedule S, each week is scored as:
+      - a normal win/loss if S's actual opponent that week was some
+        third team (T's score compared to that third team's score),
+      - a win/loss split in half (0.5 added to `wins`) if T's score
+        exactly tied that third team's score,
+      - T's EARNED WINS for that specific week (a fraction in [0, 1],
+        added to `wins`) if S's actual opponent that week was T itself
+        -- since there's no third team to compare against, this credits
+        T with how it performed relative to the whole field that week
+        rather than re-using (or discarding) the real T-vs-S result.
+        Note this fraction is computed against all 13 other teams that
+        week, so dropping it into this single slot does NOT make the
+        row average equal season Earned Wins exactly (that identity
+        only holds if the self-matchup slot uses the real T-vs-S
+        result instead) -- it's used here because it's the
+        semantically meaningful value for that slot, not to preserve
+        that equality.
+
+    `wins` is therefore a float in general (not just whole/half wins),
+    and `losses` only ever accumulates from genuine, non-self-matchup
+    losses. There's no `ties` field -- every tie (genuine or the
+    self-matchup case) is represented as partial credit inside `wins`.
+
+    When T == S, T's own schedule never contains a week where T "played
+    itself", so every week falls through to the normal win/loss/tie
+    comparison against T's real opponent -- i.e. T == S still gives
+    T's actual record, unaffected by the earned-wins substitution
+    above (that substitution only ever applies for S != T, in the one
+    week per schedule where S's real opponent happened to be T).
+
     Returns the path of the written file.
     """
     names = {}      # team_key -> name
-    week_data = []  # list of {"points": {key: pts}, "opp": {key: opp_key}}
+    week_data = []  # list of {"points": {key: pts}, "opp": {key: opp_key}, "earned": {key: fraction}}
 
     for matchups in _load_weeks(input_folder):
         points, opp = {}, {}
@@ -62,7 +122,11 @@ def compute_schedule_records(input_folder, output_dir,
             opp[a["team_key"]] = b["team_key"]
             opp[b["team_key"]] = a["team_key"]
         if points:
-            week_data.append({"points": points, "opp": opp})
+            week_data.append({
+                "points": points,
+                "opp": opp,
+                "earned": _earned_wins_for_week(points),
+            })
 
     keys = sorted(names, key=lambda k: int(k.rsplit(".", 1)[-1]))
     result = {}
@@ -70,13 +134,16 @@ def compute_schedule_records(input_folder, output_dir,
     for t in keys:
         result[names[t]] = {"team_key": t, "vs_schedule_of": {}}
         for s in keys:
-            w = l = ties = 0
+            w = l = 0.0
             for wk in week_data:
                 if t not in wk["points"] or s not in wk["opp"]:
                     continue  # bye week / missing data
                 o = wk["opp"][s]
                 if o == t:
-                    ties += 1  # S played T this week, so T would be playing itself
+                    # S's actual opponent this week was T itself -- no
+                    # third-team score to compare against, so credit T
+                    # with its earned wins fraction for this week.
+                    w += wk["earned"][t]
                     continue
                 opp_score = wk["points"][o]
                 my_score = wk["points"][t]
@@ -85,9 +152,10 @@ def compute_schedule_records(input_folder, output_dir,
                 elif my_score < opp_score:
                     l += 1
                 else:
-                    ties += 1
+                    w += 0.5  # genuine tie, split the win
+
             result[names[t]]["vs_schedule_of"][names[s]] = {
-                "wins": w, "losses": l, "ties": ties
+                "wins": round(w, 4), "losses": round(l, 4)
             }
 
     os.makedirs(output_dir, exist_ok=True)
