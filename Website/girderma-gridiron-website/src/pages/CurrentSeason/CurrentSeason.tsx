@@ -30,10 +30,10 @@ const CURRENT_SEASON_TABS: TabConfig[] = [
   { header: 'Surplus WAR Draft Board', Component: WARSurplus },
   { header: 'Waiver WAR', Component: WaiverWAR },
   { header: 'WAR Analysis', Component: WARAnalysis },
-  { header: 'Trade Evaluator', Component: TradeEvaluator },
-  { header: 'Schedule Swap', Component: ScheduleSwap },
-];
 
+];
+  // { header: 'Trade Evaluator', Component: TradeEvaluator },
+  // { header: 'Schedule Swap', Component: ScheduleSwap },
 const CurrentSeason: React.FC = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
