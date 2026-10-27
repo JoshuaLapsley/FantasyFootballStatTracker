@@ -4,6 +4,8 @@ from pathlib import Path
 
 
 
+
+
 # RunWeekly.py is at <root>/PythonData/Refactor/CurrentSeason/, so parents[3] is the project root
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -26,6 +28,8 @@ from PythonData.Refactor.Functions.APIFunctions.GetSchedule import pull_league_s
 
 from PythonData.Refactor.Functions.DataFunctions.CalculateWaiverWar import calculate_waiver_war
 
+from PythonData.Refactor.Functions.DataFunctions.DraftBoardWAR import create_war_images
+
 year = 2026
 completedWeeks = 7
 
@@ -39,20 +43,24 @@ lg = gm.to_league(league_ids[0])
 
 #API Calls
 
-write_roster_points_file(lg, year)
-#write_week_files(lg, year)
-#write_transactions_file(lg, year)
-#write_weekly_points_file(lg, year)
+# write_roster_points_file(lg, year)
+# write_week_files(lg, year)
+# write_transactions_file(lg, year)
+# write_weekly_points_file(lg, year)
 
 #Earned Wins
 
-#calculate_earned_wins(year)
-#write_earned_wins_plus(year)
+# calculate_earned_wins(year)
+# write_earned_wins_plus(year)
 
 #Drafted Players Stats
 
-#write_war(year)
-#write_par(year)
-#write_expected_war(2026, completedWeeks)
-#write_draft_value(year)
+write_war(year)
+write_par(year)
+write_expected_war(2026, completedWeeks)
+write_draft_value(year)
 calculate_waiver_war(lg, year)
+
+
+#Boards
+create_war_images(year)
