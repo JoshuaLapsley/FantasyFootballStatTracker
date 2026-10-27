@@ -90,7 +90,8 @@ league_stats_output/CurrentSeason/DraftBoards/):
 
 Simulation output (into Website/girderma-gridiron-website/src/
 league_stats_output/CurrentSeason/Simulations/):
-  record_distribution.jpg / .json, average_weekly_points.jpg, playoff_odds.jpg
+  record_distribution.jpg / .json, average_weekly_points.jpg, playoff_odds.jpg,
+  conditional_outcomes_by_record.png
 """
 
 from datetime import datetime as dt, timezone
@@ -774,6 +775,11 @@ CurrentSeason/Simulations/):
   average_weekly_points.jpg  heatmap of actual + projected points per week
   playoff_odds.jpg           bar chart of bye/playoff/punishment odds
   record_distribution.json   raw record-count distribution
+  conditional_outcomes_by_record.png  table of bye/seeds(3-6)/punishment
+                              odds per team, conditioned on each possible
+                              rest-of-season record (see
+                              simulate_conditional_outcomes() and
+                              plot_conditional_outcomes_table())
 
 Requires simulate_season/lineups/week_{N}.json (calculate_lineups.py)
 and simulate_season/schedule.json (pull_schedule.py) to already cover
@@ -791,6 +797,13 @@ SIM_BYE_SPOTS = 2
 SIM_PLAYOFF_SPOTS = 4
 SIM_PUNISHMENT_SPOTS = 4
 
+# Dedicated (higher) trial count for the rest-of-season-conditional
+# table (plot_conditional_outcomes_table). Bucketing by each team's own
+# remaining-games record splits trials across up to 8+ columns per
+# team, so a bigger N than the main SIM_N_SIMULATIONS run keeps even the
+# less-likely columns backed by enough samples to be meaningful.
+SIM_CONDITIONAL_N_SIMULATIONS = 50_000
+
 SIMULATION_OUTPUT_DIR = (
     Path(SCRIPT_DIR) / ".." / ".." / "Website" / "girderma-gridiron-website"
     / "src" /  "league_stats_output" / "CurrentSeason" / "Simulations"
@@ -800,6 +813,7 @@ RECORD_DISTRIBUTION_IMAGE = SIMULATION_OUTPUT_DIR / "record_distribution.jpg"
 RECORD_DISTRIBUTION_JSON = SIMULATION_OUTPUT_DIR / "record_distribution.json"
 WEEKLY_POINTS_IMAGE = SIMULATION_OUTPUT_DIR / "average_weekly_points.jpg"
 PLAYOFF_ODDS_IMAGE = SIMULATION_OUTPUT_DIR / "playoff_odds.jpg"
+CONDITIONAL_OUTCOMES_IMAGE = SIMULATION_OUTPUT_DIR / "conditional_outcomes_by_record.png"
 
 
 def get_completed_weeks(league) -> list:
@@ -966,6 +980,104 @@ def simulate_season(teams: list, real_records: dict, points_so_far: dict,
         "bye_counts": bye_counts,
         "playoff_counts": playoff_counts,
         "punishment_counts": punishment_counts,
+    }
+
+
+def simulate_conditional_outcomes(teams: list, real_records: dict, points_so_far: dict,
+                                   lineup_means: dict, schedule: dict, weeks: list,
+                                   n_simulations: int, variance: float, bye_spots: int = 2,
+                                   playoff_spots: int = 4, punishment_spots: int = 4,
+                                   seed: int = None) -> dict:
+    """
+    Same Monte Carlo mechanics as simulate_season() (identical schedule,
+    per-week lineup means, and Normal(mu, sigma) score draws), but instead
+    of aggregating bye/playoff/punishment odds per team across ALL
+    trials, this buckets every trial by that team's OWN rest-of-season
+    record (wins/losses over just `weeks`, i.e. excluding any games
+    already played before `weeks` started) and tallies bye/seed/
+    punishment outcomes within each (team, rest-of-season record)
+    bucket separately.
+
+    This is a conditioning/rejection approach: it answers "given that a
+    team's performance over the remaining games is exactly this record,
+    what are its playoff odds?" by simply filtering the same simulated
+    seasons down to the trials where that happened, rather than forcing
+    a record directly (which would require breaking schedule coherence
+    with its opponents). Every other team in the trial still plays out
+    normally/randomly -- only the bucketing/filtering differs from
+    simulate_season().
+
+    Returns a dict:
+      "rest_of_season_games": int                 -- len(weeks)
+      "counts": {team_name: {(ros_wins, ros_losses): {
+          "bye": int, "playoff": int, "punishment": int, "total": int
+      }}}
+    "total" is the trial count that landed in that bucket (the
+    denominator for that cell's percentages); "bye"/"playoff"/
+    "punishment" are how many of those trials also finished in each
+    seeding tier.
+    """
+    if seed is not None:
+        np.random.seed(seed)
+
+    sigma = np.sqrt(variance)
+    base_wins = {t: real_records.get(t, (0, 0))[0] for t in teams}
+    base_losses = {t: real_records.get(t, (0, 0))[1] for t in teams}
+    base_points = {t: points_so_far.get(t, 0.0) for t in teams}
+
+    rest_of_season_games = len(weeks)
+    counts = {
+        t: {
+            (w, rest_of_season_games - w): {"bye": 0, "playoff": 0, "punishment": 0, "total": 0}
+            for w in range(rest_of_season_games + 1)
+        }
+        for t in teams
+    }
+
+    for _ in range(n_simulations):
+        wins = dict(base_wins)
+        losses = dict(base_losses)
+        points_for = dict(base_points)
+        ros_wins = {t: 0 for t in teams}
+
+        for week in weeks:
+            means = lineup_means[week]
+            for team_a, team_b in schedule[week]:
+                mu_a = means[team_a]
+                mu_b = means[team_b]
+                score_a = np.random.normal(mu_a, sigma)
+                score_b = np.random.normal(mu_b, sigma)
+                points_for[team_a] += score_a
+                points_for[team_b] += score_b
+                if score_a > score_b:
+                    wins[team_a] += 1
+                    losses[team_b] += 1
+                    ros_wins[team_a] += 1
+                else:
+                    wins[team_b] += 1
+                    losses[team_a] += 1
+                    ros_wins[team_b] += 1
+
+        ranked = sorted(teams, key=lambda t: (wins[t], points_for[t]), reverse=True)
+        tier_by_team = {}
+        for t in ranked[:bye_spots]:
+            tier_by_team[t] = "bye"
+        for t in ranked[bye_spots:bye_spots + playoff_spots]:
+            tier_by_team[t] = "playoff"
+        for t in ranked[-punishment_spots:]:
+            tier_by_team[t] = "punishment"
+
+        for t in teams:
+            record = (ros_wins[t], rest_of_season_games - ros_wins[t])
+            bucket = counts[t][record]
+            bucket["total"] += 1
+            tier = tier_by_team.get(t)
+            if tier is not None:
+                bucket[tier] += 1
+
+    return {
+        "rest_of_season_games": rest_of_season_games,
+        "counts": counts,
     }
 
 
@@ -1137,6 +1249,169 @@ def plot_playoff_odds(bye_counts: dict, playoff_counts: dict, punishment_counts:
     plt.close()
 
 
+def plot_conditional_outcomes_table(conditional_results: dict, teams: list,
+                                     bye_spots: int, playoff_spots: int,
+                                     punishment_spots: int, out_file) -> None:
+    """
+    Table: one row per team, one column per possible rest-of-season
+    record (0-N, 1-(N-1), ..., N-0, where N = games remaining). Each
+    cell holds three percentages -- that team's odds of a first-round
+    bye, of making seeds `bye_spots+1`..`bye_spots+playoff_spots`
+    (labeled "seeds 3-6" when bye_spots=2/playoff_spots=4), and of
+    landing in the punishment bracket -- all CONDITIONED on the
+    column's rest-of-season record actually happening (i.e. computed
+    only from the subset of simulated seasons where that team finished
+    the remaining games with exactly that record).
+
+    Each of the three percentage lines in a cell is colored independently
+    against its own value (not the other two lines, and not other cells
+    in the row/column) using a dedicated colormap per tier, so at a
+    glance darker = more likely for that specific outcome:
+      bye       -> green ramp
+      seeds 3-6 -> blue ramp
+      punishment-> red ramp
+    Rows are sorted by each team's overall (unconditional, i.e. summed
+    across every column) bye+playoff odds, best first -- matching the
+    sort used by plot_playoff_odds().
+    """
+    counts = conditional_results["counts"]
+    rest_of_season_games = conditional_results["rest_of_season_games"]
+    records = [(w, rest_of_season_games - w) for w in range(rest_of_season_games + 1)]
+
+    # Sort teams by overall bye+playoff share across all columns combined,
+    # same convention as plot_playoff_odds().
+    def overall_bye_playoff(t):
+        total_bye = sum(b["bye"] for b in counts[t].values())
+        total_playoff = sum(b["playoff"] for b in counts[t].values())
+        total_trials = sum(b["total"] for b in counts[t].values()) or 1
+        return (total_bye + total_playoff) / total_trials
+
+    teams_sorted = sorted(teams, key=lambda t: -overall_bye_playoff(t))
+
+    n_rows = len(teams_sorted)
+    n_cols = len(records)
+
+    greens = matplotlib.colormaps["Greens"]
+    blues = matplotlib.colormaps["Blues"]
+    reds = matplotlib.colormaps["Reds"]
+
+    def pct(bucket, key):
+        total = bucket["total"]
+        if total == 0:
+            return None
+        return bucket[key] / total * 100
+
+    def text_color_for(t: float) -> str:
+        return "#FFFFFF" if t > 0.65 else "#111827"
+
+    cell_w, cell_h = 1.7, 1.05
+    fig_w = max(12, n_cols * cell_w + 3.0)
+    fig_h = n_rows * cell_h + 2.0
+
+    fig, ax = plt.subplots(figsize=(fig_w, fig_h))
+    ax.set_xlim(0, n_cols)
+    ax.set_ylim(-0.9, n_rows)
+    ax.invert_yaxis()
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    # Column headers (rest-of-season record, best record on the left).
+    for col_idx, (w, l) in enumerate(reversed(records)):
+        ax.text(
+            col_idx + 0.5, -0.45, f"{w}-{l}",
+            ha="center", va="center", fontsize=10, fontweight="bold", color="#111827",
+        )
+
+    # Row headers (team names).
+    for row_idx, t in enumerate(teams_sorted):
+        ax.text(
+            -0.3, row_idx + 0.5, t,
+            ha="right", va="center", fontsize=9.5, fontweight="bold", color="#111827",
+        )
+
+    band_h = 1.0 / 3.0
+    for row_idx, t in enumerate(teams_sorted):
+        for col_idx, (w, l) in enumerate(reversed(records)):
+            bucket = counts[t][(w, l)]
+            x, y = col_idx, row_idx
+
+            bye_pct = pct(bucket, "bye")
+            playoff_pct = pct(bucket, "playoff")
+            punish_pct = pct(bucket, "punishment")
+
+            bands = [
+                (bye_pct, greens, 0),
+                (playoff_pct, blues, 1),
+                (punish_pct, reds, 2),
+            ]
+
+            if bucket["total"] == 0:
+                # No simulated trials ever landed on this record for
+                # this team -- draw a flat "n/a" cell instead of
+                # fabricating percentages from zero samples.
+                rect = plt.Rectangle(
+                    (x, y), 1, 1, facecolor="#F3F4F6", edgecolor="white", linewidth=1.5,
+                )
+                ax.add_patch(rect)
+                ax.text(
+                    x + 0.5, y + 0.5, "n/a",
+                    ha="center", va="center", fontsize=8, color="#9CA3AF",
+                )
+                continue
+
+            for value, cmap, band_idx in bands:
+                band_y = y + band_idx * band_h
+                intensity = (value / 100.0) if value is not None else 0.0
+                face_color = cmap(0.15 + 0.75 * intensity)
+                rect = plt.Rectangle(
+                    (x, band_y), 1, band_h,
+                    facecolor=face_color, edgecolor="white", linewidth=0.8,
+                )
+                ax.add_patch(rect)
+                label = f"{value:.0f}%" if value is not None else "-"
+                ax.text(
+                    x + 0.5, band_y + band_h / 2, label,
+                    ha="center", va="center", fontsize=7.3,
+                    color=text_color_for(intensity),
+                )
+
+            # Thin outer border around the whole 3-band cell.
+            ax.add_patch(plt.Rectangle(
+                (x, y), 1, 1, facecolor="none", edgecolor="white", linewidth=1.5,
+            ))
+
+    playoff_lo = bye_spots + 1
+    playoff_hi = bye_spots + playoff_spots
+    legend_handles = [
+        plt.Rectangle((0, 0), 1, 1, facecolor=greens(0.7), label=f"First-round bye (top {bye_spots})"),
+        plt.Rectangle((0, 0), 1, 1, facecolor=blues(0.7), label=f"Playoffs, no bye (seeds {playoff_lo}-{playoff_hi})"),
+        plt.Rectangle((0, 0), 1, 1, facecolor=reds(0.7), label=f"Punishment bracket (bottom {punishment_spots})"),
+    ]
+    ax.legend(
+        handles=legend_handles,
+        loc="upper center",
+        bbox_to_anchor=(0.5, -0.25 / n_rows if n_rows else -0.1),
+        ncol=3,
+        frameon=False,
+        fontsize=9.5,
+    )
+
+    ax.set_title(
+        f"Seeding Odds by Rest-of-Season Record ({rest_of_season_games} games left)\n"
+        f"Each column = odds given that team's remaining record is exactly that; "
+        f"color intensity = likelihood of that specific outcome",
+        fontsize=13, fontweight="bold", color="#111827", pad=46,
+    )
+
+    fig.tight_layout()
+    Path(out_file).parent.mkdir(parents=True, exist_ok=True)
+    fig.savefig(out_file, dpi=200, bbox_inches="tight")
+    plt.close(fig)
+    print(f"Saved -> {out_file}")
+
+
 def run_simulate_matchups(league, start_week: int = None, end_week: int = SIM_END_WEEK,
                            n_simulations: int = SIM_N_SIMULATIONS, variance: float = SIM_VARIANCE,
                            bye_spots: int = SIM_BYE_SPOTS, playoff_spots: int = SIM_PLAYOFF_SPOTS,
@@ -1199,6 +1474,19 @@ def run_simulate_matchups(league, start_week: int = None, end_week: int = SIM_EN
     plot_playoff_odds(bye_counts, playoff_counts, punishment_counts, n_simulations,
                        bye_spots, playoff_spots, punishment_spots, PLAYOFF_ODDS_IMAGE)
     print(f"Saved chart -> {PLAYOFF_ODDS_IMAGE}")
+
+    print(f"\nRunning {SIM_CONDITIONAL_N_SIMULATIONS:,} simulations for the "
+          f"rest-of-season-conditional seeding odds table...")
+    conditional_results = simulate_conditional_outcomes(
+        teams, real_records, points_so_far, lineup_means, schedule, weeks,
+        n_simulations=SIM_CONDITIONAL_N_SIMULATIONS, variance=variance,
+        bye_spots=bye_spots, playoff_spots=playoff_spots,
+        punishment_spots=punishment_spots, seed=seed,
+    )
+    plot_conditional_outcomes_table(
+        conditional_results, teams, bye_spots, playoff_spots, punishment_spots,
+        CONDITIONAL_OUTCOMES_IMAGE,
+    )
 
     avg_summary = []
     for t, records in record_counts.items():
