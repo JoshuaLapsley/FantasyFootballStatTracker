@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import './EarnedWinsPlus.css';
 
-import earnedWinsPlusData from '../../../league_stats_output/CurrentSeason/EarnedWinsPlus.json';
+import earnedWinsPlusData from '../../../league_stats_output/2026/EarnedWinsPlus.json';
 
 interface EarnedWinsPlusData {
   Team: string;

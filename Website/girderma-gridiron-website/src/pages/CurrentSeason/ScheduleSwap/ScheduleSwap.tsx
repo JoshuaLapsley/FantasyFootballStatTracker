@@ -14,7 +14,7 @@ export type ScheduleData = Record<string, TeamEntry>;
 
 let data: ScheduleData = {};
 try {
-  data = require('../../../league_stats_output/CurrentSeason/StrengthOfSchedule.json');
+  data = require('../../../league_stats_output/2026/StrengthOfSchedule.json');
 } catch {
   data = {};
 }

@@ -5,14 +5,14 @@ import './PARDraftBoard.css';
 
 let imageSrc: string | null = null;
 try {
-  imageSrc = require('../../../league_stats_output/CurrentSeason/DraftBoards/PAR/draft_board_by_par_2026.png');
+  imageSrc = require('../../../league_stats_output/2026/Par/draft_board_by_par_2026.png');
 } catch {
   imageSrc = null;
 }
 
 let secondImageSrc: string | null = null;
 try {
-  secondImageSrc = require('../../../league_stats_output/CurrentSeason/DraftBoards/PAR/draft_board_by_par_2026_colorbar.png');
+  secondImageSrc = require('../../../league_stats_output/2026/Par/draft_board_by_par_2026_colorbar.png');
 } catch {
   secondImageSrc = null;
 }

@@ -5,14 +5,14 @@ import './WaiverWAR.css';
 
 let imageSrc: string | null = null;
 try {
-  imageSrc = require('../../../league_stats_output/CurrentSeason/WaiverWAR/waiver_war_board_2026.png');
+  imageSrc = require('../../../league_stats_output/2026/WaiverWar/waiver_war_board_2026.png');
 } catch {
   imageSrc = null;
 }
 
 let secondImageSrc: string | null = null;
 try {
-  secondImageSrc = require('../../../league_stats_output/CurrentSeason/WaiverWAR/waiver_war_board_2026_colorbar.png');
+  secondImageSrc = require('../../../league_stats_output/2026/WaiverWar/waiver_war_board_2026_colorbar.png');
 } catch {
   secondImageSrc = null;
 }

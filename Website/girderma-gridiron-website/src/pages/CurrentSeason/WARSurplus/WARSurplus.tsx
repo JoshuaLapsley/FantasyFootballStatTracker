@@ -5,14 +5,14 @@ import './WARSurplus.css';
 
 let imageSrc: string | null = null;
 try {
-  imageSrc = require('../../../league_stats_output/CurrentSeason/DraftBoards/SurplusWar/draft_board_2026_surplus_war.png');
+  imageSrc = require('../../../league_stats_output/2026/SurplusWar/draft_board_surplus_war_2026.png');
 } catch {
   imageSrc = null;
 }
 
 let secondImageSrc: string | null = null;
 try {
-  secondImageSrc = require('../../../league_stats_output/CurrentSeason/DraftBoards/SurplusWar/draft_board_2026_surplus_war_colorbar.png');
+  secondImageSrc = require('../../../league_stats_output/2026/SurplusWar/draft_board_surplus_war_2026_surplus_war_colorbar.png');
 } catch {
   secondImageSrc = null;
 }

@@ -1,8 +1,29 @@
 import React, { useMemo, useState } from 'react';
-import draftValueData from '../../../league_stats_output/CurrentSeason/draft_value_2026.json';
+import draftValueData from '../../../league_stats_output/2026/DraftValue.json';
 import meta from '../../../league_stats_output/CurrentSeason/meta.json';
 import './WARAnalysis.css';
 
+// Shape of each row as it appears in DraftValue.json
+type RawDraftValue = {
+    'Player': string;
+    'Player ID': string;
+    'Position': string;
+    'Pick': number;
+    'Round': number;
+    'Drafted By': string;
+    'PAR': number;
+    'PAR Rank': number;
+    'WAR': number;
+    'WAR Rank': number;
+    'Expected WAR': number;
+    'Expected WAR Rank': number;
+    'Surplus WAR': number;
+    'Surplus WAR Rank': number;
+    // Optional: add this to the JSON to re-enable bye-week features
+    'Bye Week'?: number | null;
+};
+
+// Internal shape used by the component
 type DraftValue = {
     pick: number;
     round: number;
@@ -10,25 +31,37 @@ type DraftValue = {
     player_name: string;
     position: string;
     drafted_by: string;
+    par: number;
     actual_war: number;
-    expected_war_full_season: number;
-    expected_war_prorated: number;
     expected_war: number;
     surplus_war: number;
-    weeks_completed?: number;
-    full_season_weeks?: number;
     bye_week?: number | null;
 };
 
 type SortMetric =
     | 'pick'
+    | 'par'
     | 'actual_war'
     | 'expected_war'
     | 'surplus_war';
 
 type ByeFilter = 'all' | 'pending' | 'passed';
 
-const draftValues = draftValueData as DraftValue[];
+const draftValues: DraftValue[] = (draftValueData as RawDraftValue[]).map(
+    row => ({
+        pick: row['Pick'],
+        round: row['Round'],
+        player_id: row['Player ID'],
+        player_name: row['Player'],
+        position: row['Position'],
+        drafted_by: row['Drafted By'],
+        par: row['PAR'],
+        actual_war: row['WAR'],
+        expected_war: row['Expected WAR'],
+        surplus_war: row['Surplus WAR'],
+        bye_week: row['Bye Week'] ?? null
+    })
+);
 
 const currentWeek: number = meta.current_week;
 const lateSeason = currentWeek >= 10;
@@ -113,6 +146,7 @@ const WARAnalysis: React.FC = () => {
     }, [rankedPlayers, search, byeFilter]);
 
     const formatWar = (value: number) => value.toFixed(3);
+    const formatPar = (value: number) => value.toFixed(1);
 
     return (
         <div className="draft-value-table">
@@ -153,6 +187,7 @@ const WARAnalysis: React.FC = () => {
                         }
                     >
                         <option value="surplus_war">Surplus WAR</option>
+                        <option value="par">PAR</option>
                         <option value="actual_war">Actual WAR</option>
                         <option value="expected_war">Expected WAR</option>
                         <option value="pick">Draft Pick</option>
@@ -194,7 +229,7 @@ const WARAnalysis: React.FC = () => {
                         type="text"
                         value={search}
                         onChange={event => setSearch(event.target.value)}
-                        placeholder="e.g. Kimani Vidal or Josh"
+                        placeholder="e.g. Kimani Vidal or Playmakers"
                     />
                 </label>
             </div>
@@ -213,6 +248,7 @@ const WARAnalysis: React.FC = () => {
                             <th>Player</th>
                             <th>Position</th>
                             <th>Manager</th>
+                            <th>PAR</th>
                             <th>Actual WAR</th>
                             <th>Expected WAR</th>
                             <th>Surplus WAR</th>
@@ -251,6 +287,17 @@ const WARAnalysis: React.FC = () => {
 
                                     <td>{player.position}</td>
                                     <td>{player.drafted_by}</td>
+
+                                    <td
+                                        className={
+                                            player.par < 0
+                                                ? 'draft-value-table__negative'
+                                                : ''
+                                        }
+                                    >
+                                        {formatPar(player.par)}
+                                    </td>
+
                                     <td>{formatWar(player.actual_war)}</td>
                                     <td>{formatWar(player.expected_war)}</td>
 
@@ -272,7 +319,7 @@ const WARAnalysis: React.FC = () => {
                         {filteredPlayers.length === 0 && (
                             <tr>
                                 <td
-                                    colSpan={9}
+                                    colSpan={10}
                                     className="draft-value-table__empty"
                                 >
                                     No draft picks match these filters.

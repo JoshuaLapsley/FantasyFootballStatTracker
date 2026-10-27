@@ -11,7 +11,7 @@ import './CurrentSeason.css';
 import WARSurplus from './WARSurplus/WARSurplus';
 import WaiverWAR from './WaiverWAR/WaiverWAR';
 import WARAnalysis from './WARAnalysis/WARAnalysis';
-import meta from '../../league_stats_output/CurrentSeason/meta.json';
+import meta from '../../league_stats_output/2026/meta.json';
 import TradeEvaluator from './TradeEvaluator/TradeEvaluator';
 import ScheduleSwap from './ScheduleSwap/ScheduleSwap';
 
@@ -23,8 +23,6 @@ interface TabConfig {
 const CURRENT_SEASON_TABS: TabConfig[] = [
   { header: 'Earned Wins', Component: EarnedWins },
   { header: 'Earned Wins Plus', Component: EarnedWinsPlus },
-  { header: 'Simulated Playoff Odds', Component: SimulatedPlayoffOdds },
-  { header: 'Simulated Record Distribution', Component: SimulatedRecordDistribution },
   { header: 'PAR Draft Board', Component: PARDraftBoard },
   { header: 'WAR Draft Board', Component: WARDraftBoard },
   { header: 'Surplus WAR Draft Board', Component: WARSurplus },
@@ -34,6 +32,8 @@ const CURRENT_SEASON_TABS: TabConfig[] = [
 
 ];
   // { header: 'Trade Evaluator', Component: TradeEvaluator },
+  // { header: 'Simulated Playoff Odds', Component: SimulatedPlayoffOdds },
+  // { header: 'Simulated Record Distribution', Component: SimulatedRecordDistribution },
   // 
 const CurrentSeason: React.FC = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
