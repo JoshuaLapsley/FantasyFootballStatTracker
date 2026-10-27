@@ -2,11 +2,11 @@ import React, { useMemo } from 'react';
 
 import './ScheduleSwap.css';
 
-export type WLT = { wins: number; losses: number; ties: number };
+export type WL = { wins: number; losses: number };
 
 export type TeamEntry = {
   team_key: string;
-  vs_schedule_of: Record<string, WLT>;
+  vs_schedule_of: Record<string, WL>;
 };
 
 /** Shape of the JSON written by schedule_swap.py */
@@ -19,19 +19,29 @@ try {
   data = {};
 }
 
-const winPct = (r: WLT) => {
-  const games = r.wins + r.losses + r.ties;
-  return games === 0 ? 0 : (r.wins + r.ties / 2) / games;
+/** Round to 1 decimal (5.0769 -> 5.1). */
+const round1 = (n: number) => parseFloat(n.toFixed(1));
+
+/** Display a number with at most 1 decimal and no trailing ".0" (5.0769 -> "5.1", 4 -> "4"). */
+const fmt = (n: number) => String(round1(n));
+
+const winPct = (r: WL) => {
+  const games = r.wins + r.losses;
+  return games === 0 ? 0 : r.wins / games;
 };
 
-const formatRecord = (r: WLT) =>
-  r.ties > 0 ? `${r.wins}-${r.losses}-${r.ties}` : `${r.wins}-${r.losses}`;
+const formatRecord = (r: WL) => `${fmt(r.wins)}-${fmt(r.losses)}`;
 
 const EPSILON = 1e-9;
 
-/** Compare a swapped record to the team's actual record. */
-const outcome = (rec: WLT, actual: WLT): 'better' | 'worse' | 'same' => {
-  const diff = winPct(rec) - winPct(actual);
+/**
+ * Compare a swapped record to the team's actual record.
+ * Both are rounded to what's displayed first, so a cell that reads the same
+ * as the actual record is never tinted better/worse.
+ */
+const outcome = (rec: WL, actual: WL): 'better' | 'worse' | 'same' => {
+  const round = (r: WL): WL => ({ wins: round1(r.wins), losses: round1(r.losses) });
+  const diff = winPct(round(rec)) - winPct(round(actual));
   if (diff > EPSILON) return 'better';
   if (diff < -EPSILON) return 'worse';
   return 'same';
@@ -46,8 +56,8 @@ const ScheduleSwap: React.FC = () => {
       return winPct(rb) - winPct(ra) || rb.wins - ra.wins;
     });
 
-    const avg = (records: WLT[]) =>
-      records.reduce((sum, r) => sum + r.wins + r.ties / 2, 0) / (records.length || 1);
+    const avg = (records: WL[]) =>
+      records.reduce((sum, r) => sum + r.wins, 0) / (records.length || 1);
 
     // Row average: one team across every schedule
     const byTeam: Record<string, number> = {};
