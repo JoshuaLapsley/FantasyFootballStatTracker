@@ -1,0 +1,570 @@
+[
+  {
+    "transaction_id": "304",
+    "timestamp": 1792828458,
+    "traded_at": "2026-10-24T07:54:18+00:00",
+    "freeze_week": 7,
+    "last_week_evaluated": 7,
+    "sides": {
+      "470.l.205662.t.14": {
+        "team_name": "Tsuga\u2019s Tuck Shop",
+        "received": [
+          {
+            "player_id": "41823",
+            "player_name": "TreVeyon Henderson",
+            "position": "RB"
+          }
+        ],
+        "gave_up": [
+          {
+            "player_id": "42646",
+            "player_name": "KC Concepcion Jr.",
+            "position": "WR"
+          }
+        ],
+        "weekly_net_gain": {
+          "7": 0.0
+        },
+        "weekly_detail": {
+          "7": {
+            "net_gain": 0.0,
+            "real_lineup_points": 72.6,
+            "counterfactual_lineup_points": 72.6
+          }
+        },
+        "total_net_gain": 0.0
+      },
+      "470.l.205662.t.6": {
+        "team_name": "Ma\u00eetre Stick",
+        "received": [
+          {
+            "player_id": "42646",
+            "player_name": "KC Concepcion Jr.",
+            "position": "WR"
+          }
+        ],
+        "gave_up": [
+          {
+            "player_id": "41823",
+            "player_name": "TreVeyon Henderson",
+            "position": "RB"
+          }
+        ],
+        "weekly_net_gain": {
+          "7": 6.1
+        },
+        "weekly_detail": {
+          "7": {
+            "net_gain": 6.1,
+            "real_lineup_points": 94.22,
+            "counterfactual_lineup_points": 88.12
+          }
+        },
+        "total_net_gain": 6.1
+      }
+    },
+    "weeks_skipped_no_projection_data": []
+  },
+  {
+    "transaction_id": "244",
+    "timestamp": 1792136969,
+    "traded_at": "2026-10-16T07:49:29+00:00",
+    "freeze_week": 6,
+    "last_week_evaluated": 7,
+    "sides": {
+      "470.l.205662.t.12": {
+        "team_name": "Supernova\u2019s Studs",
+        "received": [
+          {
+            "player_id": "41293",
+            "player_name": "Jalen Coker",
+            "position": "WR"
+          },
+          {
+            "player_id": "31482",
+            "player_name": "Eddy Pineiro",
+            "position": "K"
+          }
+        ],
+        "gave_up": [
+          {
+            "player_id": "41969",
+            "player_name": "Ollie Gordon II",
+            "position": "RB"
+          },
+          {
+            "player_id": "40819",
+            "player_name": "Brandon Aubrey",
+            "position": "K"
+          }
+        ],
+        "weekly_net_gain": {
+          "6": 6.0,
+          "7": -15.4
+        },
+        "weekly_detail": {
+          "6": {
+            "net_gain": 6.0,
+            "real_lineup_points": 98.6,
+            "counterfactual_lineup_points": 92.6
+          },
+          "7": {
+            "net_gain": -15.4,
+            "real_lineup_points": 94.92,
+            "counterfactual_lineup_points": 110.32
+          }
+        },
+        "total_net_gain": -9.4
+      },
+      "470.l.205662.t.13": {
+        "team_name": "The Sage's Playmakers",
+        "received": [
+          {
+            "player_id": "41969",
+            "player_name": "Ollie Gordon II",
+            "position": "RB"
+          },
+          {
+            "player_id": "40819",
+            "player_name": "Brandon Aubrey",
+            "position": "K"
+          }
+        ],
+        "gave_up": [
+          {
+            "player_id": "41293",
+            "player_name": "Jalen Coker",
+            "position": "WR"
+          },
+          {
+            "player_id": "31482",
+            "player_name": "Eddy Pineiro",
+            "position": "K"
+          }
+        ],
+        "weekly_net_gain": {
+          "6": -0.7,
+          "7": 29.4
+        },
+        "weekly_detail": {
+          "6": {
+            "net_gain": -0.7,
+            "real_lineup_points": 113.6,
+            "counterfactual_lineup_points": 114.3
+          },
+          "7": {
+            "net_gain": 29.4,
+            "real_lineup_points": 107.1,
+            "counterfactual_lineup_points": 77.7
+          }
+        },
+        "total_net_gain": 28.7
+      }
+    },
+    "weeks_skipped_no_projection_data": []
+  },
+  {
+    "transaction_id": "212",
+    "timestamp": 1791791267,
+    "traded_at": "2026-10-12T07:47:47+00:00",
+    "freeze_week": 6,
+    "last_week_evaluated": 7,
+    "sides": {
+      "470.l.205662.t.1": {
+        "team_name": "Flow Brrr",
+        "received": [
+          {
+            "player_id": "41097",
+            "player_name": "Devaughn Vele",
+            "position": "WR"
+          }
+        ],
+        "gave_up": [
+          {
+            "player_id": "29235",
+            "player_name": "Jared Goff",
+            "position": "QB"
+          }
+        ],
+        "weekly_net_gain": {
+          "6": 0.0,
+          "7": 20.26
+        },
+        "weekly_detail": {
+          "6": {
+            "net_gain": 0.0,
+            "real_lineup_points": 112.08,
+            "counterfactual_lineup_points": 112.08
+          },
+          "7": {
+            "net_gain": 20.26,
+            "real_lineup_points": 131.68,
+            "counterfactual_lineup_points": 111.42
+          }
+        },
+        "total_net_gain": 20.26
+      },
+      "470.l.205662.t.12": {
+        "team_name": "Supernova\u2019s Studs",
+        "received": [
+          {
+            "player_id": "29235",
+            "player_name": "Jared Goff",
+            "position": "QB"
+          }
+        ],
+        "gave_up": [
+          {
+            "player_id": "41097",
+            "player_name": "Devaughn Vele",
+            "position": "WR"
+          }
+        ],
+        "weekly_net_gain": {
+          "6": 2.5,
+          "7": 3.02
+        },
+        "weekly_detail": {
+          "6": {
+            "net_gain": 2.5,
+            "real_lineup_points": 92.6,
+            "counterfactual_lineup_points": 90.1
+          },
+          "7": {
+            "net_gain": 3.02,
+            "real_lineup_points": 94.92,
+            "counterfactual_lineup_points": 91.9
+          }
+        },
+        "total_net_gain": 5.52
+      }
+    },
+    "weeks_skipped_no_projection_data": []
+  },
+  {
+    "transaction_id": "169",
+    "timestamp": 1791098662,
+    "traded_at": "2026-10-04T07:24:22+00:00",
+    "freeze_week": 4,
+    "last_week_evaluated": 7,
+    "sides": {
+      "470.l.205662.t.4": {
+        "team_name": "Big Bad Hokkkk",
+        "received": [
+          {
+            "player_id": "33393",
+            "player_name": "Ja'Marr Chase",
+            "position": "WR"
+          },
+          {
+            "player_id": "33991",
+            "player_name": "Breece Hall",
+            "position": "RB"
+          }
+        ],
+        "gave_up": [
+          {
+            "player_id": "33514",
+            "player_name": "Chuba Hubbard",
+            "position": "RB"
+          },
+          {
+            "player_id": "40039",
+            "player_name": "Zay Flowers",
+            "position": "WR"
+          }
+        ],
+        "weekly_net_gain": {
+          "4": -33.0,
+          "5": 5.1,
+          "6": -27.9,
+          "7": -20.5
+        },
+        "weekly_detail": {
+          "4": {
+            "net_gain": -33.0,
+            "real_lineup_points": 118.36,
+            "counterfactual_lineup_points": 151.36
+          },
+          "5": {
+            "net_gain": 5.1,
+            "real_lineup_points": 106.82,
+            "counterfactual_lineup_points": 101.72
+          },
+          "6": {
+            "net_gain": -27.9,
+            "real_lineup_points": 69.68,
+            "counterfactual_lineup_points": 97.58
+          },
+          "7": {
+            "net_gain": -20.5,
+            "real_lineup_points": 111.4,
+            "counterfactual_lineup_points": 131.9
+          }
+        },
+        "total_net_gain": -76.3
+      },
+      "470.l.205662.t.3": {
+        "team_name": "Girder\u2019s 6 Cookies",
+        "received": [
+          {
+            "player_id": "33514",
+            "player_name": "Chuba Hubbard",
+            "position": "RB"
+          },
+          {
+            "player_id": "40039",
+            "player_name": "Zay Flowers",
+            "position": "WR"
+          }
+        ],
+        "gave_up": [
+          {
+            "player_id": "33393",
+            "player_name": "Ja'Marr Chase",
+            "position": "WR"
+          },
+          {
+            "player_id": "33991",
+            "player_name": "Breece Hall",
+            "position": "RB"
+          }
+        ],
+        "weekly_net_gain": {
+          "4": 46.0,
+          "5": -5.1,
+          "6": 29.3,
+          "7": 9.6
+        },
+        "weekly_detail": {
+          "4": {
+            "net_gain": 46.0,
+            "real_lineup_points": 130.22,
+            "counterfactual_lineup_points": 84.22
+          },
+          "5": {
+            "net_gain": -5.1,
+            "real_lineup_points": 85.1,
+            "counterfactual_lineup_points": 90.2
+          },
+          "6": {
+            "net_gain": 29.3,
+            "real_lineup_points": 91.4,
+            "counterfactual_lineup_points": 62.1
+          },
+          "7": {
+            "net_gain": 9.6,
+            "real_lineup_points": 115.0,
+            "counterfactual_lineup_points": 105.4
+          }
+        },
+        "total_net_gain": 79.8
+      }
+    },
+    "weeks_skipped_no_projection_data": []
+  },
+  {
+    "transaction_id": "137",
+    "timestamp": 1790757488,
+    "traded_at": "2026-09-30T08:38:08+00:00",
+    "freeze_week": 4,
+    "last_week_evaluated": 7,
+    "sides": {
+      "470.l.205662.t.9": {
+        "team_name": "Ozzy Stick",
+        "received": [
+          {
+            "player_id": "28534",
+            "player_name": "Stefon Diggs",
+            "position": "WR"
+          }
+        ],
+        "gave_up": [
+          {
+            "player_id": "40981",
+            "player_name": "Braelon Allen",
+            "position": "RB"
+          }
+        ],
+        "weekly_net_gain": {
+          "4": 0.0,
+          "5": -18.6,
+          "6": 0.0,
+          "7": 0.0
+        },
+        "weekly_detail": {
+          "4": {
+            "net_gain": 0.0,
+            "real_lineup_points": 160.4,
+            "counterfactual_lineup_points": 160.4
+          },
+          "5": {
+            "net_gain": -18.6,
+            "real_lineup_points": 110.34,
+            "counterfactual_lineup_points": 128.94
+          },
+          "6": {
+            "net_gain": 0.0,
+            "real_lineup_points": 152.14,
+            "counterfactual_lineup_points": 152.14
+          },
+          "7": {
+            "net_gain": 0.0,
+            "real_lineup_points": 106.66,
+            "counterfactual_lineup_points": 106.66
+          }
+        },
+        "total_net_gain": -18.6
+      },
+      "470.l.205662.t.13": {
+        "team_name": "The Sage's Playmakers",
+        "received": [
+          {
+            "player_id": "40981",
+            "player_name": "Braelon Allen",
+            "position": "RB"
+          }
+        ],
+        "gave_up": [
+          {
+            "player_id": "28534",
+            "player_name": "Stefon Diggs",
+            "position": "WR"
+          }
+        ],
+        "weekly_net_gain": {
+          "4": 3.7,
+          "5": 10.3,
+          "6": 7.4,
+          "7": 0.0
+        },
+        "weekly_detail": {
+          "4": {
+            "net_gain": 3.7,
+            "real_lineup_points": 85.1,
+            "counterfactual_lineup_points": 81.4
+          },
+          "5": {
+            "net_gain": 10.3,
+            "real_lineup_points": 134.26,
+            "counterfactual_lineup_points": 123.96
+          },
+          "6": {
+            "net_gain": 7.4,
+            "real_lineup_points": 110.3,
+            "counterfactual_lineup_points": 102.9
+          },
+          "7": {
+            "net_gain": 0.0,
+            "real_lineup_points": 107.1,
+            "counterfactual_lineup_points": 107.1
+          }
+        },
+        "total_net_gain": 21.4
+      }
+    },
+    "weeks_skipped_no_projection_data": []
+  },
+  {
+    "transaction_id": "134",
+    "timestamp": 1790670043,
+    "traded_at": "2026-09-29T08:20:43+00:00",
+    "freeze_week": 4,
+    "last_week_evaluated": 7,
+    "sides": {
+      "470.l.205662.t.3": {
+        "team_name": "Girder\u2019s 6 Cookies",
+        "received": [
+          {
+            "player_id": "42661",
+            "player_name": "Denzel Boston",
+            "position": "WR"
+          }
+        ],
+        "gave_up": [
+          {
+            "player_id": "41808",
+            "player_name": "Matthew Golden",
+            "position": "WR"
+          }
+        ],
+        "weekly_net_gain": {
+          "4": 1.2,
+          "5": -6.7,
+          "6": -8.1,
+          "7": -4.2
+        },
+        "weekly_detail": {
+          "4": {
+            "net_gain": 1.2,
+            "real_lineup_points": 84.22,
+            "counterfactual_lineup_points": 83.02
+          },
+          "5": {
+            "net_gain": -6.7,
+            "real_lineup_points": 85.1,
+            "counterfactual_lineup_points": 91.8
+          },
+          "6": {
+            "net_gain": -8.1,
+            "real_lineup_points": 91.4,
+            "counterfactual_lineup_points": 99.5
+          },
+          "7": {
+            "net_gain": -4.2,
+            "real_lineup_points": 115.0,
+            "counterfactual_lineup_points": 119.2
+          }
+        },
+        "total_net_gain": -17.8
+      },
+      "470.l.205662.t.13": {
+        "team_name": "The Sage's Playmakers",
+        "received": [
+          {
+            "player_id": "41808",
+            "player_name": "Matthew Golden",
+            "position": "WR"
+          }
+        ],
+        "gave_up": [
+          {
+            "player_id": "42661",
+            "player_name": "Denzel Boston",
+            "position": "WR"
+          }
+        ],
+        "weekly_net_gain": {
+          "4": 11.7,
+          "5": 18.7,
+          "6": 3.4,
+          "7": 4.2
+        },
+        "weekly_detail": {
+          "4": {
+            "net_gain": 11.7,
+            "real_lineup_points": 81.4,
+            "counterfactual_lineup_points": 69.7
+          },
+          "5": {
+            "net_gain": 18.7,
+            "real_lineup_points": 134.26,
+            "counterfactual_lineup_points": 115.56
+          },
+          "6": {
+            "net_gain": 3.4,
+            "real_lineup_points": 110.3,
+            "counterfactual_lineup_points": 106.9
+          },
+          "7": {
+            "net_gain": 4.2,
+            "real_lineup_points": 107.1,
+            "counterfactual_lineup_points": 102.9
+          }
+        },
+        "total_net_gain": 38.0
+      }
+    },
+    "weeks_skipped_no_projection_data": []
+  }
+]

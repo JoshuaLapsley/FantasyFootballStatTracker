@@ -272,7 +272,7 @@ export default function InvestmentTracker() {
         <div className="chart-wrap">
           <svg
             viewBox={`0 0 ${chart.width} ${chart.height}`}
-            preserveAspectRatio="none"
+            preserveAspectRatio="xMidYMid meet"
             className="chart-svg"
           >
             {/* Y-axis gridlines + labels */}

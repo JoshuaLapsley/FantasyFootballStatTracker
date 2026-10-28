@@ -1,0 +1,35 @@
+{
+  "REG_SEASON_LOSS_LEVERAGE": -0.04510373470820503,
+  "PUNISHMENT_SF_LEVERAGE": 0.5,
+  "PUNISHMENT_FINAL_LEVERAGE": 1.0,
+  "diagnostics": {
+    "n_simulations": 20000,
+    "dP_bottom4_dWin": {
+      "intercept": 21.877872092673485,
+      "coef": -3.708608239878826,
+      "band_low": 2,
+      "band_high": 7,
+      "band_avg_derivative": -0.18041493883282012
+    },
+    "tier_worst_rate": {
+      "upper": 0.0,
+      "middle": 0.0,
+      "bottom4": 0.25
+    },
+    "bottom4_value_over_middle": 0.25,
+    "round_leverage": {
+      "sf": {
+        "p_worst_if_win": 0.0,
+        "p_worst_if_lose": 0.5,
+        "leverage": 0.5,
+        "n_games": 40000
+      },
+      "final": {
+        "p_worst_if_win": 0.0,
+        "p_worst_if_lose": 1.0,
+        "leverage": 1.0,
+        "n_games": 20000
+      }
+    }
+  }
+}

@@ -156,19 +156,22 @@
 .chart-wrap {
   position: relative;
   margin: clamp(16px, 3vh, 32px) 0 8px;
-  flex: 1 1 auto;
-  min-height: 260px;
+  width: 100%;
+  height: clamp(300px, 42vh, 420px);
+  min-height: 300px;
   background: var(--panel);
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 18px 16px 10px;
+  overflow: hidden;
+  flex: none;
 }
 
 .chart-svg {
   width: 100%;
   height: 100%;
-  overflow: visible;
   display: block;
+  overflow: visible;
 }
 
 .grid-line {
@@ -287,18 +290,33 @@
   .tracker-page {
     padding: 14px;
   }
+
   .tracker-header {
     margin-bottom: 16px;
   }
+
   .chart-wrap {
-    padding: 14px 8px 6px;
-    min-height: 220px;
+    height: 340px;
+    min-height: 340px;
+    margin: 20px 0 8px;
+    padding: 14px 8px 10px;
   }
+
+  .chart-svg {
+    width: 100%;
+    height: 100%;
+  }
+
   .stats-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     row-gap: 16px;
   }
+
   .axis-label {
     font-size: 9px;
+  }
+
+  .ticker {
+    font-size: 28px;
   }
 }

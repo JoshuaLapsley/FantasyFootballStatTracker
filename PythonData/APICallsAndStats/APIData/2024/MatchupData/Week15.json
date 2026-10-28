@@ -1,0 +1,86 @@
+[
+  {
+    "week": 15,
+    "status": "postevent",
+    "is_playoffs": true,
+    "is_consolation": true,
+    "teams": [
+      {
+        "team_key": "449.l.106896.t.1",
+        "name": "Sparty's Sigmas",
+        "points": 117.7,
+        "projected_points": 101.35
+      },
+      {
+        "team_key": "449.l.106896.t.3",
+        "name": "Flows Aggressive Insurance",
+        "points": 137.38,
+        "projected_points": 116.44
+      }
+    ],
+    "winner_team_key": "449.l.106896.t.3"
+  },
+  {
+    "week": 15,
+    "status": "postevent",
+    "is_playoffs": true,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "449.l.106896.t.2",
+        "name": "Spirally Things",
+        "points": 139.1,
+        "projected_points": 117.72
+      },
+      {
+        "team_key": "449.l.106896.t.11",
+        "name": "Tsuga\u2019s Tuck Shop",
+        "points": 133.64,
+        "projected_points": 119.37
+      }
+    ],
+    "winner_team_key": "449.l.106896.t.2"
+  },
+  {
+    "week": 15,
+    "status": "postevent",
+    "is_playoffs": true,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "449.l.106896.t.6",
+        "name": "Revy\u2019s Konstruction",
+        "points": 136.2,
+        "projected_points": 125.12
+      },
+      {
+        "team_key": "449.l.106896.t.8",
+        "name": "Supernova\u2019s Studs",
+        "points": 113.96,
+        "projected_points": 119.6
+      }
+    ],
+    "winner_team_key": "449.l.106896.t.6"
+  },
+  {
+    "week": 15,
+    "status": "postevent",
+    "is_playoffs": true,
+    "is_consolation": true,
+    "teams": [
+      {
+        "team_key": "449.l.106896.t.10",
+        "name": "The Sage's Playmakers",
+        "points": 86.14,
+        "projected_points": 114.65
+      },
+      {
+        "team_key": "449.l.106896.t.12",
+        "name": "Wicked Wah-Bams",
+        "points": 136.8,
+        "projected_points": 120.6
+      }
+    ],
+    "winner_team_key": "449.l.106896.t.12"
+  }
+]

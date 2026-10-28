@@ -1,0 +1,2735 @@
+{
+  "1": {
+    "40877": {
+      "name": "Xavier Worthy",
+      "position": "WR",
+      "played": false
+    },
+    "40084": {
+      "name": "Rashee Rice",
+      "position": "WR",
+      "played": false
+    },
+    "40042": {
+      "name": "Jordan Addison",
+      "position": "WR",
+      "played": false
+    },
+    "40119": {
+      "name": "Tyjae Spears",
+      "position": "RB",
+      "played": false
+    },
+    "30161": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "played": false
+    },
+    "32695": {
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "played": false
+    },
+    "30197": {
+      "name": "Chris Godwin Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "32843": {
+      "name": "Darnell Mooney",
+      "position": "WR",
+      "played": false
+    },
+    "31017": {
+      "name": "Christian Kirk",
+      "position": "WR",
+      "played": false
+    },
+    "41821": {
+      "name": "Quinshon Judkins",
+      "position": "RB",
+      "played": false
+    },
+    "41935": {
+      "name": "Jaydon Blue",
+      "position": "RB",
+      "played": false
+    },
+    "41010": {
+      "name": "Jaylen Wright",
+      "position": "RB",
+      "played": false
+    },
+    "40162": {
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "played": false
+    },
+    "100002": {
+      "name": "Bills",
+      "position": "DEF",
+      "played": false
+    },
+    "100008": {
+      "name": "Lions",
+      "position": "DEF",
+      "played": false
+    },
+    "40998": {
+      "name": "Isaac Guerendo",
+      "position": "RB",
+      "played": false
+    },
+    "41930": {
+      "name": "Shedeur Sanders",
+      "position": "QB",
+      "played": false
+    },
+    "31199": {
+      "name": "Jason Sanders",
+      "position": "K",
+      "played": false
+    },
+    "30125": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "played": false
+    },
+    "42508": {
+      "name": "Taylor Elgersma",
+      "position": "QB",
+      "played": false
+    },
+    "28390": {
+      "name": "Marcus Mariota",
+      "position": "QB",
+      "played": false
+    },
+    "32858": {
+      "name": "Tyler Bass",
+      "position": "K",
+      "played": false
+    }
+  },
+  "2": {
+    "30259": {
+      "name": "George Kittle",
+      "position": "TE",
+      "played": false
+    },
+    "40877": {
+      "name": "Xavier Worthy",
+      "position": "WR",
+      "played": false
+    },
+    "40084": {
+      "name": "Rashee Rice",
+      "position": "WR",
+      "played": false
+    },
+    "34218": {
+      "name": "Brock Purdy",
+      "position": "QB",
+      "played": false
+    },
+    "40042": {
+      "name": "Jordan Addison",
+      "position": "WR",
+      "played": false
+    },
+    "40095": {
+      "name": "Tank Bigsby",
+      "position": "RB",
+      "played": false
+    },
+    "40119": {
+      "name": "Tyjae Spears",
+      "position": "RB",
+      "played": false
+    },
+    "31019": {
+      "name": "Dallas Goedert",
+      "position": "TE",
+      "played": false
+    },
+    "40063": {
+      "name": "Jayden Reed",
+      "position": "WR",
+      "played": false
+    },
+    "30161": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "played": false
+    },
+    "32695": {
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "played": false
+    },
+    "30197": {
+      "name": "Chris Godwin Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "100007": {
+      "name": "Broncos",
+      "position": "DEF",
+      "played": false
+    },
+    "31017": {
+      "name": "Christian Kirk",
+      "position": "WR",
+      "played": false
+    },
+    "41795": {
+      "name": "Colston Loveland",
+      "position": "TE",
+      "played": false
+    },
+    "41935": {
+      "name": "Jaydon Blue",
+      "position": "RB",
+      "played": false
+    },
+    "41010": {
+      "name": "Jaylen Wright",
+      "position": "RB",
+      "played": false
+    },
+    "40162": {
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "played": false
+    },
+    "40998": {
+      "name": "Isaac Guerendo",
+      "position": "RB",
+      "played": false
+    },
+    "41930": {
+      "name": "Shedeur Sanders",
+      "position": "QB",
+      "played": false
+    },
+    "31199": {
+      "name": "Jason Sanders",
+      "position": "K",
+      "played": false
+    },
+    "30125": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "played": false
+    },
+    "42508": {
+      "name": "Taylor Elgersma",
+      "position": "QB",
+      "played": false
+    },
+    "28390": {
+      "name": "Marcus Mariota",
+      "position": "QB",
+      "played": false
+    },
+    "32858": {
+      "name": "Tyler Bass",
+      "position": "K",
+      "played": false
+    },
+    "30426": {
+      "name": "Younghoe Koo",
+      "position": "K",
+      "played": false
+    }
+  },
+  "3": {
+    "32687": {
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "played": false
+    },
+    "40896": {
+      "name": "Jayden Daniels",
+      "position": "QB",
+      "played": false
+    },
+    "30259": {
+      "name": "George Kittle",
+      "position": "TE",
+      "played": false
+    },
+    "32671": {
+      "name": "Joe Burrow",
+      "position": "QB",
+      "played": false
+    },
+    "40877": {
+      "name": "Xavier Worthy",
+      "position": "WR",
+      "played": false
+    },
+    "41881": {
+      "name": "Kaleb Johnson",
+      "position": "RB",
+      "played": false
+    },
+    "40084": {
+      "name": "Rashee Rice",
+      "position": "WR",
+      "played": false
+    },
+    "30295": {
+      "name": "Aaron Jones Sr.",
+      "position": "RB",
+      "played": false
+    },
+    "30136": {
+      "name": "Evan Engram",
+      "position": "TE",
+      "played": false
+    },
+    "32887": {
+      "name": "Jauan Jennings",
+      "position": "WR",
+      "played": false
+    },
+    "34218": {
+      "name": "Brock Purdy",
+      "position": "QB",
+      "played": false
+    },
+    "40042": {
+      "name": "Jordan Addison",
+      "position": "WR",
+      "played": false
+    },
+    "40095": {
+      "name": "Tank Bigsby",
+      "position": "RB",
+      "played": false
+    },
+    "40075": {
+      "name": "Zach Charbonnet",
+      "position": "RB",
+      "played": false
+    },
+    "40119": {
+      "name": "Tyjae Spears",
+      "position": "RB",
+      "played": false
+    },
+    "33399": {
+      "name": "Justin Fields",
+      "position": "QB",
+      "played": false
+    },
+    "40063": {
+      "name": "Jayden Reed",
+      "position": "WR",
+      "played": false
+    },
+    "30423": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "played": false
+    },
+    "30161": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "played": false
+    },
+    "32695": {
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "played": false
+    },
+    "30197": {
+      "name": "Chris Godwin Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "40980": {
+      "name": "Ray Davis",
+      "position": "RB",
+      "played": false
+    },
+    "41935": {
+      "name": "Jaydon Blue",
+      "position": "RB",
+      "played": false
+    },
+    "41010": {
+      "name": "Jaylen Wright",
+      "position": "RB",
+      "played": false
+    },
+    "40162": {
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "played": false
+    },
+    "27277": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "played": false
+    },
+    "40998": {
+      "name": "Isaac Guerendo",
+      "position": "RB",
+      "played": false
+    },
+    "41930": {
+      "name": "Shedeur Sanders",
+      "position": "QB",
+      "played": false
+    },
+    "31199": {
+      "name": "Jason Sanders",
+      "position": "K",
+      "played": false
+    },
+    "40905": {
+      "name": "J.J. McCarthy",
+      "position": "QB",
+      "played": false
+    },
+    "30125": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "played": false
+    },
+    "42508": {
+      "name": "Taylor Elgersma",
+      "position": "QB",
+      "played": false
+    },
+    "32858": {
+      "name": "Tyler Bass",
+      "position": "K",
+      "played": false
+    },
+    "30426": {
+      "name": "Younghoe Koo",
+      "position": "K",
+      "played": false
+    }
+  },
+  "4": {
+    "32687": {
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "played": false
+    },
+    "40896": {
+      "name": "Jayden Daniels",
+      "position": "QB",
+      "played": false
+    },
+    "30259": {
+      "name": "George Kittle",
+      "position": "TE",
+      "played": false
+    },
+    "32671": {
+      "name": "Joe Burrow",
+      "position": "QB",
+      "played": false
+    },
+    "27535": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "played": false
+    },
+    "31908": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "played": false
+    },
+    "30218": {
+      "name": "James Conner",
+      "position": "RB",
+      "played": false
+    },
+    "40084": {
+      "name": "Rashee Rice",
+      "position": "WR",
+      "played": false
+    },
+    "30295": {
+      "name": "Aaron Jones Sr.",
+      "position": "RB",
+      "played": false
+    },
+    "41048": {
+      "name": "Tyrone Tracy Jr.",
+      "position": "RB",
+      "played": false
+    },
+    "34447": {
+      "name": "Jaylen Warren",
+      "position": "RB",
+      "played": false
+    },
+    "40095": {
+      "name": "Tank Bigsby",
+      "position": "RB",
+      "played": false
+    },
+    "40119": {
+      "name": "Tyjae Spears",
+      "position": "RB",
+      "played": false
+    },
+    "40063": {
+      "name": "Jayden Reed",
+      "position": "WR",
+      "played": false
+    },
+    "30423": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "played": false
+    },
+    "30161": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "played": false
+    },
+    "32695": {
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "played": false
+    },
+    "41795": {
+      "name": "Colston Loveland",
+      "position": "TE",
+      "played": false
+    },
+    "33412": {
+      "name": "Najee Harris",
+      "position": "RB",
+      "played": false
+    },
+    "41935": {
+      "name": "Jaydon Blue",
+      "position": "RB",
+      "played": false
+    },
+    "41010": {
+      "name": "Jaylen Wright",
+      "position": "RB",
+      "played": false
+    },
+    "40222": {
+      "name": "DeMario Douglas",
+      "position": "WR",
+      "played": false
+    },
+    "40162": {
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "played": false
+    },
+    "40998": {
+      "name": "Isaac Guerendo",
+      "position": "RB",
+      "played": false
+    },
+    "41930": {
+      "name": "Shedeur Sanders",
+      "position": "QB",
+      "played": false
+    },
+    "31199": {
+      "name": "Jason Sanders",
+      "position": "K",
+      "played": false
+    },
+    "40905": {
+      "name": "J.J. McCarthy",
+      "position": "QB",
+      "played": false
+    },
+    "30125": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "played": false
+    },
+    "100025": {
+      "name": "49ers",
+      "position": "DEF",
+      "played": false
+    },
+    "42508": {
+      "name": "Taylor Elgersma",
+      "position": "QB",
+      "played": false
+    },
+    "32858": {
+      "name": "Tyler Bass",
+      "position": "K",
+      "played": false
+    },
+    "30426": {
+      "name": "Younghoe Koo",
+      "position": "K",
+      "played": false
+    }
+  },
+  "5": {
+    "32687": {
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "played": false
+    },
+    "40899": {
+      "name": "Malik Nabers",
+      "position": "WR",
+      "played": false
+    },
+    "40878": {
+      "name": "Brock Bowers",
+      "position": "TE",
+      "played": false
+    },
+    "40993": {
+      "name": "Bucky Irving",
+      "position": "RB",
+      "played": false
+    },
+    "31002": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "played": false
+    },
+    "30259": {
+      "name": "George Kittle",
+      "position": "TE",
+      "played": false
+    },
+    "32671": {
+      "name": "Joe Burrow",
+      "position": "QB",
+      "played": false
+    },
+    "27535": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "played": false
+    },
+    "29399": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "played": false
+    },
+    "31908": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "played": false
+    },
+    "33514": {
+      "name": "Chuba Hubbard",
+      "position": "RB",
+      "played": false
+    },
+    "30218": {
+      "name": "James Conner",
+      "position": "RB",
+      "played": false
+    },
+    "30994": {
+      "name": "DJ Moore",
+      "position": "WR",
+      "played": false
+    },
+    "40084": {
+      "name": "Rashee Rice",
+      "position": "WR",
+      "played": false
+    },
+    "30295": {
+      "name": "Aaron Jones Sr.",
+      "position": "RB",
+      "played": false
+    },
+    "41048": {
+      "name": "Tyrone Tracy Jr.",
+      "position": "RB",
+      "played": false
+    },
+    "40892": {
+      "name": "Ricky Pearsall",
+      "position": "WR",
+      "played": false
+    },
+    "32887": {
+      "name": "Jauan Jennings",
+      "position": "WR",
+      "played": false
+    },
+    "40981": {
+      "name": "Braelon Allen",
+      "position": "RB",
+      "played": false
+    },
+    "34218": {
+      "name": "Brock Purdy",
+      "position": "QB",
+      "played": false
+    },
+    "40095": {
+      "name": "Tank Bigsby",
+      "position": "RB",
+      "played": false
+    },
+    "30423": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "played": false
+    },
+    "30161": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "played": false
+    },
+    "32695": {
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "played": false
+    },
+    "33415": {
+      "name": "Rashod Bateman",
+      "position": "WR",
+      "played": false
+    },
+    "40958": {
+      "name": "Trey Benson",
+      "position": "RB",
+      "played": false
+    },
+    "32843": {
+      "name": "Darnell Mooney",
+      "position": "WR",
+      "played": false
+    },
+    "34107": {
+      "name": "Tyler Allgeier",
+      "position": "RB",
+      "played": false
+    },
+    "33412": {
+      "name": "Najee Harris",
+      "position": "RB",
+      "played": false
+    },
+    "41010": {
+      "name": "Jaylen Wright",
+      "position": "RB",
+      "played": false
+    },
+    "40093": {
+      "name": "Cedric Tillman",
+      "position": "WR",
+      "played": false
+    },
+    "26658": {
+      "name": "Zach Ertz",
+      "position": "TE",
+      "played": false
+    },
+    "34088": {
+      "name": "Romeo Doubs",
+      "position": "WR",
+      "played": false
+    },
+    "40998": {
+      "name": "Isaac Guerendo",
+      "position": "RB",
+      "played": false
+    },
+    "41930": {
+      "name": "Shedeur Sanders",
+      "position": "QB",
+      "played": false
+    },
+    "31199": {
+      "name": "Jason Sanders",
+      "position": "K",
+      "played": false
+    },
+    "40905": {
+      "name": "J.J. McCarthy",
+      "position": "QB",
+      "played": false
+    },
+    "30125": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "played": false
+    },
+    "28390": {
+      "name": "Marcus Mariota",
+      "position": "QB",
+      "played": false
+    },
+    "32858": {
+      "name": "Tyler Bass",
+      "position": "K",
+      "played": false
+    },
+    "30426": {
+      "name": "Younghoe Koo",
+      "position": "K",
+      "played": false
+    }
+  },
+  "6": {
+    "32687": {
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "played": false
+    },
+    "40899": {
+      "name": "Malik Nabers",
+      "position": "WR",
+      "played": false
+    },
+    "40878": {
+      "name": "Brock Bowers",
+      "position": "TE",
+      "played": false
+    },
+    "40993": {
+      "name": "Bucky Irving",
+      "position": "RB",
+      "played": false
+    },
+    "31002": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "played": false
+    },
+    "30259": {
+      "name": "George Kittle",
+      "position": "TE",
+      "played": false
+    },
+    "41807": {
+      "name": "Omarion Hampton",
+      "position": "RB",
+      "played": false
+    },
+    "32671": {
+      "name": "Joe Burrow",
+      "position": "QB",
+      "played": false
+    },
+    "27535": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "played": false
+    },
+    "29399": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "played": false
+    },
+    "31908": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "played": false
+    },
+    "33514": {
+      "name": "Chuba Hubbard",
+      "position": "RB",
+      "played": false
+    },
+    "30218": {
+      "name": "James Conner",
+      "position": "RB",
+      "played": false
+    },
+    "40084": {
+      "name": "Rashee Rice",
+      "position": "WR",
+      "played": false
+    },
+    "40892": {
+      "name": "Ricky Pearsall",
+      "position": "WR",
+      "played": false
+    },
+    "40981": {
+      "name": "Braelon Allen",
+      "position": "RB",
+      "played": false
+    },
+    "34218": {
+      "name": "Brock Purdy",
+      "position": "QB",
+      "played": false
+    },
+    "40095": {
+      "name": "Tank Bigsby",
+      "position": "RB",
+      "played": false
+    },
+    "40063": {
+      "name": "Jayden Reed",
+      "position": "WR",
+      "played": false
+    },
+    "30423": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "played": false
+    },
+    "40048": {
+      "name": "Dalton Kincaid",
+      "position": "TE",
+      "played": false
+    },
+    "32695": {
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "played": false
+    },
+    "30197": {
+      "name": "Chris Godwin Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "40958": {
+      "name": "Trey Benson",
+      "position": "RB",
+      "played": false
+    },
+    "32843": {
+      "name": "Darnell Mooney",
+      "position": "WR",
+      "played": false
+    },
+    "31017": {
+      "name": "Christian Kirk",
+      "position": "WR",
+      "played": false
+    },
+    "33412": {
+      "name": "Najee Harris",
+      "position": "RB",
+      "played": false
+    },
+    "41935": {
+      "name": "Jaydon Blue",
+      "position": "RB",
+      "played": false
+    },
+    "41010": {
+      "name": "Jaylen Wright",
+      "position": "RB",
+      "played": false
+    },
+    "40093": {
+      "name": "Cedric Tillman",
+      "position": "WR",
+      "played": false
+    },
+    "27277": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "played": false
+    },
+    "40998": {
+      "name": "Isaac Guerendo",
+      "position": "RB",
+      "played": false
+    },
+    "41930": {
+      "name": "Shedeur Sanders",
+      "position": "QB",
+      "played": false
+    },
+    "31199": {
+      "name": "Jason Sanders",
+      "position": "K",
+      "played": false
+    },
+    "40905": {
+      "name": "J.J. McCarthy",
+      "position": "QB",
+      "played": false
+    },
+    "30125": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "played": false
+    },
+    "100025": {
+      "name": "49ers",
+      "position": "DEF",
+      "played": false
+    },
+    "42508": {
+      "name": "Taylor Elgersma",
+      "position": "QB",
+      "played": false
+    },
+    "28390": {
+      "name": "Marcus Mariota",
+      "position": "QB",
+      "played": false
+    },
+    "32858": {
+      "name": "Tyler Bass",
+      "position": "K",
+      "played": false
+    },
+    "30426": {
+      "name": "Younghoe Koo",
+      "position": "K",
+      "played": false
+    }
+  },
+  "7": {
+    "40899": {
+      "name": "Malik Nabers",
+      "position": "WR",
+      "played": false
+    },
+    "40168": {
+      "name": "Puka Nacua",
+      "position": "WR",
+      "played": false
+    },
+    "40878": {
+      "name": "Brock Bowers",
+      "position": "TE",
+      "played": false
+    },
+    "40993": {
+      "name": "Bucky Irving",
+      "position": "RB",
+      "played": false
+    },
+    "30259": {
+      "name": "George Kittle",
+      "position": "TE",
+      "played": false
+    },
+    "41807": {
+      "name": "Omarion Hampton",
+      "position": "RB",
+      "played": false
+    },
+    "33965": {
+      "name": "Garrett Wilson",
+      "position": "WR",
+      "played": false
+    },
+    "32671": {
+      "name": "Joe Burrow",
+      "position": "QB",
+      "played": false
+    },
+    "27535": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "played": false
+    },
+    "29399": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "played": false
+    },
+    "31908": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "played": false
+    },
+    "30218": {
+      "name": "James Conner",
+      "position": "RB",
+      "played": false
+    },
+    "33967": {
+      "name": "Jameson Williams",
+      "position": "WR",
+      "played": false
+    },
+    "41881": {
+      "name": "Kaleb Johnson",
+      "position": "RB",
+      "played": false
+    },
+    "30996": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "played": false
+    },
+    "30295": {
+      "name": "Aaron Jones Sr.",
+      "position": "RB",
+      "played": false
+    },
+    "32231": {
+      "name": "Jakobi Meyers",
+      "position": "WR",
+      "played": false
+    },
+    "40892": {
+      "name": "Ricky Pearsall",
+      "position": "WR",
+      "played": false
+    },
+    "30142": {
+      "name": "David Njoku",
+      "position": "TE",
+      "played": false
+    },
+    "40981": {
+      "name": "Braelon Allen",
+      "position": "RB",
+      "played": false
+    },
+    "34218": {
+      "name": "Brock Purdy",
+      "position": "QB",
+      "played": false
+    },
+    "31833": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "played": false
+    },
+    "31868": {
+      "name": "Deebo Samuel Sr.",
+      "position": "WR",
+      "played": false
+    },
+    "40063": {
+      "name": "Jayden Reed",
+      "position": "WR",
+      "played": false
+    },
+    "30423": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "played": false
+    },
+    "40126": {
+      "name": "Josh Downs",
+      "position": "WR",
+      "played": false
+    },
+    "30161": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "played": false
+    },
+    "32695": {
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "played": false
+    },
+    "30197": {
+      "name": "Chris Godwin Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "40958": {
+      "name": "Trey Benson",
+      "position": "RB",
+      "played": false
+    },
+    "41819": {
+      "name": "Jayden Higgins",
+      "position": "WR",
+      "played": false
+    },
+    "31017": {
+      "name": "Christian Kirk",
+      "position": "WR",
+      "played": false
+    },
+    "33412": {
+      "name": "Najee Harris",
+      "position": "RB",
+      "played": false
+    },
+    "41010": {
+      "name": "Jaylen Wright",
+      "position": "RB",
+      "played": false
+    },
+    "40093": {
+      "name": "Cedric Tillman",
+      "position": "WR",
+      "played": false
+    },
+    "40998": {
+      "name": "Isaac Guerendo",
+      "position": "RB",
+      "played": false
+    },
+    "41930": {
+      "name": "Shedeur Sanders",
+      "position": "QB",
+      "played": false
+    },
+    "34099": {
+      "name": "Chig Okonkwo",
+      "position": "TE",
+      "played": false
+    },
+    "31199": {
+      "name": "Jason Sanders",
+      "position": "K",
+      "played": false
+    },
+    "40905": {
+      "name": "J.J. McCarthy",
+      "position": "QB",
+      "played": false
+    },
+    "30125": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "played": false
+    },
+    "42508": {
+      "name": "Taylor Elgersma",
+      "position": "QB",
+      "played": false
+    },
+    "30426": {
+      "name": "Younghoe Koo",
+      "position": "K",
+      "played": false
+    }
+  },
+  "8": {
+    "40899": {
+      "name": "Malik Nabers",
+      "position": "WR",
+      "played": false
+    },
+    "33477": {
+      "name": "Nico Collins",
+      "position": "WR",
+      "played": false
+    },
+    "33963": {
+      "name": "Drake London",
+      "position": "WR",
+      "played": false
+    },
+    "40993": {
+      "name": "Bucky Irving",
+      "position": "RB",
+      "played": false
+    },
+    "31883": {
+      "name": "A.J. Brown",
+      "position": "WR",
+      "played": false
+    },
+    "31002": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "played": false
+    },
+    "40896": {
+      "name": "Jayden Daniels",
+      "position": "QB",
+      "played": false
+    },
+    "41807": {
+      "name": "Omarion Hampton",
+      "position": "RB",
+      "played": false
+    },
+    "33965": {
+      "name": "Garrett Wilson",
+      "position": "WR",
+      "played": false
+    },
+    "32671": {
+      "name": "Joe Burrow",
+      "position": "QB",
+      "played": false
+    },
+    "27535": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "played": false
+    },
+    "29399": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "played": false
+    },
+    "33996": {
+      "name": "Kenneth Walker III",
+      "position": "RB",
+      "played": false
+    },
+    "31905": {
+      "name": "David Montgomery",
+      "position": "RB",
+      "played": false
+    },
+    "41881": {
+      "name": "Kaleb Johnson",
+      "position": "RB",
+      "played": false
+    },
+    "30996": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "played": false
+    },
+    "32685": {
+      "name": "Jerry Jeudy",
+      "position": "WR",
+      "played": false
+    },
+    "40892": {
+      "name": "Ricky Pearsall",
+      "position": "WR",
+      "played": false
+    },
+    "40981": {
+      "name": "Braelon Allen",
+      "position": "RB",
+      "played": false
+    },
+    "34218": {
+      "name": "Brock Purdy",
+      "position": "QB",
+      "played": false
+    },
+    "31833": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "played": false
+    },
+    "33413": {
+      "name": "Travis Etienne Jr.",
+      "position": "RB",
+      "played": false
+    },
+    "34054": {
+      "name": "Brian Robinson",
+      "position": "RB",
+      "played": false
+    },
+    "40063": {
+      "name": "Jayden Reed",
+      "position": "WR",
+      "played": false
+    },
+    "30423": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "played": false
+    },
+    "30161": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "played": false
+    },
+    "32695": {
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "played": false
+    },
+    "34085": {
+      "name": "Jake Ferguson",
+      "position": "TE",
+      "played": false
+    },
+    "30197": {
+      "name": "Chris Godwin Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "31017": {
+      "name": "Christian Kirk",
+      "position": "WR",
+      "played": false
+    },
+    "33465": {
+      "name": "Joshua Palmer",
+      "position": "WR",
+      "played": false
+    },
+    "31857": {
+      "name": "Hollywood Brown",
+      "position": "WR",
+      "played": false
+    },
+    "33412": {
+      "name": "Najee Harris",
+      "position": "RB",
+      "played": false
+    },
+    "40093": {
+      "name": "Cedric Tillman",
+      "position": "WR",
+      "played": false
+    },
+    "100016": {
+      "name": "Vikings",
+      "position": "DEF",
+      "played": false
+    },
+    "40162": {
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "played": false
+    },
+    "27277": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "played": false
+    },
+    "40998": {
+      "name": "Isaac Guerendo",
+      "position": "RB",
+      "played": false
+    },
+    "41930": {
+      "name": "Shedeur Sanders",
+      "position": "QB",
+      "played": false
+    },
+    "31199": {
+      "name": "Jason Sanders",
+      "position": "K",
+      "played": false
+    },
+    "40905": {
+      "name": "J.J. McCarthy",
+      "position": "QB",
+      "played": false
+    },
+    "30125": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "played": false
+    },
+    "42508": {
+      "name": "Taylor Elgersma",
+      "position": "QB",
+      "played": false
+    },
+    "32858": {
+      "name": "Tyler Bass",
+      "position": "K",
+      "played": false
+    },
+    "40889": {
+      "name": "Michael Penix Jr.",
+      "position": "QB",
+      "played": false
+    },
+    "30426": {
+      "name": "Younghoe Koo",
+      "position": "K",
+      "played": false
+    }
+  },
+  "9": {
+    "40899": {
+      "name": "Malik Nabers",
+      "position": "WR",
+      "played": false
+    },
+    "31883": {
+      "name": "A.J. Brown",
+      "position": "WR",
+      "played": false
+    },
+    "41807": {
+      "name": "Omarion Hampton",
+      "position": "RB",
+      "played": false
+    },
+    "32671": {
+      "name": "Joe Burrow",
+      "position": "QB",
+      "played": false
+    },
+    "27535": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "played": false
+    },
+    "29399": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "played": false
+    },
+    "31908": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "played": false
+    },
+    "30218": {
+      "name": "James Conner",
+      "position": "RB",
+      "played": false
+    },
+    "32705": {
+      "name": "D'Andre Swift",
+      "position": "RB",
+      "played": false
+    },
+    "34207": {
+      "name": "Isiah Pacheco",
+      "position": "RB",
+      "played": false
+    },
+    "40901": {
+      "name": "Rome Odunze",
+      "position": "WR",
+      "played": false
+    },
+    "30996": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "played": false
+    },
+    "99001": {
+      "name": "Travis Hunter",
+      "position": "WR",
+      "played": false
+    },
+    "30136": {
+      "name": "Evan Engram",
+      "position": "TE",
+      "played": false
+    },
+    "40892": {
+      "name": "Ricky Pearsall",
+      "position": "WR",
+      "played": false
+    },
+    "30142": {
+      "name": "David Njoku",
+      "position": "TE",
+      "played": false
+    },
+    "34218": {
+      "name": "Brock Purdy",
+      "position": "QB",
+      "played": false
+    },
+    "31833": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "played": false
+    },
+    "33508": {
+      "name": "Rhamondre Stevenson",
+      "position": "RB",
+      "played": false
+    },
+    "33399": {
+      "name": "Justin Fields",
+      "position": "QB",
+      "played": false
+    },
+    "40063": {
+      "name": "Jayden Reed",
+      "position": "WR",
+      "played": false
+    },
+    "30423": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "played": false
+    },
+    "30161": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "played": false
+    },
+    "30182": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "played": false
+    },
+    "41922": {
+      "name": "Cam Skattebo",
+      "position": "RB",
+      "played": false
+    },
+    "32695": {
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "played": false
+    },
+    "40980": {
+      "name": "Ray Davis",
+      "position": "RB",
+      "played": false
+    },
+    "40958": {
+      "name": "Trey Benson",
+      "position": "RB",
+      "played": false
+    },
+    "34112": {
+      "name": "Jerome Ford",
+      "position": "RB",
+      "played": false
+    },
+    "34047": {
+      "name": "Rachaad White",
+      "position": "RB",
+      "played": false
+    },
+    "33465": {
+      "name": "Joshua Palmer",
+      "position": "WR",
+      "played": false
+    },
+    "40090": {
+      "name": "Marvin Mims Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "33412": {
+      "name": "Najee Harris",
+      "position": "RB",
+      "played": false
+    },
+    "41010": {
+      "name": "Jaylen Wright",
+      "position": "RB",
+      "played": false
+    },
+    "40093": {
+      "name": "Cedric Tillman",
+      "position": "WR",
+      "played": false
+    },
+    "41824": {
+      "name": "Luther Burden III",
+      "position": "WR",
+      "played": false
+    },
+    "40162": {
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "played": false
+    },
+    "27277": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "played": false
+    },
+    "40998": {
+      "name": "Isaac Guerendo",
+      "position": "RB",
+      "played": false
+    },
+    "42508": {
+      "name": "Taylor Elgersma",
+      "position": "QB",
+      "played": false
+    },
+    "28390": {
+      "name": "Marcus Mariota",
+      "position": "QB",
+      "played": false
+    },
+    "32858": {
+      "name": "Tyler Bass",
+      "position": "K",
+      "played": false
+    },
+    "30426": {
+      "name": "Younghoe Koo",
+      "position": "K",
+      "played": false
+    }
+  },
+  "10": {
+    "40899": {
+      "name": "Malik Nabers",
+      "position": "WR",
+      "played": false
+    },
+    "40883": {
+      "name": "Brian Thomas Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "40993": {
+      "name": "Bucky Irving",
+      "position": "RB",
+      "played": false
+    },
+    "40896": {
+      "name": "Jayden Daniels",
+      "position": "QB",
+      "played": false
+    },
+    "41807": {
+      "name": "Omarion Hampton",
+      "position": "RB",
+      "played": false
+    },
+    "33965": {
+      "name": "Garrett Wilson",
+      "position": "WR",
+      "played": false
+    },
+    "27535": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "played": false
+    },
+    "29399": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "played": false
+    },
+    "31908": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "played": false
+    },
+    "30218": {
+      "name": "James Conner",
+      "position": "RB",
+      "played": false
+    },
+    "30994": {
+      "name": "DJ Moore",
+      "position": "WR",
+      "played": false
+    },
+    "34207": {
+      "name": "Isiah Pacheco",
+      "position": "RB",
+      "played": false
+    },
+    "99001": {
+      "name": "Travis Hunter",
+      "position": "WR",
+      "played": false
+    },
+    "40892": {
+      "name": "Ricky Pearsall",
+      "position": "WR",
+      "played": false
+    },
+    "40981": {
+      "name": "Braelon Allen",
+      "position": "RB",
+      "played": false
+    },
+    "34218": {
+      "name": "Brock Purdy",
+      "position": "QB",
+      "played": false
+    },
+    "31833": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "played": false
+    },
+    "41808": {
+      "name": "Matthew Golden",
+      "position": "WR",
+      "played": false
+    },
+    "40102": {
+      "name": "Tucker Kraft",
+      "position": "TE",
+      "played": false
+    },
+    "33508": {
+      "name": "Rhamondre Stevenson",
+      "position": "RB",
+      "played": false
+    },
+    "40063": {
+      "name": "Jayden Reed",
+      "position": "WR",
+      "played": false
+    },
+    "30423": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "played": false
+    },
+    "30161": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "played": false
+    },
+    "41922": {
+      "name": "Cam Skattebo",
+      "position": "RB",
+      "played": false
+    },
+    "32695": {
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "played": false
+    },
+    "30197": {
+      "name": "Chris Godwin Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "40958": {
+      "name": "Trey Benson",
+      "position": "RB",
+      "played": false
+    },
+    "33465": {
+      "name": "Joshua Palmer",
+      "position": "WR",
+      "played": false
+    },
+    "31857": {
+      "name": "Hollywood Brown",
+      "position": "WR",
+      "played": false
+    },
+    "40090": {
+      "name": "Marvin Mims Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "33412": {
+      "name": "Najee Harris",
+      "position": "RB",
+      "played": false
+    },
+    "41935": {
+      "name": "Jaydon Blue",
+      "position": "RB",
+      "played": false
+    },
+    "40162": {
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "played": false
+    },
+    "29792": {
+      "name": "Ka'imi Fairbairn",
+      "position": "K",
+      "played": false
+    },
+    "40998": {
+      "name": "Isaac Guerendo",
+      "position": "RB",
+      "played": false
+    },
+    "41930": {
+      "name": "Shedeur Sanders",
+      "position": "QB",
+      "played": false
+    },
+    "34099": {
+      "name": "Chig Okonkwo",
+      "position": "TE",
+      "played": false
+    },
+    "31199": {
+      "name": "Jason Sanders",
+      "position": "K",
+      "played": false
+    },
+    "30125": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "played": false
+    },
+    "40030": {
+      "name": "C.J. Stroud",
+      "position": "QB",
+      "played": false
+    },
+    "42508": {
+      "name": "Taylor Elgersma",
+      "position": "QB",
+      "played": false
+    },
+    "32858": {
+      "name": "Tyler Bass",
+      "position": "K",
+      "played": false
+    }
+  },
+  "11": {
+    "40899": {
+      "name": "Malik Nabers",
+      "position": "WR",
+      "played": false
+    },
+    "40883": {
+      "name": "Brian Thomas Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "40893": {
+      "name": "Marvin Harrison Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "40993": {
+      "name": "Bucky Irving",
+      "position": "RB",
+      "played": false
+    },
+    "40896": {
+      "name": "Jayden Daniels",
+      "position": "QB",
+      "played": false
+    },
+    "41807": {
+      "name": "Omarion Hampton",
+      "position": "RB",
+      "played": false
+    },
+    "33965": {
+      "name": "Garrett Wilson",
+      "position": "WR",
+      "played": false
+    },
+    "32671": {
+      "name": "Joe Burrow",
+      "position": "QB",
+      "played": false
+    },
+    "27535": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "played": false
+    },
+    "29399": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "played": false
+    },
+    "31908": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "played": false
+    },
+    "30218": {
+      "name": "James Conner",
+      "position": "RB",
+      "played": false
+    },
+    "34207": {
+      "name": "Isiah Pacheco",
+      "position": "RB",
+      "played": false
+    },
+    "40064": {
+      "name": "Sam LaPorta",
+      "position": "TE",
+      "played": false
+    },
+    "99001": {
+      "name": "Travis Hunter",
+      "position": "WR",
+      "played": false
+    },
+    "40981": {
+      "name": "Braelon Allen",
+      "position": "RB",
+      "played": false
+    },
+    "31833": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "played": false
+    },
+    "32725": {
+      "name": "J.K. Dobbins",
+      "position": "RB",
+      "played": false
+    },
+    "40102": {
+      "name": "Tucker Kraft",
+      "position": "TE",
+      "played": false
+    },
+    "33508": {
+      "name": "Rhamondre Stevenson",
+      "position": "RB",
+      "played": false
+    },
+    "40063": {
+      "name": "Jayden Reed",
+      "position": "WR",
+      "played": false
+    },
+    "30423": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "played": false
+    },
+    "40048": {
+      "name": "Dalton Kincaid",
+      "position": "TE",
+      "played": false
+    },
+    "30161": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "played": false
+    },
+    "32704": {
+      "name": "Michael Pittman Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "41922": {
+      "name": "Cam Skattebo",
+      "position": "RB",
+      "played": false
+    },
+    "32695": {
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "played": false
+    },
+    "40911": {
+      "name": "Keon Coleman",
+      "position": "WR",
+      "played": false
+    },
+    "30197": {
+      "name": "Chris Godwin Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "40980": {
+      "name": "Ray Davis",
+      "position": "RB",
+      "played": false
+    },
+    "33415": {
+      "name": "Rashod Bateman",
+      "position": "WR",
+      "played": false
+    },
+    "40958": {
+      "name": "Trey Benson",
+      "position": "RB",
+      "played": false
+    },
+    "33412": {
+      "name": "Najee Harris",
+      "position": "RB",
+      "played": false
+    },
+    "41935": {
+      "name": "Jaydon Blue",
+      "position": "RB",
+      "played": false
+    },
+    "40162": {
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "played": false
+    },
+    "29792": {
+      "name": "Ka'imi Fairbairn",
+      "position": "K",
+      "played": false
+    },
+    "31945": {
+      "name": "Justice Hill",
+      "position": "RB",
+      "played": false
+    },
+    "40998": {
+      "name": "Isaac Guerendo",
+      "position": "RB",
+      "played": false
+    },
+    "31199": {
+      "name": "Jason Sanders",
+      "position": "K",
+      "played": false
+    },
+    "30213": {
+      "name": "Jonnu Smith",
+      "position": "TE",
+      "played": false
+    },
+    "30125": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "played": false
+    },
+    "40030": {
+      "name": "C.J. Stroud",
+      "position": "QB",
+      "played": false
+    },
+    "42508": {
+      "name": "Taylor Elgersma",
+      "position": "QB",
+      "played": false
+    },
+    "32858": {
+      "name": "Tyler Bass",
+      "position": "K",
+      "played": false
+    }
+  },
+  "12": {
+    "33393": {
+      "name": "Ja'Marr Chase",
+      "position": "WR",
+      "played": false
+    },
+    "40899": {
+      "name": "Malik Nabers",
+      "position": "WR",
+      "played": false
+    },
+    "33963": {
+      "name": "Drake London",
+      "position": "WR",
+      "played": false
+    },
+    "40883": {
+      "name": "Brian Thomas Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "40893": {
+      "name": "Marvin Harrison Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "31856": {
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "played": false
+    },
+    "40993": {
+      "name": "Bucky Irving",
+      "position": "RB",
+      "played": false
+    },
+    "33965": {
+      "name": "Garrett Wilson",
+      "position": "WR",
+      "played": false
+    },
+    "32671": {
+      "name": "Joe Burrow",
+      "position": "QB",
+      "played": false
+    },
+    "27535": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "played": false
+    },
+    "30218": {
+      "name": "James Conner",
+      "position": "RB",
+      "played": false
+    },
+    "33967": {
+      "name": "Jameson Williams",
+      "position": "WR",
+      "played": false
+    },
+    "34207": {
+      "name": "Isiah Pacheco",
+      "position": "RB",
+      "played": false
+    },
+    "41881": {
+      "name": "Kaleb Johnson",
+      "position": "RB",
+      "played": false
+    },
+    "40064": {
+      "name": "Sam LaPorta",
+      "position": "TE",
+      "played": false
+    },
+    "30996": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "played": false
+    },
+    "99001": {
+      "name": "Travis Hunter",
+      "position": "WR",
+      "played": false
+    },
+    "40981": {
+      "name": "Braelon Allen",
+      "position": "RB",
+      "played": false
+    },
+    "31833": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "played": false
+    },
+    "41808": {
+      "name": "Matthew Golden",
+      "position": "WR",
+      "played": false
+    },
+    "40042": {
+      "name": "Jordan Addison",
+      "position": "WR",
+      "played": false
+    },
+    "40102": {
+      "name": "Tucker Kraft",
+      "position": "TE",
+      "played": false
+    },
+    "31868": {
+      "name": "Deebo Samuel Sr.",
+      "position": "WR",
+      "played": false
+    },
+    "33399": {
+      "name": "Justin Fields",
+      "position": "QB",
+      "played": false
+    },
+    "40063": {
+      "name": "Jayden Reed",
+      "position": "WR",
+      "played": false
+    },
+    "40048": {
+      "name": "Dalton Kincaid",
+      "position": "TE",
+      "played": false
+    },
+    "30161": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "played": false
+    },
+    "41922": {
+      "name": "Cam Skattebo",
+      "position": "RB",
+      "played": false
+    },
+    "32695": {
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "played": false
+    },
+    "40911": {
+      "name": "Keon Coleman",
+      "position": "WR",
+      "played": false
+    },
+    "33415": {
+      "name": "Rashod Bateman",
+      "position": "WR",
+      "played": false
+    },
+    "40958": {
+      "name": "Trey Benson",
+      "position": "RB",
+      "played": false
+    },
+    "26699": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "played": false
+    },
+    "33412": {
+      "name": "Najee Harris",
+      "position": "RB",
+      "played": false
+    },
+    "41935": {
+      "name": "Jaydon Blue",
+      "position": "RB",
+      "played": false
+    },
+    "26658": {
+      "name": "Zach Ertz",
+      "position": "TE",
+      "played": false
+    },
+    "40162": {
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "played": false
+    },
+    "27277": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "played": false
+    },
+    "31945": {
+      "name": "Justice Hill",
+      "position": "RB",
+      "played": false
+    },
+    "40998": {
+      "name": "Isaac Guerendo",
+      "position": "RB",
+      "played": false
+    },
+    "31199": {
+      "name": "Jason Sanders",
+      "position": "K",
+      "played": false
+    },
+    "30125": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "played": false
+    },
+    "40030": {
+      "name": "C.J. Stroud",
+      "position": "QB",
+      "played": false
+    },
+    "42508": {
+      "name": "Taylor Elgersma",
+      "position": "QB",
+      "played": false
+    },
+    "32858": {
+      "name": "Tyler Bass",
+      "position": "K",
+      "played": false
+    },
+    "40889": {
+      "name": "Michael Penix Jr.",
+      "position": "QB",
+      "played": false
+    }
+  },
+  "13": {
+    "40899": {
+      "name": "Malik Nabers",
+      "position": "WR",
+      "played": false
+    },
+    "33500": {
+      "name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "played": false
+    },
+    "33963": {
+      "name": "Drake London",
+      "position": "WR",
+      "played": false
+    },
+    "40896": {
+      "name": "Jayden Daniels",
+      "position": "QB",
+      "played": false
+    },
+    "41807": {
+      "name": "Omarion Hampton",
+      "position": "RB",
+      "played": false
+    },
+    "32703": {
+      "name": "Tee Higgins",
+      "position": "WR",
+      "played": false
+    },
+    "33965": {
+      "name": "Garrett Wilson",
+      "position": "WR",
+      "played": false
+    },
+    "30180": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "played": false
+    },
+    "27535": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "played": false
+    },
+    "29399": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "played": false
+    },
+    "30218": {
+      "name": "James Conner",
+      "position": "RB",
+      "played": false
+    },
+    "40064": {
+      "name": "Sam LaPorta",
+      "position": "TE",
+      "played": false
+    },
+    "30996": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "played": false
+    },
+    "99001": {
+      "name": "Travis Hunter",
+      "position": "WR",
+      "played": false
+    },
+    "40981": {
+      "name": "Braelon Allen",
+      "position": "RB",
+      "played": false
+    },
+    "31833": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "played": false
+    },
+    "32725": {
+      "name": "J.K. Dobbins",
+      "position": "RB",
+      "played": false
+    },
+    "41808": {
+      "name": "Matthew Golden",
+      "position": "WR",
+      "played": false
+    },
+    "40102": {
+      "name": "Tucker Kraft",
+      "position": "TE",
+      "played": false
+    },
+    "40095": {
+      "name": "Tank Bigsby",
+      "position": "RB",
+      "played": false
+    },
+    "33399": {
+      "name": "Justin Fields",
+      "position": "QB",
+      "played": false
+    },
+    "40063": {
+      "name": "Jayden Reed",
+      "position": "WR",
+      "played": false
+    },
+    "30423": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "played": false
+    },
+    "40048": {
+      "name": "Dalton Kincaid",
+      "position": "TE",
+      "played": false
+    },
+    "30161": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "played": false
+    },
+    "41922": {
+      "name": "Cam Skattebo",
+      "position": "RB",
+      "played": false
+    },
+    "32695": {
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "played": false
+    },
+    "33415": {
+      "name": "Rashod Bateman",
+      "position": "WR",
+      "played": false
+    },
+    "40958": {
+      "name": "Trey Benson",
+      "position": "RB",
+      "played": false
+    },
+    "31017": {
+      "name": "Christian Kirk",
+      "position": "WR",
+      "played": false
+    },
+    "33465": {
+      "name": "Joshua Palmer",
+      "position": "WR",
+      "played": false
+    },
+    "33412": {
+      "name": "Najee Harris",
+      "position": "RB",
+      "played": false
+    },
+    "41935": {
+      "name": "Jaydon Blue",
+      "position": "RB",
+      "played": false
+    },
+    "40093": {
+      "name": "Cedric Tillman",
+      "position": "WR",
+      "played": false
+    },
+    "40162": {
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "played": false
+    },
+    "27277": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "played": false
+    },
+    "31945": {
+      "name": "Justice Hill",
+      "position": "RB",
+      "played": false
+    },
+    "40998": {
+      "name": "Isaac Guerendo",
+      "position": "RB",
+      "played": false
+    },
+    "31199": {
+      "name": "Jason Sanders",
+      "position": "K",
+      "played": false
+    },
+    "40905": {
+      "name": "J.J. McCarthy",
+      "position": "QB",
+      "played": false
+    },
+    "30125": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "played": false
+    },
+    "42508": {
+      "name": "Taylor Elgersma",
+      "position": "QB",
+      "played": false
+    },
+    "32858": {
+      "name": "Tyler Bass",
+      "position": "K",
+      "played": false
+    },
+    "40889": {
+      "name": "Michael Penix Jr.",
+      "position": "QB",
+      "played": false
+    }
+  },
+  "14": {
+    "33963": {
+      "name": "Drake London",
+      "position": "WR",
+      "played": false
+    },
+    "40893": {
+      "name": "Marvin Harrison Jr.",
+      "position": "WR",
+      "played": false
+    },
+    "33965": {
+      "name": "Garrett Wilson",
+      "position": "WR",
+      "played": false
+    },
+    "30180": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "played": false
+    },
+    "29399": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "played": false
+    },
+    "30218": {
+      "name": "James Conner",
+      "position": "RB",
+      "played": false
+    },
+    "40901": {
+      "name": "Rome Odunze",
+      "position": "WR",
+      "played": false
+    },
+    "40064": {
+      "name": "Sam LaPorta",
+      "position": "TE",
+      "played": false
+    },
+    "30996": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "played": false
+    },
+    "99001": {
+      "name": "Travis Hunter",
+      "position": "WR",
+      "played": false
+    },
+    "28534": {
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "played": false
+    },
+    "32887": {
+      "name": "Jauan Jennings",
+      "position": "WR",
+      "played": false
+    },
+    "40981": {
+      "name": "Braelon Allen",
+      "position": "RB",
+      "played": false
+    },
+    "31833": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "played": false
+    },
+    "32725": {
+      "name": "J.K. Dobbins",
+      "position": "RB",
+      "played": false
+    },
+    "34054": {
+      "name": "Brian Robinson",
+      "position": "RB",
+      "played": false
+    },
+    "41808": {
+      "name": "Matthew Golden",
+      "position": "WR",
+      "played": false
+    },
+    "40102": {
+      "name": "Tucker Kraft",
+      "position": "TE",
+      "played": false
+    },
+    "33399": {
+      "name": "Justin Fields",
+      "position": "QB",
+      "played": false
+    },
+    "30423": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "played": false
+    },
+    "30161": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "played": false
+    },
+    "40980": {
+      "name": "Ray Davis",
+      "position": "RB",
+      "played": false
+    },
+    "40958": {
+      "name": "Trey Benson",
+      "position": "RB",
+      "played": false
+    },
+    "33465": {
+      "name": "Joshua Palmer",
+      "position": "WR",
+      "played": false
+    },
+    "41935": {
+      "name": "Jaydon Blue",
+      "position": "RB",
+      "played": false
+    },
+    "33998": {
+      "name": "Wan'Dale Robinson",
+      "position": "WR",
+      "played": false
+    },
+    "100033": {
+      "name": "Ravens",
+      "position": "DEF",
+      "played": false
+    },
+    "40162": {
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "played": false
+    },
+    "33100": {
+      "name": "Rico Dowdle",
+      "position": "RB",
+      "played": false
+    },
+    "31945": {
+      "name": "Justice Hill",
+      "position": "RB",
+      "played": false
+    },
+    "31199": {
+      "name": "Jason Sanders",
+      "position": "K",
+      "played": false
+    },
+    "30213": {
+      "name": "Jonnu Smith",
+      "position": "TE",
+      "played": false
+    },
+    "30125": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "played": false
+    },
+    "31977": {
+      "name": "Matt Gay",
+      "position": "K",
+      "played": false
+    },
+    "42508": {
+      "name": "Taylor Elgersma",
+      "position": "QB",
+      "played": false
+    },
+    "32858": {
+      "name": "Tyler Bass",
+      "position": "K",
+      "played": false
+    },
+    "40889": {
+      "name": "Michael Penix Jr.",
+      "position": "QB",
+      "played": false
+    }
+  }
+}
