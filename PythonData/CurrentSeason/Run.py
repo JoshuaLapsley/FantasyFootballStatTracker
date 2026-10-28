@@ -3,8 +3,9 @@ import sys
 from pathlib import Path
 
 
+
 # RunWeekly.py is at <root>/PythonData/Refactor/CurrentSeason/, so parents[3] is the project root
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from yahoo_oauth import OAuth2
@@ -30,6 +31,9 @@ from PythonData.APICallsAndStats.DataFunctions.DraftBoardPAR import generate_par
 from PythonData.APICallsAndStats.DataFunctions.DraftBoardSurplusWAR import generate_surplus_war_board_and_legend
 from PythonData.APICallsAndStats.DataFunctions.GenerateWaiverWarBoard import generate_waiver_war_board_and_legend
 from PythonData.APICallsAndStats.DataFunctions.ScheduleSwapCalculator import compute_schedule_records
+
+from PythonData.APICallsAndStats.Projections.GetSleeperProjections import get_projections
+
 
 def copy_dir(src, dest):
     """Copy the folder `src` to `dest`, replacing `dest` if it already exists."""
@@ -87,4 +91,8 @@ lg = gm.to_league(league_ids[0])
 
 #compute_schedule_records(2026)
 
-copy_dir(f"../APICallsAndStats/Data/{year}", f"../../../Website/girderma-gridiron-website/src/league_stats_output/{year}")
+#get_projections(2023, None, "../APICallsAndStats/Projections/SleeperProjections")
+#get_projections(2024, None, "../APICallsAndStats/Projections/SleeperProjections")
+
+
+#copy_dir(f"../APICallsAndStats/Data/{year}", f"../../../Website/girderma-gridiron-website/src/league_stats_output/{year}")

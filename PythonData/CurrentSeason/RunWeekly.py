@@ -32,6 +32,7 @@ from PythonData.APICallsAndStats.DataFunctions.DraftBoardPAR import generate_par
 from PythonData.APICallsAndStats.DataFunctions.DraftBoardSurplusWAR import generate_surplus_war_board_and_legend
 from PythonData.APICallsAndStats.DataFunctions.GenerateWaiverWarBoard import generate_waiver_war_board_and_legend
 from PythonData.APICallsAndStats.DataFunctions.ScheduleSwapCalculator import compute_schedule_records
+from PythonData.APICallsAndStats.Projections.GetSleeperProjections import get_projections
 
 
 def copy_dir(src, dest):
@@ -99,7 +100,10 @@ gm = yfa.Game(sc, "nfl")
 league_ids = gm.league_ids(year=year)
 lg = gm.to_league(league_ids[0])
 
-#API Calls
+#Sleeper API Caall
+get_projections(year, None, "../APICallsAndStats/Projections/SleeperProjections")
+
+#Yahoo API Calls
 write_roster_points_file(lg, year)
 write_week_files(lg, year)
 write_transactions_file(lg, year)
@@ -115,9 +119,10 @@ write_par(year)
 write_expected_war(year, completedWeeks)
 write_draft_value(year)
 
+#Waiver WAR (Uses yahoo api to get individual waiver stats)
 calculate_waiver_war(lg, year)
 
-#Boards
+#Generate Boards
 create_war_images(year)
 generate_par_board_and_legend(year)
 generate_surplus_war_board_and_legend(year)
