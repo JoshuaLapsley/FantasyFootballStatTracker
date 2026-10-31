@@ -140,13 +140,30 @@ const TradeCard: React.FC<{ trade: Trade }> = ({ trade }) => {
 };
 
 const TradeEvaluator: React.FC = () => (
-  <div className="te-page">
-    {trades && trades.length > 0 ? (
-      trades.map((t) => <TradeCard key={t.transaction_id} trade={t} />)
-    ) : (
-      <p className="te-empty">No trades available.</p>
-    )}
-  </div>
+  <>
+    <header style={{ maxWidth: 640, margin: "0 auto 24px", textAlign: "center" }}>
+  <h2 style={{ fontSize: 18, fontWeight: 600, marginBottom: 8 }}>
+    How trades are evaluated
+  </h2>
+  <p style={{ fontSize: 14, lineHeight: 1.6, color: "#6b7280" }}>
+    We freeze both teams' rosters from the week the trade took effect. Each
+    week after that, we compare two lineups for each team: the roster as it
+    actually was, and the roster as it would have been without the trade.
+    Both lineups start the players with the highest projections. If a slot
+    has no available player, or the best option is projected below
+    replacement level, a replacement-level player is used instead. The
+    difference in points those starters actually scored is the trade's
+    impact.
+  </p>
+</header>
+    <div className="te-page">
+      {trades && trades.length > 0 ? (
+        trades.map((t) => <TradeCard key={t.transaction_id} trade={t} />)
+      ) : (
+        <p className="te-empty">No trades available.</p>
+      )}
+    </div>
+  </>
 );
 
 export default TradeEvaluator;
