@@ -5,6 +5,8 @@ import shutil
 from pathlib import Path
 from datetime import datetime as dt, timezone
 
+
+
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -33,6 +35,8 @@ from PythonData.APICallsAndStats.DataFunctions.DraftBoardSurplusWAR import gener
 from PythonData.APICallsAndStats.DataFunctions.GenerateWaiverWarBoard import generate_waiver_war_board_and_legend
 from PythonData.APICallsAndStats.DataFunctions.ScheduleSwapCalculator import compute_schedule_records
 from PythonData.APICallsAndStats.Projections.GetSleeperProjections import get_projections
+
+from PythonData.APICallsAndStats.DataFunctions.TradeEvaluator import run_trade_evaluator
 
 
 def copy_dir(src, dest):
@@ -130,9 +134,11 @@ generate_waiver_war_board_and_legend(year)
 
 #MISC
 compute_schedule_records(year)
+run_trade_evaluator(2026)
 
 #Tells Website it has been updated (written into Data first so it gets copied)
 write_meta(lg, DATA_DIR, year)
 
 #Copy To Website
+
 copy_dir(DATA_DIR, WEBSITE_DIR)

@@ -4,6 +4,7 @@ from pathlib import Path
 
 
 
+
 # RunWeekly.py is at <root>/PythonData/Refactor/CurrentSeason/, so parents[3] is the project root
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -33,6 +34,8 @@ from PythonData.APICallsAndStats.DataFunctions.GenerateWaiverWarBoard import gen
 from PythonData.APICallsAndStats.DataFunctions.ScheduleSwapCalculator import compute_schedule_records
 
 from PythonData.APICallsAndStats.Projections.GetSleeperProjections import get_projections
+
+from PythonData.APICallsAndStats.DataFunctions.TradeEvaluator import run_trade_evaluator
 
 
 def copy_dir(src, dest):
@@ -71,8 +74,8 @@ lg2026 = gm.to_league(league_ids_2026[0])
 
 #API Calls
 
-write_roster_points_file(lg2026, 2026)
-write_roster_points_file(lg2025, 2025)
+# write_roster_points_file(lg2026, 2026)
+# write_roster_points_file(lg2025, 2025)
 
 # write_week_files(lg, year)
 # write_transactions_file(lg, year)
@@ -103,5 +106,5 @@ write_roster_points_file(lg2025, 2025)
 #get_projections(2023, None, "../APICallsAndStats/Projections/SleeperProjections")
 #get_projections(2024, None, "../APICallsAndStats/Projections/SleeperProjections")
 
-
-#copy_dir(f"../APICallsAndStats/Data/{year}", f"../../../Website/girderma-gridiron-website/src/league_stats_output/{year}")
+run_trade_evaluator(2026)
+copy_dir(f"../APICallsAndStats/Data/2026", f"../../../Website/girderma-gridiron-website/src/league_stats_output/2026")

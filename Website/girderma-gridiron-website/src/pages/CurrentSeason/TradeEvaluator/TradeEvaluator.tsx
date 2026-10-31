@@ -35,7 +35,7 @@ type Trade = {
 
 let trades: Trade[] | null = null;
 try {
-  trades = require('../../../league_stats_output/CurrentSeason/trade_evaluator_2026.json');
+  trades = require('../../../league_stats_output/2026/trade_evaluator_2026.json');
 } catch {
   trades = null;
 }
