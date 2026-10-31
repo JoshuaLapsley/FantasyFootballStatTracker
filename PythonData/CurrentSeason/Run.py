@@ -107,4 +107,4 @@ lg2026 = gm.to_league(league_ids_2026[0])
 #get_projections(2024, None, "../APICallsAndStats/Projections/SleeperProjections")
 
 run_trade_evaluator(2026)
-copy_dir(f"../APICallsAndStats/Data/2026", f"../../../Website/girderma-gridiron-website/src/league_stats_output/2026")
+#copy_dir(f"../APICallsAndStats/Data/2026", f"../../../Website/girderma-gridiron-website/src/league_stats_output/2026")

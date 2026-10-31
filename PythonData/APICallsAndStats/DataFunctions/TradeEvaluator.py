@@ -115,6 +115,33 @@ DEDICATED_SLOTS = {
 }
 FLEX_ELIGIBLE_POSITIONS = {"RB", "WR", "TE"}
 
+SLOT_ORDER = ["QB", "RB1", "RB2", "WR1", "WR2", "TE", "FLEX", "K", "DEF"]
+SHOW_LINEUPS = True
+
+def print_week_lineups(week: int, team_name: str, real_lineup: dict, cf_lineup: dict,
+                       received_names: set, gave_up_names: set) -> None:
+    """Side-by-side real vs counterfactual lineup for one team-week.
+    '*' = a traded player, '(R)' = replacement-level fallback."""
+    def cell(slot: dict, traded_names: set) -> tuple[str, str]:
+        name = slot["player"] or "(none)"
+        if slot["player"] in traded_names:
+            name += " *"
+        if slot["used_replacement"]:
+            name += " (R)"
+        return name, f"{slot['actual_points']:.2f}"
+
+    print(f"\n    Week {week} - {team_name}")
+    print(f"    {'Slot':<5} {'REAL (with trade)':<28}{'Pts':>7}   "
+          f"{'COUNTERFACTUAL (no trade)':<28}{'Pts':>7}")
+    print("    " + "-" * 82)
+    for slot_name in SLOT_ORDER:
+        r_name, r_pts = cell(real_lineup["slots"][slot_name], received_names)
+        c_name, c_pts = cell(cf_lineup["slots"][slot_name], gave_up_names)
+        print(f"    {slot_name:<5} {r_name:<28}{r_pts:>7}   {c_name:<28}{c_pts:>7}")
+    print("    " + "-" * 82)
+    print(f"    {'TOTAL':<5} {'':<28}{real_lineup['total_actual_points']:>7.2f}   "
+          f"{'':<28}{cf_lineup['total_actual_points']:>7.2f}")
+
 
 # --------------------------------------------------------------------------
 # PATHS
@@ -594,6 +621,13 @@ def evaluate_trade_week(sides: dict, week: int, rosters_by_week: dict,
                                              counterfactual_def_slot)
 
         net_gain = round(real_lineup["total_actual_points"] - counterfactual_lineup["total_actual_points"], 2)
+        if SHOW_LINEUPS:
+            print_week_lineups(
+                week, team_name, real_lineup, counterfactual_lineup,
+                {m["player_name"] for m in side["received"]},
+                {m["player_name"] for m in side["gave_up"]},
+            )
+            print(f"    Net gain: {net_gain:+.2f}")
         net_gain_by_team[team_key] = {
             "net_gain": net_gain,
             "real_lineup_points": real_lineup["total_actual_points"],
@@ -759,6 +793,9 @@ def run_trade_evaluator(year: int, last_week: int | None = None,
 
 
 def main():
+    global SHOW_LINEUPS
+    SHOW_LINEUPS = not args.no_lineups
+    
     parser = argparse.ArgumentParser(
         description="Evaluate the net point impact of every completed trade for a season."
     )
@@ -767,7 +804,11 @@ def main():
                         help="Last completed week to evaluate (default: the latest week in RosterPoints.json)")
     parser.add_argument("--season-start", type=date.fromisoformat, default=None,
                         help="NFL kickoff date YYYY-MM-DD (default: the Thursday after Labor Day)")
+    parser.add_argument("--no-lineups", action="store_true",
+                        help="Suppress the per-week lineup printout")
     args = parser.parse_args()
+
+    
 
     run_trade_evaluator(args.year, last_week=args.last_week, season_start=args.season_start)
 
