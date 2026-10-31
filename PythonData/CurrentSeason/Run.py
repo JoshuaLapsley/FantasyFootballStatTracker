@@ -51,20 +51,29 @@ def copy_dir(src, dest):
     dest.parent.mkdir(parents=True, exist_ok=True)
     shutil.copytree(src, dest)
 
-year = 2026
-completedWeeks = 7
 
 # Absolute path so this works no matter where you run the script from.
 # Adjust if your oauth2.json lives somewhere else.
 sc = OAuth2(None, None, from_file=str("oauth2.json"))
 gm = yfa.Game(sc, "nfl")
 
-league_ids = gm.league_ids(year=year)
-lg = gm.to_league(league_ids[0])
+league_ids_2023 = gm.league_ids(2023)
+lg2023 = gm.to_league(league_ids_2023[0])
+
+league_ids_2024 = gm.league_ids(2024)
+lg2024 = gm.to_league(league_ids_2024[0])
+
+league_ids_2025 = gm.league_ids(2025)
+lg2025 = gm.to_league(league_ids_2025[0])
+
+league_ids_2026 = gm.league_ids(2026)
+lg2026 = gm.to_league(league_ids_2026[0])
 
 #API Calls
 
-# write_roster_points_file(lg, year)
+write_roster_points_file(lg2026, 2026)
+write_roster_points_file(lg2025, 2025)
+
 # write_week_files(lg, year)
 # write_transactions_file(lg, year)
 #write_weekly_points_file(lg, year)

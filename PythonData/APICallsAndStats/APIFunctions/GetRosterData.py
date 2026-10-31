@@ -96,6 +96,7 @@ def write_roster_points_file(lg, year, root=API_DATA_ROOT, through_week=None):
             week_data[team_key] = [
                 {
                     "player_id": str(p.get("player_id")),
+                    "name": p.get("name"),
                     "selected_position": p.get("selected_position"),
                     "points": points.get(str(p.get("player_id"))),
                 }
