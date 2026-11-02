@@ -36,7 +36,7 @@ from PythonData.APICallsAndStats.DataFunctions.GenerateWaiverWarBoard import gen
 from PythonData.APICallsAndStats.DataFunctions.ScheduleSwapCalculator import compute_schedule_records
 from PythonData.APICallsAndStats.Projections.GetSleeperProjections import get_projections
 
-from PythonData.APICallsAndStats.DataFunctions.TradeEvaluator import run_trade_evaluator
+from PythonData.APICallsAndStats.DataFunctions.TradeEvaluator import write_trade_evaluations
 
 
 def copy_dir(src, dest):
@@ -134,7 +134,7 @@ generate_waiver_war_board_and_legend(year)
 
 #MISC
 compute_schedule_records(year)
-run_trade_evaluator(2026)
+write_trade_evaluations(year)
 
 #Tells Website it has been updated (written into Data first so it gets copied)
 write_meta(lg, DATA_DIR, year)

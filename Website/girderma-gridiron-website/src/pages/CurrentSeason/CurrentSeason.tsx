@@ -29,13 +29,14 @@ const CURRENT_SEASON_TABS: TabConfig[] = [
   { header: 'Waiver WAR', Component: WaiverWAR },
   { header: 'WAR Analysis', Component: WARAnalysis },
   { header: 'Schedule Swap', Component: ScheduleSwap },
+  { header: 'Trade Evaluator', Component: TradeEvaluator },
   
 
 ];
 
   // { header: 'Simulated Playoff Odds', Component: SimulatedPlayoffOdds },
   // { header: 'Simulated Record Distribution', Component: SimulatedRecordDistribution },
-  //{ header: 'Trade Evaluator', Component: TradeEvaluator },
+
   // 
 const CurrentSeason: React.FC = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);

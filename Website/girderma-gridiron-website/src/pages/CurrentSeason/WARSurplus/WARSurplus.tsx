@@ -12,7 +12,7 @@ try {
 
 let secondImageSrc: string | null = null;
 try {
-  secondImageSrc = require('../../../league_stats_output/2026/SurplusWar/draft_board_surplus_war_2026_surplus_war_colorbar.png');
+  secondImageSrc = require('../../../league_stats_output/2026/SurplusWar/draft_board_surplus_war_2026_colorbar.png');
 } catch {
   secondImageSrc = null;
 }

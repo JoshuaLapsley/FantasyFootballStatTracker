@@ -886,6 +886,32 @@
         "WAR Rank": 60
     },
     {
+        "Player": "Giants",
+        "Player ID": "100019",
+        "Position": "DEF",
+        "Team": "Ma\u00eetre Stick",
+        "Team Key": "470.l.205662.t.6",
+        "Manager": "Levi",
+        "Weeks Rostered": [
+            3
+        ],
+        "WAR": 0.0363,
+        "WAR Rank": 61
+    },
+    {
+        "Player": "Colts",
+        "Player ID": "100011",
+        "Position": "DEF",
+        "Team": "Supernova\u2019s Studs",
+        "Team Key": "470.l.205662.t.12",
+        "Manager": "Gavin Brodie",
+        "Weeks Rostered": [
+            4
+        ],
+        "WAR": 0.0363,
+        "WAR Rank": 62
+    },
+    {
         "Player": "Bo Nix",
         "Player ID": "40875",
         "Position": "QB",
@@ -900,33 +926,7 @@
             6,
             7
         ],
-        "WAR": 0.0368,
-        "WAR Rank": 61
-    },
-    {
-        "Player": "Giants",
-        "Player ID": "100019",
-        "Position": "DEF",
-        "Team": "Ma\u00eetre Stick",
-        "Team Key": "470.l.205662.t.6",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            3
-        ],
-        "WAR": 0.0363,
-        "WAR Rank": 62
-    },
-    {
-        "Player": "Colts",
-        "Player ID": "100011",
-        "Position": "DEF",
-        "Team": "Supernova\u2019s Studs",
-        "Team Key": "470.l.205662.t.12",
-        "Manager": "Gavin Brodie",
-        "Weeks Rostered": [
-            4
-        ],
-        "WAR": 0.0363,
+        "WAR": 0.0356,
         "WAR Rank": 63
     },
     {
@@ -1245,12 +1245,12 @@
         "WAR Rank": 86
     },
     {
-        "Player": "Kaleb Johnson",
-        "Player ID": "41881",
-        "Position": "RB",
-        "Team": "No Punts Intented",
-        "Team Key": "470.l.205662.t.7",
-        "Manager": "Josh",
+        "Player": "Titans",
+        "Player ID": "100010",
+        "Position": "DEF",
+        "Team": "Big Bad Hokkkk",
+        "Team Key": "470.l.205662.t.4",
+        "Manager": "Nate",
         "Weeks Rostered": [
             1
         ],
@@ -1275,12 +1275,12 @@
         "WAR Rank": 88
     },
     {
-        "Player": "Titans",
-        "Player ID": "100010",
-        "Position": "DEF",
-        "Team": "Big Bad Hokkkk",
-        "Team Key": "470.l.205662.t.4",
-        "Manager": "Nate",
+        "Player": "Kaleb Johnson",
+        "Player ID": "41881",
+        "Position": "RB",
+        "Team": "No Punts Intented",
+        "Team Key": "470.l.205662.t.7",
+        "Manager": "Josh",
         "Weeks Rostered": [
             1
         ],

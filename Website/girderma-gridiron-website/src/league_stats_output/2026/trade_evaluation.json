@@ -1,0 +1,369 @@
+{
+  "year": 2026,
+  "trades": [
+    {
+      "transaction_id": "134",
+      "date": "2026-09-29T08:20:43+00:00",
+      "players": [
+        {
+          "name": "Denzel Boston",
+          "position": "WR",
+          "from_team": "The Sage's Playmakers",
+          "to_team": "Girder’s 6 Cookies"
+        },
+        {
+          "name": "Matthew Golden",
+          "position": "WR",
+          "from_team": "Girder’s 6 Cookies",
+          "to_team": "The Sage's Playmakers"
+        }
+      ],
+      "managers": [
+        {
+          "team": "The Sage's Playmakers",
+          "weekly_points_gained": [
+            {
+              "week": 4,
+              "points_gained": 6.9
+            },
+            {
+              "week": 5,
+              "points_gained": 12.6
+            },
+            {
+              "week": 6,
+              "points_gained": 13.7
+            },
+            {
+              "week": 7,
+              "points_gained": 0.0
+            }
+          ],
+          "net_points_gained": 33.2,
+          "avg_points_gained_per_week": 8.3
+        },
+        {
+          "team": "Girder’s 6 Cookies",
+          "weekly_points_gained": [
+            {
+              "week": 4,
+              "points_gained": 1.2
+            },
+            {
+              "week": 5,
+              "points_gained": -6.7
+            },
+            {
+              "week": 6,
+              "points_gained": -19.9
+            },
+            {
+              "week": 7,
+              "points_gained": -5.8
+            }
+          ],
+          "net_points_gained": -31.2,
+          "avg_points_gained_per_week": -7.8
+        }
+      ]
+    },
+    {
+      "transaction_id": "137",
+      "date": "2026-09-30T08:38:08+00:00",
+      "players": [
+        {
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "from_team": "The Sage's Playmakers",
+          "to_team": "Ozzy Stick"
+        },
+        {
+          "name": "Braelon Allen",
+          "position": "RB",
+          "from_team": "Ozzy Stick",
+          "to_team": "The Sage's Playmakers"
+        }
+      ],
+      "managers": [
+        {
+          "team": "The Sage's Playmakers",
+          "weekly_points_gained": [
+            {
+              "week": 4,
+              "points_gained": 6.9
+            },
+            {
+              "week": 5,
+              "points_gained": 13.6
+            },
+            {
+              "week": 6,
+              "points_gained": 7.4
+            },
+            {
+              "week": 7,
+              "points_gained": -0.7
+            }
+          ],
+          "net_points_gained": 27.2,
+          "avg_points_gained_per_week": 6.8
+        },
+        {
+          "team": "Ozzy Stick",
+          "weekly_points_gained": [
+            {
+              "week": 4,
+              "points_gained": 0.0
+            },
+            {
+              "week": 5,
+              "points_gained": -16.0
+            },
+            {
+              "week": 6,
+              "points_gained": 0.0
+            },
+            {
+              "week": 7,
+              "points_gained": -11.4
+            }
+          ],
+          "net_points_gained": -27.4,
+          "avg_points_gained_per_week": -6.85
+        }
+      ]
+    },
+    {
+      "transaction_id": "169",
+      "date": "2026-10-04T07:24:22+00:00",
+      "players": [
+        {
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "from_team": "Girder’s 6 Cookies",
+          "to_team": "Big Bad Hokkkk"
+        },
+        {
+          "name": "Breece Hall",
+          "position": "RB",
+          "from_team": "Girder’s 6 Cookies",
+          "to_team": "Big Bad Hokkkk"
+        },
+        {
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "from_team": "Big Bad Hokkkk",
+          "to_team": "Girder’s 6 Cookies"
+        },
+        {
+          "name": "Zay Flowers",
+          "position": "WR",
+          "from_team": "Big Bad Hokkkk",
+          "to_team": "Girder’s 6 Cookies"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Girder’s 6 Cookies",
+          "weekly_points_gained": [
+            {
+              "week": 4,
+              "points_gained": 35.2
+            },
+            {
+              "week": 5,
+              "points_gained": -5.1
+            },
+            {
+              "week": 6,
+              "points_gained": 12.8
+            },
+            {
+              "week": 7,
+              "points_gained": 12.1
+            }
+          ],
+          "net_points_gained": 55.0,
+          "avg_points_gained_per_week": 13.75
+        },
+        {
+          "team": "Big Bad Hokkkk",
+          "weekly_points_gained": [
+            {
+              "week": 4,
+              "points_gained": -37.3
+            },
+            {
+              "week": 5,
+              "points_gained": 5.1
+            },
+            {
+              "week": 6,
+              "points_gained": -21.5
+            },
+            {
+              "week": 7,
+              "points_gained": 2.9
+            }
+          ],
+          "net_points_gained": -50.8,
+          "avg_points_gained_per_week": -12.7
+        }
+      ]
+    },
+    {
+      "transaction_id": "212",
+      "date": "2026-10-12T07:47:47+00:00",
+      "players": [
+        {
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "from_team": "Supernova’s Studs",
+          "to_team": "Flow Brrr"
+        },
+        {
+          "name": "Jared Goff",
+          "position": "QB",
+          "from_team": "Flow Brrr",
+          "to_team": "Supernova’s Studs"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Supernova’s Studs",
+          "weekly_points_gained": [
+            {
+              "week": 6,
+              "points_gained": 2.5
+            },
+            {
+              "week": 7,
+              "points_gained": -6.86
+            }
+          ],
+          "net_points_gained": -4.36,
+          "avg_points_gained_per_week": -2.18
+        },
+        {
+          "team": "Flow Brrr",
+          "weekly_points_gained": [
+            {
+              "week": 6,
+              "points_gained": -9.0
+            },
+            {
+              "week": 7,
+              "points_gained": 19.26
+            }
+          ],
+          "net_points_gained": 10.26,
+          "avg_points_gained_per_week": 5.13
+        }
+      ]
+    },
+    {
+      "transaction_id": "244",
+      "date": "2026-10-16T07:49:29+00:00",
+      "players": [
+        {
+          "name": "Jalen Coker",
+          "position": "WR",
+          "from_team": "The Sage's Playmakers",
+          "to_team": "Supernova’s Studs"
+        },
+        {
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "from_team": "The Sage's Playmakers",
+          "to_team": "Supernova’s Studs"
+        },
+        {
+          "name": "Ollie Gordon II",
+          "position": "RB",
+          "from_team": "Supernova’s Studs",
+          "to_team": "The Sage's Playmakers"
+        },
+        {
+          "name": "Brandon Aubrey",
+          "position": "K",
+          "from_team": "Supernova’s Studs",
+          "to_team": "The Sage's Playmakers"
+        }
+      ],
+      "managers": [
+        {
+          "team": "The Sage's Playmakers",
+          "weekly_points_gained": [
+            {
+              "week": 6,
+              "points_gained": -13.5
+            },
+            {
+              "week": 7,
+              "points_gained": 28.4
+            }
+          ],
+          "net_points_gained": 14.9,
+          "avg_points_gained_per_week": 7.45
+        },
+        {
+          "team": "Supernova’s Studs",
+          "weekly_points_gained": [
+            {
+              "week": 6,
+              "points_gained": 10.7
+            },
+            {
+              "week": 7,
+              "points_gained": -28.4
+            }
+          ],
+          "net_points_gained": -17.7,
+          "avg_points_gained_per_week": -8.85
+        }
+      ]
+    },
+    {
+      "transaction_id": "304",
+      "date": "2026-10-24T07:54:18+00:00",
+      "players": [
+        {
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "from_team": "Maître Stick",
+          "to_team": "Tsuga’s Tuck Shop"
+        },
+        {
+          "name": "KC Concepcion Jr.",
+          "position": "WR",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Maître Stick"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Maître Stick",
+          "weekly_points_gained": [
+            {
+              "week": 7,
+              "points_gained": 15.2
+            }
+          ],
+          "net_points_gained": 15.2,
+          "avg_points_gained_per_week": 15.2
+        },
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 7,
+              "points_gained": -19.6
+            }
+          ],
+          "net_points_gained": -19.6,
+          "avg_points_gained_per_week": -19.6
+        }
+      ]
+    }
+  ]
+}

@@ -2,40 +2,41 @@ import React from 'react';
 
 import './TradeEvaluator.css';
 
-type Player = {
-  player_id: string;
-  player_name: string;
+type TradePlayer = {
+  name: string;
   position: string;
+  from_team: string;
+  to_team: string;
 };
 
-type WeekDetail = {
-  net_gain: number;
-  real_lineup_points: number;
-  counterfactual_lineup_points: number;
+type WeeklyPoints = {
+  week: number;
+  points_gained: number;
 };
 
-type Side = {
-  team_name: string;
-  received: Player[];
-  gave_up: Player[];
-  weekly_net_gain: Record<string, number>;
-  weekly_detail: Record<string, WeekDetail>;
-  total_net_gain: number;
+type Manager = {
+  team: string;
+  weekly_points_gained: WeeklyPoints[];
+  net_points_gained: number;
+  avg_points_gained_per_week: number;
 };
 
 type Trade = {
   transaction_id: string;
-  timestamp: number;
-  traded_at: string;
-  freeze_week: number;
-  last_week_evaluated: number;
-  sides: Record<string, Side>;
-  weeks_skipped_no_projection_data: number[];
+  date: string;
+  players: TradePlayer[];
+  managers: Manager[];
+};
+
+type TradeEvaluation = {
+  year: number;
+  trades: Trade[];
 };
 
 let trades: Trade[] | null = null;
 try {
-  trades = require('../../../league_stats_output/2026/trade_evaluator_2026.json');
+  const data: TradeEvaluation = require('../../../league_stats_output/2026/trade_evaluation.json');
+  trades = data.trades;
 } catch {
   trades = null;
 }
@@ -49,42 +50,46 @@ const fmtDate = (iso: string): string =>
     year: 'numeric',
   });
 
-const PlayerList: React.FC<{ label: string; players: Player[] }> = ({ label, players }) => (
+const PlayerList: React.FC<{ label: string; players: TradePlayer[] }> = ({ label, players }) => (
   <div className="te-players">
     <span className="te-players__label">{label}</span>
     <ul>
       {players.map((p) => (
-        <li key={p.player_id}>
+        <li key={`${p.name}-${p.from_team}`}>
           <span className={`te-pos te-pos--${p.position}`}>{p.position}</span>
-          {p.player_name}
+          {p.name}
         </li>
       ))}
     </ul>
   </div>
 );
 
-const SideCard: React.FC<{ side: Side; winner: boolean }> = ({ side, winner }) => {
-  const weeks = Object.entries(side.weekly_detail).sort(([a], [b]) => Number(a) - Number(b));
+const SideCard: React.FC<{ manager: Manager; players: TradePlayer[]; winner: boolean }> = ({
+  manager,
+  players,
+  winner,
+}) => {
+  const received = players.filter((p) => p.to_team === manager.team);
+  const gaveUp = players.filter((p) => p.from_team === manager.team);
+  const weeks = [...manager.weekly_points_gained].sort((a, b) => a.week - b.week);
 
   return (
     <section className={`te-side${winner ? ' te-side--winner' : ''}`}>
       <header className="te-side__head">
-        <h4>{side.team_name}</h4>
-        <div className={`te-total te-total--${tone(side.total_net_gain)}`}>
-          <strong>{fmt(side.total_net_gain)}</strong>
+        <h4>{manager.team}</h4>
+        <div className={`te-total te-total--${tone(manager.net_points_gained)}`}>
+          <strong>{fmt(manager.net_points_gained)}</strong>
           <span>total pts</span>
         </div>
       </header>
 
-      <PlayerList label="Received" players={side.received} />
-      <PlayerList label="Gave up" players={side.gave_up} />
+      <PlayerList label="Received" players={received} />
+      <PlayerList label="Gave up" players={gaveUp} />
 
       <table className="te-weeks">
         <thead>
           <tr>
             <th scope="col">Week</th>
-            <th scope="col">Actual</th>
-            <th scope="col">Without trade</th>
             <th
               scope="col"
               title="Points scored with the trade minus points without it"
@@ -94,68 +99,86 @@ const SideCard: React.FC<{ side: Side; winner: boolean }> = ({ side, winner }) =
           </tr>
         </thead>
         <tbody>
-          {weeks.map(([wk, d]) => (
-            <tr key={wk}>
-              <th scope="row">{wk}</th>
-              <td>{d.real_lineup_points.toFixed(1)}</td>
-              <td>{d.counterfactual_lineup_points.toFixed(1)}</td>
+          {weeks.map((w) => (
+            <tr key={w.week}>
+              <th scope="row">{w.week}</th>
               <td>
-                <span className={`te-net te-net--${tone(d.net_gain)}`}>{fmt(d.net_gain)}</span>
+                <span className={`te-net te-net--${tone(w.points_gained)}`}>
+                  {fmt(w.points_gained)}
+                </span>
               </td>
             </tr>
           ))}
         </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row">Avg</th>
+            <td>
+              <span className={`te-net te-net--${tone(manager.avg_points_gained_per_week)}`}>
+                {fmt(manager.avg_points_gained_per_week)}
+              </span>
+            </td>
+          </tr>
+        </tfoot>
       </table>
     </section>
   );
 };
 
 const TradeCard: React.FC<{ trade: Trade }> = ({ trade }) => {
-  const sides = Object.entries(trade.sides);
-  const top = Math.max(...sides.map(([, s]) => s.total_net_gain));
-  const even = sides.every(([, s]) => s.total_net_gain === top);
-  const skipped = trade.weeks_skipped_no_projection_data;
+  const top = Math.max(...trade.managers.map((m) => m.net_points_gained));
+  const even = trade.managers.every((m) => m.net_points_gained === top);
+  const weeks = trade.managers.flatMap((m) => m.weekly_points_gained.map((w) => w.week));
+  const firstWeek = weeks.length ? Math.min(...weeks) : null;
+  const lastWeek = weeks.length ? Math.max(...weeks) : null;
 
   return (
     <article className="te-trade">
       <div className="te-trade__header">
-        <h3>{sides.map(([, s]) => s.team_name).join(' & ')}</h3>
+        <h3>{trade.managers.map((m) => m.team).join(' & ')}</h3>
         <p>
-          {fmtDate(trade.traded_at)} · frozen at week {trade.freeze_week} · evaluated through week{' '}
-          {trade.last_week_evaluated}
+          {fmtDate(trade.date)}
+          {firstWeek !== null && lastWeek !== null && (
+            <>
+              {' '}
+              · evaluated weeks {firstWeek}
+              {lastWeek !== firstWeek ? `–${lastWeek}` : ''}
+            </>
+          )}
         </p>
       </div>
 
       <div className="te-trade__sides">
-        {sides.map(([teamKey, side]) => (
-          <SideCard key={teamKey} side={side} winner={!even && side.total_net_gain === top} />
+        {trade.managers.map((m) => (
+          <SideCard
+            key={m.team}
+            manager={m}
+            players={trade.players}
+            winner={!even && m.net_points_gained === top}
+          />
         ))}
       </div>
-
-      {skipped.length > 0 && (
-        <p className="te-skipped">Skipped (no projection data): week {skipped.join(', ')}</p>
-      )}
     </article>
   );
 };
 
 const TradeEvaluator: React.FC = () => (
   <>
-    <header style={{ maxWidth: 640, margin: "0 auto 24px", textAlign: "center" }}>
-  <h2 style={{ fontSize: 18, fontWeight: 600, marginBottom: 8 }}>
-    How trades are evaluated
-  </h2>
-  <p style={{ fontSize: 14, lineHeight: 1.6, color: "#6b7280" }}>
-    We freeze both teams' rosters from the week the trade took effect. Each
-    week after that, we compare two lineups for each team: the roster as it
-    actually was, and the roster as it would have been without the trade.
-    Both lineups start the players with the highest projections. If a slot
-    has no available player, or the best option is projected below
-    replacement level, a replacement-level player is used instead. The
-    difference in points those starters actually scored is the trade's
-    impact.
-  </p>
-</header>
+    <header style={{ maxWidth: 640, margin: '0 auto 24px', textAlign: 'center' }}>
+      <h2 style={{ fontSize: 18, fontWeight: 600, marginBottom: 8 }}>
+        How trades are evaluated
+      </h2>
+      <p style={{ fontSize: 14, lineHeight: 1.6, color: '#6b7280' }}>
+        We freeze both teams' rosters from the week the trade took effect. Each
+        week after that, we compare two lineups for each team: the roster as it
+        actually was, and the roster as it would have been without the trade.
+        Both lineups start the players with the highest projections. If a slot
+        has no available player, or the best option is projected below
+        replacement level, a replacement-level player is used instead. The
+        difference in points those starters actually scored is the trade's
+        impact.
+      </p>
+    </header>
     <div className="te-page">
       {trades && trades.length > 0 ? (
         trades.map((t) => <TradeCard key={t.transaction_id} trade={t} />)

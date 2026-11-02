@@ -1,6 +1,8 @@
+import os
 import shutil
 import sys
 from pathlib import Path
+
 
 
 
@@ -33,13 +35,19 @@ from PythonData.APICallsAndStats.DataFunctions.DraftBoardSurplusWAR import gener
 from PythonData.APICallsAndStats.DataFunctions.GenerateWaiverWarBoard import generate_waiver_war_board_and_legend
 from PythonData.APICallsAndStats.DataFunctions.ScheduleSwapCalculator import compute_schedule_records
 
-from PythonData.APICallsAndStats.Projections.GetSleeperProjections import get_projections
+from PythonData.APICallsAndStats.Projections.GetSleeperProjections import debug_player, get_projections
 
-from PythonData.APICallsAndStats.DataFunctions.TradeEvaluator import run_trade_evaluator
+
+from PythonData.APICallsAndStats.DataFunctions.TradeEvaluator import write_trade_evaluations
+
 
 
 def copy_dir(src, dest):
-    """Copy the folder `src` to `dest`, replacing `dest` if it already exists."""
+    """Copy folder `src` to `dest`, replacing `dest` if it already exists.
+
+    Copies to a temp folder first, so the old copy is only removed once
+    the new one is fully written.
+    """
     src, dest = Path(src).resolve(), Path(dest).resolve()
 
     if not src.is_dir():
@@ -47,13 +55,18 @@ def copy_dir(src, dest):
     if src == dest or src in dest.parents or dest in src.parents:
         raise ValueError("src and dest can't be the same folder or nested in each other")
 
-    if dest.is_dir():
-        shutil.rmtree(dest)      # remove the old copy
-    elif dest.exists():
-        dest.unlink()            # dest is a file, remove it
     dest.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copytree(src, dest)
 
+    tmp = dest.with_name(dest.name + ".tmp")
+    if tmp.exists():
+        shutil.rmtree(tmp)
+    shutil.copytree(src, tmp)
+
+    if dest.is_dir():
+        shutil.rmtree(dest)
+    elif dest.exists():
+        dest.unlink()
+    os.replace(tmp, dest)
 
 # Absolute path so this works no matter where you run the script from.
 # Adjust if your oauth2.json lives somewhere else.
@@ -104,7 +117,13 @@ lg2026 = gm.to_league(league_ids_2026[0])
 #compute_schedule_records(2026)
 
 #get_projections(2023, None, "../APICallsAndStats/Projections/SleeperProjections")
-#get_projections(2024, None, "../APICallsAndStats/Projections/SleeperProjections")
+#get_projections(2025, None, "../APICallsAndStats/Projections/SleeperProjections")
+#debug_player(2026, 4, "Barkley", "Saquon")
+SCRIPT_DIR = Path(__file__).resolve().parent
 
-run_trade_evaluator(2026)
-#copy_dir(f"../APICallsAndStats/Data/2026", f"../../../Website/girderma-gridiron-website/src/league_stats_output/2026")
+DATA_DIR = SCRIPT_DIR / ".." / "APICallsAndStats" / "Data" / str(2026)
+WEBSITE_DIR = (PROJECT_ROOT / "Website" / "girderma-gridiron-website"
+               / "src" / "league_stats_output" / str(2026))
+
+write_trade_evaluations(2026)
+copy_dir(DATA_DIR, WEBSITE_DIR)
