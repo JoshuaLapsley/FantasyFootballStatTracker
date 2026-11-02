@@ -125,5 +125,7 @@ DATA_DIR = SCRIPT_DIR / ".." / "APICallsAndStats" / "Data" / str(2026)
 WEBSITE_DIR = (PROJECT_ROOT / "Website" / "girderma-gridiron-website"
                / "src" / "league_stats_output" / str(2026))
 
+#get_projections(2026, 7, "../APICallsAndStats/Projections/SleeperProjections")
+
 write_trade_evaluations(2026)
 copy_dir(DATA_DIR, WEBSITE_DIR)

@@ -4,8 +4,9 @@ and save them as JSON.
 
     from sleeper_projections import get_projections
 
-    get_projections(2026, 7, "FantasyProsProjections")     # one week
-    get_projections(2026, None, "FantasyProsProjections")  # weeks 1-17
+    get_projections(2026)                                          # weeks 1-17
+    get_projections(2026, 7)                                       # weeks 7-17
+    get_projections(2026, 7, "FantasyProsProjections")             # weeks 7-17, custom folder
 
 Each file holds one record per player:
     {"name": ..., "position": ..., "projection_ppr": ..., "pts_ppr": ...}
@@ -21,6 +22,7 @@ Notes:
   * projection_ppr stays null when Sleeper has no projection.
   * Re-running a week keeps values already saved in that week's file when the
     new pull has none, so run it before kickoff to lock in projections.
+    Pass keep_previous=False for a clean overwrite with only the new pull.
 """
 
 import json
@@ -150,20 +152,26 @@ def _merge_previous(new_players, path):
     return list(merged.values())
 
 
-def get_projections(year, week=None, out_dir="Functions/APIData", delay=0.3,
+def get_projections(year, current_week=None, out_dir="Functions/APIData", delay=0.3,
                     keep_previous=True):
     """
     Save Sleeper weekly projections and actual points as JSON.
 
-    year:    season year, e.g. 2026
-    week:    a single week (1-17), or None/blank for every week 1-17
-    out_dir: root output folder; files go to {out_dir}/{year}/projections/
-    keep_previous: if the week's file already exists, keep its values where the
-             new pull has none (locks in pre-game projections).
+    year:         season year, e.g. 2026
+    current_week: optional. If given, weeks current_week through 17 are pulled
+                  and rewritten; earlier weeks' files are left alone.
+                  If None/blank, every week 1-17 is pulled and rewritten.
+    out_dir:      root output folder; files go to {out_dir}/{year}/projections/
+    keep_previous: if a week's file already exists, keep its values where the
+             new pull has none (locks in pre-game projections). Set False to
+             overwrite files with only the new pull.
 
     Returns the list of file paths written.
     """
-    weeks = [week] if week else range(1, LAST_WEEK + 1)
+    if current_week is not None and not 1 <= current_week <= LAST_WEEK:
+        raise ValueError(f"current_week must be between 1 and {LAST_WEEK}")
+    start = current_week if current_week is not None else 1
+    weeks = range(start, LAST_WEEK + 1)
     folder = Path(out_dir) / str(year) / "projections"
     folder.mkdir(parents=True, exist_ok=True)
     names = None  # only downloaded if the records lack player names

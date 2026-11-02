@@ -105,7 +105,7 @@ league_ids = gm.league_ids(year=year)
 lg = gm.to_league(league_ids[0])
 
 #Sleeper API Caall
-get_projections(year, None, "../APICallsAndStats/Projections/SleeperProjections")
+get_projections(year, completedWeeks, "../APICallsAndStats/Projections/SleeperProjections")
 
 #Yahoo API Calls
 write_roster_points_file(lg, year)
