@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import draftValueData from '../../../league_stats_output/2026/DraftValue.json';
-import meta from '../../../league_stats_output/CurrentSeason/meta.json';
+import meta from '../../../league_stats_output/2026/meta.json';
 import './WARAnalysis.css';
 
 // Shape of each row as it appears in DraftValue.json
