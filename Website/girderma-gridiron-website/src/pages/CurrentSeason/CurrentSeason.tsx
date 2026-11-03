@@ -14,6 +14,8 @@ import WARAnalysis from './WARAnalysis/WARAnalysis';
 import meta from '../../league_stats_output/2026/meta.json';
 import TradeEvaluator from './TradeEvaluator/TradeEvaluator';
 import ScheduleSwap from './ScheduleSwap/ScheduleSwap';
+import SimulatedConditions from './SimulatedConditions/SimulatedConditions';
+import ProjectedTeamPoints from './ProjectedTeamPoints/ProjectedTeamPoints';
 
 interface TabConfig {
   header: string;
@@ -30,12 +32,14 @@ const CURRENT_SEASON_TABS: TabConfig[] = [
   { header: 'WAR Analysis', Component: WARAnalysis },
   { header: 'Schedule Swap', Component: ScheduleSwap },
   { header: 'Trade Evaluator', Component: TradeEvaluator },
-  
+  { header: 'Simulated Playoff Odds', Component: SimulatedPlayoffOdds },
+  { header: 'Simulated Record Distribution', Component: SimulatedRecordDistribution },
+  { header: 'Simulated Conditions', Component: SimulatedConditions },
+  { header: 'Projected Team Points', Component: ProjectedTeamPoints },
 
 ];
 
-  // { header: 'Simulated Playoff Odds', Component: SimulatedPlayoffOdds },
-  // { header: 'Simulated Record Distribution', Component: SimulatedRecordDistribution },
+
 
   // 
 const CurrentSeason: React.FC = () => {

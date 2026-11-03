@@ -1,0 +1,3852 @@
+{
+  "year": 2026,
+  "current_week": 8,
+  "completed_weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "num_teams": 14,
+  "weekly_band_baseline": {
+    "1": {
+      "QB": 15.24,
+      "RB": 6.84,
+      "WR": 9.19,
+      "TE": 7.85
+    },
+    "2": {
+      "QB": 16.69,
+      "RB": 6.81,
+      "WR": 11.2,
+      "TE": 7.48
+    },
+    "3": {
+      "QB": 17.04,
+      "RB": 6.09,
+      "WR": 7.43,
+      "TE": 9.17
+    },
+    "4": {
+      "QB": 14.31,
+      "RB": 9.36,
+      "WR": 11.59,
+      "TE": 7.76
+    },
+    "5": {
+      "QB": 12.66,
+      "RB": 7.64,
+      "WR": 7.7,
+      "TE": 9.38
+    },
+    "6": {
+      "QB": 12.56,
+      "RB": 5.85,
+      "WR": 8.41,
+      "TE": 9.39
+    },
+    "7": {
+      "QB": 15.11,
+      "RB": 9.59,
+      "WR": 7.77,
+      "TE": 8.13
+    }
+  },
+  "weekly_flex_band_baseline": {
+    "1": 10.07,
+    "2": 11.11,
+    "3": 8.36,
+    "4": 10.59,
+    "5": 8.41,
+    "6": 7.29,
+    "7": 8.89
+  },
+  "weekly_p": {
+    "1": {
+      "RB": 0.0714,
+      "WR": 0.9286,
+      "TE": 0.0
+    },
+    "2": {
+      "RB": 0.2857,
+      "WR": 0.7143,
+      "TE": 0.0
+    },
+    "3": {
+      "RB": 0.2857,
+      "WR": 0.7143,
+      "TE": 0.0
+    },
+    "4": {
+      "RB": 0.0,
+      "WR": 0.7143,
+      "TE": 0.2857
+    },
+    "5": {
+      "RB": 0.2143,
+      "WR": 0.7857,
+      "TE": 0.0
+    },
+    "6": {
+      "RB": 0.0,
+      "WR": 0.9286,
+      "TE": 0.0714
+    },
+    "7": {
+      "RB": 0.0714,
+      "WR": 0.7857,
+      "TE": 0.1429
+    }
+  },
+  "weekly_replacement_level": {
+    "1": {
+      "QB": 15.24,
+      "RB": 7.07,
+      "WR": 10.01,
+      "TE": 7.85
+    },
+    "2": {
+      "QB": 16.69,
+      "RB": 8.04,
+      "WR": 11.13,
+      "TE": 7.48
+    },
+    "3": {
+      "QB": 17.04,
+      "RB": 6.74,
+      "WR": 8.09,
+      "TE": 9.17
+    },
+    "4": {
+      "QB": 14.31,
+      "RB": 9.36,
+      "WR": 10.88,
+      "TE": 8.57
+    },
+    "5": {
+      "QB": 12.66,
+      "RB": 7.81,
+      "WR": 8.26,
+      "TE": 9.38
+    },
+    "6": {
+      "QB": 12.56,
+      "RB": 5.85,
+      "WR": 7.37,
+      "TE": 9.24
+    },
+    "7": {
+      "QB": 15.11,
+      "RB": 9.54,
+      "WR": 8.65,
+      "TE": 8.24
+    }
+  },
+  "most_recent_week_detail": {
+    "week": 7,
+    "position_bands": {
+      "QB": {
+        "dedicated_starters_count": 14,
+        "flex_starters_count": 0,
+        "p": null,
+        "band_members": [
+          {
+            "player_name": "Kirk Cousins",
+            "position": "QB",
+            "source": "rostered",
+            "week_actual_points": 20.4
+          },
+          {
+            "player_name": "Dak Prescott",
+            "position": "QB",
+            "source": "rostered",
+            "week_actual_points": 23.28
+          },
+          {
+            "player_name": "Tyler Shough",
+            "position": "QB",
+            "source": "rostered",
+            "week_actual_points": 14.82
+          },
+          {
+            "player_name": "Jacoby Brissett",
+            "position": "QB",
+            "source": "rostered",
+            "week_actual_points": 16.48
+          },
+          {
+            "player_name": "Baker Mayfield",
+            "position": "QB",
+            "source": "waiver",
+            "week_actual_points": 6.66
+          },
+          {
+            "player_name": "Michael Penix Jr.",
+            "position": "QB",
+            "source": "waiver",
+            "week_actual_points": 20.42
+          },
+          {
+            "player_name": "Sam Darnold",
+            "position": "QB",
+            "source": "waiver",
+            "week_actual_points": 14.98
+          },
+          {
+            "player_name": "Malik Willis",
+            "position": "QB",
+            "source": "waiver",
+            "week_actual_points": 26.02
+          },
+          {
+            "player_name": "Deshaun Watson",
+            "position": "QB",
+            "source": "waiver",
+            "week_actual_points": 19.22
+          },
+          {
+            "player_name": "Tyler Huntley",
+            "position": "QB",
+            "source": "waiver",
+            "week_actual_points": 16.12
+          },
+          {
+            "player_name": "Tanner McKee",
+            "position": "QB",
+            "source": "waiver",
+            "week_actual_points": 11.54
+          },
+          {
+            "player_name": "J.J. McCarthy",
+            "position": "QB",
+            "source": "waiver",
+            "week_actual_points": 10.18
+          },
+          {
+            "player_name": "Cam Ward",
+            "position": "QB",
+            "source": "waiver",
+            "week_actual_points": 6.74
+          },
+          {
+            "player_name": "Daniel Jones",
+            "position": "QB",
+            "source": "waiver",
+            "week_actual_points": 4.62
+          }
+        ],
+        "band_rostered_count": 4,
+        "band_waiver_count": 10,
+        "band_baseline": 15.11,
+        "replacement_level": 15.11
+      },
+      "RB": {
+        "dedicated_starters_count": 28,
+        "flex_starters_count": 1,
+        "p": 0.0714,
+        "band_members": [
+          {
+            "player_name": "Kendre Miller",
+            "position": "RB",
+            "source": "rostered",
+            "week_actual_points": 5.8
+          },
+          {
+            "player_name": "Rico Dowdle",
+            "position": "RB",
+            "source": "rostered",
+            "week_actual_points": 14.6
+          },
+          {
+            "player_name": "Justice Hill",
+            "position": "RB",
+            "source": "rostered",
+            "week_actual_points": 6.3
+          },
+          {
+            "player_name": "Blake Corum",
+            "position": "RB",
+            "source": "rostered",
+            "week_actual_points": 17.1
+          },
+          {
+            "player_name": "Alvin Kamara",
+            "position": "RB",
+            "source": "rostered",
+            "week_actual_points": 13.2
+          },
+          {
+            "player_name": "Kenny Gainwell",
+            "position": "RB",
+            "source": "rostered",
+            "week_actual_points": 8.8
+          },
+          {
+            "player_name": "George Holani",
+            "position": "RB",
+            "source": "rostered",
+            "week_actual_points": 3.3
+          },
+          {
+            "player_name": "TreVeyon Henderson",
+            "position": "RB",
+            "source": "rostered",
+            "week_actual_points": 4.3
+          },
+          {
+            "player_name": "Cam Skattebo",
+            "position": "RB",
+            "source": "rostered",
+            "week_actual_points": 19.1
+          },
+          {
+            "player_name": "Dameon Pierce",
+            "position": "RB",
+            "source": "rostered",
+            "week_actual_points": 11.8
+          },
+          {
+            "player_name": "Samaje Perine",
+            "position": "RB",
+            "source": "rostered",
+            "week_actual_points": 7.6
+          },
+          {
+            "player_name": "Mike Washington Jr.",
+            "position": "RB",
+            "source": "rostered",
+            "week_actual_points": 2.7
+          },
+          {
+            "player_name": "Kaelon Black",
+            "position": "RB",
+            "source": "rostered",
+            "week_actual_points": 10.9
+          },
+          {
+            "player_name": "Tyrone Tracy Jr.",
+            "position": "RB",
+            "source": "rostered",
+            "week_actual_points": 8.7
+          }
+        ],
+        "band_rostered_count": 14,
+        "band_waiver_count": 0,
+        "band_baseline": 9.59,
+        "replacement_level": 9.54
+      },
+      "WR": {
+        "dedicated_starters_count": 28,
+        "flex_starters_count": 11,
+        "p": 0.7857,
+        "band_members": [
+          {
+            "player_name": "Courtland Sutton",
+            "position": "WR",
+            "source": "rostered",
+            "week_actual_points": 7.5
+          },
+          {
+            "player_name": "Makai Lemon",
+            "position": "WR",
+            "source": "rostered",
+            "week_actual_points": 19.7
+          },
+          {
+            "player_name": "Jaylin Noel",
+            "position": "WR",
+            "source": "rostered",
+            "week_actual_points": 1.7
+          },
+          {
+            "player_name": "DeMario Douglas",
+            "position": "WR",
+            "source": "rostered",
+            "week_actual_points": 5.3
+          },
+          {
+            "player_name": "Jordan Addison",
+            "position": "WR",
+            "source": "rostered",
+            "week_actual_points": 4.3
+          },
+          {
+            "player_name": "Ted Hurst III",
+            "position": "WR",
+            "source": "rostered",
+            "week_actual_points": null
+          },
+          {
+            "player_name": "Kendrick Bourne",
+            "position": "WR",
+            "source": "rostered",
+            "week_actual_points": 3.9
+          },
+          {
+            "player_name": "Caleb Douglas",
+            "position": "WR",
+            "source": "rostered",
+            "week_actual_points": 21.0
+          },
+          {
+            "player_name": "Ryan Flournoy",
+            "position": "WR",
+            "source": "rostered",
+            "week_actual_points": 11.0
+          },
+          {
+            "player_name": "Kalif Raymond",
+            "position": "WR",
+            "source": "rostered",
+            "week_actual_points": null
+          },
+          {
+            "player_name": "Cooper Kupp",
+            "position": "WR",
+            "source": "rostered",
+            "week_actual_points": 4.0
+          },
+          {
+            "player_name": "Adonai Mitchell",
+            "position": "WR",
+            "source": "rostered",
+            "week_actual_points": null
+          },
+          {
+            "player_name": "Ja'Kobi Lane",
+            "position": "WR",
+            "source": "rostered",
+            "week_actual_points": 5.5
+          },
+          {
+            "player_name": "Jahan Dotson",
+            "position": "WR",
+            "source": "rostered",
+            "week_actual_points": 1.6
+          }
+        ],
+        "band_rostered_count": 14,
+        "band_waiver_count": 0,
+        "band_baseline": 7.77,
+        "replacement_level": 8.65
+      },
+      "TE": {
+        "dedicated_starters_count": 14,
+        "flex_starters_count": 2,
+        "p": 0.1429,
+        "band_members": [
+          {
+            "player_name": "Kyle Pitts Sr.",
+            "position": "TE",
+            "source": "rostered",
+            "week_actual_points": 13.2
+          },
+          {
+            "player_name": "Jake Ferguson",
+            "position": "TE",
+            "source": "rostered",
+            "week_actual_points": null
+          },
+          {
+            "player_name": "Michael Mayer",
+            "position": "TE",
+            "source": "rostered",
+            "week_actual_points": 6.2
+          },
+          {
+            "player_name": "Darnell Washington",
+            "position": "TE",
+            "source": "rostered",
+            "week_actual_points": 7.4
+          },
+          {
+            "player_name": "Brevyn Spann-Ford",
+            "position": "TE",
+            "source": "rostered",
+            "week_actual_points": 3.1
+          },
+          {
+            "player_name": "Dalton Schultz",
+            "position": "TE",
+            "source": "waiver",
+            "week_actual_points": 9.5
+          },
+          {
+            "player_name": "Cade Otton",
+            "position": "TE",
+            "source": "waiver",
+            "week_actual_points": null
+          },
+          {
+            "player_name": "Mike Gesicki",
+            "position": "TE",
+            "source": "waiver",
+            "week_actual_points": 7.6
+          },
+          {
+            "player_name": "AJ Barner",
+            "position": "TE",
+            "source": "waiver",
+            "week_actual_points": 8.6
+          },
+          {
+            "player_name": "Darren Waller",
+            "position": "TE",
+            "source": "waiver",
+            "week_actual_points": 12.0
+          },
+          {
+            "player_name": "Colby Parkinson",
+            "position": "TE",
+            "source": "waiver",
+            "week_actual_points": 9.8
+          },
+          {
+            "player_name": "Greg Dulcich",
+            "position": "TE",
+            "source": "waiver",
+            "week_actual_points": 13.6
+          },
+          {
+            "player_name": "Evan Engram",
+            "position": "TE",
+            "source": "waiver",
+            "week_actual_points": 1.2
+          },
+          {
+            "player_name": "Gunnar Helm",
+            "position": "TE",
+            "source": "waiver",
+            "week_actual_points": 5.4
+          }
+        ],
+        "band_rostered_count": 5,
+        "band_waiver_count": 9,
+        "band_baseline": 8.13,
+        "replacement_level": 8.24
+      }
+    },
+    "flex_band": {
+      "members": [
+        {
+          "player_name": "Courtland Sutton",
+          "position": "WR",
+          "source": "rostered",
+          "week_actual_points": 7.5
+        },
+        {
+          "player_name": "Makai Lemon",
+          "position": "WR",
+          "source": "rostered",
+          "week_actual_points": 19.7
+        },
+        {
+          "player_name": "Kendre Miller",
+          "position": "RB",
+          "source": "rostered",
+          "week_actual_points": 5.8
+        },
+        {
+          "player_name": "Kyle Pitts Sr.",
+          "position": "TE",
+          "source": "rostered",
+          "week_actual_points": 13.2
+        },
+        {
+          "player_name": "Jaylin Noel",
+          "position": "WR",
+          "source": "rostered",
+          "week_actual_points": 1.7
+        },
+        {
+          "player_name": "Rico Dowdle",
+          "position": "RB",
+          "source": "rostered",
+          "week_actual_points": 14.6
+        },
+        {
+          "player_name": "DeMario Douglas",
+          "position": "WR",
+          "source": "rostered",
+          "week_actual_points": 5.3
+        },
+        {
+          "player_name": "Dalton Schultz",
+          "position": "TE",
+          "source": "waiver",
+          "week_actual_points": 9.5
+        },
+        {
+          "player_name": "Jordan Addison",
+          "position": "WR",
+          "source": "rostered",
+          "week_actual_points": 4.3
+        },
+        {
+          "player_name": "Cade Otton",
+          "position": "TE",
+          "source": "waiver",
+          "week_actual_points": null
+        },
+        {
+          "player_name": "Mike Gesicki",
+          "position": "TE",
+          "source": "waiver",
+          "week_actual_points": 7.6
+        },
+        {
+          "player_name": "Ted Hurst III",
+          "position": "WR",
+          "source": "rostered",
+          "week_actual_points": null
+        },
+        {
+          "player_name": "AJ Barner",
+          "position": "TE",
+          "source": "waiver",
+          "week_actual_points": 8.6
+        },
+        {
+          "player_name": "Jake Ferguson",
+          "position": "TE",
+          "source": "rostered",
+          "week_actual_points": null
+        }
+      ],
+      "baseline": 8.89
+    }
+  },
+  "teams": {
+    "Ozzy Stick": {
+      "team_key": "470.l.205662.t.9",
+      "slots": [
+        {
+          "slot": "QB",
+          "player_id": "29369",
+          "player_name": "Dak Prescott",
+          "position": "QB",
+          "status": "",
+          "weekly_margins": {
+            "1": 0.16,
+            "2": 13.07,
+            "3": 1.9,
+            "4": 3.79,
+            "5": 1.98,
+            "6": 0.46,
+            "7": 8.17
+          },
+          "pabb": 29.53,
+          "season_actual_points": 133.14,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "RB1",
+          "player_id": "33996",
+          "player_name": "Kenneth Walker III",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 27.03,
+            "2": 15.76,
+            "3": 14.56,
+            "4": 21.54,
+            "5": 0.0,
+            "6": 22.05,
+            "7": 0.16
+          },
+          "pabb": 101.1,
+          "season_actual_points": 147.7,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "RB2",
+          "player_id": "34019",
+          "player_name": "James Cook III",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 2.83,
+            "2": 12.86,
+            "3": 12.66,
+            "4": 6.94,
+            "5": 14.99,
+            "6": 18.45,
+            "7": 0.0
+          },
+          "pabb": 68.73,
+          "season_actual_points": 113.6,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "WR1",
+          "player_id": "41793",
+          "player_name": "Tetairoa McMillan",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": 0.49,
+            "2": 3.97,
+            "3": -4.39,
+            "4": 34.32,
+            "5": 0.0,
+            "6": 7.23,
+            "7": -0.65
+          },
+          "pabb": 40.97,
+          "season_actual_points": 97.1,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "WR2",
+          "player_id": "40234",
+          "player_name": "Parker Washington",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": 9.29,
+            "2": 5.67,
+            "3": 4.91,
+            "4": -8.88,
+            "5": 22.14,
+            "6": 3.03,
+            "7": 0.0
+          },
+          "pabb": 36.16,
+          "season_actual_points": 91.9,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "TE",
+          "player_id": "40102",
+          "player_name": "Tucker Kraft",
+          "position": "TE",
+          "status": "",
+          "weekly_margins": {
+            "1": 1.65,
+            "2": -3.98,
+            "3": -2.57,
+            "4": 7.93,
+            "5": 2.22,
+            "6": -0.54,
+            "7": 6.56
+          },
+          "pabb": 11.27,
+          "season_actual_points": 71.2,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "FLEX",
+          "player_id": "32705",
+          "player_name": "D'Andre Swift",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 25.33,
+            "2": 4.86,
+            "3": 4.06,
+            "4": -1.96,
+            "5": 9.49,
+            "6": 17.15,
+            "7": 9.46
+          },
+          "pabb": 68.39,
+          "season_actual_points": 122.8,
+          "weeks_counted": 7
+        }
+      ]
+    },
+    "Omaha Beach Real Estate": {
+      "team_key": "470.l.205662.t.8",
+      "slots": [
+        {
+          "slot": "QB",
+          "player_id": "40896",
+          "player_name": "Jayden Daniels",
+          "position": "QB",
+          "status": "",
+          "weekly_margins": {
+            "1": 2.42,
+            "2": -1.95,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 19.6,
+            "6": 8.44,
+            "7": 0.0
+          },
+          "pabb": 28.51,
+          "season_actual_points": 85.66,
+          "weeks_counted": 4
+        },
+        {
+          "slot": "RB1",
+          "player_id": "40055",
+          "player_name": "Bijan Robinson",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 24.23,
+            "2": 3.06,
+            "3": 28.56,
+            "4": 18.34,
+            "5": 7.99,
+            "6": 1.45,
+            "7": 7.66
+          },
+          "pabb": 91.29,
+          "season_actual_points": 145.7,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "RB2",
+          "player_id": "34120",
+          "player_name": "Kyren Williams",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 8.43,
+            "2": 7.66,
+            "3": 15.06,
+            "4": 27.34,
+            "5": 11.79,
+            "6": 3.85,
+            "7": 8.56
+          },
+          "pabb": 82.69,
+          "season_actual_points": 137.1,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "WR1",
+          "player_id": "33967",
+          "player_name": "Jameson Williams",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": -1.51,
+            "2": -5.83,
+            "3": 0.81,
+            "4": 5.32,
+            "5": 10.44,
+            "6": 0.0,
+            "7": 17.45
+          },
+          "pabb": 26.68,
+          "season_actual_points": 83.7,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "WR2",
+          "player_id": "40114",
+          "player_name": "Tre Tucker",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": -5.31,
+            "2": 11.77,
+            "3": 0.21,
+            "4": -2.48,
+            "5": -0.76,
+            "6": 19.33,
+            "7": 12.65
+          },
+          "pabb": 35.41,
+          "season_actual_points": 99.8,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "TE",
+          "player_id": "29269",
+          "player_name": "Hunter Henry",
+          "position": "TE",
+          "status": "",
+          "weekly_margins": {
+            "1": -2.25,
+            "2": -0.48,
+            "3": -7.67,
+            "4": 2.63,
+            "5": 4.02,
+            "6": 5.56,
+            "7": 5.86
+          },
+          "pabb": 7.67,
+          "season_actual_points": 67.6,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "FLEX",
+          "player_id": "40048",
+          "player_name": "Dalton Kincaid",
+          "position": "TE",
+          "status": "Q",
+          "weekly_margins": {
+            "1": 10.15,
+            "2": 15.02,
+            "3": -5.37,
+            "4": -6.87,
+            "5": -5.68,
+            "6": 1.56,
+            "7": 0.0
+          },
+          "pabb": 8.81,
+          "season_actual_points": 60.5,
+          "weeks_counted": 6
+        }
+      ]
+    },
+    "You gotta be Falcon kiddin me": {
+      "team_key": "470.l.205662.t.2",
+      "slots": [
+        {
+          "slot": "QB",
+          "player_id": "29325",
+          "player_name": "Jacoby Brissett",
+          "position": "QB",
+          "status": "",
+          "weekly_margins": {
+            "1": 1.24,
+            "2": -9.19,
+            "3": 8.56,
+            "4": -0.87,
+            "5": 13.62,
+            "6": -4.64,
+            "7": 1.37
+          },
+          "pabb": 10.09,
+          "season_actual_points": 113.7,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "RB1",
+          "player_id": "40993",
+          "player_name": "Bucky Irving",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 13.23,
+            "2": 4.96,
+            "3": 1.06,
+            "4": -3.26,
+            "5": 23.69,
+            "6": 1.05,
+            "7": 14.46
+          },
+          "pabb": 55.19,
+          "season_actual_points": 109.6,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "RB2",
+          "player_id": "30227",
+          "player_name": "Samaje Perine",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 0.93,
+            "2": -4.84,
+            "3": -4.34,
+            "4": -8.66,
+            "5": 7.99,
+            "6": 0.0,
+            "7": -1.94
+          },
+          "pabb": -10.86,
+          "season_actual_points": 37.7,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "WR1",
+          "player_id": "34007",
+          "player_name": "George Pickens",
+          "position": "WR",
+          "status": "Q",
+          "weekly_margins": {
+            "1": -4.21,
+            "2": -1.13,
+            "3": 7.11,
+            "4": -1.38,
+            "5": 19.74,
+            "6": 5.93,
+            "7": 7.05
+          },
+          "pabb": 33.11,
+          "season_actual_points": 97.5,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "WR2",
+          "player_id": "41824",
+          "player_name": "Luther Burden III",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": -0.51,
+            "2": -4.93,
+            "3": 11.71,
+            "4": 0.52,
+            "5": 0.64,
+            "6": 10.13,
+            "7": 15.05
+          },
+          "pabb": 32.61,
+          "season_actual_points": 97.0,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "TE",
+          "player_id": "40078",
+          "player_name": "Brenton Strange",
+          "position": "TE",
+          "status": "",
+          "weekly_margins": {
+            "1": 2.45,
+            "2": -3.78,
+            "3": -2.97,
+            "4": 7.93,
+            "5": 4.42,
+            "6": 0.16,
+            "7": 0.0
+          },
+          "pabb": 8.21,
+          "season_actual_points": 59.9,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "FLEX",
+          "player_id": "33392",
+          "player_name": "Kyle Pitts Sr.",
+          "position": "TE",
+          "status": "",
+          "weekly_margins": {
+            "1": 0.0,
+            "2": -4.98,
+            "3": -7.67,
+            "4": -0.87,
+            "5": 5.82,
+            "6": 13.76,
+            "7": 4.96
+          },
+          "pabb": 11.02,
+          "season_actual_points": 63.1,
+          "weeks_counted": 6
+        }
+      ]
+    },
+    "Girder’s 6 Cookies": {
+      "team_key": "470.l.205662.t.3",
+      "slots": [
+        {
+          "slot": "QB",
+          "player_id": "25812",
+          "player_name": "Kirk Cousins",
+          "position": "QB",
+          "status": "",
+          "weekly_margins": {
+            "1": 0.56,
+            "2": 4.53,
+            "3": 5.18,
+            "4": 9.29,
+            "5": 1.06,
+            "6": 6.96,
+            "7": 5.29
+          },
+          "pabb": 32.87,
+          "season_actual_points": 136.48,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "RB1",
+          "player_id": "33514",
+          "player_name": "Chuba Hubbard",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 16.63,
+            "2": 6.36,
+            "3": 8.26,
+            "4": 16.54,
+            "5": 0.0,
+            "6": 13.25,
+            "7": 0.46
+          },
+          "pabb": 61.5,
+          "season_actual_points": 108.1,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "RB2",
+          "player_id": "42625",
+          "player_name": "Jeremiyah Love",
+          "position": "RB",
+          "status": "Q",
+          "weekly_margins": {
+            "1": 5.93,
+            "2": -0.54,
+            "3": 15.16,
+            "4": -2.86,
+            "5": -5.61,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "pabb": 12.08,
+          "season_actual_points": 51.1,
+          "weeks_counted": 5
+        },
+        {
+          "slot": "WR1",
+          "player_id": "40039",
+          "player_name": "Zay Flowers",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": 15.99,
+            "2": 0.0,
+            "3": 7.31,
+            "4": 14.92,
+            "5": 6.34,
+            "6": 5.33,
+            "7": 19.05
+          },
+          "pabb": 68.94,
+          "season_actual_points": 122.2,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "WR2",
+          "player_id": "31896",
+          "player_name": "DK Metcalf",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": -2.01,
+            "2": -4.43,
+            "3": 4.01,
+            "4": 5.62,
+            "5": -2.96,
+            "6": 12.93,
+            "7": -1.05
+          },
+          "pabb": 12.11,
+          "season_actual_points": 76.5,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "TE",
+          "player_id": "41799",
+          "player_name": "Tyler Warren",
+          "position": "TE",
+          "status": "Q",
+          "weekly_margins": {
+            "1": 2.45,
+            "2": 6.92,
+            "3": 5.53,
+            "4": 0.53,
+            "5": 12.02,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "pabb": 27.45,
+          "season_actual_points": 69.9,
+          "weeks_counted": 5
+        },
+        {
+          "slot": "FLEX",
+          "player_id": "42697",
+          "player_name": "Caleb Douglas",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": 4.39,
+            "2": -7.23,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 12.35
+          },
+          "pabb": 9.51,
+          "season_actual_points": 39.3,
+          "weeks_counted": 3
+        }
+      ]
+    },
+    "Flow Brrr": {
+      "team_key": "470.l.205662.t.1",
+      "slots": [
+        {
+          "slot": "QB",
+          "player_id": "32671",
+          "player_name": "Joe Burrow",
+          "position": "QB",
+          "status": "",
+          "weekly_margins": {
+            "1": -0.08,
+            "2": -0.51,
+            "3": 5.54,
+            "4": 11.41,
+            "5": 11.94,
+            "6": 0.0,
+            "7": 13.77
+          },
+          "pabb": 42.07,
+          "season_actual_points": 133.12,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "RB1",
+          "player_id": "33508",
+          "player_name": "Rhamondre Stevenson",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 7.43,
+            "2": -4.44,
+            "3": 0.06,
+            "4": 9.04,
+            "5": 9.69,
+            "6": -2.25,
+            "7": 12.96
+          },
+          "pabb": 32.49,
+          "season_actual_points": 86.9,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "RB2",
+          "player_id": "41900",
+          "player_name": "Bhayshul Tuten",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 2.73,
+            "2": 6.16,
+            "3": 10.26,
+            "4": 1.74,
+            "5": 3.79,
+            "6": 18.85,
+            "7": 0.0
+          },
+          "pabb": 43.53,
+          "season_actual_points": 88.4,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "WR1",
+          "player_id": "40168",
+          "player_name": "Puka Nacua",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": 2.39,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 16.82,
+            "5": 29.44,
+            "6": 6.63,
+            "7": 13.15
+          },
+          "pabb": 68.43,
+          "season_actual_points": 113.6,
+          "weeks_counted": 5
+        },
+        {
+          "slot": "WR2",
+          "player_id": "26699",
+          "player_name": "Keenan Allen",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": -0.81,
+            "2": -9.63,
+            "3": 10.21,
+            "4": 0.0,
+            "5": 1.24,
+            "6": 8.83,
+            "7": -2.55
+          },
+          "pabb": 7.29,
+          "season_actual_points": 60.8,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "TE",
+          "player_id": "34010",
+          "player_name": "Trey McBride",
+          "position": "TE",
+          "status": "",
+          "weekly_margins": {
+            "1": 16.65,
+            "2": 10.62,
+            "3": 7.33,
+            "4": 1.53,
+            "5": 12.22,
+            "6": 3.06,
+            "7": 18.86
+          },
+          "pabb": 70.27,
+          "season_actual_points": 130.2,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "FLEX",
+          "player_id": "33398",
+          "player_name": "DeVonta Smith",
+          "position": "WR",
+          "status": "Q",
+          "weekly_margins": {
+            "1": -1.71,
+            "2": 16.57,
+            "3": 4.41,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 13.13,
+            "7": 0.0
+          },
+          "pabb": 32.4,
+          "season_actual_points": 69.0,
+          "weeks_counted": 4
+        }
+      ]
+    },
+    "Hunter’s Hunters": {
+      "team_key": "470.l.205662.t.5",
+      "slots": [
+        {
+          "slot": "QB",
+          "player_id": "40881",
+          "player_name": "Drake Maye",
+          "position": "QB",
+          "status": "",
+          "weekly_margins": {
+            "1": -2.42,
+            "2": -7.67,
+            "3": -11.28,
+            "4": 12.85,
+            "5": 26.8,
+            "6": 11.24,
+            "7": 13.33
+          },
+          "pabb": 42.85,
+          "season_actual_points": 146.46,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "RB1",
+          "player_id": "29279",
+          "player_name": "Derrick Henry",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 28.23,
+            "2": 9.66,
+            "3": 15.16,
+            "4": 6.54,
+            "5": 13.19,
+            "6": -0.85,
+            "7": -3.64
+          },
+          "pabb": 68.29,
+          "season_actual_points": 122.7,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "RB2",
+          "player_id": "40108",
+          "player_name": "Kendre Miller",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 1.93,
+            "2": 0.0,
+            "3": -2.84,
+            "4": -7.46,
+            "5": 1.19,
+            "6": 3.15,
+            "7": -3.74
+          },
+          "pabb": -7.77,
+          "season_actual_points": 38.6,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "WR1",
+          "player_id": "32703",
+          "player_name": "Tee Higgins",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": -1.11,
+            "2": 3.37,
+            "3": 12.91,
+            "4": 15.82,
+            "5": -4.06,
+            "6": 0.0,
+            "7": 18.15
+          },
+          "pabb": 45.08,
+          "season_actual_points": 102.1,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "WR2",
+          "player_id": "33500",
+          "player_name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "status": "Q",
+          "weekly_margins": {
+            "1": 18.69,
+            "2": 24.07,
+            "3": 3.81,
+            "4": 4.62,
+            "5": 4.64,
+            "6": 0.0,
+            "7": 15.55
+          },
+          "pabb": 71.38,
+          "season_actual_points": 128.4,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "TE",
+          "player_id": "31019",
+          "player_name": "Dallas Goedert",
+          "position": "TE",
+          "status": "",
+          "weekly_margins": {
+            "1": 15.85,
+            "2": -6.08,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.42,
+            "6": 2.86,
+            "7": 1.56
+          },
+          "pabb": 14.61,
+          "season_actual_points": 56.8,
+          "weeks_counted": 5
+        },
+        {
+          "slot": "FLEX",
+          "player_id": "40064",
+          "player_name": "Sam LaPorta",
+          "position": "TE",
+          "status": "",
+          "weekly_margins": {
+            "1": 1.95,
+            "2": 9.72,
+            "3": -1.77,
+            "4": 13.83,
+            "5": 10.42,
+            "6": 0.0,
+            "7": -5.44
+          },
+          "pabb": 28.71,
+          "season_actual_points": 79.4,
+          "weeks_counted": 6
+        }
+      ]
+    },
+    "Big Bad Hokkkk": {
+      "team_key": "470.l.205662.t.4",
+      "slots": [
+        {
+          "slot": "QB",
+          "player_id": "9265",
+          "player_name": "Matthew Stafford",
+          "position": "QB",
+          "status": "",
+          "weekly_margins": {
+            "1": -10.14,
+            "2": 11.29,
+            "3": 5.86,
+            "4": -2.63,
+            "5": 14.66,
+            "6": 4.32,
+            "7": 3.39
+          },
+          "pabb": 26.75,
+          "season_actual_points": 130.36,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "RB1",
+          "player_id": "41821",
+          "player_name": "Quinshon Judkins",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": -0.07,
+            "2": 1.76,
+            "3": 3.16,
+            "4": 12.24,
+            "5": 0.19,
+            "6": 0.0,
+            "7": 13.86
+          },
+          "pabb": 31.14,
+          "season_actual_points": 79.7,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "RB2",
+          "player_id": "31960",
+          "player_name": "Tony Pollard",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": -2.67,
+            "2": -0.54,
+            "3": 6.86,
+            "4": 3.64,
+            "5": -2.61,
+            "6": 1.75,
+            "7": 26.96
+          },
+          "pabb": 33.39,
+          "season_actual_points": 87.8,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "WR1",
+          "player_id": "32687",
+          "player_name": "CeeDee Lamb",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": 5.39,
+            "2": 24.17,
+            "3": 12.11,
+            "4": 30.42,
+            "5": -5.36,
+            "6": 8.63,
+            "7": 15.75
+          },
+          "pabb": 91.11,
+          "season_actual_points": 155.5,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "WR2",
+          "player_id": "33393",
+          "player_name": "Ja'Marr Chase",
+          "position": "WR",
+          "status": "Q",
+          "weekly_margins": {
+            "1": -6.81,
+            "2": 15.37,
+            "3": 16.71,
+            "4": -5.18,
+            "5": 11.44,
+            "6": 0.0,
+            "7": 8.55
+          },
+          "pabb": 40.08,
+          "season_actual_points": 97.1,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "TE",
+          "player_id": "34036",
+          "player_name": "Greg Dulcich",
+          "position": "TE",
+          "status": "Q",
+          "weekly_margins": {
+            "1": -4.05,
+            "2": -3.78,
+            "3": 1.33,
+            "4": 0.0,
+            "5": 0.32,
+            "6": 0.0,
+            "7": 5.36
+          },
+          "pabb": -0.82,
+          "season_actual_points": 41.3,
+          "weeks_counted": 5
+        },
+        {
+          "slot": "FLEX",
+          "player_id": "31883",
+          "player_name": "A.J. Brown",
+          "position": "WR",
+          "status": "Q",
+          "weekly_margins": {
+            "1": -4.41,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": -1.67,
+            "7": -0.85
+          },
+          "pabb": -6.93,
+          "season_actual_points": 19.1,
+          "weeks_counted": 3
+        }
+      ]
+    },
+    "Maître Stick": {
+      "team_key": "470.l.205662.t.6",
+      "slots": [
+        {
+          "slot": "QB",
+          "player_id": "34042",
+          "player_name": "Malik Willis",
+          "position": "QB",
+          "status": "",
+          "weekly_margins": {
+            "1": 2.46,
+            "2": -4.21,
+            "3": -6.04,
+            "4": -11.81,
+            "5": 8.22,
+            "6": 0.0,
+            "7": 10.91
+          },
+          "pabb": -0.47,
+          "season_actual_points": 90.58,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "RB1",
+          "player_id": "40059",
+          "player_name": "Jahmyr Gibbs",
+          "position": "RB",
+          "status": "Q",
+          "weekly_margins": {
+            "1": 26.53,
+            "2": 15.26,
+            "3": 34.66,
+            "4": 8.34,
+            "5": 29.89,
+            "6": 0.0,
+            "7": 7.76
+          },
+          "pabb": 122.44,
+          "season_actual_points": 171.0,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "RB2",
+          "player_id": "40962",
+          "player_name": "Blake Corum",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": -1.67,
+            "2": 2.16,
+            "3": -3.24,
+            "4": -6.26,
+            "5": 8.39,
+            "6": 8.15,
+            "7": 7.56
+          },
+          "pabb": 15.09,
+          "season_actual_points": 69.5,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "WR1",
+          "player_id": "40121",
+          "player_name": "Michael Wilson",
+          "position": "WR",
+          "status": "Q",
+          "weekly_margins": {
+            "1": 0.59,
+            "2": -7.33,
+            "3": 17.81,
+            "4": 5.62,
+            "5": -0.98,
+            "6": -0.17,
+            "7": 1.95
+          },
+          "pabb": 17.49,
+          "season_actual_points": 81.88,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "WR2",
+          "player_id": "40084",
+          "player_name": "Rashee Rice",
+          "position": "WR",
+          "status": "Q",
+          "weekly_margins": {
+            "1": -0.11,
+            "2": 1.17,
+            "3": 7.71,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "pabb": 8.77,
+          "season_actual_points": 38.0,
+          "weeks_counted": 3
+        },
+        {
+          "slot": "TE",
+          "player": null
+        },
+        {
+          "slot": "FLEX",
+          "player_id": "30994",
+          "player_name": "DJ Moore",
+          "position": "WR",
+          "status": "Q",
+          "weekly_margins": {
+            "1": 10.99,
+            "2": -11.23,
+            "3": 4.61,
+            "4": -8.18,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "pabb": -3.81,
+          "season_actual_points": 36.3,
+          "weeks_counted": 4
+        }
+      ]
+    },
+    "No Punts Intented": {
+      "team_key": "470.l.205662.t.7",
+      "slots": [
+        {
+          "slot": "QB",
+          "player_id": "30977",
+          "player_name": "Josh Allen",
+          "position": "QB",
+          "status": "",
+          "weekly_margins": {
+            "1": 20.42,
+            "2": 24.13,
+            "3": 2.42,
+            "4": 5.21,
+            "5": 18.84,
+            "6": 5.74,
+            "7": 0.0
+          },
+          "pabb": 76.76,
+          "season_actual_points": 165.26,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "RB1",
+          "player_id": "32725",
+          "player_name": "J.K. Dobbins",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": -3.47,
+            "2": -4.44,
+            "3": -0.44,
+            "4": -2.16,
+            "5": 7.59,
+            "6": 7.75,
+            "7": -1.24
+          },
+          "pabb": 3.59,
+          "season_actual_points": 58.0,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "RB2",
+          "player_id": "30295",
+          "player_name": "Aaron Jones Sr.",
+          "position": "RB",
+          "status": "Q",
+          "weekly_margins": {
+            "1": 2.93,
+            "2": 2.46,
+            "3": 7.46,
+            "4": 7.44,
+            "5": 10.89,
+            "6": 0.0,
+            "7": -5.94
+          },
+          "pabb": 25.24,
+          "season_actual_points": 73.8,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "WR1",
+          "player_id": "40041",
+          "player_name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": 16.19,
+            "2": 31.37,
+            "3": 27.27,
+            "4": 1.72,
+            "5": 14.54,
+            "6": 18.03,
+            "7": 22.65
+          },
+          "pabb": 131.77,
+          "season_actual_points": 196.16,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "WR2",
+          "player_id": "33989",
+          "player_name": "Christian Watson",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": 22.69,
+            "2": 2.97,
+            "3": 14.51,
+            "4": -3.18,
+            "5": 24.04,
+            "6": 2.03,
+            "7": 2.05
+          },
+          "pabb": 65.11,
+          "season_actual_points": 129.5,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "TE",
+          "player_id": "41795",
+          "player_name": "Colston Loveland",
+          "position": "TE",
+          "status": "",
+          "weekly_margins": {
+            "1": 0.0,
+            "2": -6.18,
+            "3": -2.07,
+            "4": 3.13,
+            "5": -5.48,
+            "6": 9.26,
+            "7": 11.66
+          },
+          "pabb": 10.32,
+          "season_actual_points": 62.4,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "FLEX",
+          "player_id": "33998",
+          "player_name": "Wan'Dale Robinson",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": -1.21,
+            "2": -9.23,
+            "3": 10.61,
+            "4": 0.12,
+            "5": 3.04,
+            "6": -2.17,
+            "7": -3.95
+          },
+          "pabb": -2.79,
+          "season_actual_points": 61.6,
+          "weeks_counted": 7
+        }
+      ]
+    },
+    "Revy’s Konstruction": {
+      "team_key": "470.l.205662.t.11",
+      "slots": [
+        {
+          "slot": "QB",
+          "player_id": "33389",
+          "player_name": "Trevor Lawrence",
+          "position": "QB",
+          "status": "",
+          "weekly_margins": {
+            "1": 10.86,
+            "2": -9.53,
+            "3": 3.74,
+            "4": -1.23,
+            "5": 10.08,
+            "6": 15.78,
+            "7": 0.0
+          },
+          "pabb": 29.7,
+          "season_actual_points": 118.2,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "RB1",
+          "player_id": "41791",
+          "player_name": "Ashton Jeanty",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 25.63,
+            "2": 2.26,
+            "3": 5.56,
+            "4": 9.24,
+            "5": 2.89,
+            "6": 9.95,
+            "7": 12.06
+          },
+          "pabb": 67.59,
+          "season_actual_points": 122.0,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "RB2",
+          "player_id": "40971",
+          "player_name": "MarShawn Lloyd",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": -3.37,
+            "2": 0.56,
+            "3": -2.94,
+            "4": 0.54,
+            "5": 8.89,
+            "6": -4.85,
+            "7": -4.04
+          },
+          "pabb": -5.21,
+          "season_actual_points": 49.2,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "WR1",
+          "player_id": "33965",
+          "player_name": "Garrett Wilson",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": 3.89,
+            "2": 5.57,
+            "3": 18.61,
+            "4": -5.18,
+            "5": 15.14,
+            "6": 1.03,
+            "7": -4.05
+          },
+          "pabb": 35.01,
+          "season_actual_points": 99.4,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "WR2",
+          "player_id": "40911",
+          "player_name": "Keon Coleman",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": -8.91,
+            "2": 1.17,
+            "3": -3.39,
+            "4": 12.72,
+            "5": -0.56,
+            "6": 8.53,
+            "7": 0.0
+          },
+          "pabb": 9.56,
+          "season_actual_points": 65.3,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "TE",
+          "player_id": "41877",
+          "player_name": "Harold Fannin Jr.",
+          "position": "TE",
+          "status": "",
+          "weekly_margins": {
+            "1": -3.75,
+            "2": 2.92,
+            "3": 14.93,
+            "4": 3.13,
+            "5": -7.98,
+            "6": -7.34,
+            "7": 4.86
+          },
+          "pabb": 6.77,
+          "season_actual_points": 66.7,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "FLEX",
+          "player_id": "31840",
+          "player_name": "T.J. Hockenson",
+          "position": "TE",
+          "status": "",
+          "weekly_margins": {
+            "1": 5.75,
+            "2": -1.58,
+            "3": -6.07,
+            "4": 16.33,
+            "5": -7.68,
+            "6": 0.0,
+            "7": 5.26
+          },
+          "pabb": 12.01,
+          "season_actual_points": 62.7,
+          "weeks_counted": 6
+        }
+      ]
+    },
+    "Supernova’s Studs": {
+      "team_key": "470.l.205662.t.12",
+      "slots": [
+        {
+          "slot": "QB",
+          "player_id": "29235",
+          "player_name": "Jared Goff",
+          "position": "QB",
+          "status": "",
+          "weekly_margins": {
+            "1": 1.2,
+            "2": 13.09,
+            "3": 2.32,
+            "4": 6.17,
+            "5": 16.28,
+            "6": 0.0,
+            "7": 2.91
+          },
+          "pabb": 41.97,
+          "season_actual_points": 133.02,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "RB1",
+          "player_id": "32711",
+          "player_name": "Jonathan Taylor",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 18.03,
+            "2": 21.16,
+            "3": 2.46,
+            "4": 13.34,
+            "5": 3.39,
+            "6": 15.25,
+            "7": 9.46
+          },
+          "pabb": 83.09,
+          "season_actual_points": 137.5,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "RB2",
+          "player_id": "33423",
+          "player_name": "Javonte Williams",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 17.13,
+            "2": -0.04,
+            "3": 11.56,
+            "4": 21.94,
+            "5": 6.39,
+            "6": 7.15,
+            "7": 11.96
+          },
+          "pabb": 76.09,
+          "season_actual_points": 130.5,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "WR1",
+          "player_id": "41293",
+          "player_name": "Jalen Coker",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": 23.79,
+            "2": 3.47,
+            "3": -4.29,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 8.33,
+            "7": -6.75
+          },
+          "pabb": 24.55,
+          "season_actual_points": 69.8,
+          "weeks_counted": 5
+        },
+        {
+          "slot": "WR2",
+          "player_id": "42652",
+          "player_name": "Omar Cooper Jr.",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": -6.01,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 14.93,
+            "7": 13.85
+          },
+          "pabb": 22.77,
+          "season_actual_points": 48.8,
+          "weeks_counted": 3
+        },
+        {
+          "slot": "TE",
+          "player_id": "40878",
+          "player_name": "Brock Bowers",
+          "position": "TE",
+          "status": "Q",
+          "weekly_margins": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 18.43,
+            "4": 12.03,
+            "5": 13.62,
+            "6": 1.76,
+            "7": 5.06
+          },
+          "pabb": 50.9,
+          "season_actual_points": 95.5,
+          "weeks_counted": 5
+        },
+        {
+          "slot": "FLEX",
+          "player_id": "40901",
+          "player_name": "Rome Odunze",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": -2.81,
+            "2": -3.83,
+            "3": -0.69,
+            "4": 4.52,
+            "5": -3.26,
+            "6": -0.47,
+            "7": 2.25
+          },
+          "pabb": -4.29,
+          "season_actual_points": 60.1,
+          "weeks_counted": 7
+        }
+      ]
+    },
+    "The Sage's Playmakers": {
+      "team_key": "470.l.205662.t.13",
+      "slots": [
+        {
+          "slot": "QB",
+          "player_id": "31833",
+          "player_name": "Kyler Murray",
+          "position": "QB",
+          "status": "",
+          "weekly_margins": {
+            "1": -14.62,
+            "2": 0.0,
+            "3": -5.62,
+            "4": -2.83,
+            "5": 5.6,
+            "6": 0.0,
+            "7": -1.21
+          },
+          "pabb": -18.68,
+          "season_actual_points": 55.68,
+          "weeks_counted": 5
+        },
+        {
+          "slot": "RB1",
+          "player_id": "31856",
+          "player_name": "Josh Jacobs",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 10.56
+          },
+          "pabb": 10.56,
+          "season_actual_points": 20.1,
+          "weeks_counted": 1
+        },
+        {
+          "slot": "RB2",
+          "player_id": "41969",
+          "player_name": "Ollie Gordon II",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 0.0,
+            "2": -7.34,
+            "3": 7.76,
+            "4": 8.64,
+            "5": 6.99,
+            "6": 0.0,
+            "7": 7.76
+          },
+          "pabb": 23.81,
+          "season_actual_points": 65.3,
+          "weeks_counted": 5
+        },
+        {
+          "slot": "WR1",
+          "player_id": "41808",
+          "player_name": "Matthew Golden",
+          "position": "WR",
+          "status": "Q",
+          "weekly_margins": {
+            "1": 5.49,
+            "2": -1.33,
+            "3": 12.91,
+            "4": 0.82,
+            "5": 12.04,
+            "6": 15.03,
+            "7": 1.25
+          },
+          "pabb": 46.21,
+          "season_actual_points": 110.6,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "WR2",
+          "player_id": "42626",
+          "player_name": "Carnell Tate",
+          "position": "WR",
+          "status": "Q",
+          "weekly_margins": {
+            "1": -2.21,
+            "2": -5.43,
+            "3": 3.71,
+            "4": 10.62,
+            "5": -6.66,
+            "6": 11.63,
+            "7": 1.25
+          },
+          "pabb": 12.91,
+          "season_actual_points": 77.3,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "TE",
+          "player_id": "41001",
+          "player_name": "AJ Barner",
+          "position": "TE",
+          "status": "",
+          "weekly_margins": {
+            "1": -4.55,
+            "2": 0.42,
+            "3": 2.73,
+            "4": -6.37,
+            "5": -4.38,
+            "6": -4.64,
+            "7": 0.36
+          },
+          "pabb": -16.43,
+          "season_actual_points": 43.5,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "FLEX",
+          "player_id": "30972",
+          "player_name": "Saquon Barkley",
+          "position": "RB",
+          "status": "Q",
+          "weekly_margins": {
+            "1": 1.93,
+            "2": -5.04,
+            "3": 2.26,
+            "4": -7.36,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 5.56
+          },
+          "pabb": -2.65,
+          "season_actual_points": 38.1,
+          "weeks_counted": 5
+        }
+      ]
+    },
+    "Pad D's": {
+      "team_key": "470.l.205662.t.10",
+      "slots": [
+        {
+          "slot": "QB",
+          "player_id": "31002",
+          "player_name": "Lamar Jackson",
+          "position": "QB",
+          "status": "Q",
+          "weekly_margins": {
+            "1": 9.72,
+            "2": -0.89,
+            "3": 3.4,
+            "4": 4.57,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "pabb": 16.8,
+          "season_actual_points": 80.08,
+          "weeks_counted": 4
+        },
+        {
+          "slot": "RB1",
+          "player_id": "34447",
+          "player_name": "Jaylen Warren",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 3.23,
+            "2": 1.66,
+            "3": 13.86,
+            "4": 6.24,
+            "5": 28.99,
+            "6": 3.95,
+            "7": 7.16
+          },
+          "pabb": 65.09,
+          "season_actual_points": 119.5,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "RB2",
+          "player_id": "40196",
+          "player_name": "Chase Brown",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 11.73,
+            "2": 3.16,
+            "3": 2.16,
+            "4": 9.74,
+            "5": -0.81,
+            "6": 0.0,
+            "7": 0.26
+          },
+          "pabb": 26.24,
+          "season_actual_points": 74.8,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "WR1",
+          "player_id": "33963",
+          "player_name": "Drake London",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": -4.51,
+            "2": -2.23,
+            "3": 20.31,
+            "4": 3.72,
+            "5": 10.54,
+            "6": 4.83,
+            "7": 10.95
+          },
+          "pabb": 43.61,
+          "season_actual_points": 108.0,
+          "weeks_counted": 7
+        },
+        {
+          "slot": "WR2",
+          "player_id": "34104",
+          "player_name": "Khalil Shakir",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": -1.01,
+            "2": -4.33,
+            "3": -6.49,
+            "4": 2.32,
+            "5": 2.74,
+            "6": 6.03,
+            "7": 0.0
+          },
+          "pabb": -0.74,
+          "season_actual_points": 55.0,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "TE",
+          "player_id": "26686",
+          "player_name": "Travis Kelce",
+          "position": "TE",
+          "status": "",
+          "weekly_margins": {
+            "1": 2.25,
+            "2": 17.62,
+            "3": 4.73,
+            "4": -5.07,
+            "5": 0.0,
+            "6": 0.06,
+            "7": 0.16
+          },
+          "pabb": 19.75,
+          "season_actual_points": 70.3,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "FLEX",
+          "player_id": "41845",
+          "player_name": "RJ Harvey",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 1.03,
+            "2": 0.0,
+            "3": 3.96,
+            "4": 9.94,
+            "5": -7.11,
+            "6": 8.75,
+            "7": 4.46
+          },
+          "pabb": 21.03,
+          "season_actual_points": 67.4,
+          "weeks_counted": 6
+        }
+      ]
+    },
+    "Tsuga’s Tuck Shop": {
+      "team_key": "470.l.205662.t.14",
+      "slots": [
+        {
+          "slot": "QB",
+          "player_id": "30123",
+          "player_name": "Patrick Mahomes",
+          "position": "QB",
+          "status": "",
+          "weekly_margins": {
+            "1": 7.42,
+            "2": 12.29,
+            "3": -0.1,
+            "4": 2.69,
+            "5": 0.0,
+            "6": -1.08,
+            "7": -8.11
+          },
+          "pabb": 13.11,
+          "season_actual_points": 104.06,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "RB1",
+          "player_id": "34047",
+          "player_name": "Rachaad White",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": -2.37,
+            "2": 6.26,
+            "3": 4.36,
+            "4": 0.0,
+            "5": -4.81,
+            "6": 9.85,
+            "7": 0.0
+          },
+          "pabb": 13.29,
+          "season_actual_points": 48.8,
+          "weeks_counted": 5
+        },
+        {
+          "slot": "RB2",
+          "player_id": "42730",
+          "player_name": "Jonah Coleman",
+          "position": "RB",
+          "status": "",
+          "weekly_margins": {
+            "1": 0.0,
+            "2": 6.76,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": -0.64
+          },
+          "pabb": 6.12,
+          "season_actual_points": 23.7,
+          "weeks_counted": 2
+        },
+        {
+          "slot": "WR1",
+          "player_id": "42669",
+          "player_name": "Germie Bernard",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": 0.0,
+            "2": -3.63,
+            "3": -5.69,
+            "4": -7.78,
+            "5": 6.14,
+            "6": 18.33,
+            "7": -2.95
+          },
+          "pabb": 4.42,
+          "season_actual_points": 58.8,
+          "weeks_counted": 6
+        },
+        {
+          "slot": "WR2",
+          "player_id": "32692",
+          "player_name": "Justin Jefferson",
+          "position": "WR",
+          "status": "",
+          "weekly_margins": {
+            "1": 21.19,
+            "2": -2.63,
+            "3": -2.89,
+            "4": 0.0,
+            "5": 10.54,
+            "6": 0.0,
+            "7": -0.25
+          },
+          "pabb": 25.96,
+          "season_actual_points": 72.1,
+          "weeks_counted": 5
+        },
+        {
+          "slot": "TE",
+          "player_id": "34099",
+          "player_name": "Chig Okonkwo",
+          "position": "TE",
+          "status": "",
+          "weekly_margins": {
+            "1": -4.25,
+            "2": 0.0,
+            "3": 0.0,
+            "4": -6.07,
+            "5": 0.62,
+            "6": 4.66,
+            "7": 0.0
+          },
+          "pabb": -5.04,
+          "season_actual_points": 30.0,
+          "weeks_counted": 4
+        },
+        {
+          "slot": "FLEX",
+          "player_id": "40908",
+          "player_name": "Ladd McConkey",
+          "position": "WR",
+          "status": "Q",
+          "weekly_margins": {
+            "1": 9.19,
+            "2": -4.63,
+            "3": 2.51,
+            "4": 0.0,
+            "5": 0.0,
+            "6": -4.67,
+            "7": 0.0
+          },
+          "pabb": 2.4,
+          "season_actual_points": 39.0,
+          "weeks_counted": 4
+        }
+      ]
+    }
+  },
+  "not_playing_by_week": {
+    "1": [
+      {
+        "team_name": "Ozzy Stick",
+        "player_name": "Alvin Kamara",
+        "position": "RB"
+      },
+      {
+        "team_name": "You gotta be Falcon kiddin me",
+        "player_name": "Sean Tucker",
+        "position": "RB"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "Jalen McMillan",
+        "position": "WR"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Tank Dell",
+        "position": "WR"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "Luke Musgrave",
+        "position": "TE"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "TreVeyon Henderson",
+        "position": "RB"
+      },
+      {
+        "team_name": "No Punts Intented",
+        "player_name": "Isiah Pacheco",
+        "position": "RB"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Jayden Higgins",
+        "position": "WR"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Brock Bowers",
+        "position": "TE"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Zach Charbonnet",
+        "position": "RB"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Trevor Etienne",
+        "position": "RB"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "Josh Jacobs",
+        "position": "RB"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Jordyn Tyson",
+        "position": "WR"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "James Conner",
+        "position": "RB"
+      }
+    ],
+    "2": [
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Puka Nacua",
+        "position": "WR"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Ja'Kobi Lane",
+        "position": "WR"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Zay Flowers",
+        "position": "WR"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Jordan Mason",
+        "position": "RB"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "A.J. Brown",
+        "position": "WR"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Tank Dell",
+        "position": "WR"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "Luke Musgrave",
+        "position": "TE"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "James Conner",
+        "position": "RB"
+      },
+      {
+        "team_name": "No Punts Intented",
+        "player_name": "Isiah Pacheco",
+        "position": "RB"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Nico Collins",
+        "position": "WR"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Omar Cooper Jr.",
+        "position": "WR"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Chig Okonkwo",
+        "position": "TE"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Dylan Sampson",
+        "position": "RB"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Jayden Higgins",
+        "position": "WR"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Brock Bowers",
+        "position": "TE"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Zach Charbonnet",
+        "position": "RB"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Trevor Etienne",
+        "position": "RB"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "Josh Jacobs",
+        "position": "RB"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "Michael Pittman Jr.",
+        "position": "WR"
+      },
+      {
+        "team_name": "Pad D's",
+        "player_name": "RJ Harvey",
+        "position": "RB"
+      },
+      {
+        "team_name": "Pad D's",
+        "player_name": "Jauan Jennings",
+        "position": "WR"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Kyler Murray",
+        "position": "QB"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "De'Zhaun Stribling",
+        "position": "WR"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Jordyn Tyson",
+        "position": "WR"
+      }
+    ],
+    "3": [
+      {
+        "team_name": "Ozzy Stick",
+        "player_name": "Jayden Reed",
+        "position": "WR"
+      },
+      {
+        "team_name": "Omaha Beach Real Estate",
+        "player_name": "Drew Lock",
+        "position": "QB"
+      },
+      {
+        "team_name": "Omaha Beach Real Estate",
+        "player_name": "Jayden Daniels",
+        "position": "QB"
+      },
+      {
+        "team_name": "You gotta be Falcon kiddin me",
+        "player_name": "Caleb Williams",
+        "position": "QB"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Rico Dowdle",
+        "position": "RB"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Caleb Douglas",
+        "position": "WR"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Adonai Mitchell",
+        "position": "WR"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Puka Nacua",
+        "position": "WR"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Alec Pierce",
+        "position": "WR"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Ja'Kobi Lane",
+        "position": "WR"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "Dallas Goedert",
+        "position": "TE"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "Jonathon Brooks",
+        "position": "RB"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Jordan Mason",
+        "position": "RB"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "A.J. Brown",
+        "position": "WR"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Tank Dell",
+        "position": "WR"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "Luke Musgrave",
+        "position": "TE"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "James Conner",
+        "position": "RB"
+      },
+      {
+        "team_name": "No Punts Intented",
+        "player_name": "Isiah Pacheco",
+        "position": "RB"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Chig Okonkwo",
+        "position": "TE"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Nico Collins",
+        "position": "WR"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Omar Cooper Jr.",
+        "position": "WR"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Zach Charbonnet",
+        "position": "RB"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Trevor Etienne",
+        "position": "RB"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "Josh Jacobs",
+        "position": "RB"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Jonah Coleman",
+        "position": "RB"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "De'Zhaun Stribling",
+        "position": "WR"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Jordyn Tyson",
+        "position": "WR"
+      }
+    ],
+    "4": [
+      {
+        "team_name": "Ozzy Stick",
+        "player_name": "Jayden Reed",
+        "position": "WR"
+      },
+      {
+        "team_name": "Omaha Beach Real Estate",
+        "player_name": "Baker Mayfield",
+        "position": "QB"
+      },
+      {
+        "team_name": "Omaha Beach Real Estate",
+        "player_name": "Jayden Daniels",
+        "position": "QB"
+      },
+      {
+        "team_name": "You gotta be Falcon kiddin me",
+        "player_name": "Caleb Williams",
+        "position": "QB"
+      },
+      {
+        "team_name": "You gotta be Falcon kiddin me",
+        "player_name": "Jaxson Dart",
+        "position": "QB"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Rico Dowdle",
+        "position": "RB"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Caleb Douglas",
+        "position": "WR"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Adonai Mitchell",
+        "position": "WR"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Keenan Allen",
+        "position": "WR"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "DeVonta Smith",
+        "position": "WR"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Ja'Kobi Lane",
+        "position": "WR"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Alec Pierce",
+        "position": "WR"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "Dallas Goedert",
+        "position": "TE"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "Jonathon Brooks",
+        "position": "RB"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "Jalen McMillan",
+        "position": "WR"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Ja'Marr Chase",
+        "position": "WR"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Jordan Mason",
+        "position": "RB"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Breece Hall",
+        "position": "RB"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "A.J. Brown",
+        "position": "WR"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Tank Dell",
+        "position": "WR"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "Luke Musgrave",
+        "position": "TE"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "James Conner",
+        "position": "RB"
+      },
+      {
+        "team_name": "No Punts Intented",
+        "player_name": "Jadarian Price",
+        "position": "RB"
+      },
+      {
+        "team_name": "No Punts Intented",
+        "player_name": "Isiah Pacheco",
+        "position": "RB"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Travis Etienne Jr.",
+        "position": "RB"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Omar Cooper Jr.",
+        "position": "WR"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Tyreek Hill",
+        "position": "WR"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Zach Charbonnet",
+        "position": "RB"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Trevor Etienne",
+        "position": "RB"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "Saquon Barkley",
+        "position": "RB"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "Josh Jacobs",
+        "position": "RB"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "Jalen Coker",
+        "position": "WR"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "De'Von Achane",
+        "position": "RB"
+      },
+      {
+        "team_name": "Pad D's",
+        "player_name": "Terry McLaurin",
+        "position": "WR"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Ladd McConkey",
+        "position": "WR"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Justin Jefferson",
+        "position": "WR"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Rachaad White",
+        "position": "RB"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Jonah Coleman",
+        "position": "RB"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "De'Zhaun Stribling",
+        "position": "WR"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Jordyn Tyson",
+        "position": "WR"
+      }
+    ],
+    "5": [
+      {
+        "team_name": "Ozzy Stick",
+        "player_name": "Stefon Diggs",
+        "position": "WR"
+      },
+      {
+        "team_name": "Ozzy Stick",
+        "player_name": "Tetairoa McMillan",
+        "position": "WR"
+      },
+      {
+        "team_name": "Ozzy Stick",
+        "player_name": "Kenneth Walker III",
+        "position": "RB"
+      },
+      {
+        "team_name": "Ozzy Stick",
+        "player_name": "Jayden Reed",
+        "position": "WR"
+      },
+      {
+        "team_name": "Omaha Beach Real Estate",
+        "player_name": "Baker Mayfield",
+        "position": "QB"
+      },
+      {
+        "team_name": "You gotta be Falcon kiddin me",
+        "player_name": "Jalen Nailor",
+        "position": "WR"
+      },
+      {
+        "team_name": "You gotta be Falcon kiddin me",
+        "player_name": "Emmett Johnson",
+        "position": "RB"
+      },
+      {
+        "team_name": "You gotta be Falcon kiddin me",
+        "player_name": "Caleb Williams",
+        "position": "QB"
+      },
+      {
+        "team_name": "You gotta be Falcon kiddin me",
+        "player_name": "Jaxson Dart",
+        "position": "QB"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Rico Dowdle",
+        "position": "RB"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Xavier Worthy",
+        "position": "WR"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Chuba Hubbard",
+        "position": "RB"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Caleb Douglas",
+        "position": "WR"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Adonai Mitchell",
+        "position": "WR"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "DeVonta Smith",
+        "position": "WR"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Ja'Kobi Lane",
+        "position": "WR"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Alec Pierce",
+        "position": "WR"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "Jonathon Brooks",
+        "position": "RB"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "Jalen McMillan",
+        "position": "WR"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Bryce Young",
+        "position": "QB"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Jordan Mason",
+        "position": "RB"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Breece Hall",
+        "position": "RB"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Tank Dell",
+        "position": "WR"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "A.J. Brown",
+        "position": "WR"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "DJ Moore",
+        "position": "WR"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "Rashee Rice",
+        "position": "WR"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "Luke Musgrave",
+        "position": "TE"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "James Conner",
+        "position": "RB"
+      },
+      {
+        "team_name": "No Punts Intented",
+        "player_name": "Quentin Johnston",
+        "position": "WR"
+      },
+      {
+        "team_name": "No Punts Intented",
+        "player_name": "Jadarian Price",
+        "position": "RB"
+      },
+      {
+        "team_name": "No Punts Intented",
+        "player_name": "Isiah Pacheco",
+        "position": "RB"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Michael Pittman Jr.",
+        "position": "WR"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Kyle Monangai",
+        "position": "RB"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Travis Etienne Jr.",
+        "position": "RB"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Jordan Addison",
+        "position": "WR"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Tyreek Hill",
+        "position": "WR"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Zach Charbonnet",
+        "position": "RB"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Trevor Etienne",
+        "position": "RB"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "Josh Jacobs",
+        "position": "RB"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "Jalen Coker",
+        "position": "WR"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "Saquon Barkley",
+        "position": "RB"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "De'Von Achane",
+        "position": "RB"
+      },
+      {
+        "team_name": "Pad D's",
+        "player_name": "Lamar Jackson",
+        "position": "QB"
+      },
+      {
+        "team_name": "Pad D's",
+        "player_name": "Travis Kelce",
+        "position": "TE"
+      },
+      {
+        "team_name": "Pad D's",
+        "player_name": "Marvin Harrison Jr.",
+        "position": "WR"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Patrick Mahomes",
+        "position": "QB"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Ladd McConkey",
+        "position": "WR"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Jonah Coleman",
+        "position": "RB"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "De'Zhaun Stribling",
+        "position": "WR"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Jordyn Tyson",
+        "position": "WR"
+      }
+    ],
+    "6": [
+      {
+        "team_name": "Ozzy Stick",
+        "player_name": "Jayden Reed",
+        "position": "WR"
+      },
+      {
+        "team_name": "Omaha Beach Real Estate",
+        "player_name": "Jameson Williams",
+        "position": "WR"
+      },
+      {
+        "team_name": "Omaha Beach Real Estate",
+        "player_name": "Baker Mayfield",
+        "position": "QB"
+      },
+      {
+        "team_name": "You gotta be Falcon kiddin me",
+        "player_name": "Jaxson Dart",
+        "position": "QB"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Tyler Warren",
+        "position": "TE"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Adonai Mitchell",
+        "position": "WR"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Jeremiyah Love",
+        "position": "RB"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Jalen Hurts",
+        "position": "QB"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Jacory Croskey-Merritt",
+        "position": "RB"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Deebo Samuel Sr.",
+        "position": "WR"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Joe Burrow",
+        "position": "QB"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Alec Pierce",
+        "position": "WR"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "David Montgomery",
+        "position": "RB"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "Tee Higgins",
+        "position": "WR"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "Sam LaPorta",
+        "position": "TE"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "Amon-Ra St. Brown",
+        "position": "WR"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "Jonathon Brooks",
+        "position": "RB"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "Jalen McMillan",
+        "position": "WR"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Quinshon Judkins",
+        "position": "RB"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Ja'Marr Chase",
+        "position": "WR"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Jordan Mason",
+        "position": "RB"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Breece Hall",
+        "position": "RB"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Tank Dell",
+        "position": "WR"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "DJ Moore",
+        "position": "WR"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "Jahmyr Gibbs",
+        "position": "RB"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "Rashee Rice",
+        "position": "WR"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "James Conner",
+        "position": "RB"
+      },
+      {
+        "team_name": "No Punts Intented",
+        "player_name": "Aaron Jones Sr.",
+        "position": "RB"
+      },
+      {
+        "team_name": "No Punts Intented",
+        "player_name": "Jadarian Price",
+        "position": "RB"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "T.J. Hockenson",
+        "position": "TE"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Kyle Monangai",
+        "position": "RB"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Michael Pittman Jr.",
+        "position": "WR"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Travis Etienne Jr.",
+        "position": "RB"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Davante Adams",
+        "position": "WR"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Malik Washington",
+        "position": "WR"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Jared Goff",
+        "position": "QB"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Jordan Addison",
+        "position": "WR"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Zach Charbonnet",
+        "position": "RB"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Roman Wilson",
+        "position": "WR"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "Kyler Murray",
+        "position": "QB"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "Josh Jacobs",
+        "position": "RB"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "Ollie Gordon II",
+        "position": "RB"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "Saquon Barkley",
+        "position": "RB"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "De'Von Achane",
+        "position": "RB"
+      },
+      {
+        "team_name": "Pad D's",
+        "player_name": "Lamar Jackson",
+        "position": "QB"
+      },
+      {
+        "team_name": "Pad D's",
+        "player_name": "Chase Brown",
+        "position": "RB"
+      },
+      {
+        "team_name": "Pad D's",
+        "player_name": "Jauan Jennings",
+        "position": "WR"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Samaje Perine",
+        "position": "RB"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Justin Jefferson",
+        "position": "WR"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Jonah Coleman",
+        "position": "RB"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Jordyn Tyson",
+        "position": "WR"
+      }
+    ],
+    "7": [
+      {
+        "team_name": "Ozzy Stick",
+        "player_name": "Bam Knight",
+        "position": "RB"
+      },
+      {
+        "team_name": "Ozzy Stick",
+        "player_name": "Parker Washington",
+        "position": "WR"
+      },
+      {
+        "team_name": "Ozzy Stick",
+        "player_name": "James Cook III",
+        "position": "RB"
+      },
+      {
+        "team_name": "Ozzy Stick",
+        "player_name": "Stefon Diggs",
+        "position": "WR"
+      },
+      {
+        "team_name": "Ozzy Stick",
+        "player_name": "Romeo Doubs",
+        "position": "WR"
+      },
+      {
+        "team_name": "Ozzy Stick",
+        "player_name": "Jayden Reed",
+        "position": "WR"
+      },
+      {
+        "team_name": "Omaha Beach Real Estate",
+        "player_name": "Dalton Kincaid",
+        "position": "TE"
+      },
+      {
+        "team_name": "Omaha Beach Real Estate",
+        "player_name": "Jayden Daniels",
+        "position": "QB"
+      },
+      {
+        "team_name": "You gotta be Falcon kiddin me",
+        "player_name": "Emeka Egbuka",
+        "position": "WR"
+      },
+      {
+        "team_name": "You gotta be Falcon kiddin me",
+        "player_name": "Brenton Strange",
+        "position": "TE"
+      },
+      {
+        "team_name": "You gotta be Falcon kiddin me",
+        "player_name": "Keaton Mitchell",
+        "position": "RB"
+      },
+      {
+        "team_name": "You gotta be Falcon kiddin me",
+        "player_name": "Antonio Williams",
+        "position": "WR"
+      },
+      {
+        "team_name": "You gotta be Falcon kiddin me",
+        "player_name": "Jaxson Dart",
+        "position": "QB"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Jeremiyah Love",
+        "position": "RB"
+      },
+      {
+        "team_name": "Girder’s 6 Cookies",
+        "player_name": "Tyler Warren",
+        "position": "TE"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "DeVonta Smith",
+        "position": "WR"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Bhayshul Tuten",
+        "position": "RB"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Deebo Samuel Sr.",
+        "position": "WR"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Chris Rodriguez Jr.",
+        "position": "RB"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Jacory Croskey-Merritt",
+        "position": "RB"
+      },
+      {
+        "team_name": "Flow Brrr",
+        "player_name": "Alec Pierce",
+        "position": "WR"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "David Montgomery",
+        "position": "RB"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "Jonathon Brooks",
+        "position": "RB"
+      },
+      {
+        "team_name": "Hunter’s Hunters",
+        "player_name": "Jalen McMillan",
+        "position": "WR"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Breece Hall",
+        "position": "RB"
+      },
+      {
+        "team_name": "Big Bad Hokkkk",
+        "player_name": "Brian Robinson Jr.",
+        "position": "RB"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "DJ Moore",
+        "position": "WR"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "Jakobi Meyers",
+        "position": "WR"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "Rashee Rice",
+        "position": "WR"
+      },
+      {
+        "team_name": "Maître Stick",
+        "player_name": "Terrance Ferguson",
+        "position": "TE"
+      },
+      {
+        "team_name": "No Punts Intented",
+        "player_name": "Josh Allen",
+        "position": "QB"
+      },
+      {
+        "team_name": "No Punts Intented",
+        "player_name": "Kimani Vidal",
+        "position": "RB"
+      },
+      {
+        "team_name": "No Punts Intented",
+        "player_name": "Quentin Johnston",
+        "position": "WR"
+      },
+      {
+        "team_name": "No Punts Intented",
+        "player_name": "Jadarian Price",
+        "position": "RB"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Trevor Lawrence",
+        "position": "QB"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Brian Thomas Jr.",
+        "position": "WR"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Kyle Monangai",
+        "position": "RB"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Dontayvion Wicks",
+        "position": "WR"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Michael Pittman Jr.",
+        "position": "WR"
+      },
+      {
+        "team_name": "Revy’s Konstruction",
+        "player_name": "Travis Etienne Jr.",
+        "position": "RB"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Zach Charbonnet",
+        "position": "RB"
+      },
+      {
+        "team_name": "Supernova’s Studs",
+        "player_name": "Davante Adams",
+        "position": "WR"
+      },
+      {
+        "team_name": "The Sage's Playmakers",
+        "player_name": "Tank Bigsby",
+        "position": "RB"
+      },
+      {
+        "team_name": "Pad D's",
+        "player_name": "Lamar Jackson",
+        "position": "QB"
+      },
+      {
+        "team_name": "Pad D's",
+        "player_name": "Khalil Shakir",
+        "position": "WR"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Ladd McConkey",
+        "position": "WR"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Rachaad White",
+        "position": "RB"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Omarion Hampton",
+        "position": "RB"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Chig Okonkwo",
+        "position": "TE"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Mike Evans",
+        "position": "WR"
+      },
+      {
+        "team_name": "Tsuga’s Tuck Shop",
+        "player_name": "Jordyn Tyson",
+        "position": "WR"
+      }
+    ]
+  },
+  "unresolved_waiver_players": [],
+  "assumptions": [
+    "Replacement level is recomputed separately for EVERY completed week, using that week's own historical roster snapshot and that week's own Sleeper projections -- not today's roster applied retroactively.",
+    "A player (rostered or waiver) only counts for a given week's ranking if they were projected for more than 0 points that week -- this is the sole filter (covers byes, injuries, and non-factors in one rule); see not_playing_by_week.",
+    "Waiver pool for a week = that week's Sleeper-projected players (also projected > 0) not matched to any of the 14 rosters that week.",
+    "A band's baseline for a week = average of its members' REAL actual Yahoo points that week (not a projection). Waiver members are resolved to a real Yahoo player_id first (via another week's roster if they were ever rostered, else a Yahoo player search) so they're scored the same way as rostered members; any name that couldn't be resolved at all is excluded from the average and listed in unresolved_waiver_players.",
+    "A band member who didn't play a given week (no actual data, or an exact 0.0) is excluded from that week's average rather than dragging it to 0.",
+    "Each currently-rostered player's PABB = sum, over every completed week, of (that week's actual points - that week's replacement level for their position); a week they didn't play contributes exactly 0.",
+    "p (flex share) is computed fresh for each week from that week's own flex-slot outcome, not a fixed constant."
+  ]
+}

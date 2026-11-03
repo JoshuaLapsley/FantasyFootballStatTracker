@@ -7,6 +7,8 @@ from pathlib import Path
 
 
 
+
+
 # RunWeekly.py is at <root>/PythonData/Refactor/CurrentSeason/, so parents[3] is the project root
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -39,6 +41,8 @@ from PythonData.APICallsAndStats.Projections.GetSleeperProjections import debug_
 
 
 from PythonData.APICallsAndStats.DataFunctions.TradeEvaluator import write_trade_evaluations
+
+from PythonData.APICallsAndStats.DataFunctions.Simulate_ROS import run
 
 
 
@@ -127,8 +131,11 @@ WEBSITE_DIR = (PROJECT_ROOT / "Website" / "girderma-gridiron-website"
 
 #get_projections(2026, 7, "../APICallsAndStats/Projections/SleeperProjections")
 
-write_transactions_file(lg2026, 2026)
-calculate_waiver_war(lg2026, 2026)
-write_trade_evaluations(2026)
+# write_transactions_file(lg2026, 2026)
+# calculate_waiver_war(lg2026, 2026)
+# write_trade_evaluations(2026)
+
+#Sleeper API Call
+run(2026)
 
 copy_dir(DATA_DIR, WEBSITE_DIR)

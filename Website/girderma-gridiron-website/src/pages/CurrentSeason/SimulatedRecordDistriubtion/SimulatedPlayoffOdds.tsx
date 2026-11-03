@@ -3,7 +3,7 @@ import ImageCard from '../Components/ImageCard';
 
 let imageSrc: string | null = null;
 try {
-  imageSrc = require('../../../league_stats_output/CurrentSeason/Simulations/record_distribution.jpg');
+  imageSrc = require('../../../league_stats_output/2026/Simulations/record_distribution.png');
 } catch {
   imageSrc = null;
 }

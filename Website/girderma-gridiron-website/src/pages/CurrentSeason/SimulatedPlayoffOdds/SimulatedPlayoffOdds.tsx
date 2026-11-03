@@ -3,7 +3,7 @@ import ImageCard from '../Components/ImageCard';
 
 let imageSrc: string | null = null;
 try {
-  imageSrc = require('../../../league_stats_output/CurrentSeason/Simulations/playoff_odds.jpg');
+  imageSrc = require('../../../league_stats_output/2026/Simulations/playoff_odds.png');
 } catch {
   imageSrc = null;
 }

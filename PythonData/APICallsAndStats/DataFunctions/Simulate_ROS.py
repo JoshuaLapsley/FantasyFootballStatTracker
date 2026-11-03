@@ -81,7 +81,6 @@ PYTHONDATA_DIR = APICALLS_DIR.parent                  # .../PythonData
 API_DATA_DIR = APICALLS_DIR / "APIData"
 DATA_DIR = APICALLS_DIR / "Data"
 PROJ_DIR = APICALLS_DIR / "Projections" / "SleeperProjections"
-OUT_DIR = PYTHONDATA_DIR / "CurrentSeason" / "Simulations"
 
 # --------------------------------------------------------------------------
 # League constants
@@ -108,6 +107,10 @@ REPLACEMENT = {"QB": 15.0, "RB": 5.0, "WR": 7.0, "TE": 8.0, "K": 7.0, "DEF": 6.0
 FLEX_FLOOR = min(REPLACEMENT["RB"], REPLACEMENT["WR"], REPLACEMENT["TE"])
 
 FIXED_SLOTS = {"QB", "RB", "WR", "TE", "K", "DEF"}  # selected_position == real position
+
+def get_out_dir(year):
+    """Output directory: ../Data/{year}/Simulations (relative to the script)."""
+    return DATA_DIR / str(year) / "Simulations"
 
 
 # ==========================================================================
@@ -683,16 +686,17 @@ def run(year=2026, n_sims=N_SIMS):
 
     total_games = int(round(max(records[k][0] + records[k][1] for k in team_keys))) + n_remaining
 
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    out_dir = get_out_dir(year)
+    out_dir.mkdir(parents=True, exist_ok=True)
     plot_record_distribution(team_keys, names, sim, total_games,
-                             OUT_DIR / "record_distribution.png")
-    plot_playoff_odds(team_keys, names, sim, OUT_DIR / "playoff_odds.png")
+                             out_dir / "record_distribution.png")
+    plot_playoff_odds(team_keys, names, sim, out_dir / "playoff_odds.png")
     plot_conditional_outcomes(team_keys, names, sim, n_remaining,
-                              OUT_DIR / "conditional_outcomes_by_record.png")
+                              out_dir / "conditional_outcomes_by_record.png")
     plot_projected_team_points(team_keys, names, proj_scores, remaining_weeks,
-                               OUT_DIR / "projected_team_points.png")
+                               out_dir / "projected_team_points.png")
 
-    print(f"\nWrote PNGs to {OUT_DIR}")
+    print(f"\nWrote PNGs to {out_dir}")
     # Summary table
     rank = sim["seed_rank"]
     print("\nPlayoff summary:")
