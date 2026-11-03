@@ -9,7 +9,7 @@
     "player_name": "Jahmyr Gibbs",
     "position": "RB",
     "bye_week": 6,
-    "total_points": 171.0,
+    "total_points": 195.8,
     "weekly_points": [
       {
         "week": 1,
@@ -38,6 +38,10 @@
       {
         "week": 7,
         "points": 17.3
+      },
+      {
+        "week": 8,
+        "points": 24.8
       }
     ]
   },
@@ -51,7 +55,7 @@
     "player_name": "Bijan Robinson",
     "position": "RB",
     "bye_week": 11,
-    "total_points": 145.7,
+    "total_points": 153.3,
     "weekly_points": [
       {
         "week": 1,
@@ -80,6 +84,10 @@
       {
         "week": 7,
         "points": 17.2
+      },
+      {
+        "week": 8,
+        "points": 7.6
       }
     ]
   },
@@ -93,7 +101,7 @@
     "player_name": "Ja'Marr Chase",
     "position": "WR",
     "bye_week": 6,
-    "total_points": 97.1,
+    "total_points": 128.2,
     "weekly_points": [
       {
         "week": 1,
@@ -122,6 +130,10 @@
       {
         "week": 7,
         "points": 17.2
+      },
+      {
+        "week": 8,
+        "points": 31.1
       }
     ]
   },
@@ -135,7 +147,7 @@
     "player_name": "Puka Nacua",
     "position": "WR",
     "bye_week": 11,
-    "total_points": 113.6,
+    "total_points": 138.6,
     "weekly_points": [
       {
         "week": 1,
@@ -164,6 +176,10 @@
       {
         "week": 7,
         "points": 21.8
+      },
+      {
+        "week": 8,
+        "points": 25.0
       }
     ]
   },
@@ -177,7 +193,7 @@
     "player_name": "Jaxon Smith-Njigba",
     "position": "WR",
     "bye_week": 11,
-    "total_points": 196.16,
+    "total_points": 219.96,
     "weekly_points": [
       {
         "week": 1,
@@ -206,6 +222,10 @@
       {
         "week": 7,
         "points": 31.3
+      },
+      {
+        "week": 8,
+        "points": 23.8
       }
     ]
   },
@@ -248,6 +268,10 @@
       {
         "week": 7,
         "points": 22.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -261,7 +285,7 @@
     "player_name": "Amon-Ra St. Brown",
     "position": "WR",
     "bye_week": 6,
-    "total_points": 128.4,
+    "total_points": 141.0,
     "weekly_points": [
       {
         "week": 1,
@@ -290,6 +314,10 @@
       {
         "week": 7,
         "points": 24.2
+      },
+      {
+        "week": 8,
+        "points": 12.6
       }
     ]
   },
@@ -303,7 +331,7 @@
     "player_name": "Jonathan Taylor",
     "position": "RB",
     "bye_week": 13,
-    "total_points": 137.5,
+    "total_points": 144.2,
     "weekly_points": [
       {
         "week": 1,
@@ -332,6 +360,10 @@
       {
         "week": 7,
         "points": 19.0
+      },
+      {
+        "week": 8,
+        "points": 6.7
       }
     ]
   },
@@ -345,7 +377,7 @@
     "player_name": "CeeDee Lamb",
     "position": "WR",
     "bye_week": 14,
-    "total_points": 155.5,
+    "total_points": 168.3,
     "weekly_points": [
       {
         "week": 1,
@@ -374,6 +406,10 @@
       {
         "week": 7,
         "points": 24.4
+      },
+      {
+        "week": 8,
+        "points": 12.8
       }
     ]
   },
@@ -387,7 +423,7 @@
     "player_name": "James Cook III",
     "position": "RB",
     "bye_week": 7,
-    "total_points": 113.6,
+    "total_points": 131.7,
     "weekly_points": [
       {
         "week": 1,
@@ -416,6 +452,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 18.1
       }
     ]
   },
@@ -429,7 +469,7 @@
     "player_name": "Ashton Jeanty",
     "position": "RB",
     "bye_week": 13,
-    "total_points": 122.0,
+    "total_points": 132.3,
     "weekly_points": [
       {
         "week": 1,
@@ -458,6 +498,10 @@
       {
         "week": 7,
         "points": 21.6
+      },
+      {
+        "week": 8,
+        "points": 10.3
       }
     ]
   },
@@ -471,7 +515,7 @@
     "player_name": "Saquon Barkley",
     "position": "RB",
     "bye_week": 10,
-    "total_points": 38.1,
+    "total_points": 50.5,
     "weekly_points": [
       {
         "week": 1,
@@ -500,6 +544,10 @@
       {
         "week": 7,
         "points": 15.1
+      },
+      {
+        "week": 8,
+        "points": 12.4
       }
     ]
   },
@@ -513,7 +561,7 @@
     "player_name": "Justin Jefferson",
     "position": "WR",
     "bye_week": 6,
-    "total_points": 72.1,
+    "total_points": 86.4,
     "weekly_points": [
       {
         "week": 1,
@@ -542,6 +590,10 @@
       {
         "week": 7,
         "points": 8.4
+      },
+      {
+        "week": 8,
+        "points": 14.3
       }
     ]
   },
@@ -555,7 +607,7 @@
     "player_name": "Chase Brown",
     "position": "RB",
     "bye_week": 6,
-    "total_points": 74.8,
+    "total_points": 90.9,
     "weekly_points": [
       {
         "week": 1,
@@ -584,6 +636,10 @@
       {
         "week": 7,
         "points": 9.8
+      },
+      {
+        "week": 8,
+        "points": 16.1
       }
     ]
   },
@@ -597,7 +653,7 @@
     "player_name": "Drake London",
     "position": "WR",
     "bye_week": 11,
-    "total_points": 108.0,
+    "total_points": 109.8,
     "weekly_points": [
       {
         "week": 1,
@@ -626,6 +682,10 @@
       {
         "week": 7,
         "points": 19.6
+      },
+      {
+        "week": 8,
+        "points": 1.8
       }
     ]
   },
@@ -639,7 +699,7 @@
     "player_name": "Omarion Hampton",
     "position": "RB",
     "bye_week": 7,
-    "total_points": 57.5,
+    "total_points": 62.2,
     "weekly_points": [
       {
         "week": 1,
@@ -668,6 +728,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 4.7
       }
     ]
   },
@@ -709,6 +773,10 @@
       },
       {
         "week": 7,
+        "points": 0.0
+      },
+      {
+        "week": 8,
         "points": 0.0
       }
     ]
@@ -752,6 +820,10 @@
       {
         "week": 7,
         "points": 2.6
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -765,7 +837,7 @@
     "player_name": "Kenneth Walker III",
     "position": "RB",
     "bye_week": 5,
-    "total_points": 147.7,
+    "total_points": 160.1,
     "weekly_points": [
       {
         "week": 1,
@@ -794,6 +866,10 @@
       {
         "week": 7,
         "points": 9.7
+      },
+      {
+        "week": 8,
+        "points": 12.4
       }
     ]
   },
@@ -836,6 +912,10 @@
       {
         "week": 7,
         "points": 7.8
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -849,7 +929,7 @@
     "player_name": "Brock Bowers",
     "position": "TE",
     "bye_week": 13,
-    "total_points": 95.5,
+    "total_points": 123.7,
     "weekly_points": [
       {
         "week": 1,
@@ -878,6 +958,10 @@
       {
         "week": 7,
         "points": 13.3
+      },
+      {
+        "week": 8,
+        "points": 28.2
       }
     ]
   },
@@ -891,7 +975,7 @@
     "player_name": "Derrick Henry",
     "position": "RB",
     "bye_week": 13,
-    "total_points": 122.7,
+    "total_points": 136.7,
     "weekly_points": [
       {
         "week": 1,
@@ -920,6 +1004,10 @@
       {
         "week": 7,
         "points": 5.9
+      },
+      {
+        "week": 8,
+        "points": 14.0
       }
     ]
   },
@@ -933,7 +1021,7 @@
     "player_name": "George Pickens",
     "position": "WR",
     "bye_week": 14,
-    "total_points": 97.5,
+    "total_points": 104.3,
     "weekly_points": [
       {
         "week": 1,
@@ -962,6 +1050,10 @@
       {
         "week": 7,
         "points": 15.7
+      },
+      {
+        "week": 8,
+        "points": 6.8
       }
     ]
   },
@@ -975,7 +1067,7 @@
     "player_name": "Josh Allen",
     "position": "QB",
     "bye_week": 7,
-    "total_points": 165.26,
+    "total_points": 192.82,
     "weekly_points": [
       {
         "week": 1,
@@ -1004,6 +1096,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 27.56
       }
     ]
   },
@@ -1017,7 +1113,7 @@
     "player_name": "Trey McBride",
     "position": "TE",
     "bye_week": 14,
-    "total_points": 130.2,
+    "total_points": 150.4,
     "weekly_points": [
       {
         "week": 1,
@@ -1046,6 +1142,10 @@
       {
         "week": 7,
         "points": 27.1
+      },
+      {
+        "week": 8,
+        "points": 20.2
       }
     ]
   },
@@ -1088,6 +1188,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -1101,7 +1205,7 @@
     "player_name": "Kyren Williams",
     "position": "RB",
     "bye_week": 11,
-    "total_points": 137.1,
+    "total_points": 150.0,
     "weekly_points": [
       {
         "week": 1,
@@ -1130,6 +1234,10 @@
       {
         "week": 7,
         "points": 18.1
+      },
+      {
+        "week": 8,
+        "points": 12.9
       }
     ]
   },
@@ -1172,6 +1280,10 @@
       {
         "week": 7,
         "points": 11.6
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -1185,7 +1297,7 @@
     "player_name": "Rashee Rice",
     "position": "WR",
     "bye_week": 5,
-    "total_points": 38.0,
+    "total_points": 56.3,
     "weekly_points": [
       {
         "week": 1,
@@ -1214,6 +1326,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 18.3
       }
     ]
   },
@@ -1256,6 +1372,10 @@
       {
         "week": 7,
         "points": 18.1
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -1269,7 +1389,7 @@
     "player_name": "Jeremiyah Love",
     "position": "RB",
     "bye_week": 14,
-    "total_points": 51.1,
+    "total_points": 53.4,
     "weekly_points": [
       {
         "week": 1,
@@ -1298,6 +1418,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 2.3
       }
     ]
   },
@@ -1340,6 +1464,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -1353,7 +1481,7 @@
     "player_name": "Colston Loveland",
     "position": "TE",
     "bye_week": 10,
-    "total_points": 62.4,
+    "total_points": 73.9,
     "weekly_points": [
       {
         "week": 1,
@@ -1382,6 +1510,10 @@
       {
         "week": 7,
         "points": 19.9
+      },
+      {
+        "week": 8,
+        "points": 11.5
       }
     ]
   },
@@ -1424,6 +1556,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -1437,7 +1573,7 @@
     "player_name": "Tee Higgins",
     "position": "WR",
     "bye_week": 6,
-    "total_points": 102.1,
+    "total_points": 139.6,
     "weekly_points": [
       {
         "week": 1,
@@ -1466,6 +1602,10 @@
       {
         "week": 7,
         "points": 26.8
+      },
+      {
+        "week": 8,
+        "points": 37.5
       }
     ]
   },
@@ -1479,7 +1619,7 @@
     "player_name": "Javonte Williams",
     "position": "RB",
     "bye_week": 14,
-    "total_points": 130.5,
+    "total_points": 137.2,
     "weekly_points": [
       {
         "week": 1,
@@ -1508,6 +1648,10 @@
       {
         "week": 7,
         "points": 21.5
+      },
+      {
+        "week": 8,
+        "points": 6.7
       }
     ]
   },
@@ -1550,6 +1694,10 @@
       {
         "week": 7,
         "points": 27.7
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -1563,7 +1711,7 @@
     "player_name": "Tetairoa McMillan",
     "position": "WR",
     "bye_week": 5,
-    "total_points": 97.1,
+    "total_points": 108.9,
     "weekly_points": [
       {
         "week": 1,
@@ -1592,6 +1740,10 @@
       {
         "week": 7,
         "points": 8.0
+      },
+      {
+        "week": 8,
+        "points": 11.8
       }
     ]
   },
@@ -1605,7 +1757,7 @@
     "player_name": "Garrett Wilson",
     "position": "WR",
     "bye_week": 13,
-    "total_points": 99.4,
+    "total_points": 113.7,
     "weekly_points": [
       {
         "week": 1,
@@ -1634,6 +1786,10 @@
       {
         "week": 7,
         "points": 4.6
+      },
+      {
+        "week": 8,
+        "points": 14.3
       }
     ]
   },
@@ -1647,7 +1803,7 @@
     "player_name": "Josh Jacobs",
     "position": "RB",
     "bye_week": 11,
-    "total_points": 20.1,
+    "total_points": 43.3,
     "weekly_points": [
       {
         "week": 1,
@@ -1676,6 +1832,10 @@
       {
         "week": 7,
         "points": 20.1
+      },
+      {
+        "week": 8,
+        "points": 23.2
       }
     ]
   },
@@ -1718,6 +1878,10 @@
       {
         "week": 7,
         "points": 19.1
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -1759,6 +1923,10 @@
       },
       {
         "week": 7,
+        "points": 0.0
+      },
+      {
+        "week": 8,
         "points": 0.0
       }
     ]
@@ -1802,6 +1970,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -1815,7 +1987,7 @@
     "player_name": "Ladd McConkey",
     "position": "WR",
     "bye_week": 7,
-    "total_points": 39.0,
+    "total_points": 51.6,
     "weekly_points": [
       {
         "week": 1,
@@ -1844,6 +2016,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 12.6
       }
     ]
   },
@@ -1857,7 +2033,7 @@
     "player_name": "Jaylen Waddle",
     "position": "WR",
     "bye_week": 10,
-    "total_points": 63.9,
+    "total_points": 78.8,
     "weekly_points": [
       {
         "week": 1,
@@ -1886,6 +2062,10 @@
       {
         "week": 7,
         "points": 8.8
+      },
+      {
+        "week": 8,
+        "points": 14.9
       }
     ]
   },
@@ -1928,6 +2108,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -1941,7 +2125,7 @@
     "player_name": "D'Andre Swift",
     "position": "RB",
     "bye_week": 10,
-    "total_points": 122.8,
+    "total_points": 150.7,
     "weekly_points": [
       {
         "week": 1,
@@ -1970,6 +2154,10 @@
       {
         "week": 7,
         "points": 19.0
+      },
+      {
+        "week": 8,
+        "points": 27.9
       }
     ]
   },
@@ -1983,7 +2171,7 @@
     "player_name": "Quinshon Judkins",
     "position": "RB",
     "bye_week": 11,
-    "total_points": 79.7,
+    "total_points": 86.6,
     "weekly_points": [
       {
         "week": 1,
@@ -2012,6 +2200,10 @@
       {
         "week": 7,
         "points": 23.4
+      },
+      {
+        "week": 8,
+        "points": 6.9
       }
     ]
   },
@@ -2053,6 +2245,10 @@
       },
       {
         "week": 7,
+        "points": 0.0
+      },
+      {
+        "week": 8,
         "points": 0.0
       }
     ]
@@ -2096,6 +2292,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -2109,7 +2309,7 @@
     "player_name": "Bucky Irving",
     "position": "RB",
     "bye_week": 10,
-    "total_points": 109.6,
+    "total_points": 130.6,
     "weekly_points": [
       {
         "week": 1,
@@ -2138,6 +2338,10 @@
       {
         "week": 7,
         "points": 24.0
+      },
+      {
+        "week": 8,
+        "points": 21.0
       }
     ]
   },
@@ -2151,7 +2355,7 @@
     "player_name": "Christian Watson",
     "position": "WR",
     "bye_week": 11,
-    "total_points": 129.5,
+    "total_points": 146.8,
     "weekly_points": [
       {
         "week": 1,
@@ -2180,6 +2384,10 @@
       {
         "week": 7,
         "points": 10.7
+      },
+      {
+        "week": 8,
+        "points": 17.3
       }
     ]
   },
@@ -2193,7 +2401,7 @@
     "player_name": "Bhayshul Tuten",
     "position": "RB",
     "bye_week": 7,
-    "total_points": 88.4,
+    "total_points": 118.3,
     "weekly_points": [
       {
         "week": 1,
@@ -2222,6 +2430,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 29.9
       }
     ]
   },
@@ -2235,7 +2447,7 @@
     "player_name": "Tyler Warren",
     "position": "TE",
     "bye_week": 13,
-    "total_points": 69.9,
+    "total_points": 75.7,
     "weekly_points": [
       {
         "week": 1,
@@ -2264,6 +2476,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 5.8
       }
     ]
   },
@@ -2277,7 +2493,7 @@
     "player_name": "Jameson Williams",
     "position": "WR",
     "bye_week": 6,
-    "total_points": 83.7,
+    "total_points": 100.7,
     "weekly_points": [
       {
         "week": 1,
@@ -2306,6 +2522,10 @@
       {
         "week": 7,
         "points": 26.1
+      },
+      {
+        "week": 8,
+        "points": 17.0
       }
     ]
   },
@@ -2348,6 +2568,10 @@
       {
         "week": 7,
         "points": 4.3
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -2361,7 +2585,7 @@
     "player_name": "DJ Moore",
     "position": "WR",
     "bye_week": 7,
-    "total_points": 36.3,
+    "total_points": 52.9,
     "weekly_points": [
       {
         "week": 1,
@@ -2390,6 +2614,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 16.6
       }
     ]
   },
@@ -2403,7 +2631,7 @@
     "player_name": "Jayden Daniels",
     "position": "QB",
     "bye_week": 7,
-    "total_points": 85.66,
+    "total_points": 100.64,
     "weekly_points": [
       {
         "week": 1,
@@ -2432,6 +2660,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 14.98
       }
     ]
   },
@@ -2474,6 +2706,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -2487,7 +2723,7 @@
     "player_name": "Joe Burrow",
     "position": "QB",
     "bye_week": 6,
-    "total_points": 133.12,
+    "total_points": 175.6,
     "weekly_points": [
       {
         "week": 1,
@@ -2516,6 +2752,10 @@
       {
         "week": 7,
         "points": 28.88
+      },
+      {
+        "week": 8,
+        "points": 42.48
       }
     ]
   },
@@ -2529,7 +2769,7 @@
     "player_name": "Jadarian Price",
     "position": "RB",
     "bye_week": 11,
-    "total_points": 14.0,
+    "total_points": 19.7,
     "weekly_points": [
       {
         "week": 1,
@@ -2558,6 +2798,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 5.7
       }
     ]
   },
@@ -2571,7 +2815,7 @@
     "player_name": "Luther Burden III",
     "position": "WR",
     "bye_week": 10,
-    "total_points": 97.0,
+    "total_points": 115.6,
     "weekly_points": [
       {
         "week": 1,
@@ -2600,6 +2844,10 @@
       {
         "week": 7,
         "points": 23.7
+      },
+      {
+        "week": 8,
+        "points": 18.6
       }
     ]
   },
@@ -2613,7 +2861,7 @@
     "player_name": "Drake Maye",
     "position": "QB",
     "bye_week": 11,
-    "total_points": 146.46,
+    "total_points": 168.92,
     "weekly_points": [
       {
         "week": 1,
@@ -2642,6 +2890,10 @@
       {
         "week": 7,
         "points": 28.44
+      },
+      {
+        "week": 8,
+        "points": 22.46
       }
     ]
   },
@@ -2655,7 +2907,7 @@
     "player_name": "Rome Odunze",
     "position": "WR",
     "bye_week": 10,
-    "total_points": 60.1,
+    "total_points": 72.8,
     "weekly_points": [
       {
         "week": 1,
@@ -2684,6 +2936,10 @@
       {
         "week": 7,
         "points": 10.9
+      },
+      {
+        "week": 8,
+        "points": 12.7
       }
     ]
   },
@@ -2697,7 +2953,7 @@
     "player_name": "Chuba Hubbard",
     "position": "RB",
     "bye_week": 5,
-    "total_points": 108.1,
+    "total_points": 133.0,
     "weekly_points": [
       {
         "week": 1,
@@ -2726,6 +2982,10 @@
       {
         "week": 7,
         "points": 10.0
+      },
+      {
+        "week": 8,
+        "points": 24.9
       }
     ]
   },
@@ -2739,7 +2999,7 @@
     "player_name": "Parker Washington",
     "position": "WR",
     "bye_week": 7,
-    "total_points": 91.9,
+    "total_points": 95.5,
     "weekly_points": [
       {
         "week": 1,
@@ -2768,6 +3028,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 3.6
       }
     ]
   },
@@ -2781,7 +3045,7 @@
     "player_name": "Harold Fannin Jr.",
     "position": "TE",
     "bye_week": 11,
-    "total_points": 66.7,
+    "total_points": 90.1,
     "weekly_points": [
       {
         "week": 1,
@@ -2810,6 +3074,10 @@
       {
         "week": 7,
         "points": 13.1
+      },
+      {
+        "week": 8,
+        "points": 23.4
       }
     ]
   },
@@ -2852,6 +3120,10 @@
       {
         "week": 7,
         "points": 9.9
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -2894,6 +3166,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -2907,7 +3183,7 @@
     "player_name": "Jaylen Warren",
     "position": "RB",
     "bye_week": 9,
-    "total_points": 119.5,
+    "total_points": 140.8,
     "weekly_points": [
       {
         "week": 1,
@@ -2936,6 +3212,10 @@
       {
         "week": 7,
         "points": 16.7
+      },
+      {
+        "week": 8,
+        "points": 21.3
       }
     ]
   },
@@ -2978,6 +3258,10 @@
       {
         "week": 7,
         "points": 7.6
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -3020,6 +3304,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -3033,7 +3321,7 @@
     "player_name": "Josh Downs",
     "position": "WR",
     "bye_week": 13,
-    "total_points": 57.4,
+    "total_points": 69.7,
     "weekly_points": [
       {
         "week": 1,
@@ -3062,6 +3350,10 @@
       {
         "week": 7,
         "points": 3.8
+      },
+      {
+        "week": 8,
+        "points": 12.3
       }
     ]
   },
@@ -3075,7 +3367,7 @@
     "player_name": "Brian Thomas Jr.",
     "position": "WR",
     "bye_week": 7,
-    "total_points": 25.5,
+    "total_points": 33.7,
     "weekly_points": [
       {
         "week": 1,
@@ -3104,6 +3396,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 8.2
       }
     ]
   },
@@ -3117,7 +3413,7 @@
     "player_name": "Tucker Kraft",
     "position": "TE",
     "bye_week": 11,
-    "total_points": 71.2,
+    "total_points": 88.5,
     "weekly_points": [
       {
         "week": 1,
@@ -3146,6 +3442,10 @@
       {
         "week": 7,
         "points": 14.8
+      },
+      {
+        "week": 8,
+        "points": 17.3
       }
     ]
   },
@@ -3159,7 +3459,7 @@
     "player_name": "Tony Pollard",
     "position": "RB",
     "bye_week": 9,
-    "total_points": 87.8,
+    "total_points": 116.5,
     "weekly_points": [
       {
         "week": 1,
@@ -3188,6 +3488,10 @@
       {
         "week": 7,
         "points": 36.5
+      },
+      {
+        "week": 8,
+        "points": 28.7
       }
     ]
   },
@@ -3201,7 +3505,7 @@
     "player_name": "Justin Herbert",
     "position": "QB",
     "bye_week": 7,
-    "total_points": 70.44,
+    "total_points": 80.22,
     "weekly_points": [
       {
         "week": 1,
@@ -3230,6 +3534,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 9.78
       }
     ]
   },
@@ -3243,7 +3551,7 @@
     "player_name": "Sam LaPorta",
     "position": "TE",
     "bye_week": 6,
-    "total_points": 79.4,
+    "total_points": 85.9,
     "weekly_points": [
       {
         "week": 1,
@@ -3272,6 +3580,10 @@
       {
         "week": 7,
         "points": 2.8
+      },
+      {
+        "week": 8,
+        "points": 6.5
       }
     ]
   },
@@ -3285,7 +3597,7 @@
     "player_name": "Kyle Pitts Sr.",
     "position": "TE",
     "bye_week": 11,
-    "total_points": 63.1,
+    "total_points": 65.7,
     "weekly_points": [
       {
         "week": 1,
@@ -3314,6 +3626,10 @@
       {
         "week": 7,
         "points": 13.2
+      },
+      {
+        "week": 8,
+        "points": 2.6
       }
     ]
   },
@@ -3327,7 +3643,7 @@
     "player_name": "J.K. Dobbins",
     "position": "RB",
     "bye_week": 10,
-    "total_points": 58.0,
+    "total_points": 59.3,
     "weekly_points": [
       {
         "week": 1,
@@ -3356,6 +3672,10 @@
       {
         "week": 7,
         "points": 8.3
+      },
+      {
+        "week": 8,
+        "points": 1.3
       }
     ]
   },
@@ -3369,7 +3689,7 @@
     "player_name": "Rhamondre Stevenson",
     "position": "RB",
     "bye_week": 11,
-    "total_points": 86.9,
+    "total_points": 98.9,
     "weekly_points": [
       {
         "week": 1,
@@ -3398,6 +3718,10 @@
       {
         "week": 7,
         "points": 22.5
+      },
+      {
+        "week": 8,
+        "points": 12.0
       }
     ]
   },
@@ -3411,7 +3735,7 @@
     "player_name": "DK Metcalf",
     "position": "WR",
     "bye_week": 9,
-    "total_points": 76.5,
+    "total_points": 77.9,
     "weekly_points": [
       {
         "week": 1,
@@ -3440,6 +3764,10 @@
       {
         "week": 7,
         "points": 7.6
+      },
+      {
+        "week": 8,
+        "points": 1.4
       }
     ]
   },
@@ -3482,6 +3810,10 @@
       {
         "week": 7,
         "points": 6.7
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -3495,7 +3827,7 @@
     "player_name": "Michael Wilson",
     "position": "WR",
     "bye_week": 14,
-    "total_points": 81.88,
+    "total_points": 108.68,
     "weekly_points": [
       {
         "week": 1,
@@ -3524,6 +3856,10 @@
       {
         "week": 7,
         "points": 10.6
+      },
+      {
+        "week": 8,
+        "points": 26.8
       }
     ]
   },
@@ -3537,7 +3873,7 @@
     "player_name": "Blake Corum",
     "position": "RB",
     "bye_week": 11,
-    "total_points": 69.5,
+    "total_points": 82.8,
     "weekly_points": [
       {
         "week": 1,
@@ -3566,6 +3902,10 @@
       {
         "week": 7,
         "points": 17.1
+      },
+      {
+        "week": 8,
+        "points": 13.3
       }
     ]
   },
@@ -3579,7 +3919,7 @@
     "player_name": "Dalton Kincaid",
     "position": "TE",
     "bye_week": 7,
-    "total_points": 60.5,
+    "total_points": 79.1,
     "weekly_points": [
       {
         "week": 1,
@@ -3608,6 +3948,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 18.6
       }
     ]
   },
@@ -3621,7 +3965,7 @@
     "player_name": "Rico Dowdle",
     "position": "RB",
     "bye_week": 9,
-    "total_points": 33.0,
+    "total_points": 44.6,
     "weekly_points": [
       {
         "week": 1,
@@ -3650,6 +3994,10 @@
       {
         "week": 7,
         "points": 14.6
+      },
+      {
+        "week": 8,
+        "points": 11.6
       }
     ]
   },
@@ -3692,6 +4040,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -3705,7 +4057,7 @@
     "player_name": "Quentin Johnston",
     "position": "WR",
     "bye_week": 7,
-    "total_points": 24.8,
+    "total_points": 32.5,
     "weekly_points": [
       {
         "week": 1,
@@ -3734,6 +4086,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 7.7
       }
     ]
   },
@@ -3747,7 +4103,7 @@
     "player_name": "Caleb Williams",
     "position": "QB",
     "bye_week": 10,
-    "total_points": 84.6,
+    "total_points": 98.58,
     "weekly_points": [
       {
         "week": 1,
@@ -3776,6 +4132,10 @@
       {
         "week": 7,
         "points": 22.12
+      },
+      {
+        "week": 8,
+        "points": 13.98
       }
     ]
   },
@@ -3818,6 +4178,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -3831,7 +4195,7 @@
     "player_name": "Jordan Addison",
     "position": "WR",
     "bye_week": 6,
-    "total_points": 37.5,
+    "total_points": 49.1,
     "weekly_points": [
       {
         "week": 1,
@@ -3860,6 +4224,10 @@
       {
         "week": 7,
         "points": 4.3
+      },
+      {
+        "week": 8,
+        "points": 11.6
       }
     ]
   },
@@ -3873,7 +4241,7 @@
     "player_name": "Courtland Sutton",
     "position": "WR",
     "bye_week": 10,
-    "total_points": 38.8,
+    "total_points": 48.1,
     "weekly_points": [
       {
         "week": 1,
@@ -3902,6 +4270,10 @@
       {
         "week": 7,
         "points": 7.5
+      },
+      {
+        "week": 8,
+        "points": 9.3
       }
     ]
   },
@@ -3915,7 +4287,7 @@
     "player_name": "Dak Prescott",
     "position": "QB",
     "bye_week": 14,
-    "total_points": 133.14,
+    "total_points": 152.94,
     "weekly_points": [
       {
         "week": 1,
@@ -3944,6 +4316,10 @@
       {
         "week": 7,
         "points": 23.28
+      },
+      {
+        "week": 8,
+        "points": 19.8
       }
     ]
   },
@@ -3957,7 +4333,7 @@
     "player_name": "Trevor Lawrence",
     "position": "QB",
     "bye_week": 7,
-    "total_points": 118.2,
+    "total_points": 137.6,
     "weekly_points": [
       {
         "week": 1,
@@ -3986,6 +4362,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 19.4
       }
     ]
   },
@@ -3999,7 +4379,7 @@
     "player_name": "Stefon Diggs",
     "position": "WR",
     "bye_week": 7,
-    "total_points": 69.4,
+    "total_points": 82.2,
     "weekly_points": [
       {
         "week": 1,
@@ -4028,6 +4408,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 12.8
       }
     ]
   },
@@ -4041,7 +4425,7 @@
     "player_name": "Kenny Gainwell",
     "position": "RB",
     "bye_week": 10,
-    "total_points": 39.0,
+    "total_points": 53.0,
     "weekly_points": [
       {
         "week": 1,
@@ -4070,6 +4454,10 @@
       {
         "week": 7,
         "points": 8.8
+      },
+      {
+        "week": 8,
+        "points": 14.0
       }
     ]
   },
@@ -4083,7 +4471,7 @@
     "player_name": "Travis Kelce",
     "position": "TE",
     "bye_week": 5,
-    "total_points": 70.3,
+    "total_points": 82.0,
     "weekly_points": [
       {
         "week": 1,
@@ -4112,6 +4500,10 @@
       {
         "week": 7,
         "points": 8.4
+      },
+      {
+        "week": 8,
+        "points": 11.7
       }
     ]
   },
@@ -4154,6 +4546,10 @@
       {
         "week": 7,
         "points": 14.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -4167,7 +4563,7 @@
     "player_name": "Rachaad White",
     "position": "RB",
     "bye_week": 7,
-    "total_points": 48.8,
+    "total_points": 62.8,
     "weekly_points": [
       {
         "week": 1,
@@ -4196,6 +4592,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 14.0
       }
     ]
   },
@@ -4237,6 +4637,10 @@
       },
       {
         "week": 7,
+        "points": 0.0
+      },
+      {
+        "week": 8,
         "points": 0.0
       }
     ]
@@ -4280,6 +4684,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -4322,6 +4730,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -4335,7 +4747,7 @@
     "player_name": "Jordan Mason",
     "position": "RB",
     "bye_week": 6,
-    "total_points": 18.7,
+    "total_points": 20.7,
     "weekly_points": [
       {
         "week": 1,
@@ -4364,6 +4776,10 @@
       {
         "week": 7,
         "points": 6.8
+      },
+      {
+        "week": 8,
+        "points": 2.0
       }
     ]
   },
@@ -4377,7 +4793,7 @@
     "player_name": "Brandon Aubrey",
     "position": "K",
     "bye_week": 14,
-    "total_points": 61.0,
+    "total_points": 74.0,
     "weekly_points": [
       {
         "week": 1,
@@ -4406,6 +4822,10 @@
       {
         "week": 7,
         "points": 14.0
+      },
+      {
+        "week": 8,
+        "points": 13.0
       }
     ]
   },
@@ -4419,7 +4839,7 @@
     "player_name": "Makai Lemon",
     "position": "WR",
     "bye_week": 10,
-    "total_points": 49.9,
+    "total_points": 61.6,
     "weekly_points": [
       {
         "week": 1,
@@ -4448,6 +4868,10 @@
       {
         "week": 7,
         "points": 19.7
+      },
+      {
+        "week": 8,
+        "points": 11.7
       }
     ]
   },
@@ -4490,6 +4914,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -4503,7 +4931,7 @@
     "player_name": "Aaron Jones Sr.",
     "position": "RB",
     "bye_week": 6,
-    "total_points": 73.8,
+    "total_points": 79.8,
     "weekly_points": [
       {
         "week": 1,
@@ -4532,6 +4960,10 @@
       {
         "week": 7,
         "points": 3.6
+      },
+      {
+        "week": 8,
+        "points": 6.0
       }
     ]
   },
@@ -4574,6 +5006,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -4587,7 +5023,7 @@
     "player_name": "Matthew Golden",
     "position": "WR",
     "bye_week": 11,
-    "total_points": 110.6,
+    "total_points": 131.5,
     "weekly_points": [
       {
         "week": 1,
@@ -4616,6 +5052,10 @@
       {
         "week": 7,
         "points": 9.9
+      },
+      {
+        "week": 8,
+        "points": 20.9
       }
     ]
   },
@@ -4658,6 +5098,10 @@
       {
         "week": 7,
         "points": 2.1
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -4671,7 +5115,7 @@
     "player_name": "Jakobi Meyers",
     "position": "WR",
     "bye_week": 7,
-    "total_points": 60.7,
+    "total_points": 65.1,
     "weekly_points": [
       {
         "week": 1,
@@ -4700,6 +5144,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 4.4
       }
     ]
   },
@@ -4742,6 +5190,10 @@
       {
         "week": 7,
         "points": 9.1
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -4784,6 +5236,10 @@
       {
         "week": 7,
         "points": 8.7
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -4797,7 +5253,7 @@
     "player_name": "Xavier Worthy",
     "position": "WR",
     "bye_week": 5,
-    "total_points": 51.7,
+    "total_points": 56.0,
     "weekly_points": [
       {
         "week": 1,
@@ -4826,6 +5282,10 @@
       {
         "week": 7,
         "points": 4.1
+      },
+      {
+        "week": 8,
+        "points": 4.3
       }
     ]
   },
@@ -4839,7 +5299,7 @@
     "player_name": "Chris Rodriguez Jr.",
     "position": "RB",
     "bye_week": 7,
-    "total_points": 30.4,
+    "total_points": 43.2,
     "weekly_points": [
       {
         "week": 1,
@@ -4868,6 +5328,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 12.8
       }
     ]
   },
@@ -4881,7 +5345,7 @@
     "player_name": "Wan'Dale Robinson",
     "position": "WR",
     "bye_week": 9,
-    "total_points": 61.6,
+    "total_points": 77.3,
     "weekly_points": [
       {
         "week": 1,
@@ -4910,6 +5374,10 @@
       {
         "week": 7,
         "points": 4.7
+      },
+      {
+        "week": 8,
+        "points": 15.7
       }
     ]
   },
@@ -4923,7 +5391,7 @@
     "player_name": "Keaton Mitchell",
     "position": "RB",
     "bye_week": 7,
-    "total_points": 37.1,
+    "total_points": 42.4,
     "weekly_points": [
       {
         "week": 1,
@@ -4952,6 +5420,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 5.3
       }
     ]
   },
@@ -4965,7 +5437,7 @@
     "player_name": "Dallas Goedert",
     "position": "TE",
     "bye_week": 10,
-    "total_points": 56.8,
+    "total_points": 64.0,
     "weekly_points": [
       {
         "week": 1,
@@ -4994,6 +5466,10 @@
       {
         "week": 7,
         "points": 9.8
+      },
+      {
+        "week": 8,
+        "points": 7.2
       }
     ]
   },
@@ -5036,6 +5512,10 @@
       {
         "week": 7,
         "points": 3.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -5078,6 +5558,10 @@
       {
         "week": 7,
         "points": 5.5
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -5120,6 +5604,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -5133,7 +5621,7 @@
     "player_name": "Tyler Allgeier",
     "position": "RB",
     "bye_week": 14,
-    "total_points": 48.0,
+    "total_points": 84.1,
     "weekly_points": [
       {
         "week": 1,
@@ -5162,6 +5650,10 @@
       {
         "week": 7,
         "points": 7.9
+      },
+      {
+        "week": 8,
+        "points": 36.1
       }
     ]
   },
@@ -5175,7 +5667,7 @@
     "player_name": "Jalen Coker",
     "position": "WR",
     "bye_week": 5,
-    "total_points": 69.8,
+    "total_points": 79.4,
     "weekly_points": [
       {
         "week": 1,
@@ -5204,6 +5696,10 @@
       {
         "week": 7,
         "points": 1.9
+      },
+      {
+        "week": 8,
+        "points": 9.6
       }
     ]
   },
@@ -5217,7 +5713,7 @@
     "player_name": "KC Concepcion Jr.",
     "position": "WR",
     "bye_week": 11,
-    "total_points": 62.9,
+    "total_points": 69.6,
     "weekly_points": [
       {
         "week": 1,
@@ -5246,6 +5742,10 @@
       {
         "week": 7,
         "points": 23.2
+      },
+      {
+        "week": 8,
+        "points": 6.7
       }
     ]
   },
@@ -5259,7 +5759,7 @@
     "player_name": "Mark Andrews",
     "position": "TE",
     "bye_week": 13,
-    "total_points": 50.4,
+    "total_points": 54.8,
     "weekly_points": [
       {
         "week": 1,
@@ -5288,6 +5788,10 @@
       {
         "week": 7,
         "points": 5.3
+      },
+      {
+        "week": 8,
+        "points": 4.4
       }
     ]
   },
@@ -5301,7 +5805,7 @@
     "player_name": "Khalil Shakir",
     "position": "WR",
     "bye_week": 7,
-    "total_points": 55.0,
+    "total_points": 66.4,
     "weekly_points": [
       {
         "week": 1,
@@ -5330,6 +5834,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 11.4
       }
     ]
   },
@@ -5372,6 +5880,10 @@
       {
         "week": 7,
         "points": 14.8
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -5414,6 +5926,10 @@
       {
         "week": 7,
         "points": 3.2
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -5455,6 +5971,10 @@
       },
       {
         "week": 7,
+        "points": 0.0
+      },
+      {
+        "week": 8,
         "points": 0.0
       }
     ]
@@ -5498,6 +6018,10 @@
       {
         "week": 7,
         "points": 13.2
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -5540,6 +6064,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -5553,7 +6081,7 @@
     "player_name": "Zach Charbonnet",
     "position": "RB",
     "bye_week": 11,
-    "total_points": 0.0,
+    "total_points": 5.9,
     "weekly_points": [
       {
         "week": 1,
@@ -5582,6 +6110,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 5.9
       }
     ]
   },
@@ -5624,6 +6156,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -5637,7 +6173,7 @@
     "player_name": "Jalen Nailor",
     "position": "WR",
     "bye_week": 13,
-    "total_points": 15.5,
+    "total_points": 29.3,
     "weekly_points": [
       {
         "week": 1,
@@ -5666,6 +6202,10 @@
       {
         "week": 7,
         "points": 3.4
+      },
+      {
+        "week": 8,
+        "points": 13.8
       }
     ]
   },
@@ -5707,6 +6247,10 @@
       },
       {
         "week": 7,
+        "points": 0.0
+      },
+      {
+        "week": 8,
         "points": 0.0
       }
     ]
@@ -5750,6 +6294,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -5763,7 +6311,7 @@
     "player_name": "Caleb Douglas",
     "position": "WR",
     "bye_week": 6,
-    "total_points": 39.3,
+    "total_points": 47.6,
     "weekly_points": [
       {
         "week": 1,
@@ -5792,6 +6340,10 @@
       {
         "week": 7,
         "points": 21.0
+      },
+      {
+        "week": 8,
+        "points": 8.3
       }
     ]
   },
@@ -5834,6 +6386,10 @@
       {
         "week": 7,
         "points": 21.3
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -5876,6 +6432,10 @@
       {
         "week": 7,
         "points": 14.02
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -5917,6 +6477,10 @@
       },
       {
         "week": 7,
+        "points": 0.0
+      },
+      {
+        "week": 8,
         "points": 0.0
       }
     ]
@@ -5960,6 +6524,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -5973,7 +6541,7 @@
     "player_name": "Adonai Mitchell",
     "position": "WR",
     "bye_week": 13,
-    "total_points": 21.3,
+    "total_points": 48.5,
     "weekly_points": [
       {
         "week": 1,
@@ -6002,6 +6570,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 27.2
       }
     ]
   },
@@ -6044,6 +6616,10 @@
       {
         "week": 7,
         "points": 11.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -6057,7 +6633,7 @@
     "player_name": "Jason Myers",
     "position": "K",
     "bye_week": 11,
-    "total_points": 68.0,
+    "total_points": 71.0,
     "weekly_points": [
       {
         "week": 1,
@@ -6086,6 +6662,10 @@
       {
         "week": 7,
         "points": 8.0
+      },
+      {
+        "week": 8,
+        "points": 3.0
       }
     ]
   },
@@ -6099,7 +6679,7 @@
     "player_name": "Brenton Strange",
     "position": "TE",
     "bye_week": 7,
-    "total_points": 59.9,
+    "total_points": 67.4,
     "weekly_points": [
       {
         "week": 1,
@@ -6128,6 +6708,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 7.5
       }
     ]
   },
@@ -6141,7 +6725,7 @@
     "player_name": "Cameron Dicker",
     "position": "K",
     "bye_week": 7,
-    "total_points": 38.0,
+    "total_points": 49.0,
     "weekly_points": [
       {
         "week": 1,
@@ -6170,6 +6754,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 11.0
       }
     ]
   },
@@ -6183,7 +6771,7 @@
     "player_name": "Travis Hunter",
     "position": "WR",
     "bye_week": 7,
-    "total_points": 19.9,
+    "total_points": 20.4,
     "weekly_points": [
       {
         "week": 1,
@@ -6212,6 +6800,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.5
       }
     ]
   },
@@ -6254,6 +6846,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -6267,7 +6863,7 @@
     "player_name": "Jake Bates",
     "position": "K",
     "bye_week": 6,
-    "total_points": 58.0,
+    "total_points": 65.0,
     "weekly_points": [
       {
         "week": 1,
@@ -6296,6 +6892,10 @@
       {
         "week": 7,
         "points": 9.0
+      },
+      {
+        "week": 8,
+        "points": 7.0
       }
     ]
   },
@@ -6309,7 +6909,7 @@
     "player_name": "Dylan Sampson",
     "position": "RB",
     "bye_week": 11,
-    "total_points": 10.7,
+    "total_points": 23.6,
     "weekly_points": [
       {
         "week": 1,
@@ -6338,6 +6938,10 @@
       {
         "week": 7,
         "points": 10.7
+      },
+      {
+        "week": 8,
+        "points": 12.9
       }
     ]
   },
@@ -6351,7 +6955,7 @@
     "player_name": "Denzel Boston",
     "position": "WR",
     "bye_week": 11,
-    "total_points": 77.2,
+    "total_points": 86.9,
     "weekly_points": [
       {
         "week": 1,
@@ -6380,6 +6984,10 @@
       {
         "week": 7,
         "points": 5.7
+      },
+      {
+        "week": 8,
+        "points": 9.7
       }
     ]
   },
@@ -6393,7 +7001,7 @@
     "player_name": "Patrick Mahomes",
     "position": "QB",
     "bye_week": 5,
-    "total_points": 104.06,
+    "total_points": 129.5,
     "weekly_points": [
       {
         "week": 1,
@@ -6422,6 +7030,10 @@
       {
         "week": 7,
         "points": 7.0
+      },
+      {
+        "week": 8,
+        "points": 25.44
       }
     ]
   },
@@ -6435,7 +7047,7 @@
     "player_name": "Jauan Jennings",
     "position": "WR",
     "bye_week": 6,
-    "total_points": 8.3,
+    "total_points": 11.4,
     "weekly_points": [
       {
         "week": 1,
@@ -6464,6 +7076,10 @@
       {
         "week": 7,
         "points": 5.4
+      },
+      {
+        "week": 8,
+        "points": 3.1
       }
     ]
   },
@@ -6505,6 +7121,10 @@
       },
       {
         "week": 7,
+        "points": 0.0
+      },
+      {
+        "week": 8,
         "points": 0.0
       }
     ]
@@ -6548,6 +7168,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -6561,7 +7185,7 @@
     "player_name": "Bo Nix",
     "position": "QB",
     "bye_week": 10,
-    "total_points": 98.84,
+    "total_points": 118.12,
     "weekly_points": [
       {
         "week": 1,
@@ -6590,6 +7214,10 @@
       {
         "week": 7,
         "points": 26.18
+      },
+      {
+        "week": 8,
+        "points": 19.28
       }
     ]
   },
@@ -6632,6 +7260,10 @@
       {
         "week": 7,
         "points": 22.5
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -6645,7 +7277,7 @@
     "player_name": "Ray Davis",
     "position": "RB",
     "bye_week": 7,
-    "total_points": 8.2,
+    "total_points": 11.2,
     "weekly_points": [
       {
         "week": 1,
@@ -6674,6 +7306,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 3.0
       }
     ]
   },
@@ -6687,7 +7323,7 @@
     "player_name": "Matthew Stafford",
     "position": "QB",
     "bye_week": 11,
-    "total_points": 130.36,
+    "total_points": 139.64,
     "weekly_points": [
       {
         "week": 1,
@@ -6716,6 +7352,10 @@
       {
         "week": 7,
         "points": 18.5
+      },
+      {
+        "week": 8,
+        "points": 9.28
       }
     ]
   },
@@ -6758,6 +7398,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -6771,7 +7415,7 @@
     "player_name": "Broncos",
     "position": "DEF",
     "bye_week": 10,
-    "total_points": 55.0,
+    "total_points": 57.0,
     "weekly_points": [
       {
         "week": 1,
@@ -6800,6 +7444,10 @@
       {
         "week": 7,
         "points": 4.0
+      },
+      {
+        "week": 8,
+        "points": 2.0
       }
     ]
   },
@@ -6813,7 +7461,7 @@
     "player_name": "Seahawks",
     "position": "DEF",
     "bye_week": 11,
-    "total_points": 57.0,
+    "total_points": 59.0,
     "weekly_points": [
       {
         "week": 1,
@@ -6842,6 +7490,10 @@
       {
         "week": 7,
         "points": 10.0
+      },
+      {
+        "week": 8,
+        "points": 2.0
       }
     ]
   },
@@ -6855,7 +7507,7 @@
     "player_name": "Rams",
     "position": "DEF",
     "bye_week": 11,
-    "total_points": 27.0,
+    "total_points": 37.0,
     "weekly_points": [
       {
         "week": 1,
@@ -6884,6 +7536,10 @@
       {
         "week": 7,
         "points": 2.0
+      },
+      {
+        "week": 8,
+        "points": 10.0
       }
     ]
   },
@@ -6897,7 +7553,7 @@
     "player_name": "Ryan Flournoy",
     "position": "WR",
     "bye_week": 14,
-    "total_points": 63.4,
+    "total_points": 76.5,
     "weekly_points": [
       {
         "week": 1,
@@ -6926,6 +7582,10 @@
       {
         "week": 7,
         "points": 11.0
+      },
+      {
+        "week": 8,
+        "points": 13.1
       }
     ]
   },
@@ -6939,7 +7599,7 @@
     "player_name": "Jaydon Blue",
     "position": "RB",
     "bye_week": 10,
-    "total_points": 0.0,
+    "total_points": 1.9,
     "weekly_points": [
       {
         "week": 1,
@@ -6968,6 +7628,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 1.9
       }
     ]
   },
@@ -6981,7 +7645,7 @@
     "player_name": "Cam Little",
     "position": "K",
     "bye_week": 7,
-    "total_points": 57.0,
+    "total_points": 63.0,
     "weekly_points": [
       {
         "week": 1,
@@ -7010,6 +7674,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 6.0
       }
     ]
   },
@@ -7023,7 +7691,7 @@
     "player_name": "MarShawn Lloyd",
     "position": "RB",
     "bye_week": 11,
-    "total_points": 49.2,
+    "total_points": 51.8,
     "weekly_points": [
       {
         "week": 1,
@@ -7052,6 +7720,10 @@
       {
         "week": 7,
         "points": 5.5
+      },
+      {
+        "week": 8,
+        "points": 2.6
       }
     ]
   },
@@ -7065,7 +7737,7 @@
     "player_name": "Kenyon Sadiq",
     "position": "TE",
     "bye_week": 13,
-    "total_points": 42.7,
+    "total_points": 45.9,
     "weekly_points": [
       {
         "week": 1,
@@ -7094,6 +7766,10 @@
       {
         "week": 7,
         "points": 1.6
+      },
+      {
+        "week": 8,
+        "points": 3.2
       }
     ]
   },
@@ -7107,7 +7783,7 @@
     "player_name": "Hunter Henry",
     "position": "TE",
     "bye_week": 11,
-    "total_points": 67.6,
+    "total_points": 73.6,
     "weekly_points": [
       {
         "week": 1,
@@ -7136,6 +7812,10 @@
       {
         "week": 7,
         "points": 14.1
+      },
+      {
+        "week": 8,
+        "points": 6.0
       }
     ]
   },
@@ -7178,6 +7858,10 @@
       {
         "week": 7,
         "points": 6.1
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -7191,7 +7875,7 @@
     "player_name": "Jared Goff",
     "position": "QB",
     "bye_week": 6,
-    "total_points": 133.02,
+    "total_points": 143.06,
     "weekly_points": [
       {
         "week": 1,
@@ -7220,6 +7904,10 @@
       {
         "week": 7,
         "points": 18.02
+      },
+      {
+        "week": 8,
+        "points": 10.04
       }
     ]
   },
@@ -7262,6 +7950,10 @@
       {
         "week": 7,
         "points": 1.7
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -7304,6 +7996,10 @@
       {
         "week": 7,
         "points": 2.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -7317,7 +8013,7 @@
     "player_name": "Jonah Coleman",
     "position": "RB",
     "bye_week": 10,
-    "total_points": 23.7,
+    "total_points": 44.1,
     "weekly_points": [
       {
         "week": 1,
@@ -7346,6 +8042,10 @@
       {
         "week": 7,
         "points": 8.9
+      },
+      {
+        "week": 8,
+        "points": 20.4
       }
     ]
   },
@@ -7359,7 +8059,7 @@
     "player_name": "Tre' Harris",
     "position": "WR",
     "bye_week": 7,
-    "total_points": 37.5,
+    "total_points": 43.6,
     "weekly_points": [
       {
         "week": 1,
@@ -7388,6 +8088,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 6.1
       }
     ]
   },
@@ -7401,7 +8105,7 @@
     "player_name": "Oronde Gadsden",
     "position": "TE",
     "bye_week": 7,
-    "total_points": 28.5,
+    "total_points": 38.7,
     "weekly_points": [
       {
         "week": 1,
@@ -7430,6 +8134,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 10.2
       }
     ]
   },
@@ -7443,7 +8151,7 @@
     "player_name": "Braelon Allen",
     "position": "RB",
     "bye_week": 13,
-    "total_points": 76.3,
+    "total_points": 99.6,
     "weekly_points": [
       {
         "week": 1,
@@ -7472,6 +8180,10 @@
       {
         "week": 7,
         "points": 19.4
+      },
+      {
+        "week": 8,
+        "points": 23.3
       }
     ]
   },
@@ -7485,7 +8197,7 @@
     "player_name": "Chig Okonkwo",
     "position": "TE",
     "bye_week": 7,
-    "total_points": 30.0,
+    "total_points": 33.2,
     "weekly_points": [
       {
         "week": 1,
@@ -7514,6 +8226,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 3.2
       }
     ]
   },
@@ -7555,6 +8271,10 @@
       },
       {
         "week": 7,
+        "points": 0.0
+      },
+      {
+        "week": 8,
         "points": 0.0
       }
     ]
@@ -7598,6 +8318,10 @@
       {
         "week": 7,
         "points": 2.0
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -7611,7 +8335,7 @@
     "player_name": "Patriots",
     "position": "DEF",
     "bye_week": 11,
-    "total_points": 45.0,
+    "total_points": 53.0,
     "weekly_points": [
       {
         "week": 1,
@@ -7640,6 +8364,10 @@
       {
         "week": 7,
         "points": 2.0
+      },
+      {
+        "week": 8,
+        "points": 8.0
       }
     ]
   },
@@ -7653,7 +8381,7 @@
     "player_name": "Mike Washington Jr.",
     "position": "RB",
     "bye_week": 13,
-    "total_points": 29.6,
+    "total_points": 37.9,
     "weekly_points": [
       {
         "week": 1,
@@ -7682,6 +8410,10 @@
       {
         "week": 7,
         "points": 2.7
+      },
+      {
+        "week": 8,
+        "points": 8.3
       }
     ]
   },
@@ -7695,7 +8427,7 @@
     "player_name": "Chargers",
     "position": "DEF",
     "bye_week": 7,
-    "total_points": 30.0,
+    "total_points": 33.0,
     "weekly_points": [
       {
         "week": 1,
@@ -7724,6 +8456,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 3.0
       }
     ]
   },
@@ -7737,7 +8473,7 @@
     "player_name": "Eagles",
     "position": "DEF",
     "bye_week": 10,
-    "total_points": 14.0,
+    "total_points": 18.0,
     "weekly_points": [
       {
         "week": 1,
@@ -7766,6 +8502,10 @@
       {
         "week": 7,
         "points": -4.0
+      },
+      {
+        "week": 8,
+        "points": 4.0
       }
     ]
   },
@@ -7779,7 +8519,7 @@
     "player_name": "Vikings",
     "position": "DEF",
     "bye_week": 6,
-    "total_points": 71.0,
+    "total_points": 78.0,
     "weekly_points": [
       {
         "week": 1,
@@ -7808,6 +8548,10 @@
       {
         "week": 7,
         "points": 10.0
+      },
+      {
+        "week": 8,
+        "points": 7.0
       }
     ]
   },
@@ -7821,7 +8565,7 @@
     "player_name": "Jordan Love",
     "position": "QB",
     "bye_week": 11,
-    "total_points": 132.32,
+    "total_points": 154.84,
     "weekly_points": [
       {
         "week": 1,
@@ -7850,6 +8594,10 @@
       {
         "week": 7,
         "points": 17.96
+      },
+      {
+        "week": 8,
+        "points": 22.52
       }
     ]
   },
@@ -7863,7 +8611,7 @@
     "player_name": "Chris Boswell",
     "position": "K",
     "bye_week": 9,
-    "total_points": 73.0,
+    "total_points": 82.0,
     "weekly_points": [
       {
         "week": 1,
@@ -7892,6 +8640,10 @@
       {
         "week": 7,
         "points": 11.0
+      },
+      {
+        "week": 8,
+        "points": 9.0
       }
     ]
   },
@@ -7905,7 +8657,7 @@
     "player_name": "Germie Bernard",
     "position": "WR",
     "bye_week": 9,
-    "total_points": 58.8,
+    "total_points": 66.8,
     "weekly_points": [
       {
         "week": 1,
@@ -7934,6 +8686,10 @@
       {
         "week": 7,
         "points": 5.7
+      },
+      {
+        "week": 8,
+        "points": 8.0
       }
     ]
   },
@@ -7947,7 +8703,7 @@
     "player_name": "Sam Darnold",
     "position": "QB",
     "bye_week": 11,
-    "total_points": 82.8,
+    "total_points": 101.32,
     "weekly_points": [
       {
         "week": 1,
@@ -7976,6 +8732,10 @@
       {
         "week": 7,
         "points": 14.98
+      },
+      {
+        "week": 8,
+        "points": 18.52
       }
     ]
   },
@@ -7989,7 +8749,7 @@
     "player_name": "Tyler Loop",
     "position": "K",
     "bye_week": 13,
-    "total_points": 65.0,
+    "total_points": 69.0,
     "weekly_points": [
       {
         "week": 1,
@@ -8018,6 +8778,10 @@
       {
         "week": 7,
         "points": 7.0
+      },
+      {
+        "week": 8,
+        "points": 4.0
       }
     ]
   },
@@ -8031,7 +8795,7 @@
     "player_name": "Emmett Johnson",
     "position": "RB",
     "bye_week": 5,
-    "total_points": 26.1,
+    "total_points": 51.4,
     "weekly_points": [
       {
         "week": 1,
@@ -8060,6 +8824,10 @@
       {
         "week": 7,
         "points": 3.7
+      },
+      {
+        "week": 8,
+        "points": 25.3
       }
     ]
   },
@@ -8073,7 +8841,7 @@
     "player_name": "T.J. Hockenson",
     "position": "TE",
     "bye_week": 6,
-    "total_points": 62.7,
+    "total_points": 78.5,
     "weekly_points": [
       {
         "week": 1,
@@ -8102,6 +8870,10 @@
       {
         "week": 7,
         "points": 13.5
+      },
+      {
+        "week": 8,
+        "points": 15.8
       }
     ]
   },
@@ -8115,7 +8887,7 @@
     "player_name": "Ollie Gordon II",
     "position": "RB",
     "bye_week": 6,
-    "total_points": 65.3,
+    "total_points": 72.2,
     "weekly_points": [
       {
         "week": 1,
@@ -8144,6 +8916,10 @@
       {
         "week": 7,
         "points": 17.3
+      },
+      {
+        "week": 8,
+        "points": 6.9
       }
     ]
   },
@@ -8157,7 +8933,7 @@
     "player_name": "Lions",
     "position": "DEF",
     "bye_week": 6,
-    "total_points": 30.0,
+    "total_points": 36.0,
     "weekly_points": [
       {
         "week": 1,
@@ -8185,6 +8961,10 @@
       },
       {
         "week": 7,
+        "points": 6.0
+      },
+      {
+        "week": 8,
         "points": 6.0
       }
     ]
@@ -8228,6 +9008,10 @@
       {
         "week": 7,
         "points": 10.9
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -8270,6 +9054,10 @@
       {
         "week": 7,
         "points": 1.7
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -8283,7 +9071,7 @@
     "player_name": "Baker Mayfield",
     "position": "QB",
     "bye_week": 10,
-    "total_points": 43.76,
+    "total_points": 45.16,
     "weekly_points": [
       {
         "week": 1,
@@ -8312,6 +9100,10 @@
       {
         "week": 7,
         "points": 6.66
+      },
+      {
+        "week": 8,
+        "points": 1.4
       }
     ]
   },
@@ -8325,7 +9117,7 @@
     "player_name": "Will Reichard",
     "position": "K",
     "bye_week": 6,
-    "total_points": 81.0,
+    "total_points": 82.0,
     "weekly_points": [
       {
         "week": 1,
@@ -8354,6 +9146,10 @@
       {
         "week": 7,
         "points": 13.0
+      },
+      {
+        "week": 8,
+        "points": 1.0
       }
     ]
   },
@@ -8367,7 +9163,7 @@
     "player_name": "Ravens",
     "position": "DEF",
     "bye_week": 13,
-    "total_points": 31.0,
+    "total_points": 32.0,
     "weekly_points": [
       {
         "week": 1,
@@ -8396,6 +9192,10 @@
       {
         "week": 7,
         "points": -3.0
+      },
+      {
+        "week": 8,
+        "points": 1.0
       }
     ]
   },
@@ -8438,6 +9238,10 @@
       {
         "week": 7,
         "points": 14.82
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -8451,7 +9255,7 @@
     "player_name": "Kimani Vidal",
     "position": "RB",
     "bye_week": 7,
-    "total_points": 34.2,
+    "total_points": 39.2,
     "weekly_points": [
       {
         "week": 1,
@@ -8480,6 +9284,10 @@
       {
         "week": 7,
         "points": 0.0
+      },
+      {
+        "week": 8,
+        "points": 5.0
       }
     ]
   },
@@ -8493,7 +9301,7 @@
     "player_name": "Samaje Perine",
     "position": "RB",
     "bye_week": 6,
-    "total_points": 37.7,
+    "total_points": 40.6,
     "weekly_points": [
       {
         "week": 1,
@@ -8522,6 +9330,10 @@
       {
         "week": 7,
         "points": 7.6
+      },
+      {
+        "week": 8,
+        "points": 2.9
       }
     ]
   },
@@ -8535,7 +9347,7 @@
     "player_name": "Justice Hill",
     "position": "RB",
     "bye_week": 13,
-    "total_points": 35.4,
+    "total_points": 42.9,
     "weekly_points": [
       {
         "week": 1,
@@ -8564,6 +9376,10 @@
       {
         "week": 7,
         "points": 6.3
+      },
+      {
+        "week": 8,
+        "points": 7.5
       }
     ]
   },
@@ -8577,7 +9393,7 @@
     "player_name": "Kyler Murray",
     "position": "QB",
     "bye_week": 6,
-    "total_points": 55.68,
+    "total_points": 76.58,
     "weekly_points": [
       {
         "week": 1,
@@ -8606,6 +9422,10 @@
       {
         "week": 7,
         "points": 13.9
+      },
+      {
+        "week": 8,
+        "points": 20.9
       }
     ]
   },
@@ -8619,7 +9439,7 @@
     "player_name": "Steelers",
     "position": "DEF",
     "bye_week": 9,
-    "total_points": 56.0,
+    "total_points": 75.0,
     "weekly_points": [
       {
         "week": 1,
@@ -8648,6 +9468,10 @@
       {
         "week": 7,
         "points": 8.0
+      },
+      {
+        "week": 8,
+        "points": 19.0
       }
     ]
   },
@@ -8661,7 +9485,7 @@
     "player_name": "Evan McPherson",
     "position": "K",
     "bye_week": 6,
-    "total_points": 59.0,
+    "total_points": 64.0,
     "weekly_points": [
       {
         "week": 1,
@@ -8689,6 +9513,10 @@
       },
       {
         "week": 7,
+        "points": 5.0
+      },
+      {
+        "week": 8,
         "points": 5.0
       }
     ]
@@ -8732,6 +9560,10 @@
       {
         "week": 7,
         "points": 18.5
+      },
+      {
+        "week": 8,
+        "points": 0.0
       }
     ]
   },
@@ -8745,7 +9577,7 @@
     "player_name": "Greg Dulcich",
     "position": "TE",
     "bye_week": 6,
-    "total_points": 41.3,
+    "total_points": 49.6,
     "weekly_points": [
       {
         "week": 1,
@@ -8774,6 +9606,10 @@
       {
         "week": 7,
         "points": 13.6
+      },
+      {
+        "week": 8,
+        "points": 8.3
       }
     ]
   },
@@ -8815,6 +9651,10 @@
       },
       {
         "week": 7,
+        "points": 0.0
+      },
+      {
+        "week": 8,
         "points": 0.0
       }
     ]

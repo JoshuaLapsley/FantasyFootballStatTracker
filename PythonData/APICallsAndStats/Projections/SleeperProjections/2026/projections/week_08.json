@@ -6,8 +6,8 @@
     {
       "name": "Jaxon Smith-Njigba",
       "position": "WR",
-      "projection_ppr": 25.2,
-      "pts_ppr": 0.0
+      "projection_ppr": 25.21,
+      "pts_ppr": 23.8
     },
     {
       "name": "Josh Allen",
@@ -228,8 +228,8 @@
     {
       "name": "Sam Darnold",
       "position": "QB",
-      "projection_ppr": 16.29,
-      "pts_ppr": 0.0
+      "projection_ppr": 16.3,
+      "pts_ppr": 18.52
     },
     {
       "name": "Derrick Henry",
@@ -283,7 +283,7 @@
       "name": "Caleb Williams",
       "position": "QB",
       "projection_ppr": 15.68,
-      "pts_ppr": 0.0
+      "pts_ppr": 13.98
     },
     {
       "name": "Rhamondre Stevenson",
@@ -325,7 +325,7 @@
       "name": "D'Andre Swift",
       "position": "RB",
       "projection_ppr": 14.69,
-      "pts_ppr": 0.0
+      "pts_ppr": 27.9
     },
     {
       "name": "George Pickens",
@@ -427,7 +427,7 @@
       "name": "Luther Burden III",
       "position": "WR",
       "projection_ppr": 12.38,
-      "pts_ppr": 0.0
+      "pts_ppr": 18.6
     },
     {
       "name": "Travis Kelce",
@@ -583,7 +583,7 @@
       "name": "Rome Odunze",
       "position": "WR",
       "projection_ppr": 10.02,
-      "pts_ppr": 0.0
+      "pts_ppr": 12.7
     },
     {
       "name": "Brandon Aubrey",
@@ -625,7 +625,7 @@
       "name": "Colston Loveland",
       "position": "TE",
       "projection_ppr": 9.76,
-      "pts_ppr": 0.0
+      "pts_ppr": 11.5
     },
     {
       "name": "Makai Lemon",
@@ -793,7 +793,7 @@
       "name": "Cooper Kupp",
       "position": "WR",
       "projection_ppr": 8.64,
-      "pts_ppr": 0.0
+      "pts_ppr": 7.7
     },
     {
       "name": "Los Angeles Rams",
@@ -805,7 +805,7 @@
       "name": "Jason Myers",
       "position": "K",
       "projection_ppr": 8.6,
-      "pts_ppr": 0.0
+      "pts_ppr": 1.0
     },
     {
       "name": "Matt Gay",
@@ -829,7 +829,7 @@
       "name": "AJ Barner",
       "position": "TE",
       "projection_ppr": 8.4,
-      "pts_ppr": 0.0
+      "pts_ppr": 4.3
     },
     {
       "name": "Tyler Allgeier",
@@ -865,7 +865,7 @@
       "name": "Zach Charbonnet",
       "position": "RB",
       "projection_ppr": 8.1,
-      "pts_ppr": 0.0
+      "pts_ppr": 5.9
     },
     {
       "name": "Kyle Pitts Sr.",
@@ -1009,13 +1009,13 @@
       "name": "Cairo Santos",
       "position": "K",
       "projection_ppr": 7.31,
-      "pts_ppr": 0.0
+      "pts_ppr": 11.0
     },
     {
       "name": "Seattle Seahawks",
       "position": "DEF",
       "projection_ppr": 7.31,
-      "pts_ppr": 0.0
+      "pts_ppr": 3.0
     },
     {
       "name": "Kansas City Chiefs",
@@ -1045,7 +1045,7 @@
       "name": "Kalif Raymond",
       "position": "WR",
       "projection_ppr": 7.08,
-      "pts_ppr": 0.0
+      "pts_ppr": 7.3
     },
     {
       "name": "Kimani Vidal",
@@ -1074,8 +1074,8 @@
     {
       "name": "Tory Horton",
       "position": "WR",
-      "projection_ppr": 6.9,
-      "pts_ppr": 0.0
+      "projection_ppr": 6.91,
+      "pts_ppr": 7.6
     },
     {
       "name": "Quentin Johnston",
@@ -1204,16 +1204,16 @@
       "pts_ppr": 1.5
     },
     {
+      "name": "Chicago Bears",
+      "position": "DEF",
+      "projection_ppr": 6.11,
+      "pts_ppr": 8.0
+    },
+    {
       "name": "Cleveland Browns",
       "position": "DEF",
       "projection_ppr": 6.11,
       "pts_ppr": 5.0
-    },
-    {
-      "name": "Chicago Bears",
-      "position": "DEF",
-      "projection_ppr": 6.11,
-      "pts_ppr": 0.0
     },
     {
       "name": "Justice Hill",
@@ -1327,7 +1327,7 @@
       "name": "Jadarian Price",
       "position": "RB",
       "projection_ppr": 5.05,
-      "pts_ppr": 0.0
+      "pts_ppr": 5.7
     },
     {
       "name": "Evan Engram",
@@ -1357,7 +1357,7 @@
       "name": "Roschon Johnson",
       "position": "RB",
       "projection_ppr": 4.78,
-      "pts_ppr": 0.0
+      "pts_ppr": 3.8
     },
     {
       "name": "Dohnte Meyers",
@@ -1375,7 +1375,7 @@
       "name": "George Holani",
       "position": "RB",
       "projection_ppr": 4.57,
-      "pts_ppr": 0.0
+      "pts_ppr": 0.9
     },
     {
       "name": "Tommy Tremble",
@@ -1639,7 +1639,7 @@
       "name": "Zavion Thomas",
       "position": "WR",
       "projection_ppr": 2.78,
-      "pts_ppr": 0.0
+      "pts_ppr": 1.4
     },
     {
       "name": "Olamide Zaccheaus",
@@ -2388,7 +2388,7 @@
     {
       "name": "Kendrick Bourne",
       "position": "WR",
-      "projection_ppr": null,
+      "projection_ppr": 8.00,
       "pts_ppr": 3.9
     },
     {
@@ -2400,7 +2400,7 @@
     {
       "name": "Jeremiyah Love",
       "position": "RB",
-      "projection_ppr": null,
+      "projection_ppr": 10.5,
       "pts_ppr": 2.3
     },
     {

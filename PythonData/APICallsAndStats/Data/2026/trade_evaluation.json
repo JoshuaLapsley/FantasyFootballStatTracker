@@ -37,10 +37,14 @@
             {
               "week": 7,
               "points_gained": 0.0
+            },
+            {
+              "week": 8,
+              "points_gained": 6.0
             }
           ],
-          "net_points_gained": 33.2,
-          "avg_points_gained_per_week": 8.3
+          "net_points_gained": 39.2,
+          "avg_points_gained_per_week": 7.84
         },
         {
           "team": "Girder’s 6 Cookies",
@@ -60,10 +64,14 @@
             {
               "week": 7,
               "points_gained": -5.8
+            },
+            {
+              "week": 8,
+              "points_gained": -11.2
             }
           ],
-          "net_points_gained": -31.2,
-          "avg_points_gained_per_week": -7.8
+          "net_points_gained": -42.4,
+          "avg_points_gained_per_week": -8.48
         }
       ]
     },
@@ -103,10 +111,14 @@
             {
               "week": 7,
               "points_gained": -0.7
+            },
+            {
+              "week": 8,
+              "points_gained": 10.5
             }
           ],
-          "net_points_gained": 5.2,
-          "avg_points_gained_per_week": 1.3
+          "net_points_gained": 15.7,
+          "avg_points_gained_per_week": 3.14
         },
         {
           "team": "Ozzy Stick",
@@ -126,10 +138,14 @@
             {
               "week": 7,
               "points_gained": -11.4
+            },
+            {
+              "week": 8,
+              "points_gained": 4.6
             }
           ],
-          "net_points_gained": -27.4,
-          "avg_points_gained_per_week": -6.85
+          "net_points_gained": -22.8,
+          "avg_points_gained_per_week": -4.56
         }
       ]
     },
@@ -181,10 +197,14 @@
             {
               "week": 7,
               "points_gained": 12.1
+            },
+            {
+              "week": 8,
+              "points_gained": -17.8
             }
           ],
-          "net_points_gained": 65.8,
-          "avg_points_gained_per_week": 16.45
+          "net_points_gained": 48.0,
+          "avg_points_gained_per_week": 9.6
         },
         {
           "team": "Big Bad Hokkkk",
@@ -204,10 +224,14 @@
             {
               "week": 7,
               "points_gained": 2.9
+            },
+            {
+              "week": 8,
+              "points_gained": 13.1
             }
           ],
-          "net_points_gained": -46.5,
-          "avg_points_gained_per_week": -11.62
+          "net_points_gained": -33.4,
+          "avg_points_gained_per_week": -6.68
         }
       ]
     },
@@ -239,10 +263,14 @@
             {
               "week": 7,
               "points_gained": -6.86
+            },
+            {
+              "week": 8,
+              "points_gained": 0.0
             }
           ],
           "net_points_gained": -7.16,
-          "avg_points_gained_per_week": -3.58
+          "avg_points_gained_per_week": -2.39
         },
         {
           "team": "Flow Brrr",
@@ -254,10 +282,14 @@
             {
               "week": 7,
               "points_gained": 19.26
+            },
+            {
+              "week": 8,
+              "points_gained": 0.0
             }
           ],
           "net_points_gained": 10.26,
-          "avg_points_gained_per_week": 5.13
+          "avg_points_gained_per_week": 3.42
         }
       ]
     },
@@ -301,10 +333,14 @@
             {
               "week": 7,
               "points_gained": 28.4
+            },
+            {
+              "week": 8,
+              "points_gained": 9.3
             }
           ],
-          "net_points_gained": 14.9,
-          "avg_points_gained_per_week": 7.45
+          "net_points_gained": 24.2,
+          "avg_points_gained_per_week": 8.07
         },
         {
           "team": "Supernova’s Studs",
@@ -316,10 +352,14 @@
             {
               "week": 7,
               "points_gained": -28.4
+            },
+            {
+              "week": 8,
+              "points_gained": -1.3
             }
           ],
-          "net_points_gained": -19.4,
-          "avg_points_gained_per_week": -9.7
+          "net_points_gained": -20.7,
+          "avg_points_gained_per_week": -6.9
         }
       ]
     },
@@ -347,10 +387,14 @@
             {
               "week": 7,
               "points_gained": 15.2
+            },
+            {
+              "week": 8,
+              "points_gained": 0.0
             }
           ],
           "net_points_gained": 15.2,
-          "avg_points_gained_per_week": 15.2
+          "avg_points_gained_per_week": 7.6
         },
         {
           "team": "Tsuga’s Tuck Shop",
@@ -358,10 +402,14 @@
             {
               "week": 7,
               "points_gained": -19.6
+            },
+            {
+              "week": 8,
+              "points_gained": 0.0
             }
           ],
           "net_points_gained": -19.6,
-          "avg_points_gained_per_week": -19.6
+          "avg_points_gained_per_week": -9.8
         }
       ]
     }
