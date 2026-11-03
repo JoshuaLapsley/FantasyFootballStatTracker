@@ -131,7 +131,7 @@ def _fetch_all_transactions(lg, count=""):
     return list(combined.values())
 
 
-def write_transactions_file(lg, year, root=API_DATA_ROOT, overwrite=False, count=""):
+def write_transactions_file(lg, year, root=API_DATA_ROOT, overwrite=True, count=""):
     path = transaction_filename(year, root)
     if os.path.exists(path) and not overwrite:
         print(f"[{year}] Transaction file already exists, skipped: {path}")

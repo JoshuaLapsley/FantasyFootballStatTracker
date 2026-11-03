@@ -412,6 +412,90 @@
           "avg_points_gained_per_week": -9.8
         }
       ]
+    },
+    {
+      "transaction_id": "350",
+      "date": "2026-10-30T07:58:17+00:00",
+      "players": [
+        {
+          "name": "KC Concepcion Jr.",
+          "position": "WR",
+          "from_team": "Maître Stick",
+          "to_team": "Revy’s Konstruction"
+        },
+        {
+          "name": "Harold Fannin Jr.",
+          "position": "TE",
+          "from_team": "Revy’s Konstruction",
+          "to_team": "Maître Stick"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Maître Stick",
+          "weekly_points_gained": [
+            {
+              "week": 8,
+              "points_gained": 13.1
+            }
+          ],
+          "net_points_gained": 13.1,
+          "avg_points_gained_per_week": 13.1
+        },
+        {
+          "team": "Revy’s Konstruction",
+          "weekly_points_gained": [
+            {
+              "week": 8,
+              "points_gained": -16.7
+            }
+          ],
+          "net_points_gained": -16.7,
+          "avg_points_gained_per_week": -16.7
+        }
+      ]
+    },
+    {
+      "transaction_id": "357",
+      "date": "2026-11-01T07:40:17+00:00",
+      "players": [
+        {
+          "name": "Ollie Gordon II",
+          "position": "RB",
+          "from_team": "The Sage's Playmakers",
+          "to_team": "Maître Stick"
+        },
+        {
+          "name": "DJ Moore",
+          "position": "WR",
+          "from_team": "Maître Stick",
+          "to_team": "The Sage's Playmakers"
+        }
+      ],
+      "managers": [
+        {
+          "team": "The Sage's Playmakers",
+          "weekly_points_gained": [
+            {
+              "week": 8,
+              "points_gained": 1.7
+            }
+          ],
+          "net_points_gained": 1.7,
+          "avg_points_gained_per_week": 1.7
+        },
+        {
+          "team": "Maître Stick",
+          "weekly_points_gained": [
+            {
+              "week": 8,
+              "points_gained": -41.4
+            }
+          ],
+          "net_points_gained": -41.4,
+          "avg_points_gained_per_week": -41.4
+        }
+      ]
     }
   ]
 }

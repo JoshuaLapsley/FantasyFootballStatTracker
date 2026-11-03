@@ -270,19 +270,6 @@
         "WAR Rank": 16
     },
     {
-        "Player": "Harold Fannin Jr.",
-        "Player ID": "41877",
-        "Position": "TE",
-        "Team": "Ma\u00eetre Stick",
-        "Team Key": "470.l.205662.t.6",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            8
-        ],
-        "WAR": 0.2073,
-        "WAR Rank": 17
-    },
-    {
         "Player": "Dameon Pierce",
         "Player ID": "34063",
         "Position": "RB",
@@ -294,7 +281,7 @@
             7
         ],
         "WAR": 0.2004,
-        "WAR Rank": 18
+        "WAR Rank": 17
     },
     {
         "Player": "Dalton Schultz",
@@ -309,7 +296,7 @@
             4
         ],
         "WAR": 0.1997,
-        "WAR Rank": 19
+        "WAR Rank": 18
     },
     {
         "Player": "Kenny Gainwell",
@@ -327,7 +314,7 @@
             8
         ],
         "WAR": 0.1877,
-        "WAR Rank": 20
+        "WAR Rank": 19
     },
     {
         "Player": "Omar Cooper Jr.",
@@ -341,7 +328,7 @@
             8
         ],
         "WAR": 0.1859,
-        "WAR Rank": 21
+        "WAR Rank": 20
     },
     {
         "Player": "Dontayvion Wicks",
@@ -358,7 +345,7 @@
             5
         ],
         "WAR": 0.1691,
-        "WAR Rank": 22
+        "WAR Rank": 21
     },
     {
         "Player": "Rashod Bateman",
@@ -372,7 +359,7 @@
             3
         ],
         "WAR": 0.1624,
-        "WAR Rank": 23
+        "WAR Rank": 22
     },
     {
         "Player": "Raiders",
@@ -389,7 +376,7 @@
             5
         ],
         "WAR": 0.1455,
-        "WAR Rank": 24
+        "WAR Rank": 23
     },
     {
         "Player": "Cairo Santos",
@@ -403,7 +390,7 @@
             8
         ],
         "WAR": 0.1449,
-        "WAR Rank": 25
+        "WAR Rank": 24
     },
     {
         "Player": "Jets",
@@ -416,7 +403,7 @@
             5
         ],
         "WAR": 0.1317,
-        "WAR Rank": 26
+        "WAR Rank": 25
     },
     {
         "Player": "MarShawn Lloyd",
@@ -433,7 +420,7 @@
             8
         ],
         "WAR": 0.1307,
-        "WAR Rank": 27
+        "WAR Rank": 26
     },
     {
         "Player": "Jameis Winston",
@@ -446,7 +433,7 @@
             5
         ],
         "WAR": 0.1294,
-        "WAR Rank": 28
+        "WAR Rank": 27
     },
     {
         "Player": "Chase McLaughlin",
@@ -460,7 +447,7 @@
             8
         ],
         "WAR": 0.1209,
-        "WAR Rank": 29
+        "WAR Rank": 28
     },
     {
         "Player": "Tyler Bass",
@@ -473,7 +460,7 @@
             6
         ],
         "WAR": 0.1202,
-        "WAR Rank": 30
+        "WAR Rank": 29
     },
     {
         "Player": "Chiefs",
@@ -487,20 +474,7 @@
             6
         ],
         "WAR": 0.12,
-        "WAR Rank": 31
-    },
-    {
-        "Player": "DJ Moore",
-        "Player ID": "30994",
-        "Position": "WR",
-        "Team": "The Sage's Playmakers",
-        "Team Key": "470.l.205662.t.13",
-        "Manager": "Josh",
-        "Weeks Rostered": [
-            8
-        ],
-        "WAR": 0.1156,
-        "WAR Rank": 32
+        "WAR Rank": 30
     },
     {
         "Player": "Geno Smith",
@@ -513,7 +487,7 @@
             7
         ],
         "WAR": 0.1144,
-        "WAR Rank": 33
+        "WAR Rank": 31
     },
     {
         "Player": "Kimani Vidal",
@@ -533,7 +507,7 @@
             8
         ],
         "WAR": 0.1127,
-        "WAR Rank": 34
+        "WAR Rank": 32
     },
     {
         "Player": "Bryce Young",
@@ -552,7 +526,7 @@
             8
         ],
         "WAR": 0.1096,
-        "WAR Rank": 35
+        "WAR Rank": 33
     },
     {
         "Player": "Tyler Bass",
@@ -565,7 +539,7 @@
             8
         ],
         "WAR": 0.1084,
-        "WAR Rank": 36
+        "WAR Rank": 34
     },
     {
         "Player": "Keon Coleman",
@@ -578,7 +552,7 @@
             6
         ],
         "WAR": 0.1071,
-        "WAR Rank": 37
+        "WAR Rank": 35
     },
     {
         "Player": "Michael Penix Jr.",
@@ -591,7 +565,7 @@
             6
         ],
         "WAR": 0.0978,
-        "WAR Rank": 38
+        "WAR Rank": 36
     },
     {
         "Player": "Jaguars",
@@ -604,7 +578,7 @@
             1
         ],
         "WAR": 0.0964,
-        "WAR Rank": 39
+        "WAR Rank": 37
     },
     {
         "Player": "Saints",
@@ -617,7 +591,7 @@
             6
         ],
         "WAR": 0.0964,
-        "WAR Rank": 40
+        "WAR Rank": 38
     },
     {
         "Player": "Commanders",
@@ -630,7 +604,7 @@
             8
         ],
         "WAR": 0.0964,
-        "WAR Rank": 41
+        "WAR Rank": 39
     },
     {
         "Player": "Dylan Sampson",
@@ -643,7 +617,7 @@
             8
         ],
         "WAR": 0.0941,
-        "WAR Rank": 42
+        "WAR Rank": 40
     },
     {
         "Player": "Pat Bryant",
@@ -656,7 +630,7 @@
             3
         ],
         "WAR": 0.089,
-        "WAR Rank": 43
+        "WAR Rank": 41
     },
     {
         "Player": "Bo Nix",
@@ -675,7 +649,7 @@
             8
         ],
         "WAR": 0.0878,
-        "WAR Rank": 44
+        "WAR Rank": 42
     },
     {
         "Player": "Sam Darnold",
@@ -691,7 +665,7 @@
             6
         ],
         "WAR": 0.0877,
-        "WAR Rank": 45
+        "WAR Rank": 43
     },
     {
         "Player": "Aaron Rodgers",
@@ -706,7 +680,7 @@
             7
         ],
         "WAR": 0.0859,
-        "WAR Rank": 46
+        "WAR Rank": 44
     },
     {
         "Player": "Broncos",
@@ -719,7 +693,7 @@
             5
         ],
         "WAR": 0.0845,
-        "WAR Rank": 47
+        "WAR Rank": 45
     },
     {
         "Player": "Ravens",
@@ -734,7 +708,7 @@
             6
         ],
         "WAR": 0.0726,
-        "WAR Rank": 48
+        "WAR Rank": 46
     },
     {
         "Player": "Packers",
@@ -747,7 +721,7 @@
             8
         ],
         "WAR": 0.0725,
-        "WAR Rank": 49
+        "WAR Rank": 47
     },
     {
         "Player": "Bears",
@@ -762,7 +736,7 @@
             5
         ],
         "WAR": 0.0606,
-        "WAR Rank": 50
+        "WAR Rank": 48
     },
     {
         "Player": "Trey Smack",
@@ -775,7 +749,7 @@
             6
         ],
         "WAR": 0.0605,
-        "WAR Rank": 51
+        "WAR Rank": 49
     },
     {
         "Player": "Matt Gay",
@@ -788,7 +762,7 @@
             6
         ],
         "WAR": 0.0605,
-        "WAR Rank": 52
+        "WAR Rank": 50
     },
     {
         "Player": "Matt Gay",
@@ -802,7 +776,7 @@
             8
         ],
         "WAR": 0.0605,
-        "WAR Rank": 53
+        "WAR Rank": 51
     },
     {
         "Player": "Falcons",
@@ -817,7 +791,7 @@
             6
         ],
         "WAR": 0.0604,
-        "WAR Rank": 54
+        "WAR Rank": 52
     },
     {
         "Player": "Kendre Miller",
@@ -832,7 +806,7 @@
             8
         ],
         "WAR": 0.0565,
-        "WAR Rank": 55
+        "WAR Rank": 53
     },
     {
         "Player": "Kyler Murray",
@@ -849,7 +823,7 @@
             8
         ],
         "WAR": 0.0555,
-        "WAR Rank": 56
+        "WAR Rank": 54
     },
     {
         "Player": "Michael Mayer",
@@ -863,7 +837,7 @@
             8
         ],
         "WAR": 0.0541,
-        "WAR Rank": 57
+        "WAR Rank": 55
     },
     {
         "Player": "Bam Knight",
@@ -876,7 +850,7 @@
             7
         ],
         "WAR": 0.0508,
-        "WAR Rank": 58
+        "WAR Rank": 56
     },
     {
         "Player": "Cardinals",
@@ -890,7 +864,7 @@
             7
         ],
         "WAR": 0.0484,
-        "WAR Rank": 59
+        "WAR Rank": 57
     },
     {
         "Player": "Browns",
@@ -903,7 +877,7 @@
             4
         ],
         "WAR": 0.0484,
-        "WAR Rank": 60
+        "WAR Rank": 58
     },
     {
         "Player": "Bengals",
@@ -916,7 +890,7 @@
             5
         ],
         "WAR": 0.0484,
-        "WAR Rank": 61
+        "WAR Rank": 59
     },
     {
         "Player": "Browns",
@@ -929,7 +903,7 @@
             5
         ],
         "WAR": 0.0484,
-        "WAR Rank": 62
+        "WAR Rank": 60
     },
     {
         "Player": "Bengals",
@@ -943,7 +917,7 @@
             8
         ],
         "WAR": 0.0484,
-        "WAR Rank": 63
+        "WAR Rank": 61
     },
     {
         "Player": "Nick Folk",
@@ -957,7 +931,7 @@
             8
         ],
         "WAR": 0.0484,
-        "WAR Rank": 64
+        "WAR Rank": 62
     },
     {
         "Player": "Raiders",
@@ -970,7 +944,7 @@
             8
         ],
         "WAR": 0.0484,
-        "WAR Rank": 65
+        "WAR Rank": 63
     },
     {
         "Player": "Geno Smith",
@@ -983,7 +957,7 @@
             8
         ],
         "WAR": 0.0483,
-        "WAR Rank": 66
+        "WAR Rank": 64
     },
     {
         "Player": "49ers",
@@ -1002,7 +976,7 @@
             8
         ],
         "WAR": 0.0472,
-        "WAR Rank": 67
+        "WAR Rank": 65
     },
     {
         "Player": "Tyrone Tracy Jr.",
@@ -1015,7 +989,7 @@
             7
         ],
         "WAR": 0.0436,
-        "WAR Rank": 68
+        "WAR Rank": 66
     },
     {
         "Player": "Tyler Allgeier",
@@ -1029,7 +1003,7 @@
             7
         ],
         "WAR": 0.0434,
-        "WAR Rank": 69
+        "WAR Rank": 67
     },
     {
         "Player": "Sam Darnold",
@@ -1042,7 +1016,7 @@
             8
         ],
         "WAR": 0.0425,
-        "WAR Rank": 70
+        "WAR Rank": 68
     },
     {
         "Player": "Will Shipley",
@@ -1055,7 +1029,7 @@
             5
         ],
         "WAR": 0.0389,
-        "WAR Rank": 71
+        "WAR Rank": 69
     },
     {
         "Player": "Michael Mayer",
@@ -1068,7 +1042,7 @@
             1
         ],
         "WAR": 0.0385,
-        "WAR Rank": 72
+        "WAR Rank": 70
     },
     {
         "Player": "Giants",
@@ -1081,7 +1055,7 @@
             3
         ],
         "WAR": 0.0363,
-        "WAR Rank": 73
+        "WAR Rank": 71
     },
     {
         "Player": "Colts",
@@ -1094,7 +1068,7 @@
             4
         ],
         "WAR": 0.0363,
-        "WAR Rank": 74
+        "WAR Rank": 72
     },
     {
         "Player": "Patriots",
@@ -1107,7 +1081,7 @@
             8
         ],
         "WAR": 0.0363,
-        "WAR Rank": 75
+        "WAR Rank": 73
     },
     {
         "Player": "Cade Otton",
@@ -1120,7 +1094,7 @@
             3
         ],
         "WAR": 0.0312,
-        "WAR Rank": 76
+        "WAR Rank": 74
     },
     {
         "Player": "Greg Dulcich",
@@ -1133,7 +1107,7 @@
             8
         ],
         "WAR": 0.0276,
-        "WAR Rank": 77
+        "WAR Rank": 75
     },
     {
         "Player": "Eddy Pineiro",
@@ -1150,7 +1124,7 @@
             5
         ],
         "WAR": 0.0243,
-        "WAR Rank": 78
+        "WAR Rank": 76
     },
     {
         "Player": "Harrison Butker",
@@ -1166,7 +1140,7 @@
             7
         ],
         "WAR": 0.0243,
-        "WAR Rank": 79
+        "WAR Rank": 77
     },
     {
         "Player": "Browns",
@@ -1181,7 +1155,7 @@
             8
         ],
         "WAR": 0.0243,
-        "WAR Rank": 80
+        "WAR Rank": 78
     },
     {
         "Player": "Lions",
@@ -1194,7 +1168,7 @@
             3
         ],
         "WAR": 0.0242,
-        "WAR Rank": 81
+        "WAR Rank": 79
     },
     {
         "Player": "Buccaneers",
@@ -1207,7 +1181,7 @@
             6
         ],
         "WAR": 0.0242,
-        "WAR Rank": 82
+        "WAR Rank": 80
     },
     {
         "Player": "Kalif Raymond",
@@ -1220,20 +1194,7 @@
             2
         ],
         "WAR": 0.0238,
-        "WAR Rank": 83
-    },
-    {
-        "Player": "Ollie Gordon II",
-        "Player ID": "41969",
-        "Position": "RB",
-        "Team": "Ma\u00eetre Stick",
-        "Team Key": "470.l.205662.t.6",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            8
-        ],
-        "WAR": 0.0223,
-        "WAR Rank": 84
+        "WAR Rank": 81
     },
     {
         "Player": "Kendrick Bourne",
@@ -1249,7 +1210,7 @@
             8
         ],
         "WAR": 0.0196,
-        "WAR Rank": 85
+        "WAR Rank": 82
     },
     {
         "Player": "Pat Freiermuth",
@@ -1262,7 +1223,7 @@
             2
         ],
         "WAR": 0.0168,
-        "WAR Rank": 86
+        "WAR Rank": 83
     },
     {
         "Player": "Mike Gesicki",
@@ -1275,7 +1236,7 @@
             5
         ],
         "WAR": 0.0168,
-        "WAR Rank": 87
+        "WAR Rank": 84
     },
     {
         "Player": "Darnell Washington",
@@ -1288,7 +1249,7 @@
             7
         ],
         "WAR": 0.0168,
-        "WAR Rank": 88
+        "WAR Rank": 85
     },
     {
         "Player": "Dalton Schultz",
@@ -1302,7 +1263,7 @@
             6
         ],
         "WAR": 0.0156,
-        "WAR Rank": 89
+        "WAR Rank": 86
     },
     {
         "Player": "Mack Hollins",
@@ -1315,7 +1276,7 @@
             4
         ],
         "WAR": 0.0155,
-        "WAR Rank": 90
+        "WAR Rank": 87
     },
     {
         "Player": "Justice Hill",
@@ -1328,7 +1289,7 @@
             7
         ],
         "WAR": 0.0152,
-        "WAR Rank": 91
+        "WAR Rank": 88
     },
     {
         "Player": "Xavier Hutchinson",
@@ -1342,7 +1303,7 @@
             3
         ],
         "WAR": 0.0143,
-        "WAR Rank": 92
+        "WAR Rank": 89
     },
     {
         "Player": "Commanders",
@@ -1355,7 +1316,7 @@
             5
         ],
         "WAR": 0.0121,
-        "WAR Rank": 93
+        "WAR Rank": 90
     },
     {
         "Player": "Patriots",
@@ -1368,7 +1329,7 @@
             6
         ],
         "WAR": 0.0121,
-        "WAR Rank": 94
+        "WAR Rank": 91
     },
     {
         "Player": "Lions",
@@ -1381,7 +1342,7 @@
             8
         ],
         "WAR": 0.0121,
-        "WAR Rank": 95
+        "WAR Rank": 92
     },
     {
         "Player": "Keon Coleman",
@@ -1394,7 +1355,7 @@
             5
         ],
         "WAR": 0.0083,
-        "WAR Rank": 96
+        "WAR Rank": 93
     },
     {
         "Player": "Darren Waller",
@@ -1407,7 +1368,7 @@
             4
         ],
         "WAR": 0.0072,
-        "WAR Rank": 97
+        "WAR Rank": 94
     },
     {
         "Player": "Samaje Perine",
@@ -1421,7 +1382,7 @@
             8
         ],
         "WAR": 0.0064,
-        "WAR Rank": 98
+        "WAR Rank": 95
     },
     {
         "Player": "Malachi Fields",
@@ -1436,7 +1397,7 @@
             5
         ],
         "WAR": 0.003,
-        "WAR Rank": 99
+        "WAR Rank": 96
     },
     {
         "Player": "Sean Tucker",
@@ -1449,7 +1410,7 @@
             1
         ],
         "WAR": 0.0,
-        "WAR Rank": 100
+        "WAR Rank": 97
     },
     {
         "Player": "Titans",
@@ -1462,7 +1423,7 @@
             1
         ],
         "WAR": 0.0,
-        "WAR Rank": 101
+        "WAR Rank": 98
     },
     {
         "Player": "Luke Musgrave",
@@ -1479,7 +1440,7 @@
             5
         ],
         "WAR": 0.0,
-        "WAR Rank": 102
+        "WAR Rank": 99
     },
     {
         "Player": "Kaleb Johnson",
@@ -1492,7 +1453,7 @@
             1
         ],
         "WAR": 0.0,
-        "WAR Rank": 103
+        "WAR Rank": 100
     },
     {
         "Player": "Trevor Etienne",
@@ -1509,7 +1470,7 @@
             5
         ],
         "WAR": 0.0,
-        "WAR Rank": 104
+        "WAR Rank": 101
     },
     {
         "Player": "James Conner",
@@ -1522,7 +1483,7 @@
             1
         ],
         "WAR": 0.0,
-        "WAR Rank": 105
+        "WAR Rank": 102
     },
     {
         "Player": "James Conner",
@@ -1539,7 +1500,7 @@
             6
         ],
         "WAR": 0.0,
-        "WAR Rank": 106
+        "WAR Rank": 103
     },
     {
         "Player": "Drew Lock",
@@ -1552,7 +1513,7 @@
             3
         ],
         "WAR": 0.0,
-        "WAR Rank": 107
+        "WAR Rank": 104
     },
     {
         "Player": "Isaiah Davis",
@@ -1565,7 +1526,7 @@
             4
         ],
         "WAR": 0.0,
-        "WAR Rank": 108
+        "WAR Rank": 105
     },
     {
         "Player": "Michael Pittman Jr.",
@@ -1581,7 +1542,7 @@
             8
         ],
         "WAR": 0.0,
-        "WAR Rank": 109
+        "WAR Rank": 106
     },
     {
         "Player": "Darren Waller",
@@ -1594,7 +1555,7 @@
             6
         ],
         "WAR": 0.0,
-        "WAR Rank": 110
+        "WAR Rank": 107
     },
     {
         "Player": "Roman Wilson",
@@ -1608,7 +1569,7 @@
             8
         ],
         "WAR": 0.0,
-        "WAR Rank": 111
+        "WAR Rank": 108
     },
     {
         "Player": "Samaje Perine",
@@ -1621,7 +1582,7 @@
             6
         ],
         "WAR": 0.0,
-        "WAR Rank": 112
+        "WAR Rank": 109
     },
     {
         "Player": "Dontayvion Wicks",
@@ -1635,7 +1596,7 @@
             8
         ],
         "WAR": 0.0,
-        "WAR Rank": 113
+        "WAR Rank": 110
     },
     {
         "Player": "Tank Bigsby",
@@ -1649,7 +1610,7 @@
             8
         ],
         "WAR": 0.0,
-        "WAR Rank": 114
+        "WAR Rank": 111
     },
     {
         "Player": "Titans",
@@ -1662,7 +1623,7 @@
             7
         ],
         "WAR": 0.0,
-        "WAR Rank": 115
+        "WAR Rank": 112
     },
     {
         "Player": "Ted Hurst III",
@@ -1675,7 +1636,7 @@
             7
         ],
         "WAR": 0.0,
-        "WAR Rank": 116
+        "WAR Rank": 113
     },
     {
         "Player": "Tyrone Tracy Jr.",
@@ -1688,7 +1649,7 @@
             8
         ],
         "WAR": 0.0,
-        "WAR Rank": 117
+        "WAR Rank": 114
     },
     {
         "Player": "Chiefs",
@@ -1701,7 +1662,7 @@
             8
         ],
         "WAR": 0.0,
-        "WAR Rank": 118
+        "WAR Rank": 115
     },
     {
         "Player": "Saints",
@@ -1714,20 +1675,7 @@
             8
         ],
         "WAR": 0.0,
-        "WAR Rank": 119
-    },
-    {
-        "Player": "KC Concepcion Jr.",
-        "Player ID": "42646",
-        "Position": "WR",
-        "Team": "Revy\u2019s Konstruction",
-        "Team Key": "470.l.205662.t.11",
-        "Manager": "Connor",
-        "Weeks Rostered": [
-            8
-        ],
-        "WAR": -0.0035,
-        "WAR Rank": 120
+        "WAR Rank": 116
     },
     {
         "Player": "Rashod Bateman",
@@ -1740,7 +1688,7 @@
             4
         ],
         "WAR": -0.0047,
-        "WAR Rank": 121
+        "WAR Rank": 117
     },
     {
         "Player": "Cade Otton",
@@ -1753,7 +1701,7 @@
             5
         ],
         "WAR": -0.006,
-        "WAR Rank": 122
+        "WAR Rank": 118
     },
     {
         "Player": "Michael Mayer",
@@ -1766,7 +1714,7 @@
             2
         ],
         "WAR": -0.0083,
-        "WAR Rank": 123
+        "WAR Rank": 119
     },
     {
         "Player": "Jahan Dotson",
@@ -1780,7 +1728,7 @@
             8
         ],
         "WAR": -0.0087,
-        "WAR Rank": 124
+        "WAR Rank": 120
     },
     {
         "Player": "Tyler Goodson",
@@ -1794,7 +1742,7 @@
             8
         ],
         "WAR": -0.0104,
-        "WAR Rank": 125
+        "WAR Rank": 121
     },
     {
         "Player": "Chiefs",
@@ -1808,7 +1756,7 @@
             3
         ],
         "WAR": -0.0118,
-        "WAR Rank": 126
+        "WAR Rank": 122
     },
     {
         "Player": "Ravens",
@@ -1822,7 +1770,7 @@
             2
         ],
         "WAR": -0.012,
-        "WAR Rank": 127
+        "WAR Rank": 123
     },
     {
         "Player": "Panthers",
@@ -1835,7 +1783,7 @@
             3
         ],
         "WAR": -0.0121,
-        "WAR Rank": 128
+        "WAR Rank": 124
     },
     {
         "Player": "Bills",
@@ -1848,7 +1796,7 @@
             4
         ],
         "WAR": -0.0121,
-        "WAR Rank": 129
+        "WAR Rank": 125
     },
     {
         "Player": "Bears",
@@ -1861,7 +1809,7 @@
             7
         ],
         "WAR": -0.0121,
-        "WAR Rank": 130
+        "WAR Rank": 126
     },
     {
         "Player": "Broncos",
@@ -1874,7 +1822,7 @@
             7
         ],
         "WAR": -0.0121,
-        "WAR Rank": 131
+        "WAR Rank": 127
     },
     {
         "Player": "Cowboys",
@@ -1887,7 +1835,7 @@
             7
         ],
         "WAR": -0.0121,
-        "WAR Rank": 132
+        "WAR Rank": 128
     },
     {
         "Player": "George Holani",
@@ -1906,7 +1854,33 @@
             8
         ],
         "WAR": -0.0129,
-        "WAR Rank": 133
+        "WAR Rank": 129
+    },
+    {
+        "Player": "Mason Taylor",
+        "Player ID": "41827",
+        "Position": "TE",
+        "Team": "Girder\u2019s 6 Cookies",
+        "Team Key": "470.l.205662.t.3",
+        "Manager": "Sam",
+        "Weeks Rostered": [
+            8
+        ],
+        "WAR": -0.0131,
+        "WAR Rank": 130
+    },
+    {
+        "Player": "Corey Kiner",
+        "Player ID": "42386",
+        "Position": "RB",
+        "Team": "Pad D's",
+        "Team Key": "470.l.205662.t.10",
+        "Manager": "Sam",
+        "Weeks Rostered": [
+            8
+        ],
+        "WAR": -0.0139,
+        "WAR Rank": 131
     },
     {
         "Player": "Tyler Huntley",
@@ -1919,7 +1893,7 @@
             6
         ],
         "WAR": -0.0191,
-        "WAR Rank": 134
+        "WAR Rank": 132
     },
     {
         "Player": "AJ Barner",
@@ -1932,7 +1906,7 @@
             8
         ],
         "WAR": -0.0202,
-        "WAR Rank": 135
+        "WAR Rank": 133
     },
     {
         "Player": "Tyjae Spears",
@@ -1950,7 +1924,7 @@
             8
         ],
         "WAR": -0.0227,
-        "WAR Rank": 136
+        "WAR Rank": 134
     },
     {
         "Player": "Tyler Bass",
@@ -1963,7 +1937,7 @@
             2
         ],
         "WAR": -0.0241,
-        "WAR Rank": 137
+        "WAR Rank": 135
     },
     {
         "Player": "Bengals",
@@ -1976,7 +1950,7 @@
             3
         ],
         "WAR": -0.0241,
-        "WAR Rank": 138
+        "WAR Rank": 136
     },
     {
         "Player": "Seth McGowan",
@@ -1989,7 +1963,7 @@
             8
         ],
         "WAR": -0.0242,
-        "WAR Rank": 139
+        "WAR Rank": 137
     },
     {
         "Player": "Cyrus Allen",
@@ -2002,7 +1976,7 @@
             6
         ],
         "WAR": -0.027,
-        "WAR Rank": 140
+        "WAR Rank": 138
     },
     {
         "Player": "Jerry Jeudy",
@@ -2015,7 +1989,7 @@
             1
         ],
         "WAR": -0.0282,
-        "WAR Rank": 141
+        "WAR Rank": 139
     },
     {
         "Player": "Malachi Fields",
@@ -2028,7 +2002,7 @@
             1
         ],
         "WAR": -0.0293,
-        "WAR Rank": 142
+        "WAR Rank": 140
     },
     {
         "Player": "Austin Ekeler",
@@ -2041,7 +2015,7 @@
             5
         ],
         "WAR": -0.0299,
-        "WAR Rank": 143
+        "WAR Rank": 141
     },
     {
         "Player": "AJ Barner",
@@ -2054,7 +2028,7 @@
             1
         ],
         "WAR": -0.032,
-        "WAR Rank": 144
+        "WAR Rank": 142
     },
     {
         "Player": "Raheim Sanders",
@@ -2070,7 +2044,7 @@
             5
         ],
         "WAR": -0.032,
-        "WAR Rank": 145
+        "WAR Rank": 143
     },
     {
         "Player": "Chig Okonkwo",
@@ -2084,7 +2058,7 @@
             8
         ],
         "WAR": -0.0332,
-        "WAR Rank": 146
+        "WAR Rank": 144
     },
     {
         "Player": "Brevyn Spann-Ford",
@@ -2097,7 +2071,7 @@
             7
         ],
         "WAR": -0.0343,
-        "WAR Rank": 147
+        "WAR Rank": 145
     },
     {
         "Player": "Cooper Kupp",
@@ -2110,7 +2084,7 @@
             7
         ],
         "WAR": -0.0351,
-        "WAR Rank": 148
+        "WAR Rank": 146
     },
     {
         "Player": "Cairo Santos",
@@ -2125,7 +2099,7 @@
             5
         ],
         "WAR": -0.0353,
-        "WAR Rank": 149
+        "WAR Rank": 147
     },
     {
         "Player": "Kendre Miller",
@@ -2138,7 +2112,7 @@
             4
         ],
         "WAR": -0.0355,
-        "WAR Rank": 150
+        "WAR Rank": 148
     },
     {
         "Player": "Dominic Zvada",
@@ -2152,7 +2126,7 @@
             7
         ],
         "WAR": -0.0359,
-        "WAR Rank": 151
+        "WAR Rank": 149
     },
     {
         "Player": "Buccaneers",
@@ -2165,7 +2139,7 @@
             2
         ],
         "WAR": -0.0361,
-        "WAR Rank": 152
+        "WAR Rank": 150
     },
     {
         "Player": "Colts",
@@ -2178,7 +2152,7 @@
             6
         ],
         "WAR": -0.0361,
-        "WAR Rank": 153
+        "WAR Rank": 151
     },
     {
         "Player": "Eagles",
@@ -2191,7 +2165,7 @@
             6
         ],
         "WAR": -0.0361,
-        "WAR Rank": 154
+        "WAR Rank": 152
     },
     {
         "Player": "Blake Grupe",
@@ -2204,7 +2178,7 @@
             6
         ],
         "WAR": -0.0361,
-        "WAR Rank": 155
+        "WAR Rank": 153
     },
     {
         "Player": "Falcons",
@@ -2217,7 +2191,7 @@
             8
         ],
         "WAR": -0.0361,
-        "WAR Rank": 156
+        "WAR Rank": 154
     },
     {
         "Player": "Oronde Gadsden",
@@ -2231,7 +2205,7 @@
             4
         ],
         "WAR": -0.0365,
-        "WAR Rank": 157
+        "WAR Rank": 155
     },
     {
         "Player": "Mike Washington Jr.",
@@ -2248,7 +2222,7 @@
             8
         ],
         "WAR": -0.0368,
-        "WAR Rank": 158
+        "WAR Rank": 156
     },
     {
         "Player": "Kayshon Boutte",
@@ -2262,7 +2236,7 @@
             3
         ],
         "WAR": -0.0375,
-        "WAR Rank": 159
+        "WAR Rank": 157
     },
     {
         "Player": "AJ Dillon",
@@ -2275,7 +2249,7 @@
             4
         ],
         "WAR": -0.0378,
-        "WAR Rank": 160
+        "WAR Rank": 158
     },
     {
         "Player": "C.J. Stroud",
@@ -2288,7 +2262,7 @@
             3
         ],
         "WAR": -0.0395,
-        "WAR Rank": 161
+        "WAR Rank": 159
     },
     {
         "Player": "Tre' Harris",
@@ -2301,7 +2275,7 @@
             5
         ],
         "WAR": -0.0397,
-        "WAR Rank": 162
+        "WAR Rank": 160
     },
     {
         "Player": "Antonio Williams",
@@ -2320,7 +2294,7 @@
             8
         ],
         "WAR": -0.0402,
-        "WAR Rank": 163
+        "WAR Rank": 161
     },
     {
         "Player": "Chris Bell",
@@ -2333,7 +2307,7 @@
             1
         ],
         "WAR": -0.0409,
-        "WAR Rank": 164
+        "WAR Rank": 162
     },
     {
         "Player": "Tyler Higbee",
@@ -2346,7 +2320,7 @@
             8
         ],
         "WAR": -0.0425,
-        "WAR Rank": 165
+        "WAR Rank": 163
     },
     {
         "Player": "Kayshon Boutte",
@@ -2359,7 +2333,7 @@
             1
         ],
         "WAR": -0.0455,
-        "WAR Rank": 166
+        "WAR Rank": 164
     },
     {
         "Player": "Kaelon Black",
@@ -2379,7 +2353,7 @@
             8
         ],
         "WAR": -0.0458,
-        "WAR Rank": 167
+        "WAR Rank": 165
     },
     {
         "Player": "Devin Singletary",
@@ -2392,7 +2366,7 @@
             2
         ],
         "WAR": -0.0467,
-        "WAR Rank": 168
+        "WAR Rank": 166
     },
     {
         "Player": "Packers",
@@ -2407,7 +2381,7 @@
             4
         ],
         "WAR": -0.0472,
-        "WAR Rank": 169
+        "WAR Rank": 167
     },
     {
         "Player": "Trey Smack",
@@ -2422,7 +2396,7 @@
             4
         ],
         "WAR": -0.0478,
-        "WAR Rank": 170
+        "WAR Rank": 168
     },
     {
         "Player": "Bam Knight",
@@ -2435,7 +2409,7 @@
             8
         ],
         "WAR": -0.0478,
-        "WAR Rank": 171
+        "WAR Rank": 169
     },
     {
         "Player": "Trey Smack",
@@ -2448,7 +2422,7 @@
             8
         ],
         "WAR": -0.048,
-        "WAR Rank": 172
+        "WAR Rank": 170
     },
     {
         "Player": "Cowboys",
@@ -2461,7 +2435,7 @@
             5
         ],
         "WAR": -0.0481,
-        "WAR Rank": 173
+        "WAR Rank": 171
     },
     {
         "Player": "Bills",
@@ -2474,7 +2448,7 @@
             6
         ],
         "WAR": -0.0481,
-        "WAR Rank": 174
+        "WAR Rank": 172
     },
     {
         "Player": "Jets",
@@ -2487,7 +2461,7 @@
             7
         ],
         "WAR": -0.0481,
-        "WAR Rank": 175
+        "WAR Rank": 173
     },
     {
         "Player": "Terrance Ferguson",
@@ -2502,7 +2476,7 @@
             8
         ],
         "WAR": -0.0483,
-        "WAR Rank": 176
+        "WAR Rank": 174
     },
     {
         "Player": "Emari Demercado",
@@ -2515,7 +2489,7 @@
             1
         ],
         "WAR": -0.0489,
-        "WAR Rank": 177
+        "WAR Rank": 175
     },
     {
         "Player": "Jaylen Wright",
@@ -2528,7 +2502,7 @@
             4
         ],
         "WAR": -0.0489,
-        "WAR Rank": 178
+        "WAR Rank": 176
     },
     {
         "Player": "Darius Cooper",
@@ -2541,7 +2515,7 @@
             7
         ],
         "WAR": -0.0501,
-        "WAR Rank": 179
+        "WAR Rank": 177
     },
     {
         "Player": "Kalif Raymond",
@@ -2554,7 +2528,7 @@
             4
         ],
         "WAR": -0.0512,
-        "WAR Rank": 180
+        "WAR Rank": 178
     },
     {
         "Player": "Tyler Higbee",
@@ -2568,7 +2542,7 @@
             7
         ],
         "WAR": -0.0522,
-        "WAR Rank": 181
+        "WAR Rank": 179
     },
     {
         "Player": "Konata Mumpfield",
@@ -2581,7 +2555,7 @@
             7
         ],
         "WAR": -0.0524,
-        "WAR Rank": 182
+        "WAR Rank": 180
     },
     {
         "Player": "Najee Harris",
@@ -2594,7 +2568,7 @@
             6
         ],
         "WAR": -0.0545,
-        "WAR Rank": 183
+        "WAR Rank": 181
     },
     {
         "Player": "Brandin Cooks",
@@ -2607,7 +2581,7 @@
             6
         ],
         "WAR": -0.0546,
-        "WAR Rank": 184
+        "WAR Rank": 182
     },
     {
         "Player": "Roschon Johnson",
@@ -2621,7 +2595,7 @@
             8
         ],
         "WAR": -0.0561,
-        "WAR Rank": 185
+        "WAR Rank": 183
     },
     {
         "Player": "Jaylin Noel",
@@ -2634,7 +2608,7 @@
             7
         ],
         "WAR": -0.0614,
-        "WAR Rank": 186
+        "WAR Rank": 184
     },
     {
         "Player": "Ja'Kobi Lane",
@@ -2653,7 +2627,7 @@
             7
         ],
         "WAR": -0.0627,
-        "WAR Rank": 187
+        "WAR Rank": 185
     },
     {
         "Player": "Keon Coleman",
@@ -2666,7 +2640,7 @@
             8
         ],
         "WAR": -0.0648,
-        "WAR Rank": 188
+        "WAR Rank": 186
     },
     {
         "Player": "DeMario Douglas",
@@ -2680,7 +2654,7 @@
             4
         ],
         "WAR": -0.0667,
-        "WAR Rank": 189
+        "WAR Rank": 187
     },
     {
         "Player": "Jacoby Brissett",
@@ -2697,7 +2671,7 @@
             8
         ],
         "WAR": -0.0702,
-        "WAR Rank": 190
+        "WAR Rank": 188
     },
     {
         "Player": "Emmett Johnson",
@@ -2714,7 +2688,7 @@
             6
         ],
         "WAR": -0.0733,
-        "WAR Rank": 191
+        "WAR Rank": 189
     },
     {
         "Player": "Malik Willis",
@@ -2728,7 +2702,7 @@
             3
         ],
         "WAR": -0.0776,
-        "WAR Rank": 192
+        "WAR Rank": 190
     },
     {
         "Player": "Kalif Raymond",
@@ -2743,7 +2717,7 @@
             7
         ],
         "WAR": -0.0795,
-        "WAR Rank": 193
+        "WAR Rank": 191
     },
     {
         "Player": "Kayshon Boutte",
@@ -2758,7 +2732,7 @@
             8
         ],
         "WAR": -0.0806,
-        "WAR Rank": 194
+        "WAR Rank": 192
     },
     {
         "Player": "Chris Brooks",
@@ -2773,7 +2747,7 @@
             3
         ],
         "WAR": -0.0815,
-        "WAR Rank": 195
+        "WAR Rank": 193
     },
     {
         "Player": "Cam Ward",
@@ -2786,7 +2760,7 @@
             5
         ],
         "WAR": -0.1049,
-        "WAR Rank": 196
+        "WAR Rank": 194
     },
     {
         "Player": "Panthers",
@@ -2800,7 +2774,7 @@
             7
         ],
         "WAR": -0.1187,
-        "WAR Rank": 197
+        "WAR Rank": 195
     },
     {
         "Player": "Kyler Murray",
@@ -2815,6 +2789,6 @@
             3
         ],
         "WAR": -0.2054,
-        "WAR Rank": 198
+        "WAR Rank": 196
     }
 ]

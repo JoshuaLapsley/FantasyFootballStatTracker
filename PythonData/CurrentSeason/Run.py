@@ -127,5 +127,8 @@ WEBSITE_DIR = (PROJECT_ROOT / "Website" / "girderma-gridiron-website"
 
 #get_projections(2026, 7, "../APICallsAndStats/Projections/SleeperProjections")
 
+write_transactions_file(lg2026, 2026)
+calculate_waiver_war(lg2026, 2026)
 write_trade_evaluations(2026)
+
 copy_dir(DATA_DIR, WEBSITE_DIR)
