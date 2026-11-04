@@ -9,6 +9,10 @@ from datetime import datetime as dt, timezone
 
 
 
+
+
+
+
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -40,6 +44,9 @@ from PythonData.APICallsAndStats.Projections.GetSleeperProjections import get_pr
 
 from PythonData.APICallsAndStats.DataFunctions.TradeEvaluator import write_trade_evaluations
 from PythonData.APICallsAndStats.DataFunctions.Simulate_ROS import run
+from PythonData.APICallsAndStats.APIFunctions.GetManagerData import write_managers_file
+
+from PythonData.APICallsAndStats.DataFunctions.GTM import write_gtm_file
 
 
 def copy_dir(src, dest):
@@ -112,6 +119,7 @@ write_roster_points_file(lg, year)
 write_week_files(lg, year)
 write_transactions_file(lg, year)
 write_weekly_points_file(lg, year)
+write_managers_file(lg, year, "../APICallsAndStats/APIData")
 
 #Earned Wins
 calculate_earned_wins(year)
@@ -135,6 +143,7 @@ generate_waiver_war_board_and_legend(year)
 #MISC
 compute_schedule_records(year)
 write_trade_evaluations(year)
+write_gtm_file(year)
 
 #simulations
 run(2026)

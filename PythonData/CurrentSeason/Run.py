@@ -5,10 +5,6 @@ from pathlib import Path
 
 
 
-
-
-
-
 # RunWeekly.py is at <root>/PythonData/Refactor/CurrentSeason/, so parents[3] is the project root
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -43,6 +39,10 @@ from PythonData.APICallsAndStats.Projections.GetSleeperProjections import debug_
 from PythonData.APICallsAndStats.DataFunctions.TradeEvaluator import write_trade_evaluations
 
 from PythonData.APICallsAndStats.DataFunctions.Simulate_ROS import run
+
+from PythonData.APICallsAndStats.APIFunctions.GetManagerData import write_managers_file
+
+from PythonData.APICallsAndStats.DataFunctions.GTM import write_gtm_file
 
 
 
@@ -136,6 +136,14 @@ WEBSITE_DIR = (PROJECT_ROOT / "Website" / "girderma-gridiron-website"
 # write_trade_evaluations(2026)
 
 #Sleeper API Call
-run(2026)
+#run(2026)
+# write_managers_file(lg2023, 2023, "../APICallsAndStats/APIData")
+# write_managers_file(lg2024, 2024, "../APICallsAndStats/APIData")
+# write_managers_file(lg2025, 2025, "../APICallsAndStats/APIData")
+# write_managers_file(lg2026, 2026, "../APICallsAndStats/APIData")
+write_gtm_file(2023)
+write_gtm_file(2024)
+write_gtm_file(2025)
+write_gtm_file(2026)
 
-copy_dir(DATA_DIR, WEBSITE_DIR)
+#copy_dir(DATA_DIR, WEBSITE_DIR)
