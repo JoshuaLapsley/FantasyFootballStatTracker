@@ -129,6 +129,11 @@ DATA_DIR = SCRIPT_DIR / ".." / "APICallsAndStats" / "Data" / str(2026)
 WEBSITE_DIR = (PROJECT_ROOT / "Website" / "girderma-gridiron-website"
                / "src" / "league_stats_output" / str(2026))
 
+GTM_DIR = SCRIPT_DIR / ".." / "APICallsAndStats" / "Data" / "GTM"
+
+WEBSITE_DIR_GTM = (PROJECT_ROOT / "Website" / "girderma-gridiron-website"
+               / "src" / "league_stats_output" / "GTM")
+
 #get_projections(2026, 7, "../APICallsAndStats/Projections/SleeperProjections")
 
 # write_transactions_file(lg2026, 2026)
@@ -141,9 +146,9 @@ WEBSITE_DIR = (PROJECT_ROOT / "Website" / "girderma-gridiron-website"
 # write_managers_file(lg2024, 2024, "../APICallsAndStats/APIData")
 # write_managers_file(lg2025, 2025, "../APICallsAndStats/APIData")
 # write_managers_file(lg2026, 2026, "../APICallsAndStats/APIData")
-write_gtm_file(2023)
-write_gtm_file(2024)
-write_gtm_file(2025)
-write_gtm_file(2026)
-
-#copy_dir(DATA_DIR, WEBSITE_DIR)
+# write_gtm_file(2023)
+# write_gtm_file(2024)
+# write_gtm_file(2025)
+# write_gtm_file(2026)
+copy_dir(DATA_DIR, WEBSITE_DIR)
+copy_dir(GTM_DIR, WEBSITE_DIR_GTM)

@@ -55,6 +55,14 @@ const HomePage: React.FC = () => {
           <p>Live Track the Treasurer's Investments.</p>
           <span className="Home-card-arrow" aria-hidden="true">→</span>
         </Link>
+
+        <Link to="/GTM" className="Home-card">
+          <span className="Home-card-icon">{icons.pot}</span>
+          <h3>Guess The Manager (GTM)</h3>
+          <p>Guess which player belongs to which manager, for every year.</p>
+          <span className="Home-card-arrow" aria-hidden="true">→</span>
+        </Link>
+
         <div className="Home-card Home-card--disabled">
           <span className="Home-card-icon">{icons.rivalry}</span>
           <h3>Rivalry's</h3>

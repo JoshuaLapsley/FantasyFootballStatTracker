@@ -104,8 +104,11 @@ completedWeeks = 8
 
 # Where the generated data lives, and where the website reads it from
 DATA_DIR = SCRIPT_DIR / ".." / "APICallsAndStats" / "Data" / str(year)
+GTM_DIR = SCRIPT_DIR / ".." / "APICallsAndStats" / "Data" / "GTM"
 WEBSITE_DIR = (PROJECT_ROOT / "Website" / "girderma-gridiron-website"
                / "src" / "league_stats_output" / str(year))
+WEBSITE_DIR_GTM = (PROJECT_ROOT / "Website" / "girderma-gridiron-website"
+               / "src" / "league_stats_output" / "GTM")
 
 # Anchored to the script so it works no matter where you run it from.
 sc = OAuth2(None, None, from_file=str(SCRIPT_DIR / "oauth2.json"))
@@ -154,3 +157,4 @@ write_meta(lg, DATA_DIR, year)
 #Copy To Website
 
 copy_dir(DATA_DIR, WEBSITE_DIR)
+copy_dir(GTM_DIR, WEBSITE_DIR_GTM)

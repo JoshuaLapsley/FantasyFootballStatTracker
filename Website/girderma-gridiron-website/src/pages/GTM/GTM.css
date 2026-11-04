@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap");
+
+.mg {
+  --turf: #0e2a1c;
+  --turf-light: #17402b;
+  --line: #2b5c40;
+  --chalk: #eef3ea;
+  --chalk-dim: #9db8a7;
+  --flag: #f5c518;
+  --good: #3ecf7a;
+  --bad: #ff6b6b;
+
+  box-sizing: border-box;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: max(16px, env(safe-area-inset-top)) 16px max(16px, env(safe-area-inset-bottom));
+  background:
+    repeating-linear-gradient(90deg, transparent 0 79px, rgba(255, 255, 255, 0.03) 79px 80px),
+    var(--turf);
+  color: var(--chalk);
+  font-family: "Barlow", system-ui, sans-serif;
+}
+
+.mg *,
+.mg *::before,
+.mg *::after {
+  box-sizing: border-box;
+}
+
+.mg-card {
+  width: 100%;
+  max-width: 520px;
+  background: var(--turf-light);
+  border: 2px solid var(--line);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/* ---------- Type ---------- */
+.mg-title,
+.mg-player-name,
+.mg-score,
+.mg-subhead {
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-weight: 800;
+  line-height: 1;
+  margin: 0;
+}
+
+.mg-title {
+  font-size: clamp(2.6rem, 11vw, 3.6rem);
+  color: var(--flag);
+}
+
+.mg-lede {
+  margin: 12px 0 0;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: var(--chalk-dim);
+}
+
+.mg-meta {
+  margin: 0 0 6px;
+  font-size: 0.95rem;
+  color: var(--chalk-dim);
+}
+
+.mg-error {
+  margin: 16px 0 0;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(255, 107, 107, 0.15);
+  color: var(--bad);
+  font-size: 0.95rem;
+}
+
+/* ---------- Buttons ---------- */
+.mg-btn {
+  font: inherit;
+  font-weight: 600;
+  color: var(--chalk);
+  background: var(--turf);
+  border: 2px solid var(--line);
+  border-radius: 14px;
+  padding: 14px 16px;
+  min-height: 52px;
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.08s ease, border-color 0.15s ease, background 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mg-btn:hover:not(:disabled) {
+  border-color: var(--flag);
+}
+
+.mg-btn:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+.mg-btn:focus-visible,
+.mg-quit:focus-visible {
+  outline: 3px solid var(--flag);
+  outline-offset: 2px;
+}
+
+.mg-btn:disabled {
+  cursor: default;
+}
+
+.mg-btn-primary {
+  background: var(--flag);
+  border-color: var(--flag);
+  color: #1a1a0a;
+  font-weight: 700;
+  font-size: 1.05rem;
+  width: 100%;
+}
+
+.mg-btn-primary:hover:not(:disabled) {
+  background: #ffd83d;
+}
+
+.mg-btn-ghost {
+  background: transparent;
+  width: 100%;
+}
+
+/* ---------- Difficulty + season select ---------- */
+.mg-label {
+  margin: 24px 0 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--chalk-dim);
+}
+
+.mg-levels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.mg-level {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  text-align: left;
+}
+
+.mg-level-name {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.mg-level-blurb {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--chalk-dim);
+}
+
+.mg-level.is-selected {
+  border-color: var(--flag);
+  background: rgba(245, 197, 24, 0.14);
+}
+
+.mg-level.is-selected .mg-level-name {
+  color: var(--flag);
+}
+
+/* ---------- Season select ---------- */
+.mg-years {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  gap: 10px;
+}
+
+.mg-btn-year {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 12px;
+}
+
+.mg-modes {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.mg-mode {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  text-align: left;
+}
+
+/* ---------- Game header ---------- */
+.mg-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mg-quit {
+  width: 36px;
+  height: 36px;
+  flex: none;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  background: transparent;
+  color: var(--chalk-dim);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.mg-progress {
+  flex: 1;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--turf);
+  overflow: hidden;
+}
+
+.mg-progress-bar {
+  height: 100%;
+  background: var(--flag);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.mg-counter {
+  flex: none;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--chalk-dim);
+}
+
+/* ---------- Question ---------- */
+.mg-player {
+  text-align: center;
+  padding: 24px 0 20px;
+}
+
+.mg-year-chip {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 4px 14px;
+  border-radius: 999px;
+  background: var(--flag);
+  color: #1a1a0a;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.mg-player-name {
+  font-size: clamp(2.2rem, 10vw, 3rem);
+  overflow-wrap: anywhere;
+}
+
+/* ---------- Options ---------- */
+.mg-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.mg-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  overflow-wrap: anywhere;
+}
+
+.mg-option.is-correct {
+  background: rgba(62, 207, 122, 0.2);
+  border-color: var(--good);
+  color: var(--good);
+}
+
+.mg-option.is-wrong {
+  background: rgba(255, 107, 107, 0.18);
+  border-color: var(--bad);
+  color: var(--bad);
+}
+
+.mg-option.is-dim {
+  opacity: 0.4;
+}
+
+/* ---------- Feedback ---------- */
+.mg-footer {
+  min-height: 108px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.mg-feedback {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.mg-feedback.good {
+  color: var(--good);
+}
+
+.mg-feedback.bad {
+  color: var(--bad);
+}
+
+/* ---------- Results ---------- */
+.mg-results {
+  text-align: center;
+}
+
+.mg-score {
+  font-size: clamp(5rem, 24vw, 7rem);
+  color: var(--flag);
+}
+
+.mg-score-total {
+  font-size: 0.5em;
+  color: var(--chalk-dim);
+}
+
+.mg-subhead {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.mg-misses {
+  margin-top: 24px;
+  text-align: left;
+}
+
+.mg-misses ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 280px;
+  overflow-y: auto;
+  border-top: 2px solid var(--line);
+}
+
+.mg-misses li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2px 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.mg-miss-player {
+  font-weight: 600;
+}
+
+.mg-miss-year {
+  font-weight: 400;
+  color: var(--chalk-dim);
+}
+
+.mg-miss-detail {
+  color: var(--chalk-dim);
+  font-size: 0.95rem;
+}
+
+.mg-miss-detail s {
+  color: var(--bad);
+}
+
+.mg-miss-detail strong {
+  color: var(--good);
+}
+
+.mg-actions {
+  display: grid;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+/* ---------- Larger screens ---------- */
+@media (min-width: 560px) {
+  .mg-modes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .mg-card {
+    padding: 32px;
+  }
+  .mg-options {
+    gap: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mg-btn,
+  .mg-progress-bar {
+    transition: none;
+  }
+}

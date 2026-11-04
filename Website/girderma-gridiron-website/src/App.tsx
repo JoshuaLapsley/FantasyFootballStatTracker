@@ -16,6 +16,7 @@ import Connor2025 from './pages/HallOfFame/Losers/Connor2025/Connor2025';
 import TeamPages from './pages/TeamPages/TeamPages';
 import PotTracker from './pages/PotTracker/PotTracker';
 import CurrentSeason from './pages/CurrentSeason/CurrentSeason';
+import GTM from './pages/GTM/GTM';
 
 
 const App: React.FC = () => {
@@ -34,6 +35,7 @@ const App: React.FC = () => {
           <Route path="/team-pages" element={<TeamPages />} />
           <Route path="/pot-tracker" element={<PotTracker />} />
           <Route path="/current-season" element={<CurrentSeason />} />
+          <Route path="/GTM" element={<GTM />} />
 
           {/* Winners */}
           <Route path="/hall-of-fame/For Pitts and Giggles/2023" element={<Zach2023 />} />
