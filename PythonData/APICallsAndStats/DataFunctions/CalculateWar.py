@@ -12,8 +12,8 @@ Input (relative to this script):
     ../APIData/{year}/RosterPoints.json
         {week: {team_key: [{player_id, selected_position, points}, ...]}}
         Only used to learn who was in a starting lineup each week (for D).
-    ../APIData/{year}/ZeroScoreReview.json   (optional, read/write)
-        {week: {player_id: {"name", "position", "played": true/false}}}
+    Sleeper projection files (read through ProjectionTranslation.py)
+        Used to decide whether a player actually played.
 
 Output:
     ../Data/{year}/WAR.json
@@ -25,8 +25,7 @@ For a given player in a given week:
 
     P = credited points - position replacement level, where credited
         points = actual points if the player played, replacement level
-        if they didn't (bye, no points returned, or a 0.0 that isn't
-        confirmed as a real zero). No week is ever skipped.
+        if they didn't. No week is ever skipped.
 
     D = season-long average points scored by STARTERS at the player's
         position (selected_position not BN/IR/IR+/NA; FLEX "W/R/T"
@@ -35,10 +34,9 @@ For a given player in a given week:
         D_relative = D - replacement so it is on the same
         points-above-replacement basis as P.
 
-        A starter who did not play (bye, or a 0.0 not confirmed as a
-        real zero in ZeroScoreReview.json) is left out of D, using the
-        same rule as P. Set EXCLUDE_DNP_FROM_D = False to count those
-        0.0s in D instead.
+        A starter who did not play is left out of D, using the same rule
+        as P. Set EXCLUDE_DNP_FROM_D = False to count those weeks in D
+        at their actual points instead.
 
     WAR_week = Phi((P - D_relative) / MARGIN_SIGMA)
              - Phi((-D_relative) / MARGIN_SIGMA)
@@ -48,11 +46,12 @@ empirical standard deviation of the margin between two team scores
 (single-team sigma 23.3 * sqrt(2)). A player's season WAR is the sum of
 WAR_week across every week in DraftedPlayerWeeklyPoints.json.
 
-ZeroScoreReview.json
-    Every non-bye 0.0 is auto-logged with "played": false (same as the
-    PAR script). To mark a player who genuinely played and scored a real
-    0, flip that entry to true and re-run:
-        {"<week>": {"<player_id>": {"played": true}}}
+DID-NOT-PLAY RULE
+    A player is treated as NOT having played when any of these is true:
+      * it is their bye week
+      * Yahoo returned no points for them that week
+      * their Sleeper projected points (projection_ppr) are 0, null, or
+        the player isn't found in that week's Sleeper projections
 
 Usage:
     write_war(2026)
@@ -64,13 +63,19 @@ import os
 import numpy as np
 from scipy.stats import norm
 
+from PythonData.APICallsAndStats.DataFunctions.ProjectionTranslation import load_sleeper_week, lookup_player
+
+
+# If you run this as part of the PythonData package, use the full path instead:
+# from PythonData.APICallsAndStats.ProjectionTranslation import lookup_player, load_sleeper_week
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 REPLACEMENT_LEVEL = {
     "QB": 15,
     "WR": 7,
     "RB": 5,
-    "TE": 6,
+    "TE": 8,
     "K": 7,
     "DEF": 5,
 }
@@ -157,80 +162,28 @@ def load_starters_by_week(year):
 
 
 # --------------------------------------------------------------------------
-# ZERO-SCORE MANUAL REVIEW LOG
+# DID-NOT-PLAY CHECK
 # --------------------------------------------------------------------------
-def _review_path(year):
-    return os.path.join(_year_dir(year), "ZeroScoreReview.json")
-
-
-def load_zero_score_review(year):
-    path = _review_path(year)
-    if os.path.isfile(path):
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {}
-
-
-def save_zero_score_review(year, review):
-    path = _review_path(year)
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(review, f, indent=2)
-
-
-def auto_flag_zero_scores(year, week, board, actuals, review):
+def player_did_not_play(player_name, actual_points, bye_week, week, year):
     """
-    Adds a default "played": false entry to the review log for every
-    drafted player who scored exactly 0.0 this week (excluding a bye,
-    which is unambiguous). Never touches an existing entry.
+    True if the player should be treated as not having played this week:
+    bye week, no actual points, or Sleeper projection is 0 / null / missing.
     """
-    week_review = review.setdefault(str(week), {})
-    added = []
-
-    for p in board:
-        pid = p["player_id"]
-        if p["bye_week"] == week:
-            continue
-        if actuals.get(pid) != 0.0:
-            continue
-        if pid in week_review:
-            continue
-
-        week_review[pid] = {
-            "name": p["player_name"],
-            "position": p["position"],
-            "played": False,
-        }
-        added.append(p["player_name"])
-
-    if added:
-        save_zero_score_review(year, review)
-        print(f"  Auto-flagged {len(added)} zero-score player(s) for week {week} "
-              f"review (default played=false): {added}")
-
-    return review
-
-
-def player_did_not_play(actual_points, bye_week, week, player_id, review):
-    """Bye weeks and missing actuals are always DNP; an exact 0.0 defaults
-    to DNP unless the review log confirms the player genuinely played."""
     if bye_week is not None and bye_week == week:
         return True
     if actual_points is None:
         return True
-    if actual_points != 0.0:
-        return False
 
-    entry = review.get(str(week), {}).get(player_id)
-    if entry and entry.get("played") is True:
-        return False
-    return True
+    record = lookup_player(player_name, year, week)
+    if record is None:
+        return True
+    return not record.get("projection_ppr")   # None or 0 -> did not play
 
 
 # --------------------------------------------------------------------------
 # PER-WEEK CREDITED POINTS
 # --------------------------------------------------------------------------
-def par_for_week(week, board, actuals, review):
+def par_for_week(week, board, actuals, year):
     """Returns {player_id: credited_points - replacement} for one week."""
     par = {}
     for p in board:
@@ -240,7 +193,9 @@ def par_for_week(week, board, actuals, review):
             continue
 
         actual = actuals.get(pid)
-        dnp = player_did_not_play(actual, p.get("bye_week"), week, pid, review)
+        dnp = player_did_not_play(
+            p["player_name"], actual, p.get("bye_week"), week, year
+        )
         credited = replacement if dnp else actual
         par[pid] = credited - replacement
     return par
@@ -249,9 +204,10 @@ def par_for_week(week, board, actuals, review):
 # --------------------------------------------------------------------------
 # D: season-long starter average per position
 # --------------------------------------------------------------------------
-def calculate_position_averages(board, starters_by_week, actuals_by_week, review):
+def calculate_position_averages(board, starters_by_week, actuals_by_week, year):
     position_by_id = {p["player_id"]: p["position"] for p in board}
     bye_by_id = {p["player_id"]: p.get("bye_week") for p in board}
+    name_by_id = {p["player_id"]: p["player_name"] for p in board}
 
     totals = {}
     counts = {}
@@ -266,7 +222,7 @@ def calculate_position_averages(board, starters_by_week, actuals_by_week, review
             if actual is None:
                 continue
             if EXCLUDE_DNP_FROM_D and player_did_not_play(
-                    actual, bye_by_id.get(pid), week, pid, review):
+                    name_by_id[pid], actual, bye_by_id.get(pid), week, year):
                 excluded += 1
                 continue
             totals[pos] = totals.get(pos, 0.0) + actual
@@ -292,17 +248,17 @@ def calculate_war(year):
     """
     board, actuals_by_week = load_drafted_players(year)
     starters_by_week = load_starters_by_week(year)
-    review = load_zero_score_review(year)
 
     weeks = sorted(actuals_by_week.keys())
     print(f"Completed weeks in weekly points file: {weeks or 'none yet'}")
 
-    # Log this week's zero-scorers before anything reads the review.
     for week in weeks:
-        review = auto_flag_zero_scores(year, week, board, actuals_by_week[week], review)
+        if load_sleeper_week(year, week) is None:
+            print(f"  WARNING: no Sleeper projections file for week {week}; "
+                  f"every player will be treated as did-not-play that week.")
 
     position_averages = calculate_position_averages(
-        board, starters_by_week, actuals_by_week, review
+        board, starters_by_week, actuals_by_week, year
     )
     print(f"Season-long starter averages (D, raw points): "
           f"{ {pos: round(d, 2) for pos, d in position_averages.items()} }")
@@ -314,7 +270,7 @@ def calculate_war(year):
 
     war_by_id = {p["player_id"]: 0.0 for p in board}
     for week in weeks:
-        par_this_week = par_for_week(week, board, actuals_by_week[week], review)
+        par_this_week = par_for_week(week, board, actuals_by_week[week], year)
         for p in board:
             pid = p["player_id"]
             d_relative = d_relative_by_pos.get(p["position"])

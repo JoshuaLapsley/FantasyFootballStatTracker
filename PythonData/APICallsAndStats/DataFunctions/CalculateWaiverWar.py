@@ -13,7 +13,8 @@ Inputs (all under ../APIData/{year}/, relative to this script)
     TransactionData.json   add / drop / add/drop / trade transactions
     DraftData.json         draft picks
     RosterPoints.json      {week: {team_key: [{player_id, selected_position, points}]}}
-    ZeroScoreReview.json   shared with CalculateWar.py (read, and appended to)
+    Sleeper projection files (read through ProjectionTranslation.py, via
+    CalculateWar.py) decide whether a pickup actually played.
 
 Output
 ------
@@ -26,8 +27,8 @@ How it matches CalculateWar.py
   exactly the same scale as WAR.json.
 - Weeks used are the same completed weeks calculate_war used.
 - Did-not-play rule, replacement levels and the WAR formula are imported from
-  CalculateWar.py. Zero-score pickups are auto-logged to ZeroScoreReview.json
-  as played=false (flip to true for a real zero), same as drafted players.
+  CalculateWar.py. A player did not play if their Sleeper projection
+  (projection_ppr) is 0, null, or missing.
 
 Pickup rules
 ------------
@@ -50,8 +51,6 @@ try:
         player_did_not_play,
         win_probability_added,
         calculate_war,
-        load_zero_score_review,
-        auto_flag_zero_scores,
     )
 except ImportError:
     from PythonData.APICallsAndStats.DataFunctions.CalculateWar import (
@@ -60,8 +59,6 @@ except ImportError:
         player_did_not_play,
         win_probability_added,
         calculate_war,
-        load_zero_score_review,
-        auto_flag_zero_scores,
     )
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -131,16 +128,58 @@ def build_team_info(draft: list, transactions: list) -> dict:
     return teams
 
 
-def build_trade_pairs(transactions: list) -> set:
-    """(destination_team_key, player_id) for every successful trade."""
+def build_trade_pairs(transactions: list, team_info: dict) -> set:
+    """
+    (destination_team_key, player_id) for every successful trade.
+
+    The destination team key is resolved in this order, because trade
+    players don't always carry a team key of their own:
+      1. the player's own destination_team_key
+      2. the transaction's trader/tradee keys, matched by destination team name
+      3. any team name -> key seen in the draft / transaction data
+    A trade player whose destination can't be resolved is reported, since it
+    would otherwise slip through as a waiver pickup.
+    """
+    name_to_key = {
+        info["team_name"]: key
+        for key, info in team_info.items()
+        if info.get("team_name")
+    }
+
     pairs = set()
+    unresolved = []
     for tx in transactions:
         if tx.get("type") != "trade" or tx.get("status") != "successful":
             continue
+
+        tx_name_to_key = {}
+        for side in ("trader", "tradee"):
+            name = tx.get(f"{side}_team_name")
+            key = tx.get(f"{side}_team_key")
+            if name and key:
+                tx_name_to_key[name] = key
+
         for p in tx.get("players", []):
-            dest = p.get("destination_team_key")
+            dest_name = p.get("destination_team_name")
+            dest = (
+                p.get("destination_team_key")
+                or tx_name_to_key.get(dest_name)
+                or name_to_key.get(dest_name)
+            )
             if dest:
                 pairs.add((dest, str(p["player_id"])))
+            else:
+                unresolved.append(
+                    f"{p.get('player_name')} -> {dest_name} "
+                    f"(transaction {tx.get('transaction_id')})"
+                )
+
+    if unresolved:
+        print(f"  WARNING: couldn't resolve the destination team for "
+              f"{len(unresolved)} traded player(s); they may appear as pickups:")
+        for line in unresolved:
+            print(f"    {line}")
+
     return pairs
 
 
@@ -205,28 +244,12 @@ def calculate_waiver_war(league, year) -> list:
 
     player_info = build_player_info(draft, transactions)
     team_info = build_team_info(draft, transactions)
-    trade_pairs = build_trade_pairs(transactions)
+    trade_pairs = build_trade_pairs(transactions, team_info)
     pickups = identify_pickups(draft, rosters_by_week, weeks, trade_pairs)
     print(f"[{year}] {len(pickups)} pickup (team, player) pairs; "
           f"{len(trade_pairs)} trade-acquired pairs excluded.")
 
     actuals_by_week = build_actuals_by_week(rosters_by_week, weeks)
-
-    # Log this week's zero-scoring pickups to the shared review file first.
-    review = load_zero_score_review(year)
-    for week in weeks:
-        pids = {pid for (_team, pid), ws in pickups.items() if week in ws}
-        week_board = [
-            {
-                "player_id": pid,
-                "player_name": player_info.get(pid, {}).get("player_name") or pid,
-                "position": player_info.get(pid, {}).get("position"),
-                "bye_week": None,
-            }
-            for pid in pids
-            if player_info.get(pid, {}).get("position") in REPLACEMENT_LEVEL
-        ]
-        review = auto_flag_zero_scores(year, week, week_board, actuals_by_week[week], review)
 
     rows = []
     for (team_key, pid), weeks_rostered in pickups.items():
@@ -240,17 +263,18 @@ def calculate_waiver_war(league, year) -> list:
         if d_relative is None:
             continue
 
+        player_name = info.get("player_name") or pid
         replacement = REPLACEMENT_LEVEL[position]
         war_total = 0.0
         for week in weeks_rostered:
             actual = actuals_by_week.get(week, {}).get(pid)
-            dnp = player_did_not_play(actual, None, week, pid, review)
+            dnp = player_did_not_play(player_name, actual, None, week, year)
             credited = replacement if dnp else actual
             war_total += win_probability_added(credited - replacement, d_relative)
 
         team = team_info.get(team_key, {})
         rows.append({
-            "Player": info.get("player_name") or pid,
+            "Player": player_name,
             "Player ID": pid,
             "Position": position,
             "Team": team.get("team_name") or team_key,

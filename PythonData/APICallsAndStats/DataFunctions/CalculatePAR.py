@@ -2,9 +2,10 @@
 Calculate each drafted player's PAR (Points Above Replacement) for a
 season and write it to a JSON file. No API calls, no images.
 
-Uses the exact same PAR rules as run_draft_par() in RunWeekly.py, but
-reads each drafted player's weekly points from the JSON produced by
-GetDraftedPlayerWeeklyPoints.py instead of calling Yahoo.
+Reads each drafted player's weekly points from the JSON produced by
+GetDraftedPlayerWeeklyPoints.py instead of calling Yahoo, and uses the
+Sleeper projections (via ProjectionTranslation.py) to decide whether a
+player actually played.
 
 Input (relative to this script):
     ../APIData/{year}/DraftedPlayerWeeklyPoints.json
@@ -13,8 +14,7 @@ Input (relative to this script):
          player_name, position, bye_week,
          weekly_points: [{week, points}, ...]}
         (only completed weeks are in this file)
-    ../APIData/{year}/ZeroScoreReview.json   (optional, read/write)
-        {week: {player_id: {"name", "position", "played": true/false}}}
+    Sleeper projection files (read through ProjectionTranslation.py)
 
 Output:
     ../Data/{year}/PAR.json
@@ -25,21 +25,19 @@ WHAT "PAR" MEANS HERE
 Replacement level (per position, season-long flat baseline):
     QB = 15, RB = 5, WR = 7, TE = 6, K = 7, DEF = 5
 
-For every completed week, every drafted player uses the same ungated rule:
+For every completed week, every drafted player uses the same rule:
   * If the player played that week, they're credited their ACTUAL points,
-    however low.
-  * If the player did NOT play (bye week, no points returned, or an exact
-    0.0 that isn't confirmed as a real zero), they're credited
-    replacement level instead.
+    however low (including a real 0.0).
+  * If the player did NOT play, they're credited replacement level instead.
   * A player's PAR for the season is the sum of
     (credited points - replacement level) across every week in the file.
     No week is ever skipped.
 
-An exact 0.0 defaults to "did not play". Every non-bye 0.0 is auto-logged
-in ZeroScoreReview.json with "played": false. To mark a player who
-genuinely played and scored a real 0, flip that entry to true:
-    {"<week>": {"<player_id>": {"played": true}}}
-and re-run.
+A player is treated as NOT having played when any of these is true:
+  * it is their bye week
+  * Yahoo returned no points for them that week
+  * their Sleeper projected points (projection_ppr) are 0, null, or the
+    player isn't found in that week's Sleeper projections
 
 Usage:
     write_par(2026)
@@ -48,13 +46,19 @@ Usage:
 import json
 import os
 
+from PythonData.APICallsAndStats.DataFunctions.ProjectionTranslation import load_sleeper_week, lookup_player
+
+
+# If you run this as part of the PythonData package, use the full path instead:
+# from PythonData.APICallsAndStats.ProjectionTranslation import lookup_player, load_sleeper_week
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 REPLACEMENT_LEVEL = {
     "QB": 15,
     "WR": 7,
     "RB": 5,
-    "TE": 6,
+    "TE": 8,
     "K": 7,
     "DEF": 5,
 }
@@ -113,74 +117,22 @@ def load_drafted_players(year):
 
 
 # --------------------------------------------------------------------------
-# ZERO-SCORE MANUAL REVIEW LOG
+# DID-NOT-PLAY CHECK
 # --------------------------------------------------------------------------
-def _review_path(year):
-    return os.path.join(_year_dir(year), "ZeroScoreReview.json")
-
-
-def load_zero_score_review(year):
-    path = _review_path(year)
-    if os.path.isfile(path):
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {}
-
-
-def save_zero_score_review(year, review):
-    path = _review_path(year)
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(review, f, indent=2)
-
-
-def auto_flag_zero_scores(year, week, board, actuals, review):
+def player_did_not_play(player_name, actual_points, bye_week, week, year):
     """
-    Adds a default "played": false entry to the review log for every
-    drafted player who scored exactly 0.0 this week (excluding a bye,
-    which is unambiguous). Never touches an existing entry.
+    True if the player should be treated as not having played this week:
+    bye week, no actual points, or Sleeper projection is 0 / null / missing.
     """
-    week_review = review.setdefault(str(week), {})
-    added = []
-
-    for p in board:
-        pid = p["player_id"]
-        if p["bye_week"] == week:
-            continue
-        if actuals.get(pid) != 0.0:
-            continue
-        if pid in week_review:
-            continue
-
-        week_review[pid] = {
-            "name": p["player_name"],
-            "position": p["position"],
-            "played": False,
-        }
-        added.append(p["player_name"])
-
-    if added:
-        save_zero_score_review(year, review)
-        print(f"  Auto-flagged {len(added)} zero-score player(s) for week {week} "
-              f"review (default played=false): {added}")
-
-    return review
-
-
-def player_did_not_play(actual_points, bye_week, week, player_id, review):
-    """Bye weeks and missing actuals are always DNP; an exact 0.0 defaults
-    to DNP unless the review log confirms the player genuinely played."""
     if bye_week is not None and bye_week == week:
         return True
     if actual_points is None:
         return True
-    if actual_points != 0.0:
-        return False
 
-    entry = review.get(str(week), {}).get(player_id)
-    if entry and entry.get("played") is True:
-        return False
-    return True
+    record = lookup_player(player_name, year, week)
+    if record is None:
+        return True
+    return not record.get("projection_ppr")   # None or 0 -> did not play
 
 
 # --------------------------------------------------------------------------
@@ -192,7 +144,6 @@ def calculate_par(year):
     results is a list of per-player dicts sorted by PAR, descending.
     """
     board, actuals_by_week = load_drafted_players(year)
-    review = load_zero_score_review(year)
 
     weeks = sorted(actuals_by_week.keys())
     print(f"Completed weeks in weekly points file: {weeks or 'none yet'}")
@@ -201,10 +152,13 @@ def calculate_par(year):
 
     for week in weeks:
         actuals = actuals_by_week[week]
-        review = auto_flag_zero_scores(year, week, board, actuals, review)
 
-        print(f"Processing week {week} (ungated rule: credit actual points "
-              f"if played, replacement level if not)...")
+        if load_sleeper_week(year, week) is None:
+            print(f"  WARNING: no Sleeper projections file for week {week}; "
+                  f"every player will be treated as did-not-play that week.")
+
+        print(f"Processing week {week} (credit actual points if played, "
+              f"replacement level if not)...")
         for p in board:
             pid = p["player_id"]
             replacement = REPLACEMENT_LEVEL.get(p["position"])
@@ -212,7 +166,9 @@ def calculate_par(year):
                 continue
 
             actual = actuals.get(pid)
-            dnp = player_did_not_play(actual, p["bye_week"], week, pid, review)
+            dnp = player_did_not_play(
+                p["player_name"], actual, p["bye_week"], week, year
+            )
             credited = replacement if dnp else actual
             par_by_id[pid] += credited - replacement
 
