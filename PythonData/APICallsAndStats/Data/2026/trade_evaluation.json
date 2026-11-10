@@ -317,11 +317,11 @@
             },
             {
               "week": 9,
-              "points_gained": 0.0
+              "points_gained": -4.3
             }
           ],
-          "net_points_gained": 10.26,
-          "avg_points_gained_per_week": 2.57
+          "net_points_gained": 5.96,
+          "avg_points_gained_per_week": 1.49
         }
       ]
     },
@@ -584,11 +584,11 @@
           "weekly_points_gained": [
             {
               "week": 9,
-              "points_gained": 6.6
+              "points_gained": -0.4
             }
           ],
-          "net_points_gained": 6.6,
-          "avg_points_gained_per_week": 6.6
+          "net_points_gained": -0.4,
+          "avg_points_gained_per_week": -0.4
         },
         {
           "team": "Maître Stick",

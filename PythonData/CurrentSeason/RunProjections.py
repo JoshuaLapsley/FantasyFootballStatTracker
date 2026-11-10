@@ -8,4 +8,4 @@ from PythonData.APICallsAndStats.Projections.GetSleeperProjections import get_pr
 year = 2026
 currentWeek = 9
 
-get_projections(year, currentWeek, "../APICallsAndStats/Projections/SleeperProjections")
+get_projections(year, currentWeek, "../APICallsAndStats/Projections/SleeperProjections", keep_previous=False)

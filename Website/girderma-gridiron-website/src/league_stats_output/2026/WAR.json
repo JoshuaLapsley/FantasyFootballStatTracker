@@ -6,7 +6,7 @@
         "Pick": 5,
         "Round": 1,
         "Drafted By": "No Punts Intented",
-        "WAR": 1.9661,
+        "WAR": 1.9664,
         "WAR Rank": 1
     },
     {
@@ -36,7 +36,7 @@
         "Pick": 9,
         "Round": 1,
         "Drafted By": "Big Bad Hokkkk",
-        "WAR": 1.6095,
+        "WAR": 1.6098,
         "WAR Rank": 4
     },
     {
@@ -66,7 +66,7 @@
         "Pick": 4,
         "Round": 1,
         "Drafted By": "Flow Brrr",
-        "WAR": 1.4562,
+        "WAR": 1.4564,
         "WAR Rank": 7
     },
     {
@@ -106,7 +106,7 @@
         "Pick": 52,
         "Round": 4,
         "Drafted By": "No Punts Intented",
-        "WAR": 1.3423,
+        "WAR": 1.3424,
         "WAR Rank": 11
     },
     {
@@ -156,7 +156,7 @@
         "Pick": 3,
         "Round": 1,
         "Drafted By": "Girder\u2019s 6 Cookies",
-        "WAR": 1.2285,
+        "WAR": 1.2286,
         "WAR Rank": 16
     },
     {
@@ -166,7 +166,7 @@
         "Pick": 35,
         "Round": 3,
         "Drafted By": "Hunter\u2019s Hunters",
-        "WAR": 1.2221,
+        "WAR": 1.2222,
         "WAR Rank": 17
     },
     {
@@ -176,7 +176,7 @@
         "Pick": 110,
         "Round": 8,
         "Drafted By": "Girder\u2019s 6 Cookies",
-        "WAR": 1.2022,
+        "WAR": 1.2023,
         "WAR Rank": 18
     },
     {
@@ -306,7 +306,7 @@
         "Pick": 30,
         "Round": 3,
         "Drafted By": "Omaha Beach Real Estate",
-        "WAR": 0.8794,
+        "WAR": 0.8795,
         "WAR Rank": 31
     },
     {
@@ -316,7 +316,7 @@
         "Pick": 37,
         "Round": 3,
         "Drafted By": "Big Bad Hokkkk",
-        "WAR": 0.8557,
+        "WAR": 0.8558,
         "WAR Rank": 32
     },
     {
@@ -336,7 +336,7 @@
         "Pick": 38,
         "Round": 3,
         "Drafted By": "Ozzy Stick",
-        "WAR": 0.7767,
+        "WAR": 0.7768,
         "WAR Rank": 34
     },
     {
@@ -386,7 +386,7 @@
         "Pick": 49,
         "Round": 4,
         "Drafted By": "Supernova\u2019s Studs",
-        "WAR": 0.6947,
+        "WAR": 0.6948,
         "WAR Rank": 39
     },
     {
@@ -456,7 +456,7 @@
         "Pick": 39,
         "Round": 3,
         "Drafted By": "Revy\u2019s Konstruction",
-        "WAR": 0.6105,
+        "WAR": 0.6106,
         "WAR Rank": 46
     },
     {
@@ -496,8 +496,18 @@
         "Pick": 18,
         "Round": 2,
         "Drafted By": "Revy\u2019s Konstruction",
-        "WAR": 0.5902,
+        "WAR": 0.5903,
         "WAR Rank": 50
+    },
+    {
+        "Player": "George Pickens",
+        "Player ID": "34007",
+        "Position": "WR",
+        "Pick": 23,
+        "Round": 2,
+        "Drafted By": "You gotta be Falcon kiddin me",
+        "WAR": 0.5767,
+        "WAR Rank": 51
     },
     {
         "Player": "Tre Tucker",
@@ -506,8 +516,8 @@
         "Pick": 139,
         "Round": 10,
         "Drafted By": "Omaha Beach Real Estate",
-        "WAR": 0.5567,
-        "WAR Rank": 51
+        "WAR": 0.5568,
+        "WAR Rank": 52
     },
     {
         "Player": "Justin Jefferson",
@@ -517,7 +527,7 @@
         "Round": 1,
         "Drafted By": "Tsuga\u2019s Tuck Shop",
         "WAR": 0.5477,
-        "WAR Rank": 52
+        "WAR Rank": 53
     },
     {
         "Player": "Tyler Allgeier",
@@ -527,7 +537,7 @@
         "Round": 9,
         "Drafted By": "Revy\u2019s Konstruction",
         "WAR": 0.5304,
-        "WAR Rank": 53
+        "WAR Rank": 54
     },
     {
         "Player": "Vikings",
@@ -537,7 +547,7 @@
         "Round": 14,
         "Drafted By": "Revy\u2019s Konstruction",
         "WAR": 0.5289,
-        "WAR Rank": 54
+        "WAR Rank": 55
     },
     {
         "Player": "Aaron Jones Sr.",
@@ -547,16 +557,6 @@
         "Round": 8,
         "Drafted By": "No Punts Intented",
         "WAR": 0.5138,
-        "WAR Rank": 55
-    },
-    {
-        "Player": "George Pickens",
-        "Player ID": "34007",
-        "Position": "WR",
-        "Pick": 23,
-        "Round": 2,
-        "Drafted By": "You gotta be Falcon kiddin me",
-        "WAR": 0.4962,
         "WAR Rank": 56
     },
     {
@@ -570,6 +570,16 @@
         "WAR Rank": 57
     },
     {
+        "Player": "DeVonta Smith",
+        "Player ID": "33398",
+        "Position": "WR",
+        "Pick": 32,
+        "Round": 3,
+        "Drafted By": "Flow Brrr",
+        "WAR": 0.489,
+        "WAR Rank": 58
+    },
+    {
         "Player": "Mike Evans",
         "Player ID": "27535",
         "Position": "WR",
@@ -577,7 +587,7 @@
         "Round": 5,
         "Drafted By": "Tsuga\u2019s Tuck Shop",
         "WAR": 0.4817,
-        "WAR Rank": 58
+        "WAR Rank": 59
     },
     {
         "Player": "Denzel Boston",
@@ -587,7 +597,7 @@
         "Round": 11,
         "Drafted By": "The Sage's Playmakers",
         "WAR": 0.4789,
-        "WAR Rank": 59
+        "WAR Rank": 60
     },
     {
         "Player": "Ollie Gordon II",
@@ -597,7 +607,7 @@
         "Round": 14,
         "Drafted By": "Girder\u2019s 6 Cookies",
         "WAR": 0.4788,
-        "WAR Rank": 60
+        "WAR Rank": 61
     },
     {
         "Player": "Alvin Kamara",
@@ -607,7 +617,7 @@
         "Round": 10,
         "Drafted By": "Ozzy Stick",
         "WAR": 0.4627,
-        "WAR Rank": 61
+        "WAR Rank": 62
     },
     {
         "Player": "Jonah Coleman",
@@ -617,7 +627,7 @@
         "Round": 13,
         "Drafted By": "Hunter\u2019s Hunters",
         "WAR": 0.4566,
-        "WAR Rank": 62
+        "WAR Rank": 63
     },
     {
         "Player": "Dak Prescott",
@@ -627,7 +637,7 @@
         "Round": 7,
         "Drafted By": "Ozzy Stick",
         "WAR": 0.4504,
-        "WAR Rank": 63
+        "WAR Rank": 64
     },
     {
         "Player": "RJ Harvey",
@@ -637,7 +647,7 @@
         "Round": 8,
         "Drafted By": "Pad D's",
         "WAR": 0.449,
-        "WAR Rank": 64
+        "WAR Rank": 65
     },
     {
         "Player": "Ka'imi Fairbairn",
@@ -647,7 +657,7 @@
         "Round": 11,
         "Drafted By": "Flow Brrr",
         "WAR": 0.4457,
-        "WAR Rank": 65
+        "WAR Rank": 66
     },
     {
         "Player": "Jalen Coker",
@@ -656,8 +666,18 @@
         "Pick": 124,
         "Round": 9,
         "Drafted By": "The Sage's Playmakers",
-        "WAR": 0.4356,
-        "WAR Rank": 66
+        "WAR": 0.4357,
+        "WAR Rank": 67
+    },
+    {
+        "Player": "Cam Skattebo",
+        "Player ID": "41922",
+        "Position": "RB",
+        "Pick": 41,
+        "Round": 3,
+        "Drafted By": "Tsuga\u2019s Tuck Shop",
+        "WAR": 0.425,
+        "WAR Rank": 68
     },
     {
         "Player": "Travis Kelce",
@@ -667,7 +687,7 @@
         "Round": 7,
         "Drafted By": "Pad D's",
         "WAR": 0.4226,
-        "WAR Rank": 67
+        "WAR Rank": 69
     },
     {
         "Player": "Will Reichard",
@@ -677,7 +697,7 @@
         "Round": 15,
         "Drafted By": "Girder\u2019s 6 Cookies",
         "WAR": 0.4218,
-        "WAR Rank": 68
+        "WAR Rank": 70
     },
     {
         "Player": "Steelers",
@@ -687,7 +707,7 @@
         "Round": 15,
         "Drafted By": "Ozzy Stick",
         "WAR": 0.4186,
-        "WAR Rank": 69
+        "WAR Rank": 71
     },
     {
         "Player": "Rachaad White",
@@ -697,7 +717,7 @@
         "Round": 8,
         "Drafted By": "Tsuga\u2019s Tuck Shop",
         "WAR": 0.4151,
-        "WAR Rank": 70
+        "WAR Rank": 72
     },
     {
         "Player": "Kyle Monangai",
@@ -707,7 +727,7 @@
         "Round": 8,
         "Drafted By": "Revy\u2019s Konstruction",
         "WAR": 0.411,
-        "WAR Rank": 71
+        "WAR Rank": 73
     },
     {
         "Player": "Breece Hall",
@@ -717,17 +737,7 @@
         "Round": 2,
         "Drafted By": "Girder\u2019s 6 Cookies",
         "WAR": 0.4085,
-        "WAR Rank": 72
-    },
-    {
-        "Player": "DeVonta Smith",
-        "Player ID": "33398",
-        "Position": "WR",
-        "Pick": 32,
-        "Round": 3,
-        "Drafted By": "Flow Brrr",
-        "WAR": 0.4084,
-        "WAR Rank": 73
+        "WAR Rank": 74
     },
     {
         "Player": "Tyler Shough",
@@ -737,7 +747,7 @@
         "Round": 15,
         "Drafted By": "No Punts Intented",
         "WAR": 0.3892,
-        "WAR Rank": 74
+        "WAR Rank": 75
     },
     {
         "Player": "Trevor Lawrence",
@@ -747,16 +757,6 @@
         "Round": 7,
         "Drafted By": "Revy\u2019s Konstruction",
         "WAR": 0.3778,
-        "WAR Rank": 75
-    },
-    {
-        "Player": "Cam Skattebo",
-        "Player ID": "41922",
-        "Position": "RB",
-        "Pick": 41,
-        "Round": 3,
-        "Drafted By": "Tsuga\u2019s Tuck Shop",
-        "WAR": 0.3682,
         "WAR Rank": 76
     },
     {
@@ -866,7 +866,7 @@
         "Pick": 158,
         "Round": 12,
         "Drafted By": "Revy\u2019s Konstruction",
-        "WAR": 0.3354,
+        "WAR": 0.3355,
         "WAR Rank": 87
     },
     {
@@ -920,6 +920,16 @@
         "WAR Rank": 92
     },
     {
+        "Player": "Deebo Samuel Sr.",
+        "Player ID": "31868",
+        "Position": "WR",
+        "Pick": 137,
+        "Round": 10,
+        "Drafted By": "Flow Brrr",
+        "WAR": 0.3077,
+        "WAR Rank": 93
+    },
+    {
         "Player": "Jayden Daniels",
         "Player ID": "40896",
         "Position": "QB",
@@ -927,7 +937,7 @@
         "Round": 5,
         "Drafted By": "Omaha Beach Real Estate",
         "WAR": 0.3004,
-        "WAR Rank": 93
+        "WAR Rank": 94
     },
     {
         "Player": "Caleb Williams",
@@ -937,7 +947,7 @@
         "Round": 7,
         "Drafted By": "You gotta be Falcon kiddin me",
         "WAR": 0.2971,
-        "WAR Rank": 94
+        "WAR Rank": 95
     },
     {
         "Player": "Rashee Rice",
@@ -947,7 +957,7 @@
         "Round": 3,
         "Drafted By": "Ma\u00eetre Stick",
         "WAR": 0.2943,
-        "WAR Rank": 95
+        "WAR Rank": 96
     },
     {
         "Player": "Seahawks",
@@ -957,7 +967,7 @@
         "Round": 12,
         "Drafted By": "You gotta be Falcon kiddin me",
         "WAR": 0.2903,
-        "WAR Rank": 96
+        "WAR Rank": 97
     },
     {
         "Player": "Cam Little",
@@ -967,7 +977,7 @@
         "Round": 12,
         "Drafted By": "Omaha Beach Real Estate",
         "WAR": 0.2896,
-        "WAR Rank": 97
+        "WAR Rank": 98
     },
     {
         "Player": "Jake Bates",
@@ -977,7 +987,7 @@
         "Round": 11,
         "Drafted By": "Ozzy Stick",
         "WAR": 0.2889,
-        "WAR Rank": 98
+        "WAR Rank": 99
     },
     {
         "Player": "Saquon Barkley",
@@ -987,7 +997,17 @@
         "Round": 1,
         "Drafted By": "The Sage's Playmakers",
         "WAR": 0.2838,
-        "WAR Rank": 99
+        "WAR Rank": 100
+    },
+    {
+        "Player": "Jeremiyah Love",
+        "Player ID": "42625",
+        "Position": "RB",
+        "Pick": 31,
+        "Round": 3,
+        "Drafted By": "Girder\u2019s 6 Cookies",
+        "WAR": 0.2815,
+        "WAR Rank": 101
     },
     {
         "Player": "DK Metcalf",
@@ -997,7 +1017,7 @@
         "Round": 6,
         "Drafted By": "Girder\u2019s 6 Cookies",
         "WAR": 0.266,
-        "WAR Rank": 100
+        "WAR Rank": 102
     },
     {
         "Player": "T.J. Hockenson",
@@ -1007,7 +1027,7 @@
         "Round": 14,
         "Drafted By": "Flow Brrr",
         "WAR": 0.2617,
-        "WAR Rank": 101
+        "WAR Rank": 103
     },
     {
         "Player": "Wan'Dale Robinson",
@@ -1017,7 +1037,7 @@
         "Round": 9,
         "Drafted By": "No Punts Intented",
         "WAR": 0.2589,
-        "WAR Rank": 102
+        "WAR Rank": 104
     },
     {
         "Player": "Brandon Aubrey",
@@ -1027,7 +1047,7 @@
         "Round": 8,
         "Drafted By": "Supernova\u2019s Studs",
         "WAR": 0.2551,
-        "WAR Rank": 103
+        "WAR Rank": 105
     },
     {
         "Player": "Evan McPherson",
@@ -1037,7 +1057,7 @@
         "Round": 15,
         "Drafted By": "Revy\u2019s Konstruction",
         "WAR": 0.2527,
-        "WAR Rank": 104
+        "WAR Rank": 106
     },
     {
         "Player": "Dalton Kincaid",
@@ -1047,7 +1067,7 @@
         "Round": 7,
         "Drafted By": "Omaha Beach Real Estate",
         "WAR": 0.2522,
-        "WAR Rank": 105
+        "WAR Rank": 107
     },
     {
         "Player": "Ryan Flournoy",
@@ -1056,8 +1076,8 @@
         "Pick": 165,
         "Round": 12,
         "Drafted By": "Flow Brrr",
-        "WAR": 0.2513,
-        "WAR Rank": 106
+        "WAR": 0.2512,
+        "WAR Rank": 108
     },
     {
         "Player": "Emmett Johnson",
@@ -1067,7 +1087,7 @@
         "Round": 14,
         "Drafted By": "No Punts Intented",
         "WAR": 0.2503,
-        "WAR Rank": 107
+        "WAR Rank": 109
     },
     {
         "Player": "Khalil Shakir",
@@ -1077,7 +1097,17 @@
         "Round": 10,
         "Drafted By": "Pad D's",
         "WAR": 0.2442,
-        "WAR Rank": 108
+        "WAR Rank": 110
+    },
+    {
+        "Player": "David Montgomery",
+        "Player ID": "31905",
+        "Position": "RB",
+        "Pick": 50,
+        "Round": 4,
+        "Drafted By": "Hunter\u2019s Hunters",
+        "WAR": 0.2436,
+        "WAR Rank": 111
     },
     {
         "Player": "Jakobi Meyers",
@@ -1087,7 +1117,7 @@
         "Round": 8,
         "Drafted By": "Ma\u00eetre Stick",
         "WAR": 0.2375,
-        "WAR Rank": 109
+        "WAR Rank": 112
     },
     {
         "Player": "Jacory Croskey-Merritt",
@@ -1097,7 +1127,7 @@
         "Round": 8,
         "Drafted By": "Flow Brrr",
         "WAR": 0.2369,
-        "WAR Rank": 110
+        "WAR Rank": 113
     },
     {
         "Player": "Rico Dowdle",
@@ -1107,7 +1137,7 @@
         "Round": 7,
         "Drafted By": "Girder\u2019s 6 Cookies",
         "WAR": 0.2335,
-        "WAR Rank": 111
+        "WAR Rank": 114
     },
     {
         "Player": "Jaylen Waddle",
@@ -1117,7 +1147,7 @@
         "Round": 4,
         "Drafted By": "The Sage's Playmakers",
         "WAR": 0.2328,
-        "WAR Rank": 112
+        "WAR Rank": 115
     },
     {
         "Player": "Broncos",
@@ -1127,27 +1157,7 @@
         "Round": 12,
         "Drafted By": "Hunter\u2019s Hunters",
         "WAR": 0.2295,
-        "WAR Rank": 113
-    },
-    {
-        "Player": "Deebo Samuel Sr.",
-        "Player ID": "31868",
-        "Position": "WR",
-        "Pick": 137,
-        "Round": 10,
-        "Drafted By": "Flow Brrr",
-        "WAR": 0.2271,
-        "WAR Rank": 114
-    },
-    {
-        "Player": "Jeremiyah Love",
-        "Player ID": "42625",
-        "Position": "RB",
-        "Pick": 31,
-        "Round": 3,
-        "Drafted By": "Girder\u2019s 6 Cookies",
-        "WAR": 0.2247,
-        "WAR Rank": 115
+        "WAR Rank": 116
     },
     {
         "Player": "Tucker Kraft",
@@ -1157,7 +1167,7 @@
         "Round": 6,
         "Drafted By": "Ozzy Stick",
         "WAR": 0.2241,
-        "WAR Rank": 116
+        "WAR Rank": 117
     },
     {
         "Player": "Kenny Gainwell",
@@ -1167,7 +1177,7 @@
         "Round": 7,
         "Drafted By": "Tsuga\u2019s Tuck Shop",
         "WAR": 0.2232,
-        "WAR Rank": 117
+        "WAR Rank": 118
     },
     {
         "Player": "Brian Robinson Jr.",
@@ -1177,7 +1187,7 @@
         "Round": 11,
         "Drafted By": "Big Bad Hokkkk",
         "WAR": 0.2206,
-        "WAR Rank": 118
+        "WAR Rank": 119
     },
     {
         "Player": "Dallas Goedert",
@@ -1187,7 +1197,7 @@
         "Round": 9,
         "Drafted By": "Hunter\u2019s Hunters",
         "WAR": 0.2159,
-        "WAR Rank": 119
+        "WAR Rank": 120
     },
     {
         "Player": "DJ Moore",
@@ -1196,8 +1206,8 @@
         "Pick": 57,
         "Round": 5,
         "Drafted By": "Ma\u00eetre Stick",
-        "WAR": 0.2157,
-        "WAR Rank": 120
+        "WAR": 0.2158,
+        "WAR Rank": 121
     },
     {
         "Player": "J.K. Dobbins",
@@ -1207,7 +1217,7 @@
         "Round": 6,
         "Drafted By": "No Punts Intented",
         "WAR": 0.2116,
-        "WAR Rank": 121
+        "WAR Rank": 122
     },
     {
         "Player": "Matthew Stafford",
@@ -1217,7 +1227,7 @@
         "Round": 12,
         "Drafted By": "Big Bad Hokkkk",
         "WAR": 0.208,
-        "WAR Rank": 122
+        "WAR Rank": 123
     },
     {
         "Player": "Romeo Doubs",
@@ -1227,7 +1237,7 @@
         "Round": 9,
         "Drafted By": "Ozzy Stick",
         "WAR": 0.1974,
-        "WAR Rank": 123
+        "WAR Rank": 124
     },
     {
         "Player": "Justice Hill",
@@ -1237,17 +1247,17 @@
         "Round": 15,
         "Drafted By": "Supernova\u2019s Studs",
         "WAR": 0.1937,
-        "WAR Rank": 124
+        "WAR Rank": 125
     },
     {
-        "Player": "David Montgomery",
-        "Player ID": "31905",
+        "Player": "Travis Etienne Jr.",
+        "Player ID": "33413",
         "Position": "RB",
-        "Pick": 50,
+        "Pick": 46,
         "Round": 4,
-        "Drafted By": "Hunter\u2019s Hunters",
-        "WAR": 0.1868,
-        "WAR Rank": 125
+        "Drafted By": "Revy\u2019s Konstruction",
+        "WAR": 0.1892,
+        "WAR Rank": 126
     },
     {
         "Player": "Juwan Johnson",
@@ -1257,7 +1267,7 @@
         "Round": 13,
         "Drafted By": "No Punts Intented",
         "WAR": 0.1813,
-        "WAR Rank": 126
+        "WAR Rank": 127
     },
     {
         "Player": "Chris Rodriguez Jr.",
@@ -1267,7 +1277,7 @@
         "Round": 9,
         "Drafted By": "Flow Brrr",
         "WAR": 0.1747,
-        "WAR Rank": 127
+        "WAR Rank": 128
     },
     {
         "Player": "Adonai Mitchell",
@@ -1276,8 +1286,8 @@
         "Pick": 143,
         "Round": 11,
         "Drafted By": "Girder\u2019s 6 Cookies",
-        "WAR": 0.166,
-        "WAR Rank": 128
+        "WAR": 0.1661,
+        "WAR Rank": 129
     },
     {
         "Player": "Jason Myers",
@@ -1287,7 +1297,7 @@
         "Round": 11,
         "Drafted By": "No Punts Intented",
         "WAR": 0.1653,
-        "WAR Rank": 129
+        "WAR Rank": 130
     },
     {
         "Player": "Josh Downs",
@@ -1297,7 +1307,7 @@
         "Round": 6,
         "Drafted By": "The Sage's Playmakers",
         "WAR": 0.1473,
-        "WAR Rank": 130
+        "WAR Rank": 131
     },
     {
         "Player": "Tank Dell",
@@ -1307,7 +1317,7 @@
         "Round": 9,
         "Drafted By": "Big Bad Hokkkk",
         "WAR": 0.1446,
-        "WAR Rank": 131
+        "WAR Rank": 132
     },
     {
         "Player": "Colston Loveland",
@@ -1317,7 +1327,7 @@
         "Round": 3,
         "Drafted By": "No Punts Intented",
         "WAR": 0.1397,
-        "WAR Rank": 132
+        "WAR Rank": 133
     },
     {
         "Player": "Dylan Sampson",
@@ -1327,7 +1337,7 @@
         "Round": 11,
         "Drafted By": "Revy\u2019s Konstruction",
         "WAR": 0.1381,
-        "WAR Rank": 133
+        "WAR Rank": 134
     },
     {
         "Player": "Germie Bernard",
@@ -1336,8 +1346,8 @@
         "Pick": 189,
         "Round": 14,
         "Drafted By": "Supernova\u2019s Studs",
-        "WAR": 0.1346,
-        "WAR Rank": 134
+        "WAR": 0.1347,
+        "WAR Rank": 135
     },
     {
         "Player": "Terry McLaurin",
@@ -1346,8 +1356,8 @@
         "Pick": 43,
         "Round": 4,
         "Drafted By": "Pad D's",
-        "WAR": 0.1344,
-        "WAR Rank": 135
+        "WAR": 0.1345,
+        "WAR Rank": 136
     },
     {
         "Player": "Makai Lemon",
@@ -1357,7 +1367,7 @@
         "Round": 8,
         "Drafted By": "Hunter\u2019s Hunters",
         "WAR": 0.1331,
-        "WAR Rank": 136
+        "WAR Rank": 137
     },
     {
         "Player": "Xavier Worthy",
@@ -1367,16 +1377,6 @@
         "Round": 9,
         "Drafted By": "Girder\u2019s 6 Cookies",
         "WAR": 0.1325,
-        "WAR Rank": 137
-    },
-    {
-        "Player": "Travis Etienne Jr.",
-        "Player ID": "33413",
-        "Position": "RB",
-        "Pick": 46,
-        "Round": 4,
-        "Drafted By": "Revy\u2019s Konstruction",
-        "WAR": 0.1324,
         "WAR Rank": 138
     },
     {
@@ -1406,7 +1406,7 @@
         "Pick": 44,
         "Round": 4,
         "Drafted By": "Tsuga\u2019s Tuck Shop",
-        "WAR": 0.1205,
+        "WAR": 0.1206,
         "WAR Rank": 141
     },
     {
@@ -1526,7 +1526,7 @@
         "Pick": 92,
         "Round": 7,
         "Drafted By": "Supernova\u2019s Studs",
-        "WAR": 0.0644,
+        "WAR": 0.0645,
         "WAR Rank": 153
     },
     {
@@ -1666,7 +1666,7 @@
         "Pick": 176,
         "Round": 13,
         "Drafted By": "Supernova\u2019s Studs",
-        "WAR": -0.0189,
+        "WAR": -0.0188,
         "WAR Rank": 167
     },
     {
@@ -1746,7 +1746,7 @@
         "Pick": 89,
         "Round": 7,
         "Drafted By": "No Punts Intented",
-        "WAR": -0.0353,
+        "WAR": -0.0352,
         "WAR Rank": 175
     },
     {
@@ -1866,7 +1866,7 @@
         "Pick": 20,
         "Round": 2,
         "Drafted By": "Big Bad Hokkkk",
-        "WAR": -0.1029,
+        "WAR": -0.1028,
         "WAR Rank": 187
     },
     {
@@ -1886,7 +1886,7 @@
         "Pick": 71,
         "Round": 6,
         "Drafted By": "Pad D's",
-        "WAR": -0.1331,
+        "WAR": -0.133,
         "WAR Rank": 189
     },
     {
@@ -1906,7 +1906,7 @@
         "Pick": 111,
         "Round": 8,
         "Drafted By": "Omaha Beach Real Estate",
-        "WAR": -0.1562,
+        "WAR": -0.1561,
         "WAR Rank": 191
     },
     {
@@ -1926,7 +1926,7 @@
         "Pick": 134,
         "Round": 10,
         "Drafted By": "Hunter\u2019s Hunters",
-        "WAR": -0.1611,
+        "WAR": -0.161,
         "WAR Rank": 193
     },
     {
@@ -1996,7 +1996,7 @@
         "Pick": 74,
         "Round": 6,
         "Drafted By": "Revy\u2019s Konstruction",
-        "WAR": -0.2555,
+        "WAR": -0.2554,
         "WAR Rank": 200
     },
     {
@@ -2006,7 +2006,7 @@
         "Pick": 135,
         "Round": 10,
         "Drafted By": "You gotta be Falcon kiddin me",
-        "WAR": -0.2738,
+        "WAR": -0.2737,
         "WAR Rank": 201
     },
     {
@@ -2016,7 +2016,7 @@
         "Pick": 174,
         "Round": 13,
         "Drafted By": "You gotta be Falcon kiddin me",
-        "WAR": -0.278,
+        "WAR": -0.2779,
         "WAR Rank": 202
     },
     {
@@ -2026,7 +2026,7 @@
         "Pick": 171,
         "Round": 13,
         "Drafted By": "Girder\u2019s 6 Cookies",
-        "WAR": -0.2785,
+        "WAR": -0.2784,
         "WAR Rank": 203
     },
     {
@@ -2036,7 +2036,7 @@
         "Pick": 197,
         "Round": 15,
         "Drafted By": "Ma\u00eetre Stick",
-        "WAR": -0.2844,
+        "WAR": -0.2843,
         "WAR Rank": 204
     },
     {
@@ -2086,7 +2086,7 @@
         "Pick": 148,
         "Round": 11,
         "Drafted By": "Supernova\u2019s Studs",
-        "WAR": -0.4183,
+        "WAR": -0.4181,
         "WAR Rank": 209
     },
     {
@@ -2096,7 +2096,7 @@
         "Pick": 154,
         "Round": 11,
         "Drafted By": "Pad D's",
-        "WAR": -0.4346,
+        "WAR": -0.4345,
         "WAR Rank": 210
     }
 ]
