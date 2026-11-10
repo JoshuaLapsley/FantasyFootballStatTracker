@@ -8,15 +8,6 @@
     "team_name": "Ozzy Stick",
     "is_commissioner": false
   },
-  "3": {
-    "manager_id": "3",
-    "name": null,
-    "nickname": "Sam",
-    "guid": "--hidden--",
-    "team_key": "470.l.205662.t.3",
-    "team_name": "Girder’s 6 Cookies",
-    "is_commissioner": false
-  },
   "1": {
     "manager_id": "1",
     "name": null,
@@ -53,6 +44,15 @@
     "team_name": "You gotta be Falcon kiddin me",
     "is_commissioner": false
   },
+  "3": {
+    "manager_id": "3",
+    "name": null,
+    "nickname": "Sam",
+    "guid": "--hidden--",
+    "team_key": "470.l.205662.t.3",
+    "team_name": "Girder’s 6 Cookies",
+    "is_commissioner": false
+  },
   "7": {
     "manager_id": "7",
     "name": null,
@@ -62,15 +62,6 @@
     "team_name": "No Punts Intented",
     "is_commissioner": false
   },
-  "5": {
-    "manager_id": "5",
-    "name": null,
-    "nickname": "Hunter",
-    "guid": "--hidden--",
-    "team_key": "470.l.205662.t.5",
-    "team_name": "Hunter’s Hunters",
-    "is_commissioner": false
-  },
   "4": {
     "manager_id": "4",
     "name": null,
@@ -78,6 +69,15 @@
     "guid": "--hidden--",
     "team_key": "470.l.205662.t.4",
     "team_name": "Big Bad Hokkkk",
+    "is_commissioner": false
+  },
+  "5": {
+    "manager_id": "5",
+    "name": null,
+    "nickname": "Hunter",
+    "guid": "--hidden--",
+    "team_key": "470.l.205662.t.5",
+    "team_name": "Hunter’s Hunters",
     "is_commissioner": false
   },
   "11": {

@@ -11,63 +11,70 @@
     "player_name": "Kenneth Walker III",
     "manager": "ben",
     "year": 2026,
-    "difficulty": 14
+    "difficulty": 9
   },
   {
     "player_id": "34019",
     "player_name": "James Cook III",
     "manager": "ben",
     "year": 2026,
-    "difficulty": 20
+    "difficulty": 18
   },
   {
     "player_id": "41793",
     "player_name": "Tetairoa McMillan",
     "manager": "ben",
     "year": 2026,
-    "difficulty": 27
+    "difficulty": 25
   },
   {
     "player_id": "40234",
     "player_name": "Parker Washington",
     "manager": "ben",
     "year": 2026,
-    "difficulty": 30
+    "difficulty": 28
   },
   {
     "player_id": "40102",
     "player_name": "Tucker Kraft",
     "manager": "ben",
     "year": 2026,
-    "difficulty": 19
+    "difficulty": 21
   },
   {
     "player_id": "32705",
     "player_name": "D'Andre Swift",
     "manager": "ben",
     "year": 2026,
-    "difficulty": 10
+    "difficulty": 12
   },
   {
     "player_id": "30180",
     "player_name": "Alvin Kamara",
     "manager": "ben",
     "year": 2026,
-    "difficulty": 80
+    "difficulty": 82
   },
   {
     "player_id": "32696",
     "player_name": "Jordan Love",
     "manager": "ben",
     "year": 2026,
-    "difficulty": 78
+    "difficulty": 73
   },
   {
     "player_id": "28534",
     "player_name": "Stefon Diggs",
     "manager": "ben",
     "year": 2026,
-    "difficulty": 79
+    "difficulty": 81
+  },
+  {
+    "player_id": "31107",
+    "player_name": "Dalton Schultz",
+    "manager": "ben",
+    "year": 2026,
+    "difficulty": 62
   },
   {
     "player_id": "34088",
@@ -81,126 +88,28 @@
     "player_name": "Jayden Reed",
     "manager": "ben",
     "year": 2026,
-    "difficulty": 93
+    "difficulty": 92
   },
   {
     "player_id": "40835",
     "player_name": "Jake Bates",
     "manager": "ben",
     "year": 2026,
-    "difficulty": 78
-  },
-  {
-    "player_id": "25812",
-    "player_name": "Kirk Cousins",
-    "manager": "Girder",
-    "year": 2026,
-    "difficulty": 48
-  },
-  {
-    "player_id": "33514",
-    "player_name": "Chuba Hubbard",
-    "manager": "Girder",
-    "year": 2026,
-    "difficulty": 20
-  },
-  {
-    "player_id": "42625",
-    "player_name": "Jeremiyah Love",
-    "manager": "Girder",
-    "year": 2026,
-    "difficulty": 44
-  },
-  {
-    "player_id": "40039",
-    "player_name": "Zay Flowers",
-    "manager": "Girder",
-    "year": 2026,
-    "difficulty": 18
-  },
-  {
-    "player_id": "31896",
-    "player_name": "DK Metcalf",
-    "manager": "Girder",
-    "year": 2026,
-    "difficulty": 28
-  },
-  {
-    "player_id": "41799",
-    "player_name": "Tyler Warren",
-    "manager": "Girder",
-    "year": 2026,
-    "difficulty": 31
-  },
-  {
-    "player_id": "42697",
-    "player_name": "Caleb Douglas",
-    "manager": "Girder",
-    "year": 2026,
-    "difficulty": 72
-  },
-  {
-    "player_id": "42661",
-    "player_name": "Denzel Boston",
-    "manager": "Girder",
-    "year": 2026,
-    "difficulty": 50
-  },
-  {
-    "player_id": "33100",
-    "player_name": "Rico Dowdle",
-    "manager": "Girder",
-    "year": 2026,
-    "difficulty": 67
-  },
-  {
-    "player_id": "40877",
-    "player_name": "Xavier Worthy",
-    "manager": "Girder",
-    "year": 2026,
-    "difficulty": 86
-  },
-  {
-    "player_id": "42712",
-    "player_name": "Kaelon Black",
-    "manager": "Girder",
-    "year": 2026,
-    "difficulty": 91
-  },
-  {
-    "player_id": "40915",
-    "player_name": "Adonai Mitchell",
-    "manager": "Girder",
-    "year": 2026,
-    "difficulty": 73
-  },
-  {
-    "player_id": "41827",
-    "player_name": "Mason Taylor",
-    "manager": "Girder",
-    "year": 2026,
-    "difficulty": 90
-  },
-  {
-    "player_id": "41093",
-    "player_name": "Will Reichard",
-    "manager": "Girder",
-    "year": 2026,
-    "difficulty": 72
+    "difficulty": 75
   },
   {
     "player_id": "32671",
     "player_name": "Joe Burrow",
     "manager": "Zach",
     "year": 2026,
-    "difficulty": 9
+    "difficulty": 8
   },
   {
     "player_id": "33508",
     "player_name": "Rhamondre Stevenson",
     "manager": "Zach",
     "year": 2026,
-    "difficulty": 23
+    "difficulty": 21
   },
   {
     "player_id": "41900",
@@ -214,14 +123,14 @@
     "player_name": "Puka Nacua",
     "manager": "Zach",
     "year": 2026,
-    "difficulty": 22
+    "difficulty": 18
   },
   {
     "player_id": "26699",
     "player_name": "Keenan Allen",
     "manager": "Zach",
     "year": 2026,
-    "difficulty": 73
+    "difficulty": 67
   },
   {
     "player_id": "34010",
@@ -231,88 +140,88 @@
     "difficulty": 4
   },
   {
-    "player_id": "40065",
-    "player_name": "Michael Mayer",
-    "manager": "Zach",
-    "year": 2026,
-    "difficulty": 68
-  },
-  {
-    "player_id": "33398",
-    "player_name": "DeVonta Smith",
-    "manager": "Zach",
-    "year": 2026,
-    "difficulty": 51
-  },
-  {
     "player_id": "41097",
     "player_name": "Devaughn Vele",
     "manager": "Zach",
     "year": 2026,
-    "difficulty": 70
+    "difficulty": 65
   },
   {
     "player_id": "31868",
     "player_name": "Deebo Samuel Sr.",
     "manager": "Zach",
     "year": 2026,
-    "difficulty": 61
+    "difficulty": 63
+  },
+  {
+    "player_id": "33398",
+    "player_name": "DeVonta Smith",
+    "manager": "Zach",
+    "year": 2026,
+    "difficulty": 54
+  },
+  {
+    "player_id": "40065",
+    "player_name": "Michael Mayer",
+    "manager": "Zach",
+    "year": 2026,
+    "difficulty": 74
   },
   {
     "player_id": "40231",
     "player_name": "Chris Rodriguez Jr.",
     "manager": "Zach",
     "year": 2026,
-    "difficulty": 88
+    "difficulty": 87
   },
   {
     "player_id": "40119",
     "player_name": "Tyjae Spears",
     "manager": "Zach",
     "year": 2026,
-    "difficulty": 91
+    "difficulty": 90
+  },
+  {
+    "player_id": "31010",
+    "player_name": "Courtland Sutton",
+    "manager": "Zach",
+    "year": 2026,
+    "difficulty": 81
   },
   {
     "player_id": "42010",
     "player_name": "Jacory Croskey-Merritt",
     "manager": "Zach",
     "year": 2026,
-    "difficulty": 46
+    "difficulty": 49
   },
   {
     "player_id": "34008",
     "player_name": "Alec Pierce",
     "manager": "Zach",
     "year": 2026,
-    "difficulty": 89
-  },
-  {
-    "player_id": "42838",
-    "player_name": "Trey Smack",
-    "manager": "Zach",
-    "year": 2026,
-    "difficulty": 90
+    "difficulty": 88
   },
   {
     "player_id": "29792",
     "player_name": "Ka'imi Fairbairn",
     "manager": "Zach",
     "year": 2026,
-    "difficulty": 74
+    "difficulty": 71
   },
   {
     "player_id": "40896",
     "player_name": "Jayden Daniels",
     "manager": "Andrew",
     "year": 2026,
-    "difficulty": 49
+    "difficulty": 47
   },
   {
     "player_id": "40055",
     "player_name": "Bijan Robinson",
     "manager": "Andrew",
     "year": 2026,
-    "difficulty": 12
+    "difficulty": 9
   },
   {
     "player_id": "34120",
@@ -322,6 +231,13 @@
     "difficulty": 13
   },
   {
+    "player_id": "40899",
+    "player_name": "Malik Nabers",
+    "manager": "Andrew",
+    "year": 2026,
+    "difficulty": 32
+  },
+  {
     "player_id": "33967",
     "player_name": "Jameson Williams",
     "manager": "Andrew",
@@ -329,102 +245,95 @@
     "difficulty": 29
   },
   {
+    "player_id": "40048",
+    "player_name": "Dalton Kincaid",
+    "manager": "Andrew",
+    "year": 2026,
+    "difficulty": 34
+  },
+  {
     "player_id": "40114",
     "player_name": "Tre Tucker",
     "manager": "Andrew",
     "year": 2026,
-    "difficulty": 48
-  },
-  {
-    "player_id": "29269",
-    "player_name": "Hunter Henry",
-    "manager": "Andrew",
-    "year": 2026,
-    "difficulty": 75
+    "difficulty": 44
   },
   {
     "player_id": "30197",
     "player_name": "Chris Godwin Jr.",
     "manager": "Andrew",
     "year": 2026,
-    "difficulty": 40
+    "difficulty": 45
   },
   {
-    "player_id": "40048",
-    "player_name": "Dalton Kincaid",
+    "player_id": "29269",
+    "player_name": "Hunter Henry",
     "manager": "Andrew",
     "year": 2026,
-    "difficulty": 33
-  },
-  {
-    "player_id": "40899",
-    "player_name": "Malik Nabers",
-    "manager": "Andrew",
-    "year": 2026,
-    "difficulty": 33
+    "difficulty": 79
   },
   {
     "player_id": "40030",
     "player_name": "C.J. Stroud",
     "manager": "Andrew",
     "year": 2026,
-    "difficulty": 51
+    "difficulty": 47
   },
   {
     "player_id": "34659",
     "player_name": "Rashid Shaheed",
     "manager": "Andrew",
     "year": 2026,
-    "difficulty": 89
+    "difficulty": 88
   },
   {
     "player_id": "32417",
     "player_name": "Chase McLaughlin",
     "manager": "Andrew",
     "year": 2026,
-    "difficulty": 85
+    "difficulty": 84
   },
   {
     "player_id": "41062",
     "player_name": "Cam Little",
     "manager": "Andrew",
     "year": 2026,
-    "difficulty": 81
+    "difficulty": 80
   },
   {
-    "player_id": "26662",
-    "player_name": "Geno Smith",
+    "player_id": "34218",
+    "player_name": "Brock Purdy",
     "manager": "Levi",
     "year": 2026,
-    "difficulty": 63
+    "difficulty": 17
   },
   {
     "player_id": "40059",
     "player_name": "Jahmyr Gibbs",
     "manager": "Levi",
     "year": 2026,
-    "difficulty": 11
+    "difficulty": 9
   },
   {
     "player_id": "41969",
     "player_name": "Ollie Gordon II",
     "manager": "Levi",
     "year": 2026,
-    "difficulty": 75
-  },
-  {
-    "player_id": "40121",
-    "player_name": "Michael Wilson",
-    "manager": "Levi",
-    "year": 2026,
-    "difficulty": 49
+    "difficulty": 71
   },
   {
     "player_id": "40084",
     "player_name": "Rashee Rice",
     "manager": "Levi",
     "year": 2026,
-    "difficulty": 48
+    "difficulty": 45
+  },
+  {
+    "player_id": "33966",
+    "player_name": "Chris Olave",
+    "manager": "Levi",
+    "year": 2026,
+    "difficulty": 21
   },
   {
     "player_id": "41877",
@@ -434,32 +343,25 @@
     "difficulty": 18
   },
   {
+    "player_id": "41902",
+    "player_name": "Woody Marks",
+    "manager": "Levi",
+    "year": 2026,
+    "difficulty": 70
+  },
+  {
+    "player_id": "40121",
+    "player_name": "Michael Wilson",
+    "manager": "Levi",
+    "year": 2026,
+    "difficulty": 53
+  },
+  {
     "player_id": "40962",
     "player_name": "Blake Corum",
     "manager": "Levi",
     "year": 2026,
     "difficulty": 67
-  },
-  {
-    "player_id": "33966",
-    "player_name": "Chris Olave",
-    "manager": "Levi",
-    "year": 2026,
-    "difficulty": 22
-  },
-  {
-    "player_id": "34218",
-    "player_name": "Brock Purdy",
-    "manager": "Levi",
-    "year": 2026,
-    "difficulty": 18
-  },
-  {
-    "player_id": "41902",
-    "player_name": "Woody Marks",
-    "manager": "Levi",
-    "year": 2026,
-    "difficulty": 75
   },
   {
     "player_id": "32231",
@@ -476,88 +378,109 @@
     "difficulty": 92
   },
   {
-    "player_id": "34107",
-    "player_name": "Tyler Allgeier",
+    "player_id": "31012",
+    "player_name": "Mike Gesicki",
     "manager": "Levi",
     "year": 2026,
-    "difficulty": 73
+    "difficulty": 89
+  },
+  {
+    "player_id": "41019",
+    "player_name": "Audric Estime",
+    "manager": "Levi",
+    "year": 2026,
+    "difficulty": 74
+  },
+  {
+    "player_id": "42625",
+    "player_name": "Jeremiyah Love",
+    "manager": "Levi",
+    "year": 2026,
+    "difficulty": 49
   },
   {
     "player_id": "41831",
     "player_name": "Terrance Ferguson",
     "manager": "Levi",
     "year": 2026,
-    "difficulty": 96
-  },
-  {
-    "player_id": "41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "manager": "Levi",
-    "year": 2026,
-    "difficulty": 91
+    "difficulty": 97
   },
   {
     "player_id": "32858",
     "player_name": "Tyler Bass",
     "manager": "Levi",
     "year": 2026,
-    "difficulty": 81
-  },
-  {
-    "player_id": "29325",
-    "player_name": "Jacoby Brissett",
-    "manager": "DJ",
-    "year": 2026,
-    "difficulty": 74
-  },
-  {
-    "player_id": "40993",
-    "player_name": "Bucky Irving",
-    "manager": "DJ",
-    "year": 2026,
-    "difficulty": 17
-  },
-  {
-    "player_id": "30227",
-    "player_name": "Samaje Perine",
-    "manager": "DJ",
-    "year": 2026,
-    "difficulty": 88
-  },
-  {
-    "player_id": "34007",
-    "player_name": "George Pickens",
-    "manager": "DJ",
-    "year": 2026,
-    "difficulty": 22
-  },
-  {
-    "player_id": "41824",
-    "player_name": "Luther Burden III",
-    "manager": "DJ",
-    "year": 2026,
-    "difficulty": 19
-  },
-  {
-    "player_id": "40078",
-    "player_name": "Brenton Strange",
-    "manager": "DJ",
-    "year": 2026,
-    "difficulty": 65
-  },
-  {
-    "player_id": "33392",
-    "player_name": "Kyle Pitts Sr.",
-    "manager": "DJ",
-    "year": 2026,
-    "difficulty": 46
+    "difficulty": 78
   },
   {
     "player_id": "40900",
     "player_name": "Caleb Williams",
     "manager": "DJ",
     "year": 2026,
-    "difficulty": 59
+    "difficulty": 54
+  },
+  {
+    "player_id": "40993",
+    "player_name": "Bucky Irving",
+    "manager": "DJ",
+    "year": 2026,
+    "difficulty": 13
+  },
+  {
+    "player_id": "30121",
+    "player_name": "Christian McCaffrey",
+    "manager": "DJ",
+    "year": 2026,
+    "difficulty": 15
+  },
+  {
+    "player_id": "34007",
+    "player_name": "George Pickens",
+    "manager": "DJ",
+    "year": 2026,
+    "difficulty": 21
+  },
+  {
+    "player_id": "41824",
+    "player_name": "Luther Burden III",
+    "manager": "DJ",
+    "year": 2026,
+    "difficulty": 17
+  },
+  {
+    "player_id": "40078",
+    "player_name": "Brenton Strange",
+    "manager": "DJ",
+    "year": 2026,
+    "difficulty": 62
+  },
+  {
+    "player_id": "41804",
+    "player_name": "Emeka Egbuka",
+    "manager": "DJ",
+    "year": 2026,
+    "difficulty": 49
+  },
+  {
+    "player_id": "33392",
+    "player_name": "Kyle Pitts Sr.",
+    "manager": "DJ",
+    "year": 2026,
+    "difficulty": 54
+  },
+  {
+    "player_id": "30227",
+    "player_name": "Samaje Perine",
+    "manager": "DJ",
+    "year": 2026,
+    "difficulty": 90
+  },
+  {
+    "player_id": "29325",
+    "player_name": "Jacoby Brissett",
+    "manager": "DJ",
+    "year": 2026,
+    "difficulty": 75
   },
   {
     "player_id": "40641",
@@ -571,21 +494,7 @@
     "player_name": "Pat Freiermuth",
     "manager": "DJ",
     "year": 2026,
-    "difficulty": 64
-  },
-  {
-    "player_id": "30121",
-    "player_name": "Christian McCaffrey",
-    "manager": "DJ",
-    "year": 2026,
-    "difficulty": 18
-  },
-  {
-    "player_id": "41804",
-    "player_name": "Emeka Egbuka",
-    "manager": "DJ",
-    "year": 2026,
-    "difficulty": 52
+    "difficulty": 69
   },
   {
     "player_id": "42693",
@@ -599,105 +508,210 @@
     "player_name": "Jaxson Dart",
     "manager": "DJ",
     "year": 2026,
-    "difficulty": 92
+    "difficulty": 91
+  },
+  {
+    "player_id": "31482",
+    "player_name": "Eddy Pineiro",
+    "manager": "DJ",
+    "year": 2026,
+    "difficulty": 87
   },
   {
     "player_id": "41988",
     "player_name": "Tyler Loop",
     "manager": "DJ",
     "year": 2026,
-    "difficulty": 77
+    "difficulty": 78
+  },
+  {
+    "player_id": "25812",
+    "player_name": "Kirk Cousins",
+    "manager": "Girder",
+    "year": 2026,
+    "difficulty": 46
+  },
+  {
+    "player_id": "33514",
+    "player_name": "Chuba Hubbard",
+    "manager": "Girder",
+    "year": 2026,
+    "difficulty": 19
+  },
+  {
+    "player_id": "34107",
+    "player_name": "Tyler Allgeier",
+    "manager": "Girder",
+    "year": 2026,
+    "difficulty": 68
+  },
+  {
+    "player_id": "40039",
+    "player_name": "Zay Flowers",
+    "manager": "Girder",
+    "year": 2026,
+    "difficulty": 20
+  },
+  {
+    "player_id": "40915",
+    "player_name": "Adonai Mitchell",
+    "manager": "Girder",
+    "year": 2026,
+    "difficulty": 74
+  },
+  {
+    "player_id": "41799",
+    "player_name": "Tyler Warren",
+    "manager": "Girder",
+    "year": 2026,
+    "difficulty": 31
+  },
+  {
+    "player_id": "42697",
+    "player_name": "Caleb Douglas",
+    "manager": "Girder",
+    "year": 2026,
+    "difficulty": 65
+  },
+  {
+    "player_id": "42661",
+    "player_name": "Denzel Boston",
+    "manager": "Girder",
+    "year": 2026,
+    "difficulty": 52
+  },
+  {
+    "player_id": "31896",
+    "player_name": "DK Metcalf",
+    "manager": "Girder",
+    "year": 2026,
+    "difficulty": 35
+  },
+  {
+    "player_id": "33100",
+    "player_name": "Rico Dowdle",
+    "manager": "Girder",
+    "year": 2026,
+    "difficulty": 70
+  },
+  {
+    "player_id": "40877",
+    "player_name": "Xavier Worthy",
+    "manager": "Girder",
+    "year": 2026,
+    "difficulty": 84
+  },
+  {
+    "player_id": "42712",
+    "player_name": "Kaelon Black",
+    "manager": "Girder",
+    "year": 2026,
+    "difficulty": 90
+  },
+  {
+    "player_id": "41827",
+    "player_name": "Mason Taylor",
+    "manager": "Girder",
+    "year": 2026,
+    "difficulty": 92
+  },
+  {
+    "player_id": "41093",
+    "player_name": "Will Reichard",
+    "manager": "Girder",
+    "year": 2026,
+    "difficulty": 71
   },
   {
     "player_id": "30977",
     "player_name": "Josh Allen",
     "manager": "Rubik",
     "year": 2026,
-    "difficulty": 5
-  },
-  {
-    "player_id": "32725",
-    "player_name": "J.K. Dobbins",
-    "manager": "Rubik",
-    "year": 2026,
-    "difficulty": 46
-  },
-  {
-    "player_id": "30295",
-    "player_name": "Aaron Jones Sr.",
-    "manager": "Rubik",
-    "year": 2026,
-    "difficulty": 40
-  },
-  {
-    "player_id": "40041",
-    "player_name": "Jaxon Smith-Njigba",
-    "manager": "Rubik",
-    "year": 2026,
-    "difficulty": 2
-  },
-  {
-    "player_id": "33989",
-    "player_name": "Christian Watson",
-    "manager": "Rubik",
-    "year": 2026,
-    "difficulty": 12
-  },
-  {
-    "player_id": "41795",
-    "player_name": "Colston Loveland",
-    "manager": "Rubik",
-    "year": 2026,
-    "difficulty": 44
-  },
-  {
-    "player_id": "33998",
-    "player_name": "Wan'Dale Robinson",
-    "manager": "Rubik",
-    "year": 2026,
-    "difficulty": 52
-  },
-  {
-    "player_id": "41825",
-    "player_name": "Tyler Shough",
-    "manager": "Rubik",
-    "year": 2026,
-    "difficulty": 79
-  },
-  {
-    "player_id": "41052",
-    "player_name": "Kimani Vidal",
-    "manager": "Rubik",
-    "year": 2026,
-    "difficulty": 85
-  },
-  {
-    "player_id": "33113",
-    "player_name": "Juwan Johnson",
-    "manager": "Rubik",
-    "year": 2026,
-    "difficulty": 52
-  },
-  {
-    "player_id": "40051",
-    "player_name": "Quentin Johnston",
-    "manager": "Rubik",
-    "year": 2026,
-    "difficulty": 66
-  },
-  {
-    "player_id": "29344",
-    "player_name": "Tyler Higbee",
-    "manager": "Rubik",
-    "year": 2026,
-    "difficulty": 86
+    "difficulty": 7
   },
   {
     "player_id": "42654",
     "player_name": "Jadarian Price",
     "manager": "Rubik",
     "year": 2026,
-    "difficulty": 74
+    "difficulty": 67
+  },
+  {
+    "player_id": "30295",
+    "player_name": "Aaron Jones Sr.",
+    "manager": "Rubik",
+    "year": 2026,
+    "difficulty": 39
+  },
+  {
+    "player_id": "40041",
+    "player_name": "Jaxon Smith-Njigba",
+    "manager": "Rubik",
+    "year": 2026,
+    "difficulty": 1
+  },
+  {
+    "player_id": "33989",
+    "player_name": "Christian Watson",
+    "manager": "Rubik",
+    "year": 2026,
+    "difficulty": 9
+  },
+  {
+    "player_id": "41795",
+    "player_name": "Colston Loveland",
+    "manager": "Rubik",
+    "year": 2026,
+    "difficulty": 42
+  },
+  {
+    "player_id": "33113",
+    "player_name": "Juwan Johnson",
+    "manager": "Rubik",
+    "year": 2026,
+    "difficulty": 49
+  },
+  {
+    "player_id": "32725",
+    "player_name": "J.K. Dobbins",
+    "manager": "Rubik",
+    "year": 2026,
+    "difficulty": 52
+  },
+  {
+    "player_id": "33998",
+    "player_name": "Wan'Dale Robinson",
+    "manager": "Rubik",
+    "year": 2026,
+    "difficulty": 55
+  },
+  {
+    "player_id": "41825",
+    "player_name": "Tyler Shough",
+    "manager": "Rubik",
+    "year": 2026,
+    "difficulty": 78
+  },
+  {
+    "player_id": "41052",
+    "player_name": "Kimani Vidal",
+    "manager": "Rubik",
+    "year": 2026,
+    "difficulty": 87
+  },
+  {
+    "player_id": "40051",
+    "player_name": "Quentin Johnston",
+    "manager": "Rubik",
+    "year": 2026,
+    "difficulty": 67
+  },
+  {
+    "player_id": "29344",
+    "player_name": "Tyler Higbee",
+    "manager": "Rubik",
+    "year": 2026,
+    "difficulty": 91
   },
   {
     "player_id": "28378",
@@ -705,118 +719,6 @@
     "manager": "Rubik",
     "year": 2026,
     "difficulty": 76
-  },
-  {
-    "player_id": "40881",
-    "player_name": "Drake Maye",
-    "manager": "Hunter",
-    "year": 2026,
-    "difficulty": 15
-  },
-  {
-    "player_id": "29279",
-    "player_name": "Derrick Henry",
-    "manager": "Hunter",
-    "year": 2026,
-    "difficulty": 15
-  },
-  {
-    "player_id": "41344",
-    "player_name": "George Holani",
-    "manager": "Hunter",
-    "year": 2026,
-    "difficulty": 90
-  },
-  {
-    "player_id": "32703",
-    "player_name": "Tee Higgins",
-    "manager": "Hunter",
-    "year": 2026,
-    "difficulty": 18
-  },
-  {
-    "player_id": "33500",
-    "player_name": "Amon-Ra St. Brown",
-    "manager": "Hunter",
-    "year": 2026,
-    "difficulty": 18
-  },
-  {
-    "player_id": "31019",
-    "player_name": "Dallas Goedert",
-    "manager": "Hunter",
-    "year": 2026,
-    "difficulty": 53
-  },
-  {
-    "player_id": "40064",
-    "player_name": "Sam LaPorta",
-    "manager": "Hunter",
-    "year": 2026,
-    "difficulty": 22
-  },
-  {
-    "player_id": "40108",
-    "player_name": "Kendre Miller",
-    "manager": "Hunter",
-    "year": 2026,
-    "difficulty": 81
-  },
-  {
-    "player_id": "31905",
-    "player_name": "David Montgomery",
-    "manager": "Hunter",
-    "year": 2026,
-    "difficulty": 52
-  },
-  {
-    "player_id": "40224",
-    "player_name": "Kayshon Boutte",
-    "manager": "Hunter",
-    "year": 2026,
-    "difficulty": 94
-  },
-  {
-    "player_id": "41087",
-    "player_name": "Ryan Flournoy",
-    "manager": "Hunter",
-    "year": 2026,
-    "difficulty": 59
-  },
-  {
-    "player_id": "42642",
-    "player_name": "Makai Lemon",
-    "manager": "Hunter",
-    "year": 2026,
-    "difficulty": 88
-  },
-  {
-    "player_id": "40875",
-    "player_name": "Bo Nix",
-    "manager": "Hunter",
-    "year": 2026,
-    "difficulty": 90
-  },
-  {
-    "player_id": "40926",
-    "player_name": "Jonathon Brooks",
-    "manager": "Hunter",
-    "year": 2026,
-    "difficulty": 83
-  },
-  {
-    "player_id": "40954",
-    "player_name": "Jalen McMillan",
-    "manager": "Hunter",
-    "year": 2026,
-    "difficulty": 98
-  },
-  {
-    "player_id": "28227",
-    "player_name": "Cairo Santos",
-    "manager": "Hunter",
-    "year": 2026,
-    "difficulty": 85
   },
   {
     "player_id": "9265",
@@ -830,35 +732,42 @@
     "player_name": "Quinshon Judkins",
     "manager": "Nate",
     "year": 2026,
-    "difficulty": 31
+    "difficulty": 30
   },
   {
-    "player_id": "31960",
-    "player_name": "Tony Pollard",
+    "player_id": "33991",
+    "player_name": "Breece Hall",
     "manager": "Nate",
     "year": 2026,
-    "difficulty": 35
+    "difficulty": 55
   },
   {
     "player_id": "32687",
     "player_name": "CeeDee Lamb",
     "manager": "Nate",
     "year": 2026,
-    "difficulty": 7
+    "difficulty": 4
   },
   {
     "player_id": "33393",
     "player_name": "Ja'Marr Chase",
     "manager": "Nate",
     "year": 2026,
-    "difficulty": 21
+    "difficulty": 17
   },
   {
     "player_id": "34036",
     "player_name": "Greg Dulcich",
     "manager": "Nate",
     "year": 2026,
-    "difficulty": 90
+    "difficulty": 88
+  },
+  {
+    "player_id": "40222",
+    "player_name": "DeMario Douglas",
+    "manager": "Nate",
+    "year": 2026,
+    "difficulty": 74
   },
   {
     "player_id": "34320",
@@ -868,46 +777,53 @@
     "difficulty": 80
   },
   {
-    "player_id": "33991",
-    "player_name": "Breece Hall",
+    "player_id": "31960",
+    "player_name": "Tony Pollard",
     "manager": "Nate",
     "year": 2026,
-    "difficulty": 59
-  },
-  {
-    "player_id": "31883",
-    "player_name": "A.J. Brown",
-    "manager": "Nate",
-    "year": 2026,
-    "difficulty": 81
-  },
-  {
-    "player_id": "40222",
-    "player_name": "DeMario Douglas",
-    "manager": "Nate",
-    "year": 2026,
-    "difficulty": 83
+    "difficulty": 39
   },
   {
     "player_id": "40029",
     "player_name": "Bryce Young",
     "manager": "Nate",
     "year": 2026,
-    "difficulty": 76
+    "difficulty": 75
   },
   {
     "player_id": "40097",
     "player_name": "Tank Dell",
     "manager": "Nate",
     "year": 2026,
-    "difficulty": 89
+    "difficulty": 77
+  },
+  {
+    "player_id": "42717",
+    "player_name": "Eli Raridon",
+    "manager": "Nate",
+    "year": 2026,
+    "difficulty": 85
+  },
+  {
+    "player_id": "31883",
+    "player_name": "A.J. Brown",
+    "manager": "Nate",
+    "year": 2026,
+    "difficulty": 82
   },
   {
     "player_id": "34054",
     "player_name": "Brian Robinson Jr.",
     "manager": "Nate",
     "year": 2026,
-    "difficulty": 83
+    "difficulty": 85
+  },
+  {
+    "player_id": "43370",
+    "player_name": "Drew Stevens",
+    "manager": "Nate",
+    "year": 2026,
+    "difficulty": 97
   },
   {
     "player_id": "28188",
@@ -917,11 +833,123 @@
     "difficulty": 77
   },
   {
+    "player_id": "40881",
+    "player_name": "Drake Maye",
+    "manager": "Hunter",
+    "year": 2026,
+    "difficulty": 15
+  },
+  {
+    "player_id": "29279",
+    "player_name": "Derrick Henry",
+    "manager": "Hunter",
+    "year": 2026,
+    "difficulty": 16
+  },
+  {
+    "player_id": "40108",
+    "player_name": "Kendre Miller",
+    "manager": "Hunter",
+    "year": 2026,
+    "difficulty": 76
+  },
+  {
+    "player_id": "32703",
+    "player_name": "Tee Higgins",
+    "manager": "Hunter",
+    "year": 2026,
+    "difficulty": 17
+  },
+  {
+    "player_id": "33500",
+    "player_name": "Amon-Ra St. Brown",
+    "manager": "Hunter",
+    "year": 2026,
+    "difficulty": 17
+  },
+  {
+    "player_id": "31019",
+    "player_name": "Dallas Goedert",
+    "manager": "Hunter",
+    "year": 2026,
+    "difficulty": 51
+  },
+  {
+    "player_id": "40064",
+    "player_name": "Sam LaPorta",
+    "manager": "Hunter",
+    "year": 2026,
+    "difficulty": 23
+  },
+  {
+    "player_id": "31905",
+    "player_name": "David Montgomery",
+    "manager": "Hunter",
+    "year": 2026,
+    "difficulty": 55
+  },
+  {
+    "player_id": "41344",
+    "player_name": "George Holani",
+    "manager": "Hunter",
+    "year": 2026,
+    "difficulty": 91
+  },
+  {
+    "player_id": "40224",
+    "player_name": "Kayshon Boutte",
+    "manager": "Hunter",
+    "year": 2026,
+    "difficulty": 87
+  },
+  {
+    "player_id": "41087",
+    "player_name": "Ryan Flournoy",
+    "manager": "Hunter",
+    "year": 2026,
+    "difficulty": 61
+  },
+  {
+    "player_id": "42642",
+    "player_name": "Makai Lemon",
+    "manager": "Hunter",
+    "year": 2026,
+    "difficulty": 87
+  },
+  {
+    "player_id": "40875",
+    "player_name": "Bo Nix",
+    "manager": "Hunter",
+    "year": 2026,
+    "difficulty": 88
+  },
+  {
+    "player_id": "40926",
+    "player_name": "Jonathon Brooks",
+    "manager": "Hunter",
+    "year": 2026,
+    "difficulty": 83
+  },
+  {
+    "player_id": "40954",
+    "player_name": "Jalen McMillan",
+    "manager": "Hunter",
+    "year": 2026,
+    "difficulty": 97
+  },
+  {
+    "player_id": "28227",
+    "player_name": "Cairo Santos",
+    "manager": "Hunter",
+    "year": 2026,
+    "difficulty": 83
+  },
+  {
     "player_id": "33389",
     "player_name": "Trevor Lawrence",
     "manager": "Connor",
     "year": 2026,
-    "difficulty": 22
+    "difficulty": 24
   },
   {
     "player_id": "41791",
@@ -931,221 +959,221 @@
     "difficulty": 16
   },
   {
-    "player_id": "40971",
-    "player_name": "MarShawn Lloyd",
-    "manager": "Connor",
-    "year": 2026,
-    "difficulty": 71
-  },
-  {
-    "player_id": "33965",
-    "player_name": "Garrett Wilson",
-    "manager": "Connor",
-    "year": 2026,
-    "difficulty": 20
-  },
-  {
-    "player_id": "40911",
-    "player_name": "Keon Coleman",
-    "manager": "Connor",
-    "year": 2026,
-    "difficulty": 77
-  },
-  {
-    "player_id": "31840",
-    "player_name": "T.J. Hockenson",
-    "manager": "Connor",
-    "year": 2026,
-    "difficulty": 52
-  },
-  {
-    "player_id": "42646",
-    "player_name": "KC Concepcion Jr.",
-    "manager": "Connor",
-    "year": 2026,
-    "difficulty": 69
-  },
-  {
     "player_id": "40162",
     "player_name": "Roschon Johnson",
     "manager": "Connor",
     "year": 2026,
-    "difficulty": 93
+    "difficulty": 88
   },
   {
     "player_id": "33477",
     "player_name": "Nico Collins",
     "manager": "Connor",
     "year": 2026,
-    "difficulty": 46
+    "difficulty": 41
   },
   {
-    "player_id": "40883",
-    "player_name": "Brian Thomas Jr.",
+    "player_id": "40911",
+    "player_name": "Keon Coleman",
     "manager": "Connor",
     "year": 2026,
-    "difficulty": 80
+    "difficulty": 72
+  },
+  {
+    "player_id": "31840",
+    "player_name": "T.J. Hockenson",
+    "manager": "Connor",
+    "year": 2026,
+    "difficulty": 50
+  },
+  {
+    "player_id": "42646",
+    "player_name": "KC Concepcion Jr.",
+    "manager": "Connor",
+    "year": 2026,
+    "difficulty": 61
+  },
+  {
+    "player_id": "33965",
+    "player_name": "Garrett Wilson",
+    "manager": "Connor",
+    "year": 2026,
+    "difficulty": 27
   },
   {
     "player_id": "42025",
     "player_name": "Kyle Monangai",
     "manager": "Connor",
     "year": 2026,
-    "difficulty": 58
+    "difficulty": 60
+  },
+  {
+    "player_id": "40971",
+    "player_name": "MarShawn Lloyd",
+    "manager": "Connor",
+    "year": 2026,
+    "difficulty": 73
+  },
+  {
+    "player_id": "40883",
+    "player_name": "Brian Thomas Jr.",
+    "manager": "Connor",
+    "year": 2026,
+    "difficulty": 81
   },
   {
     "player_id": "40201",
     "player_name": "Dontayvion Wicks",
     "manager": "Connor",
     "year": 2026,
-    "difficulty": 83
+    "difficulty": 82
   },
   {
     "player_id": "34357",
     "player_name": "Bam Knight",
     "manager": "Connor",
     "year": 2026,
-    "difficulty": 89
+    "difficulty": 91
   },
   {
     "player_id": "32704",
     "player_name": "Michael Pittman Jr.",
     "manager": "Connor",
     "year": 2026,
-    "difficulty": 90
+    "difficulty": 89
   },
   {
     "player_id": "33413",
     "player_name": "Travis Etienne Jr.",
     "manager": "Connor",
     "year": 2026,
-    "difficulty": 65
+    "difficulty": 68
   },
   {
     "player_id": "33537",
     "player_name": "Evan McPherson",
     "manager": "Connor",
     "year": 2026,
-    "difficulty": 78
+    "difficulty": 76
   },
   {
-    "player_id": "31833",
-    "player_name": "Kyler Murray",
+    "player_id": "34042",
+    "player_name": "Malik Willis",
     "manager": "The Sage",
     "year": 2026,
-    "difficulty": 58
+    "difficulty": 83
   },
   {
     "player_id": "31856",
     "player_name": "Josh Jacobs",
     "manager": "The Sage",
     "year": 2026,
-    "difficulty": 55
-  },
-  {
-    "player_id": "40981",
-    "player_name": "Braelon Allen",
-    "manager": "The Sage",
-    "year": 2026,
-    "difficulty": 46
-  },
-  {
-    "player_id": "41808",
-    "player_name": "Matthew Golden",
-    "manager": "The Sage",
-    "year": 2026,
-    "difficulty": 25
-  },
-  {
-    "player_id": "30994",
-    "player_name": "DJ Moore",
-    "manager": "The Sage",
-    "year": 2026,
-    "difficulty": 73
-  },
-  {
-    "player_id": "41001",
-    "player_name": "AJ Barner",
-    "manager": "The Sage",
-    "year": 2026,
-    "difficulty": 85
+    "difficulty": 61
   },
   {
     "player_id": "30972",
     "player_name": "Saquon Barkley",
     "manager": "The Sage",
     "year": 2026,
-    "difficulty": 45
+    "difficulty": 42
+  },
+  {
+    "player_id": "41808",
+    "player_name": "Matthew Golden",
+    "manager": "The Sage",
+    "year": 2026,
+    "difficulty": 20
   },
   {
     "player_id": "33394",
     "player_name": "Jaylen Waddle",
     "manager": "The Sage",
     "year": 2026,
-    "difficulty": 56
+    "difficulty": 53
   },
   {
     "player_id": "34095",
     "player_name": "Isaiah Likely",
     "manager": "The Sage",
     "year": 2026,
-    "difficulty": 15
+    "difficulty": 14
   },
   {
-    "player_id": "40707",
-    "player_name": "Emanuel Wilson",
+    "player_id": "30994",
+    "player_name": "DJ Moore",
     "manager": "The Sage",
     "year": 2026,
-    "difficulty": 64
+    "difficulty": 67
+  },
+  {
+    "player_id": "40981",
+    "player_name": "Braelon Allen",
+    "manager": "The Sage",
+    "year": 2026,
+    "difficulty": 51
   },
   {
     "player_id": "40126",
     "player_name": "Josh Downs",
     "manager": "The Sage",
     "year": 2026,
-    "difficulty": 76
+    "difficulty": 78
   },
   {
     "player_id": "41907",
     "player_name": "Dylan Sampson",
     "manager": "The Sage",
     "year": 2026,
-    "difficulty": 78
+    "difficulty": 81
   },
   {
     "player_id": "42796",
     "player_name": "Emmett Johnson",
     "manager": "The Sage",
     "year": 2026,
-    "difficulty": 86
+    "difficulty": 85
+  },
+  {
+    "player_id": "31945",
+    "player_name": "Justice Hill",
+    "manager": "The Sage",
+    "year": 2026,
+    "difficulty": 79
+  },
+  {
+    "player_id": "32695",
+    "player_name": "Brandon Aiyuk",
+    "manager": "The Sage",
+    "year": 2026,
+    "difficulty": 97
   },
   {
     "player_id": "42626",
     "player_name": "Carnell Tate",
     "manager": "The Sage",
     "year": 2026,
-    "difficulty": 72
+    "difficulty": 73
   },
   {
     "player_id": "40095",
     "player_name": "Tank Bigsby",
     "manager": "The Sage",
     "year": 2026,
-    "difficulty": 92
+    "difficulty": 91
   },
   {
     "player_id": "40819",
     "player_name": "Brandon Aubrey",
     "manager": "The Sage",
     "year": 2026,
-    "difficulty": 75
+    "difficulty": 74
   },
   {
     "player_id": "29235",
     "player_name": "Jared Goff",
     "manager": "Gavin Brodie",
     "year": 2026,
-    "difficulty": 66
+    "difficulty": 63
   },
   {
     "player_id": "32711",
@@ -1159,42 +1187,70 @@
     "player_name": "Javonte Williams",
     "manager": "Gavin Brodie",
     "year": 2026,
-    "difficulty": 15
+    "difficulty": 12
   },
   {
     "player_id": "41293",
     "player_name": "Jalen Coker",
     "manager": "Gavin Brodie",
     "year": 2026,
-    "difficulty": 40
-  },
-  {
-    "player_id": "42652",
-    "player_name": "Omar Cooper Jr.",
-    "manager": "Gavin Brodie",
-    "year": 2026,
-    "difficulty": 80
-  },
-  {
-    "player_id": "40878",
-    "player_name": "Brock Bowers",
-    "manager": "Gavin Brodie",
-    "year": 2026,
-    "difficulty": 16
+    "difficulty": 39
   },
   {
     "player_id": "40901",
     "player_name": "Rome Odunze",
     "manager": "Gavin Brodie",
     "year": 2026,
-    "difficulty": 57
+    "difficulty": 51
+  },
+  {
+    "player_id": "40878",
+    "player_name": "Brock Bowers",
+    "manager": "Gavin Brodie",
+    "year": 2026,
+    "difficulty": 15
+  },
+  {
+    "player_id": "42652",
+    "player_name": "Omar Cooper Jr.",
+    "manager": "Gavin Brodie",
+    "year": 2026,
+    "difficulty": 77
   },
   {
     "player_id": "41058",
     "player_name": "Malik Washington",
     "manager": "Gavin Brodie",
     "year": 2026,
-    "difficulty": 83
+    "difficulty": 84
+  },
+  {
+    "player_id": "40042",
+    "player_name": "Jordan Addison",
+    "manager": "Gavin Brodie",
+    "year": 2026,
+    "difficulty": 77
+  },
+  {
+    "player_id": "40075",
+    "player_name": "Zach Charbonnet",
+    "manager": "Gavin Brodie",
+    "year": 2026,
+    "difficulty": 85
+  },
+  {
+    "player_id": "32018",
+    "player_name": "Ty Johnson",
+    "manager": "Gavin Brodie",
+    "year": 2026,
+    "difficulty": 88
+  },
+  {
+    "player_id": "41006",
+    "player_name": "Sione Vaki",
+    "manager": "Gavin Brodie",
+    "year": 2026,
+    "difficulty": 91
   },
   {
     "player_id": "30551",
@@ -1204,22 +1260,8 @@
     "difficulty": 79
   },
   {
-    "player_id": "40042",
-    "player_name": "Jordan Addison",
-    "manager": "Gavin Brodie",
-    "year": 2026,
-    "difficulty": 74
-  },
-  {
     "player_id": "34261",
     "player_name": "Tyler Goodson",
-    "manager": "Gavin Brodie",
-    "year": 2026,
-    "difficulty": 91
-  },
-  {
-    "player_id": "40075",
-    "player_name": "Zach Charbonnet",
     "manager": "Gavin Brodie",
     "year": 2026,
     "difficulty": 89
@@ -1229,14 +1271,7 @@
     "player_name": "Davante Adams",
     "manager": "Gavin Brodie",
     "year": 2026,
-    "difficulty": 33
-  },
-  {
-    "player_id": "40952",
-    "player_name": "Roman Wilson",
-    "manager": "Gavin Brodie",
-    "year": 2026,
-    "difficulty": 98
+    "difficulty": 38
   },
   {
     "player_id": "31977",
@@ -1246,109 +1281,116 @@
     "difficulty": 89
   },
   {
-    "player_id": "31002",
-    "player_name": "Lamar Jackson",
+    "player_id": "40889",
+    "player_name": "Michael Penix Jr.",
     "manager": "Paddy",
     "year": 2026,
-    "difficulty": 40
-  },
-  {
-    "player_id": "34447",
-    "player_name": "Jaylen Warren",
-    "manager": "Paddy",
-    "year": 2026,
-    "difficulty": 15
+    "difficulty": 71
   },
   {
     "player_id": "40196",
     "player_name": "Chase Brown",
     "manager": "Paddy",
     "year": 2026,
-    "difficulty": 30
+    "difficulty": 28
+  },
+  {
+    "player_id": "31906",
+    "player_name": "Devin Singletary",
+    "manager": "Paddy",
+    "year": 2026,
+    "difficulty": 94
   },
   {
     "player_id": "33963",
     "player_name": "Drake London",
     "manager": "Paddy",
     "year": 2026,
-    "difficulty": 21
+    "difficulty": 20
   },
   {
     "player_id": "34104",
     "player_name": "Khalil Shakir",
     "manager": "Paddy",
     "year": 2026,
-    "difficulty": 75
+    "difficulty": 68
   },
   {
     "player_id": "26686",
     "player_name": "Travis Kelce",
     "manager": "Paddy",
     "year": 2026,
-    "difficulty": 51
+    "difficulty": 47
   },
   {
-    "player_id": "33538",
-    "player_name": "Kenny Gainwell",
+    "player_id": "30423",
+    "player_name": "Austin Ekeler",
     "manager": "Paddy",
     "year": 2026,
-    "difficulty": 79
-  },
-  {
-    "player_id": "30973",
-    "player_name": "Sam Darnold",
-    "manager": "Paddy",
-    "year": 2026,
-    "difficulty": 72
-  },
-  {
-    "player_id": "33971",
-    "player_name": "Jahan Dotson",
-    "manager": "Paddy",
-    "year": 2026,
-    "difficulty": 93
-  },
-  {
-    "player_id": "40893",
-    "player_name": "Marvin Harrison Jr.",
-    "manager": "Paddy",
-    "year": 2026,
-    "difficulty": 72
-  },
-  {
-    "player_id": "32887",
-    "player_name": "Jauan Jennings",
-    "manager": "Paddy",
-    "year": 2026,
-    "difficulty": 100
+    "difficulty": 84
   },
   {
     "player_id": "31056",
     "player_name": "Mark Andrews",
     "manager": "Paddy",
     "year": 2026,
-    "difficulty": 61
+    "difficulty": 67
   },
   {
-    "player_id": "42386",
-    "player_name": "Corey Kiner",
+    "player_id": "33538",
+    "player_name": "Kenny Gainwell",
     "manager": "Paddy",
     "year": 2026,
-    "difficulty": 92
+    "difficulty": 80
+  },
+  {
+    "player_id": "34447",
+    "player_name": "Jaylen Warren",
+    "manager": "Paddy",
+    "year": 2026,
+    "difficulty": 20
+  },
+  {
+    "player_id": "33971",
+    "player_name": "Jahan Dotson",
+    "manager": "Paddy",
+    "year": 2026,
+    "difficulty": 94
+  },
+  {
+    "player_id": "40893",
+    "player_name": "Marvin Harrison Jr.",
+    "manager": "Paddy",
+    "year": 2026,
+    "difficulty": 74
+  },
+  {
+    "player_id": "32887",
+    "player_name": "Jauan Jennings",
+    "manager": "Paddy",
+    "year": 2026,
+    "difficulty": 99
+  },
+  {
+    "player_id": "31002",
+    "player_name": "Lamar Jackson",
+    "manager": "Paddy",
+    "year": 2026,
+    "difficulty": 45
   },
   {
     "player_id": "41845",
     "player_name": "RJ Harvey",
     "manager": "Paddy",
     "year": 2026,
-    "difficulty": 58
+    "difficulty": 59
   },
   {
     "player_id": "8432",
     "player_name": "Nick Folk",
     "manager": "Paddy",
     "year": 2026,
-    "difficulty": 88
+    "difficulty": 92
   },
   {
     "player_id": "30123",
@@ -1358,22 +1400,15 @@
     "difficulty": 34
   },
   {
-    "player_id": "34047",
-    "player_name": "Rachaad White",
-    "manager": "Caleb",
-    "year": 2026,
-    "difficulty": 73
-  },
-  {
     "player_id": "42730",
     "player_name": "Jonah Coleman",
     "manager": "Caleb",
     "year": 2026,
-    "difficulty": 74
+    "difficulty": 66
   },
   {
-    "player_id": "42669",
-    "player_name": "Germie Bernard",
+    "player_id": "34047",
+    "player_name": "Rachaad White",
     "manager": "Caleb",
     "year": 2026,
     "difficulty": 68
@@ -1383,76 +1418,83 @@
     "player_name": "Justin Jefferson",
     "manager": "Caleb",
     "year": 2026,
-    "difficulty": 38
-  },
-  {
-    "player_id": "34099",
-    "player_name": "Chig Okonkwo",
-    "manager": "Caleb",
-    "year": 2026,
-    "difficulty": 94
+    "difficulty": 36
   },
   {
     "player_id": "40908",
     "player_name": "Ladd McConkey",
     "manager": "Caleb",
     "year": 2026,
-    "difficulty": 46
-  },
-  {
-    "player_id": "41807",
-    "player_name": "Omarion Hampton",
-    "manager": "Caleb",
-    "year": 2026,
-    "difficulty": 52
+    "difficulty": 42
   },
   {
     "player_id": "30259",
     "player_name": "George Kittle",
     "manager": "Caleb",
     "year": 2026,
-    "difficulty": 17
+    "difficulty": 18
   },
   {
-    "player_id": "41922",
-    "player_name": "Cam Skattebo",
+    "player_id": "41807",
+    "player_name": "Omarion Hampton",
     "manager": "Caleb",
     "year": 2026,
-    "difficulty": 32
+    "difficulty": 49
   },
   {
-    "player_id": "27535",
-    "player_name": "Mike Evans",
+    "player_id": "34099",
+    "player_name": "Chig Okonkwo",
     "manager": "Caleb",
     "year": 2026,
-    "difficulty": 37
+    "difficulty": 90
+  },
+  {
+    "player_id": "42669",
+    "player_name": "Germie Bernard",
+    "manager": "Caleb",
+    "year": 2026,
+    "difficulty": 70
   },
   {
     "player_id": "42859",
     "player_name": "Seth McGowan",
     "manager": "Caleb",
     "year": 2026,
-    "difficulty": 93
-  },
-  {
-    "player_id": "41823",
-    "player_name": "TreVeyon Henderson",
-    "manager": "Caleb",
-    "year": 2026,
-    "difficulty": 65
+    "difficulty": 86
   },
   {
     "player_id": "42630",
     "player_name": "Jordyn Tyson",
     "manager": "Caleb",
     "year": 2026,
-    "difficulty": 98
+    "difficulty": 90
+  },
+  {
+    "player_id": "41922",
+    "player_name": "Cam Skattebo",
+    "manager": "Caleb",
+    "year": 2026,
+    "difficulty": 37
+  },
+  {
+    "player_id": "27535",
+    "player_name": "Mike Evans",
+    "manager": "Caleb",
+    "year": 2026,
+    "difficulty": 42
+  },
+  {
+    "player_id": "41823",
+    "player_name": "TreVeyon Henderson",
+    "manager": "Caleb",
+    "year": 2026,
+    "difficulty": 68
   },
   {
     "player_id": "41499",
     "player_name": "Spencer Shrader",
     "manager": "Caleb",
     "year": 2026,
-    "difficulty": 73
+    "difficulty": 70
   }
 ]

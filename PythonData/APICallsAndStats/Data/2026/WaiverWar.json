@@ -1,22 +1,20 @@
 [
     {
-        "Player": "T.J. Hockenson",
-        "Player ID": "31840",
-        "Position": "TE",
-        "Team": "Revy\u2019s Konstruction",
-        "Team Key": "470.l.205662.t.11",
-        "Manager": "Connor",
+        "Player": "C.J. Stroud",
+        "Player ID": "40030",
+        "Position": "QB",
+        "Team": "Omaha Beach Real Estate",
+        "Team Key": "470.l.205662.t.8",
+        "Manager": "Andrew",
         "Weeks Rostered": [
-            1,
-            2,
-            3,
             4,
             5,
             6,
             7,
-            8
+            8,
+            9
         ],
-        "WAR": 0.4384,
+        "WAR": 0.5452,
         "WAR Rank": 1
     },
     {
@@ -34,10 +32,51 @@
             5,
             6,
             7,
-            8
+            8,
+            9
         ],
-        "WAR": 0.408,
+        "WAR": 0.5166,
         "WAR Rank": 2
+    },
+    {
+        "Player": "T.J. Hockenson",
+        "Player ID": "31840",
+        "Position": "TE",
+        "Team": "Revy\u2019s Konstruction",
+        "Team Key": "470.l.205662.t.11",
+        "Manager": "Connor",
+        "Weeks Rostered": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "WAR": 0.4537,
+        "WAR Rank": 3
+    },
+    {
+        "Player": "Jonah Coleman",
+        "Player ID": "42730",
+        "Position": "RB",
+        "Team": "Tsuga\u2019s Tuck Shop",
+        "Team Key": "470.l.205662.t.14",
+        "Manager": "Caleb",
+        "Weeks Rostered": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "WAR": 0.3961,
+        "WAR Rank": 4
     },
     {
         "Player": "Tyler Allgeier",
@@ -49,8 +88,24 @@
         "Weeks Rostered": [
             8
         ],
-        "WAR": 0.3571,
-        "WAR Rank": 3
+        "WAR": 0.3567,
+        "WAR Rank": 5
+    },
+    {
+        "Player": "DeMario Douglas",
+        "Player ID": "40222",
+        "Position": "WR",
+        "Team": "Big Bad Hokkkk",
+        "Team Key": "470.l.205662.t.4",
+        "Manager": "Nate",
+        "Weeks Rostered": [
+            6,
+            7,
+            8,
+            9
+        ],
+        "WAR": 0.3457,
+        "WAR Rank": 6
     },
     {
         "Player": "Devaughn Vele",
@@ -65,8 +120,26 @@
             3,
             4
         ],
-        "WAR": 0.3319,
-        "WAR Rank": 4
+        "WAR": 0.3318,
+        "WAR Rank": 7
+    },
+    {
+        "Player": "Jaguars",
+        "Player ID": "100030",
+        "Position": "DEF",
+        "Team": "Hunter\u2019s Hunters",
+        "Team Key": "470.l.205662.t.5",
+        "Manager": "Hunter",
+        "Weeks Rostered": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9
+        ],
+        "WAR": 0.3221,
+        "WAR Rank": 8
     },
     {
         "Player": "Keenan Allen",
@@ -83,27 +156,25 @@
             5,
             6,
             7,
-            8
+            8,
+            9
         ],
-        "WAR": 0.309,
-        "WAR Rank": 5
+        "WAR": 0.3042,
+        "WAR Rank": 9
     },
     {
-        "Player": "C.J. Stroud",
-        "Player ID": "40030",
-        "Position": "QB",
-        "Team": "Omaha Beach Real Estate",
-        "Team Key": "470.l.205662.t.8",
-        "Manager": "Andrew",
+        "Player": "Emmett Johnson",
+        "Player ID": "42796",
+        "Position": "RB",
+        "Team": "The Sage's Playmakers",
+        "Team Key": "470.l.205662.t.13",
+        "Manager": "Josh",
         "Weeks Rostered": [
-            4,
-            5,
-            6,
-            7,
-            8
+            8,
+            9
         ],
-        "WAR": 0.296,
-        "WAR Rank": 6
+        "WAR": 0.2939,
+        "WAR Rank": 10
     },
     {
         "Player": "Ryan Flournoy",
@@ -119,10 +190,11 @@
             5,
             6,
             7,
-            8
+            8,
+            9
         ],
-        "WAR": 0.2804,
-        "WAR Rank": 7
+        "WAR": 0.2839,
+        "WAR Rank": 11
     },
     {
         "Player": "Ollie Gordon II",
@@ -135,8 +207,77 @@
             4,
             5
         ],
-        "WAR": 0.2729,
-        "WAR Rank": 8
+        "WAR": 0.2731,
+        "WAR Rank": 12
+    },
+    {
+        "Player": "Kirk Cousins",
+        "Player ID": "25812",
+        "Position": "QB",
+        "Team": "Girder\u2019s 6 Cookies",
+        "Team Key": "470.l.205662.t.3",
+        "Manager": "Sam",
+        "Weeks Rostered": [
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "WAR": 0.2703,
+        "WAR Rank": 13
+    },
+    {
+        "Player": "Omar Cooper Jr.",
+        "Player ID": "42652",
+        "Position": "WR",
+        "Team": "Supernova\u2019s Studs",
+        "Team Key": "470.l.205662.t.12",
+        "Manager": "Gavin Brodie",
+        "Weeks Rostered": [
+            7,
+            8,
+            9
+        ],
+        "WAR": 0.2676,
+        "WAR Rank": 14
+    },
+    {
+        "Player": "Kenny Gainwell",
+        "Player ID": "33538",
+        "Position": "RB",
+        "Team": "Pad D's",
+        "Team Key": "470.l.205662.t.10",
+        "Manager": "Sam",
+        "Weeks Rostered": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "WAR": 0.2543,
+        "WAR Rank": 15
+    },
+    {
+        "Player": "Pat Freiermuth",
+        "Player ID": "33443",
+        "Position": "TE",
+        "Team": "You gotta be Falcon kiddin me",
+        "Team Key": "470.l.205662.t.2",
+        "Manager": "DJ",
+        "Weeks Rostered": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "WAR": 0.2514,
+        "WAR Rank": 16
     },
     {
         "Player": "Malik Washington",
@@ -153,106 +294,11 @@
             5,
             6,
             7,
-            8
+            8,
+            9
         ],
-        "WAR": 0.2724,
-        "WAR Rank": 9
-    },
-    {
-        "Player": "Kirk Cousins",
-        "Player ID": "25812",
-        "Position": "QB",
-        "Team": "Girder\u2019s 6 Cookies",
-        "Team Key": "470.l.205662.t.3",
-        "Manager": "Sam",
-        "Weeks Rostered": [
-            5,
-            6,
-            7,
-            8
-        ],
-        "WAR": 0.2626,
-        "WAR Rank": 10
-    },
-    {
-        "Player": "Pat Freiermuth",
-        "Player ID": "33443",
-        "Position": "TE",
-        "Team": "You gotta be Falcon kiddin me",
-        "Team Key": "470.l.205662.t.2",
-        "Manager": "DJ",
-        "Weeks Rostered": [
-            4,
-            5,
-            6,
-            7,
-            8
-        ],
-        "WAR": 0.2515,
-        "WAR Rank": 11
-    },
-    {
-        "Player": "Jaguars",
-        "Player ID": "100030",
-        "Position": "DEF",
-        "Team": "Hunter\u2019s Hunters",
-        "Team Key": "470.l.205662.t.5",
-        "Manager": "Hunter",
-        "Weeks Rostered": [
-            3,
-            4,
-            5,
-            6,
-            8
-        ],
-        "WAR": 0.2492,
-        "WAR Rank": 12
-    },
-    {
-        "Player": "DeMario Douglas",
-        "Player ID": "40222",
-        "Position": "WR",
-        "Team": "Big Bad Hokkkk",
-        "Team Key": "470.l.205662.t.4",
-        "Manager": "Nate",
-        "Weeks Rostered": [
-            6,
-            7,
-            8
-        ],
-        "WAR": 0.2472,
-        "WAR Rank": 13
-    },
-    {
-        "Player": "Emmett Johnson",
-        "Player ID": "42796",
-        "Position": "RB",
-        "Team": "The Sage's Playmakers",
-        "Team Key": "470.l.205662.t.13",
-        "Manager": "Josh",
-        "Weeks Rostered": [
-            8
-        ],
-        "WAR": 0.2419,
-        "WAR Rank": 14
-    },
-    {
-        "Player": "Jonah Coleman",
-        "Player ID": "42730",
-        "Position": "RB",
-        "Team": "Tsuga\u2019s Tuck Shop",
-        "Team Key": "470.l.205662.t.14",
-        "Manager": "Caleb",
-        "Weeks Rostered": [
-            3,
-            4,
-            5,
-            6,
-            7,
-            8
-        ],
-        "WAR": 0.2305,
-        "WAR Rank": 15
+        "WAR": 0.2383,
+        "WAR Rank": 17
     },
     {
         "Player": "Germie Bernard",
@@ -264,10 +310,11 @@
         "Weeks Rostered": [
             6,
             7,
-            8
+            8,
+            9
         ],
-        "WAR": 0.2194,
-        "WAR Rank": 16
+        "WAR": 0.2195,
+        "WAR Rank": 18
     },
     {
         "Player": "Dameon Pierce",
@@ -280,8 +327,8 @@
             6,
             7
         ],
-        "WAR": 0.2004,
-        "WAR Rank": 17
+        "WAR": 0.2006,
+        "WAR Rank": 19
     },
     {
         "Player": "Dalton Schultz",
@@ -295,40 +342,93 @@
             3,
             4
         ],
-        "WAR": 0.1997,
-        "WAR Rank": 18
+        "WAR": 0.1994,
+        "WAR Rank": 20
     },
     {
-        "Player": "Kenny Gainwell",
-        "Player ID": "33538",
-        "Position": "RB",
-        "Team": "Pad D's",
-        "Team Key": "470.l.205662.t.10",
-        "Manager": "Sam",
+        "Player": "49ers",
+        "Player ID": "100025",
+        "Position": "DEF",
+        "Team": "Omaha Beach Real Estate",
+        "Team Key": "470.l.205662.t.8",
+        "Manager": "Andrew",
         "Weeks Rostered": [
+            2,
             3,
             4,
             5,
             6,
             7,
-            8
+            8,
+            9
         ],
-        "WAR": 0.1877,
-        "WAR Rank": 19
+        "WAR": 0.191,
+        "WAR Rank": 21
     },
     {
-        "Player": "Omar Cooper Jr.",
-        "Player ID": "42652",
+        "Player": "Bryce Young",
+        "Player ID": "40029",
+        "Position": "QB",
+        "Team": "Big Bad Hokkkk",
+        "Team Key": "470.l.205662.t.4",
+        "Manager": "Nate",
+        "Weeks Rostered": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "WAR": 0.186,
+        "WAR Rank": 22
+    },
+    {
+        "Player": "Tyler Bass",
+        "Player ID": "32858",
+        "Position": "K",
+        "Team": "Ma\u00eetre Stick",
+        "Team Key": "470.l.205662.t.6",
+        "Manager": "Levi",
+        "Weeks Rostered": [
+            8,
+            9
+        ],
+        "WAR": 0.1809,
+        "WAR Rank": 23
+    },
+    {
+        "Player": "Kayshon Boutte",
+        "Player ID": "40224",
         "Position": "WR",
-        "Team": "Supernova\u2019s Studs",
-        "Team Key": "470.l.205662.t.12",
-        "Manager": "Gavin Brodie",
+        "Team": "Hunter\u2019s Hunters",
+        "Team Key": "470.l.205662.t.5",
+        "Manager": "Hunter",
+        "Weeks Rostered": [
+            6,
+            7,
+            8,
+            9
+        ],
+        "WAR": 0.1737,
+        "WAR Rank": 24
+    },
+    {
+        "Player": "Cairo Santos",
+        "Player ID": "28227",
+        "Position": "K",
+        "Team": "Hunter\u2019s Hunters",
+        "Team Key": "470.l.205662.t.5",
+        "Manager": "Hunter",
         "Weeks Rostered": [
             7,
-            8
+            8,
+            9
         ],
-        "WAR": 0.1859,
-        "WAR Rank": 20
+        "WAR": 0.1691,
+        "WAR Rank": 25
     },
     {
         "Player": "Dontayvion Wicks",
@@ -344,8 +444,8 @@
             4,
             5
         ],
-        "WAR": 0.1691,
-        "WAR Rank": 21
+        "WAR": 0.169,
+        "WAR Rank": 26
     },
     {
         "Player": "Rashod Bateman",
@@ -359,7 +459,49 @@
             3
         ],
         "WAR": 0.1624,
-        "WAR Rank": 22
+        "WAR Rank": 27
+    },
+    {
+        "Player": "Justice Hill",
+        "Player ID": "31945",
+        "Position": "RB",
+        "Team": "The Sage's Playmakers",
+        "Team Key": "470.l.205662.t.13",
+        "Manager": "Josh",
+        "Weeks Rostered": [
+            9
+        ],
+        "WAR": 0.1583,
+        "WAR Rank": 28
+    },
+    {
+        "Player": "Chase McLaughlin",
+        "Player ID": "32417",
+        "Position": "K",
+        "Team": "Omaha Beach Real Estate",
+        "Team Key": "470.l.205662.t.8",
+        "Manager": "Andrew",
+        "Weeks Rostered": [
+            7,
+            8,
+            9
+        ],
+        "WAR": 0.1573,
+        "WAR Rank": 29
+    },
+    {
+        "Player": "Packers",
+        "Player ID": "100009",
+        "Position": "DEF",
+        "Team": "Girder\u2019s 6 Cookies",
+        "Team Key": "470.l.205662.t.3",
+        "Manager": "Sam",
+        "Weeks Rostered": [
+            8,
+            9
+        ],
+        "WAR": 0.157,
+        "WAR Rank": 30
     },
     {
         "Player": "Raiders",
@@ -375,22 +517,8 @@
             4,
             5
         ],
-        "WAR": 0.1455,
-        "WAR Rank": 23
-    },
-    {
-        "Player": "Cairo Santos",
-        "Player ID": "28227",
-        "Position": "K",
-        "Team": "Hunter\u2019s Hunters",
-        "Team Key": "470.l.205662.t.5",
-        "Manager": "Hunter",
-        "Weeks Rostered": [
-            7,
-            8
-        ],
-        "WAR": 0.1449,
-        "WAR Rank": 24
+        "WAR": 0.1458,
+        "WAR Rank": 31
     },
     {
         "Player": "Jets",
@@ -402,8 +530,8 @@
         "Weeks Rostered": [
             5
         ],
-        "WAR": 0.1317,
-        "WAR Rank": 25
+        "WAR": 0.1319,
+        "WAR Rank": 32
     },
     {
         "Player": "MarShawn Lloyd",
@@ -417,10 +545,11 @@
             5,
             6,
             7,
-            8
+            8,
+            9
         ],
         "WAR": 0.1307,
-        "WAR Rank": 26
+        "WAR Rank": 33
     },
     {
         "Player": "Jameis Winston",
@@ -432,22 +561,22 @@
         "Weeks Rostered": [
             5
         ],
-        "WAR": 0.1294,
-        "WAR Rank": 27
+        "WAR": 0.1293,
+        "WAR Rank": 34
     },
     {
-        "Player": "Chase McLaughlin",
-        "Player ID": "32417",
-        "Position": "K",
-        "Team": "Omaha Beach Real Estate",
-        "Team Key": "470.l.205662.t.8",
-        "Manager": "Andrew",
+        "Player": "Dylan Sampson",
+        "Player ID": "41907",
+        "Position": "RB",
+        "Team": "The Sage's Playmakers",
+        "Team Key": "470.l.205662.t.13",
+        "Manager": "Josh",
         "Weeks Rostered": [
-            7,
-            8
+            8,
+            9
         ],
-        "WAR": 0.1209,
-        "WAR Rank": 28
+        "WAR": 0.1272,
+        "WAR Rank": 35
     },
     {
         "Player": "Tyler Bass",
@@ -460,7 +589,7 @@
             6
         ],
         "WAR": 0.1202,
-        "WAR Rank": 29
+        "WAR Rank": 36
     },
     {
         "Player": "Chiefs",
@@ -473,8 +602,34 @@
             5,
             6
         ],
-        "WAR": 0.12,
-        "WAR Rank": 30
+        "WAR": 0.1201,
+        "WAR Rank": 37
+    },
+    {
+        "Player": "Bills",
+        "Player ID": "100002",
+        "Position": "DEF",
+        "Team": "Ozzy Stick",
+        "Team Key": "470.l.205662.t.9",
+        "Manager": "ben",
+        "Weeks Rostered": [
+            9
+        ],
+        "WAR": 0.1201,
+        "WAR Rank": 38
+    },
+    {
+        "Player": "Audric Estime",
+        "Player ID": "41019",
+        "Position": "RB",
+        "Team": "Ma\u00eetre Stick",
+        "Team Key": "470.l.205662.t.6",
+        "Manager": "Levi",
+        "Weeks Rostered": [
+            9
+        ],
+        "WAR": 0.116,
+        "WAR Rank": 39
     },
     {
         "Player": "Geno Smith",
@@ -487,7 +642,20 @@
             7
         ],
         "WAR": 0.1144,
-        "WAR Rank": 31
+        "WAR Rank": 40
+    },
+    {
+        "Player": "Bears",
+        "Player ID": "100003",
+        "Position": "DEF",
+        "Team": "Flow Brrr",
+        "Team Key": "470.l.205662.t.1",
+        "Manager": "Zach",
+        "Weeks Rostered": [
+            9
+        ],
+        "WAR": 0.1083,
+        "WAR Rank": 41
     },
     {
         "Player": "Kimani Vidal",
@@ -504,133 +672,11 @@
             5,
             6,
             7,
-            8
+            8,
+            9
         ],
-        "WAR": 0.1127,
-        "WAR Rank": 32
-    },
-    {
-        "Player": "Bryce Young",
-        "Player ID": "40029",
-        "Position": "QB",
-        "Team": "Big Bad Hokkkk",
-        "Team Key": "470.l.205662.t.4",
-        "Manager": "Nate",
-        "Weeks Rostered": [
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8
-        ],
-        "WAR": 0.1096,
-        "WAR Rank": 33
-    },
-    {
-        "Player": "Tyler Bass",
-        "Player ID": "32858",
-        "Position": "K",
-        "Team": "Ma\u00eetre Stick",
-        "Team Key": "470.l.205662.t.6",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            8
-        ],
-        "WAR": 0.1084,
-        "WAR Rank": 34
-    },
-    {
-        "Player": "Keon Coleman",
-        "Player ID": "40911",
-        "Position": "WR",
-        "Team": "Ma\u00eetre Stick",
-        "Team Key": "470.l.205662.t.6",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            6
-        ],
-        "WAR": 0.1071,
-        "WAR Rank": 35
-    },
-    {
-        "Player": "Michael Penix Jr.",
-        "Player ID": "40889",
-        "Position": "QB",
-        "Team": "Flow Brrr",
-        "Team Key": "470.l.205662.t.1",
-        "Manager": "Zach",
-        "Weeks Rostered": [
-            6
-        ],
-        "WAR": 0.0978,
-        "WAR Rank": 36
-    },
-    {
-        "Player": "Jaguars",
-        "Player ID": "100030",
-        "Position": "DEF",
-        "Team": "Flow Brrr",
-        "Team Key": "470.l.205662.t.1",
-        "Manager": "Zach",
-        "Weeks Rostered": [
-            1
-        ],
-        "WAR": 0.0964,
-        "WAR Rank": 37
-    },
-    {
-        "Player": "Saints",
-        "Player ID": "100018",
-        "Position": "DEF",
-        "Team": "Girder\u2019s 6 Cookies",
-        "Team Key": "470.l.205662.t.3",
-        "Manager": "Sam",
-        "Weeks Rostered": [
-            6
-        ],
-        "WAR": 0.0964,
-        "WAR Rank": 38
-    },
-    {
-        "Player": "Commanders",
-        "Player ID": "100028",
-        "Position": "DEF",
-        "Team": "Flow Brrr",
-        "Team Key": "470.l.205662.t.1",
-        "Manager": "Zach",
-        "Weeks Rostered": [
-            8
-        ],
-        "WAR": 0.0964,
-        "WAR Rank": 39
-    },
-    {
-        "Player": "Dylan Sampson",
-        "Player ID": "41907",
-        "Position": "RB",
-        "Team": "The Sage's Playmakers",
-        "Team Key": "470.l.205662.t.13",
-        "Manager": "Josh",
-        "Weeks Rostered": [
-            8
-        ],
-        "WAR": 0.0941,
-        "WAR Rank": 40
-    },
-    {
-        "Player": "Pat Bryant",
-        "Player ID": "41860",
-        "Position": "WR",
-        "Team": "Flow Brrr",
-        "Team Key": "470.l.205662.t.1",
-        "Manager": "Zach",
-        "Weeks Rostered": [
-            3
-        ],
-        "WAR": 0.089,
-        "WAR Rank": 41
+        "WAR": 0.1081,
+        "WAR Rank": 42
     },
     {
         "Player": "Bo Nix",
@@ -646,10 +692,115 @@
             5,
             6,
             7,
+            8,
+            9
+        ],
+        "WAR": 0.1076,
+        "WAR Rank": 43
+    },
+    {
+        "Player": "Keon Coleman",
+        "Player ID": "40911",
+        "Position": "WR",
+        "Team": "Ma\u00eetre Stick",
+        "Team Key": "470.l.205662.t.6",
+        "Manager": "Levi",
+        "Weeks Rostered": [
+            6
+        ],
+        "WAR": 0.1071,
+        "WAR Rank": 44
+    },
+    {
+        "Player": "Courtland Sutton",
+        "Player ID": "31010",
+        "Position": "WR",
+        "Team": "Flow Brrr",
+        "Team Key": "470.l.205662.t.1",
+        "Manager": "Zach",
+        "Weeks Rostered": [
+            9
+        ],
+        "WAR": 0.1022,
+        "WAR Rank": 45
+    },
+    {
+        "Player": "Michael Penix Jr.",
+        "Player ID": "40889",
+        "Position": "QB",
+        "Team": "Flow Brrr",
+        "Team Key": "470.l.205662.t.1",
+        "Manager": "Zach",
+        "Weeks Rostered": [
+            6
+        ],
+        "WAR": 0.0978,
+        "WAR Rank": 46
+    },
+    {
+        "Player": "Jaguars",
+        "Player ID": "100030",
+        "Position": "DEF",
+        "Team": "Flow Brrr",
+        "Team Key": "470.l.205662.t.1",
+        "Manager": "Zach",
+        "Weeks Rostered": [
+            1
+        ],
+        "WAR": 0.0965,
+        "WAR Rank": 47
+    },
+    {
+        "Player": "Saints",
+        "Player ID": "100018",
+        "Position": "DEF",
+        "Team": "Girder\u2019s 6 Cookies",
+        "Team Key": "470.l.205662.t.3",
+        "Manager": "Sam",
+        "Weeks Rostered": [
+            6
+        ],
+        "WAR": 0.0965,
+        "WAR Rank": 48
+    },
+    {
+        "Player": "Commanders",
+        "Player ID": "100028",
+        "Position": "DEF",
+        "Team": "Flow Brrr",
+        "Team Key": "470.l.205662.t.1",
+        "Manager": "Zach",
+        "Weeks Rostered": [
             8
         ],
-        "WAR": 0.0878,
-        "WAR Rank": 42
+        "WAR": 0.0965,
+        "WAR Rank": 49
+    },
+    {
+        "Player": "Giants",
+        "Player ID": "100019",
+        "Position": "DEF",
+        "Team": "Big Bad Hokkkk",
+        "Team Key": "470.l.205662.t.4",
+        "Manager": "Nate",
+        "Weeks Rostered": [
+            9
+        ],
+        "WAR": 0.0965,
+        "WAR Rank": 50
+    },
+    {
+        "Player": "Pat Bryant",
+        "Player ID": "41860",
+        "Position": "WR",
+        "Team": "Flow Brrr",
+        "Team Key": "470.l.205662.t.1",
+        "Manager": "Zach",
+        "Weeks Rostered": [
+            3
+        ],
+        "WAR": 0.0889,
+        "WAR Rank": 51
     },
     {
         "Player": "Sam Darnold",
@@ -664,8 +815,8 @@
             5,
             6
         ],
-        "WAR": 0.0877,
-        "WAR Rank": 43
+        "WAR": 0.0875,
+        "WAR Rank": 52
     },
     {
         "Player": "Aaron Rodgers",
@@ -679,8 +830,8 @@
             6,
             7
         ],
-        "WAR": 0.0859,
-        "WAR Rank": 44
+        "WAR": 0.086,
+        "WAR Rank": 53
     },
     {
         "Player": "Broncos",
@@ -693,7 +844,7 @@
             5
         ],
         "WAR": 0.0845,
-        "WAR Rank": 45
+        "WAR Rank": 54
     },
     {
         "Player": "Ravens",
@@ -708,20 +859,21 @@
             6
         ],
         "WAR": 0.0726,
-        "WAR Rank": 46
+        "WAR Rank": 55
     },
     {
-        "Player": "Packers",
-        "Player ID": "100009",
+        "Player": "Chiefs",
+        "Player ID": "100012",
         "Position": "DEF",
-        "Team": "Girder\u2019s 6 Cookies",
-        "Team Key": "470.l.205662.t.3",
-        "Manager": "Sam",
+        "Team": "Ma\u00eetre Stick",
+        "Team Key": "470.l.205662.t.6",
+        "Manager": "Levi",
         "Weeks Rostered": [
-            8
+            8,
+            9
         ],
         "WAR": 0.0725,
-        "WAR Rank": 47
+        "WAR Rank": 56
     },
     {
         "Player": "Bears",
@@ -735,8 +887,8 @@
             4,
             5
         ],
-        "WAR": 0.0606,
-        "WAR Rank": 48
+        "WAR": 0.0607,
+        "WAR Rank": 57
     },
     {
         "Player": "Trey Smack",
@@ -749,7 +901,7 @@
             6
         ],
         "WAR": 0.0605,
-        "WAR Rank": 49
+        "WAR Rank": 58
     },
     {
         "Player": "Matt Gay",
@@ -762,7 +914,7 @@
             6
         ],
         "WAR": 0.0605,
-        "WAR Rank": 50
+        "WAR Rank": 59
     },
     {
         "Player": "Matt Gay",
@@ -773,10 +925,25 @@
         "Manager": "Gavin Brodie",
         "Weeks Rostered": [
             7,
-            8
+            8,
+            9
         ],
         "WAR": 0.0605,
-        "WAR Rank": 51
+        "WAR Rank": 60
+    },
+    {
+        "Player": "Lions",
+        "Player ID": "100008",
+        "Position": "DEF",
+        "Team": "Pad D's",
+        "Team Key": "470.l.205662.t.10",
+        "Manager": "Sam",
+        "Weeks Rostered": [
+            8,
+            9
+        ],
+        "WAR": 0.0605,
+        "WAR Rank": 61
     },
     {
         "Player": "Falcons",
@@ -791,7 +958,7 @@
             6
         ],
         "WAR": 0.0604,
-        "WAR Rank": 52
+        "WAR Rank": 62
     },
     {
         "Player": "Kendre Miller",
@@ -803,10 +970,11 @@
         "Weeks Rostered": [
             6,
             7,
-            8
+            8,
+            9
         ],
-        "WAR": 0.0565,
-        "WAR Rank": 53
+        "WAR": 0.0566,
+        "WAR Rank": 63
     },
     {
         "Player": "Kyler Murray",
@@ -823,21 +991,7 @@
             8
         ],
         "WAR": 0.0555,
-        "WAR Rank": 54
-    },
-    {
-        "Player": "Michael Mayer",
-        "Player ID": "40065",
-        "Position": "TE",
-        "Team": "Flow Brrr",
-        "Team Key": "470.l.205662.t.1",
-        "Manager": "Zach",
-        "Weeks Rostered": [
-            7,
-            8
-        ],
-        "WAR": 0.0541,
-        "WAR Rank": 55
+        "WAR Rank": 64
     },
     {
         "Player": "Bam Knight",
@@ -849,8 +1003,22 @@
         "Weeks Rostered": [
             7
         ],
-        "WAR": 0.0508,
-        "WAR Rank": 56
+        "WAR": 0.0509,
+        "WAR Rank": 65
+    },
+    {
+        "Player": "Seth McGowan",
+        "Player ID": "42859",
+        "Position": "RB",
+        "Team": "Tsuga\u2019s Tuck Shop",
+        "Team Key": "470.l.205662.t.14",
+        "Manager": "Caleb",
+        "Weeks Rostered": [
+            8,
+            9
+        ],
+        "WAR": 0.0495,
+        "WAR Rank": 66
     },
     {
         "Player": "Cardinals",
@@ -864,7 +1032,7 @@
             7
         ],
         "WAR": 0.0484,
-        "WAR Rank": 57
+        "WAR Rank": 67
     },
     {
         "Player": "Browns",
@@ -877,7 +1045,7 @@
             4
         ],
         "WAR": 0.0484,
-        "WAR Rank": 58
+        "WAR Rank": 68
     },
     {
         "Player": "Bengals",
@@ -890,7 +1058,7 @@
             5
         ],
         "WAR": 0.0484,
-        "WAR Rank": 59
+        "WAR Rank": 69
     },
     {
         "Player": "Browns",
@@ -903,7 +1071,7 @@
             5
         ],
         "WAR": 0.0484,
-        "WAR Rank": 60
+        "WAR Rank": 70
     },
     {
         "Player": "Bengals",
@@ -917,21 +1085,7 @@
             8
         ],
         "WAR": 0.0484,
-        "WAR Rank": 61
-    },
-    {
-        "Player": "Nick Folk",
-        "Player ID": "8432",
-        "Position": "K",
-        "Team": "Pad D's",
-        "Team Key": "470.l.205662.t.10",
-        "Manager": "Sam",
-        "Weeks Rostered": [
-            7,
-            8
-        ],
-        "WAR": 0.0484,
-        "WAR Rank": 62
+        "WAR Rank": 71
     },
     {
         "Player": "Raiders",
@@ -944,7 +1098,7 @@
             8
         ],
         "WAR": 0.0484,
-        "WAR Rank": 63
+        "WAR Rank": 72
     },
     {
         "Player": "Geno Smith",
@@ -957,26 +1111,7 @@
             8
         ],
         "WAR": 0.0483,
-        "WAR Rank": 64
-    },
-    {
-        "Player": "49ers",
-        "Player ID": "100025",
-        "Position": "DEF",
-        "Team": "Omaha Beach Real Estate",
-        "Team Key": "470.l.205662.t.8",
-        "Manager": "Andrew",
-        "Weeks Rostered": [
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8
-        ],
-        "WAR": 0.0472,
-        "WAR Rank": 65
+        "WAR Rank": 73
     },
     {
         "Player": "Tyrone Tracy Jr.",
@@ -988,8 +1123,8 @@
         "Weeks Rostered": [
             7
         ],
-        "WAR": 0.0436,
-        "WAR Rank": 66
+        "WAR": 0.0437,
+        "WAR Rank": 74
     },
     {
         "Player": "Tyler Allgeier",
@@ -1002,8 +1137,8 @@
             6,
             7
         ],
-        "WAR": 0.0434,
-        "WAR Rank": 67
+        "WAR": 0.0435,
+        "WAR Rank": 75
     },
     {
         "Player": "Sam Darnold",
@@ -1016,7 +1151,7 @@
             8
         ],
         "WAR": 0.0425,
-        "WAR Rank": 68
+        "WAR Rank": 76
     },
     {
         "Player": "Will Shipley",
@@ -1029,7 +1164,22 @@
             5
         ],
         "WAR": 0.0389,
-        "WAR Rank": 69
+        "WAR Rank": 77
+    },
+    {
+        "Player": "Michael Mayer",
+        "Player ID": "40065",
+        "Position": "TE",
+        "Team": "Flow Brrr",
+        "Team Key": "470.l.205662.t.1",
+        "Manager": "Zach",
+        "Weeks Rostered": [
+            7,
+            8,
+            9
+        ],
+        "WAR": 0.0387,
+        "WAR Rank": 78
     },
     {
         "Player": "Michael Mayer",
@@ -1042,7 +1192,7 @@
             1
         ],
         "WAR": 0.0385,
-        "WAR Rank": 70
+        "WAR Rank": 79
     },
     {
         "Player": "Giants",
@@ -1055,7 +1205,7 @@
             3
         ],
         "WAR": 0.0363,
-        "WAR Rank": 71
+        "WAR Rank": 80
     },
     {
         "Player": "Colts",
@@ -1068,7 +1218,7 @@
             4
         ],
         "WAR": 0.0363,
-        "WAR Rank": 72
+        "WAR Rank": 81
     },
     {
         "Player": "Patriots",
@@ -1081,7 +1231,22 @@
             8
         ],
         "WAR": 0.0363,
-        "WAR Rank": 73
+        "WAR Rank": 82
+    },
+    {
+        "Player": "Chig Okonkwo",
+        "Player ID": "34099",
+        "Position": "TE",
+        "Team": "Tsuga\u2019s Tuck Shop",
+        "Team Key": "470.l.205662.t.14",
+        "Manager": "Caleb",
+        "Weeks Rostered": [
+            7,
+            8,
+            9
+        ],
+        "WAR": 0.0355,
+        "WAR Rank": 83
     },
     {
         "Player": "Cade Otton",
@@ -1094,20 +1259,20 @@
             3
         ],
         "WAR": 0.0312,
-        "WAR Rank": 74
+        "WAR Rank": 84
     },
     {
-        "Player": "Greg Dulcich",
-        "Player ID": "34036",
+        "Player": "Eli Raridon",
+        "Player ID": "42717",
         "Position": "TE",
         "Team": "Big Bad Hokkkk",
         "Team Key": "470.l.205662.t.4",
         "Manager": "Nate",
         "Weeks Rostered": [
-            8
+            9
         ],
-        "WAR": 0.0276,
-        "WAR Rank": 75
+        "WAR": 0.0264,
+        "WAR Rank": 85
     },
     {
         "Player": "Eddy Pineiro",
@@ -1124,7 +1289,7 @@
             5
         ],
         "WAR": 0.0243,
-        "WAR Rank": 76
+        "WAR Rank": 86
     },
     {
         "Player": "Harrison Butker",
@@ -1140,7 +1305,7 @@
             7
         ],
         "WAR": 0.0243,
-        "WAR Rank": 77
+        "WAR Rank": 87
     },
     {
         "Player": "Browns",
@@ -1155,7 +1320,22 @@
             8
         ],
         "WAR": 0.0243,
-        "WAR Rank": 78
+        "WAR Rank": 88
+    },
+    {
+        "Player": "Nick Folk",
+        "Player ID": "8432",
+        "Position": "K",
+        "Team": "Pad D's",
+        "Team Key": "470.l.205662.t.10",
+        "Manager": "Sam",
+        "Weeks Rostered": [
+            7,
+            8,
+            9
+        ],
+        "WAR": 0.0243,
+        "WAR Rank": 89
     },
     {
         "Player": "Lions",
@@ -1168,7 +1348,7 @@
             3
         ],
         "WAR": 0.0242,
-        "WAR Rank": 79
+        "WAR Rank": 90
     },
     {
         "Player": "Buccaneers",
@@ -1181,7 +1361,20 @@
             6
         ],
         "WAR": 0.0242,
-        "WAR Rank": 80
+        "WAR Rank": 91
+    },
+    {
+        "Player": "Broncos",
+        "Player ID": "100007",
+        "Position": "DEF",
+        "Team": "Omaha Beach Real Estate",
+        "Team Key": "470.l.205662.t.8",
+        "Manager": "Andrew",
+        "Weeks Rostered": [
+            9
+        ],
+        "WAR": 0.0242,
+        "WAR Rank": 92
     },
     {
         "Player": "Kalif Raymond",
@@ -1194,7 +1387,22 @@
             2
         ],
         "WAR": 0.0238,
-        "WAR Rank": 81
+        "WAR Rank": 93
+    },
+    {
+        "Player": "Tyler Goodson",
+        "Player ID": "34261",
+        "Position": "RB",
+        "Team": "Supernova\u2019s Studs",
+        "Team Key": "470.l.205662.t.12",
+        "Manager": "Gavin Brodie",
+        "Weeks Rostered": [
+            7,
+            8,
+            9
+        ],
+        "WAR": 0.0214,
+        "WAR Rank": 94
     },
     {
         "Player": "Kendrick Bourne",
@@ -1207,10 +1415,11 @@
             5,
             6,
             7,
-            8
+            8,
+            9
         ],
         "WAR": 0.0196,
-        "WAR Rank": 82
+        "WAR Rank": 95
     },
     {
         "Player": "Pat Freiermuth",
@@ -1223,20 +1432,7 @@
             2
         ],
         "WAR": 0.0168,
-        "WAR Rank": 83
-    },
-    {
-        "Player": "Mike Gesicki",
-        "Player ID": "31012",
-        "Position": "TE",
-        "Team": "Ma\u00eetre Stick",
-        "Team Key": "470.l.205662.t.6",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            5
-        ],
-        "WAR": 0.0168,
-        "WAR Rank": 84
+        "WAR Rank": 96
     },
     {
         "Player": "Darnell Washington",
@@ -1249,7 +1445,7 @@
             7
         ],
         "WAR": 0.0168,
-        "WAR Rank": 85
+        "WAR Rank": 97
     },
     {
         "Player": "Dalton Schultz",
@@ -1263,7 +1459,7 @@
             6
         ],
         "WAR": 0.0156,
-        "WAR Rank": 86
+        "WAR Rank": 98
     },
     {
         "Player": "Mack Hollins",
@@ -1275,8 +1471,8 @@
         "Weeks Rostered": [
             4
         ],
-        "WAR": 0.0155,
-        "WAR Rank": 87
+        "WAR": 0.0154,
+        "WAR Rank": 99
     },
     {
         "Player": "Justice Hill",
@@ -1289,7 +1485,7 @@
             7
         ],
         "WAR": 0.0152,
-        "WAR Rank": 88
+        "WAR Rank": 100
     },
     {
         "Player": "Xavier Hutchinson",
@@ -1303,7 +1499,7 @@
             3
         ],
         "WAR": 0.0143,
-        "WAR Rank": 89
+        "WAR Rank": 101
     },
     {
         "Player": "Commanders",
@@ -1316,7 +1512,7 @@
             5
         ],
         "WAR": 0.0121,
-        "WAR Rank": 90
+        "WAR Rank": 102
     },
     {
         "Player": "Patriots",
@@ -1329,20 +1525,59 @@
             6
         ],
         "WAR": 0.0121,
-        "WAR Rank": 91
+        "WAR Rank": 103
     },
     {
-        "Player": "Lions",
-        "Player ID": "100008",
+        "Player": "Eddy Pineiro",
+        "Player ID": "31482",
+        "Position": "K",
+        "Team": "You gotta be Falcon kiddin me",
+        "Team Key": "470.l.205662.t.2",
+        "Manager": "DJ",
+        "Weeks Rostered": [
+            9
+        ],
+        "WAR": 0.0121,
+        "WAR Rank": 104
+    },
+    {
+        "Player": "Drew Stevens",
+        "Player ID": "43370",
+        "Position": "K",
+        "Team": "Big Bad Hokkkk",
+        "Team Key": "470.l.205662.t.4",
+        "Manager": "Nate",
+        "Weeks Rostered": [
+            9
+        ],
+        "WAR": 0.0121,
+        "WAR Rank": 105
+    },
+    {
+        "Player": "Commanders",
+        "Player ID": "100028",
         "Position": "DEF",
+        "Team": "Tsuga\u2019s Tuck Shop",
+        "Team Key": "470.l.205662.t.14",
+        "Manager": "Caleb",
+        "Weeks Rostered": [
+            9
+        ],
+        "WAR": 0.0121,
+        "WAR Rank": 106
+    },
+    {
+        "Player": "Devin Singletary",
+        "Player ID": "31906",
+        "Position": "RB",
         "Team": "Pad D's",
         "Team Key": "470.l.205662.t.10",
         "Manager": "Sam",
         "Weeks Rostered": [
-            8
+            9
         ],
-        "WAR": 0.0121,
-        "WAR Rank": 92
+        "WAR": 0.0105,
+        "WAR Rank": 107
     },
     {
         "Player": "Keon Coleman",
@@ -1355,7 +1590,20 @@
             5
         ],
         "WAR": 0.0083,
-        "WAR Rank": 93
+        "WAR Rank": 108
+    },
+    {
+        "Player": "Ty Johnson",
+        "Player ID": "32018",
+        "Position": "RB",
+        "Team": "Supernova\u2019s Studs",
+        "Team Key": "470.l.205662.t.12",
+        "Manager": "Gavin Brodie",
+        "Weeks Rostered": [
+            9
+        ],
+        "WAR": 0.0082,
+        "WAR Rank": 109
     },
     {
         "Player": "Darren Waller",
@@ -1368,21 +1616,20 @@
             4
         ],
         "WAR": 0.0072,
-        "WAR Rank": 94
+        "WAR Rank": 110
     },
     {
-        "Player": "Samaje Perine",
-        "Player ID": "30227",
+        "Player": "Austin Ekeler",
+        "Player ID": "30423",
         "Position": "RB",
-        "Team": "You gotta be Falcon kiddin me",
-        "Team Key": "470.l.205662.t.2",
-        "Manager": "DJ",
+        "Team": "Pad D's",
+        "Team Key": "470.l.205662.t.10",
+        "Manager": "Sam",
         "Weeks Rostered": [
-            7,
-            8
+            9
         ],
-        "WAR": 0.0064,
-        "WAR Rank": 95
+        "WAR": 0.0047,
+        "WAR Rank": 111
     },
     {
         "Player": "Malachi Fields",
@@ -1396,8 +1643,21 @@
             4,
             5
         ],
-        "WAR": 0.003,
-        "WAR Rank": 96
+        "WAR": 0.0031,
+        "WAR Rank": 112
+    },
+    {
+        "Player": "Dalton Schultz",
+        "Player ID": "31107",
+        "Position": "TE",
+        "Team": "Ozzy Stick",
+        "Team Key": "470.l.205662.t.9",
+        "Manager": "ben",
+        "Weeks Rostered": [
+            9
+        ],
+        "WAR": 0.0024,
+        "WAR Rank": 113
     },
     {
         "Player": "Sean Tucker",
@@ -1410,7 +1670,7 @@
             1
         ],
         "WAR": 0.0,
-        "WAR Rank": 97
+        "WAR Rank": 114
     },
     {
         "Player": "Titans",
@@ -1423,7 +1683,7 @@
             1
         ],
         "WAR": 0.0,
-        "WAR Rank": 98
+        "WAR Rank": 115
     },
     {
         "Player": "Luke Musgrave",
@@ -1440,7 +1700,7 @@
             5
         ],
         "WAR": 0.0,
-        "WAR Rank": 99
+        "WAR Rank": 116
     },
     {
         "Player": "Kaleb Johnson",
@@ -1453,7 +1713,7 @@
             1
         ],
         "WAR": 0.0,
-        "WAR Rank": 100
+        "WAR Rank": 117
     },
     {
         "Player": "Trevor Etienne",
@@ -1470,7 +1730,7 @@
             5
         ],
         "WAR": 0.0,
-        "WAR Rank": 101
+        "WAR Rank": 118
     },
     {
         "Player": "James Conner",
@@ -1483,7 +1743,7 @@
             1
         ],
         "WAR": 0.0,
-        "WAR Rank": 102
+        "WAR Rank": 119
     },
     {
         "Player": "James Conner",
@@ -1500,7 +1760,7 @@
             6
         ],
         "WAR": 0.0,
-        "WAR Rank": 103
+        "WAR Rank": 120
     },
     {
         "Player": "Drew Lock",
@@ -1513,7 +1773,7 @@
             3
         ],
         "WAR": 0.0,
-        "WAR Rank": 104
+        "WAR Rank": 121
     },
     {
         "Player": "Isaiah Davis",
@@ -1526,7 +1786,7 @@
             4
         ],
         "WAR": 0.0,
-        "WAR Rank": 105
+        "WAR Rank": 122
     },
     {
         "Player": "Michael Pittman Jr.",
@@ -1539,10 +1799,11 @@
             5,
             6,
             7,
-            8
+            8,
+            9
         ],
         "WAR": 0.0,
-        "WAR Rank": 106
+        "WAR Rank": 123
     },
     {
         "Player": "Darren Waller",
@@ -1555,7 +1816,7 @@
             6
         ],
         "WAR": 0.0,
-        "WAR Rank": 107
+        "WAR Rank": 124
     },
     {
         "Player": "Roman Wilson",
@@ -1569,7 +1830,7 @@
             8
         ],
         "WAR": 0.0,
-        "WAR Rank": 108
+        "WAR Rank": 125
     },
     {
         "Player": "Samaje Perine",
@@ -1582,7 +1843,7 @@
             6
         ],
         "WAR": 0.0,
-        "WAR Rank": 109
+        "WAR Rank": 126
     },
     {
         "Player": "Dontayvion Wicks",
@@ -1593,10 +1854,11 @@
         "Manager": "Connor",
         "Weeks Rostered": [
             7,
-            8
+            8,
+            9
         ],
         "WAR": 0.0,
-        "WAR Rank": 110
+        "WAR Rank": 127
     },
     {
         "Player": "Tank Bigsby",
@@ -1607,10 +1869,11 @@
         "Manager": "Josh",
         "Weeks Rostered": [
             7,
-            8
+            8,
+            9
         ],
         "WAR": 0.0,
-        "WAR Rank": 111
+        "WAR Rank": 128
     },
     {
         "Player": "Titans",
@@ -1623,7 +1886,7 @@
             7
         ],
         "WAR": 0.0,
-        "WAR Rank": 112
+        "WAR Rank": 129
     },
     {
         "Player": "Ted Hurst III",
@@ -1636,7 +1899,7 @@
             7
         ],
         "WAR": 0.0,
-        "WAR Rank": 113
+        "WAR Rank": 130
     },
     {
         "Player": "Tyrone Tracy Jr.",
@@ -1649,20 +1912,7 @@
             8
         ],
         "WAR": 0.0,
-        "WAR Rank": 114
-    },
-    {
-        "Player": "Chiefs",
-        "Player ID": "100012",
-        "Position": "DEF",
-        "Team": "Ma\u00eetre Stick",
-        "Team Key": "470.l.205662.t.6",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            8
-        ],
-        "WAR": 0.0,
-        "WAR Rank": 115
+        "WAR Rank": 131
     },
     {
         "Player": "Saints",
@@ -1672,10 +1922,53 @@
         "Team Key": "470.l.205662.t.14",
         "Manager": "Caleb",
         "Weeks Rostered": [
-            8
+            8,
+            9
         ],
         "WAR": 0.0,
-        "WAR Rank": 116
+        "WAR Rank": 132
+    },
+    {
+        "Player": "Brandon Aiyuk",
+        "Player ID": "32695",
+        "Position": "WR",
+        "Team": "The Sage's Playmakers",
+        "Team Key": "470.l.205662.t.13",
+        "Manager": "Josh",
+        "Weeks Rostered": [
+            9
+        ],
+        "WAR": 0.0,
+        "WAR Rank": 133
+    },
+    {
+        "Player": "Samaje Perine",
+        "Player ID": "30227",
+        "Position": "RB",
+        "Team": "You gotta be Falcon kiddin me",
+        "Team Key": "470.l.205662.t.2",
+        "Manager": "DJ",
+        "Weeks Rostered": [
+            7,
+            8,
+            9
+        ],
+        "WAR": -0.0018,
+        "WAR Rank": 134
+    },
+    {
+        "Player": "Greg Dulcich",
+        "Player ID": "34036",
+        "Position": "TE",
+        "Team": "Big Bad Hokkkk",
+        "Team Key": "470.l.205662.t.4",
+        "Manager": "Nate",
+        "Weeks Rostered": [
+            8,
+            9
+        ],
+        "WAR": -0.0032,
+        "WAR Rank": 135
     },
     {
         "Player": "Rashod Bateman",
@@ -1688,7 +1981,7 @@
             4
         ],
         "WAR": -0.0047,
-        "WAR Rank": 117
+        "WAR Rank": 136
     },
     {
         "Player": "Cade Otton",
@@ -1701,7 +1994,20 @@
             5
         ],
         "WAR": -0.006,
-        "WAR Rank": 118
+        "WAR Rank": 137
+    },
+    {
+        "Player": "Michael Penix Jr.",
+        "Player ID": "40889",
+        "Position": "QB",
+        "Team": "Pad D's",
+        "Team Key": "470.l.205662.t.10",
+        "Manager": "Sam",
+        "Weeks Rostered": [
+            9
+        ],
+        "WAR": -0.0062,
+        "WAR Rank": 138
     },
     {
         "Player": "Michael Mayer",
@@ -1713,36 +2019,21 @@
         "Weeks Rostered": [
             2
         ],
-        "WAR": -0.0083,
-        "WAR Rank": 119
+        "WAR": -0.0084,
+        "WAR Rank": 139
     },
     {
-        "Player": "Jahan Dotson",
-        "Player ID": "33971",
-        "Position": "WR",
-        "Team": "Pad D's",
-        "Team Key": "470.l.205662.t.10",
-        "Manager": "Sam",
-        "Weeks Rostered": [
-            7,
-            8
-        ],
-        "WAR": -0.0087,
-        "WAR Rank": 120
-    },
-    {
-        "Player": "Tyler Goodson",
-        "Player ID": "34261",
+        "Player": "Sione Vaki",
+        "Player ID": "41006",
         "Position": "RB",
         "Team": "Supernova\u2019s Studs",
         "Team Key": "470.l.205662.t.12",
         "Manager": "Gavin Brodie",
         "Weeks Rostered": [
-            7,
-            8
+            9
         ],
         "WAR": -0.0104,
-        "WAR Rank": 121
+        "WAR Rank": 140
     },
     {
         "Player": "Chiefs",
@@ -1755,8 +2046,8 @@
             2,
             3
         ],
-        "WAR": -0.0118,
-        "WAR Rank": 122
+        "WAR": -0.0117,
+        "WAR Rank": 141
     },
     {
         "Player": "Ravens",
@@ -1770,7 +2061,7 @@
             2
         ],
         "WAR": -0.012,
-        "WAR Rank": 123
+        "WAR Rank": 142
     },
     {
         "Player": "Panthers",
@@ -1783,7 +2074,7 @@
             3
         ],
         "WAR": -0.0121,
-        "WAR Rank": 124
+        "WAR Rank": 143
     },
     {
         "Player": "Bills",
@@ -1796,7 +2087,7 @@
             4
         ],
         "WAR": -0.0121,
-        "WAR Rank": 125
+        "WAR Rank": 144
     },
     {
         "Player": "Bears",
@@ -1809,7 +2100,7 @@
             7
         ],
         "WAR": -0.0121,
-        "WAR Rank": 126
+        "WAR Rank": 145
     },
     {
         "Player": "Broncos",
@@ -1822,7 +2113,7 @@
             7
         ],
         "WAR": -0.0121,
-        "WAR Rank": 127
+        "WAR Rank": 146
     },
     {
         "Player": "Cowboys",
@@ -1835,7 +2126,7 @@
             7
         ],
         "WAR": -0.0121,
-        "WAR Rank": 128
+        "WAR Rank": 147
     },
     {
         "Player": "George Holani",
@@ -1851,23 +2142,11 @@
             5,
             6,
             7,
-            8
+            8,
+            9
         ],
-        "WAR": -0.0129,
-        "WAR Rank": 129
-    },
-    {
-        "Player": "Mason Taylor",
-        "Player ID": "41827",
-        "Position": "TE",
-        "Team": "Girder\u2019s 6 Cookies",
-        "Team Key": "470.l.205662.t.3",
-        "Manager": "Sam",
-        "Weeks Rostered": [
-            8
-        ],
-        "WAR": -0.0131,
-        "WAR Rank": 130
+        "WAR": -0.013,
+        "WAR Rank": 148
     },
     {
         "Player": "Corey Kiner",
@@ -1880,7 +2159,21 @@
             8
         ],
         "WAR": -0.0139,
-        "WAR Rank": 131
+        "WAR Rank": 149
+    },
+    {
+        "Player": "Mike Gesicki",
+        "Player ID": "31012",
+        "Position": "TE",
+        "Team": "Ma\u00eetre Stick",
+        "Team Key": "470.l.205662.t.6",
+        "Manager": "Levi",
+        "Weeks Rostered": [
+            5,
+            9
+        ],
+        "WAR": -0.0176,
+        "WAR Rank": 150
     },
     {
         "Player": "Tyler Huntley",
@@ -1892,8 +2185,8 @@
         "Weeks Rostered": [
             6
         ],
-        "WAR": -0.0191,
-        "WAR Rank": 132
+        "WAR": -0.0192,
+        "WAR Rank": 151
     },
     {
         "Player": "AJ Barner",
@@ -1906,434 +2199,7 @@
             8
         ],
         "WAR": -0.0202,
-        "WAR Rank": 133
-    },
-    {
-        "Player": "Tyjae Spears",
-        "Player ID": "40119",
-        "Position": "RB",
-        "Team": "Flow Brrr",
-        "Team Key": "470.l.205662.t.1",
-        "Manager": "Zach",
-        "Weeks Rostered": [
-            2,
-            3,
-            4,
-            5,
-            6,
-            8
-        ],
-        "WAR": -0.0227,
-        "WAR Rank": 134
-    },
-    {
-        "Player": "Tyler Bass",
-        "Player ID": "32858",
-        "Position": "K",
-        "Team": "Tsuga\u2019s Tuck Shop",
-        "Team Key": "470.l.205662.t.14",
-        "Manager": "Caleb",
-        "Weeks Rostered": [
-            2
-        ],
-        "WAR": -0.0241,
-        "WAR Rank": 135
-    },
-    {
-        "Player": "Bengals",
-        "Player ID": "100004",
-        "Position": "DEF",
-        "Team": "Big Bad Hokkkk",
-        "Team Key": "470.l.205662.t.4",
-        "Manager": "Nate",
-        "Weeks Rostered": [
-            3
-        ],
-        "WAR": -0.0241,
-        "WAR Rank": 136
-    },
-    {
-        "Player": "Seth McGowan",
-        "Player ID": "42859",
-        "Position": "RB",
-        "Team": "Tsuga\u2019s Tuck Shop",
-        "Team Key": "470.l.205662.t.14",
-        "Manager": "Caleb",
-        "Weeks Rostered": [
-            8
-        ],
-        "WAR": -0.0242,
-        "WAR Rank": 137
-    },
-    {
-        "Player": "Cyrus Allen",
-        "Player ID": "42773",
-        "Position": "WR",
-        "Team": "The Sage's Playmakers",
-        "Team Key": "470.l.205662.t.13",
-        "Manager": "Josh",
-        "Weeks Rostered": [
-            6
-        ],
-        "WAR": -0.027,
-        "WAR Rank": 138
-    },
-    {
-        "Player": "Jerry Jeudy",
-        "Player ID": "32685",
-        "Position": "WR",
-        "Team": "Supernova\u2019s Studs",
-        "Team Key": "470.l.205662.t.12",
-        "Manager": "Gavin Brodie",
-        "Weeks Rostered": [
-            1
-        ],
-        "WAR": -0.0282,
-        "WAR Rank": 139
-    },
-    {
-        "Player": "Malachi Fields",
-        "Player ID": "42696",
-        "Position": "WR",
-        "Team": "Ma\u00eetre Stick",
-        "Team Key": "470.l.205662.t.6",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            1
-        ],
-        "WAR": -0.0293,
-        "WAR Rank": 140
-    },
-    {
-        "Player": "Austin Ekeler",
-        "Player ID": "30423",
-        "Position": "RB",
-        "Team": "The Sage's Playmakers",
-        "Team Key": "470.l.205662.t.13",
-        "Manager": "Josh",
-        "Weeks Rostered": [
-            5
-        ],
-        "WAR": -0.0299,
-        "WAR Rank": 141
-    },
-    {
-        "Player": "AJ Barner",
-        "Player ID": "41001",
-        "Position": "TE",
-        "Team": "Ma\u00eetre Stick",
-        "Team Key": "470.l.205662.t.6",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            1
-        ],
-        "WAR": -0.032,
-        "WAR Rank": 142
-    },
-    {
-        "Player": "Raheim Sanders",
-        "Player ID": "42139",
-        "Position": "RB",
-        "Team": "No Punts Intented",
-        "Team Key": "470.l.205662.t.7",
-        "Manager": "Josh",
-        "Weeks Rostered": [
-            2,
-            3,
-            4,
-            5
-        ],
-        "WAR": -0.032,
-        "WAR Rank": 143
-    },
-    {
-        "Player": "Chig Okonkwo",
-        "Player ID": "34099",
-        "Position": "TE",
-        "Team": "Tsuga\u2019s Tuck Shop",
-        "Team Key": "470.l.205662.t.14",
-        "Manager": "Caleb",
-        "Weeks Rostered": [
-            7,
-            8
-        ],
-        "WAR": -0.0332,
-        "WAR Rank": 144
-    },
-    {
-        "Player": "Brevyn Spann-Ford",
-        "Player ID": "41371",
-        "Position": "TE",
-        "Team": "Ma\u00eetre Stick",
-        "Team Key": "470.l.205662.t.6",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            7
-        ],
-        "WAR": -0.0343,
-        "WAR Rank": 145
-    },
-    {
-        "Player": "Cooper Kupp",
-        "Player ID": "30182",
-        "Position": "WR",
-        "Team": "Ozzy Stick",
-        "Team Key": "470.l.205662.t.9",
-        "Manager": "ben",
-        "Weeks Rostered": [
-            7
-        ],
-        "WAR": -0.0351,
-        "WAR Rank": 146
-    },
-    {
-        "Player": "Cairo Santos",
-        "Player ID": "28227",
-        "Position": "K",
-        "Team": "Ma\u00eetre Stick",
-        "Team Key": "470.l.205662.t.6",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            1,
-            2,
-            5
-        ],
-        "WAR": -0.0353,
-        "WAR Rank": 147
-    },
-    {
-        "Player": "Kendre Miller",
-        "Player ID": "40108",
-        "Position": "RB",
-        "Team": "Ma\u00eetre Stick",
-        "Team Key": "470.l.205662.t.6",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            4
-        ],
-        "WAR": -0.0355,
-        "WAR Rank": 148
-    },
-    {
-        "Player": "Dominic Zvada",
-        "Player ID": "43171",
-        "Position": "K",
-        "Team": "Supernova\u2019s Studs",
-        "Team Key": "470.l.205662.t.12",
-        "Manager": "Gavin Brodie",
-        "Weeks Rostered": [
-            6,
-            7
-        ],
-        "WAR": -0.0359,
-        "WAR Rank": 149
-    },
-    {
-        "Player": "Buccaneers",
-        "Player ID": "100027",
-        "Position": "DEF",
-        "Team": "Big Bad Hokkkk",
-        "Team Key": "470.l.205662.t.4",
-        "Manager": "Nate",
-        "Weeks Rostered": [
-            2
-        ],
-        "WAR": -0.0361,
-        "WAR Rank": 150
-    },
-    {
-        "Player": "Colts",
-        "Player ID": "100011",
-        "Position": "DEF",
-        "Team": "Flow Brrr",
-        "Team Key": "470.l.205662.t.1",
-        "Manager": "Zach",
-        "Weeks Rostered": [
-            6
-        ],
-        "WAR": -0.0361,
-        "WAR Rank": 151
-    },
-    {
-        "Player": "Eagles",
-        "Player ID": "100021",
-        "Position": "DEF",
-        "Team": "Revy\u2019s Konstruction",
-        "Team Key": "470.l.205662.t.11",
-        "Manager": "Connor",
-        "Weeks Rostered": [
-            6
-        ],
-        "WAR": -0.0361,
         "WAR Rank": 152
-    },
-    {
-        "Player": "Blake Grupe",
-        "Player ID": "40296",
-        "Position": "K",
-        "Team": "Pad D's",
-        "Team Key": "470.l.205662.t.10",
-        "Manager": "Sam",
-        "Weeks Rostered": [
-            6
-        ],
-        "WAR": -0.0361,
-        "WAR Rank": 153
-    },
-    {
-        "Player": "Falcons",
-        "Player ID": "100001",
-        "Position": "DEF",
-        "Team": "Big Bad Hokkkk",
-        "Team Key": "470.l.205662.t.4",
-        "Manager": "Nate",
-        "Weeks Rostered": [
-            8
-        ],
-        "WAR": -0.0361,
-        "WAR Rank": 154
-    },
-    {
-        "Player": "Oronde Gadsden",
-        "Player ID": "41951",
-        "Position": "TE",
-        "Team": "Tsuga\u2019s Tuck Shop",
-        "Team Key": "470.l.205662.t.14",
-        "Manager": "Caleb",
-        "Weeks Rostered": [
-            3,
-            4
-        ],
-        "WAR": -0.0365,
-        "WAR Rank": 155
-    },
-    {
-        "Player": "Mike Washington Jr.",
-        "Player ID": "42744",
-        "Position": "RB",
-        "Team": "Ma\u00eetre Stick",
-        "Team Key": "470.l.205662.t.6",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            4,
-            5,
-            6,
-            7,
-            8
-        ],
-        "WAR": -0.0368,
-        "WAR Rank": 156
-    },
-    {
-        "Player": "Kayshon Boutte",
-        "Player ID": "40224",
-        "Position": "WR",
-        "Team": "Big Bad Hokkkk",
-        "Team Key": "470.l.205662.t.4",
-        "Manager": "Nate",
-        "Weeks Rostered": [
-            2,
-            3
-        ],
-        "WAR": -0.0375,
-        "WAR Rank": 157
-    },
-    {
-        "Player": "AJ Dillon",
-        "Player ID": "32732",
-        "Position": "RB",
-        "Team": "The Sage's Playmakers",
-        "Team Key": "470.l.205662.t.13",
-        "Manager": "Josh",
-        "Weeks Rostered": [
-            4
-        ],
-        "WAR": -0.0378,
-        "WAR Rank": 158
-    },
-    {
-        "Player": "C.J. Stroud",
-        "Player ID": "40030",
-        "Position": "QB",
-        "Team": "You gotta be Falcon kiddin me",
-        "Team Key": "470.l.205662.t.2",
-        "Manager": "DJ",
-        "Weeks Rostered": [
-            3
-        ],
-        "WAR": -0.0395,
-        "WAR Rank": 159
-    },
-    {
-        "Player": "Tre' Harris",
-        "Player ID": "41840",
-        "Position": "WR",
-        "Team": "Tsuga\u2019s Tuck Shop",
-        "Team Key": "470.l.205662.t.14",
-        "Manager": "Caleb",
-        "Weeks Rostered": [
-            5
-        ],
-        "WAR": -0.0397,
-        "WAR Rank": 160
-    },
-    {
-        "Player": "Antonio Williams",
-        "Player ID": "42693",
-        "Position": "WR",
-        "Team": "You gotta be Falcon kiddin me",
-        "Team Key": "470.l.205662.t.2",
-        "Manager": "DJ",
-        "Weeks Rostered": [
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8
-        ],
-        "WAR": -0.0402,
-        "WAR Rank": 161
-    },
-    {
-        "Player": "Chris Bell",
-        "Player ID": "42716",
-        "Position": "WR",
-        "Team": "Supernova\u2019s Studs",
-        "Team Key": "470.l.205662.t.12",
-        "Manager": "Gavin Brodie",
-        "Weeks Rostered": [
-            1
-        ],
-        "WAR": -0.0409,
-        "WAR Rank": 162
-    },
-    {
-        "Player": "Tyler Higbee",
-        "Player ID": "29344",
-        "Position": "TE",
-        "Team": "No Punts Intented",
-        "Team Key": "470.l.205662.t.7",
-        "Manager": "Josh",
-        "Weeks Rostered": [
-            8
-        ],
-        "WAR": -0.0425,
-        "WAR Rank": 163
-    },
-    {
-        "Player": "Kayshon Boutte",
-        "Player ID": "40224",
-        "Position": "WR",
-        "Team": "You gotta be Falcon kiddin me",
-        "Team Key": "470.l.205662.t.2",
-        "Manager": "DJ",
-        "Weeks Rostered": [
-            1
-        ],
-        "WAR": -0.0455,
-        "WAR Rank": 164
     },
     {
         "Player": "Kaelon Black",
@@ -2350,10 +2216,363 @@
             5,
             6,
             7,
+            8,
+            9
+        ],
+        "WAR": -0.0225,
+        "WAR Rank": 153
+    },
+    {
+        "Player": "Tyjae Spears",
+        "Player ID": "40119",
+        "Position": "RB",
+        "Team": "Flow Brrr",
+        "Team Key": "470.l.205662.t.1",
+        "Manager": "Zach",
+        "Weeks Rostered": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9
+        ],
+        "WAR": -0.0228,
+        "WAR Rank": 154
+    },
+    {
+        "Player": "Tyler Bass",
+        "Player ID": "32858",
+        "Position": "K",
+        "Team": "Tsuga\u2019s Tuck Shop",
+        "Team Key": "470.l.205662.t.14",
+        "Manager": "Caleb",
+        "Weeks Rostered": [
+            2
+        ],
+        "WAR": -0.0241,
+        "WAR Rank": 155
+    },
+    {
+        "Player": "Bengals",
+        "Player ID": "100004",
+        "Position": "DEF",
+        "Team": "Big Bad Hokkkk",
+        "Team Key": "470.l.205662.t.4",
+        "Manager": "Nate",
+        "Weeks Rostered": [
+            3
+        ],
+        "WAR": -0.0241,
+        "WAR Rank": 156
+    },
+    {
+        "Player": "Cyrus Allen",
+        "Player ID": "42773",
+        "Position": "WR",
+        "Team": "The Sage's Playmakers",
+        "Team Key": "470.l.205662.t.13",
+        "Manager": "Josh",
+        "Weeks Rostered": [
+            6
+        ],
+        "WAR": -0.027,
+        "WAR Rank": 157
+    },
+    {
+        "Player": "Jerry Jeudy",
+        "Player ID": "32685",
+        "Position": "WR",
+        "Team": "Supernova\u2019s Studs",
+        "Team Key": "470.l.205662.t.12",
+        "Manager": "Gavin Brodie",
+        "Weeks Rostered": [
+            1
+        ],
+        "WAR": -0.0281,
+        "WAR Rank": 158
+    },
+    {
+        "Player": "Malachi Fields",
+        "Player ID": "42696",
+        "Position": "WR",
+        "Team": "Ma\u00eetre Stick",
+        "Team Key": "470.l.205662.t.6",
+        "Manager": "Levi",
+        "Weeks Rostered": [
+            1
+        ],
+        "WAR": -0.0293,
+        "WAR Rank": 159
+    },
+    {
+        "Player": "Austin Ekeler",
+        "Player ID": "30423",
+        "Position": "RB",
+        "Team": "The Sage's Playmakers",
+        "Team Key": "470.l.205662.t.13",
+        "Manager": "Josh",
+        "Weeks Rostered": [
+            5
+        ],
+        "WAR": -0.0299,
+        "WAR Rank": 160
+    },
+    {
+        "Player": "AJ Barner",
+        "Player ID": "41001",
+        "Position": "TE",
+        "Team": "Ma\u00eetre Stick",
+        "Team Key": "470.l.205662.t.6",
+        "Manager": "Levi",
+        "Weeks Rostered": [
+            1
+        ],
+        "WAR": -0.032,
+        "WAR Rank": 161
+    },
+    {
+        "Player": "Raheim Sanders",
+        "Player ID": "42139",
+        "Position": "RB",
+        "Team": "No Punts Intented",
+        "Team Key": "470.l.205662.t.7",
+        "Manager": "Josh",
+        "Weeks Rostered": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "WAR": -0.0321,
+        "WAR Rank": 162
+    },
+    {
+        "Player": "Brevyn Spann-Ford",
+        "Player ID": "41371",
+        "Position": "TE",
+        "Team": "Ma\u00eetre Stick",
+        "Team Key": "470.l.205662.t.6",
+        "Manager": "Levi",
+        "Weeks Rostered": [
+            7
+        ],
+        "WAR": -0.0344,
+        "WAR Rank": 163
+    },
+    {
+        "Player": "Cooper Kupp",
+        "Player ID": "30182",
+        "Position": "WR",
+        "Team": "Ozzy Stick",
+        "Team Key": "470.l.205662.t.9",
+        "Manager": "ben",
+        "Weeks Rostered": [
+            7
+        ],
+        "WAR": -0.0351,
+        "WAR Rank": 164
+    },
+    {
+        "Player": "Cairo Santos",
+        "Player ID": "28227",
+        "Position": "K",
+        "Team": "Ma\u00eetre Stick",
+        "Team Key": "470.l.205662.t.6",
+        "Manager": "Levi",
+        "Weeks Rostered": [
+            1,
+            2,
+            5
+        ],
+        "WAR": -0.0352,
+        "WAR Rank": 165
+    },
+    {
+        "Player": "Kendre Miller",
+        "Player ID": "40108",
+        "Position": "RB",
+        "Team": "Ma\u00eetre Stick",
+        "Team Key": "470.l.205662.t.6",
+        "Manager": "Levi",
+        "Weeks Rostered": [
+            4
+        ],
+        "WAR": -0.0356,
+        "WAR Rank": 166
+    },
+    {
+        "Player": "Dominic Zvada",
+        "Player ID": "43171",
+        "Position": "K",
+        "Team": "Supernova\u2019s Studs",
+        "Team Key": "470.l.205662.t.12",
+        "Manager": "Gavin Brodie",
+        "Weeks Rostered": [
+            6,
+            7
+        ],
+        "WAR": -0.0359,
+        "WAR Rank": 167
+    },
+    {
+        "Player": "Buccaneers",
+        "Player ID": "100027",
+        "Position": "DEF",
+        "Team": "Big Bad Hokkkk",
+        "Team Key": "470.l.205662.t.4",
+        "Manager": "Nate",
+        "Weeks Rostered": [
+            2
+        ],
+        "WAR": -0.0361,
+        "WAR Rank": 168
+    },
+    {
+        "Player": "Colts",
+        "Player ID": "100011",
+        "Position": "DEF",
+        "Team": "Flow Brrr",
+        "Team Key": "470.l.205662.t.1",
+        "Manager": "Zach",
+        "Weeks Rostered": [
+            6
+        ],
+        "WAR": -0.0361,
+        "WAR Rank": 169
+    },
+    {
+        "Player": "Eagles",
+        "Player ID": "100021",
+        "Position": "DEF",
+        "Team": "Revy\u2019s Konstruction",
+        "Team Key": "470.l.205662.t.11",
+        "Manager": "Connor",
+        "Weeks Rostered": [
+            6
+        ],
+        "WAR": -0.0361,
+        "WAR Rank": 170
+    },
+    {
+        "Player": "Blake Grupe",
+        "Player ID": "40296",
+        "Position": "K",
+        "Team": "Pad D's",
+        "Team Key": "470.l.205662.t.10",
+        "Manager": "Sam",
+        "Weeks Rostered": [
+            6
+        ],
+        "WAR": -0.0361,
+        "WAR Rank": 171
+    },
+    {
+        "Player": "Falcons",
+        "Player ID": "100001",
+        "Position": "DEF",
+        "Team": "Big Bad Hokkkk",
+        "Team Key": "470.l.205662.t.4",
+        "Manager": "Nate",
+        "Weeks Rostered": [
             8
         ],
-        "WAR": -0.0458,
-        "WAR Rank": 165
+        "WAR": -0.0361,
+        "WAR Rank": 172
+    },
+    {
+        "Player": "Oronde Gadsden",
+        "Player ID": "41951",
+        "Position": "TE",
+        "Team": "Tsuga\u2019s Tuck Shop",
+        "Team Key": "470.l.205662.t.14",
+        "Manager": "Caleb",
+        "Weeks Rostered": [
+            3,
+            4
+        ],
+        "WAR": -0.0366,
+        "WAR Rank": 173
+    },
+    {
+        "Player": "Kayshon Boutte",
+        "Player ID": "40224",
+        "Position": "WR",
+        "Team": "Big Bad Hokkkk",
+        "Team Key": "470.l.205662.t.4",
+        "Manager": "Nate",
+        "Weeks Rostered": [
+            2,
+            3
+        ],
+        "WAR": -0.0375,
+        "WAR Rank": 174
+    },
+    {
+        "Player": "AJ Dillon",
+        "Player ID": "32732",
+        "Position": "RB",
+        "Team": "The Sage's Playmakers",
+        "Team Key": "470.l.205662.t.13",
+        "Manager": "Josh",
+        "Weeks Rostered": [
+            4
+        ],
+        "WAR": -0.0378,
+        "WAR Rank": 175
+    },
+    {
+        "Player": "C.J. Stroud",
+        "Player ID": "40030",
+        "Position": "QB",
+        "Team": "You gotta be Falcon kiddin me",
+        "Team Key": "470.l.205662.t.2",
+        "Manager": "DJ",
+        "Weeks Rostered": [
+            3
+        ],
+        "WAR": -0.0396,
+        "WAR Rank": 176
+    },
+    {
+        "Player": "Tre' Harris",
+        "Player ID": "41840",
+        "Position": "WR",
+        "Team": "Tsuga\u2019s Tuck Shop",
+        "Team Key": "470.l.205662.t.14",
+        "Manager": "Caleb",
+        "Weeks Rostered": [
+            5
+        ],
+        "WAR": -0.0397,
+        "WAR Rank": 177
+    },
+    {
+        "Player": "Chris Bell",
+        "Player ID": "42716",
+        "Position": "WR",
+        "Team": "Supernova\u2019s Studs",
+        "Team Key": "470.l.205662.t.12",
+        "Manager": "Gavin Brodie",
+        "Weeks Rostered": [
+            1
+        ],
+        "WAR": -0.0408,
+        "WAR Rank": 178
+    },
+    {
+        "Player": "Kayshon Boutte",
+        "Player ID": "40224",
+        "Position": "WR",
+        "Team": "You gotta be Falcon kiddin me",
+        "Team Key": "470.l.205662.t.2",
+        "Manager": "DJ",
+        "Weeks Rostered": [
+            1
+        ],
+        "WAR": -0.0454,
+        "WAR Rank": 179
     },
     {
         "Player": "Devin Singletary",
@@ -2365,8 +2584,8 @@
         "Weeks Rostered": [
             2
         ],
-        "WAR": -0.0467,
-        "WAR Rank": 166
+        "WAR": -0.0468,
+        "WAR Rank": 180
     },
     {
         "Player": "Packers",
@@ -2380,8 +2599,8 @@
             3,
             4
         ],
-        "WAR": -0.0472,
-        "WAR Rank": 167
+        "WAR": -0.0471,
+        "WAR Rank": 181
     },
     {
         "Player": "Trey Smack",
@@ -2395,8 +2614,8 @@
             3,
             4
         ],
-        "WAR": -0.0478,
-        "WAR Rank": 168
+        "WAR": -0.0477,
+        "WAR Rank": 182
     },
     {
         "Player": "Bam Knight",
@@ -2406,10 +2625,50 @@
         "Team Key": "470.l.205662.t.11",
         "Manager": "Connor",
         "Weeks Rostered": [
-            8
+            8,
+            9
         ],
-        "WAR": -0.0478,
-        "WAR Rank": 169
+        "WAR": -0.0479,
+        "WAR Rank": 183
+    },
+    {
+        "Player": "Cowboys",
+        "Player ID": "100006",
+        "Position": "DEF",
+        "Team": "Ozzy Stick",
+        "Team Key": "470.l.205662.t.9",
+        "Manager": "ben",
+        "Weeks Rostered": [
+            5
+        ],
+        "WAR": -0.048,
+        "WAR Rank": 184
+    },
+    {
+        "Player": "Bills",
+        "Player ID": "100002",
+        "Position": "DEF",
+        "Team": "Supernova\u2019s Studs",
+        "Team Key": "470.l.205662.t.12",
+        "Manager": "Gavin Brodie",
+        "Weeks Rostered": [
+            6
+        ],
+        "WAR": -0.048,
+        "WAR Rank": 185
+    },
+    {
+        "Player": "Jets",
+        "Player ID": "100020",
+        "Position": "DEF",
+        "Team": "Hunter\u2019s Hunters",
+        "Team Key": "470.l.205662.t.5",
+        "Manager": "Hunter",
+        "Weeks Rostered": [
+            7
+        ],
+        "WAR": -0.048,
+        "WAR Rank": 186
     },
     {
         "Player": "Trey Smack",
@@ -2422,46 +2681,22 @@
             8
         ],
         "WAR": -0.048,
-        "WAR Rank": 170
+        "WAR Rank": 187
     },
     {
-        "Player": "Cowboys",
-        "Player ID": "100006",
-        "Position": "DEF",
-        "Team": "Ozzy Stick",
-        "Team Key": "470.l.205662.t.9",
-        "Manager": "ben",
+        "Player": "Jahan Dotson",
+        "Player ID": "33971",
+        "Position": "WR",
+        "Team": "Pad D's",
+        "Team Key": "470.l.205662.t.10",
+        "Manager": "Sam",
         "Weeks Rostered": [
-            5
+            7,
+            8,
+            9
         ],
-        "WAR": -0.0481,
-        "WAR Rank": 171
-    },
-    {
-        "Player": "Bills",
-        "Player ID": "100002",
-        "Position": "DEF",
-        "Team": "Supernova\u2019s Studs",
-        "Team Key": "470.l.205662.t.12",
-        "Manager": "Gavin Brodie",
-        "Weeks Rostered": [
-            6
-        ],
-        "WAR": -0.0481,
-        "WAR Rank": 172
-    },
-    {
-        "Player": "Jets",
-        "Player ID": "100020",
-        "Position": "DEF",
-        "Team": "Hunter\u2019s Hunters",
-        "Team Key": "470.l.205662.t.5",
-        "Manager": "Hunter",
-        "Weeks Rostered": [
-            7
-        ],
-        "WAR": -0.0481,
-        "WAR Rank": 173
+        "WAR": -0.0483,
+        "WAR Rank": 188
     },
     {
         "Player": "Terrance Ferguson",
@@ -2473,10 +2708,11 @@
         "Weeks Rostered": [
             3,
             7,
-            8
+            8,
+            9
         ],
-        "WAR": -0.0483,
-        "WAR Rank": 174
+        "WAR": -0.0484,
+        "WAR Rank": 189
     },
     {
         "Player": "Emari Demercado",
@@ -2488,8 +2724,8 @@
         "Weeks Rostered": [
             1
         ],
-        "WAR": -0.0489,
-        "WAR Rank": 175
+        "WAR": -0.0491,
+        "WAR Rank": 190
     },
     {
         "Player": "Jaylen Wright",
@@ -2501,8 +2737,8 @@
         "Weeks Rostered": [
             4
         ],
-        "WAR": -0.0489,
-        "WAR Rank": 176
+        "WAR": -0.0491,
+        "WAR Rank": 191
     },
     {
         "Player": "Darius Cooper",
@@ -2514,8 +2750,8 @@
         "Weeks Rostered": [
             7
         ],
-        "WAR": -0.0501,
-        "WAR Rank": 177
+        "WAR": -0.05,
+        "WAR Rank": 192
     },
     {
         "Player": "Kalif Raymond",
@@ -2527,8 +2763,8 @@
         "Weeks Rostered": [
             4
         ],
-        "WAR": -0.0512,
-        "WAR Rank": 178
+        "WAR": -0.0511,
+        "WAR Rank": 193
     },
     {
         "Player": "Tyler Higbee",
@@ -2541,8 +2777,8 @@
             6,
             7
         ],
-        "WAR": -0.0522,
-        "WAR Rank": 179
+        "WAR": -0.0523,
+        "WAR Rank": 194
     },
     {
         "Player": "Konata Mumpfield",
@@ -2554,8 +2790,8 @@
         "Weeks Rostered": [
             7
         ],
-        "WAR": -0.0524,
-        "WAR Rank": 180
+        "WAR": -0.0523,
+        "WAR Rank": 195
     },
     {
         "Player": "Najee Harris",
@@ -2567,8 +2803,8 @@
         "Weeks Rostered": [
             6
         ],
-        "WAR": -0.0545,
-        "WAR Rank": 181
+        "WAR": -0.0546,
+        "WAR Rank": 196
     },
     {
         "Player": "Brandin Cooks",
@@ -2581,7 +2817,7 @@
             6
         ],
         "WAR": -0.0546,
-        "WAR Rank": 182
+        "WAR Rank": 197
     },
     {
         "Player": "Roschon Johnson",
@@ -2592,10 +2828,45 @@
         "Manager": "Connor",
         "Weeks Rostered": [
             7,
-            8
+            8,
+            9
         ],
-        "WAR": -0.0561,
-        "WAR Rank": 183
+        "WAR": -0.0563,
+        "WAR Rank": 198
+    },
+    {
+        "Player": "Antonio Williams",
+        "Player ID": "42693",
+        "Position": "WR",
+        "Team": "You gotta be Falcon kiddin me",
+        "Team Key": "470.l.205662.t.2",
+        "Manager": "DJ",
+        "Weeks Rostered": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "WAR": -0.0578,
+        "WAR Rank": 199
+    },
+    {
+        "Player": "Mason Taylor",
+        "Player ID": "41827",
+        "Position": "TE",
+        "Team": "Girder\u2019s 6 Cookies",
+        "Team Key": "470.l.205662.t.3",
+        "Manager": "Sam",
+        "Weeks Rostered": [
+            8,
+            9
+        ],
+        "WAR": -0.0592,
+        "WAR Rank": 200
     },
     {
         "Player": "Jaylin Noel",
@@ -2607,8 +2878,8 @@
         "Weeks Rostered": [
             7
         ],
-        "WAR": -0.0614,
-        "WAR Rank": 184
+        "WAR": -0.0613,
+        "WAR Rank": 201
     },
     {
         "Player": "Ja'Kobi Lane",
@@ -2626,21 +2897,8 @@
             6,
             7
         ],
-        "WAR": -0.0627,
-        "WAR Rank": 185
-    },
-    {
-        "Player": "Keon Coleman",
-        "Player ID": "40911",
-        "Position": "WR",
-        "Team": "Revy\u2019s Konstruction",
-        "Team Key": "470.l.205662.t.11",
-        "Manager": "Connor",
-        "Weeks Rostered": [
-            8
-        ],
-        "WAR": -0.0648,
-        "WAR Rank": 186
+        "WAR": -0.0626,
+        "WAR Rank": 202
     },
     {
         "Player": "DeMario Douglas",
@@ -2654,7 +2912,7 @@
             4
         ],
         "WAR": -0.0667,
-        "WAR Rank": 187
+        "WAR Rank": 203
     },
     {
         "Player": "Jacoby Brissett",
@@ -2668,10 +2926,11 @@
             5,
             6,
             7,
-            8
+            8,
+            9
         ],
-        "WAR": -0.0702,
-        "WAR Rank": 188
+        "WAR": -0.0706,
+        "WAR Rank": 204
     },
     {
         "Player": "Emmett Johnson",
@@ -2687,22 +2946,8 @@
             5,
             6
         ],
-        "WAR": -0.0733,
-        "WAR Rank": 189
-    },
-    {
-        "Player": "Malik Willis",
-        "Player ID": "34042",
-        "Position": "QB",
-        "Team": "The Sage's Playmakers",
-        "Team Key": "470.l.205662.t.13",
-        "Manager": "Josh",
-        "Weeks Rostered": [
-            2,
-            3
-        ],
-        "WAR": -0.0776,
-        "WAR Rank": 190
+        "WAR": -0.0734,
+        "WAR Rank": 205
     },
     {
         "Player": "Kalif Raymond",
@@ -2716,23 +2961,8 @@
             6,
             7
         ],
-        "WAR": -0.0795,
-        "WAR Rank": 191
-    },
-    {
-        "Player": "Kayshon Boutte",
-        "Player ID": "40224",
-        "Position": "WR",
-        "Team": "Hunter\u2019s Hunters",
-        "Team Key": "470.l.205662.t.5",
-        "Manager": "Hunter",
-        "Weeks Rostered": [
-            6,
-            7,
-            8
-        ],
-        "WAR": -0.0806,
-        "WAR Rank": 192
+        "WAR": -0.0794,
+        "WAR Rank": 206
     },
     {
         "Player": "Chris Brooks",
@@ -2746,8 +2976,54 @@
             2,
             3
         ],
-        "WAR": -0.0815,
-        "WAR Rank": 193
+        "WAR": -0.0817,
+        "WAR Rank": 207
+    },
+    {
+        "Player": "Tyler Higbee",
+        "Player ID": "29344",
+        "Position": "TE",
+        "Team": "No Punts Intented",
+        "Team Key": "470.l.205662.t.7",
+        "Manager": "Josh",
+        "Weeks Rostered": [
+            8,
+            9
+        ],
+        "WAR": -0.0863,
+        "WAR Rank": 208
+    },
+    {
+        "Player": "Keon Coleman",
+        "Player ID": "40911",
+        "Position": "WR",
+        "Team": "Revy\u2019s Konstruction",
+        "Team Key": "470.l.205662.t.11",
+        "Manager": "Connor",
+        "Weeks Rostered": [
+            8,
+            9
+        ],
+        "WAR": -0.0917,
+        "WAR Rank": 209
+    },
+    {
+        "Player": "Mike Washington Jr.",
+        "Player ID": "42744",
+        "Position": "RB",
+        "Team": "Ma\u00eetre Stick",
+        "Team Key": "470.l.205662.t.6",
+        "Manager": "Levi",
+        "Weeks Rostered": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "WAR": -0.097,
+        "WAR Rank": 210
     },
     {
         "Player": "Cam Ward",
@@ -2759,8 +3035,8 @@
         "Weeks Rostered": [
             5
         ],
-        "WAR": -0.1049,
-        "WAR Rank": 194
+        "WAR": -0.1051,
+        "WAR Rank": 211
     },
     {
         "Player": "Panthers",
@@ -2773,8 +3049,23 @@
             6,
             7
         ],
-        "WAR": -0.1187,
-        "WAR Rank": 195
+        "WAR": -0.1186,
+        "WAR Rank": 212
+    },
+    {
+        "Player": "Malik Willis",
+        "Player ID": "34042",
+        "Position": "QB",
+        "Team": "The Sage's Playmakers",
+        "Team Key": "470.l.205662.t.13",
+        "Manager": "Josh",
+        "Weeks Rostered": [
+            2,
+            3,
+            9
+        ],
+        "WAR": -0.1959,
+        "WAR Rank": 213
     },
     {
         "Player": "Kyler Murray",
@@ -2788,7 +3079,7 @@
             2,
             3
         ],
-        "WAR": -0.2054,
-        "WAR Rank": 196
+        "WAR": -0.2058,
+        "WAR Rank": 214
     }
 ]

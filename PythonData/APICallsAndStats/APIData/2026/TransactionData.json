@@ -3789,7 +3789,7 @@
         "player_id": "29325",
         "player_name": "Jacoby Brissett",
         "position": "QB",
-        "nfl_team": "Ari",
+        "nfl_team": "Bal",
         "movement_type": "add",
         "source_type": "waivers",
         "source_team_key": null,
@@ -11315,6 +11315,1172 @@
         "destination_type": "team",
         "destination_team_key": "470.l.205662.t.14",
         "destination_team_name": "Tsuga’s Tuck Shop"
+      }
+    ]
+  },
+  {
+    "transaction_id": "360",
+    "transaction_key": "470.l.205662.tr.360",
+    "type": "drop",
+    "status": "successful",
+    "timestamp": "1793722133",
+    "date": "2026-11-03T16:08:53+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "40707",
+        "player_name": "Emanuel Wilson",
+        "position": "RB",
+        "nfl_team": "Sea",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.13",
+        "source_team_name": "The Sage's Playmakers",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "361",
+    "transaction_key": "470.l.205662.tr.361",
+    "type": "drop",
+    "status": "successful",
+    "timestamp": "1793723013",
+    "date": "2026-11-03T16:23:33+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "100001",
+        "player_name": "Falcons",
+        "position": "DEF",
+        "nfl_team": "Atl",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.4",
+        "source_team_name": "Big Bad Hokkkk",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "362",
+    "transaction_key": "470.l.205662.tr.362",
+    "type": "drop",
+    "status": "successful",
+    "timestamp": "1793724225",
+    "date": "2026-11-03T16:43:45+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "41001",
+        "player_name": "AJ Barner",
+        "position": "TE",
+        "nfl_team": "Sea",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.13",
+        "source_team_name": "The Sage's Playmakers",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "363",
+    "transaction_key": "470.l.205662.tr.363",
+    "type": "drop",
+    "status": "successful",
+    "timestamp": "1793735384",
+    "date": "2026-11-03T19:49:44+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "40952",
+        "player_name": "Roman Wilson",
+        "position": "WR",
+        "nfl_team": "Pit",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.12",
+        "source_team_name": "Supernova’s Studs",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "364",
+    "transaction_key": "470.l.205662.tr.364",
+    "type": "drop",
+    "status": "successful",
+    "timestamp": "1793735389",
+    "date": "2026-11-03T19:49:49+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "100013",
+        "player_name": "Raiders",
+        "position": "DEF",
+        "nfl_team": "LV",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.12",
+        "source_team_name": "Supernova’s Studs",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "365",
+    "transaction_key": "470.l.205662.tr.365",
+    "type": "trade",
+    "status": "successful",
+    "timestamp": "1793785386",
+    "date": "2026-11-04T09:43:06+00:00",
+    "trader_team_key": "470.l.205662.t.3",
+    "trader_team_name": "Girder’s 6 Cookies",
+    "tradee_team_key": "470.l.205662.t.6",
+    "tradee_team_name": "Maître Stick",
+    "players": [
+      {
+        "player_id": "42625",
+        "player_name": "Jeremiyah Love",
+        "position": "RB",
+        "nfl_team": "Ari",
+        "movement_type": "trade",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.3",
+        "source_team_name": "Girder’s 6 Cookies",
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.6",
+        "destination_team_name": "Maître Stick"
+      },
+      {
+        "player_id": "34107",
+        "player_name": "Tyler Allgeier",
+        "position": "RB",
+        "nfl_team": "Ari",
+        "movement_type": "trade",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.6",
+        "source_team_name": "Maître Stick",
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.3",
+        "destination_team_name": "Girder’s 6 Cookies"
+      }
+    ]
+  },
+  {
+    "transaction_id": "370",
+    "transaction_key": "470.l.205662.tr.370",
+    "type": "add/drop",
+    "status": "successful",
+    "timestamp": "1793785387",
+    "date": "2026-11-04T09:43:07+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "41937",
+        "player_name": "DJ Giddens",
+        "position": "RB",
+        "nfl_team": "Ind",
+        "movement_type": "add",
+        "source_type": "waivers",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.6",
+        "destination_team_name": "Maître Stick"
+      },
+      {
+        "player_id": "26662",
+        "player_name": "Geno Smith",
+        "position": "QB",
+        "nfl_team": "NYJ",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.6",
+        "source_team_name": "Maître Stick",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "369",
+    "transaction_key": "470.l.205662.tr.369",
+    "type": "add/drop",
+    "status": "successful",
+    "timestamp": "1793785387",
+    "date": "2026-11-04T09:43:07+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "30218",
+        "player_name": "James Conner",
+        "position": "RB",
+        "nfl_team": "Ari",
+        "movement_type": "add",
+        "source_type": "waivers",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.6",
+        "destination_team_name": "Maître Stick"
+      },
+      {
+        "player_id": "41048",
+        "player_name": "Tyrone Tracy Jr.",
+        "position": "RB",
+        "nfl_team": "NYG",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.6",
+        "source_team_name": "Maître Stick",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "368",
+    "transaction_key": "470.l.205662.tr.368",
+    "type": "add/drop",
+    "status": "successful",
+    "timestamp": "1793785387",
+    "date": "2026-11-04T09:43:07+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "31906",
+        "player_name": "Devin Singletary",
+        "position": "RB",
+        "nfl_team": "NYG",
+        "movement_type": "add",
+        "source_type": "waivers",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.10",
+        "destination_team_name": "Pad D's"
+      },
+      {
+        "player_id": "42386",
+        "player_name": "Corey Kiner",
+        "position": "RB",
+        "nfl_team": "NE",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.10",
+        "source_team_name": "Pad D's",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "367",
+    "transaction_key": "470.l.205662.tr.367",
+    "type": "add/drop",
+    "status": "successful",
+    "timestamp": "1793785387",
+    "date": "2026-11-04T09:43:07+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "100007",
+        "player_name": "Broncos",
+        "position": "DEF",
+        "nfl_team": "Den",
+        "movement_type": "add",
+        "source_type": "waivers",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.8",
+        "destination_team_name": "Omaha Beach Real Estate"
+      },
+      {
+        "player_id": "100017",
+        "player_name": "Patriots",
+        "position": "DEF",
+        "nfl_team": "NE",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.8",
+        "source_team_name": "Omaha Beach Real Estate",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "366",
+    "transaction_key": "470.l.205662.tr.366",
+    "type": "add",
+    "status": "successful",
+    "timestamp": "1793785387",
+    "date": "2026-11-04T09:43:07+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "31482",
+        "player_name": "Eddy Pineiro",
+        "position": "K",
+        "nfl_team": "SF",
+        "movement_type": "add",
+        "source_type": "waivers",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.2",
+        "destination_team_name": "You gotta be Falcon kiddin me"
+      }
+    ]
+  },
+  {
+    "transaction_id": "371",
+    "transaction_key": "470.l.205662.tr.371",
+    "type": "add/drop",
+    "status": "successful",
+    "timestamp": "1793790893",
+    "date": "2026-11-04T11:14:53+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "100003",
+        "player_name": "Bears",
+        "position": "DEF",
+        "nfl_team": "Chi",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.1",
+        "destination_team_name": "Flow Brrr"
+      },
+      {
+        "player_id": "100028",
+        "player_name": "Commanders",
+        "position": "DEF",
+        "nfl_team": "Was",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.1",
+        "source_team_name": "Flow Brrr",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "372",
+    "transaction_key": "470.l.205662.tr.372",
+    "type": "add/drop",
+    "status": "successful",
+    "timestamp": "1793790955",
+    "date": "2026-11-04T11:15:55+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "31010",
+        "player_name": "Courtland Sutton",
+        "position": "WR",
+        "nfl_team": "Den",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.1",
+        "destination_team_name": "Flow Brrr"
+      },
+      {
+        "player_id": "42838",
+        "player_name": "Trey Smack",
+        "position": "K",
+        "nfl_team": "GB",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.1",
+        "source_team_name": "Flow Brrr",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "373",
+    "transaction_key": "470.l.205662.tr.373",
+    "type": "add",
+    "status": "successful",
+    "timestamp": "1793795340",
+    "date": "2026-11-04T12:29:00+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "30423",
+        "player_name": "Austin Ekeler",
+        "position": "RB",
+        "nfl_team": "Was",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.13",
+        "destination_team_name": "The Sage's Playmakers"
+      }
+    ]
+  },
+  {
+    "transaction_id": "374",
+    "transaction_key": "470.l.205662.tr.374",
+    "type": "add",
+    "status": "successful",
+    "timestamp": "1793795437",
+    "date": "2026-11-04T12:30:37+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "34042",
+        "player_name": "Malik Willis",
+        "position": "QB",
+        "nfl_team": "Mia",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.13",
+        "destination_team_name": "The Sage's Playmakers"
+      }
+    ]
+  },
+  {
+    "transaction_id": "375",
+    "transaction_key": "470.l.205662.tr.375",
+    "type": "add",
+    "status": "successful",
+    "timestamp": "1793800919",
+    "date": "2026-11-04T14:01:59+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "43370",
+        "player_name": "Drew Stevens",
+        "position": "K",
+        "nfl_team": "Was",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.4",
+        "destination_team_name": "Big Bad Hokkkk"
+      }
+    ]
+  },
+  {
+    "transaction_id": "376",
+    "transaction_key": "470.l.205662.tr.376",
+    "type": "add/drop",
+    "status": "successful",
+    "timestamp": "1793801856",
+    "date": "2026-11-04T14:17:36+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "31012",
+        "player_name": "Mike Gesicki",
+        "position": "TE",
+        "nfl_team": "Cin",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.6",
+        "destination_team_name": "Maître Stick"
+      },
+      {
+        "player_id": "30218",
+        "player_name": "James Conner",
+        "position": "RB",
+        "nfl_team": "Ari",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.6",
+        "source_team_name": "Maître Stick",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "377",
+    "transaction_key": "470.l.205662.tr.377",
+    "type": "add",
+    "status": "successful",
+    "timestamp": "1793802544",
+    "date": "2026-11-04T14:29:04+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "32018",
+        "player_name": "Ty Johnson",
+        "position": "RB",
+        "nfl_team": "Buf",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.12",
+        "destination_team_name": "Supernova’s Studs"
+      }
+    ]
+  },
+  {
+    "transaction_id": "378",
+    "transaction_key": "470.l.205662.tr.378",
+    "type": "add",
+    "status": "successful",
+    "timestamp": "1793802573",
+    "date": "2026-11-04T14:29:33+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "41006",
+        "player_name": "Sione Vaki",
+        "position": "RB",
+        "nfl_team": "Det",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.12",
+        "destination_team_name": "Supernova’s Studs"
+      }
+    ]
+  },
+  {
+    "transaction_id": "379",
+    "transaction_key": "470.l.205662.tr.379",
+    "type": "add/drop",
+    "status": "successful",
+    "timestamp": "1793823767",
+    "date": "2026-11-04T20:22:47+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "31874",
+        "player_name": "Drew Lock",
+        "position": "QB",
+        "nfl_team": "Sea",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.13",
+        "destination_team_name": "The Sage's Playmakers"
+      },
+      {
+        "player_id": "34042",
+        "player_name": "Malik Willis",
+        "position": "QB",
+        "nfl_team": "Mia",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.13",
+        "source_team_name": "The Sage's Playmakers",
+        "destination_type": "freeagents",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "380",
+    "transaction_key": "470.l.205662.tr.380",
+    "type": "add/drop",
+    "status": "successful",
+    "timestamp": "1793823987",
+    "date": "2026-11-04T20:26:27+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "34042",
+        "player_name": "Malik Willis",
+        "position": "QB",
+        "nfl_team": "Mia",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.13",
+        "destination_team_name": "The Sage's Playmakers"
+      },
+      {
+        "player_id": "30423",
+        "player_name": "Austin Ekeler",
+        "position": "RB",
+        "nfl_team": "Was",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.13",
+        "source_team_name": "The Sage's Playmakers",
+        "destination_type": "freeagents",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "381",
+    "transaction_key": "470.l.205662.tr.381",
+    "type": "add/drop",
+    "status": "successful",
+    "timestamp": "1793837382",
+    "date": "2026-11-05T00:09:42+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "40889",
+        "player_name": "Michael Penix Jr.",
+        "position": "QB",
+        "nfl_team": "Atl",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.10",
+        "destination_team_name": "Pad D's"
+      },
+      {
+        "player_id": "30973",
+        "player_name": "Sam Darnold",
+        "position": "QB",
+        "nfl_team": "Sea",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.10",
+        "source_team_name": "Pad D's",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "382",
+    "transaction_key": "470.l.205662.tr.382",
+    "type": "add",
+    "status": "successful",
+    "timestamp": "1793888260",
+    "date": "2026-11-05T14:17:40+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "30423",
+        "player_name": "Austin Ekeler",
+        "position": "RB",
+        "nfl_team": "Was",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.10",
+        "destination_team_name": "Pad D's"
+      }
+    ]
+  },
+  {
+    "transaction_id": "383",
+    "transaction_key": "470.l.205662.tr.383",
+    "type": "add/drop",
+    "status": "successful",
+    "timestamp": "1793909013",
+    "date": "2026-11-05T20:03:33+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "31945",
+        "player_name": "Justice Hill",
+        "position": "RB",
+        "nfl_team": "Bal",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.13",
+        "destination_team_name": "The Sage's Playmakers"
+      },
+      {
+        "player_id": "31833",
+        "player_name": "Kyler Murray",
+        "position": "QB",
+        "nfl_team": "Min",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.13",
+        "source_team_name": "The Sage's Playmakers",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "384",
+    "transaction_key": "470.l.205662.tr.384",
+    "type": "add/drop",
+    "status": "successful",
+    "timestamp": "1793910752",
+    "date": "2026-11-05T20:32:32+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "100021",
+        "player_name": "Eagles",
+        "position": "DEF",
+        "nfl_team": "Phi",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.13",
+        "destination_team_name": "The Sage's Playmakers"
+      },
+      {
+        "player_id": "100004",
+        "player_name": "Bengals",
+        "position": "DEF",
+        "nfl_team": "Cin",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.13",
+        "source_team_name": "The Sage's Playmakers",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "385",
+    "transaction_key": "470.l.205662.tr.385",
+    "type": "add",
+    "status": "successful",
+    "timestamp": "1793925075",
+    "date": "2026-11-06T00:31:15+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "100002",
+        "player_name": "Bills",
+        "position": "DEF",
+        "nfl_team": "Buf",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.9",
+        "destination_team_name": "Ozzy Stick"
+      }
+    ]
+  },
+  {
+    "transaction_id": "386",
+    "transaction_key": "470.l.205662.tr.386",
+    "type": "add",
+    "status": "successful",
+    "timestamp": "1793925102",
+    "date": "2026-11-06T00:31:42+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "31107",
+        "player_name": "Dalton Schultz",
+        "position": "TE",
+        "nfl_team": "Hou",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.9",
+        "destination_team_name": "Ozzy Stick"
+      }
+    ]
+  },
+  {
+    "transaction_id": "387",
+    "transaction_key": "470.l.205662.tr.387",
+    "type": "add",
+    "status": "successful",
+    "timestamp": "1793972315",
+    "date": "2026-11-06T13:38:35+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "32695",
+        "player_name": "Brandon Aiyuk",
+        "position": "WR",
+        "nfl_team": "SF",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.4",
+        "destination_team_name": "Big Bad Hokkkk"
+      }
+    ]
+  },
+  {
+    "transaction_id": "388",
+    "transaction_key": "470.l.205662.tr.388",
+    "type": "drop",
+    "status": "successful",
+    "timestamp": "1793972326",
+    "date": "2026-11-06T13:38:46+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "32695",
+        "player_name": "Brandon Aiyuk",
+        "position": "WR",
+        "nfl_team": "SF",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.4",
+        "source_team_name": "Big Bad Hokkkk",
+        "destination_type": "freeagents",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "389",
+    "transaction_key": "470.l.205662.tr.389",
+    "type": "add",
+    "status": "successful",
+    "timestamp": "1793972342",
+    "date": "2026-11-06T13:39:02+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "100019",
+        "player_name": "Giants",
+        "position": "DEF",
+        "nfl_team": "NYG",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.4",
+        "destination_team_name": "Big Bad Hokkkk"
+      }
+    ]
+  },
+  {
+    "transaction_id": "390",
+    "transaction_key": "470.l.205662.tr.390",
+    "type": "add/drop",
+    "status": "successful",
+    "timestamp": "1793980065",
+    "date": "2026-11-06T15:47:45+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "40905",
+        "player_name": "J.J. McCarthy",
+        "position": "QB",
+        "nfl_team": "NYG",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.13",
+        "destination_team_name": "The Sage's Playmakers"
+      },
+      {
+        "player_id": "31874",
+        "player_name": "Drew Lock",
+        "position": "QB",
+        "nfl_team": "Sea",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.13",
+        "source_team_name": "The Sage's Playmakers",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "391",
+    "transaction_key": "470.l.205662.tr.391",
+    "type": "add/drop",
+    "status": "successful",
+    "timestamp": "1793980124",
+    "date": "2026-11-06T15:48:44+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "32695",
+        "player_name": "Brandon Aiyuk",
+        "position": "WR",
+        "nfl_team": "SF",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.13",
+        "destination_team_name": "The Sage's Playmakers"
+      },
+      {
+        "player_id": "40905",
+        "player_name": "J.J. McCarthy",
+        "position": "QB",
+        "nfl_team": "NYG",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.13",
+        "source_team_name": "The Sage's Playmakers",
+        "destination_type": "freeagents",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "392",
+    "transaction_key": "470.l.205662.tr.392",
+    "type": "add",
+    "status": "successful",
+    "timestamp": "1793999914",
+    "date": "2026-11-06T21:18:34+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "42717",
+        "player_name": "Eli Raridon",
+        "position": "TE",
+        "nfl_team": "NE",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.4",
+        "destination_team_name": "Big Bad Hokkkk"
+      }
+    ]
+  },
+  {
+    "transaction_id": "393",
+    "transaction_key": "470.l.205662.tr.393",
+    "type": "add/drop",
+    "status": "successful",
+    "timestamp": "1794067586",
+    "date": "2026-11-07T16:06:26+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "100028",
+        "player_name": "Commanders",
+        "position": "DEF",
+        "nfl_team": "Was",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.14",
+        "destination_team_name": "Tsuga’s Tuck Shop"
+      },
+      {
+        "player_id": "100005",
+        "player_name": "Browns",
+        "position": "DEF",
+        "nfl_team": "Cle",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.14",
+        "source_team_name": "Tsuga’s Tuck Shop",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
+      }
+    ]
+  },
+  {
+    "transaction_id": "394",
+    "transaction_key": "470.l.205662.tr.394",
+    "type": "add/drop",
+    "status": "successful",
+    "timestamp": "1794083701",
+    "date": "2026-11-07T20:35:01+00:00",
+    "trader_team_key": null,
+    "trader_team_name": null,
+    "tradee_team_key": null,
+    "tradee_team_name": null,
+    "players": [
+      {
+        "player_id": "41019",
+        "player_name": "Audric Estime",
+        "position": "RB",
+        "nfl_team": "NO",
+        "movement_type": "add",
+        "source_type": "freeagents",
+        "source_team_key": null,
+        "source_team_name": null,
+        "destination_type": "team",
+        "destination_team_key": "470.l.205662.t.6",
+        "destination_team_name": "Maître Stick"
+      },
+      {
+        "player_id": "41937",
+        "player_name": "DJ Giddens",
+        "position": "RB",
+        "nfl_team": "Ind",
+        "movement_type": "drop",
+        "source_type": "team",
+        "source_team_key": "470.l.205662.t.6",
+        "source_team_name": "Maître Stick",
+        "destination_type": "waivers",
+        "destination_team_key": null,
+        "destination_team_name": null
       }
     ]
   }
