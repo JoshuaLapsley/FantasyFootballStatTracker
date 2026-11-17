@@ -8,24 +8,6 @@
     "team_name": "Ozzy Stick",
     "is_commissioner": false
   },
-  "1": {
-    "manager_id": "1",
-    "name": null,
-    "nickname": "Zach",
-    "guid": "--hidden--",
-    "team_key": "470.l.205662.t.1",
-    "team_name": "Flow Brrr",
-    "is_commissioner": true
-  },
-  "8": {
-    "manager_id": "8",
-    "name": null,
-    "nickname": "Andrew",
-    "guid": "--hidden--",
-    "team_key": "470.l.205662.t.8",
-    "team_name": "Omaha Beach Real Estate",
-    "is_commissioner": false
-  },
   "6": {
     "manager_id": "6",
     "name": null,
@@ -44,14 +26,14 @@
     "team_name": "You gotta be Falcon kiddin me",
     "is_commissioner": false
   },
-  "3": {
-    "manager_id": "3",
+  "1": {
+    "manager_id": "1",
     "name": null,
-    "nickname": "Sam",
+    "nickname": "Zach",
     "guid": "--hidden--",
-    "team_key": "470.l.205662.t.3",
-    "team_name": "Girder’s 6 Cookies",
-    "is_commissioner": false
+    "team_key": "470.l.205662.t.1",
+    "team_name": "Flow Brrr",
+    "is_commissioner": true
   },
   "7": {
     "manager_id": "7",
@@ -62,13 +44,22 @@
     "team_name": "No Punts Intented",
     "is_commissioner": false
   },
-  "4": {
-    "manager_id": "4",
+  "8": {
+    "manager_id": "8",
     "name": null,
-    "nickname": "Nate",
+    "nickname": "Andrew",
     "guid": "--hidden--",
-    "team_key": "470.l.205662.t.4",
-    "team_name": "Big Bad Hokkkk",
+    "team_key": "470.l.205662.t.8",
+    "team_name": "Omaha Beach Real Estate",
+    "is_commissioner": false
+  },
+  "3": {
+    "manager_id": "3",
+    "name": null,
+    "nickname": "Sam",
+    "guid": "--hidden--",
+    "team_key": "470.l.205662.t.3",
+    "team_name": "Girder’s 6 Cookies",
     "is_commissioner": false
   },
   "5": {
@@ -80,13 +71,13 @@
     "team_name": "Hunter’s Hunters",
     "is_commissioner": false
   },
-  "11": {
-    "manager_id": "11",
+  "4": {
+    "manager_id": "4",
     "name": null,
-    "nickname": "Connor",
+    "nickname": "Nate",
     "guid": "--hidden--",
-    "team_key": "470.l.205662.t.11",
-    "team_name": "Revy’s Konstruction",
+    "team_key": "470.l.205662.t.4",
+    "team_name": "Big Bad Hokkkk",
     "is_commissioner": false
   },
   "13": {
@@ -98,6 +89,15 @@
     "team_name": "The Sage's Playmakers",
     "is_commissioner": false
   },
+  "11": {
+    "manager_id": "11",
+    "name": null,
+    "nickname": "Connor",
+    "guid": "--hidden--",
+    "team_key": "470.l.205662.t.11",
+    "team_name": "Revy’s Konstruction",
+    "is_commissioner": false
+  },
   "12": {
     "manager_id": "12",
     "name": null,
@@ -107,15 +107,6 @@
     "team_name": "Supernova’s Studs",
     "is_commissioner": false
   },
-  "10": {
-    "manager_id": "10",
-    "name": null,
-    "nickname": "Sam",
-    "guid": "--hidden--",
-    "team_key": "470.l.205662.t.10",
-    "team_name": "Pad D's",
-    "is_commissioner": false
-  },
   "14": {
     "manager_id": "14",
     "name": null,
@@ -123,6 +114,15 @@
     "guid": "--hidden--",
     "team_key": "470.l.205662.t.14",
     "team_name": "Tsuga’s Tuck Shop",
+    "is_commissioner": false
+  },
+  "10": {
+    "manager_id": "10",
+    "name": null,
+    "nickname": "Sam",
+    "guid": "--hidden--",
+    "team_key": "470.l.205662.t.10",
+    "team_name": "Pad D's",
     "is_commissioner": false
   }
 }
