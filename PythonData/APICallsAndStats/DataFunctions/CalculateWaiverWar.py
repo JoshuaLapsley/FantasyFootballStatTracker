@@ -37,9 +37,11 @@ Pickup rules
 - Pairs where that team acquired the player by a successful trade are excluded
   (vetoed trades are ignored).
 - If the picking team trades the player away, the pickup keeps scoring for the
-  picking team each week the player is on the roster of a team that got him
-  by trade. It stops once he is dropped or appears on a team that did not get
-  him by trade (that team's own waiver pickup is scored separately).
+  picking team every week the player is on a roster of a team that acquired
+  him by trade (directly or through further trades). It stops once he is on no
+  roster (dropped) or on a team that did not get him by trade (that team's own
+  waiver pickup is scored separately). It restarts only if the picking team
+  holds him again.
 """
 
 import json
@@ -130,17 +132,14 @@ def build_team_info(draft: list, transactions: list) -> dict:
     return teams
 
 
-def build_trade_pairs(transactions: list, team_info: dict) -> tuple:
+def build_trade_pairs(transactions: list, team_info: dict) -> set:
     """
-    Returns (pairs, edges) for every successful trade.
+    (destination_team_key, player_id) for every successful trade.
 
-      pairs : {(destination_team_key, player_id)}
-      edges : {(source_team_key or None, destination_team_key, player_id)}
-
-    Team keys are resolved in this order, because trade players don't
-    always carry a team key of their own:
-      1. the player's own destination/source_team_key
-      2. the transaction's trader/tradee keys, matched by team name
+    The destination team key is resolved in this order, because trade
+    players don't always carry a team key of their own:
+      1. the player's own destination_team_key
+      2. the transaction's trader/tradee keys, matched by destination team name
       3. any team name -> key seen in the draft / transaction data
     A trade player whose destination can't be resolved is reported, since it
     would otherwise slip through as a waiver pickup.
@@ -152,7 +151,6 @@ def build_trade_pairs(transactions: list, team_info: dict) -> tuple:
     }
 
     pairs = set()
-    edges = set()
     unresolved = []
     for tx in transactions:
         if tx.get("type") != "trade" or tx.get("status") != "successful":
@@ -172,16 +170,8 @@ def build_trade_pairs(transactions: list, team_info: dict) -> tuple:
                 or tx_name_to_key.get(dest_name)
                 or name_to_key.get(dest_name)
             )
-            src_name = p.get("source_team_name")
-            src = (
-                p.get("source_team_key")
-                or tx_name_to_key.get(src_name)
-                or name_to_key.get(src_name)
-            )
             if dest:
-                pid = str(p["player_id"])
-                pairs.add((dest, pid))
-                edges.add((src, dest, pid))   # src may be None if unresolved
+                pairs.add((dest, str(p["player_id"])))
             else:
                 unresolved.append(
                     f"{p.get('player_name')} -> {dest_name} "
@@ -194,37 +184,19 @@ def build_trade_pairs(transactions: list, team_info: dict) -> tuple:
         for line in unresolved:
             print(f"    {line}")
 
-    return pairs, edges
+    return pairs
 
 
-def _trade_reachable(edges_from: dict, start: str, target: str) -> bool:
-    """True if `target` can be reached from `start` through trade edges
-    (handles A -> B -> C chains between weekly snapshots). An edge whose
-    source couldn't be resolved (stored under None) counts as from anyone."""
-    seen = {start}
-    stack = [start]
-    while stack:
-        cur = stack.pop()
-        for nxt in edges_from.get(cur, set()) | edges_from.get(None, set()):
-            if nxt == target:
-                return True
-            if nxt not in seen:
-                seen.add(nxt)
-                stack.append(nxt)
-    return False
-
-
-def identify_pickups(draft: list, rosters_by_week: dict, weeks: list,
-                     trade_pairs: set, trade_edges: set) -> dict:
+def identify_pickups(draft: list, rosters_by_week: dict, weeks: list, trade_pairs: set) -> dict:
     """
     {(team_key, player_id): [weeks credited to that team's pickup]}
 
     A pickup is credited for every week the picking team held the player,
-    plus every week afterwards that the player sits on the roster of a team
-    that got him (directly or via a chain) by trade from that team. The
-    credit ends the first week the player is dropped (on no roster) or is on
-    a team that didn't get him by trade, and doesn't restart unless the
-    picking team holds him again.
+    plus every following week the player sits on the roster of a team that
+    acquired him by trade (that team's (team, player) pair is in trade_pairs).
+    The credit ends the first week the player is on no roster (dropped) or on
+    a team that did not get him by trade, and only restarts if the picking
+    team holds him again.
     """
     drafted_pairs = {(p["team_key"], str(p["player_id"])) for p in draft}
 
@@ -240,32 +212,23 @@ def identify_pickups(draft: list, rosters_by_week: dict, weeks: list,
                 held_pairs.add((team_key, pid))
         owner_by_week[week] = owners
 
-    # {pid: {source_team: {destination_teams}}}
-    edges_by_pid = {}
-    for src, dest, pid in trade_edges:
-        edges_by_pid.setdefault(pid, {}).setdefault(src, set()).add(dest)
-
     pickups = {}
     for team_key, pid in held_pairs:
         pair = (team_key, pid)
         if pair in drafted_pairs or pair in trade_pairs:
             continue
 
-        edges_from = edges_by_pid.get(pid, {})
         credited = []
         chain_active = False
-        holder = None
         for week in weeks:
             owner = owner_by_week[week].get(pid)
             if owner == team_key:
                 credited.append(week)
-                chain_active, holder = True, team_key
-            elif (chain_active and owner is not None
-                  and _trade_reachable(edges_from, holder, owner)):
-                credited.append(week)      # traded away, still on someone's roster
-                holder = owner
+                chain_active = True
+            elif chain_active and owner is not None and (owner, pid) in trade_pairs:
+                credited.append(week)      # traded away, still on a trade acquirer's roster
             else:
-                chain_active, holder = False, None   # dropped / picked up elsewhere
+                chain_active = False       # dropped, or picked up some other way
         pickups[pair] = credited
 
     return pickups
@@ -315,8 +278,8 @@ def calculate_waiver_war(league, year) -> list:
 
     player_info = build_player_info(draft, transactions)
     team_info = build_team_info(draft, transactions)
-    trade_pairs, trade_edges = build_trade_pairs(transactions, team_info)
-    pickups = identify_pickups(draft, rosters_by_week, weeks, trade_pairs, trade_edges)
+    trade_pairs = build_trade_pairs(transactions, team_info)
+    pickups = identify_pickups(draft, rosters_by_week, weeks, trade_pairs)
     print(f"[{year}] {len(pickups)} pickup (team, player) pairs; "
           f"{len(trade_pairs)} trade-acquired pairs excluded.")
 
@@ -367,3 +330,36 @@ def calculate_waiver_war(league, year) -> list:
     print(f"[{year}] Saved -> {out_path} ({len(rows)} rows)")
 
     return rows
+
+
+# --------------------------------------------------------------------------
+# DEBUG HELPER (optional): python -c "from CalculateWaiverWAR import debug_player; debug_player(2026, 'Ollie Gordon')"
+# --------------------------------------------------------------------------
+def debug_player(year, name_contains: str):
+    """Print, week by week, which team holds the player and whether that
+    team got him by trade, plus every trade transaction he was in."""
+    transactions, draft, rosters_by_week = load_year_data(int(year))
+    player_info = build_player_info(draft, transactions)
+    team_info = build_team_info(draft, transactions)
+    trade_pairs = build_trade_pairs(transactions, team_info)
+
+    matches = [pid for pid, i in player_info.items()
+               if name_contains.lower() in (i.get("player_name") or "").lower()]
+    for pid in matches:
+        print(f"\n{player_info[pid]['player_name']} (id {pid})")
+        for week in sorted(rosters_by_week):
+            owner = next((tk for tk, ps in rosters_by_week[week].items()
+                          if any(str(p["player_id"]) == pid for p in ps)), None)
+            if owner:
+                by_trade = (owner, pid) in trade_pairs
+                print(f"  week {week}: {team_info.get(owner, {}).get('team_name')} "
+                      f"({owner}) trade-acquired={by_trade}")
+            else:
+                print(f"  week {week}: on no roster")
+        for tx in transactions:
+            if tx.get("type") == "trade" and any(str(p["player_id"]) == pid
+                                                 for p in tx.get("players", [])):
+                for p in tx["players"]:
+                    if str(p["player_id"]) == pid:
+                        print(f"  trade {tx.get('transaction_id')} [{tx.get('status')}]: "
+                              f"{p.get('source_team_name')} -> {p.get('destination_team_name')}")
