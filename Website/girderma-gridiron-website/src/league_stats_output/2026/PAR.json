@@ -6,7 +6,7 @@
         "Pick": 1,
         "Round": 1,
         "Drafted By": "Ma\u00eetre Stick",
-        "PAR": 208.4,
+        "PAR": 231.2,
         "PAR Rank": 1
     },
     {
@@ -26,8 +26,28 @@
         "Pick": 6,
         "Round": 1,
         "Drafted By": "You gotta be Falcon kiddin me",
-        "PAR": 168.0,
+        "PAR": 177.2,
         "PAR Rank": 3
+    },
+    {
+        "Player": "CeeDee Lamb",
+        "Player ID": "32687",
+        "Position": "WR",
+        "Pick": 9,
+        "Round": 1,
+        "Drafted By": "Big Bad Hokkkk",
+        "PAR": 175.2,
+        "PAR Rank": 4
+    },
+    {
+        "Player": "Chuba Hubbard",
+        "Player ID": "33514",
+        "Position": "RB",
+        "Pick": 65,
+        "Round": 5,
+        "Drafted By": "Big Bad Hokkkk",
+        "PAR": 156.8,
+        "PAR Rank": 5
     },
     {
         "Player": "Kenneth Walker III",
@@ -37,17 +57,7 @@
         "Round": 2,
         "Drafted By": "Ozzy Stick",
         "PAR": 156.4,
-        "PAR Rank": 4
-    },
-    {
-        "Player": "CeeDee Lamb",
-        "Player ID": "32687",
-        "Position": "WR",
-        "Pick": 9,
-        "Round": 1,
-        "Drafted By": "Big Bad Hokkkk",
-        "PAR": 152.0,
-        "PAR Rank": 5
+        "PAR Rank": 6
     },
     {
         "Player": "Bijan Robinson",
@@ -57,27 +67,7 @@
         "Round": 1,
         "Drafted By": "Omaha Beach Real Estate",
         "PAR": 147.7,
-        "PAR Rank": 6
-    },
-    {
-        "Player": "Chuba Hubbard",
-        "Player ID": "33514",
-        "Position": "RB",
-        "Pick": 65,
-        "Round": 5,
-        "Drafted By": "Big Bad Hokkkk",
-        "PAR": 135.8,
         "PAR Rank": 7
-    },
-    {
-        "Player": "Ja'Marr Chase",
-        "Player ID": "33393",
-        "Position": "WR",
-        "Pick": 3,
-        "Round": 1,
-        "Drafted By": "Girder\u2019s 6 Cookies",
-        "PAR": 130.8,
-        "PAR Rank": 8
     },
     {
         "Player": "James Cook III",
@@ -86,17 +76,27 @@
         "Pick": 10,
         "Round": 1,
         "Drafted By": "Ozzy Stick",
-        "PAR": 125.1,
+        "PAR": 137.3,
+        "PAR Rank": 8
+    },
+    {
+        "Player": "Javonte Williams",
+        "Player ID": "33423",
+        "Position": "RB",
+        "Pick": 36,
+        "Round": 3,
+        "Drafted By": "Supernova\u2019s Studs",
+        "PAR": 136.4,
         "PAR Rank": 9
     },
     {
-        "Player": "Puka Nacua",
-        "Player ID": "40168",
+        "Player": "Ja'Marr Chase",
+        "Player ID": "33393",
         "Position": "WR",
-        "Pick": 4,
+        "Pick": 3,
         "Round": 1,
-        "Drafted By": "Flow Brrr",
-        "PAR": 124.6,
+        "Drafted By": "Girder\u2019s 6 Cookies",
+        "PAR": 131.9,
         "PAR Rank": 10
     },
     {
@@ -106,18 +106,48 @@
         "Pick": 7,
         "Round": 1,
         "Drafted By": "Hunter\u2019s Hunters",
-        "PAR": 120.4,
+        "PAR": 128.1,
         "PAR Rank": 11
     },
     {
-        "Player": "Javonte Williams",
-        "Player ID": "33423",
+        "Player": "Bucky Irving",
+        "Player ID": "40993",
         "Position": "RB",
-        "Pick": 36,
-        "Round": 3,
-        "Drafted By": "Supernova\u2019s Studs",
-        "PAR": 117.3,
+        "Pick": 51,
+        "Round": 4,
+        "Drafted By": "You gotta be Falcon kiddin me",
+        "PAR": 128.1,
         "PAR Rank": 12
+    },
+    {
+        "Player": "Derrick Henry",
+        "Player ID": "29279",
+        "Position": "RB",
+        "Pick": 22,
+        "Round": 2,
+        "Drafted By": "Hunter\u2019s Hunters",
+        "PAR": 125.38,
+        "PAR Rank": 13
+    },
+    {
+        "Player": "Puka Nacua",
+        "Player ID": "40168",
+        "Position": "WR",
+        "Pick": 4,
+        "Round": 1,
+        "Drafted By": "Flow Brrr",
+        "PAR": 124.6,
+        "PAR Rank": 14
+    },
+    {
+        "Player": "Ashton Jeanty",
+        "Player ID": "41791",
+        "Position": "RB",
+        "Pick": 11,
+        "Round": 1,
+        "Drafted By": "Revy\u2019s Konstruction",
+        "PAR": 122.6,
+        "PAR Rank": 15
     },
     {
         "Player": "Jonathan Taylor",
@@ -126,8 +156,18 @@
         "Pick": 8,
         "Round": 1,
         "Drafted By": "Supernova\u2019s Studs",
-        "PAR": 115.9,
-        "PAR Rank": 13
+        "PAR": 117.6,
+        "PAR Rank": 16
+    },
+    {
+        "Player": "D'Andre Swift",
+        "Player ID": "32705",
+        "Position": "RB",
+        "Pick": 47,
+        "Round": 4,
+        "Drafted By": "Ozzy Stick",
+        "PAR": 115.7,
+        "PAR Rank": 17
     },
     {
         "Player": "Kyren Williams",
@@ -137,46 +177,6 @@
         "Round": 2,
         "Drafted By": "Omaha Beach Real Estate",
         "PAR": 114.3,
-        "PAR Rank": 14
-    },
-    {
-        "Player": "Bucky Irving",
-        "Player ID": "40993",
-        "Position": "RB",
-        "Pick": 51,
-        "Round": 4,
-        "Drafted By": "You gotta be Falcon kiddin me",
-        "PAR": 114.1,
-        "PAR Rank": 15
-    },
-    {
-        "Player": "Christian Watson",
-        "Player ID": "33989",
-        "Position": "WR",
-        "Pick": 52,
-        "Round": 4,
-        "Drafted By": "No Punts Intented",
-        "PAR": 113.6,
-        "PAR Rank": 16
-    },
-    {
-        "Player": "Derrick Henry",
-        "Player ID": "29279",
-        "Position": "RB",
-        "Pick": 22,
-        "Round": 2,
-        "Drafted By": "Hunter\u2019s Hunters",
-        "PAR": 111.28,
-        "PAR Rank": 17
-    },
-    {
-        "Player": "D'Andre Swift",
-        "Player ID": "32705",
-        "Position": "RB",
-        "Pick": 47,
-        "Round": 4,
-        "Drafted By": "Ozzy Stick",
-        "PAR": 108.8,
         "PAR Rank": 18
     },
     {
@@ -186,8 +186,28 @@
         "Pick": 35,
         "Round": 3,
         "Drafted By": "Hunter\u2019s Hunters",
-        "PAR": 108.4,
+        "PAR": 113.7,
         "PAR Rank": 19
+    },
+    {
+        "Player": "Christian Watson",
+        "Player ID": "33989",
+        "Position": "WR",
+        "Pick": 52,
+        "Round": 4,
+        "Drafted By": "No Punts Intented",
+        "PAR": 113.6,
+        "PAR Rank": 20
+    },
+    {
+        "Player": "Joe Burrow",
+        "Player ID": "32671",
+        "Position": "QB",
+        "Pick": 60,
+        "Round": 5,
+        "Drafted By": "Flow Brrr",
+        "PAR": 108.2,
+        "PAR Rank": 21
     },
     {
         "Player": "Matthew Golden",
@@ -197,26 +217,6 @@
         "Round": 8,
         "Drafted By": "Girder\u2019s 6 Cookies",
         "PAR": 105.9,
-        "PAR Rank": 20
-    },
-    {
-        "Player": "Jaylen Warren",
-        "Player ID": "34447",
-        "Position": "RB",
-        "Pick": 70,
-        "Round": 5,
-        "Drafted By": "Pad D's",
-        "PAR": 104.9,
-        "PAR Rank": 21
-    },
-    {
-        "Player": "Joe Burrow",
-        "Player ID": "32671",
-        "Position": "QB",
-        "Pick": 60,
-        "Round": 5,
-        "Drafted By": "Flow Brrr",
-        "PAR": 103.3,
         "PAR Rank": 22
     },
     {
@@ -226,18 +226,28 @@
         "Pick": 53,
         "Round": 4,
         "Drafted By": "Flow Brrr",
-        "PAR": 102.5,
+        "PAR": 105.8,
         "PAR Rank": 23
     },
     {
-        "Player": "Ashton Jeanty",
-        "Player ID": "41791",
+        "Player": "Jaylen Warren",
+        "Player ID": "34447",
         "Position": "RB",
-        "Pick": 11,
-        "Round": 1,
-        "Drafted By": "Revy\u2019s Konstruction",
-        "PAR": 99.7,
+        "Pick": 70,
+        "Round": 5,
+        "Drafted By": "Pad D's",
+        "PAR": 104.8,
         "PAR Rank": 24
+    },
+    {
+        "Player": "George Pickens",
+        "Player ID": "34007",
+        "Position": "WR",
+        "Pick": 23,
+        "Round": 2,
+        "Drafted By": "You gotta be Falcon kiddin me",
+        "PAR": 101.6,
+        "PAR Rank": 25
     },
     {
         "Player": "Tony Pollard",
@@ -246,17 +256,7 @@
         "Pick": 76,
         "Round": 6,
         "Drafted By": "Big Bad Hokkkk",
-        "PAR": 95.4,
-        "PAR Rank": 25
-    },
-    {
-        "Player": "Josh Allen",
-        "Player ID": "30977",
-        "Position": "QB",
-        "Pick": 24,
-        "Round": 2,
-        "Drafted By": "No Punts Intented",
-        "PAR": 95.02,
+        "PAR": 101.4,
         "PAR Rank": 26
     },
     {
@@ -266,27 +266,27 @@
         "Pick": 25,
         "Round": 2,
         "Drafted By": "Flow Brrr",
-        "PAR": 91.5,
+        "PAR": 98.3,
         "PAR Rank": 27
     },
     {
-        "Player": "Brock Bowers",
-        "Player ID": "40878",
-        "Position": "TE",
-        "Pick": 21,
+        "Player": "Chris Olave",
+        "Player ID": "33966",
+        "Position": "WR",
+        "Pick": 28,
         "Round": 2,
-        "Drafted By": "Supernova\u2019s Studs",
-        "PAR": 85.8,
+        "Drafted By": "Ma\u00eetre Stick",
+        "PAR": 96.6,
         "PAR Rank": 28
     },
     {
-        "Player": "George Pickens",
-        "Player ID": "34007",
-        "Position": "WR",
-        "Pick": 23,
+        "Player": "Josh Allen",
+        "Player ID": "30977",
+        "Position": "QB",
+        "Pick": 24,
         "Round": 2,
-        "Drafted By": "You gotta be Falcon kiddin me",
-        "PAR": 84.8,
+        "Drafted By": "No Punts Intented",
+        "PAR": 94.18,
         "PAR Rank": 29
     },
     {
@@ -296,38 +296,8 @@
         "Pick": 14,
         "Round": 1,
         "Drafted By": "Pad D's",
-        "PAR": 84.7,
+        "PAR": 88.3,
         "PAR Rank": 30
-    },
-    {
-        "Player": "Isaiah Likely",
-        "Player ID": "34095",
-        "Position": "TE",
-        "Pick": 129,
-        "Round": 10,
-        "Drafted By": "The Sage's Playmakers",
-        "PAR": 84.5,
-        "PAR Rank": 31
-    },
-    {
-        "Player": "Chris Olave",
-        "Player ID": "33966",
-        "Position": "WR",
-        "Pick": 28,
-        "Round": 2,
-        "Drafted By": "Ma\u00eetre Stick",
-        "PAR": 84.4,
-        "PAR Rank": 32
-    },
-    {
-        "Player": "Zay Flowers",
-        "Player ID": "40039",
-        "Position": "WR",
-        "Pick": 37,
-        "Round": 3,
-        "Drafted By": "Big Bad Hokkkk",
-        "PAR": 75.9,
-        "PAR Rank": 33
     },
     {
         "Player": "Parker Washington",
@@ -336,8 +306,18 @@
         "Pick": 66,
         "Round": 5,
         "Drafted By": "Ozzy Stick",
-        "PAR": 74.8,
-        "PAR Rank": 34
+        "PAR": 86.1,
+        "PAR Rank": 31
+    },
+    {
+        "Player": "Brock Bowers",
+        "Player ID": "40878",
+        "Position": "TE",
+        "Pick": 21,
+        "Round": 2,
+        "Drafted By": "Supernova\u2019s Studs",
+        "PAR": 85.8,
+        "PAR Rank": 32
     },
     {
         "Player": "Malik Nabers",
@@ -346,18 +326,28 @@
         "Pick": 30,
         "Round": 3,
         "Drafted By": "Omaha Beach Real Estate",
-        "PAR": 74.2,
-        "PAR Rank": 35
+        "PAR": 85.7,
+        "PAR Rank": 33
     },
     {
-        "Player": "Luther Burden III",
-        "Player ID": "41824",
+        "Player": "Zay Flowers",
+        "Player ID": "40039",
         "Position": "WR",
-        "Pick": 62,
-        "Round": 5,
-        "Drafted By": "You gotta be Falcon kiddin me",
-        "PAR": 73.3,
-        "PAR Rank": 36
+        "Pick": 37,
+        "Round": 3,
+        "Drafted By": "Big Bad Hokkkk",
+        "PAR": 85.3,
+        "PAR Rank": 34
+    },
+    {
+        "Player": "Isaiah Likely",
+        "Player ID": "34095",
+        "Position": "TE",
+        "Pick": 129,
+        "Round": 10,
+        "Drafted By": "The Sage's Playmakers",
+        "PAR": 81.0,
+        "PAR Rank": 35
     },
     {
         "Player": "Brock Purdy",
@@ -366,8 +356,58 @@
         "Pick": 140,
         "Round": 10,
         "Drafted By": "Ma\u00eetre Stick",
-        "PAR": 72.96,
+        "PAR": 80.16,
+        "PAR Rank": 36
+    },
+    {
+        "Player": "Tetairoa McMillan",
+        "Player ID": "41793",
+        "Position": "WR",
+        "Pick": 38,
+        "Round": 3,
+        "Drafted By": "Ozzy Stick",
+        "PAR": 80.1,
         "PAR Rank": 37
+    },
+    {
+        "Player": "Dak Prescott",
+        "Player ID": "29369",
+        "Position": "QB",
+        "Pick": 94,
+        "Round": 7,
+        "Drafted By": "Ozzy Stick",
+        "PAR": 78.76,
+        "PAR Rank": 38
+    },
+    {
+        "Player": "Nico Collins",
+        "Player ID": "33477",
+        "Position": "WR",
+        "Pick": 18,
+        "Round": 2,
+        "Drafted By": "Revy\u2019s Konstruction",
+        "PAR": 74.8,
+        "PAR Rank": 39
+    },
+    {
+        "Player": "Emmett Johnson",
+        "Player ID": "42796",
+        "Position": "RB",
+        "Pick": 192,
+        "Round": 14,
+        "Drafted By": "No Punts Intented",
+        "PAR": 70.2,
+        "PAR Rank": 40
+    },
+    {
+        "Player": "Luther Burden III",
+        "Player ID": "41824",
+        "Position": "WR",
+        "Pick": 62,
+        "Round": 5,
+        "Drafted By": "You gotta be Falcon kiddin me",
+        "PAR": 69.6,
+        "PAR Rank": 41
     },
     {
         "Player": "Drake London",
@@ -377,27 +417,27 @@
         "Round": 2,
         "Drafted By": "Pad D's",
         "PAR": 68.5,
-        "PAR Rank": 38
+        "PAR Rank": 42
     },
     {
-        "Player": "Tetairoa McMillan",
-        "Player ID": "41793",
-        "Position": "WR",
-        "Pick": 38,
-        "Round": 3,
-        "Drafted By": "Ozzy Stick",
-        "PAR": 68.0,
-        "PAR Rank": 39
+        "Player": "Jonah Coleman",
+        "Player ID": "42730",
+        "Position": "RB",
+        "Pick": 175,
+        "Round": 13,
+        "Drafted By": "Hunter\u2019s Hunters",
+        "PAR": 67.8,
+        "PAR Rank": 43
     },
     {
-        "Player": "Nico Collins",
-        "Player ID": "33477",
-        "Position": "WR",
-        "Pick": 18,
-        "Round": 2,
-        "Drafted By": "Revy\u2019s Konstruction",
-        "PAR": 67.0,
-        "PAR Rank": 40
+        "Player": "George Kittle",
+        "Player ID": "30259",
+        "Position": "TE",
+        "Pick": 128,
+        "Round": 10,
+        "Drafted By": "Tsuga\u2019s Tuck Shop",
+        "PAR": 66.1,
+        "PAR Rank": 44
     },
     {
         "Player": "Blake Corum",
@@ -407,7 +447,7 @@
         "Round": 7,
         "Drafted By": "Ma\u00eetre Stick",
         "PAR": 65.5,
-        "PAR Rank": 41
+        "PAR Rank": 45
     },
     {
         "Player": "Rhamondre Stevenson",
@@ -417,7 +457,27 @@
         "Round": 6,
         "Drafted By": "Flow Brrr",
         "PAR": 65.2,
-        "PAR Rank": 42
+        "PAR Rank": 46
+    },
+    {
+        "Player": "Braelon Allen",
+        "Player ID": "40981",
+        "Position": "RB",
+        "Pick": 178,
+        "Round": 13,
+        "Drafted By": "Ozzy Stick",
+        "PAR": 65.0,
+        "PAR Rank": 47
+    },
+    {
+        "Player": "Jameson Williams",
+        "Player ID": "33967",
+        "Position": "WR",
+        "Pick": 55,
+        "Round": 4,
+        "Drafted By": "Omaha Beach Real Estate",
+        "PAR": 64.0,
+        "PAR Rank": 48
     },
     {
         "Player": "Quinshon Judkins",
@@ -427,17 +487,17 @@
         "Round": 4,
         "Drafted By": "Big Bad Hokkkk",
         "PAR": 63.2,
-        "PAR Rank": 43
+        "PAR Rank": 49
     },
     {
-        "Player": "Braelon Allen",
-        "Player ID": "40981",
-        "Position": "RB",
-        "Pick": 178,
-        "Round": 13,
-        "Drafted By": "Ozzy Stick",
-        "PAR": 60.6,
-        "PAR Rank": 44
+        "Player": "Justin Jefferson",
+        "Player ID": "32692",
+        "Position": "WR",
+        "Pick": 13,
+        "Round": 1,
+        "Drafted By": "Tsuga\u2019s Tuck Shop",
+        "PAR": 62.3,
+        "PAR Rank": 50
     },
     {
         "Player": "Davante Adams",
@@ -447,7 +507,7 @@
         "Round": 4,
         "Drafted By": "Supernova\u2019s Studs",
         "PAR": 60.0,
-        "PAR Rank": 45
+        "PAR Rank": 51
     },
     {
         "Player": "Garrett Wilson",
@@ -456,28 +516,28 @@
         "Pick": 39,
         "Round": 3,
         "Drafted By": "Revy\u2019s Konstruction",
-        "PAR": 59.3,
-        "PAR Rank": 46
+        "PAR": 59.2,
+        "PAR Rank": 52
     },
     {
-        "Player": "Vikings",
-        "Player ID": "100016",
-        "Position": "DEF",
-        "Pick": 186,
-        "Round": 14,
-        "Drafted By": "Revy\u2019s Konstruction",
-        "PAR": 59.0,
-        "PAR Rank": 47
+        "Player": "Cam Skattebo",
+        "Player ID": "41922",
+        "Position": "RB",
+        "Pick": 41,
+        "Round": 3,
+        "Drafted By": "Tsuga\u2019s Tuck Shop",
+        "PAR": 58.4,
+        "PAR Rank": 53
     },
     {
-        "Player": "Dak Prescott",
-        "Player ID": "29369",
-        "Position": "QB",
-        "Pick": 94,
-        "Round": 7,
-        "Drafted By": "Ozzy Stick",
-        "PAR": 57.86,
-        "PAR Rank": 48
+        "Player": "Breece Hall",
+        "Player ID": "33991",
+        "Position": "RB",
+        "Pick": 26,
+        "Round": 2,
+        "Drafted By": "Girder\u2019s 6 Cookies",
+        "PAR": 58.0,
+        "PAR Rank": 54
     },
     {
         "Player": "Michael Wilson",
@@ -487,37 +547,27 @@
         "Round": 6,
         "Drafted By": "Ma\u00eetre Stick",
         "PAR": 57.68,
-        "PAR Rank": 49
+        "PAR Rank": 55
     },
     {
-        "Player": "Cam Skattebo",
-        "Player ID": "41922",
+        "Player": "Aaron Jones Sr.",
+        "Player ID": "30295",
         "Position": "RB",
-        "Pick": 41,
-        "Round": 3,
-        "Drafted By": "Tsuga\u2019s Tuck Shop",
-        "PAR": 57.6,
-        "PAR Rank": 50
+        "Pick": 108,
+        "Round": 8,
+        "Drafted By": "No Punts Intented",
+        "PAR": 56.7,
+        "PAR Rank": 56
     },
     {
-        "Player": "George Kittle",
-        "Player ID": "30259",
-        "Position": "TE",
-        "Pick": 128,
-        "Round": 10,
+        "Player": "Patrick Mahomes",
+        "Player ID": "30123",
+        "Position": "QB",
+        "Pick": 153,
+        "Round": 11,
         "Drafted By": "Tsuga\u2019s Tuck Shop",
-        "PAR": 55.7,
-        "PAR Rank": 51
-    },
-    {
-        "Player": "Justin Jefferson",
-        "Player ID": "32692",
-        "Position": "WR",
-        "Pick": 13,
-        "Round": 1,
-        "Drafted By": "Tsuga\u2019s Tuck Shop",
-        "PAR": 55.6,
-        "PAR Rank": 52
+        "PAR": 56.36,
+        "PAR Rank": 57
     },
     {
         "Player": "Stefon Diggs",
@@ -526,8 +576,38 @@
         "Pick": 96,
         "Round": 7,
         "Drafted By": "The Sage's Playmakers",
-        "PAR": 54.6,
-        "PAR Rank": 53
+        "PAR": 56.1,
+        "PAR Rank": 58
+    },
+    {
+        "Player": "Mike Evans",
+        "Player ID": "27535",
+        "Position": "WR",
+        "Pick": 69,
+        "Round": 5,
+        "Drafted By": "Tsuga\u2019s Tuck Shop",
+        "PAR": 55.9,
+        "PAR Rank": 59
+    },
+    {
+        "Player": "Vikings",
+        "Player ID": "100016",
+        "Position": "DEF",
+        "Pick": 186,
+        "Round": 14,
+        "Drafted By": "Revy\u2019s Konstruction",
+        "PAR": 54.0,
+        "PAR Rank": 60
+    },
+    {
+        "Player": "Ollie Gordon II",
+        "Player ID": "41969",
+        "Position": "RB",
+        "Pick": 194,
+        "Round": 14,
+        "Drafted By": "Girder\u2019s 6 Cookies",
+        "PAR": 53.8,
+        "PAR Rank": 61
     },
     {
         "Player": "Jordan Love",
@@ -537,37 +617,7 @@
         "Round": 14,
         "Drafted By": "Ozzy Stick",
         "PAR": 52.82,
-        "PAR Rank": 54
-    },
-    {
-        "Player": "Jameson Williams",
-        "Player ID": "33967",
-        "Position": "WR",
-        "Pick": 55,
-        "Round": 4,
-        "Drafted By": "Omaha Beach Real Estate",
-        "PAR": 51.7,
-        "PAR Rank": 55
-    },
-    {
-        "Player": "Emmett Johnson",
-        "Player ID": "42796",
-        "Position": "RB",
-        "Pick": 192,
-        "Round": 14,
-        "Drafted By": "No Punts Intented",
-        "PAR": 50.9,
-        "PAR Rank": 56
-    },
-    {
-        "Player": "Aaron Jones Sr.",
-        "Player ID": "30295",
-        "Position": "RB",
-        "Pick": 108,
-        "Round": 8,
-        "Drafted By": "No Punts Intented",
-        "PAR": 50.4,
-        "PAR Rank": 57
+        "PAR Rank": 62
     },
     {
         "Player": "Alvin Kamara",
@@ -576,28 +626,38 @@
         "Pick": 131,
         "Round": 10,
         "Drafted By": "Ozzy Stick",
-        "PAR": 50.1,
-        "PAR Rank": 58
+        "PAR": 52.3,
+        "PAR Rank": 63
     },
     {
-        "Player": "Ollie Gordon II",
-        "Player ID": "41969",
+        "Player": "Travis Kelce",
+        "Player ID": "26686",
+        "Position": "TE",
+        "Pick": 98,
+        "Round": 7,
+        "Drafted By": "Pad D's",
+        "PAR": 49.7,
+        "PAR Rank": 64
+    },
+    {
+        "Player": "Omarion Hampton",
+        "Player ID": "41807",
         "Position": "RB",
-        "Pick": 194,
-        "Round": 14,
-        "Drafted By": "Girder\u2019s 6 Cookies",
-        "PAR": 50.1,
-        "PAR Rank": 59
+        "Pick": 16,
+        "Round": 2,
+        "Drafted By": "Tsuga\u2019s Tuck Shop",
+        "PAR": 46.0,
+        "PAR Rank": 65
     },
     {
-        "Player": "Patrick Mahomes",
-        "Player ID": "30123",
-        "Position": "QB",
-        "Pick": 153,
-        "Round": 11,
-        "Drafted By": "Tsuga\u2019s Tuck Shop",
-        "PAR": 46.4,
-        "PAR Rank": 60
+        "Player": "DJ Moore",
+        "Player ID": "30994",
+        "Position": "WR",
+        "Pick": 57,
+        "Round": 5,
+        "Drafted By": "Ma\u00eetre Stick",
+        "PAR": 46.0,
+        "PAR Rank": 66
     },
     {
         "Player": "Deebo Samuel Sr.",
@@ -606,18 +666,8 @@
         "Pick": 137,
         "Round": 10,
         "Drafted By": "Flow Brrr",
-        "PAR": 44.3,
-        "PAR Rank": 61
-    },
-    {
-        "Player": "Breece Hall",
-        "Player ID": "33991",
-        "Position": "RB",
-        "Pick": 26,
-        "Round": 2,
-        "Drafted By": "Girder\u2019s 6 Cookies",
-        "PAR": 44.0,
-        "PAR Rank": 62
+        "PAR": 45.0,
+        "PAR Rank": 67
     },
     {
         "Player": "Trevor Lawrence",
@@ -626,8 +676,8 @@
         "Pick": 95,
         "Round": 7,
         "Drafted By": "Revy\u2019s Konstruction",
-        "PAR": 43.96,
-        "PAR Rank": 63
+        "PAR": 43.7,
+        "PAR Rank": 68
     },
     {
         "Player": "Drake Maye",
@@ -637,17 +687,37 @@
         "Round": 5,
         "Drafted By": "Hunter\u2019s Hunters",
         "PAR": 43.2,
-        "PAR Rank": 64
+        "PAR Rank": 69
     },
     {
-        "Player": "Tyler Allgeier",
-        "Player ID": "34107",
-        "Position": "RB",
-        "Pick": 123,
-        "Round": 9,
-        "Drafted By": "Revy\u2019s Konstruction",
-        "PAR": 42.1,
-        "PAR Rank": 65
+        "Player": "DeVonta Smith",
+        "Player ID": "33398",
+        "Position": "WR",
+        "Pick": 32,
+        "Round": 3,
+        "Drafted By": "Flow Brrr",
+        "PAR": 43.1,
+        "PAR Rank": 70
+    },
+    {
+        "Player": "Jared Goff",
+        "Player ID": "29235",
+        "Position": "QB",
+        "Pick": 172,
+        "Round": 13,
+        "Drafted By": "Flow Brrr",
+        "PAR": 42.14,
+        "PAR Rank": 71
+    },
+    {
+        "Player": "Cam Little",
+        "Player ID": "41062",
+        "Position": "K",
+        "Pick": 167,
+        "Round": 12,
+        "Drafted By": "Omaha Beach Real Estate",
+        "PAR": 42.0,
+        "PAR Rank": 72
     },
     {
         "Player": "Tre Tucker",
@@ -657,47 +727,17 @@
         "Round": 10,
         "Drafted By": "Omaha Beach Real Estate",
         "PAR": 41.2,
-        "PAR Rank": 66
+        "PAR Rank": 73
     },
     {
-        "Player": "DeVonta Smith",
-        "Player ID": "33398",
-        "Position": "WR",
-        "Pick": 32,
-        "Round": 3,
-        "Drafted By": "Flow Brrr",
-        "PAR": 41.0,
-        "PAR Rank": 67
-    },
-    {
-        "Player": "Omarion Hampton",
-        "Player ID": "41807",
+        "Player": "Tyler Allgeier",
+        "Player ID": "34107",
         "Position": "RB",
-        "Pick": 16,
-        "Round": 2,
-        "Drafted By": "Tsuga\u2019s Tuck Shop",
-        "PAR": 40.7,
-        "PAR Rank": 68
-    },
-    {
-        "Player": "Mike Evans",
-        "Player ID": "27535",
-        "Position": "WR",
-        "Pick": 69,
-        "Round": 5,
-        "Drafted By": "Tsuga\u2019s Tuck Shop",
-        "PAR": 40.0,
-        "PAR Rank": 69
-    },
-    {
-        "Player": "Will Reichard",
-        "Player ID": "41093",
-        "Position": "K",
-        "Pick": 199,
-        "Round": 15,
-        "Drafted By": "Girder\u2019s 6 Cookies",
-        "PAR": 40.0,
-        "PAR Rank": 70
+        "Pick": 123,
+        "Round": 9,
+        "Drafted By": "Revy\u2019s Konstruction",
+        "PAR": 39.4,
+        "PAR Rank": 74
     },
     {
         "Player": "Harold Fannin Jr.",
@@ -707,17 +747,17 @@
         "Round": 5,
         "Drafted By": "Revy\u2019s Konstruction",
         "PAR": 38.4,
-        "PAR Rank": 71
+        "PAR Rank": 75
     },
     {
-        "Player": "Jonah Coleman",
-        "Player ID": "42730",
-        "Position": "RB",
-        "Pick": 175,
-        "Round": 13,
-        "Drafted By": "Hunter\u2019s Hunters",
-        "PAR": 37.9,
-        "PAR Rank": 72
+        "Player": "Will Reichard",
+        "Player ID": "41093",
+        "Position": "K",
+        "Pick": 199,
+        "Round": 15,
+        "Drafted By": "Girder\u2019s 6 Cookies",
+        "PAR": 38.0,
+        "PAR Rank": 76
     },
     {
         "Player": "RJ Harvey",
@@ -727,7 +767,7 @@
         "Round": 8,
         "Drafted By": "Pad D's",
         "PAR": 37.4,
-        "PAR Rank": 73
+        "PAR Rank": 77
     },
     {
         "Player": "Ka'imi Fairbairn",
@@ -736,38 +776,8 @@
         "Pick": 144,
         "Round": 11,
         "Drafted By": "Flow Brrr",
-        "PAR": 37.0,
-        "PAR Rank": 74
-    },
-    {
-        "Player": "Jared Goff",
-        "Player ID": "29235",
-        "Position": "QB",
-        "Pick": 172,
-        "Round": 13,
-        "Drafted By": "Flow Brrr",
-        "PAR": 36.78,
-        "PAR Rank": 75
-    },
-    {
-        "Player": "Cam Little",
-        "Player ID": "41062",
-        "Position": "K",
-        "Pick": 167,
-        "Round": 12,
-        "Drafted By": "Omaha Beach Real Estate",
         "PAR": 36.0,
-        "PAR Rank": 76
-    },
-    {
-        "Player": "Rachaad White",
-        "Player ID": "34047",
-        "Position": "RB",
-        "Pick": 100,
-        "Round": 8,
-        "Drafted By": "Tsuga\u2019s Tuck Shop",
-        "PAR": 35.9,
-        "PAR Rank": 77
+        "PAR Rank": 78
     },
     {
         "Player": "Denzel Boston",
@@ -777,26 +787,16 @@
         "Round": 11,
         "Drafted By": "The Sage's Playmakers",
         "PAR": 35.3,
-        "PAR Rank": 78
-    },
-    {
-        "Player": "Kyle Monangai",
-        "Player ID": "42025",
-        "Position": "RB",
-        "Pick": 102,
-        "Round": 8,
-        "Drafted By": "Revy\u2019s Konstruction",
-        "PAR": 34.3,
         "PAR Rank": 79
     },
     {
-        "Player": "Woody Marks",
-        "Player ID": "41902",
-        "Position": "RB",
-        "Pick": 113,
-        "Round": 9,
-        "Drafted By": "Ma\u00eetre Stick",
-        "PAR": 33.4,
+        "Player": "Carnell Tate",
+        "Player ID": "42626",
+        "Position": "WR",
+        "Pick": 68,
+        "Round": 5,
+        "Drafted By": "The Sage's Playmakers",
+        "PAR": 35.1,
         "PAR Rank": 80
     },
     {
@@ -806,28 +806,8 @@
         "Pick": 58,
         "Round": 5,
         "Drafted By": "Omaha Beach Real Estate",
-        "PAR": 32.96,
+        "PAR": 35.02,
         "PAR Rank": 81
-    },
-    {
-        "Player": "Ryan Flournoy",
-        "Player ID": "41087",
-        "Position": "WR",
-        "Pick": 165,
-        "Round": 12,
-        "Drafted By": "Flow Brrr",
-        "PAR": 32.9,
-        "PAR Rank": 82
-    },
-    {
-        "Player": "Travis Kelce",
-        "Player ID": "26686",
-        "Position": "TE",
-        "Pick": 98,
-        "Round": 7,
-        "Drafted By": "Pad D's",
-        "PAR": 32.3,
-        "PAR Rank": 83
     },
     {
         "Player": "Rashee Rice",
@@ -836,17 +816,37 @@
         "Pick": 29,
         "Round": 3,
         "Drafted By": "Ma\u00eetre Stick",
-        "PAR": 30.4,
+        "PAR": 34.7,
+        "PAR Rank": 82
+    },
+    {
+        "Player": "Woody Marks",
+        "Player ID": "41902",
+        "Position": "RB",
+        "Pick": 113,
+        "Round": 9,
+        "Drafted By": "Ma\u00eetre Stick",
+        "PAR": 33.4,
+        "PAR Rank": 83
+    },
+    {
+        "Player": "Justice Hill",
+        "Player ID": "31945",
+        "Position": "RB",
+        "Pick": 204,
+        "Round": 15,
+        "Drafted By": "Supernova\u2019s Studs",
+        "PAR": 32.5,
         "PAR Rank": 84
     },
     {
-        "Player": "DK Metcalf",
-        "Player ID": "31896",
-        "Position": "WR",
-        "Pick": 82,
-        "Round": 6,
-        "Drafted By": "Girder\u2019s 6 Cookies",
-        "PAR": 30.3,
+        "Player": "Saquon Barkley",
+        "Player ID": "30972",
+        "Position": "RB",
+        "Pick": 12,
+        "Round": 1,
+        "Drafted By": "The Sage's Playmakers",
+        "PAR": 32.2,
         "PAR Rank": 85
     },
     {
@@ -856,8 +856,48 @@
         "Pick": 124,
         "Round": 9,
         "Drafted By": "The Sage's Playmakers",
-        "PAR": 30.3,
+        "PAR": 32.0,
         "PAR Rank": 86
+    },
+    {
+        "Player": "Kyle Monangai",
+        "Player ID": "42025",
+        "Position": "RB",
+        "Pick": 102,
+        "Round": 8,
+        "Drafted By": "Revy\u2019s Konstruction",
+        "PAR": 31.1,
+        "PAR Rank": 87
+    },
+    {
+        "Player": "David Montgomery",
+        "Player ID": "31905",
+        "Position": "RB",
+        "Pick": 50,
+        "Round": 4,
+        "Drafted By": "Hunter\u2019s Hunters",
+        "PAR": 30.9,
+        "PAR Rank": 88
+    },
+    {
+        "Player": "Rachaad White",
+        "Player ID": "34047",
+        "Position": "RB",
+        "Pick": 100,
+        "Round": 8,
+        "Drafted By": "Tsuga\u2019s Tuck Shop",
+        "PAR": 30.9,
+        "PAR Rank": 89
+    },
+    {
+        "Player": "Jacory Croskey-Merritt",
+        "Player ID": "42010",
+        "Position": "RB",
+        "Pick": 109,
+        "Round": 8,
+        "Drafted By": "Flow Brrr",
+        "PAR": 30.6,
+        "PAR Rank": 90
     },
     {
         "Player": "KC Concepcion Jr.",
@@ -867,17 +907,17 @@
         "Round": 9,
         "Drafted By": "Tsuga\u2019s Tuck Shop",
         "PAR": 30.1,
-        "PAR Rank": 87
+        "PAR Rank": 91
     },
     {
-        "Player": "DJ Moore",
-        "Player ID": "30994",
-        "Position": "WR",
-        "Pick": 57,
-        "Round": 5,
-        "Drafted By": "Ma\u00eetre Stick",
-        "PAR": 29.9,
-        "PAR Rank": 88
+        "Player": "Chris Boswell",
+        "Player ID": "28188",
+        "Position": "K",
+        "Pick": 188,
+        "Round": 14,
+        "Drafted By": "Big Bad Hokkkk",
+        "PAR": 30.0,
+        "PAR Rank": 92
     },
     {
         "Player": "Emanuel Wilson",
@@ -887,17 +927,27 @@
         "Round": 15,
         "Drafted By": "The Sage's Playmakers",
         "PAR": 29.8,
-        "PAR Rank": 89
+        "PAR Rank": 93
     },
     {
-        "Player": "Emeka Egbuka",
-        "Player ID": "41804",
-        "Position": "WR",
-        "Pick": 34,
-        "Round": 3,
-        "Drafted By": "You gotta be Falcon kiddin me",
+        "Player": "Brandon Aubrey",
+        "Player ID": "40819",
+        "Position": "K",
+        "Pick": 105,
+        "Round": 8,
+        "Drafted By": "Supernova\u2019s Studs",
         "PAR": 29.0,
-        "PAR Rank": 90
+        "PAR Rank": 94
+    },
+    {
+        "Player": "Khalil Shakir",
+        "Player ID": "34104",
+        "Position": "WR",
+        "Pick": 127,
+        "Round": 10,
+        "Drafted By": "Pad D's",
+        "PAR": 29.0,
+        "PAR Rank": 95
     },
     {
         "Player": "Seahawks",
@@ -907,7 +957,7 @@
         "Round": 12,
         "Drafted By": "You gotta be Falcon kiddin me",
         "PAR": 29.0,
-        "PAR Rank": 91
+        "PAR Rank": 96
     },
     {
         "Player": "Josh Jacobs",
@@ -917,37 +967,17 @@
         "Round": 3,
         "Drafted By": "The Sage's Playmakers",
         "PAR": 28.8,
-        "PAR Rank": 92
+        "PAR Rank": 97
     },
     {
-        "Player": "Caleb Douglas",
-        "Player ID": "42697",
+        "Player": "Ryan Flournoy",
+        "Player ID": "41087",
         "Position": "WR",
-        "Pick": 138,
-        "Round": 10,
-        "Drafted By": "Girder\u2019s 6 Cookies",
-        "PAR": 28.7,
-        "PAR Rank": 93
-    },
-    {
-        "Player": "Carnell Tate",
-        "Player ID": "42626",
-        "Position": "WR",
-        "Pick": 68,
-        "Round": 5,
-        "Drafted By": "The Sage's Playmakers",
-        "PAR": 28.3,
-        "PAR Rank": 94
-    },
-    {
-        "Player": "Tyler Shough",
-        "Player ID": "41825",
-        "Position": "QB",
-        "Pick": 201,
-        "Round": 15,
-        "Drafted By": "No Punts Intented",
-        "PAR": 27.62,
-        "PAR Rank": 95
+        "Pick": 165,
+        "Round": 12,
+        "Drafted By": "Flow Brrr",
+        "PAR": 28.0,
+        "PAR Rank": 98
     },
     {
         "Player": "Steelers",
@@ -956,18 +986,18 @@
         "Pick": 206,
         "Round": 15,
         "Drafted By": "Ozzy Stick",
-        "PAR": 27.0,
-        "PAR Rank": 96
+        "PAR": 28.0,
+        "PAR Rank": 99
     },
     {
-        "Player": "Brandon Aubrey",
-        "Player ID": "40819",
-        "Position": "K",
-        "Pick": 105,
-        "Round": 8,
-        "Drafted By": "Supernova\u2019s Studs",
-        "PAR": 26.0,
-        "PAR Rank": 97
+        "Player": "Tyler Shough",
+        "Player ID": "41825",
+        "Position": "QB",
+        "Pick": 201,
+        "Round": 15,
+        "Drafted By": "No Punts Intented",
+        "PAR": 27.9,
+        "PAR Rank": 100
     },
     {
         "Player": "Rome Odunze",
@@ -976,8 +1006,38 @@
         "Pick": 64,
         "Round": 5,
         "Drafted By": "Supernova\u2019s Studs",
+        "PAR": 27.3,
+        "PAR Rank": 101
+    },
+    {
+        "Player": "Broncos",
+        "Player ID": "100007",
+        "Position": "DEF",
+        "Pick": 162,
+        "Round": 12,
+        "Drafted By": "Hunter\u2019s Hunters",
+        "PAR": 27.0,
+        "PAR Rank": 102
+    },
+    {
+        "Player": "Caleb Douglas",
+        "Player ID": "42697",
+        "Position": "WR",
+        "Pick": 138,
+        "Round": 10,
+        "Drafted By": "Girder\u2019s 6 Cookies",
+        "PAR": 26.7,
+        "PAR Rank": 103
+    },
+    {
+        "Player": "Emeka Egbuka",
+        "Player ID": "41804",
+        "Position": "WR",
+        "Pick": 34,
+        "Round": 3,
+        "Drafted By": "You gotta be Falcon kiddin me",
         "PAR": 25.8,
-        "PAR Rank": 98
+        "PAR Rank": 104
     },
     {
         "Player": "Caleb Williams",
@@ -986,77 +1046,17 @@
         "Pick": 90,
         "Round": 7,
         "Drafted By": "You gotta be Falcon kiddin me",
-        "PAR": 25.34,
-        "PAR Rank": 99
-    },
-    {
-        "Player": "Chris Boswell",
-        "Player ID": "28188",
-        "Position": "K",
-        "Pick": 188,
-        "Round": 14,
-        "Drafted By": "Big Bad Hokkkk",
-        "PAR": 24.0,
-        "PAR Rank": 100
-    },
-    {
-        "Player": "Saquon Barkley",
-        "Player ID": "30972",
-        "Position": "RB",
-        "Pick": 12,
-        "Round": 1,
-        "Drafted By": "The Sage's Playmakers",
-        "PAR": 23.7,
-        "PAR Rank": 101
-    },
-    {
-        "Player": "Sam LaPorta",
-        "Player ID": "40064",
-        "Position": "TE",
-        "Pick": 78,
-        "Round": 6,
-        "Drafted By": "Hunter\u2019s Hunters",
-        "PAR": 23.7,
-        "PAR Rank": 102
-    },
-    {
-        "Player": "Jeremiyah Love",
-        "Player ID": "42625",
-        "Position": "RB",
-        "Pick": 31,
-        "Round": 3,
-        "Drafted By": "Girder\u2019s 6 Cookies",
-        "PAR": 23.4,
-        "PAR Rank": 103
-    },
-    {
-        "Player": "Matthew Stafford",
-        "Player ID": "9265",
-        "Position": "QB",
-        "Pick": 160,
-        "Round": 12,
-        "Drafted By": "Big Bad Hokkkk",
-        "PAR": 22.62,
-        "PAR Rank": 104
-    },
-    {
-        "Player": "Tyler Warren",
-        "Player ID": "41799",
-        "Position": "TE",
-        "Pick": 54,
-        "Round": 4,
-        "Drafted By": "Girder\u2019s 6 Cookies",
-        "PAR": 22.5,
+        "PAR": 25.68,
         "PAR Rank": 105
     },
     {
-        "Player": "Jake Bates",
-        "Player ID": "40835",
-        "Position": "K",
-        "Pick": 150,
-        "Round": 11,
-        "Drafted By": "Ozzy Stick",
-        "PAR": 22.0,
+        "Player": "T.J. Hockenson",
+        "Player ID": "31840",
+        "Position": "TE",
+        "Pick": 193,
+        "Round": 14,
+        "Drafted By": "Flow Brrr",
+        "PAR": 25.3,
         "PAR Rank": 106
     },
     {
@@ -1066,18 +1066,138 @@
         "Pick": 207,
         "Round": 15,
         "Drafted By": "Revy\u2019s Konstruction",
-        "PAR": 22.0,
+        "PAR": 25.0,
         "PAR Rank": 107
     },
     {
-        "Player": "T.J. Hockenson",
-        "Player ID": "31840",
+        "Player": "Sam LaPorta",
+        "Player ID": "40064",
         "Position": "TE",
-        "Pick": 193,
-        "Round": 14,
-        "Drafted By": "Flow Brrr",
-        "PAR": 21.8,
+        "Pick": 78,
+        "Round": 6,
+        "Drafted By": "Hunter\u2019s Hunters",
+        "PAR": 24.9,
         "PAR Rank": 108
+    },
+    {
+        "Player": "DK Metcalf",
+        "Player ID": "31896",
+        "Position": "WR",
+        "Pick": 82,
+        "Round": 6,
+        "Drafted By": "Girder\u2019s 6 Cookies",
+        "PAR": 24.5,
+        "PAR Rank": 109
+    },
+    {
+        "Player": "Jakobi Meyers",
+        "Player ID": "32231",
+        "Position": "WR",
+        "Pick": 112,
+        "Round": 8,
+        "Drafted By": "Ma\u00eetre Stick",
+        "PAR": 24.5,
+        "PAR Rank": 110
+    },
+    {
+        "Player": "Jake Bates",
+        "Player ID": "40835",
+        "Position": "K",
+        "Pick": 150,
+        "Round": 11,
+        "Drafted By": "Ozzy Stick",
+        "PAR": 24.0,
+        "PAR Rank": 111
+    },
+    {
+        "Player": "Kenny Gainwell",
+        "Player ID": "33538",
+        "Position": "RB",
+        "Pick": 97,
+        "Round": 7,
+        "Drafted By": "Tsuga\u2019s Tuck Shop",
+        "PAR": 23.5,
+        "PAR Rank": 112
+    },
+    {
+        "Player": "Jeremiyah Love",
+        "Player ID": "42625",
+        "Position": "RB",
+        "Pick": 31,
+        "Round": 3,
+        "Drafted By": "Girder\u2019s 6 Cookies",
+        "PAR": 23.4,
+        "PAR Rank": 113
+    },
+    {
+        "Player": "Ladd McConkey",
+        "Player ID": "40908",
+        "Position": "WR",
+        "Pick": 44,
+        "Round": 4,
+        "Drafted By": "Tsuga\u2019s Tuck Shop",
+        "PAR": 23.3,
+        "PAR Rank": 114
+    },
+    {
+        "Player": "Josh Downs",
+        "Player ID": "40126",
+        "Position": "WR",
+        "Pick": 73,
+        "Round": 6,
+        "Drafted By": "The Sage's Playmakers",
+        "PAR": 23.3,
+        "PAR Rank": 115
+    },
+    {
+        "Player": "Matthew Stafford",
+        "Player ID": "9265",
+        "Position": "QB",
+        "Pick": 160,
+        "Round": 12,
+        "Drafted By": "Big Bad Hokkkk",
+        "PAR": 22.62,
+        "PAR Rank": 116
+    },
+    {
+        "Player": "Samaje Perine",
+        "Player ID": "30227",
+        "Position": "RB",
+        "Pick": 203,
+        "Round": 15,
+        "Drafted By": "Hunter\u2019s Hunters",
+        "PAR": 22.5,
+        "PAR Rank": 117
+    },
+    {
+        "Player": "Rico Dowdle",
+        "Player ID": "33100",
+        "Position": "RB",
+        "Pick": 87,
+        "Round": 7,
+        "Drafted By": "Girder\u2019s 6 Cookies",
+        "PAR": 22.4,
+        "PAR Rank": 118
+    },
+    {
+        "Player": "Jaylen Waddle",
+        "Player ID": "33394",
+        "Position": "WR",
+        "Pick": 45,
+        "Round": 4,
+        "Drafted By": "The Sage's Playmakers",
+        "PAR": 21.1,
+        "PAR Rank": 119
+    },
+    {
+        "Player": "Texans",
+        "Player ID": "100034",
+        "Position": "DEF",
+        "Pick": 120,
+        "Round": 9,
+        "Drafted By": "Supernova\u2019s Studs",
+        "PAR": 21.0,
+        "PAR Rank": 120
     },
     {
         "Player": "Dalton Kincaid",
@@ -1087,17 +1207,7 @@
         "Round": 7,
         "Drafted By": "Omaha Beach Real Estate",
         "PAR": 20.7,
-        "PAR Rank": 109
-    },
-    {
-        "Player": "Khalil Shakir",
-        "Player ID": "34104",
-        "Position": "WR",
-        "Pick": 127,
-        "Round": 10,
-        "Drafted By": "Pad D's",
-        "PAR": 20.7,
-        "PAR Rank": 110
+        "PAR Rank": 121
     },
     {
         "Player": "Omar Cooper Jr.",
@@ -1107,97 +1217,17 @@
         "Round": 12,
         "Drafted By": "Revy\u2019s Konstruction",
         "PAR": 20.6,
-        "PAR Rank": 111
+        "PAR Rank": 122
     },
     {
-        "Player": "David Montgomery",
-        "Player ID": "31905",
+        "Player": "Travis Etienne Jr.",
+        "Player ID": "33413",
         "Position": "RB",
-        "Pick": 50,
+        "Pick": 46,
         "Round": 4,
-        "Drafted By": "Hunter\u2019s Hunters",
-        "PAR": 20.5,
-        "PAR Rank": 112
-    },
-    {
-        "Player": "Josh Downs",
-        "Player ID": "40126",
-        "Position": "WR",
-        "Pick": 73,
-        "Round": 6,
-        "Drafted By": "The Sage's Playmakers",
-        "PAR": 20.4,
-        "PAR Rank": 113
-    },
-    {
-        "Player": "Rico Dowdle",
-        "Player ID": "33100",
-        "Position": "RB",
-        "Pick": 87,
-        "Round": 7,
-        "Drafted By": "Girder\u2019s 6 Cookies",
-        "PAR": 20.0,
-        "PAR Rank": 114
-    },
-    {
-        "Player": "Jacory Croskey-Merritt",
-        "Player ID": "42010",
-        "Position": "RB",
-        "Pick": 109,
-        "Round": 8,
-        "Drafted By": "Flow Brrr",
+        "Drafted By": "Revy\u2019s Konstruction",
         "PAR": 19.9,
-        "PAR Rank": 115
-    },
-    {
-        "Player": "Justice Hill",
-        "Player ID": "31945",
-        "Position": "RB",
-        "Pick": 204,
-        "Round": 15,
-        "Drafted By": "Supernova\u2019s Studs",
-        "PAR": 19.9,
-        "PAR Rank": 116
-    },
-    {
-        "Player": "Jaylen Waddle",
-        "Player ID": "33394",
-        "Position": "WR",
-        "Pick": 45,
-        "Round": 4,
-        "Drafted By": "The Sage's Playmakers",
-        "PAR": 19.0,
-        "PAR Rank": 117
-    },
-    {
-        "Player": "Jakobi Meyers",
-        "Player ID": "32231",
-        "Position": "WR",
-        "Pick": 112,
-        "Round": 8,
-        "Drafted By": "Ma\u00eetre Stick",
-        "PAR": 19.0,
-        "PAR Rank": 118
-    },
-    {
-        "Player": "Broncos",
-        "Player ID": "100007",
-        "Position": "DEF",
-        "Pick": 162,
-        "Round": 12,
-        "Drafted By": "Hunter\u2019s Hunters",
-        "PAR": 19.0,
-        "PAR Rank": 119
-    },
-    {
-        "Player": "Kenny Gainwell",
-        "Player ID": "33538",
-        "Position": "RB",
-        "Pick": 97,
-        "Round": 7,
-        "Drafted By": "Tsuga\u2019s Tuck Shop",
-        "PAR": 18.6,
-        "PAR Rank": 120
+        "PAR Rank": 123
     },
     {
         "Player": "Wan'Dale Robinson",
@@ -1207,7 +1237,7 @@
         "Round": 9,
         "Drafted By": "No Punts Intented",
         "PAR": 18.3,
-        "PAR Rank": 121
+        "PAR Rank": 124
     },
     {
         "Player": "Brian Robinson Jr.",
@@ -1217,37 +1247,17 @@
         "Round": 11,
         "Drafted By": "Big Bad Hokkkk",
         "PAR": 18.1,
-        "PAR Rank": 122
-    },
-    {
-        "Player": "Dallas Goedert",
-        "Player ID": "31019",
-        "Position": "TE",
-        "Pick": 119,
-        "Round": 9,
-        "Drafted By": "Hunter\u2019s Hunters",
-        "PAR": 18.0,
-        "PAR Rank": 123
-    },
-    {
-        "Player": "J.K. Dobbins",
-        "Player ID": "32725",
-        "Position": "RB",
-        "Pick": 80,
-        "Round": 6,
-        "Drafted By": "No Punts Intented",
-        "PAR": 17.5,
-        "PAR Rank": 124
-    },
-    {
-        "Player": "Travis Etienne Jr.",
-        "Player ID": "33413",
-        "Position": "RB",
-        "Pick": 46,
-        "Round": 4,
-        "Drafted By": "Revy\u2019s Konstruction",
-        "PAR": 17.3,
         "PAR Rank": 125
+    },
+    {
+        "Player": "Tyler Warren",
+        "Player ID": "41799",
+        "Position": "TE",
+        "Pick": 54,
+        "Round": 4,
+        "Drafted By": "Girder\u2019s 6 Cookies",
+        "PAR": 17.7,
+        "PAR Rank": 126
     },
     {
         "Player": "Romeo Doubs",
@@ -1257,17 +1267,17 @@
         "Round": 9,
         "Drafted By": "Ozzy Stick",
         "PAR": 16.1,
-        "PAR Rank": 126
+        "PAR Rank": 127
     },
     {
-        "Player": "Adonai Mitchell",
-        "Player ID": "40915",
-        "Position": "WR",
-        "Pick": 143,
-        "Round": 11,
-        "Drafted By": "Girder\u2019s 6 Cookies",
-        "PAR": 15.4,
-        "PAR Rank": 127
+        "Player": "Colston Loveland",
+        "Player ID": "41795",
+        "Position": "TE",
+        "Pick": 33,
+        "Round": 3,
+        "Drafted By": "No Punts Intented",
+        "PAR": 15.2,
+        "PAR Rank": 128
     },
     {
         "Player": "Rams",
@@ -1277,7 +1287,17 @@
         "Round": 12,
         "Drafted By": "No Punts Intented",
         "PAR": 15.0,
-        "PAR Rank": 128
+        "PAR Rank": 129
+    },
+    {
+        "Player": "Dallas Goedert",
+        "Player ID": "31019",
+        "Position": "TE",
+        "Pick": 119,
+        "Round": 9,
+        "Drafted By": "Hunter\u2019s Hunters",
+        "PAR": 14.8,
+        "PAR Rank": 130
     },
     {
         "Player": "Dylan Sampson",
@@ -1287,17 +1307,17 @@
         "Round": 11,
         "Drafted By": "Revy\u2019s Konstruction",
         "PAR": 14.1,
-        "PAR Rank": 129
+        "PAR Rank": 131
     },
     {
-        "Player": "Samaje Perine",
-        "Player ID": "30227",
-        "Position": "RB",
-        "Pick": 203,
-        "Round": 15,
-        "Drafted By": "Hunter\u2019s Hunters",
-        "PAR": 13.8,
-        "PAR Rank": 130
+        "Player": "Adonai Mitchell",
+        "Player ID": "40915",
+        "Position": "WR",
+        "Pick": 143,
+        "Round": 11,
+        "Drafted By": "Girder\u2019s 6 Cookies",
+        "PAR": 13.4,
+        "PAR Rank": 132
     },
     {
         "Player": "Tucker Kraft",
@@ -1307,7 +1327,7 @@
         "Round": 6,
         "Drafted By": "Ozzy Stick",
         "PAR": 13.3,
-        "PAR Rank": 131
+        "PAR Rank": 133
     },
     {
         "Player": "Jadarian Price",
@@ -1317,27 +1337,17 @@
         "Round": 5,
         "Drafted By": "No Punts Intented",
         "PAR": 12.9,
-        "PAR Rank": 132
-    },
-    {
-        "Player": "Juwan Johnson",
-        "Player ID": "33113",
-        "Position": "TE",
-        "Pick": 173,
-        "Round": 13,
-        "Drafted By": "No Punts Intented",
-        "PAR": 11.7,
-        "PAR Rank": 133
-    },
-    {
-        "Player": "Colston Loveland",
-        "Player ID": "41795",
-        "Position": "TE",
-        "Pick": 33,
-        "Round": 3,
-        "Drafted By": "No Punts Intented",
-        "PAR": 11.3,
         "PAR Rank": 134
+    },
+    {
+        "Player": "J.K. Dobbins",
+        "Player ID": "32725",
+        "Position": "RB",
+        "Pick": 80,
+        "Round": 6,
+        "Drafted By": "No Punts Intented",
+        "PAR": 12.5,
+        "PAR Rank": 135
     },
     {
         "Player": "Terry McLaurin",
@@ -1347,57 +1357,27 @@
         "Round": 4,
         "Drafted By": "Pad D's",
         "PAR": 11.0,
-        "PAR Rank": 135
-    },
-    {
-        "Player": "Texans",
-        "Player ID": "100034",
-        "Position": "DEF",
-        "Pick": 120,
-        "Round": 9,
-        "Drafted By": "Supernova\u2019s Studs",
-        "PAR": 11.0,
         "PAR Rank": 136
     },
     {
-        "Player": "Lions",
-        "Player ID": "100008",
-        "Position": "DEF",
-        "Pick": 195,
-        "Round": 14,
-        "Drafted By": "Omaha Beach Real Estate",
+        "Player": "Cameron Dicker",
+        "Player ID": "34344",
+        "Position": "K",
+        "Pick": 147,
+        "Round": 11,
+        "Drafted By": "Hunter\u2019s Hunters",
         "PAR": 11.0,
         "PAR Rank": 137
     },
     {
-        "Player": "Makai Lemon",
-        "Player ID": "42642",
-        "Position": "WR",
-        "Pick": 106,
-        "Round": 8,
-        "Drafted By": "Hunter\u2019s Hunters",
-        "PAR": 10.7,
-        "PAR Rank": 138
-    },
-    {
-        "Player": "Tank Dell",
-        "Player ID": "40097",
-        "Position": "WR",
-        "Pick": 121,
+        "Player": "Chris Rodriguez Jr.",
+        "Player ID": "40231",
+        "Position": "RB",
+        "Pick": 116,
         "Round": 9,
-        "Drafted By": "Big Bad Hokkkk",
-        "PAR": 10.1,
-        "PAR Rank": 139
-    },
-    {
-        "Player": "Jordyn Tyson",
-        "Player ID": "42630",
-        "Position": "WR",
-        "Pick": 72,
-        "Round": 6,
-        "Drafted By": "Tsuga\u2019s Tuck Shop",
+        "Drafted By": "Flow Brrr",
         "PAR": 10.0,
-        "PAR Rank": 140
+        "PAR Rank": 138
     },
     {
         "Player": "Jason Myers",
@@ -1407,27 +1387,17 @@
         "Round": 11,
         "Drafted By": "No Punts Intented",
         "PAR": 10.0,
-        "PAR Rank": 141
+        "PAR Rank": 139
     },
     {
-        "Player": "Cameron Dicker",
-        "Player ID": "34344",
-        "Position": "K",
-        "Pick": 147,
-        "Round": 11,
-        "Drafted By": "Hunter\u2019s Hunters",
+        "Player": "Lions",
+        "Player ID": "100008",
+        "Position": "DEF",
+        "Pick": 195,
+        "Round": 14,
+        "Drafted By": "Omaha Beach Real Estate",
         "PAR": 10.0,
-        "PAR Rank": 142
-    },
-    {
-        "Player": "Chris Rodriguez Jr.",
-        "Player ID": "40231",
-        "Position": "RB",
-        "Pick": 116,
-        "Round": 9,
-        "Drafted By": "Flow Brrr",
-        "PAR": 9.9,
-        "PAR Rank": 143
+        "PAR Rank": 140
     },
     {
         "Player": "Zach Charbonnet",
@@ -1437,7 +1407,7 @@
         "Round": 10,
         "Drafted By": "Supernova\u2019s Studs",
         "PAR": 9.9,
-        "PAR Rank": 144
+        "PAR Rank": 141
     },
     {
         "Player": "De'Von Achane",
@@ -1447,17 +1417,17 @@
         "Round": 2,
         "Drafted By": "The Sage's Playmakers",
         "PAR": 9.6,
-        "PAR Rank": 145
+        "PAR Rank": 142
     },
     {
-        "Player": "Ladd McConkey",
-        "Player ID": "40908",
+        "Player": "Tank Dell",
+        "Player ID": "40097",
         "Position": "WR",
-        "Pick": 44,
-        "Round": 4,
-        "Drafted By": "Tsuga\u2019s Tuck Shop",
-        "PAR": 9.6,
-        "PAR Rank": 146
+        "Pick": 121,
+        "Round": 9,
+        "Drafted By": "Big Bad Hokkkk",
+        "PAR": 8.8,
+        "PAR Rank": 143
     },
     {
         "Player": "MarShawn Lloyd",
@@ -1467,17 +1437,17 @@
         "Round": 12,
         "Drafted By": "Ma\u00eetre Stick",
         "PAR": 8.7,
-        "PAR Rank": 147
+        "PAR Rank": 144
     },
     {
-        "Player": "Brenton Strange",
-        "Player ID": "40078",
-        "Position": "TE",
-        "Pick": 146,
-        "Round": 11,
-        "Drafted By": "You gotta be Falcon kiddin me",
-        "PAR": 8.5,
-        "PAR Rank": 148
+        "Player": "Xavier Worthy",
+        "Player ID": "40877",
+        "Position": "WR",
+        "Pick": 115,
+        "Round": 9,
+        "Drafted By": "Girder\u2019s 6 Cookies",
+        "PAR": 8.6,
+        "PAR Rank": 145
     },
     {
         "Player": "Jalen Hurts",
@@ -1487,7 +1457,17 @@
         "Round": 5,
         "Drafted By": "Girder\u2019s 6 Cookies",
         "PAR": 8.02,
-        "PAR Rank": 149
+        "PAR Rank": 146
+    },
+    {
+        "Player": "Germie Bernard",
+        "Player ID": "42669",
+        "Position": "WR",
+        "Pick": 189,
+        "Round": 14,
+        "Drafted By": "Supernova\u2019s Studs",
+        "PAR": 7.8,
+        "PAR Rank": 147
     },
     {
         "Player": "Jordan Mason",
@@ -1496,18 +1476,8 @@
         "Pick": 104,
         "Round": 8,
         "Drafted By": "Big Bad Hokkkk",
-        "PAR": 7.8,
-        "PAR Rank": 150
-    },
-    {
-        "Player": "Kaelon Black",
-        "Player ID": "42712",
-        "Position": "RB",
-        "Pick": 196,
-        "Round": 14,
-        "Drafted By": "Ma\u00eetre Stick",
-        "PAR": 7.3,
-        "PAR Rank": 151
+        "PAR": 7.5,
+        "PAR Rank": 148
     },
     {
         "Player": "Tyler Loop",
@@ -1517,17 +1487,37 @@
         "Round": 14,
         "Drafted By": "You gotta be Falcon kiddin me",
         "PAR": 6.0,
-        "PAR Rank": 152
+        "PAR Rank": 149
     },
     {
-        "Player": "Keaton Mitchell",
-        "Player ID": "40641",
-        "Position": "RB",
-        "Pick": 118,
-        "Round": 9,
+        "Player": "Brenton Strange",
+        "Player ID": "40078",
+        "Position": "TE",
+        "Pick": 146,
+        "Round": 11,
         "Drafted By": "You gotta be Falcon kiddin me",
-        "PAR": 5.5,
-        "PAR Rank": 153
+        "PAR": 5.1,
+        "PAR Rank": 150
+    },
+    {
+        "Player": "Jordyn Tyson",
+        "Player ID": "42630",
+        "Position": "WR",
+        "Pick": 72,
+        "Round": 6,
+        "Drafted By": "Tsuga\u2019s Tuck Shop",
+        "PAR": 5.0,
+        "PAR Rank": 151
+    },
+    {
+        "Player": "Makai Lemon",
+        "Player ID": "42642",
+        "Position": "WR",
+        "Pick": 106,
+        "Round": 8,
+        "Drafted By": "Hunter\u2019s Hunters",
+        "PAR": 5.0,
+        "PAR Rank": 152
     },
     {
         "Player": "Jordan Addison",
@@ -1537,27 +1527,27 @@
         "Round": 7,
         "Drafted By": "Supernova\u2019s Studs",
         "PAR": 4.9,
+        "PAR Rank": 153
+    },
+    {
+        "Player": "Kaelon Black",
+        "Player ID": "42712",
+        "Position": "RB",
+        "Pick": 196,
+        "Round": 14,
+        "Drafted By": "Ma\u00eetre Stick",
+        "PAR": 4.8,
         "PAR Rank": 154
     },
     {
-        "Player": "Tre' Harris",
-        "Player ID": "41840",
-        "Position": "WR",
-        "Pick": 176,
-        "Round": 13,
-        "Drafted By": "Supernova\u2019s Studs",
-        "PAR": 4.8,
+        "Player": "Kimani Vidal",
+        "Player ID": "41052",
+        "Position": "RB",
+        "Pick": 202,
+        "Round": 15,
+        "Drafted By": "You gotta be Falcon kiddin me",
+        "PAR": 4.6,
         "PAR Rank": 155
-    },
-    {
-        "Player": "Germie Bernard",
-        "Player ID": "42669",
-        "Position": "WR",
-        "Pick": 189,
-        "Round": 14,
-        "Drafted By": "Supernova\u2019s Studs",
-        "PAR": 4.8,
-        "PAR Rank": 156
     },
     {
         "Player": "Hunter Henry",
@@ -1567,7 +1557,7 @@
         "Round": 13,
         "Drafted By": "Omaha Beach Real Estate",
         "PAR": 4.3,
-        "PAR Rank": 157
+        "PAR Rank": 156
     },
     {
         "Player": "Patriots",
@@ -1577,37 +1567,37 @@
         "Round": 13,
         "Drafted By": "Pad D's",
         "PAR": 4.0,
+        "PAR Rank": 157
+    },
+    {
+        "Player": "Juwan Johnson",
+        "Player ID": "33113",
+        "Position": "TE",
+        "Pick": 173,
+        "Round": 13,
+        "Drafted By": "No Punts Intented",
+        "PAR": 3.7,
         "PAR Rank": 158
     },
     {
-        "Player": "Xavier Worthy",
-        "Player ID": "40877",
+        "Player": "Tre' Harris",
+        "Player ID": "41840",
         "Position": "WR",
-        "Pick": 115,
-        "Round": 9,
-        "Drafted By": "Girder\u2019s 6 Cookies",
-        "PAR": 3.8,
+        "Pick": 176,
+        "Round": 13,
+        "Drafted By": "Supernova\u2019s Studs",
+        "PAR": 2.6,
         "PAR Rank": 159
     },
     {
-        "Player": "Kimani Vidal",
-        "Player ID": "41052",
+        "Player": "Keaton Mitchell",
+        "Player ID": "40641",
         "Position": "RB",
-        "Pick": 202,
-        "Round": 15,
+        "Pick": 118,
+        "Round": 9,
         "Drafted By": "You gotta be Falcon kiddin me",
-        "PAR": 2.2,
+        "PAR": 2.1,
         "PAR Rank": 160
-    },
-    {
-        "Player": "Courtland Sutton",
-        "Player ID": "31010",
-        "Position": "WR",
-        "Pick": 93,
-        "Round": 7,
-        "Drafted By": "Big Bad Hokkkk",
-        "PAR": 0.6,
-        "PAR Rank": 161
     },
     {
         "Player": "Jayden Higgins",
@@ -1617,7 +1607,7 @@
         "Round": 10,
         "Drafted By": "Revy\u2019s Konstruction",
         "PAR": 0.0,
-        "PAR Rank": 162
+        "PAR Rank": 161
     },
     {
         "Player": "Isiah Pacheco",
@@ -1627,7 +1617,7 @@
         "Round": 10,
         "Drafted By": "No Punts Intented",
         "PAR": 0.0,
-        "PAR Rank": 163
+        "PAR Rank": 162
     },
     {
         "Player": "Tyreek Hill",
@@ -1637,7 +1627,7 @@
         "Round": 12,
         "Drafted By": "Supernova\u2019s Studs",
         "PAR": 0.0,
-        "PAR Rank": 164
+        "PAR Rank": 163
     },
     {
         "Player": "Diego Pavia",
@@ -1647,17 +1637,7 @@
         "Round": 15,
         "Drafted By": "Pad D's",
         "PAR": 0.0,
-        "PAR Rank": 165
-    },
-    {
-        "Player": "Bo Nix",
-        "Player ID": "40875",
-        "Position": "QB",
-        "Pick": 157,
-        "Round": 12,
-        "Drafted By": "The Sage's Playmakers",
-        "PAR": -0.2,
-        "PAR Rank": 166
+        "PAR Rank": 164
     },
     {
         "Player": "Jonathon Brooks",
@@ -1667,7 +1647,7 @@
         "Round": 7,
         "Drafted By": "Hunter\u2019s Hunters",
         "PAR": -0.7,
-        "PAR Rank": 167
+        "PAR Rank": 165
     },
     {
         "Player": "TreVeyon Henderson",
@@ -1677,7 +1657,7 @@
         "Round": 4,
         "Drafted By": "Ma\u00eetre Stick",
         "PAR": -1.2,
-        "PAR Rank": 168
+        "PAR Rank": 166
     },
     {
         "Player": "Alec Pierce",
@@ -1687,7 +1667,7 @@
         "Round": 7,
         "Drafted By": "Flow Brrr",
         "PAR": -1.8,
-        "PAR Rank": 169
+        "PAR Rank": 167
     },
     {
         "Player": "Kyle Pitts Sr.",
@@ -1697,7 +1677,17 @@
         "Round": 6,
         "Drafted By": "You gotta be Falcon kiddin me",
         "PAR": -2.0,
-        "PAR Rank": 170
+        "PAR Rank": 168
+    },
+    {
+        "Player": "Chig Okonkwo",
+        "Player ID": "34099",
+        "Position": "TE",
+        "Pick": 179,
+        "Round": 13,
+        "Drafted By": "Revy\u2019s Konstruction",
+        "PAR": -2.1,
+        "PAR Rank": 169
     },
     {
         "Player": "Jaxson Dart",
@@ -1707,6 +1697,16 @@
         "Round": 8,
         "Drafted By": "You gotta be Falcon kiddin me",
         "PAR": -2.6,
+        "PAR Rank": 170
+    },
+    {
+        "Player": "Bo Nix",
+        "Player ID": "40875",
+        "Position": "QB",
+        "Pick": 157,
+        "Round": 12,
+        "Drafted By": "The Sage's Playmakers",
+        "PAR": -2.7,
         "PAR Rank": 171
     },
     {
@@ -1720,16 +1720,6 @@
         "PAR Rank": 172
     },
     {
-        "Player": "Eddy Pineiro",
-        "Player ID": "31482",
-        "Position": "K",
-        "Pick": 181,
-        "Round": 13,
-        "Drafted By": "Tsuga\u2019s Tuck Shop",
-        "PAR": -3.0,
-        "PAR Rank": 173
-    },
-    {
         "Player": "Tyrone Tracy Jr.",
         "Player ID": "41048",
         "Position": "RB",
@@ -1737,7 +1727,7 @@
         "Round": 9,
         "Drafted By": "Omaha Beach Real Estate",
         "PAR": -3.1,
-        "PAR Rank": 174
+        "PAR Rank": 173
     },
     {
         "Player": "Tyjae Spears",
@@ -1747,17 +1737,7 @@
         "Round": 11,
         "Drafted By": "Ma\u00eetre Stick",
         "PAR": -4.1,
-        "PAR Rank": 175
-    },
-    {
-        "Player": "Chig Okonkwo",
-        "Player ID": "34099",
-        "Position": "TE",
-        "Pick": 179,
-        "Round": 13,
-        "Drafted By": "Revy\u2019s Konstruction",
-        "PAR": -4.7,
-        "PAR Rank": 176
+        "PAR Rank": 174
     },
     {
         "Player": "James Conner",
@@ -1767,17 +1747,17 @@
         "Round": 13,
         "Drafted By": "The Sage's Playmakers",
         "PAR": -5.0,
-        "PAR Rank": 177
+        "PAR Rank": 175
     },
     {
-        "Player": "Chris Godwin Jr.",
-        "Player ID": "30197",
-        "Position": "WR",
-        "Pick": 83,
-        "Round": 6,
-        "Drafted By": "Omaha Beach Real Estate",
-        "PAR": -5.1,
-        "PAR Rank": 178
+        "Player": "Eddy Pineiro",
+        "Player ID": "31482",
+        "Position": "K",
+        "Pick": 181,
+        "Round": 13,
+        "Drafted By": "Tsuga\u2019s Tuck Shop",
+        "PAR": -5.0,
+        "PAR Rank": 176
     },
     {
         "Player": "Michael Pittman Jr.",
@@ -1787,27 +1767,17 @@
         "Round": 8,
         "Drafted By": "The Sage's Playmakers",
         "PAR": -5.1,
-        "PAR Rank": 179
+        "PAR Rank": 177
     },
     {
-        "Player": "Mark Andrews",
-        "Player ID": "31056",
-        "Position": "TE",
-        "Pick": 126,
-        "Round": 9,
-        "Drafted By": "Pad D's",
-        "PAR": -5.1,
-        "PAR Rank": 180
-    },
-    {
-        "Player": "Chargers",
-        "Player ID": "100024",
-        "Position": "DEF",
-        "Pick": 184,
-        "Round": 14,
-        "Drafted By": "Tsuga\u2019s Tuck Shop",
-        "PAR": -6.0,
-        "PAR Rank": 181
+        "Player": "Courtland Sutton",
+        "Player ID": "31010",
+        "Position": "WR",
+        "Pick": 93,
+        "Round": 7,
+        "Drafted By": "Big Bad Hokkkk",
+        "PAR": -6.4,
+        "PAR Rank": 178
     },
     {
         "Player": "De'Zhaun Stribling",
@@ -1817,7 +1787,7 @@
         "Round": 12,
         "Drafted By": "Tsuga\u2019s Tuck Shop",
         "PAR": -7.0,
-        "PAR Rank": 182
+        "PAR Rank": 179
     },
     {
         "Player": "Jayden Reed",
@@ -1827,7 +1797,17 @@
         "Round": 8,
         "Drafted By": "Ozzy Stick",
         "PAR": -7.6,
-        "PAR Rank": 183
+        "PAR Rank": 180
+    },
+    {
+        "Player": "Chris Godwin Jr.",
+        "Player ID": "30197",
+        "Position": "WR",
+        "Pick": 83,
+        "Round": 6,
+        "Drafted By": "Omaha Beach Real Estate",
+        "PAR": -7.8,
+        "PAR Rank": 181
     },
     {
         "Player": "Tank Bigsby",
@@ -1837,17 +1817,7 @@
         "Round": 11,
         "Drafted By": "Omaha Beach Real Estate",
         "PAR": -7.9,
-        "PAR Rank": 184
-    },
-    {
-        "Player": "Quentin Johnston",
-        "Player ID": "40051",
-        "Position": "WR",
-        "Pick": 89,
-        "Round": 7,
-        "Drafted By": "No Punts Intented",
-        "PAR": -8.6,
-        "PAR Rank": 185
+        "PAR Rank": 182
     },
     {
         "Player": "Mike Washington Jr.",
@@ -1856,8 +1826,18 @@
         "Pick": 183,
         "Round": 14,
         "Drafted By": "Pad D's",
-        "PAR": -8.7,
-        "PAR Rank": 186
+        "PAR": -9.5,
+        "PAR Rank": 183
+    },
+    {
+        "Player": "Mark Andrews",
+        "Player ID": "31056",
+        "Position": "TE",
+        "Pick": 126,
+        "Round": 9,
+        "Drafted By": "Pad D's",
+        "PAR": -9.7,
+        "PAR Rank": 184
     },
     {
         "Player": "Lamar Jackson",
@@ -1867,6 +1847,26 @@
         "Round": 3,
         "Drafted By": "Pad D's",
         "PAR": -9.92,
+        "PAR Rank": 185
+    },
+    {
+        "Player": "Chargers",
+        "Player ID": "100024",
+        "Position": "DEF",
+        "Pick": 184,
+        "Round": 14,
+        "Drafted By": "Tsuga\u2019s Tuck Shop",
+        "PAR": -10.0,
+        "PAR Rank": 186
+    },
+    {
+        "Player": "Ravens",
+        "Player ID": "100033",
+        "Position": "DEF",
+        "Pick": 200,
+        "Round": 15,
+        "Drafted By": "Flow Brrr",
+        "PAR": -11.0,
         "PAR Rank": 187
     },
     {
@@ -1890,6 +1890,16 @@
         "PAR Rank": 189
     },
     {
+        "Player": "Quentin Johnston",
+        "Player ID": "40051",
+        "Position": "WR",
+        "Pick": 89,
+        "Round": 7,
+        "Drafted By": "No Punts Intented",
+        "PAR": -13.6,
+        "PAR Rank": 190
+    },
+    {
         "Player": "Jalen McMillan",
         "Player ID": "40954",
         "Position": "WR",
@@ -1897,17 +1907,17 @@
         "Round": 10,
         "Drafted By": "Hunter\u2019s Hunters",
         "PAR": -14.0,
-        "PAR Rank": 190
+        "PAR Rank": 191
     },
     {
-        "Player": "Ravens",
-        "Player ID": "100033",
+        "Player": "Eagles",
+        "Player ID": "100021",
         "Position": "DEF",
-        "Pick": 200,
-        "Round": 15,
-        "Drafted By": "Flow Brrr",
-        "PAR": -15.0,
-        "PAR Rank": 191
+        "Pick": 185,
+        "Round": 14,
+        "Drafted By": "The Sage's Playmakers",
+        "PAR": -17.0,
+        "PAR Rank": 192
     },
     {
         "Player": "Jake Ferguson",
@@ -1917,27 +1927,7 @@
         "Round": 10,
         "Drafted By": "Big Bad Hokkkk",
         "PAR": -17.4,
-        "PAR Rank": 192
-    },
-    {
-        "Player": "Eagles",
-        "Player ID": "100021",
-        "Position": "DEF",
-        "Pick": 185,
-        "Round": 14,
-        "Drafted By": "The Sage's Playmakers",
-        "PAR": -18.0,
         "PAR Rank": 193
-    },
-    {
-        "Player": "Jaydon Blue",
-        "Player ID": "41935",
-        "Position": "RB",
-        "Pick": 166,
-        "Round": 12,
-        "Drafted By": "Girder\u2019s 6 Cookies",
-        "PAR": -18.1,
-        "PAR Rank": 194
     },
     {
         "Player": "Sam Darnold",
@@ -1947,7 +1937,7 @@
         "Round": 14,
         "Drafted By": "Hunter\u2019s Hunters",
         "PAR": -18.68,
-        "PAR Rank": 195
+        "PAR Rank": 194
     },
     {
         "Player": "Rashid Shaheed",
@@ -1957,27 +1947,27 @@
         "Round": 8,
         "Drafted By": "Omaha Beach Real Estate",
         "PAR": -19.0,
+        "PAR Rank": 195
+    },
+    {
+        "Player": "Justin Herbert",
+        "Player ID": "32676",
+        "Position": "QB",
+        "Pick": 77,
+        "Round": 6,
+        "Drafted By": "Supernova\u2019s Studs",
+        "PAR": -19.66,
         "PAR Rank": 196
     },
     {
-        "Player": "Greg Dulcich",
-        "Player ID": "34036",
-        "Position": "TE",
-        "Pick": 209,
-        "Round": 15,
-        "Drafted By": "Tsuga\u2019s Tuck Shop",
-        "PAR": -19.0,
-        "PAR Rank": 197
-    },
-    {
-        "Player": "Isaac TeSlaa",
-        "Player ID": "41865",
+        "Player": "Brian Thomas Jr.",
+        "Player ID": "40883",
         "Position": "WR",
-        "Pick": 174,
-        "Round": 13,
-        "Drafted By": "You gotta be Falcon kiddin me",
-        "PAR": -21.5,
-        "PAR Rank": 198
+        "Pick": 74,
+        "Round": 6,
+        "Drafted By": "Revy\u2019s Konstruction",
+        "PAR": -21.6,
+        "PAR Rank": 197
     },
     {
         "Player": "Jerry Jeudy",
@@ -1987,16 +1977,26 @@
         "Round": 13,
         "Drafted By": "Girder\u2019s 6 Cookies",
         "PAR": -21.8,
+        "PAR Rank": 198
+    },
+    {
+        "Player": "Greg Dulcich",
+        "Player ID": "34036",
+        "Position": "TE",
+        "Pick": 209,
+        "Round": 15,
+        "Drafted By": "Tsuga\u2019s Tuck Shop",
+        "PAR": -23.8,
         "PAR Rank": 199
     },
     {
-        "Player": "Brian Thomas Jr.",
-        "Player ID": "40883",
-        "Position": "WR",
-        "Pick": 74,
-        "Round": 6,
-        "Drafted By": "Revy\u2019s Konstruction",
-        "PAR": -23.4,
+        "Player": "Jaydon Blue",
+        "Player ID": "41935",
+        "Position": "RB",
+        "Pick": 166,
+        "Round": 12,
+        "Drafted By": "Girder\u2019s 6 Cookies",
+        "PAR": -25.1,
         "PAR Rank": 200
     },
     {
@@ -2006,28 +2006,8 @@
         "Pick": 169,
         "Round": 13,
         "Drafted By": "Ma\u00eetre Stick",
-        "PAR": -23.9,
+        "PAR": -25.9,
         "PAR Rank": 201
-    },
-    {
-        "Player": "Justin Herbert",
-        "Player ID": "32676",
-        "Position": "QB",
-        "Pick": 77,
-        "Round": 6,
-        "Drafted By": "Supernova\u2019s Studs",
-        "PAR": -27.1,
-        "PAR Rank": 202
-    },
-    {
-        "Player": "Oronde Gadsden",
-        "Player ID": "41951",
-        "Position": "TE",
-        "Pick": 177,
-        "Round": 13,
-        "Drafted By": "Big Bad Hokkkk",
-        "PAR": -27.9,
-        "PAR Rank": 203
     },
     {
         "Player": "Kyler Murray",
@@ -2037,17 +2017,27 @@
         "Round": 15,
         "Drafted By": "Big Bad Hokkkk",
         "PAR": -28.42,
-        "PAR Rank": 204
+        "PAR Rank": 202
     },
     {
-        "Player": "Darnell Mooney",
-        "Player ID": "32843",
+        "Player": "Isaac TeSlaa",
+        "Player ID": "41865",
         "Position": "WR",
-        "Pick": 197,
+        "Pick": 174,
+        "Round": 13,
+        "Drafted By": "You gotta be Falcon kiddin me",
+        "PAR": -28.5,
+        "PAR Rank": 203
+    },
+    {
+        "Player": "Baker Mayfield",
+        "Player ID": "30971",
+        "Position": "QB",
+        "Pick": 198,
         "Round": 15,
-        "Drafted By": "Ma\u00eetre Stick",
-        "PAR": -28.7,
-        "PAR Rank": 205
+        "Drafted By": "Omaha Beach Real Estate",
+        "PAR": -31.04,
+        "PAR Rank": 204
     },
     {
         "Player": "Jalen Nailor",
@@ -2056,7 +2046,17 @@
         "Pick": 135,
         "Round": 10,
         "Drafted By": "You gotta be Falcon kiddin me",
-        "PAR": -29.9,
+        "PAR": -34.3,
+        "PAR Rank": 205
+    },
+    {
+        "Player": "Darnell Mooney",
+        "Player ID": "32843",
+        "Position": "WR",
+        "Pick": 197,
+        "Round": 15,
+        "Drafted By": "Ma\u00eetre Stick",
+        "PAR": -35.7,
         "PAR Rank": 206
     },
     {
@@ -2066,17 +2066,17 @@
         "Pick": 159,
         "Round": 12,
         "Drafted By": "Ozzy Stick",
-        "PAR": -32.8,
+        "PAR": -35.9,
         "PAR Rank": 207
     },
     {
-        "Player": "Baker Mayfield",
-        "Player ID": "30971",
-        "Position": "QB",
-        "Pick": 198,
-        "Round": 15,
-        "Drafted By": "Omaha Beach Real Estate",
-        "PAR": -35.12,
+        "Player": "Oronde Gadsden",
+        "Player ID": "41951",
+        "Position": "TE",
+        "Pick": 177,
+        "Round": 13,
+        "Drafted By": "Big Bad Hokkkk",
+        "PAR": -35.9,
         "PAR Rank": 208
     },
     {
@@ -2086,7 +2086,7 @@
         "Pick": 154,
         "Round": 11,
         "Drafted By": "Pad D's",
-        "PAR": -37.6,
+        "PAR": -39.6,
         "PAR Rank": 209
     },
     {
@@ -2096,7 +2096,7 @@
         "Pick": 148,
         "Round": 11,
         "Drafted By": "Supernova\u2019s Studs",
-        "PAR": -39.8,
+        "PAR": -44.6,
         "PAR Rank": 210
     }
 ]

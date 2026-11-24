@@ -17,6 +17,15 @@
     "team_name": "Maître Stick",
     "is_commissioner": false
   },
+  "8": {
+    "manager_id": "8",
+    "name": null,
+    "nickname": "Andrew",
+    "guid": "--hidden--",
+    "team_key": "470.l.205662.t.8",
+    "team_name": "Omaha Beach Real Estate",
+    "is_commissioner": false
+  },
   "2": {
     "manager_id": "2",
     "name": null,
@@ -44,13 +53,13 @@
     "team_name": "No Punts Intented",
     "is_commissioner": false
   },
-  "8": {
-    "manager_id": "8",
+  "4": {
+    "manager_id": "4",
     "name": null,
-    "nickname": "Andrew",
+    "nickname": "Nate",
     "guid": "--hidden--",
-    "team_key": "470.l.205662.t.8",
-    "team_name": "Omaha Beach Real Estate",
+    "team_key": "470.l.205662.t.4",
+    "team_name": "Big Bad Hokkkk",
     "is_commissioner": false
   },
   "3": {
@@ -69,15 +78,6 @@
     "guid": "--hidden--",
     "team_key": "470.l.205662.t.5",
     "team_name": "Hunter’s Hunters",
-    "is_commissioner": false
-  },
-  "4": {
-    "manager_id": "4",
-    "name": null,
-    "nickname": "Nate",
-    "guid": "--hidden--",
-    "team_key": "470.l.205662.t.4",
-    "team_name": "Big Bad Hokkkk",
     "is_commissioner": false
   },
   "13": {
