@@ -42,6 +42,7 @@ function NavBar() {
         <li><Link to="/team-pages" onClick={closeMenu}>Team Pages</Link></li>
         <li><Link to="/pot-tracker" onClick={closeMenu}>Pot Tracker</Link></li>
         <li><Link to="/GTM" onClick={closeMenu}>GTM</Link></li>
+        <li><Link to="/Player-Analysis" onClick={closeMenu}>Player Analysis</Link></li>
       </ul>
     </nav>
   );
