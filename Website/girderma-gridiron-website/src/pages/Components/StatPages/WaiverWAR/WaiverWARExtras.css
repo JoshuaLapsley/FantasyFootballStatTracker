@@ -1,0 +1,178 @@
+.waiver-war__header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.waiver-war__title {
+  margin: 0;
+}
+
+.waiver-war__desc {
+  margin: 0.25rem 0 0;
+  opacity: 0.7;
+}
+
+.waiver-war__empty {
+  opacity: 0.7;
+}
+
+/* Mode toggle + position filters share a segmented look */
+.waiver-war__modes,
+.waiver-war__filters {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.waiver-war__modes button,
+.waiver-war__filters button,
+.waiver-war__zoom-controls button {
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: 1px solid currentColor;
+  border-color: color-mix(in srgb, currentColor 25%, transparent);
+  border-radius: 6px;
+  padding: 0.35rem 0.8rem;
+  cursor: pointer;
+}
+
+.waiver-war__modes button.is-active,
+.waiver-war__filters button.is-active {
+  background: currentColor;
+  background: color-mix(in srgb, currentColor 14%, transparent);
+  border-color: currentColor;
+  font-weight: 600;
+}
+
+.waiver-war__modes button:focus-visible,
+.waiver-war__filters button:focus-visible,
+.waiver-war__zoom-controls button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* Zoom viewer */
+.waiver-war__zoom {
+  position: relative;
+}
+
+.waiver-war__zoom-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 0.5rem;
+}
+
+.waiver-war__zoom-controls button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem;
+}
+
+.waiver-war__zoom-controls button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.waiver-war__zoom-level {
+  min-width: 3.5rem;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.waiver-war__zoom-viewport {
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  touch-action: none; /* we handle pan ourselves */
+  cursor: zoom-in;
+  user-select: none;
+}
+
+.waiver-war__zoom-viewport.is-zoomed {
+  cursor: grab;
+}
+
+.waiver-war__zoom-viewport.is-dragging {
+  cursor: grabbing;
+}
+
+.waiver-war__zoom-viewport img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transform-origin: 0 0;
+  will-change: transform;
+}
+
+.waiver-war__zoom-hint {
+  margin: 0.5rem 0 0;
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+
+/* Leaderboard */
+.waiver-war__filters {
+  margin-bottom: 0.75rem;
+}
+
+.waiver-war__table-wrap {
+  overflow-x: auto;
+}
+
+.waiver-war__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.waiver-war__table th,
+.waiver-war__table td {
+  padding: 0.55rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  vertical-align: top;
+}
+
+.waiver-war__table th {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.waiver-war__table .num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.waiver-war__player {
+  font-weight: 600;
+}
+
+.waiver-war__pos,
+.waiver-war__team {
+  display: block;
+  font-size: 0.8rem;
+  opacity: 0.65;
+}
+
+.waiver-war__war.is-pos {
+  color: #2f9e5b;
+  font-weight: 600;
+}
+
+.waiver-war__war.is-neg {
+  color: #c4493f;
+}
+
+@media (max-width: 600px) {
+  .waiver-war__table th,
+  .waiver-war__table td {
+    padding: 0.45rem 0.5rem;
+  }
+}

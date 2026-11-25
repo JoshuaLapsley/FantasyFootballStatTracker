@@ -5,6 +5,8 @@ from pathlib import Path
 
 
 
+
+
 # RunWeekly.py is at <root>/PythonData/Refactor/CurrentSeason/, so parents[3] is the project root
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -43,6 +45,8 @@ from PythonData.APICallsAndStats.DataFunctions.Simulate_ROS import run
 from PythonData.APICallsAndStats.APIFunctions.GetManagerData import write_managers_file
 
 from PythonData.APICallsAndStats.DataFunctions.GTM import write_gtm_file
+
+from PythonData.APICallsAndStats.DataFunctions.TeamRankOverTime import create_bump_chart
 
 
 
@@ -150,5 +154,11 @@ WEBSITE_DIR_GTM = (PROJECT_ROOT / "Website" / "girderma-gridiron-website"
 # write_gtm_file(2024)
 # write_gtm_file(2025)
 # write_gtm_file(2026)
+create_bump_chart(
+    lg2026,
+    f"{DATA_DIR}/TeamRankOverTime",
+    start_week=1,
+    end_week=14,
+)
 copy_dir(DATA_DIR, WEBSITE_DIR)
 copy_dir(GTM_DIR, WEBSITE_DIR_GTM)

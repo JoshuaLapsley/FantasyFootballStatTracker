@@ -1,0 +1,947 @@
+{
+  "year": 2024,
+  "trades": [
+    {
+      "transaction_id": "134",
+      "date": "2024-09-27T07:18:58+00:00",
+      "players": [
+        {
+          "name": "Tee Higgins",
+          "position": "WR",
+          "from_team": "Spirally Things",
+          "to_team": "Tsuga’s Tuck Shop"
+        },
+        {
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Spirally Things"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Spirally Things",
+          "weekly_points_gained": [
+            {
+              "week": 4,
+              "points_gained": 0.0
+            },
+            {
+              "week": 5,
+              "points_gained": -22.7
+            },
+            {
+              "week": 6,
+              "points_gained": -7.7
+            },
+            {
+              "week": 7,
+              "points_gained": 0.0
+            },
+            {
+              "week": 8,
+              "points_gained": 4.3
+            },
+            {
+              "week": 9,
+              "points_gained": -8.5
+            },
+            {
+              "week": 10,
+              "points_gained": 3.7
+            },
+            {
+              "week": 11,
+              "points_gained": -24.1
+            },
+            {
+              "week": 12,
+              "points_gained": 0.0
+            },
+            {
+              "week": 13,
+              "points_gained": 9.6
+            },
+            {
+              "week": 14,
+              "points_gained": 10.6
+            },
+            {
+              "week": 15,
+              "points_gained": -6.5
+            },
+            {
+              "week": 16,
+              "points_gained": -1.6
+            },
+            {
+              "week": 17,
+              "points_gained": -4.0
+            }
+          ],
+          "net_points_gained": -46.9,
+          "avg_points_gained_per_week": -3.35
+        },
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 4,
+              "points_gained": 0.2
+            },
+            {
+              "week": 5,
+              "points_gained": 20.7
+            },
+            {
+              "week": 6,
+              "points_gained": 7.8
+            },
+            {
+              "week": 7,
+              "points_gained": 14.8
+            },
+            {
+              "week": 8,
+              "points_gained": 8.62
+            },
+            {
+              "week": 9,
+              "points_gained": 7.7
+            },
+            {
+              "week": 10,
+              "points_gained": 7.7
+            },
+            {
+              "week": 11,
+              "points_gained": 15.0
+            },
+            {
+              "week": 12,
+              "points_gained": 0.0
+            },
+            {
+              "week": 13,
+              "points_gained": 9.3
+            },
+            {
+              "week": 14,
+              "points_gained": -16.6
+            },
+            {
+              "week": 15,
+              "points_gained": 14.7
+            },
+            {
+              "week": 16,
+              "points_gained": 10.7
+            },
+            {
+              "week": 17,
+              "points_gained": 26.4
+            }
+          ],
+          "net_points_gained": 127.02,
+          "avg_points_gained_per_week": 9.07
+        }
+      ]
+    },
+    {
+      "transaction_id": "159",
+      "date": "2024-10-03T07:16:39+00:00",
+      "players": [
+        {
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "The Sage's Playmakers"
+        },
+        {
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "from_team": "The Sage's Playmakers",
+          "to_team": "Tsuga’s Tuck Shop"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 5,
+              "points_gained": -13.7
+            },
+            {
+              "week": 6,
+              "points_gained": -8.4
+            },
+            {
+              "week": 7,
+              "points_gained": -1.6
+            },
+            {
+              "week": 8,
+              "points_gained": 7.7
+            },
+            {
+              "week": 9,
+              "points_gained": 3.3
+            },
+            {
+              "week": 10,
+              "points_gained": -16.4
+            },
+            {
+              "week": 11,
+              "points_gained": 12.6
+            },
+            {
+              "week": 12,
+              "points_gained": -6.1
+            },
+            {
+              "week": 13,
+              "points_gained": 6.5
+            },
+            {
+              "week": 14,
+              "points_gained": -9.7
+            },
+            {
+              "week": 15,
+              "points_gained": 3.6
+            },
+            {
+              "week": 16,
+              "points_gained": -26.8
+            },
+            {
+              "week": 17,
+              "points_gained": 6.8
+            }
+          ],
+          "net_points_gained": -42.2,
+          "avg_points_gained_per_week": -3.25
+        },
+        {
+          "team": "The Sage's Playmakers",
+          "weekly_points_gained": [
+            {
+              "week": 5,
+              "points_gained": 1.4
+            },
+            {
+              "week": 6,
+              "points_gained": -2.9
+            },
+            {
+              "week": 7,
+              "points_gained": 1.6
+            },
+            {
+              "week": 8,
+              "points_gained": -7.7
+            },
+            {
+              "week": 9,
+              "points_gained": -3.3
+            },
+            {
+              "week": 10,
+              "points_gained": 16.4
+            },
+            {
+              "week": 11,
+              "points_gained": -0.2
+            },
+            {
+              "week": 12,
+              "points_gained": 6.1
+            },
+            {
+              "week": 13,
+              "points_gained": -5.1
+            },
+            {
+              "week": 14,
+              "points_gained": 13.0
+            },
+            {
+              "week": 15,
+              "points_gained": 4.6
+            },
+            {
+              "week": 16,
+              "points_gained": 8.4
+            },
+            {
+              "week": 17,
+              "points_gained": -13.1
+            }
+          ],
+          "net_points_gained": 19.2,
+          "avg_points_gained_per_week": 1.48
+        }
+      ]
+    },
+    {
+      "transaction_id": "267",
+      "date": "2024-10-26T07:23:28+00:00",
+      "players": [
+        {
+          "name": "Tee Higgins",
+          "position": "WR",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "The Sage's Playmakers"
+        },
+        {
+          "name": "DK Metcalf",
+          "position": "WR",
+          "from_team": "The Sage's Playmakers",
+          "to_team": "Tsuga’s Tuck Shop"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 8,
+              "points_gained": 0.0
+            },
+            {
+              "week": 9,
+              "points_gained": 0.0
+            },
+            {
+              "week": 10,
+              "points_gained": 0.0
+            },
+            {
+              "week": 11,
+              "points_gained": -15.8
+            },
+            {
+              "week": 12,
+              "points_gained": 0.9
+            },
+            {
+              "week": 13,
+              "points_gained": -7.3
+            },
+            {
+              "week": 14,
+              "points_gained": 4.6
+            },
+            {
+              "week": 15,
+              "points_gained": -14.7
+            },
+            {
+              "week": 16,
+              "points_gained": -10.7
+            },
+            {
+              "week": 17,
+              "points_gained": -26.4
+            }
+          ],
+          "net_points_gained": -69.4,
+          "avg_points_gained_per_week": -6.94
+        },
+        {
+          "team": "The Sage's Playmakers",
+          "weekly_points_gained": [
+            {
+              "week": 8,
+              "points_gained": 0.0
+            },
+            {
+              "week": 9,
+              "points_gained": 0.0
+            },
+            {
+              "week": 10,
+              "points_gained": 0.0
+            },
+            {
+              "week": 11,
+              "points_gained": 15.8
+            },
+            {
+              "week": 12,
+              "points_gained": 2.4
+            },
+            {
+              "week": 13,
+              "points_gained": 7.3
+            },
+            {
+              "week": 14,
+              "points_gained": -4.6
+            },
+            {
+              "week": 15,
+              "points_gained": 14.0
+            },
+            {
+              "week": 16,
+              "points_gained": 5.1
+            },
+            {
+              "week": 17,
+              "points_gained": 32.9
+            }
+          ],
+          "net_points_gained": 72.9,
+          "avg_points_gained_per_week": 7.29
+        }
+      ]
+    },
+    {
+      "transaction_id": "314",
+      "date": "2024-11-09T08:28:18+00:00",
+      "players": [
+        {
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "from_team": "Revy’s Konstruction",
+          "to_team": "Tsuga’s Tuck Shop"
+        },
+        {
+          "name": "Travis Etienne Jr.",
+          "position": "RB",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Revy’s Konstruction"
+        },
+        {
+          "name": "Zach Ertz",
+          "position": "TE",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Revy’s Konstruction"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Revy’s Konstruction",
+          "weekly_points_gained": [
+            {
+              "week": 10,
+              "points_gained": -0.9
+            },
+            {
+              "week": 11,
+              "points_gained": 0.0
+            },
+            {
+              "week": 12,
+              "points_gained": -10.4
+            },
+            {
+              "week": 13,
+              "points_gained": -6.5
+            },
+            {
+              "week": 14,
+              "points_gained": 0.4
+            },
+            {
+              "week": 15,
+              "points_gained": -1.1
+            },
+            {
+              "week": 16,
+              "points_gained": -0.4
+            },
+            {
+              "week": 17,
+              "points_gained": -3.8
+            }
+          ],
+          "net_points_gained": -22.7,
+          "avg_points_gained_per_week": -2.84
+        },
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 10,
+              "points_gained": 0.0
+            },
+            {
+              "week": 11,
+              "points_gained": 0.0
+            },
+            {
+              "week": 12,
+              "points_gained": 0.0
+            },
+            {
+              "week": 13,
+              "points_gained": -10.3
+            },
+            {
+              "week": 14,
+              "points_gained": -1.2
+            },
+            {
+              "week": 15,
+              "points_gained": -1.7
+            },
+            {
+              "week": 16,
+              "points_gained": 5.7
+            },
+            {
+              "week": 17,
+              "points_gained": 0.0
+            }
+          ],
+          "net_points_gained": -7.5,
+          "avg_points_gained_per_week": -0.94
+        }
+      ]
+    },
+    {
+      "transaction_id": "325",
+      "date": "2024-11-13T09:03:20+00:00",
+      "players": [
+        {
+          "name": "Tua Tagovailoa",
+          "position": "QB",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "The Sage's Playmakers"
+        },
+        {
+          "name": "Taysom Hill",
+          "position": "QB,TE",
+          "from_team": "The Sage's Playmakers",
+          "to_team": "Tsuga’s Tuck Shop"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 11,
+              "points_gained": 0.0
+            },
+            {
+              "week": 12,
+              "points_gained": 0.0
+            },
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": -8.54
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": 0.0
+            },
+            {
+              "week": 17,
+              "points_gained": 0.0
+            }
+          ],
+          "net_points_gained": -8.54,
+          "avg_points_gained_per_week": -1.22
+        },
+        {
+          "team": "The Sage's Playmakers",
+          "weekly_points_gained": [
+            {
+              "week": 11,
+              "points_gained": 0.0
+            },
+            {
+              "week": 12,
+              "points_gained": 7.38
+            },
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": 0.0
+            },
+            {
+              "week": 17,
+              "points_gained": 0.0
+            }
+          ],
+          "net_points_gained": 7.38,
+          "avg_points_gained_per_week": 1.05
+        }
+      ]
+    },
+    {
+      "transaction_id": "343",
+      "date": "2024-11-14T08:24:49+00:00",
+      "players": [
+        {
+          "name": "Tyler Lockett",
+          "position": "WR",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Omaha Beach Real Estate"
+        },
+        {
+          "name": "Diontae Johnson",
+          "position": "WR",
+          "from_team": "Omaha Beach Real Estate",
+          "to_team": "Tsuga’s Tuck Shop"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 11,
+              "points_gained": 0.0
+            },
+            {
+              "week": 12,
+              "points_gained": 0.0
+            },
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": 0.0
+            },
+            {
+              "week": 17,
+              "points_gained": 0.0
+            }
+          ],
+          "net_points_gained": 0.0,
+          "avg_points_gained_per_week": 0.0
+        },
+        {
+          "team": "Omaha Beach Real Estate",
+          "weekly_points_gained": [
+            {
+              "week": 11,
+              "points_gained": 0.0
+            },
+            {
+              "week": 12,
+              "points_gained": 0.0
+            },
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": 0.0
+            },
+            {
+              "week": 17,
+              "points_gained": 0.0
+            }
+          ],
+          "net_points_gained": 0.0,
+          "avg_points_gained_per_week": 0.0
+        }
+      ]
+    },
+    {
+      "transaction_id": "342",
+      "date": "2024-11-14T08:24:49+00:00",
+      "players": [
+        {
+          "name": "DJ Moore",
+          "position": "WR",
+          "from_team": "The Sage's Playmakers",
+          "to_team": "Ozzy Stick"
+        },
+        {
+          "name": "Austin Ekeler",
+          "position": "RB",
+          "from_team": "Ozzy Stick",
+          "to_team": "The Sage's Playmakers"
+        }
+      ],
+      "managers": [
+        {
+          "team": "The Sage's Playmakers",
+          "weekly_points_gained": [
+            {
+              "week": 11,
+              "points_gained": -1.1
+            },
+            {
+              "week": 12,
+              "points_gained": -19.9
+            },
+            {
+              "week": 13,
+              "points_gained": -18.7
+            },
+            {
+              "week": 14,
+              "points_gained": 9.3
+            },
+            {
+              "week": 15,
+              "points_gained": -15.0
+            },
+            {
+              "week": 16,
+              "points_gained": -0.8
+            },
+            {
+              "week": 17,
+              "points_gained": -6.5
+            }
+          ],
+          "net_points_gained": -52.7,
+          "avg_points_gained_per_week": -7.53
+        },
+        {
+          "team": "Ozzy Stick",
+          "weekly_points_gained": [
+            {
+              "week": 11,
+              "points_gained": -8.9
+            },
+            {
+              "week": 12,
+              "points_gained": 0.0
+            },
+            {
+              "week": 13,
+              "points_gained": 2.4
+            },
+            {
+              "week": 14,
+              "points_gained": -2.5
+            },
+            {
+              "week": 15,
+              "points_gained": -4.8
+            },
+            {
+              "week": 16,
+              "points_gained": 1.8
+            },
+            {
+              "week": 17,
+              "points_gained": -12.3
+            }
+          ],
+          "net_points_gained": -24.3,
+          "avg_points_gained_per_week": -3.47
+        }
+      ]
+    },
+    {
+      "transaction_id": "357",
+      "date": "2024-11-19T08:26:09+00:00",
+      "players": [
+        {
+          "name": "Brian Robinson Jr.",
+          "position": "RB",
+          "from_team": "Flows Aggressive Insurance",
+          "to_team": "Tsuga’s Tuck Shop"
+        },
+        {
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Flows Aggressive Insurance"
+        },
+        {
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Flows Aggressive Insurance"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Flows Aggressive Insurance",
+          "weekly_points_gained": [
+            {
+              "week": 12,
+              "points_gained": 24.0
+            },
+            {
+              "week": 13,
+              "points_gained": -17.4
+            },
+            {
+              "week": 14,
+              "points_gained": 20.0
+            },
+            {
+              "week": 15,
+              "points_gained": -14.6
+            },
+            {
+              "week": 16,
+              "points_gained": -12.1
+            },
+            {
+              "week": 17,
+              "points_gained": 13.8
+            }
+          ],
+          "net_points_gained": 13.7,
+          "avg_points_gained_per_week": 2.28
+        },
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 12,
+              "points_gained": -26.3
+            },
+            {
+              "week": 13,
+              "points_gained": 12.9
+            },
+            {
+              "week": 14,
+              "points_gained": -19.1
+            },
+            {
+              "week": 15,
+              "points_gained": 1.1
+            },
+            {
+              "week": 16,
+              "points_gained": -3.3
+            },
+            {
+              "week": 17,
+              "points_gained": -5.9
+            }
+          ],
+          "net_points_gained": -40.6,
+          "avg_points_gained_per_week": -6.77
+        }
+      ]
+    },
+    {
+      "transaction_id": "384",
+      "date": "2024-11-21T08:27:49+00:00",
+      "players": [
+        {
+          "name": "Javonte Williams",
+          "position": "RB",
+          "from_team": "The Sage's Playmakers",
+          "to_team": "Flows Aggressive Insurance"
+        },
+        {
+          "name": "Christian Watson",
+          "position": "WR",
+          "from_team": "Flows Aggressive Insurance",
+          "to_team": "The Sage's Playmakers"
+        }
+      ],
+      "managers": [
+        {
+          "team": "The Sage's Playmakers",
+          "weekly_points_gained": [
+            {
+              "week": 12,
+              "points_gained": -4.6
+            },
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": 0.0
+            },
+            {
+              "week": 17,
+              "points_gained": 3.0
+            }
+          ],
+          "net_points_gained": -1.6,
+          "avg_points_gained_per_week": -0.27
+        },
+        {
+          "team": "Flows Aggressive Insurance",
+          "weekly_points_gained": [
+            {
+              "week": 12,
+              "points_gained": -2.6
+            },
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": 0.0
+            },
+            {
+              "week": 17,
+              "points_gained": 0.0
+            }
+          ],
+          "net_points_gained": -2.6,
+          "avg_points_gained_per_week": -0.43
+        }
+      ]
+    }
+  ]
+}

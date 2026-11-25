@@ -1,0 +1,86 @@
+[
+  {
+    "week": 17,
+    "status": "postevent",
+    "is_playoffs": true,
+    "is_consolation": true,
+    "teams": [
+      {
+        "team_key": "423.l.902802.t.2",
+        "name": "Room 40",
+        "points": 107.34,
+        "projected_points": 108.33
+      },
+      {
+        "team_key": "423.l.902802.t.5",
+        "name": "Bumpin Brasnos",
+        "points": 144.26,
+        "projected_points": 122.32
+      }
+    ],
+    "winner_team_key": "423.l.902802.t.5"
+  },
+  {
+    "week": 17,
+    "status": "postevent",
+    "is_playoffs": true,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "423.l.902802.t.3",
+        "name": "Wicked Wah-Bams",
+        "points": 117.9,
+        "projected_points": 121.1
+      },
+      {
+        "team_key": "423.l.902802.t.9",
+        "name": "For Pitts and Giggles",
+        "points": 126.56,
+        "projected_points": 119.47
+      }
+    ],
+    "winner_team_key": "423.l.902802.t.9"
+  },
+  {
+    "week": 17,
+    "status": "postevent",
+    "is_playoffs": true,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "423.l.902802.t.6",
+        "name": "Lawrence & Order",
+        "points": 101.46,
+        "projected_points": 116.73
+      },
+      {
+        "team_key": "423.l.902802.t.10",
+        "name": "The Hunters",
+        "points": 99.56,
+        "projected_points": 116.92
+      }
+    ],
+    "winner_team_key": "423.l.902802.t.6"
+  },
+  {
+    "week": 17,
+    "status": "postevent",
+    "is_playoffs": true,
+    "is_consolation": true,
+    "teams": [
+      {
+        "team_key": "423.l.902802.t.7",
+        "name": "Oscorps Buns",
+        "points": 93.18,
+        "projected_points": 109.93
+      },
+      {
+        "team_key": "423.l.902802.t.8",
+        "name": "Supernova\u2019s Studs",
+        "points": 90.28,
+        "projected_points": 109.33
+      }
+    ],
+    "winner_team_key": "423.l.902802.t.7"
+  }
+]

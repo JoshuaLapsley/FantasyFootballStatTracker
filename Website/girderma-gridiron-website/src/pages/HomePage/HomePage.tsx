@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { History, Trophy, Users, Radio, PiggyBank, Swords  } from 'lucide-react';
+import { History, Trophy, Users, Radio, PiggyBank, Swords, ScanSearch, UserSearch  } from 'lucide-react';
 import './HomePage.css';
 
 const icons = {
@@ -10,6 +10,8 @@ const icons = {
   live: <Radio strokeWidth={1.5} />,
   pot: <PiggyBank strokeWidth={1.5} />,
   rivalry: <Swords strokeWidth={1.5} />,
+  guessManager: <UserSearch strokeWidth={1.5} />,
+  playerAnalysis: <ScanSearch strokeWidth={1.5} />,
 };
 
 const HomePage: React.FC = () => {
@@ -57,11 +59,17 @@ const HomePage: React.FC = () => {
         </Link>
 
         <Link to="/GTM" className="Home-card">
-          <span className="Home-card-icon">{icons.pot}</span>
+          <span className="Home-card-icon">{icons.guessManager}</span>
           <h3>Guess The Manager (GTM)</h3>
           <p>Guess which player belongs to which manager, for every year.</p>
           <span className="Home-card-arrow" aria-hidden="true">→</span>
         </Link>
+
+        <div className="Home-card Home-card--disabled">
+          <span className="Home-card-icon">{icons.playerAnalysis}</span>
+          <h3>Player Analysis</h3>
+          <p>See League Specific Data and Statistics about each player.</p>
+        </div>
 
         <div className="Home-card Home-card--disabled">
           <span className="Home-card-icon">{icons.rivalry}</span>

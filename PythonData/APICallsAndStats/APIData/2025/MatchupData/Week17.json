@@ -1,0 +1,86 @@
+[
+  {
+    "week": 17,
+    "status": "postevent",
+    "is_playoffs": true,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "461.l.111150.t.1",
+        "name": "Deej-lanta Falcons",
+        "points": 71.28,
+        "projected_points": 86.4
+      },
+      {
+        "team_key": "461.l.111150.t.9",
+        "name": "Supernova\u2019s Studs",
+        "points": 121.74,
+        "projected_points": 126.12
+      }
+    ],
+    "winner_team_key": "461.l.111150.t.9"
+  },
+  {
+    "week": 17,
+    "status": "postevent",
+    "is_playoffs": true,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "461.l.111150.t.2",
+        "name": "Go With The Flow",
+        "points": 102.1,
+        "projected_points": 121.12
+      },
+      {
+        "team_key": "461.l.111150.t.11",
+        "name": "Tsuga\u2019s Tuck Shop",
+        "points": 92.1,
+        "projected_points": 130.11
+      }
+    ],
+    "winner_team_key": "461.l.111150.t.2"
+  },
+  {
+    "week": 17,
+    "status": "postevent",
+    "is_playoffs": true,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "461.l.111150.t.4",
+        "name": "No Punts Intented",
+        "points": 162.38,
+        "projected_points": 128.06
+      },
+      {
+        "team_key": "461.l.111150.t.14",
+        "name": "Pad D's",
+        "points": 80.64,
+        "projected_points": 108.99
+      }
+    ],
+    "winner_team_key": "461.l.111150.t.4"
+  },
+  {
+    "week": 17,
+    "status": "postevent",
+    "is_playoffs": true,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "461.l.111150.t.10",
+        "name": "The Sage's Playmakers",
+        "points": 117.14,
+        "projected_points": 127.72
+      },
+      {
+        "team_key": "461.l.111150.t.12",
+        "name": "Hungry Hungry Hokk",
+        "points": 68.26,
+        "projected_points": 131.94
+      }
+    ],
+    "winner_team_key": "461.l.111150.t.10"
+  }
+]

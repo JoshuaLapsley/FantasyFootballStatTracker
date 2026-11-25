@@ -1,0 +1,856 @@
+{
+  "Deej-lanta Falcons": {
+    "team_key": "461.l.111150.t.1",
+    "vs_schedule_of": {
+      "Deej-lanta Falcons": {
+        "wins": 8.0,
+        "losses": 6.0
+      },
+      "Go With The Flow": {
+        "wins": 8.6154,
+        "losses": 5.3846
+      },
+      "Hunter’s Hunters": {
+        "wins": 5.8462,
+        "losses": 8.1538
+      },
+      "No Punts Intented": {
+        "wins": 6.3077,
+        "losses": 7.6923
+      },
+      "Omaha Beach Real Estate": {
+        "wins": 5.7692,
+        "losses": 8.2308
+      },
+      "Ozzy Stick": {
+        "wins": 5.7692,
+        "losses": 8.2308
+      },
+      "Revy’s Konstruction": {
+        "wins": 3.5385,
+        "losses": 10.4615
+      },
+      "Maître Magic": {
+        "wins": 5.1538,
+        "losses": 8.8462
+      },
+      "Supernova’s Studs": {
+        "wins": 8.9231,
+        "losses": 5.0769
+      },
+      "The Sage's Playmakers": {
+        "wins": 5.1538,
+        "losses": 8.8462
+      },
+      "Tsuga’s Tuck Shop": {
+        "wins": 8.7692,
+        "losses": 5.2308
+      },
+      "Hungry Hungry Hokk": {
+        "wins": 9.0769,
+        "losses": 4.9231
+      },
+      "Girder’s Grippers": {
+        "wins": 3.3077,
+        "losses": 10.6923
+      },
+      "Pad D's": {
+        "wins": 8.3846,
+        "losses": 5.6154
+      }
+    }
+  },
+  "Go With The Flow": {
+    "team_key": "461.l.111150.t.2",
+    "vs_schedule_of": {
+      "Deej-lanta Falcons": {
+        "wins": 8.7692,
+        "losses": 5.2308
+      },
+      "Go With The Flow": {
+        "wins": 8.0,
+        "losses": 6.0
+      },
+      "Hunter’s Hunters": {
+        "wins": 5.4615,
+        "losses": 8.5385
+      },
+      "No Punts Intented": {
+        "wins": 8.2308,
+        "losses": 5.7692
+      },
+      "Omaha Beach Real Estate": {
+        "wins": 8.0,
+        "losses": 6.0
+      },
+      "Ozzy Stick": {
+        "wins": 4.7692,
+        "losses": 9.2308
+      },
+      "Revy’s Konstruction": {
+        "wins": 6.3077,
+        "losses": 7.6923
+      },
+      "Maître Magic": {
+        "wins": 7.6154,
+        "losses": 6.3846
+      },
+      "Supernova’s Studs": {
+        "wins": 7.6923,
+        "losses": 6.3077
+      },
+      "The Sage's Playmakers": {
+        "wins": 6.9231,
+        "losses": 7.0769
+      },
+      "Tsuga’s Tuck Shop": {
+        "wins": 8.0,
+        "losses": 6.0
+      },
+      "Hungry Hungry Hokk": {
+        "wins": 7.0,
+        "losses": 7.0
+      },
+      "Girder’s Grippers": {
+        "wins": 5.5385,
+        "losses": 8.4615
+      },
+      "Pad D's": {
+        "wins": 7.8462,
+        "losses": 6.1538
+      }
+    }
+  },
+  "Hunter’s Hunters": {
+    "team_key": "461.l.111150.t.3",
+    "vs_schedule_of": {
+      "Deej-lanta Falcons": {
+        "wins": 6.7692,
+        "losses": 7.2308
+      },
+      "Go With The Flow": {
+        "wins": 3.0769,
+        "losses": 10.9231
+      },
+      "Hunter’s Hunters": {
+        "wins": 4.0,
+        "losses": 10.0
+      },
+      "No Punts Intented": {
+        "wins": 5.3077,
+        "losses": 8.6923
+      },
+      "Omaha Beach Real Estate": {
+        "wins": 5.4615,
+        "losses": 8.5385
+      },
+      "Ozzy Stick": {
+        "wins": 3.0,
+        "losses": 11.0
+      },
+      "Revy’s Konstruction": {
+        "wins": 4.4615,
+        "losses": 9.5385
+      },
+      "Maître Magic": {
+        "wins": 2.8462,
+        "losses": 11.1538
+      },
+      "Supernova’s Studs": {
+        "wins": 6.2308,
+        "losses": 7.7692
+      },
+      "The Sage's Playmakers": {
+        "wins": 4.0769,
+        "losses": 9.9231
+      },
+      "Tsuga’s Tuck Shop": {
+        "wins": 5.0,
+        "losses": 9.0
+      },
+      "Hungry Hungry Hokk": {
+        "wins": 7.3077,
+        "losses": 6.6923
+      },
+      "Girder’s Grippers": {
+        "wins": 2.0769,
+        "losses": 11.9231
+      },
+      "Pad D's": {
+        "wins": 5.0,
+        "losses": 9.0
+      }
+    }
+  },
+  "No Punts Intented": {
+    "team_key": "461.l.111150.t.4",
+    "vs_schedule_of": {
+      "Deej-lanta Falcons": {
+        "wins": 12.5385,
+        "losses": 1.4615
+      },
+      "Go With The Flow": {
+        "wins": 9.8462,
+        "losses": 4.1538
+      },
+      "Hunter’s Hunters": {
+        "wins": 8.9231,
+        "losses": 5.0769
+      },
+      "No Punts Intented": {
+        "wins": 13.0,
+        "losses": 1.0
+      },
+      "Omaha Beach Real Estate": {
+        "wins": 9.8462,
+        "losses": 4.1538
+      },
+      "Ozzy Stick": {
+        "wins": 8.0,
+        "losses": 6.0
+      },
+      "Revy’s Konstruction": {
+        "wins": 8.6923,
+        "losses": 5.3077
+      },
+      "Maître Magic": {
+        "wins": 10.5385,
+        "losses": 3.4615
+      },
+      "Supernova’s Studs": {
+        "wins": 9.9231,
+        "losses": 4.0769
+      },
+      "The Sage's Playmakers": {
+        "wins": 8.3846,
+        "losses": 5.6154
+      },
+      "Tsuga’s Tuck Shop": {
+        "wins": 10.4615,
+        "losses": 3.5385
+      },
+      "Hungry Hungry Hokk": {
+        "wins": 11.6923,
+        "losses": 2.3077
+      },
+      "Girder’s Grippers": {
+        "wins": 8.5385,
+        "losses": 5.4615
+      },
+      "Pad D's": {
+        "wins": 10.6923,
+        "losses": 3.3077
+      }
+    }
+  },
+  "Omaha Beach Real Estate": {
+    "team_key": "461.l.111150.t.5",
+    "vs_schedule_of": {
+      "Deej-lanta Falcons": {
+        "wins": 7.3846,
+        "losses": 6.6154
+      },
+      "Go With The Flow": {
+        "wins": 5.6154,
+        "losses": 8.3846
+      },
+      "Hunter’s Hunters": {
+        "wins": 5.3077,
+        "losses": 8.6923
+      },
+      "No Punts Intented": {
+        "wins": 8.6923,
+        "losses": 5.3077
+      },
+      "Omaha Beach Real Estate": {
+        "wins": 4.0,
+        "losses": 10.0
+      },
+      "Ozzy Stick": {
+        "wins": 4.4615,
+        "losses": 9.5385
+      },
+      "Revy’s Konstruction": {
+        "wins": 5.1538,
+        "losses": 8.8462
+      },
+      "Maître Magic": {
+        "wins": 4.7692,
+        "losses": 9.2308
+      },
+      "Supernova’s Studs": {
+        "wins": 6.3077,
+        "losses": 7.6923
+      },
+      "The Sage's Playmakers": {
+        "wins": 5.0769,
+        "losses": 8.9231
+      },
+      "Tsuga’s Tuck Shop": {
+        "wins": 7.9231,
+        "losses": 6.0769
+      },
+      "Hungry Hungry Hokk": {
+        "wins": 9.1538,
+        "losses": 4.8462
+      },
+      "Girder’s Grippers": {
+        "wins": 5.7692,
+        "losses": 8.2308
+      },
+      "Pad D's": {
+        "wins": 7.6154,
+        "losses": 6.3846
+      }
+    }
+  },
+  "Ozzy Stick": {
+    "team_key": "461.l.111150.t.6",
+    "vs_schedule_of": {
+      "Deej-lanta Falcons": {
+        "wins": 8.2308,
+        "losses": 5.7692
+      },
+      "Go With The Flow": {
+        "wins": 7.4615,
+        "losses": 6.5385
+      },
+      "Hunter’s Hunters": {
+        "wins": 7.0,
+        "losses": 7.0
+      },
+      "No Punts Intented": {
+        "wins": 9.1538,
+        "losses": 4.8462
+      },
+      "Omaha Beach Real Estate": {
+        "wins": 6.6923,
+        "losses": 7.3077
+      },
+      "Ozzy Stick": {
+        "wins": 4.0,
+        "losses": 10.0
+      },
+      "Revy’s Konstruction": {
+        "wins": 8.7692,
+        "losses": 5.2308
+      },
+      "Maître Magic": {
+        "wins": 6.3077,
+        "losses": 7.6923
+      },
+      "Supernova’s Studs": {
+        "wins": 6.0,
+        "losses": 8.0
+      },
+      "The Sage's Playmakers": {
+        "wins": 7.2308,
+        "losses": 6.7692
+      },
+      "Tsuga’s Tuck Shop": {
+        "wins": 8.6154,
+        "losses": 5.3846
+      },
+      "Hungry Hungry Hokk": {
+        "wins": 9.3846,
+        "losses": 4.6154
+      },
+      "Girder’s Grippers": {
+        "wins": 6.5385,
+        "losses": 7.4615
+      },
+      "Pad D's": {
+        "wins": 8.0,
+        "losses": 6.0
+      }
+    }
+  },
+  "Revy’s Konstruction": {
+    "team_key": "461.l.111150.t.7",
+    "vs_schedule_of": {
+      "Deej-lanta Falcons": {
+        "wins": 4.4615,
+        "losses": 9.5385
+      },
+      "Go With The Flow": {
+        "wins": 4.0769,
+        "losses": 9.9231
+      },
+      "Hunter’s Hunters": {
+        "wins": 4.0769,
+        "losses": 9.9231
+      },
+      "No Punts Intented": {
+        "wins": 5.8462,
+        "losses": 8.1538
+      },
+      "Omaha Beach Real Estate": {
+        "wins": 6.3846,
+        "losses": 7.6154
+      },
+      "Ozzy Stick": {
+        "wins": 4.0769,
+        "losses": 9.9231
+      },
+      "Revy’s Konstruction": {
+        "wins": 3.0,
+        "losses": 11.0
+      },
+      "Maître Magic": {
+        "wins": 5.1538,
+        "losses": 8.8462
+      },
+      "Supernova’s Studs": {
+        "wins": 3.2308,
+        "losses": 10.7692
+      },
+      "The Sage's Playmakers": {
+        "wins": 7.5385,
+        "losses": 6.4615
+      },
+      "Tsuga’s Tuck Shop": {
+        "wins": 5.2308,
+        "losses": 8.7692
+      },
+      "Hungry Hungry Hokk": {
+        "wins": 6.5385,
+        "losses": 7.4615
+      },
+      "Girder’s Grippers": {
+        "wins": 3.9231,
+        "losses": 10.0769
+      },
+      "Pad D's": {
+        "wins": 8.6154,
+        "losses": 5.3846
+      }
+    }
+  },
+  "Maître Magic": {
+    "team_key": "461.l.111150.t.8",
+    "vs_schedule_of": {
+      "Deej-lanta Falcons": {
+        "wins": 7.6154,
+        "losses": 6.3846
+      },
+      "Go With The Flow": {
+        "wins": 6.6923,
+        "losses": 7.3077
+      },
+      "Hunter’s Hunters": {
+        "wins": 5.0,
+        "losses": 9.0
+      },
+      "No Punts Intented": {
+        "wins": 7.3846,
+        "losses": 6.6154
+      },
+      "Omaha Beach Real Estate": {
+        "wins": 6.1538,
+        "losses": 7.8462
+      },
+      "Ozzy Stick": {
+        "wins": 4.5385,
+        "losses": 9.4615
+      },
+      "Revy’s Konstruction": {
+        "wins": 6.3846,
+        "losses": 7.6154
+      },
+      "Maître Magic": {
+        "wins": 6.0,
+        "losses": 8.0
+      },
+      "Supernova’s Studs": {
+        "wins": 5.6154,
+        "losses": 8.3846
+      },
+      "The Sage's Playmakers": {
+        "wins": 7.6923,
+        "losses": 6.3077
+      },
+      "Tsuga’s Tuck Shop": {
+        "wins": 6.7692,
+        "losses": 7.2308
+      },
+      "Hungry Hungry Hokk": {
+        "wins": 6.3846,
+        "losses": 7.6154
+      },
+      "Girder’s Grippers": {
+        "wins": 3.9231,
+        "losses": 10.0769
+      },
+      "Pad D's": {
+        "wins": 6.0,
+        "losses": 8.0
+      }
+    }
+  },
+  "Supernova’s Studs": {
+    "team_key": "461.l.111150.t.9",
+    "vs_schedule_of": {
+      "Deej-lanta Falcons": {
+        "wins": 8.0,
+        "losses": 6.0
+      },
+      "Go With The Flow": {
+        "wins": 5.2308,
+        "losses": 8.7692
+      },
+      "Hunter’s Hunters": {
+        "wins": 4.8462,
+        "losses": 9.1538
+      },
+      "No Punts Intented": {
+        "wins": 9.3846,
+        "losses": 4.6154
+      },
+      "Omaha Beach Real Estate": {
+        "wins": 7.3846,
+        "losses": 6.6154
+      },
+      "Ozzy Stick": {
+        "wins": 4.6154,
+        "losses": 9.3846
+      },
+      "Revy’s Konstruction": {
+        "wins": 6.9231,
+        "losses": 7.0769
+      },
+      "Maître Magic": {
+        "wins": 5.0769,
+        "losses": 8.9231
+      },
+      "Supernova’s Studs": {
+        "wins": 7.0,
+        "losses": 7.0
+      },
+      "The Sage's Playmakers": {
+        "wins": 6.8462,
+        "losses": 7.1538
+      },
+      "Tsuga’s Tuck Shop": {
+        "wins": 7.5385,
+        "losses": 6.4615
+      },
+      "Hungry Hungry Hokk": {
+        "wins": 8.4615,
+        "losses": 5.5385
+      },
+      "Girder’s Grippers": {
+        "wins": 5.0,
+        "losses": 9.0
+      },
+      "Pad D's": {
+        "wins": 7.3846,
+        "losses": 6.6154
+      }
+    }
+  },
+  "The Sage's Playmakers": {
+    "team_key": "461.l.111150.t.10",
+    "vs_schedule_of": {
+      "Deej-lanta Falcons": {
+        "wins": 9.2308,
+        "losses": 4.7692
+      },
+      "Go With The Flow": {
+        "wins": 9.3846,
+        "losses": 4.6154
+      },
+      "Hunter’s Hunters": {
+        "wins": 10.0,
+        "losses": 4.0
+      },
+      "No Punts Intented": {
+        "wins": 10.9231,
+        "losses": 3.0769
+      },
+      "Omaha Beach Real Estate": {
+        "wins": 9.8462,
+        "losses": 4.1538
+      },
+      "Ozzy Stick": {
+        "wins": 7.0,
+        "losses": 7.0
+      },
+      "Revy’s Konstruction": {
+        "wins": 6.8462,
+        "losses": 7.1538
+      },
+      "Maître Magic": {
+        "wins": 9.0,
+        "losses": 5.0
+      },
+      "Supernova’s Studs": {
+        "wins": 6.7692,
+        "losses": 7.2308
+      },
+      "The Sage's Playmakers": {
+        "wins": 8.0,
+        "losses": 6.0
+      },
+      "Tsuga’s Tuck Shop": {
+        "wins": 10.2308,
+        "losses": 3.7692
+      },
+      "Hungry Hungry Hokk": {
+        "wins": 8.2308,
+        "losses": 5.7692
+      },
+      "Girder’s Grippers": {
+        "wins": 6.8462,
+        "losses": 7.1538
+      },
+      "Pad D's": {
+        "wins": 9.3846,
+        "losses": 4.6154
+      }
+    }
+  },
+  "Tsuga’s Tuck Shop": {
+    "team_key": "461.l.111150.t.11",
+    "vs_schedule_of": {
+      "Deej-lanta Falcons": {
+        "wins": 6.4615,
+        "losses": 7.5385
+      },
+      "Go With The Flow": {
+        "wins": 5.6923,
+        "losses": 8.3077
+      },
+      "Hunter’s Hunters": {
+        "wins": 5.0769,
+        "losses": 8.9231
+      },
+      "No Punts Intented": {
+        "wins": 7.1538,
+        "losses": 6.8462
+      },
+      "Omaha Beach Real Estate": {
+        "wins": 6.6154,
+        "losses": 7.3846
+      },
+      "Ozzy Stick": {
+        "wins": 6.6923,
+        "losses": 7.3077
+      },
+      "Revy’s Konstruction": {
+        "wins": 2.3077,
+        "losses": 11.6923
+      },
+      "Maître Magic": {
+        "wins": 5.7692,
+        "losses": 8.2308
+      },
+      "Supernova’s Studs": {
+        "wins": 6.0,
+        "losses": 8.0
+      },
+      "The Sage's Playmakers": {
+        "wins": 7.0,
+        "losses": 7.0
+      },
+      "Tsuga’s Tuck Shop": {
+        "wins": 7.0,
+        "losses": 7.0
+      },
+      "Hungry Hungry Hokk": {
+        "wins": 6.2308,
+        "losses": 7.7692
+      },
+      "Girder’s Grippers": {
+        "wins": 6.0,
+        "losses": 8.0
+      },
+      "Pad D's": {
+        "wins": 8.1538,
+        "losses": 5.8462
+      }
+    }
+  },
+  "Hungry Hungry Hokk": {
+    "team_key": "461.l.111150.t.12",
+    "vs_schedule_of": {
+      "Deej-lanta Falcons": {
+        "wins": 10.4615,
+        "losses": 3.5385
+      },
+      "Go With The Flow": {
+        "wins": 9.3077,
+        "losses": 4.6923
+      },
+      "Hunter’s Hunters": {
+        "wins": 8.6923,
+        "losses": 5.3077
+      },
+      "No Punts Intented": {
+        "wins": 10.2308,
+        "losses": 3.7692
+      },
+      "Omaha Beach Real Estate": {
+        "wins": 8.4615,
+        "losses": 5.5385
+      },
+      "Ozzy Stick": {
+        "wins": 7.8462,
+        "losses": 6.1538
+      },
+      "Revy’s Konstruction": {
+        "wins": 9.0,
+        "losses": 5.0
+      },
+      "Maître Magic": {
+        "wins": 8.6154,
+        "losses": 5.3846
+      },
+      "Supernova’s Studs": {
+        "wins": 9.6154,
+        "losses": 4.3846
+      },
+      "The Sage's Playmakers": {
+        "wins": 9.9231,
+        "losses": 4.0769
+      },
+      "Tsuga’s Tuck Shop": {
+        "wins": 9.5385,
+        "losses": 4.4615
+      },
+      "Hungry Hungry Hokk": {
+        "wins": 12.0,
+        "losses": 2.0
+      },
+      "Girder’s Grippers": {
+        "wins": 5.6923,
+        "losses": 8.3077
+      },
+      "Pad D's": {
+        "wins": 9.8462,
+        "losses": 4.1538
+      }
+    }
+  },
+  "Girder’s Grippers": {
+    "team_key": "461.l.111150.t.13",
+    "vs_schedule_of": {
+      "Deej-lanta Falcons": {
+        "wins": 9.6923,
+        "losses": 4.3077
+      },
+      "Go With The Flow": {
+        "wins": 9.3077,
+        "losses": 4.6923
+      },
+      "Hunter’s Hunters": {
+        "wins": 6.3077,
+        "losses": 7.6923
+      },
+      "No Punts Intented": {
+        "wins": 10.4615,
+        "losses": 3.5385
+      },
+      "Omaha Beach Real Estate": {
+        "wins": 9.3077,
+        "losses": 4.6923
+      },
+      "Ozzy Stick": {
+        "wins": 7.9231,
+        "losses": 6.0769
+      },
+      "Revy’s Konstruction": {
+        "wins": 6.7692,
+        "losses": 7.2308
+      },
+      "Maître Magic": {
+        "wins": 9.0,
+        "losses": 5.0
+      },
+      "Supernova’s Studs": {
+        "wins": 8.7692,
+        "losses": 5.2308
+      },
+      "The Sage's Playmakers": {
+        "wins": 6.9231,
+        "losses": 7.0769
+      },
+      "Tsuga’s Tuck Shop": {
+        "wins": 8.0,
+        "losses": 6.0
+      },
+      "Hungry Hungry Hokk": {
+        "wins": 8.0,
+        "losses": 6.0
+      },
+      "Girder’s Grippers": {
+        "wins": 6.0,
+        "losses": 8.0
+      },
+      "Pad D's": {
+        "wins": 8.7692,
+        "losses": 5.2308
+      }
+    }
+  },
+  "Pad D's": {
+    "team_key": "461.l.111150.t.14",
+    "vs_schedule_of": {
+      "Deej-lanta Falcons": {
+        "wins": 5.1538,
+        "losses": 8.8462
+      },
+      "Go With The Flow": {
+        "wins": 6.6154,
+        "losses": 7.3846
+      },
+      "Hunter’s Hunters": {
+        "wins": 4.5385,
+        "losses": 9.4615
+      },
+      "No Punts Intented": {
+        "wins": 7.1538,
+        "losses": 6.8462
+      },
+      "Omaha Beach Real Estate": {
+        "wins": 5.9231,
+        "losses": 8.0769
+      },
+      "Ozzy Stick": {
+        "wins": 3.1538,
+        "losses": 10.8462
+      },
+      "Revy’s Konstruction": {
+        "wins": 5.0769,
+        "losses": 8.9231
+      },
+      "Maître Magic": {
+        "wins": 5.6923,
+        "losses": 8.3077
+      },
+      "Supernova’s Studs": {
+        "wins": 4.0769,
+        "losses": 9.9231
+      },
+      "The Sage's Playmakers": {
+        "wins": 4.4615,
+        "losses": 9.5385
+      },
+      "Tsuga’s Tuck Shop": {
+        "wins": 7.8462,
+        "losses": 6.1538
+      },
+      "Hungry Hungry Hokk": {
+        "wins": 6.0769,
+        "losses": 7.9231
+      },
+      "Girder’s Grippers": {
+        "wins": 4.8462,
+        "losses": 9.1538
+      },
+      "Pad D's": {
+        "wins": 8.0,
+        "losses": 6.0
+      }
+    }
+  }
+}

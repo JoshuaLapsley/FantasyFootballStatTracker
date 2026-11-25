@@ -1,0 +1,86 @@
+[
+  {
+    "week": 17,
+    "status": "postevent",
+    "is_playoffs": true,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "449.l.106896.t.2",
+        "name": "Spirally Things",
+        "points": 128.88,
+        "projected_points": 117.63
+      },
+      {
+        "team_key": "449.l.106896.t.6",
+        "name": "Revy\u2019s Konstruction",
+        "points": 141.72,
+        "projected_points": 130.38
+      }
+    ],
+    "winner_team_key": "449.l.106896.t.6"
+  },
+  {
+    "week": 17,
+    "status": "postevent",
+    "is_playoffs": true,
+    "is_consolation": true,
+    "teams": [
+      {
+        "team_key": "449.l.106896.t.3",
+        "name": "Flows Aggressive Insurance",
+        "points": 120.88,
+        "projected_points": 114.69
+      },
+      {
+        "team_key": "449.l.106896.t.9",
+        "name": "Hunter\u2019s Hunters",
+        "points": 131.78,
+        "projected_points": 105.17
+      }
+    ],
+    "winner_team_key": "449.l.106896.t.9"
+  },
+  {
+    "week": 17,
+    "status": "postevent",
+    "is_playoffs": true,
+    "is_consolation": true,
+    "teams": [
+      {
+        "team_key": "449.l.106896.t.4",
+        "name": "Omaha Beach Real Estate",
+        "points": 114.98,
+        "projected_points": 120.82
+      },
+      {
+        "team_key": "449.l.106896.t.12",
+        "name": "Wicked Wah-Bams",
+        "points": 138.64,
+        "projected_points": 103.56
+      }
+    ],
+    "winner_team_key": "449.l.106896.t.12"
+  },
+  {
+    "week": 17,
+    "status": "postevent",
+    "is_playoffs": true,
+    "is_consolation": false,
+    "teams": [
+      {
+        "team_key": "449.l.106896.t.5",
+        "name": "Ozzy Stick",
+        "points": 135.48,
+        "projected_points": 128.86
+      },
+      {
+        "team_key": "449.l.106896.t.7",
+        "name": "Mahomes Alone",
+        "points": 145.56,
+        "projected_points": 129.8
+      }
+    ],
+    "winner_team_key": "449.l.106896.t.7"
+  }
+]

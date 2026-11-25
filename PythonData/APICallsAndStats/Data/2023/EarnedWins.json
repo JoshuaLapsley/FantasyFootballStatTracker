@@ -1,11 +1,11 @@
 [
     {
         "Team": "Wicked Wah-Bams",
-        "Earned Wins": 6.9091,
+        "Earned Wins": 7.6234,
         "Actual Wins": 10,
-        "Difference": 3.0909,
-        "Points For": 1724.34,
-        "Points Against": 1696.3,
+        "Difference": 2.3766,
+        "Points For": 1842.24,
+        "Points Against": 1822.86,
         "Difference Rank": 1
     },
     {
@@ -18,22 +18,31 @@
         "Difference Rank": 2
     },
     {
-        "Team": "The Hunters",
-        "Earned Wins": 7.9351,
-        "Actual Wins": 9,
-        "Difference": 1.0649,
-        "Points For": 1850.94,
-        "Points Against": 1717.42,
+        "Team": "For Pitts and Giggles",
+        "Earned Wins": 9.9481,
+        "Actual Wins": 11,
+        "Difference": 1.0519,
+        "Points For": 1982.56,
+        "Points Against": 1850.78,
         "Difference Rank": 3
     },
     {
-        "Team": "For Pitts and Giggles",
-        "Earned Wins": 9.0909,
-        "Actual Wins": 10,
-        "Difference": 0.9091,
-        "Points For": 1856.0,
-        "Points Against": 1732.88,
+        "Team": "The Hunters",
+        "Earned Wins": 8.2208,
+        "Actual Wins": 9,
+        "Difference": 0.7792,
+        "Points For": 1950.5,
+        "Points Against": 1818.88,
         "Difference Rank": 4
+    },
+    {
+        "Team": "Oscorps Buns",
+        "Earned Wins": 6.961,
+        "Actual Wins": 7,
+        "Difference": 0.039,
+        "Points For": 1813.26,
+        "Points Against": 1901.5,
+        "Difference Rank": 5
     },
     {
         "Team": "The Sage's Playmakers",
@@ -42,15 +51,6 @@
         "Difference": 0.0,
         "Points For": 1657.44,
         "Points Against": 1921.62,
-        "Difference Rank": 5
-    },
-    {
-        "Team": "Room 40",
-        "Earned Wins": 8.2597,
-        "Actual Wins": 8,
-        "Difference": -0.2597,
-        "Points For": 1874.32,
-        "Points Against": 1775.52,
         "Difference Rank": 6
     },
     {
@@ -58,8 +58,8 @@
         "Earned Wins": 7.3117,
         "Actual Wins": 7,
         "Difference": -0.3117,
-        "Points For": 1758.36,
-        "Points Against": 1864.38,
+        "Points For": 1848.64,
+        "Points Against": 1957.56,
         "Difference Rank": 7
     },
     {
@@ -72,21 +72,21 @@
         "Difference Rank": 8
     },
     {
-        "Team": "Oscorps Buns",
-        "Earned Wins": 6.8182,
-        "Actual Wins": 6,
-        "Difference": -0.8182,
-        "Points For": 1720.08,
-        "Points Against": 1811.22,
+        "Team": "Lawrence & Order",
+        "Earned Wins": 9.7013,
+        "Actual Wins": 9,
+        "Difference": -0.7013,
+        "Points For": 2065.78,
+        "Points Against": 1989.6,
         "Difference Rank": 9
     },
     {
-        "Team": "Lawrence & Order",
-        "Earned Wins": 9.2727,
+        "Team": "Room 40",
+        "Earned Wins": 8.8312,
         "Actual Wins": 8,
-        "Difference": -1.2727,
-        "Points For": 1964.32,
-        "Points Against": 1890.04,
+        "Difference": -0.8312,
+        "Points For": 1981.66,
+        "Points Against": 1919.78,
         "Difference Rank": 10
     },
     {
@@ -100,11 +100,11 @@
     },
     {
         "Team": "Bumpin Brasnos",
-        "Earned Wins": 9.3636,
-        "Actual Wins": 7,
+        "Earned Wins": 10.3636,
+        "Actual Wins": 8,
         "Difference": -2.3636,
-        "Points For": 1887.06,
-        "Points Against": 1785.14,
+        "Points For": 2031.32,
+        "Points Against": 1892.48,
         "Difference Rank": 12
     }
 ]

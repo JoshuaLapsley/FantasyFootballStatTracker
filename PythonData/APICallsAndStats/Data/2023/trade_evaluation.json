@@ -1,0 +1,2079 @@
+{
+  "year": 2023,
+  "trades": [
+    {
+      "transaction_id": "43",
+      "date": "2023-09-04T07:10:03+00:00",
+      "players": [
+        {
+          "name": "AJ Dillon",
+          "position": "RB",
+          "from_team": "Sparty's Sigmas",
+          "to_team": "Bumpin Brasnos"
+        },
+        {
+          "name": "Rashaad Penny",
+          "position": "RB",
+          "from_team": "Bumpin Brasnos",
+          "to_team": "Sparty's Sigmas"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Sparty's Sigmas",
+          "weekly_points_gained": [
+            {
+              "week": 2,
+              "points_gained": 19.8
+            },
+            {
+              "week": 3,
+              "points_gained": 0.0
+            },
+            {
+              "week": 4,
+              "points_gained": 0.0
+            },
+            {
+              "week": 5,
+              "points_gained": -10.5
+            },
+            {
+              "week": 6,
+              "points_gained": 0.0
+            },
+            {
+              "week": 7,
+              "points_gained": 0.0
+            },
+            {
+              "week": 8,
+              "points_gained": 0.0
+            },
+            {
+              "week": 9,
+              "points_gained": 0.0
+            },
+            {
+              "week": 10,
+              "points_gained": 0.0
+            },
+            {
+              "week": 11,
+              "points_gained": 0.0
+            },
+            {
+              "week": 12,
+              "points_gained": 0.0
+            },
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": 0.0
+            },
+            {
+              "week": 17,
+              "points_gained": 0.0
+            }
+          ],
+          "net_points_gained": 9.3,
+          "avg_points_gained_per_week": 0.58
+        },
+        {
+          "team": "Bumpin Brasnos",
+          "weekly_points_gained": [
+            {
+              "week": 2,
+              "points_gained": -20.7
+            },
+            {
+              "week": 3,
+              "points_gained": 0.6
+            },
+            {
+              "week": 4,
+              "points_gained": 0.0
+            },
+            {
+              "week": 5,
+              "points_gained": 0.0
+            },
+            {
+              "week": 6,
+              "points_gained": 0.0
+            },
+            {
+              "week": 7,
+              "points_gained": 0.0
+            },
+            {
+              "week": 8,
+              "points_gained": 0.0
+            },
+            {
+              "week": 9,
+              "points_gained": 0.0
+            },
+            {
+              "week": 10,
+              "points_gained": 0.0
+            },
+            {
+              "week": 11,
+              "points_gained": 0.0
+            },
+            {
+              "week": 12,
+              "points_gained": 0.0
+            },
+            {
+              "week": 13,
+              "points_gained": -2.8
+            },
+            {
+              "week": 14,
+              "points_gained": 1.8
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": 0.0
+            },
+            {
+              "week": 17,
+              "points_gained": 0.0
+            }
+          ],
+          "net_points_gained": -21.1,
+          "avg_points_gained_per_week": -1.32
+        }
+      ]
+    },
+    {
+      "transaction_id": "49",
+      "date": "2023-09-13T07:17:45+00:00",
+      "players": [
+        {
+          "name": "Mike Williams",
+          "position": "WR",
+          "from_team": "Bumpin Brasnos",
+          "to_team": "Oscorps Buns"
+        },
+        {
+          "name": "David Montgomery",
+          "position": "RB",
+          "from_team": "Oscorps Buns",
+          "to_team": "Bumpin Brasnos"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Bumpin Brasnos",
+          "weekly_points_gained": [
+            {
+              "week": 2,
+              "points_gained": -4.2
+            },
+            {
+              "week": 3,
+              "points_gained": -16.9
+            },
+            {
+              "week": 4,
+              "points_gained": 0.0
+            },
+            {
+              "week": 5,
+              "points_gained": 7.3
+            },
+            {
+              "week": 6,
+              "points_gained": -4.5
+            },
+            {
+              "week": 7,
+              "points_gained": 0.0
+            },
+            {
+              "week": 8,
+              "points_gained": 0.0
+            },
+            {
+              "week": 9,
+              "points_gained": 0.0
+            },
+            {
+              "week": 10,
+              "points_gained": 9.6
+            },
+            {
+              "week": 11,
+              "points_gained": 7.7
+            },
+            {
+              "week": 12,
+              "points_gained": 7.9
+            },
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": 3.5
+            },
+            {
+              "week": 15,
+              "points_gained": -4.6
+            },
+            {
+              "week": 16,
+              "points_gained": 4.5
+            },
+            {
+              "week": 17,
+              "points_gained": -7.3
+            }
+          ],
+          "net_points_gained": 3.0,
+          "avg_points_gained_per_week": 0.19
+        },
+        {
+          "team": "Oscorps Buns",
+          "weekly_points_gained": [
+            {
+              "week": 2,
+              "points_gained": 4.2
+            },
+            {
+              "week": 3,
+              "points_gained": 17.1
+            },
+            {
+              "week": 4,
+              "points_gained": 0.0
+            },
+            {
+              "week": 5,
+              "points_gained": -17.5
+            },
+            {
+              "week": 6,
+              "points_gained": 3.4
+            },
+            {
+              "week": 7,
+              "points_gained": 0.0
+            },
+            {
+              "week": 8,
+              "points_gained": 0.0
+            },
+            {
+              "week": 9,
+              "points_gained": 0.0
+            },
+            {
+              "week": 10,
+              "points_gained": -5.8
+            },
+            {
+              "week": 11,
+              "points_gained": -10.4
+            },
+            {
+              "week": 12,
+              "points_gained": -9.5
+            },
+            {
+              "week": 13,
+              "points_gained": -2.8
+            },
+            {
+              "week": 14,
+              "points_gained": -2.3
+            },
+            {
+              "week": 15,
+              "points_gained": -10.8
+            },
+            {
+              "week": 16,
+              "points_gained": -4.0
+            },
+            {
+              "week": 17,
+              "points_gained": -5.82
+            }
+          ],
+          "net_points_gained": -44.22,
+          "avg_points_gained_per_week": -2.76
+        }
+      ]
+    },
+    {
+      "transaction_id": "94",
+      "date": "2023-09-22T07:11:40+00:00",
+      "players": [
+        {
+          "name": "Allen Lazard",
+          "position": "WR",
+          "from_team": "Revy’s Konstruction",
+          "to_team": "For Pitts and Giggles"
+        },
+        {
+          "name": "Kareem Hunt",
+          "position": "RB",
+          "from_team": "For Pitts and Giggles",
+          "to_team": "Revy’s Konstruction"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Revy’s Konstruction",
+          "weekly_points_gained": [
+            {
+              "week": 3,
+              "points_gained": 0.0
+            },
+            {
+              "week": 4,
+              "points_gained": 0.0
+            },
+            {
+              "week": 5,
+              "points_gained": 0.0
+            },
+            {
+              "week": 6,
+              "points_gained": 0.0
+            },
+            {
+              "week": 7,
+              "points_gained": 0.0
+            },
+            {
+              "week": 8,
+              "points_gained": 0.0
+            },
+            {
+              "week": 9,
+              "points_gained": 4.5
+            },
+            {
+              "week": 10,
+              "points_gained": 0.0
+            },
+            {
+              "week": 11,
+              "points_gained": 0.0
+            },
+            {
+              "week": 12,
+              "points_gained": -5.8
+            },
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": 0.0
+            },
+            {
+              "week": 17,
+              "points_gained": 0.0
+            }
+          ],
+          "net_points_gained": -1.3,
+          "avg_points_gained_per_week": -0.09
+        },
+        {
+          "team": "For Pitts and Giggles",
+          "weekly_points_gained": [
+            {
+              "week": 3,
+              "points_gained": 0.0
+            },
+            {
+              "week": 4,
+              "points_gained": 0.0
+            },
+            {
+              "week": 5,
+              "points_gained": 0.0
+            },
+            {
+              "week": 6,
+              "points_gained": 0.0
+            },
+            {
+              "week": 7,
+              "points_gained": 0.0
+            },
+            {
+              "week": 8,
+              "points_gained": 0.0
+            },
+            {
+              "week": 9,
+              "points_gained": 0.0
+            },
+            {
+              "week": 10,
+              "points_gained": 0.0
+            },
+            {
+              "week": 11,
+              "points_gained": 0.0
+            },
+            {
+              "week": 12,
+              "points_gained": 0.0
+            },
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": 0.0
+            },
+            {
+              "week": 17,
+              "points_gained": 0.0
+            }
+          ],
+          "net_points_gained": 0.0,
+          "avg_points_gained_per_week": 0.0
+        }
+      ]
+    },
+    {
+      "transaction_id": "125",
+      "date": "2023-09-30T07:12:13+00:00",
+      "players": [
+        {
+          "name": "Tee Higgins",
+          "position": "WR",
+          "from_team": "Bumpin Brasnos",
+          "to_team": "Tsuga’s Tuck Shop"
+        },
+        {
+          "name": "David Montgomery",
+          "position": "RB",
+          "from_team": "Bumpin Brasnos",
+          "to_team": "Tsuga’s Tuck Shop"
+        },
+        {
+          "name": "Puka Nacua",
+          "position": "WR",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Bumpin Brasnos"
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Bumpin Brasnos"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Bumpin Brasnos",
+          "weekly_points_gained": [
+            {
+              "week": 4,
+              "points_gained": 34.7
+            },
+            {
+              "week": 5,
+              "points_gained": 6.8
+            },
+            {
+              "week": 6,
+              "points_gained": 5.1
+            },
+            {
+              "week": 7,
+              "points_gained": 12.2
+            },
+            {
+              "week": 8,
+              "points_gained": 5.5
+            },
+            {
+              "week": 9,
+              "points_gained": 0.8
+            },
+            {
+              "week": 10,
+              "points_gained": 0.2
+            },
+            {
+              "week": 11,
+              "points_gained": 11.7
+            },
+            {
+              "week": 12,
+              "points_gained": 1.7
+            },
+            {
+              "week": 13,
+              "points_gained": 16.6
+            },
+            {
+              "week": 14,
+              "points_gained": 14.8
+            },
+            {
+              "week": 15,
+              "points_gained": 10.2
+            },
+            {
+              "week": 16,
+              "points_gained": 17.4
+            },
+            {
+              "week": 17,
+              "points_gained": -2.9
+            }
+          ],
+          "net_points_gained": 134.8,
+          "avg_points_gained_per_week": 9.63
+        },
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 4,
+              "points_gained": -32.2
+            },
+            {
+              "week": 5,
+              "points_gained": -0.2
+            },
+            {
+              "week": 6,
+              "points_gained": -5.1
+            },
+            {
+              "week": 7,
+              "points_gained": -11.9
+            },
+            {
+              "week": 8,
+              "points_gained": -6.3
+            },
+            {
+              "week": 9,
+              "points_gained": 3.8
+            },
+            {
+              "week": 10,
+              "points_gained": -0.2
+            },
+            {
+              "week": 11,
+              "points_gained": -27.6
+            },
+            {
+              "week": 12,
+              "points_gained": 5.3
+            },
+            {
+              "week": 13,
+              "points_gained": -4.9
+            },
+            {
+              "week": 14,
+              "points_gained": -14.8
+            },
+            {
+              "week": 15,
+              "points_gained": -5.8
+            },
+            {
+              "week": 16,
+              "points_gained": -12.8
+            },
+            {
+              "week": 17,
+              "points_gained": -11.9
+            }
+          ],
+          "net_points_gained": -124.6,
+          "avg_points_gained_per_week": -8.9
+        }
+      ]
+    },
+    {
+      "transaction_id": "124",
+      "date": "2023-09-30T07:12:13+00:00",
+      "players": [
+        {
+          "name": "Joe Mixon",
+          "position": "RB",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Room 40"
+        },
+        {
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "from_team": "Room 40",
+          "to_team": "Tsuga’s Tuck Shop"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 4,
+              "points_gained": 19.3
+            },
+            {
+              "week": 5,
+              "points_gained": 6.5
+            },
+            {
+              "week": 6,
+              "points_gained": 2.1
+            },
+            {
+              "week": 7,
+              "points_gained": 0.1
+            },
+            {
+              "week": 8,
+              "points_gained": -3.2
+            },
+            {
+              "week": 9,
+              "points_gained": 4.0
+            },
+            {
+              "week": 10,
+              "points_gained": 0.2
+            },
+            {
+              "week": 11,
+              "points_gained": -14.9
+            },
+            {
+              "week": 12,
+              "points_gained": 14.5
+            },
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": -14.5
+            },
+            {
+              "week": 15,
+              "points_gained": -5.9
+            },
+            {
+              "week": 16,
+              "points_gained": -4.9
+            },
+            {
+              "week": 17,
+              "points_gained": -15.8
+            }
+          ],
+          "net_points_gained": -12.5,
+          "avg_points_gained_per_week": -0.89
+        },
+        {
+          "team": "Room 40",
+          "weekly_points_gained": [
+            {
+              "week": 4,
+              "points_gained": -19.3
+            },
+            {
+              "week": 5,
+              "points_gained": -6.5
+            },
+            {
+              "week": 6,
+              "points_gained": -2.1
+            },
+            {
+              "week": 7,
+              "points_gained": 0.0
+            },
+            {
+              "week": 8,
+              "points_gained": 3.2
+            },
+            {
+              "week": 9,
+              "points_gained": -4.0
+            },
+            {
+              "week": 10,
+              "points_gained": -0.2
+            },
+            {
+              "week": 11,
+              "points_gained": 14.9
+            },
+            {
+              "week": 12,
+              "points_gained": -14.5
+            },
+            {
+              "week": 13,
+              "points_gained": 27.1
+            },
+            {
+              "week": 14,
+              "points_gained": 14.5
+            },
+            {
+              "week": 15,
+              "points_gained": 10.1
+            },
+            {
+              "week": 16,
+              "points_gained": 9.1
+            },
+            {
+              "week": 17,
+              "points_gained": 2.9
+            }
+          ],
+          "net_points_gained": 35.2,
+          "avg_points_gained_per_week": 2.51
+        }
+      ]
+    },
+    {
+      "transaction_id": "152",
+      "date": "2023-10-06T07:11:33+00:00",
+      "players": [
+        {
+          "name": "Jordan Addison",
+          "position": "WR",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Room 40"
+        },
+        {
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Room 40"
+        },
+        {
+          "name": "Adam Thielen",
+          "position": "WR",
+          "from_team": "Room 40",
+          "to_team": "Tsuga’s Tuck Shop"
+        },
+        {
+          "name": "JuJu Smith-Schuster",
+          "position": "WR",
+          "from_team": "Room 40",
+          "to_team": "Tsuga’s Tuck Shop"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 5,
+              "points_gained": 26.3
+            },
+            {
+              "week": 6,
+              "points_gained": 16.7
+            },
+            {
+              "week": 7,
+              "points_gained": -20.3
+            },
+            {
+              "week": 8,
+              "points_gained": -6.2
+            },
+            {
+              "week": 9,
+              "points_gained": -14.1
+            },
+            {
+              "week": 10,
+              "points_gained": -0.7
+            },
+            {
+              "week": 11,
+              "points_gained": 8.0
+            },
+            {
+              "week": 12,
+              "points_gained": -8.7
+            },
+            {
+              "week": 13,
+              "points_gained": -7.8
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": 2.3
+            },
+            {
+              "week": 17,
+              "points_gained": 5.8
+            }
+          ],
+          "net_points_gained": 1.3,
+          "avg_points_gained_per_week": 0.1
+        },
+        {
+          "team": "Room 40",
+          "weekly_points_gained": [
+            {
+              "week": 5,
+              "points_gained": -20.8
+            },
+            {
+              "week": 6,
+              "points_gained": -16.7
+            },
+            {
+              "week": 7,
+              "points_gained": 0.0
+            },
+            {
+              "week": 8,
+              "points_gained": 6.2
+            },
+            {
+              "week": 9,
+              "points_gained": 6.5
+            },
+            {
+              "week": 10,
+              "points_gained": 0.7
+            },
+            {
+              "week": 11,
+              "points_gained": -8.0
+            },
+            {
+              "week": 12,
+              "points_gained": 8.7
+            },
+            {
+              "week": 13,
+              "points_gained": 2.5
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": -14.2
+            },
+            {
+              "week": 17,
+              "points_gained": -4.0
+            }
+          ],
+          "net_points_gained": -39.1,
+          "avg_points_gained_per_week": -3.01
+        }
+      ]
+    },
+    {
+      "transaction_id": "203",
+      "date": "2023-10-20T07:11:50+00:00",
+      "players": [
+        {
+          "name": "Javonte Williams",
+          "position": "RB",
+          "from_team": "Revy’s Konstruction",
+          "to_team": "Supernova’s Studs"
+        },
+        {
+          "name": "Tua Tagovailoa",
+          "position": "QB",
+          "from_team": "Revy’s Konstruction",
+          "to_team": "Supernova’s Studs"
+        },
+        {
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "from_team": "Revy’s Konstruction",
+          "to_team": "Supernova’s Studs"
+        },
+        {
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "from_team": "Supernova’s Studs",
+          "to_team": "Revy’s Konstruction"
+        },
+        {
+          "name": "Breece Hall",
+          "position": "RB",
+          "from_team": "Supernova’s Studs",
+          "to_team": "Revy’s Konstruction"
+        },
+        {
+          "name": "Chris Godwin Jr.",
+          "position": "WR",
+          "from_team": "Supernova’s Studs",
+          "to_team": "Revy’s Konstruction"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Revy’s Konstruction",
+          "weekly_points_gained": [
+            {
+              "week": 7,
+              "points_gained": 11.8
+            },
+            {
+              "week": 8,
+              "points_gained": -0.2
+            },
+            {
+              "week": 9,
+              "points_gained": -4.82
+            },
+            {
+              "week": 10,
+              "points_gained": -19.4
+            },
+            {
+              "week": 11,
+              "points_gained": 12.1
+            },
+            {
+              "week": 12,
+              "points_gained": 6.44
+            },
+            {
+              "week": 13,
+              "points_gained": 4.16
+            },
+            {
+              "week": 14,
+              "points_gained": 13.26
+            },
+            {
+              "week": 15,
+              "points_gained": 23.96
+            },
+            {
+              "week": 16,
+              "points_gained": 35.5
+            },
+            {
+              "week": 17,
+              "points_gained": 23.7
+            }
+          ],
+          "net_points_gained": 106.5,
+          "avg_points_gained_per_week": 9.68
+        },
+        {
+          "team": "Supernova’s Studs",
+          "weekly_points_gained": [
+            {
+              "week": 7,
+              "points_gained": -0.8
+            },
+            {
+              "week": 8,
+              "points_gained": -20.4
+            },
+            {
+              "week": 9,
+              "points_gained": -5.84
+            },
+            {
+              "week": 10,
+              "points_gained": 19.4
+            },
+            {
+              "week": 11,
+              "points_gained": -17.56
+            },
+            {
+              "week": 12,
+              "points_gained": 8.1
+            },
+            {
+              "week": 13,
+              "points_gained": -0.4
+            },
+            {
+              "week": 14,
+              "points_gained": 9.8
+            },
+            {
+              "week": 15,
+              "points_gained": -29.86
+            },
+            {
+              "week": 16,
+              "points_gained": -30.3
+            },
+            {
+              "week": 17,
+              "points_gained": -26.0
+            }
+          ],
+          "net_points_gained": -93.86,
+          "avg_points_gained_per_week": -8.53
+        }
+      ]
+    },
+    {
+      "transaction_id": "241",
+      "date": "2023-11-01T07:14:35+00:00",
+      "players": [
+        {
+          "name": "Dak Prescott",
+          "position": "QB",
+          "from_team": "Supernova’s Studs",
+          "to_team": "Tsuga’s Tuck Shop"
+        },
+        {
+          "name": "Jerry Jeudy",
+          "position": "WR",
+          "from_team": "Supernova’s Studs",
+          "to_team": "Tsuga’s Tuck Shop"
+        },
+        {
+          "name": "Javonte Williams",
+          "position": "RB",
+          "from_team": "Supernova’s Studs",
+          "to_team": "Tsuga’s Tuck Shop"
+        },
+        {
+          "name": "Darrell Henderson Jr.",
+          "position": "RB",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Supernova’s Studs"
+        },
+        {
+          "name": "Diontae Johnson",
+          "position": "WR",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Supernova’s Studs"
+        },
+        {
+          "name": "Tyler Lockett",
+          "position": "WR",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Supernova’s Studs"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Supernova’s Studs",
+          "weekly_points_gained": [
+            {
+              "week": 9,
+              "points_gained": 11.3
+            },
+            {
+              "week": 10,
+              "points_gained": -29.7
+            },
+            {
+              "week": 11,
+              "points_gained": 4.9
+            },
+            {
+              "week": 12,
+              "points_gained": -26.52
+            },
+            {
+              "week": 13,
+              "points_gained": -4.16
+            },
+            {
+              "week": 14,
+              "points_gained": -8.84
+            },
+            {
+              "week": 15,
+              "points_gained": 7.0
+            },
+            {
+              "week": 16,
+              "points_gained": 2.1
+            },
+            {
+              "week": 17,
+              "points_gained": -9.02
+            }
+          ],
+          "net_points_gained": -52.94,
+          "avg_points_gained_per_week": -5.88
+        },
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 9,
+              "points_gained": 13.36
+            },
+            {
+              "week": 10,
+              "points_gained": 24.0
+            },
+            {
+              "week": 11,
+              "points_gained": -7.8
+            },
+            {
+              "week": 12,
+              "points_gained": -5.0
+            },
+            {
+              "week": 13,
+              "points_gained": 16.76
+            },
+            {
+              "week": 14,
+              "points_gained": -3.88
+            },
+            {
+              "week": 15,
+              "points_gained": -2.0
+            },
+            {
+              "week": 16,
+              "points_gained": -5.2
+            },
+            {
+              "week": 17,
+              "points_gained": -6.72
+            }
+          ],
+          "net_points_gained": 23.52,
+          "avg_points_gained_per_week": 2.61
+        }
+      ]
+    },
+    {
+      "transaction_id": "262",
+      "date": "2023-11-03T07:11:22+00:00",
+      "players": [
+        {
+          "name": "Romeo Doubs",
+          "position": "WR",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "The Sage's Playmakers"
+        },
+        {
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "from_team": "The Sage's Playmakers",
+          "to_team": "Tsuga’s Tuck Shop"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 9,
+              "points_gained": 8.1
+            },
+            {
+              "week": 10,
+              "points_gained": 8.1
+            },
+            {
+              "week": 11,
+              "points_gained": 0.0
+            },
+            {
+              "week": 12,
+              "points_gained": 0.0
+            },
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": 0.0
+            },
+            {
+              "week": 17,
+              "points_gained": 0.0
+            }
+          ],
+          "net_points_gained": 16.2,
+          "avg_points_gained_per_week": 1.8
+        },
+        {
+          "team": "The Sage's Playmakers",
+          "weekly_points_gained": [
+            {
+              "week": 9,
+              "points_gained": 0.0
+            },
+            {
+              "week": 10,
+              "points_gained": -3.0
+            },
+            {
+              "week": 11,
+              "points_gained": 12.0
+            },
+            {
+              "week": 12,
+              "points_gained": -0.8
+            },
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": 0.0
+            },
+            {
+              "week": 17,
+              "points_gained": 5.8
+            }
+          ],
+          "net_points_gained": 14.0,
+          "avg_points_gained_per_week": 1.56
+        }
+      ]
+    },
+    {
+      "transaction_id": "273",
+      "date": "2023-11-08T08:17:26+00:00",
+      "players": [
+        {
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "The Sage's Playmakers"
+        },
+        {
+          "name": "Jordan Love",
+          "position": "QB",
+          "from_team": "The Sage's Playmakers",
+          "to_team": "Tsuga’s Tuck Shop"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 10,
+              "points_gained": -8.1
+            },
+            {
+              "week": 11,
+              "points_gained": 0.0
+            },
+            {
+              "week": 12,
+              "points_gained": 0.0
+            },
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": 0.0
+            },
+            {
+              "week": 17,
+              "points_gained": 0.0
+            }
+          ],
+          "net_points_gained": -8.1,
+          "avg_points_gained_per_week": -1.01
+        },
+        {
+          "team": "The Sage's Playmakers",
+          "weekly_points_gained": [
+            {
+              "week": 10,
+              "points_gained": 8.1
+            },
+            {
+              "week": 11,
+              "points_gained": 2.6
+            },
+            {
+              "week": 12,
+              "points_gained": 0.8
+            },
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": 0.0
+            },
+            {
+              "week": 17,
+              "points_gained": 0.0
+            }
+          ],
+          "net_points_gained": 11.5,
+          "avg_points_gained_per_week": 1.44
+        }
+      ]
+    },
+    {
+      "transaction_id": "319",
+      "date": "2023-11-16T13:57:42+00:00",
+      "players": [
+        {
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "The Sage's Playmakers"
+        },
+        {
+          "name": "Javonte Williams",
+          "position": "RB",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "The Sage's Playmakers"
+        },
+        {
+          "name": "Austin Ekeler",
+          "position": "RB",
+          "from_team": "The Sage's Playmakers",
+          "to_team": "Tsuga’s Tuck Shop"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 11,
+              "points_gained": 11.4
+            },
+            {
+              "week": 12,
+              "points_gained": -8.1
+            },
+            {
+              "week": 13,
+              "points_gained": -5.3
+            },
+            {
+              "week": 14,
+              "points_gained": 11.1
+            },
+            {
+              "week": 15,
+              "points_gained": 3.8
+            },
+            {
+              "week": 16,
+              "points_gained": 0.7
+            },
+            {
+              "week": 17,
+              "points_gained": -4.8
+            }
+          ],
+          "net_points_gained": 8.8,
+          "avg_points_gained_per_week": 1.26
+        },
+        {
+          "team": "The Sage's Playmakers",
+          "weekly_points_gained": [
+            {
+              "week": 11,
+              "points_gained": -9.9
+            },
+            {
+              "week": 12,
+              "points_gained": 18.2
+            },
+            {
+              "week": 13,
+              "points_gained": 5.3
+            },
+            {
+              "week": 14,
+              "points_gained": -0.9
+            },
+            {
+              "week": 15,
+              "points_gained": -3.8
+            },
+            {
+              "week": 16,
+              "points_gained": -0.7
+            },
+            {
+              "week": 17,
+              "points_gained": 4.8
+            }
+          ],
+          "net_points_gained": 13.0,
+          "avg_points_gained_per_week": 1.86
+        }
+      ]
+    },
+    {
+      "transaction_id": "371",
+      "date": "2023-11-30T08:15:40+00:00",
+      "players": [
+        {
+          "name": "Travis Kelce",
+          "position": "TE",
+          "from_team": "Revy’s Konstruction",
+          "to_team": "For Pitts and Giggles"
+        },
+        {
+          "name": "Isiah Pacheco",
+          "position": "RB",
+          "from_team": "For Pitts and Giggles",
+          "to_team": "Revy’s Konstruction"
+        },
+        {
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "from_team": "For Pitts and Giggles",
+          "to_team": "Revy’s Konstruction"
+        },
+        {
+          "name": "DeAndre Hopkins",
+          "position": "WR",
+          "from_team": "For Pitts and Giggles",
+          "to_team": "Revy’s Konstruction"
+        },
+        {
+          "name": "Trey McBride",
+          "position": "TE",
+          "from_team": "For Pitts and Giggles",
+          "to_team": "Revy’s Konstruction"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Revy’s Konstruction",
+          "weekly_points_gained": [
+            {
+              "week": 13,
+              "points_gained": 35.1
+            },
+            {
+              "week": 14,
+              "points_gained": -8.92
+            },
+            {
+              "week": 15,
+              "points_gained": -9.0
+            },
+            {
+              "week": 16,
+              "points_gained": -9.3
+            },
+            {
+              "week": 17,
+              "points_gained": 26.04
+            }
+          ],
+          "net_points_gained": 33.92,
+          "avg_points_gained_per_week": 6.78
+        },
+        {
+          "team": "For Pitts and Giggles",
+          "weekly_points_gained": [
+            {
+              "week": 13,
+              "points_gained": -32.02
+            },
+            {
+              "week": 14,
+              "points_gained": -18.6
+            },
+            {
+              "week": 15,
+              "points_gained": -0.82
+            },
+            {
+              "week": 16,
+              "points_gained": 30.5
+            },
+            {
+              "week": 17,
+              "points_gained": -3.7
+            }
+          ],
+          "net_points_gained": -24.64,
+          "avg_points_gained_per_week": -4.93
+        }
+      ]
+    },
+    {
+      "transaction_id": "370",
+      "date": "2023-11-30T08:15:40+00:00",
+      "players": [
+        {
+          "name": "Travis Etienne Jr.",
+          "position": "RB",
+          "from_team": "Wicked Wah-Bams",
+          "to_team": "Tsuga’s Tuck Shop"
+        },
+        {
+          "name": "Zay Flowers",
+          "position": "WR",
+          "from_team": "Wicked Wah-Bams",
+          "to_team": "Tsuga’s Tuck Shop"
+        },
+        {
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Wicked Wah-Bams"
+        },
+        {
+          "name": "David Montgomery",
+          "position": "RB",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Wicked Wah-Bams"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Wicked Wah-Bams",
+          "weekly_points_gained": [
+            {
+              "week": 13,
+              "points_gained": 13.72
+            },
+            {
+              "week": 14,
+              "points_gained": -19.8
+            },
+            {
+              "week": 15,
+              "points_gained": 17.1
+            },
+            {
+              "week": 16,
+              "points_gained": 6.0
+            },
+            {
+              "week": 17,
+              "points_gained": -22.3
+            }
+          ],
+          "net_points_gained": -5.28,
+          "avg_points_gained_per_week": -1.06
+        },
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 13,
+              "points_gained": -13.72
+            },
+            {
+              "week": 14,
+              "points_gained": 11.3
+            },
+            {
+              "week": 15,
+              "points_gained": -9.0
+            },
+            {
+              "week": 16,
+              "points_gained": 9.3
+            },
+            {
+              "week": 17,
+              "points_gained": 25.8
+            }
+          ],
+          "net_points_gained": 23.68,
+          "avg_points_gained_per_week": 4.74
+        }
+      ]
+    },
+    {
+      "transaction_id": "369",
+      "date": "2023-11-30T08:15:40+00:00",
+      "players": [
+        {
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Oscorps Buns"
+        },
+        {
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "from_team": "Tsuga’s Tuck Shop",
+          "to_team": "Oscorps Buns"
+        },
+        {
+          "name": "Brandon Aiyuk",
+          "position": "WR",
+          "from_team": "Oscorps Buns",
+          "to_team": "Tsuga’s Tuck Shop"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Tsuga’s Tuck Shop",
+          "weekly_points_gained": [
+            {
+              "week": 13,
+              "points_gained": 22.3
+            },
+            {
+              "week": 14,
+              "points_gained": -3.4
+            },
+            {
+              "week": 15,
+              "points_gained": -5.4
+            },
+            {
+              "week": 16,
+              "points_gained": 17.3
+            },
+            {
+              "week": 17,
+              "points_gained": 21.5
+            }
+          ],
+          "net_points_gained": 52.3,
+          "avg_points_gained_per_week": 10.46
+        },
+        {
+          "team": "Oscorps Buns",
+          "weekly_points_gained": [
+            {
+              "week": 13,
+              "points_gained": -8.2
+            },
+            {
+              "week": 14,
+              "points_gained": -1.4
+            },
+            {
+              "week": 15,
+              "points_gained": 5.4
+            },
+            {
+              "week": 16,
+              "points_gained": -17.3
+            },
+            {
+              "week": 17,
+              "points_gained": -17.1
+            }
+          ],
+          "net_points_gained": -38.6,
+          "avg_points_gained_per_week": -7.72
+        }
+      ]
+    },
+    {
+      "transaction_id": "383",
+      "date": "2023-12-01T08:11:01+00:00",
+      "players": [
+        {
+          "name": "Josh Downs",
+          "position": "WR",
+          "from_team": "Sparty's Sigmas",
+          "to_team": "Room 40"
+        },
+        {
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "from_team": "Room 40",
+          "to_team": "Sparty's Sigmas"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Sparty's Sigmas",
+          "weekly_points_gained": [
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 1.7
+            },
+            {
+              "week": 16,
+              "points_gained": -6.9
+            },
+            {
+              "week": 17,
+              "points_gained": -2.9
+            }
+          ],
+          "net_points_gained": -8.1,
+          "avg_points_gained_per_week": -1.62
+        },
+        {
+          "team": "Room 40",
+          "weekly_points_gained": [
+            {
+              "week": 13,
+              "points_gained": -3.6
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": -8.5
+            },
+            {
+              "week": 17,
+              "points_gained": 3.9
+            }
+          ],
+          "net_points_gained": -8.2,
+          "avg_points_gained_per_week": -1.64
+        }
+      ]
+    },
+    {
+      "transaction_id": "382",
+      "date": "2023-12-01T08:11:01+00:00",
+      "players": [
+        {
+          "name": "Zack Moss",
+          "position": "RB",
+          "from_team": "Supernova’s Studs",
+          "to_team": "Room 40"
+        },
+        {
+          "name": "Cade Otton",
+          "position": "TE",
+          "from_team": "Supernova’s Studs",
+          "to_team": "Room 40"
+        },
+        {
+          "name": "Hunter Henry",
+          "position": "TE",
+          "from_team": "Room 40",
+          "to_team": "Supernova’s Studs"
+        },
+        {
+          "name": "Jordan Addison",
+          "position": "WR",
+          "from_team": "Room 40",
+          "to_team": "Supernova’s Studs"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Supernova’s Studs",
+          "weekly_points_gained": [
+            {
+              "week": 13,
+              "points_gained": 17.3
+            },
+            {
+              "week": 14,
+              "points_gained": -4.9
+            },
+            {
+              "week": 15,
+              "points_gained": -7.3
+            },
+            {
+              "week": 16,
+              "points_gained": -14.9
+            },
+            {
+              "week": 17,
+              "points_gained": -5.8
+            }
+          ],
+          "net_points_gained": -15.6,
+          "avg_points_gained_per_week": -3.12
+        },
+        {
+          "team": "Room 40",
+          "weekly_points_gained": [
+            {
+              "week": 13,
+              "points_gained": 2.7
+            },
+            {
+              "week": 14,
+              "points_gained": 3.0
+            },
+            {
+              "week": 15,
+              "points_gained": 10.1
+            },
+            {
+              "week": 16,
+              "points_gained": 8.7
+            },
+            {
+              "week": 17,
+              "points_gained": 1.5
+            }
+          ],
+          "net_points_gained": 26.0,
+          "avg_points_gained_per_week": 5.2
+        }
+      ]
+    },
+    {
+      "transaction_id": "386",
+      "date": "2023-12-02T08:11:31+00:00",
+      "players": [
+        {
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "from_team": "Supernova’s Studs",
+          "to_team": "Wicked Wah-Bams"
+        },
+        {
+          "name": "Cole Kmet",
+          "position": "TE",
+          "from_team": "Wicked Wah-Bams",
+          "to_team": "Supernova’s Studs"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Supernova’s Studs",
+          "weekly_points_gained": [
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": 3.6
+            },
+            {
+              "week": 15,
+              "points_gained": 5.3
+            },
+            {
+              "week": 16,
+              "points_gained": 15.98
+            },
+            {
+              "week": 17,
+              "points_gained": -13.3
+            }
+          ],
+          "net_points_gained": 11.58,
+          "avg_points_gained_per_week": 2.32
+        },
+        {
+          "team": "Wicked Wah-Bams",
+          "weekly_points_gained": [
+            {
+              "week": 13,
+              "points_gained": 0.0
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": -2.8
+            },
+            {
+              "week": 17,
+              "points_gained": -5.0
+            }
+          ],
+          "net_points_gained": -7.8,
+          "avg_points_gained_per_week": -1.56
+        }
+      ]
+    },
+    {
+      "transaction_id": "390",
+      "date": "2023-12-03T08:10:36+00:00",
+      "players": [
+        {
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "from_team": "Bumpin Brasnos",
+          "to_team": "The Sage's Playmakers"
+        },
+        {
+          "name": "Pat Freiermuth",
+          "position": "TE",
+          "from_team": "The Sage's Playmakers",
+          "to_team": "Bumpin Brasnos"
+        }
+      ],
+      "managers": [
+        {
+          "team": "Bumpin Brasnos",
+          "weekly_points_gained": [
+            {
+              "week": 13,
+              "points_gained": -2.1
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 0.0
+            },
+            {
+              "week": 16,
+              "points_gained": 0.0
+            },
+            {
+              "week": 17,
+              "points_gained": 0.0
+            }
+          ],
+          "net_points_gained": -2.1,
+          "avg_points_gained_per_week": -0.42
+        },
+        {
+          "team": "The Sage's Playmakers",
+          "weekly_points_gained": [
+            {
+              "week": 13,
+              "points_gained": 6.0
+            },
+            {
+              "week": 14,
+              "points_gained": 0.0
+            },
+            {
+              "week": 15,
+              "points_gained": 6.8
+            },
+            {
+              "week": 16,
+              "points_gained": 5.4
+            },
+            {
+              "week": 17,
+              "points_gained": 14.8
+            }
+          ],
+          "net_points_gained": 33.0,
+          "avg_points_gained_per_week": 6.6
+        }
+      ]
+    }
+  ]
+}

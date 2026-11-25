@@ -1,21 +1,12 @@
 [
     {
         "Team": "Hunter\u2019s Hunters",
-        "Earned Wins": 5.7273,
-        "Actual Wins": 8,
-        "Difference": 2.2727,
-        "Points For": 1688.84,
-        "Points Against": 1647.54,
+        "Earned Wins": 6.1558,
+        "Actual Wins": 9,
+        "Difference": 2.8442,
+        "Points For": 1820.62,
+        "Points Against": 1768.42,
         "Difference Rank": 1
-    },
-    {
-        "Team": "Ozzy Stick",
-        "Earned Wins": 8.5455,
-        "Actual Wins": 10,
-        "Difference": 1.4545,
-        "Points For": 1957.6,
-        "Points Against": 1705.82,
-        "Difference Rank": 2
     },
     {
         "Team": "Supernova\u2019s Studs",
@@ -24,42 +15,51 @@
         "Difference": 0.9481,
         "Points For": 1846.56,
         "Points Against": 1885.16,
+        "Difference Rank": 2
+    },
+    {
+        "Team": "Ozzy Stick",
+        "Earned Wins": 9.1169,
+        "Actual Wins": 10,
+        "Difference": 0.8831,
+        "Points For": 2093.08,
+        "Points Against": 1851.38,
         "Difference Rank": 3
     },
     {
         "Team": "Wicked Wah-Bams",
-        "Earned Wins": 6.7143,
-        "Actual Wins": 7,
-        "Difference": 0.2857,
-        "Points For": 1820.46,
-        "Points Against": 1756.46,
+        "Earned Wins": 7.4286,
+        "Actual Wins": 8,
+        "Difference": 0.5714,
+        "Points For": 1959.1,
+        "Points Against": 1871.44,
         "Difference Rank": 4
     },
     {
         "Team": "Revy\u2019s Konstruction",
-        "Earned Wins": 9.7532,
-        "Actual Wins": 10,
-        "Difference": 0.2468,
-        "Points For": 1989.0,
-        "Points Against": 2041.58,
+        "Earned Wins": 10.6104,
+        "Actual Wins": 11,
+        "Difference": 0.3896,
+        "Points For": 2130.72,
+        "Points Against": 2170.46,
         "Difference Rank": 5
     },
     {
         "Team": "Flows Aggressive Insurance",
-        "Earned Wins": 7.9481,
+        "Earned Wins": 8.0909,
         "Actual Wins": 8,
-        "Difference": 0.0519,
-        "Points For": 1869.86,
-        "Points Against": 2014.22,
+        "Difference": -0.0909,
+        "Points For": 1990.74,
+        "Points Against": 2146.0,
         "Difference Rank": 6
     },
     {
         "Team": "Mahomes Alone",
-        "Earned Wins": 9.3636,
-        "Actual Wins": 9,
+        "Earned Wins": 10.3636,
+        "Actual Wins": 10,
         "Difference": -0.3636,
-        "Points For": 1926.46,
-        "Points Against": 1878.52,
+        "Points For": 2072.02,
+        "Points Against": 2014.0,
         "Difference Rank": 7
     },
     {
@@ -90,21 +90,21 @@
         "Difference Rank": 10
     },
     {
-        "Team": "Spirally Things",
-        "Earned Wins": 10.2727,
-        "Actual Wins": 9,
-        "Difference": -1.2727,
-        "Points For": 2083.36,
-        "Points Against": 1912.98,
-        "Difference Rank": 11
-    },
-    {
         "Team": "Omaha Beach Real Estate",
         "Earned Wins": 7.3636,
         "Actual Wins": 6,
         "Difference": -1.3636,
-        "Points For": 1783.22,
-        "Points Against": 1872.02,
+        "Points For": 1898.2,
+        "Points Against": 2010.66,
+        "Difference Rank": 11
+    },
+    {
+        "Team": "Spirally Things",
+        "Earned Wins": 10.5584,
+        "Actual Wins": 9,
+        "Difference": -1.5584,
+        "Points For": 2212.24,
+        "Points Against": 2054.7,
         "Difference Rank": 12
     }
 ]

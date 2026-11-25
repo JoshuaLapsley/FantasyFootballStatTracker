@@ -13,6 +13,8 @@ from datetime import datetime as dt, timezone
 
 
 
+
+
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -47,6 +49,7 @@ from PythonData.APICallsAndStats.DataFunctions.Simulate_ROS import run
 from PythonData.APICallsAndStats.APIFunctions.GetManagerData import write_managers_file
 
 from PythonData.APICallsAndStats.DataFunctions.GTM import write_gtm_file
+from PythonData.APICallsAndStats.DataFunctions.TeamRankOverTime import create_bump_chart
 
 
 def copy_dir(src, dest):
@@ -147,6 +150,12 @@ generate_waiver_war_board_and_legend(year)
 compute_schedule_records(year)
 write_trade_evaluations(year)
 write_gtm_file(year)
+create_bump_chart(
+    lg,
+    f"{DATA_DIR}/TeamRankOverTime",
+    start_week=1,
+    end_week=14,
+)
 
 #simulations
 run(2026)

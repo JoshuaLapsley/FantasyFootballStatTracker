@@ -61,7 +61,7 @@ def write_roster_points_file(lg, year, root=API_DATA_ROOT, through_week=None):
 
     if through_week is None:
         current = lg.current_week()
-        through_week = FINAL_WEEK if current == FINAL_WEEK else current - 1
+        through_week = FINAL_WEEK if current >= FINAL_WEEK else current - 1
 
     team_keys = list(lg.teams().keys())
     written = []

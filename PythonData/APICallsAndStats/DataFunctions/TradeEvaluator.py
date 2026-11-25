@@ -1,6 +1,6 @@
 import json
 from dataclasses import dataclass, field
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 import re
 import unicodedata
@@ -12,9 +12,16 @@ ROSTER_FILENAME = "RosterPoints.json"
 
 # Tuesday before NFL Week 1 kickoff. Weeks roll over every 7 days from here.
 # Add each year you use.
-SEASON_START = {
-    2026: date(2026, 9, 8),
-}
+# Optional manual overrides for odd seasons: {year: date(...)}
+SEASON_START_OVERRIDES = {}
+
+def get_season_start(year):
+    """Tuesday before NFL Week 1 kickoff (the Tuesday after Labor Day)."""
+    if year in SEASON_START_OVERRIDES:
+        return SEASON_START_OVERRIDES[year]
+    d = date(year, 9, 1)
+    labor_day = d + timedelta(days=(0 - d.weekday()) % 7)   # first Monday of September
+    return labor_day + timedelta(days=1)
 
 POSITION_ORDER = ["QB", "RB", "WR", "TE", "W/R/T", "K", "DEF", "BN", "IR"]
 
@@ -67,9 +74,7 @@ class Trade:
 
 
 def week_from_date(date_str, year):
-    start = SEASON_START.get(year)
-    if start is None:
-        raise KeyError(f"Add {year} to SEASON_START to derive the week from a date.")
+    start = get_season_start(year)
     d = datetime.fromisoformat(date_str[:19]).date()
     return max(1, (d - start).days // 7 + 1)
 
@@ -275,7 +280,7 @@ def lookup_player(name, year, week):
 
 def last_finished_week(year, today=None):
     """Last week that has been completed, capped at the newest projections file."""
-    start = SEASON_START[year]
+    start = get_season_start(year)
     today = today or date.today()
     current_week = (today - start).days // 7 + 1
     folder = PROJECTIONS_DIR / str(year) / "projections"
@@ -599,6 +604,7 @@ def write_trade_evaluations(year, last_week=None, print_results=True):
 
 
 if __name__ == "__main__":
-    YEAR = 2026
-    path = write_trade_evaluations(YEAR)
+    import sys
+    year = int(sys.argv[1]) if len(sys.argv) > 1 else int(input("Year: "))
+    path = write_trade_evaluations(year)
     print(f"Wrote trade evaluations to {path}")

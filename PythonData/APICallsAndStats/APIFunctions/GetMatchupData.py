@@ -7,6 +7,8 @@ from pathlib import Path
 # Output: .../Functions/APIData/{Year}/MatchupData
 API_DATA_ROOT = Path(__file__).resolve().parents[1] / "APIData"
 
+FINAL_WEEK = 17
+
 
 def matchup_dir(year, root=API_DATA_ROOT):
     return os.path.join(str(root), str(year), "MatchupData")
@@ -20,10 +22,12 @@ def write_week_files(lg, year, root=API_DATA_ROOT):
     out_dir = matchup_dir(year, root)
     os.makedirs(out_dir, exist_ok=True)
 
-    current_week = lg.current_week()
+    current_week = int(lg.current_week())
+    through_week = FINAL_WEEK if current_week >= FINAL_WEEK else current_week - 1
+
     written, skipped = [], []
 
-    for week in range(1, current_week):
+    for week in range(1, through_week + 1):
         path = week_filename(week, year, root)
         if os.path.exists(path):
             skipped.append(week)
