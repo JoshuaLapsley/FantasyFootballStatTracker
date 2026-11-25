@@ -102,7 +102,7 @@ def write_meta(league, data_dir, year=2026):
     print(f"Saved -> {path}")
 
 
-year = 2023
+year = 2025
 completedWeeks = 17
 # Where the generated data lives, and where the website reads it from
 DATA_DIR = SCRIPT_DIR / ".." / "APICallsAndStats" / "Data" / str(year)

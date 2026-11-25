@@ -1491,19 +1491,6 @@
         "WAR Rank": 73
     },
     {
-        "Player": "Broncos",
-        "Player ID": "100007",
-        "Position": "DEF",
-        "Team": "Bumpin Brasnos",
-        "Team Key": "423.l.902802.t.5",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            4
-        ],
-        "WAR": 0.0966,
-        "WAR Rank": 74
-    },
-    {
         "Player": "Buccaneers",
         "Player ID": "100027",
         "Position": "DEF",
@@ -1512,6 +1499,19 @@
         "Manager": "Andrew",
         "Weeks Rostered": [
             10
+        ],
+        "WAR": 0.0966,
+        "WAR Rank": 74
+    },
+    {
+        "Player": "Broncos",
+        "Player ID": "100007",
+        "Position": "DEF",
+        "Team": "Bumpin Brasnos",
+        "Team Key": "423.l.902802.t.5",
+        "Manager": "Levi",
+        "Weeks Rostered": [
+            4
         ],
         "WAR": 0.0966,
         "WAR Rank": 75
@@ -1545,6 +1545,19 @@
         "WAR Rank": 77
     },
     {
+        "Player": "Jaguars",
+        "Player ID": "100030",
+        "Position": "DEF",
+        "Team": "Bumpin Brasnos",
+        "Team Key": "423.l.902802.t.5",
+        "Manager": "Levi",
+        "Weeks Rostered": [
+            6
+        ],
+        "WAR": 0.0846,
+        "WAR Rank": 78
+    },
+    {
         "Player": "Jason Myers",
         "Player ID": "28378",
         "Position": "K",
@@ -1554,19 +1567,6 @@
         "Weeks Rostered": [
             16,
             17
-        ],
-        "WAR": 0.0846,
-        "WAR Rank": 78
-    },
-    {
-        "Player": "Jaguars",
-        "Player ID": "100030",
-        "Position": "DEF",
-        "Team": "Bumpin Brasnos",
-        "Team Key": "423.l.902802.t.5",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            6
         ],
         "WAR": 0.0846,
         "WAR Rank": 79
@@ -1599,20 +1599,6 @@
         "WAR Rank": 81
     },
     {
-        "Player": "Cameron Dicker",
-        "Player ID": "34344",
-        "Position": "K",
-        "Team": "Bumpin Brasnos",
-        "Team Key": "423.l.902802.t.5",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            9,
-            10
-        ],
-        "WAR": 0.0726,
-        "WAR Rank": 82
-    },
-    {
         "Player": "Blake Grupe",
         "Player ID": "40296",
         "Position": "K",
@@ -1623,6 +1609,20 @@
             7,
             8,
             9
+        ],
+        "WAR": 0.0726,
+        "WAR Rank": 82
+    },
+    {
+        "Player": "Cameron Dicker",
+        "Player ID": "34344",
+        "Position": "K",
+        "Team": "Bumpin Brasnos",
+        "Team Key": "423.l.902802.t.5",
+        "Manager": "Levi",
+        "Weeks Rostered": [
+            9,
+            10
         ],
         "WAR": 0.0726,
         "WAR Rank": 83
@@ -1746,20 +1746,6 @@
         "WAR Rank": 91
     },
     {
-        "Player": "Kendrick Bourne",
-        "Player ID": "30551",
-        "Position": "WR",
-        "Team": "The Hunters",
-        "Team Key": "423.l.902802.t.10",
-        "Manager": "Hunter",
-        "Weeks Rostered": [
-            8,
-            9
-        ],
-        "WAR": 0.0669,
-        "WAR Rank": 92
-    },
-    {
         "Player": "Nick Mullens",
         "Player ID": "30563",
         "Position": "QB",
@@ -1769,6 +1755,20 @@
         "Weeks Rostered": [
             16,
             17
+        ],
+        "WAR": 0.0669,
+        "WAR Rank": 92
+    },
+    {
+        "Player": "Kendrick Bourne",
+        "Player ID": "30551",
+        "Position": "WR",
+        "Team": "The Hunters",
+        "Team Key": "423.l.902802.t.10",
+        "Manager": "Hunter",
+        "Weeks Rostered": [
+            8,
+            9
         ],
         "WAR": 0.0669,
         "WAR Rank": 93
@@ -2013,19 +2013,6 @@
         "WAR Rank": 109
     },
     {
-        "Player": "Rams",
-        "Player ID": "100014",
-        "Position": "DEF",
-        "Team": "Room 40",
-        "Team Key": "423.l.902802.t.2",
-        "Manager": "Josh",
-        "Weeks Rostered": [
-            17
-        ],
-        "WAR": 0.0362,
-        "WAR Rank": 110
-    },
-    {
         "Player": "Seahawks",
         "Player ID": "100026",
         "Position": "DEF",
@@ -2034,6 +2021,19 @@
         "Manager": "Zach",
         "Weeks Rostered": [
             7
+        ],
+        "WAR": 0.0362,
+        "WAR Rank": 110
+    },
+    {
+        "Player": "Rams",
+        "Player ID": "100014",
+        "Position": "DEF",
+        "Team": "Room 40",
+        "Team Key": "423.l.902802.t.2",
+        "Manager": "Josh",
+        "Weeks Rostered": [
+            17
         ],
         "WAR": 0.0362,
         "WAR Rank": 111
@@ -2317,19 +2317,6 @@
         "WAR Rank": 130
     },
     {
-        "Player": "Ka'imi Fairbairn",
-        "Player ID": "29792",
-        "Position": "K",
-        "Team": "Supernova\u2019s Studs",
-        "Team Key": "423.l.902802.t.8",
-        "Manager": "Gavin Brodie",
-        "Weeks Rostered": [
-            6
-        ],
-        "WAR": 0.0121,
-        "WAR Rank": 131
-    },
-    {
         "Player": "Riley Patterson",
         "Player ID": "33781",
         "Position": "K",
@@ -2340,7 +2327,33 @@
             6
         ],
         "WAR": 0.0121,
+        "WAR Rank": 131
+    },
+    {
+        "Player": "Ka'imi Fairbairn",
+        "Player ID": "29792",
+        "Position": "K",
+        "Team": "Supernova\u2019s Studs",
+        "Team Key": "423.l.902802.t.8",
+        "Manager": "Gavin Brodie",
+        "Weeks Rostered": [
+            6
+        ],
+        "WAR": 0.0121,
         "WAR Rank": 132
+    },
+    {
+        "Player": "Matt Gay",
+        "Player ID": "31977",
+        "Position": "K",
+        "Team": "Supernova\u2019s Studs",
+        "Team Key": "423.l.902802.t.8",
+        "Manager": "Gavin Brodie",
+        "Weeks Rostered": [
+            7
+        ],
+        "WAR": 0.0121,
+        "WAR Rank": 133
     },
     {
         "Player": "Jason Myers",
@@ -2352,19 +2365,6 @@
         "Weeks Rostered": [
             1,
             2
-        ],
-        "WAR": 0.0121,
-        "WAR Rank": 133
-    },
-    {
-        "Player": "Matt Gay",
-        "Player ID": "31977",
-        "Position": "K",
-        "Team": "Supernova\u2019s Studs",
-        "Team Key": "423.l.902802.t.8",
-        "Manager": "Gavin Brodie",
-        "Weeks Rostered": [
-            7
         ],
         "WAR": 0.0121,
         "WAR Rank": 134
@@ -2418,6 +2418,21 @@
         "WAR Rank": 137
     },
     {
+        "Player": "Brett Maher",
+        "Player ID": "27369",
+        "Position": "K",
+        "Team": "Room 40",
+        "Team Key": "423.l.902802.t.2",
+        "Manager": "Josh",
+        "Weeks Rostered": [
+            5,
+            6,
+            7
+        ],
+        "WAR": 0.0003,
+        "WAR Rank": 138
+    },
+    {
         "Player": "Riley Patterson",
         "Player ID": "33781",
         "Position": "K",
@@ -2431,22 +2446,52 @@
             4
         ],
         "WAR": 0.0003,
-        "WAR Rank": 138
+        "WAR Rank": 139
     },
     {
-        "Player": "Brett Maher",
-        "Player ID": "27369",
-        "Position": "K",
-        "Team": "Room 40",
-        "Team Key": "423.l.902802.t.2",
-        "Manager": "Josh",
+        "Player": "Mark Andrews",
+        "Player ID": "31056",
+        "Position": "TE",
+        "Team": "Tsuga\u2019s Tuck Shop",
+        "Team Key": "423.l.902802.t.4",
+        "Manager": "Caleb",
         "Weeks Rostered": [
-            5,
-            6,
-            7
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
         ],
-        "WAR": 0.0003,
-        "WAR Rank": 139
+        "WAR": 0.0,
+        "WAR Rank": 140
+    },
+    {
+        "Player": "Leonard Fournette",
+        "Player ID": "30117",
+        "Position": "RB",
+        "Team": "Sparty's Sigmas",
+        "Team Key": "423.l.902802.t.1",
+        "Manager": "Jackson",
+        "Weeks Rostered": [
+            9,
+            10
+        ],
+        "WAR": 0.0,
+        "WAR Rank": 141
+    },
+    {
+        "Player": "Odell Beckham Jr.",
+        "Player ID": "27540",
+        "Position": "WR",
+        "Team": "Bumpin Brasnos",
+        "Team Key": "423.l.902802.t.5",
+        "Manager": "Levi",
+        "Weeks Rostered": [
+            4
+        ],
+        "WAR": 0.0,
+        "WAR Rank": 142
     },
     {
         "Player": "Michael Thomas",
@@ -2464,7 +2509,47 @@
             17
         ],
         "WAR": 0.0,
-        "WAR Rank": 140
+        "WAR Rank": 143
+    },
+    {
+        "Player": "Chase Claypool",
+        "Player ID": "32719",
+        "Position": "WR",
+        "Team": "Supernova\u2019s Studs",
+        "Team Key": "423.l.902802.t.8",
+        "Manager": "Gavin Brodie",
+        "Weeks Rostered": [
+            5,
+            6
+        ],
+        "WAR": 0.0,
+        "WAR Rank": 144
+    },
+    {
+        "Player": "Gerald Everett",
+        "Player ID": "30157",
+        "Position": "TE",
+        "Team": "Sparty's Sigmas",
+        "Team Key": "423.l.902802.t.1",
+        "Manager": "Jackson",
+        "Weeks Rostered": [
+            8
+        ],
+        "WAR": 0.0,
+        "WAR Rank": 145
+    },
+    {
+        "Player": "Jake Moody",
+        "Player ID": "40129",
+        "Position": "K",
+        "Team": "Tsuga\u2019s Tuck Shop",
+        "Team Key": "423.l.902802.t.4",
+        "Manager": "Caleb",
+        "Weeks Rostered": [
+            7
+        ],
+        "WAR": 0.0,
+        "WAR Rank": 146
     },
     {
         "Player": "Tom Brady",
@@ -2483,65 +2568,7 @@
             17
         ],
         "WAR": 0.0,
-        "WAR Rank": 141
-    },
-    {
-        "Player": "Leonard Fournette",
-        "Player ID": "30117",
-        "Position": "RB",
-        "Team": "Sparty's Sigmas",
-        "Team Key": "423.l.902802.t.1",
-        "Manager": "Jackson",
-        "Weeks Rostered": [
-            9,
-            10
-        ],
-        "WAR": 0.0,
-        "WAR Rank": 142
-    },
-    {
-        "Player": "Jake Moody",
-        "Player ID": "40129",
-        "Position": "K",
-        "Team": "Tsuga\u2019s Tuck Shop",
-        "Team Key": "423.l.902802.t.4",
-        "Manager": "Caleb",
-        "Weeks Rostered": [
-            7
-        ],
-        "WAR": 0.0,
-        "WAR Rank": 143
-    },
-    {
-        "Player": "Mark Andrews",
-        "Player ID": "31056",
-        "Position": "TE",
-        "Team": "Tsuga\u2019s Tuck Shop",
-        "Team Key": "423.l.902802.t.4",
-        "Manager": "Caleb",
-        "Weeks Rostered": [
-            12,
-            13,
-            14,
-            15,
-            16,
-            17
-        ],
-        "WAR": 0.0,
-        "WAR Rank": 144
-    },
-    {
-        "Player": "Odell Beckham Jr.",
-        "Player ID": "27540",
-        "Position": "WR",
-        "Team": "Bumpin Brasnos",
-        "Team Key": "423.l.902802.t.5",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            4
-        ],
-        "WAR": 0.0,
-        "WAR Rank": 145
+        "WAR Rank": 147
     },
     {
         "Player": "Aaron Rodgers",
@@ -2560,33 +2587,6 @@
             15,
             16,
             17
-        ],
-        "WAR": 0.0,
-        "WAR Rank": 146
-    },
-    {
-        "Player": "Gerald Everett",
-        "Player ID": "30157",
-        "Position": "TE",
-        "Team": "Sparty's Sigmas",
-        "Team Key": "423.l.902802.t.1",
-        "Manager": "Jackson",
-        "Weeks Rostered": [
-            8
-        ],
-        "WAR": 0.0,
-        "WAR Rank": 147
-    },
-    {
-        "Player": "Chase Claypool",
-        "Player ID": "32719",
-        "Position": "WR",
-        "Team": "Supernova\u2019s Studs",
-        "Team Key": "423.l.902802.t.8",
-        "Manager": "Gavin Brodie",
-        "Weeks Rostered": [
-            5,
-            6
         ],
         "WAR": 0.0,
         "WAR Rank": 148
@@ -2634,6 +2634,19 @@
         "WAR Rank": 151
     },
     {
+        "Player": "Robert Woods",
+        "Player ID": "26664",
+        "Position": "WR",
+        "Team": "Tsuga\u2019s Tuck Shop",
+        "Team Key": "423.l.902802.t.4",
+        "Manager": "Caleb",
+        "Weeks Rostered": [
+            3
+        ],
+        "WAR": -0.007,
+        "WAR Rank": 152
+    },
+    {
         "Player": "Zach Charbonnet",
         "Player ID": "40075",
         "Position": "RB",
@@ -2648,7 +2661,7 @@
             6
         ],
         "WAR": -0.007,
-        "WAR Rank": 152
+        "WAR Rank": 153
     },
     {
         "Player": "Kendre Miller",
@@ -2657,19 +2670,6 @@
         "Team": "Bumpin Brasnos",
         "Team Key": "423.l.902802.t.5",
         "Manager": "Levi",
-        "Weeks Rostered": [
-            3
-        ],
-        "WAR": -0.007,
-        "WAR Rank": 153
-    },
-    {
-        "Player": "Robert Woods",
-        "Player ID": "26664",
-        "Position": "WR",
-        "Team": "Tsuga\u2019s Tuck Shop",
-        "Team Key": "423.l.902802.t.4",
-        "Manager": "Caleb",
         "Weeks Rostered": [
             3
         ],
@@ -2738,19 +2738,6 @@
         "WAR Rank": 158
     },
     {
-        "Player": "Texans",
-        "Player ID": "100034",
-        "Position": "DEF",
-        "Team": "Room 40",
-        "Team Key": "423.l.902802.t.2",
-        "Manager": "Josh",
-        "Weeks Rostered": [
-            5
-        ],
-        "WAR": -0.012,
-        "WAR Rank": 159
-    },
-    {
         "Player": "Buccaneers",
         "Player ID": "100027",
         "Position": "DEF",
@@ -2759,6 +2746,19 @@
         "Manager": "Caleb",
         "Weeks Rostered": [
             12
+        ],
+        "WAR": -0.012,
+        "WAR Rank": 159
+    },
+    {
+        "Player": "Texans",
+        "Player ID": "100034",
+        "Position": "DEF",
+        "Team": "Room 40",
+        "Team Key": "423.l.902802.t.2",
+        "Manager": "Josh",
+        "Weeks Rostered": [
+            5
         ],
         "WAR": -0.012,
         "WAR Rank": 160
@@ -3152,6 +3152,19 @@
         "WAR Rank": 188
     },
     {
+        "Player": "Jordan Mason",
+        "Player ID": "34320",
+        "Position": "RB",
+        "Team": "Bumpin Brasnos",
+        "Team Key": "423.l.902802.t.5",
+        "Manager": "Levi",
+        "Weeks Rostered": [
+            7
+        ],
+        "WAR": -0.0571,
+        "WAR Rank": 189
+    },
+    {
         "Player": "Keaton Mitchell",
         "Player ID": "40641",
         "Position": "RB",
@@ -3162,19 +3175,6 @@
             4,
             5,
             6
-        ],
-        "WAR": -0.0571,
-        "WAR Rank": 189
-    },
-    {
-        "Player": "Jordan Mason",
-        "Player ID": "34320",
-        "Position": "RB",
-        "Team": "Bumpin Brasnos",
-        "Team Key": "423.l.902802.t.5",
-        "Manager": "Levi",
-        "Weeks Rostered": [
-            7
         ],
         "WAR": -0.0571,
         "WAR Rank": 190

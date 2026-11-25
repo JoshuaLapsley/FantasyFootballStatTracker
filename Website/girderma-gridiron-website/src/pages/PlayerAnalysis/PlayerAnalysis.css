@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap");
+
+:root {
+  --bg: #eef1f4;
+  --surface: #ffffff;
+  --ink: #14202b;
+  --muted: #5b6a78;
+  --line: #d6dde4;
+  --turf: #1f7a4d;
+  --turf-soft: #dff0e6;
+  --flag: #f2c230;
+
+  --draft: #1f6fd1;
+  --add: #1f7a4d;
+  --drop: #c4452f;
+  --trade: #8a4fd6;
+
+  --radius: 10px;
+  --head: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
+  --body: "Barlow", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e151c;
+    --surface: #17212b;
+    --ink: #e8eef3;
+    --muted: #93a3b1;
+    --line: #2a3745;
+    --turf: #4cc489;
+    --turf-soft: #163626;
+    --draft: #6aa6f5;
+    --add: #4cc489;
+    --drop: #f28b78;
+    --trade: #b99af0;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 3px solid var(--flag);
+  outline-offset: 2px;
+}
+
+.page {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+}
+
+/* ---------- Intro ---------- */
+
+.intro__title {
+  font-family: var(--head);
+  font-weight: 700;
+  font-size: clamp(2.6rem, 8vw, 4.2rem);
+  line-height: 0.95;
+  margin: 0 0 12px;
+  letter-spacing: 0.01em;
+}
+
+.intro__sub {
+  margin: 0 0 28px;
+  max-width: 60ch;
+  color: var(--muted);
+}
+
+.notice {
+  background: var(--flag);
+  color: #14202b;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  font-weight: 500;
+}
+
+/* ---------- Controls ---------- */
+
+.controls {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.search {
+  width: 100%;
+  padding: 14px 16px;
+  font: inherit;
+  font-size: 1.05rem;
+  color: var(--ink);
+  background: var(--surface);
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.search:focus {
+  border-color: var(--turf);
+  outline: none;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  padding: 5px 14px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+.chip--on {
+  background: var(--turf);
+  border-color: var(--turf);
+  color: #fff;
+}
+
+.count {
+  margin: 4px 0 14px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.empty {
+  padding: 32px 0;
+  color: var(--muted);
+}
+
+/* ---------- Player grid ---------- */
+
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 2px;
+  justify-items: start;
+  text-align: left;
+  padding: 12px 14px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.card:hover {
+  border-color: var(--turf);
+}
+
+.card__name {
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.card__meta {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+/* ---------- Position tag ---------- */
+
+.pos {
+  display: inline-block;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-family: var(--head);
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  background: var(--turf-soft);
+  color: var(--turf);
+}
+
+.pos--QB { background: #fbe3dd; color: #b23a25; }
+.pos--RB { background: #dff0e6; color: #1b6e45; }
+.pos--WR { background: #dde9fa; color: #1b5cb4; }
+.pos--TE { background: #fdf0c9; color: #8a6a00; }
+.pos--K,
+.pos--DEF { background: #e6e9ed; color: #44515e; }
+
+@media (prefers-color-scheme: dark) {
+  .pos--QB { background: #4a2119; color: #f4a595; }
+  .pos--RB { background: #163626; color: #6fd4a0; }
+  .pos--WR { background: #15305a; color: #8ab8f7; }
+  .pos--TE { background: #4a3d0d; color: #f2d572; }
+  .pos--K,
+  .pos--DEF { background: #2a3745; color: #b6c3cf; }
+}
+
+/* ---------- Detail ---------- */
+
+.link-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.link-btn:hover {
+  color: var(--ink);
+}
+
+.detail__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 18px 0 24px;
+}
+
+.detail__name {
+  font-family: var(--head);
+  font-weight: 700;
+  font-size: clamp(2.6rem, 9vw, 4.6rem);
+  line-height: 0.95;
+  margin: 6px 0 6px;
+}
+
+.detail__seasons {
+  margin: 0;
+  color: var(--muted);
+}
+
+.btn {
+  flex: none;
+  padding: 8px 16px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font-weight: 600;
+}
+
+.btn:hover {
+  border-color: var(--turf);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+  margin: 0 0 36px;
+}
+
+.stats > div {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 10px 14px;
+}
+
+.stats dt {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.stats dd {
+  margin: 0;
+  font-family: var(--head);
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+/* ---------- Timeline ---------- */
+
+.year {
+  margin-bottom: 32px;
+}
+
+.year__title {
+  font-family: var(--head);
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 3px solid var(--turf);
+}
+
+.events {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 18px;
+  border-left: 2px solid var(--line);
+}
+
+.event {
+  position: relative;
+  padding: 0 0 18px 18px;
+  --c: var(--muted);
+}
+
+.event--drafted { --c: var(--draft); }
+.event--added { --c: var(--add); }
+.event--dropped { --c: var(--drop); }
+.event--traded { --c: var(--trade); }
+
+.event__dot {
+  position: absolute;
+  left: -27px;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--c);
+  border: 3px solid var(--bg);
+}
+
+.event__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+  font-size: 0.9rem;
+}
+
+.badge {
+  padding: 0 8px;
+  border-radius: 4px;
+  background: var(--c);
+  color: var(--bg);
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: lowercase;
+}
+
+.event__when {
+  font-weight: 600;
+}
+
+.event__date {
+  color: var(--muted);
+}
+
+.event__text {
+  margin: 4px 0 0;
+}
+
+.event__team {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 520px) {
+  .detail__header {
+    flex-direction: column;
+  }
+}

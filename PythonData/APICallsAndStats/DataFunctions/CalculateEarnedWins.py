@@ -1,7 +1,9 @@
 import json
 import os
+import re
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+LAST_WEEK = 14
 
 
 def calculate_earned_wins(year):
@@ -14,15 +16,23 @@ def calculate_earned_wins(year):
     teams = {}
 
     # ----------------------------------------
-    # Get every JSON file from data directory
+    # Get the JSON files for weeks 1 to LAST_WEEK
     # ----------------------------------------
 
-    json_files = [
-        filename
-        for filename in os.listdir(data_directory)
-        if filename.lower().endswith(".json")
-        and filename.lower() != "earnedwins.json"  # don't read the output file
-    ]
+    json_files = []
+
+    for filename in os.listdir(data_directory):
+        if not filename.lower().endswith(".json"):
+            continue
+
+        # Week number = last number in the filename.
+        # Files with no number (like EarnedWins.json) are skipped.
+        numbers = re.findall(r"\d+", filename)
+
+        if numbers and 1 <= int(numbers[-1]) <= LAST_WEEK:
+            json_files.append(filename)
+
+    print(f"{year}: using {len(json_files)} files: {sorted(json_files)}")
 
     # ----------------------------------------
     # Read all files

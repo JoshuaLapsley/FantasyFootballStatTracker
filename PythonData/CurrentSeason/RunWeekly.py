@@ -6,15 +6,6 @@ from pathlib import Path
 from datetime import datetime as dt, timezone
 
 
-
-
-
-
-
-
-
-
-
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -50,6 +41,9 @@ from PythonData.APICallsAndStats.APIFunctions.GetManagerData import write_manage
 
 from PythonData.APICallsAndStats.DataFunctions.GTM import write_gtm_file
 from PythonData.APICallsAndStats.DataFunctions.TeamRankOverTime import create_bump_chart
+
+
+from PythonData.APICallsAndStats.DataFunctions.PlayerTimelines import write_player_timelines
 
 
 def copy_dir(src, dest):
@@ -112,6 +106,9 @@ WEBSITE_DIR = (PROJECT_ROOT / "Website" / "girderma-gridiron-website"
                / "src" / "league_stats_output" / str(year))
 WEBSITE_DIR_GTM = (PROJECT_ROOT / "Website" / "girderma-gridiron-website"
                / "src" / "league_stats_output" / "GTM")
+All_DIR = SCRIPT_DIR / ".." / "APICallsAndStats" / "Data" / "All"
+WEBSITE_DIR_All = (PROJECT_ROOT / "Website" / "girderma-gridiron-website"
+               / "src" / "league_stats_output" / "All")
 
 # Anchored to the script so it works no matter where you run it from.
 sc = OAuth2(None, None, from_file=str(SCRIPT_DIR / "oauth2.json"))
@@ -156,6 +153,7 @@ create_bump_chart(
     start_week=1,
     end_week=14,
 )
+write_player_timelines()
 
 #simulations
 run(2026)
@@ -167,3 +165,4 @@ write_meta(lg, DATA_DIR, year)
 
 copy_dir(DATA_DIR, WEBSITE_DIR)
 copy_dir(GTM_DIR, WEBSITE_DIR_GTM)
+copy_dir(All_DIR, WEBSITE_DIR_All)

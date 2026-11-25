@@ -13,6 +13,8 @@ K/DEF points are excluded from every team's weekly score. Scores are
 rebuilt from each team's weekly roster: the sum of points for every
 player whose selected_position is not a bench/IR/NA slot and not K/DEF.
 
+Only weeks 1 through LAST_WEEK are used.
+
 Input (relative to this script):
     ../APIData/{year}/RosterPoints.json
         {week: {team_key: [{player_id, selected_position, points}, ...]}}
@@ -37,6 +39,8 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 NON_STARTER_SLOTS = {"BN", "IR", "IR+", "NA"}
 # Slots excluded from every team's score for EW+ purposes.
 KDEF_SLOTS = {"K", "DEF"}
+# Only weeks 1 through LAST_WEEK count toward sigma and EW+.
+LAST_WEEK = 14
 
 
 def _year_dir(year):
@@ -49,7 +53,7 @@ def _year_dir(year):
 def load_team_week_scores(year):
     """
     Returns {week: {team_key: kdef_excluded_score}} (week is an int) from
-    ../APIData/{year}/RosterPoints.json.
+    ../APIData/{year}/RosterPoints.json, for weeks 1 through LAST_WEEK.
 
     Teams with an empty roster list are skipped: that looks like a failed
     pull, not a real all-bench/zero-point week, and a fake 0.0 would
@@ -67,6 +71,8 @@ def load_team_week_scores(year):
 
     for week_key in sorted(rosters_by_week, key=int):
         week = int(week_key)
+        if not 1 <= week <= LAST_WEEK:
+            continue
         week_scores = {}
 
         for team_key, roster in rosters_by_week[week_key].items():

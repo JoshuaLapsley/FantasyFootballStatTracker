@@ -65,11 +65,12 @@ const HomePage: React.FC = () => {
           <span className="Home-card-arrow" aria-hidden="true">→</span>
         </Link>
 
-        <div className="Home-card Home-card--disabled">
+        <Link to="/Player-Analysis" className="Home-card">
           <span className="Home-card-icon">{icons.playerAnalysis}</span>
           <h3>Player Analysis</h3>
           <p>See League Specific Data and Statistics about each player.</p>
-        </div>
+          <span className="Home-card-arrow" aria-hidden="true">→</span>
+        </Link>
 
         <div className="Home-card Home-card--disabled">
           <span className="Home-card-icon">{icons.rivalry}</span>
